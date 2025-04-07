@@ -8,6 +8,7 @@ import { FaBus } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { FaPeopleCarry } from "react-icons/fa";
 import Info from "../UI/Info";
+import Reviews from "../UI/Reviews";
 const cardsData = [
   {
     icon: <FaBus className="text-4xl text-white" />,
@@ -37,6 +38,7 @@ export default function Home() {
       <Offer />
       <Why />
       <Services cards={cardsData} />
+      <Reviews />
       <Cta />
       <Info />
     </>

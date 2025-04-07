@@ -64,7 +64,7 @@ export default function Nav() {
         {/* Prawa strona: Nawigacja, LocaleSwitcher, Hamburger */}
         <div className="flex items-center gap-6">
           {/* Desktop Navigation */}
-          <div className="hidden items-center font-light xl:flex xl:gap-6  ">
+          <div className="hidden items-center text-lg font-light xl:flex xl:gap-6  ">
             <ul className="font-semibold">
               <li>
                 <Link className="px-3" href={"/wycieczki"}>

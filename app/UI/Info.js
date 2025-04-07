@@ -13,6 +13,7 @@ export default function Info() {
             width={500}
             height={500}
             layout="responsive"
+            alt="Logo Polskiego Funduszu Rozwoju"
           />
         </div>
         <p className="w-1/2 text-lg">

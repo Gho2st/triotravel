@@ -9,6 +9,9 @@
   .bg-customRed {
     @apply bg-[#CE0C22];
   }
+  .text-customBlue {
+    @apply text-[#005588];
+  }
 }
 
 html {

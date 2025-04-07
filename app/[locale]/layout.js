@@ -24,7 +24,8 @@ export default async function LocaleLayout({ children, params }) {
 
   return (
     <html lang={locale}>
-      <body className={`${font.className} pt-24`}>
+      <body className={`${font.className} `}> 
+        {/* pt-24!!! */}
         <NextIntlClientProvider messages={messages}>
           <Nav />
           <main>{children}</main>
