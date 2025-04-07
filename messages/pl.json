@@ -1,0 +1,39 @@
+{
+    "welcome": "Witaj na stronie!",
+    "notfound": {
+        "title": "404 - Strona nie znaleziona",
+        "text": "PS: Często dzieje się tak przy literówce w adresie URL lub w przypadku gdy strona zmieniła adres na troszkę inny...",
+        "button": "Strona Główna"
+    },
+    "error": {
+        "title": "Coś poszło nie tak!",
+        "text": "Przepraszamy, wystąpił problem. Spróbuj ponownie później lub skontaktuj się z nami, jeśli problem będzie się powtarzał.",
+        "button": "Spróbuj ponownie"
+    },
+    "nav": {
+        "links": {
+            "link1": "O Nas",
+            "link2": "Restauracja",
+            "link3": "Cennik",
+            "link4": "Zajęcia Grupowe",
+            "link5": "Galeria",
+            "link6": "Kontakt",
+            "link7": "Partnerzy",
+            "park": "Park"
+        },
+        "parkItems": {
+            "park": "Park",
+            "gym": "Siłownia",
+            "fitness": "Fitness",
+            "sportshall": "Hala Sportowa",
+            "minibowling": "Mini Kręgielnia",
+            "squash": "Squash",
+            "multimediaroom": "Sala Multimedialna",
+            "climbingwall": "Ścianka Wspinaczkowa",
+            "gamesroom": "Sala Gier",
+            "playroom": "Sala Zabaw",
+            "bikerental": "Wypożyczalnia Rowerów"
+        },
+        "button": "Strefa Klienta"
+    }
+}

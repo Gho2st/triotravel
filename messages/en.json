@@ -1,0 +1,39 @@
+{
+    "nav": {
+        "links": {
+            "link1": "About Us",
+            "link2": "Restaurant",
+            "link3": "Pricing",
+            "link4": "Group Classes",
+            "link5": "Gallery",
+            "link6": "Contact",
+            "link7": "Partners",
+            "park": "Park"
+        },
+        "parkItems": {
+            "park": "Park",
+            "gym": "Gym",
+            "fitness": "Fitness",
+            "sportshall": "Sports Hall",
+            "minibowling": "Mini Bowling",
+            "squash": "Squash",
+            "multimediaroom": "Multimedia Room",
+            "climbingwall": "Climbing Wall",
+            "gamesroom": "Game Room",
+            "playroom": "Playroom",
+            "bikerental": "Bike Rental"
+        },
+        "button": "Client Zone"
+    },
+    "welcome": "Welcome to the page!",
+    "notfound": {
+        "title": "404 - Page Not Found",
+        "text": "PS: This often happens due to a typo in the URL or if the page has moved to a slightly different address...",
+        "button": "Home Page"
+    },
+    "error": {
+        "title": "Something Went Wrong!",
+        "text": "We're sorry, there was an issue. Please try again later or contact us if the problem persists.",
+        "button": "Try Again"
+    }
+}
