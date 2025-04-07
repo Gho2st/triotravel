@@ -4,12 +4,13 @@ import Hero from "../UI/Homepage/Hero";
 import Offer from "../UI/Homepage/Offer";
 import Why from "../UI/Homepage/Why";
 import Services from "../UI/Homepage/Services";
-import { FaCode } from "react-icons/fa6";
+import { FaBus } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { FaPeopleCarry } from "react-icons/fa";
+import Info from "../UI/Info";
 const cardsData = [
   {
-    icon: <FaCode className="text-4xl text-white" />,
+    icon: <FaBus className="text-4xl text-white" />,
     title: "Wycieczki i transport",
     description:
       "Trio Travel to biuro podróży posiadające duże doświadczenie w organizacji wszelkich projektów turystycznych, imprez tematycznych oraz transportu. Zakopane znamy jak własną kieszeń i nie ma dla nas rzeczy niemożliwych. Początkowo zajmowaliśmy się głównie transportem krajowym i międzynarodowym, później natomiast staliśmy się przedsiębiorstwem turystyczno-transportowym, organizującym sporo ciekawych realizacji, w tym fantastyczne wycieczki jednodniowe.",
@@ -37,6 +38,7 @@ export default function Home() {
       <Why />
       <Services cards={cardsData} />
       <Cta />
+      <Info />
     </>
   );
 }
