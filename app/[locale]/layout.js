@@ -4,8 +4,7 @@ import { routing } from "@/i18n/routing";
 import "../globals.css";
 import { notFound } from "next/navigation";
 import { getMessages } from "next-intl/server";
-import Footer from "../UI/Navigation/Footer";
-import Nav from "../UI/Navigation/Nav";
+import ClientBody from "../UI/ClientBody";
 
 const font = Poppins({
   subsets: ["latin"],
@@ -13,7 +12,6 @@ const font = Poppins({
 });
 
 export default async function LocaleLayout({ children, params }) {
-  // Upewnij się, że `params` jest obiektem, a nie Promise
   const locale = (await params).locale;
 
   if (!hasLocale(routing.locales, locale)) {
@@ -24,12 +22,9 @@ export default async function LocaleLayout({ children, params }) {
 
   return (
     <html lang={locale}>
-      <body className={`${font.className} `}> 
-        {/* pt-24!!! */}
+      <body>
         <NextIntlClientProvider messages={messages}>
-          <Nav />
-          <main>{children}</main>
-          <Footer />
+          <ClientBody fontClassName={font.className}>{children}</ClientBody>
         </NextIntlClientProvider>
       </body>
     </html>

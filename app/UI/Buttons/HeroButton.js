@@ -37,10 +37,10 @@ export default function HeroButton() {
       whileHover="hover"
     >
       <motion.div
-        className="absolute top-[-4rem] left-[-1rem] md:left-0 md:top-[-6rem] bg-white p-4 py-7 md:p-6 md:py-10 border-3 text-xl rounded-[100%]"
+        className="absolute top-[-4rem] left-[-12px] md:left-0 md:top-[-6rem] bg-white p-2 py-5 md:p-6 md:py-10 border-3 text-xl rounded-[100%]"
         variants={circleVariants}
       >
-        <span>Rezerwuj</span> <span className="text-2xl font-bold">TERAZ</span>
+        <span className="">Rezerwuj</span> <span className="text-xl md:text-2xl font-bold">TERAZ</span>
       </motion.div>
     </motion.button>
   );

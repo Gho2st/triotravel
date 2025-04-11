@@ -44,5 +44,44 @@
                 "text": "Najnowsza lokalna perełka. Bardzo miła, przyjazna atmosfera. Profesjonalna obsługa, świetni instruktorzy. Ciekawa oferta i przystępne ceny. Warto regularnie odwiedzać."
             }
         }
+    },
+    "partners": {
+        "title": "Nasi Partnerzy",
+        "skocznia": {
+            "header": "Domki pod Skocznią",
+            "text": "Domki są całe zbudowane  z drewna, co pozwala poznać i poczuć klimat gór.  Każdy domek jest ogrzewany centralnie, posiada w pełni wyposażony aneks kuchenny wraz z strefą do wypoczynku oraz dwie osobne sypialnie."
+        },
+        "wierszyki": {
+            "header": "Wierszyki Shelters",
+            "text": "Niewątpliwym atutem domku jest jego położenie, które uszczęśliwi zarówno turystów chcących spędzić czas na słynnych Krupówkach jak i tych którzy preferują kilku godzinne wędrówki z dala od zgiełku."
+        },
+        "oldstreet": {
+            "header": "Apartament Old Street",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae finibus est. Aenean eget egestas mauris. Nullam varius nulla nisi, molestie convallis nisl dictum vitae."
+        },
+        "gorski": {
+            "header": "Apartament Górski Szaflary",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae finibus est. Aenean eget egestas mauris. Nullam varius nulla nisi, molestie convallis nisl dictum vitae."
+        },
+        "elzbiecina": {
+            "header": "Willa Elżbiecina",
+            "text": "Willa Elżbiecina - dawna rezydencja Korfantych, to unikalne połączenie historii, designu, architektury zakopiańskiejj i wszechobecnej witkacowskiej zakopianiny. "
+        },
+        "rentplanet": {
+            "header": "Apartamenty RentPlanet",
+            "text": "Stosowane innowacyjne metody i narzędziaautomatyzują wiele procesów rezerwacyjnych. Dzięki temu obsługa gościa w apartamencie staje się prostsza, a wiele czynności odbywa się praktycznie bez udziału człowieka."
+        },
+        "nosal": {
+            "header": "Hotel Nosal",
+            "text": "Poranki z widokiem na pasmo górskie to gotowy przepis na dobry nastrój na cały dzień. Tradycyjna kuchnia podhalańska jest domeną naszej autorskiej Restauracji Dym i Wiatr."
+        },
+        "klimatyczne": {
+            "header": "Domki Klimatyczne",
+            "text": "Domki Klimatyczne to bardzo komfortowe domki wybudowane z myślą o tych, którzy poszukują miejsca, w którym panuje ciepły, przyjazny klimat, sprzyjający wypoczynkowi. "
+        },
+        "patryk": {
+            "header": "Willa Patryk",
+            "text": "Willa „Patryk” usytuowana jest w cichej i spokojnej okolicy, dużo zieleni tras spacerowych w pobliżu sprzyjają aktywnemu wypoczynkowi. Szczególnie polecamy szlak na Gubałówkę, szlak Jana Kasprowicza przez Bachledzki Wierch i inne."
+        }
     }
 }

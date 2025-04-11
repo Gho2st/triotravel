@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import HeroButton from "../Buttons/HeroButton";
@@ -58,7 +58,12 @@ export default function Hero() {
       opacity: 1,
       y: 0,
       rotate: 0,
-      transition: { duration: 0.7, ease: "easeOut", type: "spring", bounce: 0.3 },
+      transition: {
+        duration: 0.7,
+        ease: "easeOut",
+        type: "spring",
+        bounce: 0.3,
+      },
     },
     exit: {
       opacity: 0,
@@ -71,7 +76,11 @@ export default function Hero() {
   // Warianty animacji dla strzałek (pulsowanie + obrót)
   const arrowVariants = {
     initial: { scale: 1, rotate: 0 },
-    hover: { scale: 1.3, rotate: 10, transition: { yoyo: Infinity, duration: 0.5 } },
+    hover: {
+      scale: 1.3,
+      rotate: 10,
+      transition: { yoyo: Infinity, duration: 0.5 },
+    },
     tap: { scale: 0.9, rotate: -10 },
   };
 
@@ -86,7 +95,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="flex justify-center items-center min-h-screen overflow-hidden relative">
+    <section className="flex justify-center items-center min-h-screen overflow-hidden relative overflow-x-hidden">
       {/* Animowane tło */}
       <AnimatePresence>
         <motion.div
@@ -107,7 +116,7 @@ export default function Hero() {
       {/* Strzałka w lewo */}
       <motion.button
         onClick={prevSlide}
-        className="absolute left-4 text-white text-4xl p-2 z-10 cursor-pointer"
+        className="absolute left-1 md:left-4 text-white text-2xl md:text-4xl p-2 z-10 cursor-pointer"
         variants={arrowVariants}
         initial="initial"
         whileHover="hover"
@@ -126,7 +135,7 @@ export default function Hero() {
           animate="animate"
           exit="exit"
         >
-          <span className="text-3xl md:text-4xl p-3 md:p-6 w-64 xl:w-144 text-center">
+          <span className="text-2xl md:text-4xl p-3 md:p-6 w-52 md:w-96 lg:w-144 text-center">
             {slides[currentSlide].text}
           </span>
           <HeroButton link={slides[currentSlide].link} />
@@ -136,7 +145,7 @@ export default function Hero() {
       {/* Strzałka w prawo */}
       <motion.button
         onClick={nextSlide}
-        className="absolute right-4 text-white text-4xl p-2 z-10 cursor-pointer"
+        className="absolute right-1 md:right-4 text-white text-2xl md:text-4xl p-2 z-10 cursor-pointer"
         variants={arrowVariants}
         initial="initial"
         whileHover="hover"
@@ -152,13 +161,22 @@ export default function Hero() {
         initial="initial"
         animate="animate"
       >
-        <motion.div className="cursor-pointer" whileHover={{ y: -10, transition: { yoyo: Infinity, duration: 0.4 } }}>
+        <motion.div
+          className="cursor-pointer"
+          whileHover={{ y: -10, transition: { yoyo: Infinity, duration: 0.4 } }}
+        >
           <FaInstagram />
         </motion.div>
-        <motion.div className="cursor-pointer" whileHover={{ y: -10, transition: { yoyo: Infinity, duration: 0.4 } }}>
+        <motion.div
+          className="cursor-pointer"
+          whileHover={{ y: -10, transition: { yoyo: Infinity, duration: 0.4 } }}
+        >
           <FaFacebook />
         </motion.div>
-        <motion.div className="cursor-pointer" whileHover={{ y: -10, transition: { yoyo: Infinity, duration: 0.4 } }}>
+        <motion.div
+          className="cursor-pointer"
+          whileHover={{ y: -10, transition: { yoyo: Infinity, duration: 0.4 } }}
+        >
           <IoMail />
         </motion.div>
       </motion.div>

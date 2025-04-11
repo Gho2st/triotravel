@@ -18,10 +18,10 @@ function ServiceCard({ icon, title, description, isLeftAligned }) {
       transition={{ duration: 1.2 }}
     >
       <div className="bg-customRed rounded-lg inline-block p-3">{icon}</div>
-      <h2 className="text-xl leading-snug  2xl:text-3xl 2xl:leading-snug my-5 font-semibold ">
+      <h2 className="text-xl leading-snug  2xl:text-4xl 2xl:leading-snug my-5 font-semibold ">
         {title}
       </h2>
-      <p className="text-neutral-900  2xl:text-lg ">{description}</p>
+      <p className="text-neutral-900 text-xl ">{description}</p>
       <span
         className={`absolute top-[50%] ${
           isLeftAligned ? "right-[-30px]" : "left-[-30px]"
@@ -39,7 +39,7 @@ function ServiceCard({ icon, title, description, isLeftAligned }) {
 
 export default function Services({ cards }) {
   return (
-    <section className="pb-10  xl:px-44">
+    <section className="py-10 xl:px-44 bg-neutral-100 overflow-x-hidden">
       {cards.map((card, index) => (
         <ServiceCard
           key={index}

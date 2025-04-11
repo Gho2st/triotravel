@@ -7,7 +7,6 @@ import Services from "../UI/Homepage/Services";
 import { FaBus } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { FaPeopleCarry } from "react-icons/fa";
-import Info from "../UI/Info";
 import Reviews from "../UI/Reviews";
 const cardsData = [
   {
@@ -40,7 +39,6 @@ export default function Home() {
       <Services cards={cardsData} />
       <Reviews />
       <Cta />
-      <Info />
     </>
   );
 }

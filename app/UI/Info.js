@@ -6,8 +6,8 @@ export default function Info() {
       <h2 className="text-center uppercase text-3xl mb-20 font-bold">
         Regulamin Wyjazdów Trio Travel do pobrania
       </h2>
-      <div className="flex justify-center">
-        <div className="w-1/6">
+      <div className="flex flex-col md:flex-row justify-center md:gap-16">
+        <div className="w-1/2 mx-auto md:mx-0 md:w-1/6">
           <Image
             src="/others/pfr.png"
             width={500}
@@ -16,9 +16,9 @@ export default function Info() {
             alt="Logo Polskiego Funduszu Rozwoju"
           />
         </div>
-        <p className="w-1/2 text-lg">
+        <p className="md:w-1/2 mt-10 md:mt-0 text-lg text-center md:text-left">
           {`Przedsiębiorca uzyskał subwencję finansową w ramach programu rządowego `}
-          <span className="text-customRed">
+          <span className="text-customRed ">
             {`„Tarcza Finansowa 2.0 Polskiego Funduszu Rozwoju dla Mikro, Małych i Średnich Firm”`}
           </span>
           {`, udzieloną przez PFR SA.`}

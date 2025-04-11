@@ -1,7 +1,7 @@
 export default function Cta() {
   return (
     <section
-      className="bg-img flex justify-center items-center min-h-screen overflow-hidden "
+      className="bg-img flex justify-center items-center min-h-screen overflow-x-hidden "
       style={{
         backgroundImage:
           "linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url(others/kasprowy.png)",

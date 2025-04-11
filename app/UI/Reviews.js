@@ -28,7 +28,7 @@ export default function Reviews() {
     autoplay: true,
     autoplaySpeed: 5000,
     cssEase: "linear",
-    dots: true,
+    dots: false,
     responsive: [
       {
         breakpoint: 1224,
@@ -41,31 +41,33 @@ export default function Reviews() {
 
   return (
     <section
-      className="py-16 xl:py-24 2xl:py-32 px-6 xl:px-32 2xl:px-44"
+      className="py-16 xl:py-24 2xl:py-32 px-6 xl:px-32 2xl:px-44 overflow-x-hidden"
       id="opinie"
     >
       <div className="mx-auto text-center">
         <h2 className="text-3xl xl:text-4xl 2xl:text-5xl font-bold">
-          {t("header2")} <span className="text-customBlue">166</span>{" "}
-          {t("header")} <span className="text-customBlue">4.8/5!</span>
+          {t("header2")} <span className="text-customBlue">564</span>{" "}
+          {t("header")} <span className="text-customBlue">4.6/5!</span>
         </h2>
-        <p className="mt-10 xl:mt-12 xl:text-lg 2xl:px-16 2xl:mt-16 2xl:mb-24 leading-relaxed">
+        <p className="mt-10 xl:mt-12  2xl:px-16 2xl:mt-16 2xl:mb-24 leading-relaxed text-xl">
           {t("text")}
         </p>
 
-        <div className="mt-12 xl:mt-14">
-          <Slider {...settings} className="w-[90%] xl:w-[100%] mx-auto">
+        <div className="mt-0 xl:mt-14">
+          <Slider {...settings} className="w-[100%] mx-auto">
             {reviews.map((review, index) => (
               <div key={index} className="p-3 xl:p-4">
                 <div className="bg-white p-6 shadow-lg 2xl:shadow-xl rounded-xl text-center flex flex-col items-center">
                   <div className="flex">
                     <Stars />
                   </div>
-                  <p className="mt-4 text-gray-700">
+                  <p className="mt-4 text-lg text-gray-700">
                     &quot;{t(review.text)}&quot;
                   </p>
                   <div className="w-full h-px bg-gray-300 my-4"></div>
-                  <p className="font-bold text-black">{t(review.nameKey)}</p>
+                  <p className="font-bold text-xl text-black">
+                    {t(review.nameKey)}
+                  </p>
                 </div>
               </div>
             ))}

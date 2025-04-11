@@ -1,7 +1,7 @@
 export default function Why() {
   return (
-    <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
-      <h2 className="md:w-2/3 text-5xl leading-snug mb-24 pt-20">
+    <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24 overflow-x-hidden">
+      <h2 className="md:w-2/3 text-4xl md:text-5xl leading-snug mb-12 xl:mb-24 xl:pt-20">
         Dlaczego wycieczkę najlepiej wybrać u{" "}
         <span className="font-bold"> Trio Travel? </span>
       </h2>

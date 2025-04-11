@@ -20,7 +20,7 @@ html {
 
 body {
   font-family: sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .bg-img {
@@ -31,12 +31,12 @@ body {
 
 /* the slides */
 .slick-slide {
-  margin: 0 27px;
+  margin: 0 10px;
 }
 
 /* the parent */
 .slick-list {
-  margin: 0 -27px;
+  margin: 0 -10px;
 }
 
 .slick-track {
@@ -47,6 +47,21 @@ body {
 
 .slick-dots {
   bottom: -75px !important;
+}
+
+/* slider */
+.slick-prev:before,
+.slick-next:before {
+  color: #005588 !important;
+  font-size: 2rem !important;
+}
+
+.slick-prev {
+  left: -50px !important;
+}
+
+.slick-next {
+  right: -50px !important;
 }
 
 /* HAMBURGER MENU */

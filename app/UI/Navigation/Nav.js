@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Link } from "@/i18n/routing";
 import { IoIosArrowDown } from "react-icons/io";
 import LocaleSwitcher from "../LocaleSwitcher";
+import Button from "../Buttons/Button";
 
 export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,7 +41,7 @@ export default function Nav() {
   }, [isOpen]);
 
   return (
-    <nav className="relative">
+    <nav className="relative ">
       {/* Top Bar */}
       <div
         className={`fixed shadow-xl top-0 left-0 right-0 z-50 mx-auto flex w-full bg-white items-center justify-between px-6 xl:py-0 2xl:px-8  transition-transform duration-500 ${
@@ -64,19 +65,42 @@ export default function Nav() {
         {/* Prawa strona: Nawigacja, LocaleSwitcher, Hamburger */}
         <div className="flex items-center gap-6">
           {/* Desktop Navigation */}
-          <div className="hidden items-center text-lg font-light xl:flex xl:gap-6  ">
-            <ul className="font-semibold">
-              <li>
-                <Link className="px-3" href={"/wycieczki"}>
-                  Wycieczki
-                </Link>
-                <Link className="px-3" href={"/Informacje"}>
-                  Informacje
-                </Link>
-              </li>
-            </ul>
-            <LocaleSwitcher />
-          </div>
+          <ul className="font-medium hidden items-center text-lg font-light xl:flex xl:gap-6 ">
+            <li>
+              <Link className="px-3" href={"/wycieczki"}>
+                Wycieczki
+              </Link>
+            </li>
+            <li>
+              <Link className="px-3" href={"/kuligi"}>
+                Kuligi
+              </Link>
+            </li>
+            <li>
+              <Link className="px-3" href={"/bilety-na-kasprowy-wierch"}>
+                Bilety Na Kasprowy
+              </Link>
+            </li>
+            <li>
+              <Link className="px-3" href={"/transport"}>
+                Transport
+              </Link>
+            </li>
+            <li>
+              <Link className="px-3" href={"/partnerzy"}>
+                Partnerzy
+              </Link>
+            </li>
+            <li>
+              <Link className="px-3" href={"/kontakt"}>
+                Kontakt
+              </Link>
+            </li>
+            <li>
+              <Button text="Kup Online" link={"/rezerwacje"} />
+            </li>
+          </ul>
+          <LocaleSwitcher />
 
           {/* Hamburger Button (Mobile) */}
           <div
@@ -84,7 +108,6 @@ export default function Nav() {
               isOpen ? "open" : ""
             }`}
           >
-            {/* <LocaleSwitcher /> */}
             <button
               className="hamburger"
               onClick={handleMenuToggle}
