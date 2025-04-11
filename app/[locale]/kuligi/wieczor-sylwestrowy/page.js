@@ -60,7 +60,6 @@ export default function Sylwester() {
           <BackgroundList
             title="Co oferujemy podczas Sylwestrowego Kuligu:"
             items={customItems}
-            className="shadow-lg"
           />
         </div>
         {/* GODZINY I CENNIK */}

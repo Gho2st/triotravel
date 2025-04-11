@@ -36,13 +36,13 @@ export default function Atrakcje() {
     },
     {
       title: "Chochołowskie Termy",
-      image: "/kuligi/dolina.png",
-      link: "/kuligi/dolina-chocholowska",
+      image: "/wycieczki/termy/termy.png",
+      link: "/wycieczki/chocholowskie-termy",
     },
     {
       title: "Spacer w Koronach Drzew",
-      image: "/wycieczki/korony.png",
-      link: "/kuligi/wieczor-sylwestrowy",
+      image: "/wycieczki/spacer-w-koronach-drzew/korony.png",
+      link: "/wycieczki/spacer-w-koronach-drzew",
     },
     {
       title: "Jaskinia Bielańska",

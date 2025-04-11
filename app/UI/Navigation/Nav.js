@@ -130,14 +130,63 @@ export default function Nav() {
             exit="closed"
             className="fixed inset-0 z-40 bg-white text-black overflow-y-auto mt-16"
           >
-            <div className="pt-20 px-10 pb-6 flex flex-col text-sm font-medium min-h-screen">
-              <Link
-                href="/o-nas"
-                className="border-b border-gray-300 py-3"
-                onClick={handleMenuToggle}
-              >
-                test
-              </Link>
+            <div className="">
+              <ul className="pt-20 px-10 pb-6 flex flex-col text-sm font-medium min-h-screen">
+                <li>
+                  <Link
+                    href="/wycieczki"
+                    className="border-b border-gray-300 py-3"
+                    onClick={handleMenuToggle}
+                  >
+                    Wycieczki
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/kuligi"
+                    className="border-b border-gray-300 py-3"
+                    onClick={handleMenuToggle}
+                  >
+                    Kuligi
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/bilety-na-kasprowy-wierch"
+                    className="border-b border-gray-300 py-3"
+                    onClick={handleMenuToggle}
+                  >
+                    Bilety na Kasprowy Wierch
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/transport"
+                    className="border-b border-gray-300 py-3"
+                    onClick={handleMenuToggle}
+                  >
+                    Transport
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/partnerzy"
+                    className="border-b border-gray-300 py-3"
+                    onClick={handleMenuToggle}
+                  >
+                    Partnerzy
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/kontakt"
+                    className="border-b border-gray-300 py-3"
+                    onClick={handleMenuToggle}
+                  >
+                    Kontakt
+                  </Link>
+                </li>
+              </ul>
             </div>
           </motion.div>
         )}
