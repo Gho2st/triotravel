@@ -61,8 +61,10 @@ export default function Gallery({ images = [] }) {
     <div className="overflow-hidden">
       <Slider {...carouselSettings} className=" mx-auto ">
         {gallery.map((image, index) => (
-          <div className="relative w-full h-[300px] md:h-[500px]">
-            {" "}
+          <div
+            key={image.id || index}
+            className="relative w-full h-[300px] md:h-[500px]"
+          >
             {/* Stały rozmiar kontenera */}
             <Image
               src={image.url || image}
