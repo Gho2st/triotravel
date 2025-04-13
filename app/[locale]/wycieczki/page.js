@@ -32,7 +32,7 @@ export default function Atrakcje() {
     {
       title: "Spływ Dunajcem 2.5h",
       image: "/wycieczki/splyw.png",
-      link: "/kuligi/goralski-koscielisko",
+      link: "/wycieczki/splyw-dunajcem-dluzszy",
     },
     {
       title: "Chochołowskie Termy",

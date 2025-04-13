@@ -33,7 +33,7 @@ export default function About() {
       </div>
       <div>
         <p className="text-xl md:text-2xl xl:text-3xl text-right">
-          Trio Travel to biuro podróży posiadające duże{" "}
+          Posiadamy duże{" "}
           <span className="font-semibold">doświadczenie </span> w organizacji
           wszelkich projektów turystycznych, imprez tematycznych oraz
           transportu.{" "}

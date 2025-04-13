@@ -1,13 +1,16 @@
-export default function Table({ headers, rows }) {
+import Header2 from "./Header2";
+
+export default function Table({ headers, rows, text }) {
   return (
     <div className="overflow-x-auto">
-      <table className="w-full table-auto border-collapse bg-white rounded-xl shadow-md">
+      <Header2 />
+      <table className="w-full table-auto border-collapse  bg-white rounded-xl shadow-md">
         <thead>
           <tr className="bg-gray-200 text-gray-800">
             {headers.map((header, index) => (
               <th
                 key={index}
-                className="px-6 py-4 text-left text-xl font-semibold"
+                className="px-6 py-4 text-center text-xl font-semibold"
               >
                 {header}
               </th>
@@ -23,7 +26,7 @@ export default function Table({ headers, rows }) {
               {row.map((cell, cellIndex) => (
                 <td
                   key={cellIndex}
-                  className="px-6 py-4 text-left text-lg text-gray-700"
+                  className="px-6 py-4 text-center text-lg text-gray-700"
                 >
                   {cell}
                 </td>
@@ -32,6 +35,7 @@ export default function Table({ headers, rows }) {
           ))}
         </tbody>
       </table>
+      {text && <p className="mt-8 text-center text-sm">{text}</p>}
     </div>
   );
 }

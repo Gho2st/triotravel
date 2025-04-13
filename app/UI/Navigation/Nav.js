@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { Link } from "@/i18n/routing";
-import { IoIosArrowDown } from "react-icons/io";
 import LocaleSwitcher from "../LocaleSwitcher";
 import Button from "../Buttons/Button";
 

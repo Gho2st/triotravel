@@ -82,7 +82,7 @@ export default function Offer() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
-              <span className="text-xl md:text-2xl block mt-4 px-2 transition-colors duration-300 group-hover:text-customBlue">
+              <span className="text-xl font-semibold md:text-2xl block mt-6 px-2 transition-colors duration-300 group-hover:text-customBlue">
                 {image.alt}
               </span>
             </div>

@@ -17,7 +17,7 @@ function ServiceCard({ icon, title, description, isLeftAligned }) {
       animate={inView ? { opacity: 1, x: 0 } : {}}
       transition={{ duration: 1.2 }}
     >
-      <div className="bg-customRed rounded-lg inline-block p-3">{icon}</div>
+      <div className="bg-customBlue rounded-lg inline-block p-3">{icon}</div>
       <h2 className="text-xl leading-snug  2xl:text-4xl 2xl:leading-snug my-5 font-semibold ">
         {title}
       </h2>

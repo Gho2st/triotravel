@@ -1,13 +1,54 @@
+"use client";
 import Image from "next/image";
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
-
+import { IoIosArrowUp } from "react-icons/io";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Info from "../Info";
+
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
+  const [showArrow, setShowArrow] = useState(false);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      const windowHeight = window.innerHeight;
+      const documentHeight = document.documentElement.scrollHeight;
+
+      // Sprawdzamy, czy jesteśmy na dole strony
+      const isAtBottom = currentScrollY + windowHeight >= documentHeight - 10; // -10 dla marginesu błędu
+
+      // Pokazuj strzałkę, gdy przewijamy w górę lub jesteśmy na dole
+      if ((currentScrollY < lastScrollY && currentScrollY > 50) || isAtBottom) {
+        setShowArrow(true);
+      } else {
+        setShowArrow(false);
+      }
+
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Czyszczenie listenera przy odmontowaniu komponentu
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [lastScrollY]);
+
   return (
     <>
       <Info />
@@ -15,15 +56,15 @@ export default function Footer() {
       <footer className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24 bg-customBlue text-white overflow-hidden ">
         <div className="flex flex-col gap-16 md:flex-row justify-between ">
           <div className="text-lg md:text-xl w-96 text-center md:text-right pr-0 md:pr-10 md:border-r-2 border-r-gray-200">
-            <h3 className="text-2xl md:text-3xl mb-10 xl:mb-16">
+            <p className="text-2xl md:text-3xl mb-10 xl:mb-16">
               Godziny Otwarcia
-            </h3>
+            </p>
             <div className="mb-6">
-              <h4>Poniedziałek - Piątek:</h4>
+              <p>Poniedziałek - Piątek:</p>
               <p className="font-light mt-2">9:00 - 17:00</p>
             </div>
             <div>
-              <h4>Sobota - Niedziela:</h4>
+              <p>Sobota - Niedziela:</p>
               <p className="font-light mt-2">10:00 - 16:00</p>
             </div>
           </div>
@@ -83,8 +124,13 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-24 text-center">
-          <p className="text-lg">TrioTravel & Domiweb | 2025</p>
+          <p className="text-lg">TrioTravel & Domiweb | {currentYear}</p>
         </div>
+        {showArrow && (
+          <span className="fixed bg-customBlue shadow-2xl rounded-lg p-1 text-4xl text-white bottom-6 right-6 xl:bottom-16 xl:right-10 z-10">
+            <IoIosArrowUp onClick={scrollToTop} className="cursor-pointer" />
+          </span>
+        )}
       </footer>
     </>
   );

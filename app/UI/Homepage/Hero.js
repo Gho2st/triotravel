@@ -1,4 +1,5 @@
 "use client";
+
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import HeroButton from "../Buttons/HeroButton";
@@ -13,28 +14,63 @@ export default function Hero() {
     {
       background: "/baner/baner.png",
       text: "Wycieczka w góry?",
-      link: "/dunajec",
+      link: "/",
     },
     {
       background: "/baner/baner2.png",
       text: "Spływ Kajakiem?",
-      link: "/gory",
+      link: "/wycieczki-splyw-kajakiem",
     },
     {
       background: "/baner/baner3.png",
       text: "Zimowy Kulig?",
-      link: "/zamek",
+      link: "/kuligi",
+    },
+    {
+      background: "/baner/baner4.png",
+      text: "Baseny Termalne?",
+      link: "/wycieczki/termy",
+    },
+    {
+      background: "/baner/baner5.png",
+      text: "Bilety na Kasprowy?",
+      link: "/bilety-na-kasprowy-wierch",
+    },
+    {
+      background: "/baner/baner6.png",
+      text: "Transport w Górach?",
+      link: "/transport",
     },
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
   const pathname = usePathname();
+
+  // Preload obrazów, aby uniknąć opóźnień
+  useEffect(() => {
+    slides.forEach((slide) => {
+      const img = new Image();
+      img.src = slide.background;
+    });
+  }, []);
 
   useEffect(() => {
     if (pathname === "/") {
       setCurrentSlide(0);
     }
   }, [pathname]);
+
+  // Auto-slide z możliwością pauzowania
+  useEffect(() => {
+    if (isPaused) return;
+
+    const interval = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % slides.length);
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, [currentSlide, slides.length, isPaused]);
 
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % slides.length);
@@ -44,17 +80,16 @@ export default function Hero() {
     setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
   };
 
+  // Nowa animacja tła z płynnym przejściem
   const backgroundTransition = {
-    initial: { opacity: 0, scale: 1.2 },
+    initial: { opacity: 0 },
     animate: {
       opacity: 1,
-      scale: 1,
-      transition: { duration: 1, ease: "easeOut" },
+      transition: { duration: 0.8, ease: "easeInOut" },
     },
     exit: {
       opacity: 0,
-      scale: 0.8,
-      transition: { duration: 0.8, ease: "easeIn" },
+      transition: { duration: 0.8, ease: "easeInOut" },
     },
   };
 
@@ -101,7 +136,7 @@ export default function Hero() {
   return (
     <section className="flex justify-center items-center min-h-screen overflow-hidden relative">
       {/* Animowane tło */}
-      <AnimatePresence mode="wait">
+      <AnimatePresence>
         <motion.div
           key={slides[currentSlide].background}
           className="absolute inset-0 z-0"
@@ -129,17 +164,19 @@ export default function Hero() {
         <FaArrowLeft />
       </motion.button>
 
-      {/* Animowana treść */}
+      {/* Animowana treść z obsługą najechania */}
       <AnimatePresence mode="wait">
         <motion.div
           key={currentSlide}
-          className="bg-white/70 inline-flex rounded-2xl shadow-2xl z-10"
+          className="bg-white/90 inline-flex rounded-2xl shadow-2xl z-10"
           variants={contentVariants}
           initial="initial"
           animate="animate"
           exit="exit"
+          onMouseEnter={() => setIsPaused(true)}
+          onMouseLeave={() => setIsPaused(false)}
         >
-          <span className="text-2xl md:text-4xl p-3 md:p-6 w-52 md:w-96 lg:w-144 text-center">
+          <span className="text-2xl md:text-4xl font-medium p-3 md:p-6 w-52 md:w-96 lg:w-144 text-center">
             {slides[currentSlide].text}
           </span>
           <HeroButton link={slides[currentSlide].link} />
