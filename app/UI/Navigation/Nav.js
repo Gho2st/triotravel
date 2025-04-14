@@ -204,7 +204,7 @@ export default function Nav() {
                     Kontakt
                   </Link>
                 </li>
-                <li>
+                <li className="mt-6">
                   <Button
                     onClick={handleMenuToggle}
                     text="Kup Online"

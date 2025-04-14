@@ -67,7 +67,7 @@ export default function Hero() {
 
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 5000);
+    }, 7000);
 
     return () => clearInterval(interval);
   }, [currentSlide, slides.length, isPaused]);
@@ -174,7 +174,7 @@ export default function Hero() {
         </AnimatePresence>
 
         {/* Strzałki - pod napisem na telefonie, po bokach na większych ekranach */}
-        <div className="flex items-center mt-10 md:mt-0 gap-8 md:gap-0 md:absolute md:inset-0 ">
+        <div className="flex items-center mt-10 md:mt-0 gap-8 md:gap-0  ">
           <motion.button
             onClick={prevSlide}
             className="text-white text-2xl md:text-4xl p-2 cursor-pointer  md:absolute md:left-4"

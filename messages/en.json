@@ -60,6 +60,45 @@
             }
         }
     },
+    "partners": {
+        "title": "Our Partners",
+        "skocznia": {
+            "header": "Cottages near the Ski Jump",
+            "text": "The cottages are entirely made of wood, which lets you experience and feel the mountain atmosphere. Each cottage is centrally heated, has a fully equipped kitchenette with a relaxation area, and two separate bedrooms."
+        },
+        "wierszyki": {
+            "header": "Wierszyki Shelters",
+            "text": "An undeniable advantage of the shelter is its location, which will delight both tourists wanting to spend time on the famous Krupówki Street and those who prefer several-hour hikes away from the hustle and bustle."
+        },
+        "oldstreet": {
+            "header": "Old Street Apartment",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae finibus est. Aenean eget egestas mauris. Nullam varius nulla nisi, molestie convallis nisl dictum vitae."
+        },
+        "gorski": {
+            "header": "Górski Szaflary Apartment",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae finibus est. Aenean eget egestas mauris. Nullam varius nulla nisi, molestie convallis nisl dictum vitae."
+        },
+        "elzbiecina": {
+            "header": "Elżbiecina Villa",
+            "text": "Elżbiecina Villa – the former Korfanty residence, is a unique blend of history, design, Zakopane-style architecture, and the omnipresent Witkacy-inspired Zakopane spirit."
+        },
+        "rentplanet": {
+            "header": "RentPlanet Apartments",
+            "text": "Innovative methods and tools are used to automate many booking processes. Thanks to this, guest service in the apartment becomes simpler, and many actions take place practically without human involvement."
+        },
+        "nosal": {
+            "header": "Hotel Nosal",
+            "text": "Mornings with a view of the mountain range are a ready-made recipe for a good mood all day long. Traditional Podhale cuisine is the hallmark of our original restaurant Dym i Wiatr."
+        },
+        "klimatyczne": {
+            "header": "Atmospheric Cottages",
+            "text": "Atmospheric Cottages are very comfortable cottages built with those in mind who are looking for a place with a warm, friendly vibe conducive to relaxation."
+        },
+        "patryk": {
+            "header": "Villa Patryk",
+            "text": "Villa “Patryk” is located in a quiet and peaceful area, with plenty of greenery and walking trails nearby that encourage active rest. We especially recommend the trail to Gubałówka, the Jan Kasprowicz trail through Bachledzki Wierch, and others."
+        }
+    },
     "welcome": "Welcome to the page!",
     "notfound": {
         "title": "404 - Page Not Found",
