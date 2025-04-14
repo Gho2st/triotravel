@@ -11,19 +11,19 @@ export default function Why() {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-10 text-center ">
         {/* card1 */}
         <div className="p-6 py-10 shadow-2xl rounded-3xl  border-4 border-[#005588]">
-          <h3 className="text-2xl 2xl:text-3xl mb-10 font-medium">
+          <h3 className="text-2xl 2xl:text-3xl mb-10 font-semibold">
             {t("cards.1.header")}
           </h3>
           <p className="md:text-lg">{t("cards.1.text")}</p>
         </div>
         <div className="p-6 py-10 shadow-2xl rounded-3xl  border-4 border-[#005588] ">
-          <h3 className="text-2xl 2xl:text-3xl mb-10 font-medium">
+          <h3 className="text-2xl 2xl:text-3xl mb-10 font-semibold">
             {t("cards.2.header")}
           </h3>
           <p className="md:text-lg">{t("cards.2.text")}</p>
         </div>
         <div className="p-6 py-10 shadow-2xl rounded-3xl  border-4 border-[#005588]">
-          <h3 className="text-2xl 2xl:text-3xl mb-10 font-medium">
+          <h3 className="text-2xl 2xl:text-3xl mb-10 font-semibold">
             {t("cards.3.header")}
           </h3>
           <p className="md:text-lg">{t("cards.3.text")}</p>
