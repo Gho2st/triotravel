@@ -36,7 +36,7 @@ export default function Kuligi() {
         {/* NAPIS Z LINIAMI PO BOKU */}
         <LineHeader text={t("header3")} />
 
-        <div className="grid md:grid-cols-2 gap-16 mt-20 justify-center items-center">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-2 gap-16 mt-20 justify-center items-center">
           {articles.map((article, index) => (
             <Card key={index} article={article} index={index} />
           ))}
