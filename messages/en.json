@@ -40,6 +40,7 @@
     "offer": {
         "header": "Spring 2025 Offer",
         "trips": {
+            "header": "Tours",
             "1": "Dunajec Rafting 2.5 h",
             "2": "Chochołowskie Thermal Baths",
             "3": "Walk in the Treetops",
@@ -197,5 +198,56 @@
         "title": "Something Went Wrong!",
         "text": "We're sorry, there was an issue. Please try again later or contact us if the problem persists.",
         "button": "Try Again"
+    },
+    "kuligi": {
+        "header": "Sleigh Rides",
+        "text": "TrioTravel organizes one-of-a-kind sleigh rides. Zakopane is home to many charming places, including the beautiful Kościeliska Valley. Our sleigh ride experiences include many attractions such as an authentic highlander feast. Sleigh rides are available all year round. Our travel agency provides pickup by minibus from your accommodation, refreshments in a truly highlander style, and the entire event is accompanied by live music from a traditional highlander band.",
+        "header2": "Discover Zakopane from its most magical side and join us for an unforgettable sleigh ride!",
+        "header3": "Choose Yours",
+        "cards": {
+            "1": "Highlander Sleigh Ride in Kościelisko",
+            "2": "Sleigh Ride in the Chochołowska Valley",
+            "3": "New Year's Eve Sleigh Ride",
+            "button": "Choose"
+        }
+    },
+    "reservations": {
+        "header": "Buy Online",
+        "text": "Online reservations can be made no later than 24 hours before the planned tour date. Up to one day before the planned tour date, reservations can also be made by phone.",
+        "button": "Pickup Point Map"
+    },
+    "contact": {
+        "title": "Contact",
+        "header": "Get in Touch with Us!",
+        "text": "Have questions? Want to plan your dream trip? Write to us or give us a call — we’ll be happy to help!",
+        "button": "Send a Message!",
+        "form": {
+            "name": "Full Name",
+            "email": "Your Email",
+            "message": "Your Message"
+        },
+        "info": {
+            "header": "Information",
+            "header2": "Opening Hours",
+            "hours1": "Monday – Friday",
+            "hours2": "Saturday – Sunday"
+        },
+        "errors": {
+            "captcha": "Please confirm you're not a robot before submitting.",
+            "emptyFields": "Please fill in all required fields.",
+            "other": "An unexpected error occurred."
+        },
+        "answers": {
+            "1": "Thank you for submitting the form!",
+            "2": "We’ll do our best to respond as soon as possible."
+        }
+    },
+    "transport": {
+        "header": "Transport",
+        "text": "Trio Travel offers comprehensive and well-organized passenger transport services. Zakopane is not the only area we serve — we also operate throughout Poland and abroad. Our services include airport transfers, local transportation, as well as support for conferences, weddings, and all kinds of standard and non-standard requests.",
+        "header2": "for safe and comfortable travel. Get in touch and let’s hit the road together!",
+        "header3": "Your Way",
+        "text2": "We do our utmost to ensure every assignment is carried out properly and meets our clients' expectations. Our team's top priorities are customer satisfaction and the highest quality of service. Our drivers are experienced professionals, delivering full reliability and the necessary skills. With years of experience in transportation, our passenger services guarantee a comfortable and safe journey. We are committed to punctuality and competitive pricing. Since every client has different needs and expectations, we always tailor our services to meet individual requirements. All of our vehicles are fully licensed and equipped for international travel, ensuring safety and comfort on every route.",
+        "button": "Pickup Point Map"
     }
 }

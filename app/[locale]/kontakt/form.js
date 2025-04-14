@@ -7,8 +7,10 @@ import ReCAPTCHA from "react-google-recaptcha";
 import { IoMail } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
+import { useTranslations } from "next-intl";
 
 export default function Form() {
+  const t = useTranslations("contact");
   const [formData, setFormData] = useState({
     text: "",
     fullName: "",
@@ -42,14 +44,14 @@ export default function Form() {
     if (isSending) return;
 
     if (!validateForm(formData)) {
-      setFormError("Proszę uzupełnij wszystkie wymagane pola.");
+      setFormError(t("errors.emptyFields"));
       return;
     }
 
     // Pobranie tokena reCAPTCHA
     const recaptchaToken = recaptchaRef.current.getValue();
     if (!recaptchaToken) {
-      setFormError("Proszę zaznacz, że nie jesteś robotem przed wysłaniem.");
+      setFormError(t("errors.captcha"));
       return;
     }
 
@@ -78,7 +80,7 @@ export default function Form() {
         setFormError(`Error: ${errorData.message}`);
       }
     } catch (error) {
-      setFormError("Niespodziewany błąd.");
+      setFormError(t("errors.other"));
     } finally {
       setIsSending(false);
     }
@@ -91,12 +93,8 @@ export default function Form() {
         <div className="">
           {formSubmitted ? (
             <div className="mt-10 lg:mt-20 ">
-              <span className="text-2xl ">
-                Dziękujęmy za przesłanie formularza!
-              </span>
-              <p className="font-light text-lg mt-6 ">
-                Postaramy się odpowiedzieć tak szybko, jak to możliwe.
-              </p>
+              <span className="text-2xl ">{t("answers.1")}</span>
+              <p className="font-light text-lg mt-6 ">{t("answers.2")}</p>
             </div>
           ) : (
             <form onSubmit={sendMail} className="mt-10">
@@ -106,7 +104,7 @@ export default function Form() {
                     htmlFor="fullName"
                     className="text-lg text-neutral-700  font-medium"
                   >
-                    * Imię i Nazwisko
+                    {t("form.name")}
                   </label>
                   <input
                     id="fullName"
@@ -128,7 +126,7 @@ export default function Form() {
                     htmlFor="email"
                     className="text-lg text-neutral-700 font-medium"
                   >
-                    * Twój email
+                    {t("form.email")}
                   </label>
                   <input
                     id="email"
@@ -150,7 +148,7 @@ export default function Form() {
                 htmlFor="text"
                 className="text-lg text-neutral-700  font-medium"
               >
-                * Twoja Wiadomość
+                {t("form.message")}
               </label>
               <textarea
                 id="text"
@@ -179,7 +177,7 @@ export default function Form() {
                 type="submit"
                 className="flex hover:bg-blue-500 duration-300 cursor-pointer justify-center items-center gap-2 bg-customBlue text-white font-semibold rounded-lg p-4 w-full mt-6"
               >
-                {isSending ? "Wysyłanie..." : "Wyślij wiadomość!"}
+                {isSending ? t("sending") : t("button")}
                 <FaLongArrowAltRight className="text-xl" />
               </button>
             </form>
@@ -189,7 +187,7 @@ export default function Form() {
         <div className="mt-10 shadow-2xl border-3 border-[#005588] p-6 py-10 rounded-xl">
           <div className="">
             <h3 className="text-2xl font-semibold text-customBlue">
-              Informacje
+              {t("info.header")}
             </h3>
             <ul className="flex flex-col gap-8 mt-10">
               <li className="flex gap-2 items-center">
@@ -212,14 +210,14 @@ export default function Form() {
           </div>
           <div className="mt-16 text-xl">
             <h3 className="text-2xl font-semibold text-customBlue">
-              Godziny Otwarcia
+              {t("info.header2")}
             </h3>
             <div className="mt-8">
-              <h4>Poniedziałek - Piątek:</h4>
+              <h4> {t("info.hours1")}:</h4>
               <p className=" mt-2">9:00 - 17:00</p>
             </div>
             <div className="mt-8">
-              <h4>Sobota - Niedziela:</h4>
+              <h4>{t("info.hours2")}:</h4>
               <p className=" mt-2">10:00 - 16:00</p>
             </div>
           </div>

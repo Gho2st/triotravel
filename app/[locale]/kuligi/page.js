@@ -1,50 +1,40 @@
-import Button from "@/app/UI/Buttons/Button";
 import Card from "@/app/UI/Card";
 import Header from "@/app/UI/Header";
 import LineHeader from "@/app/UI/LineHeader";
-import Image from "next/image";
-
+import { useTranslations } from "next-intl";
 export default function Kuligi() {
+  const t = useTranslations("kuligi");
   const articles = [
     {
-      title: "Góralski Kulig Kościelisko",
+      title: t("cards.1"),
       image: "/kuligi/koscielisko.png",
       link: "/kuligi/goralski-koscielisko",
     },
     {
-      title: "Kulig Dolina Chochołowska",
+      title: t("cards.2"),
       image: "/kuligi/dolina.png",
       link: "/kuligi/dolina-chocholowska",
     },
     {
-      title: "Kulig w Wieczór Sylwestrowy",
+      title: t("cards.3"),
       image: "/kuligi/sylwestrowy.png",
       link: "/kuligi/wieczor-sylwestrowy",
     },
   ];
   return (
     <>
-      <Header text="Kuligi" />
+      <Header text={t("header")} />
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
         <div className="md:w-3/4 mx-auto text-center">
           <p className="text-xl">
-            <span className="font-bold">TrioTravel</span> organizuje jedyne w
-            swoim rodzaju kuligi. Zakopane posiada wiele niezwykle urokliwych
-            miejsc, do których z pewnością warto zaliczyć Dolinę Kościeliska. W
-            ramach kuligów przewidzianych jest wiele atrakcji takich jak np.
-            <span className="font-bold">prawdziwa biesiada góralska.</span>{" "}
-            Kuligi organizowane są przez cały rok. Nasze biuro podróży zapewnia
-            odbiór busem z miejsca, w którym jesteście zakwaterowani,
-            poczęstunek w iście góralskim stylu. Cały pobyt jest umilany przez
-            <span className="font-bold"> rytm muzyki kapeli góralskiej.</span>
+            <span className="font-bold">TrioTravel</span> {t("text")}
           </p>
           <h2 className="text-3xl font-medium my-20 leading-snug">
-            Zobacz Zakopane z tej najpiękniejszej strony i udaj się z Nami na
-            niezapomniany kulig!
+            {t("header2")}
           </h2>
         </div>
         {/* NAPIS Z LINIAMI PO BOKU */}
-        <LineHeader text=" Kuligi" />
+        <LineHeader text={t("header3")} />
 
         <div className="grid md:grid-cols-2 gap-16 mt-20 justify-center items-center">
           {articles.map((article, index) => (

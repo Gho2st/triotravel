@@ -1,11 +1,14 @@
 import Header from "@/app/UI/Header";
 import Image from "next/image";
 import Gallery from "@/app/UI/Slider";
+import { useTranslations } from "next-intl";
+import Button from "@/app/UI/Buttons/Button";
 
 export default function Transport() {
+  const t = useTranslations("transport");
   return (
     <>
-      <Header text="Transport" />
+      <Header text={t("header")} />
       <div className="md:w-2/5 mx-auto">
         <Image
           src={"/transport/bus.png"}
@@ -16,14 +19,12 @@ export default function Transport() {
         />
       </div>
       <section>
-        <p className="px-6 md:px-20 xl:px-32 2xl:px-44 pb-10 md:pb-24 md:w-3/4 mx-auto  text-xl text-center">
-          Trio Travel oferuje kompleksowy i świetnie zorganizowany przewóz osób.
-          Zakopane to nie tylko jedyny teren, na którym działamy, zajmujemy się
-          również transportem na terenie całego kraju i zagranicy. Nasze usługi
-          obejmują transfery z oraz na lotniska, przewozy lokalne, a także
-          obsługę konferencji, wesel i innych wszelkich typowych jak i
-          nietypowych zleceń. 
+        <p className="px-6 md:px-20 xl:px-32 2xl:px-44 pb-12  md:w-3/4 mx-auto  text-xl text-center">
+          {t("text")}
         </p>
+        <div className="flex justify-center mb-10 md:mb-20">
+          <Button link="/mapa-przystankow" text={t("button")} />
+        </div>
         <Gallery
           images={[
             { url: "/transport/1.png", alt: "First image" },
@@ -34,30 +35,10 @@ export default function Transport() {
         />
         <div className="px-6 md:px-20 xl:px-32 2xl:px-44 pb-10 md:pb-24 md:w-3/4 mx-auto  text-xl text-center">
           <h2 className="text-3xl md:text-4xl leading-snug mt-8 md:mt-16">
-            <span className="font-bold">Trio Travel </span> to{" "}
-            <span className="font-bold">Twój sposób </span> na bezpieczne i
-            komfortowe podróżowanie. Zapraszamy do kontaktu i wspólnych
-            kilometrów!
+            <span className="font-bold">Trio Travel </span> -{" "}
+            <span className="font-bold">{t("header3")} </span> {t("header2")}
           </h2>
-          <p className="mt-10">
-            Dokładamy wszelkich starań aby każde zlecenie było wykonane
-            należycie i spełniało oczekiwania naszych Klientów. Priorytetem
-            pracy zespołu jest zadowolenie Klienta oraz wysoka jakość
-            świadczonych usług. Nasi kierowcy to doświadczeni pracownicy,
-            zapewniający pełen profesjonalizm oraz odpowiednie umiejętności.
-          </p>
-          <p className="">
-            Dzięki wieloletniemu doświadczeniu w transporcie, organizowany przez
-            nas przewóz osób to komfortowa i bezpieczna podróż. Obowiązkowo
-            zapewniamy terminowość oraz atrakcyjne ceny. Każdy zlecający ma inne
-            oczekiwania i potrzeby, dlatego zawsze dopasowujemy nasze usługi do
-            indywidualnych wymagań.
-          </p>
-          <p className="">
-            Nasze pojazdy posiadają wszelkie niezbędne zezwolenia oraz pełne
-            wyposażenie umożliwiające bezproblemowe wyjazdy zagraniczne, co
-            gwarantuje bezpieczeństwo i wygodę podróżnych podczas każdej trasy.
-          </p>
+          <p className="mt-10">{t("text2")}</p>
         </div>
       </section>
     </>

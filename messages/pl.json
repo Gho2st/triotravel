@@ -51,6 +51,7 @@
     "offer": {
         "header": "Oferta Wiosna 2025",
         "trips": {
+            "header": "Wycieczki",
             "1": "Spływ Dunajcem 2.5 h",
             "2": "Chochołowskie Termy",
             "3": "Spacer w Koronach Drzew",
@@ -183,6 +184,58 @@
         "patryk": {
             "header": "Willa Patryk",
             "text": "Willa „Patryk” usytuowana jest w cichej i spokojnej okolicy, dużo zieleni tras spacerowych w pobliżu sprzyjają aktywnemu wypoczynkowi. Szczególnie polecamy szlak na Gubałówkę, szlak Jana Kasprowicza przez Bachledzki Wierch i inne."
+        }
+    },
+    "kuligi": {
+        "header": "Kuligi",
+        "text": "TrioTravel organizuje jedyne w swoim rodzaju kuligi. Zakopane posiada wiele niezwykle urokliwych miejsc, do których z pewnością warto zaliczyć Dolinę Kościeliska. W ramach kuligów przewidzianych jest wiele atrakcji takich jak np.prawdziwa biesiada góralska. Kuligi organizowane są przez cały rok. Nasze biuro podróży zapewnia odbiór busem z miejsca, w którym jesteście zakwaterowani, poczęstunek w iście góralskim stylu. Cały pobyt jest umilany przez rytm muzyki kapeli góralskiej.",
+        "header2": "Zobacz Zakopane z tej najpiękniejszej strony i udaj się z Nami na niezapomniany kulig!",
+        "header3": "Wybierz Swój",
+        "cards": {
+            "1": "Góralski Kulig Kościelisko",
+            "2": "Kulig Dolina Chochołowska",
+            "3": "Kulig w Wieczór Sylwestrowy",
+            "button": "Wybierz"
+        }
+    },
+    "reservations": {
+        "header": "Kup Online",
+        "text": "Rezerwację online można dokonać najpóźniej 24h przed planowaną datą wycieczki. Najpóźniej dzień przed planowaną datą wycieczki możliwość rezerwacji telefonicznie.",
+        "button": "Mapa Przystanków"
+    },
+    "transport": {
+        "header": "Transport",
+        "text": "Trio Travel oferuje kompleksowy i świetnie zorganizowany przewóz osób. Zakopane to nie tylko jedyny teren, na którym działamy, zajmujemy się również transportem na terenie całego kraju i zagranicy. Nasze usługi obejmują transfery z oraz na lotniska, przewozy lokalne, a także obsługę konferencji, wesel i innych wszelkich typowych jak i nietypowych zleceń. ",
+        "header2": "na bezpieczne i komfortowe podróżowanie. Zapraszamy do kontaktu i wspólnych kilometrów!",
+        "header3": "Twój Sposób",
+        "text2": "Dokładamy wszelkich starań aby każde zlecenie było wykonane należycie i spełniało oczekiwania naszych Klientów. Priorytetem pracy zespołu jest zadowolenie Klienta oraz wysoka jakość świadczonych usług. Nasi kierowcy to doświadczeni pracownicy, zapewniający pełen profesjonalizm oraz odpowiednie umiejętności. Dzięki wieloletniemu doświadczeniu w transporcie, organizowany przez nas przewóz osób to komfortowa i bezpieczna podróż. Obowiązkowo zapewniamy terminowość oraz atrakcyjne ceny. Każdy zlecający ma inne oczekiwania i potrzeby, dlatego zawsze dopasowujemy nasze usługi do indywidualnych wymagań. Nasze pojazdy posiadają wszelkie niezbędne zezwolenia oraz pełne wyposażenie umożliwiające bezproblemowe wyjazdy zagraniczne, co gwarantuje bezpieczeństwo i wygodę podróżnych podczas każdej trasy.",
+        "button": "Mapa Przystanków"
+    },
+    "contact": {
+        "title": "Kontakt",
+        "header": "Skontaktuj się z nami!",
+        "text": "Masz pytania? Chcesz zaplanować wymarzoną podróż? Napisz do Nas lub zadzwoń — z przyjemnością pomożemy!",
+        "button": "Wyślij wiadomość!",
+        "sending": "Wysyłanie...",
+        "form": {
+            "name": "Imię i Nazwisko",
+            "email": "Twój Email",
+            "message": "Twoja wiadomość"
+        },
+        "info": {
+            "header": "Informacje",
+            "header2": "Godziny Otwarcia",
+            "hours1": "Poniedziałek - Piątek",
+            "hours2": " Sobota - Niedziela"
+        },
+        "errors": {
+            "captcha": "Proszę zaznacz, że nie jesteś robotem przed wysłaniem.",
+            "emptyFields": "Proszę uzupełnij wszystkie wymagane pola.",
+            "other": "Niespodziewany błąd."
+        },
+        "answers": {
+            "1": "Dziękujęmy za przesłanie formularza!",
+            "2": "Postaramy się odpowiedzieć tak szybko, jak to możliwe."
         }
     }
 }
