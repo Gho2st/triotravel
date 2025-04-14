@@ -28,14 +28,16 @@ export default function Reviews() {
     autoplay: true,
     autoplaySpeed: 5000,
     cssEase: "linear",
-    dots: false,
+    dots: true,
     responsive: [
       {
         breakpoint: 1224,
         settings: { slidesToShow: 2, slidesToScroll: 2 },
       },
-      { breakpoint: 800, settings: { slidesToShow: 2, slidesToScroll: 1 } },
-      { breakpoint: 680, settings: { slidesToShow: 1, slidesToScroll: 1 } },
+      {
+        breakpoint: 800,
+        settings: { slidesToShow: 1, slidesToScroll: 1, arrows: false },
+      },
     ],
   };
 

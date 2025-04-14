@@ -1,4 +1,25 @@
 {
+    "nav": {
+        "links": {
+            "link1": "Wycieczki",
+            "link2": "Kuligi",
+            "link3": "Bilety Na Kasprowy",
+            "link4": "Transport",
+            "link5": "Partnerzy",
+            "link6": "Kontakt"
+        },
+        "button": "Kup Online"
+    },
+    "footer": {
+        "hours": {
+            "header": "Godziny Otwarcia",
+            "1": "Poniedziałek - Piątek",
+            "2": "Sobota - Niedziela"
+        },
+        "contact": {
+            "header": "Kontakt z Nami"
+        }
+    },
     "welcome": "Witaj na stronie!",
     "notfound": {
         "title": "404 - Strona nie znaleziona",
@@ -10,40 +31,118 @@
         "text": "Przepraszamy, wystąpił problem. Spróbuj ponownie później lub skontaktuj się z nami, jeśli problem będzie się powtarzał.",
         "button": "Spróbuj ponownie"
     },
+    "hero": {
+        "headers": {
+            "header1": "Spływ Kajakiem?",
+            "header2": "Baseny Termalne?",
+            "header3": "Bilety na Kasprowy?",
+            "header4": "Transport w Górach?",
+            "header5": "Wycieczka w Górach?",
+            "header6": "Zimowy Kulig?"
+        }
+    },
+    "about": {
+        "header1": "Trio Travel - Twoje Biuro Podróży w Zakopanem na Niezapomniane Wycieczki.",
+        "text": "Zakopane znamy jak własną kieszeń i nie ma dla nas rzeczy niemożliwych",
+        "text2": "Posiadamy duże doświadczenie w organizacji wszelkich projektów turystycznych, imprez tematycznych oraz transportu."
+    },
+    "offer": {
+        "header": "Oferta Wiosna 2025",
+        "trips": {
+            "1": "Spływ Dunajcem 2.5 h",
+            "2": "Chochołowskie Termy",
+            "3": "Spacer w Koronach Drzew",
+            "4": "Jaskinia Bielańska",
+            "5": "Spływ Dunajcem 1.5 h",
+            "6": "Tajemnice Wieliczki",
+            "7": "Bilety na Kasprowy Wierch",
+            "8": "Słowacki Raj",
+            "9": "Wiedeń",
+            "10": "Budapeszt",
+            "11": "Zamek Orawski",
+            "12": "Świątynia Lodowa Hrebieniok",
+            "13": "Zwiedzanie Krakowa",
+            "14": "Dookoła Tatr",
+            "15": "Rafting po Dunajcu"
+        }
+    },
+    "why": {
+        "header": "Dlaczego wycieczkę najlepiej wybrać u ",
+        "cards": {
+            "1": {
+                "header": "Lokalna wiedza i specjalizacja",
+                "text": "Trio Travel to biuro z Zakopanego, które zna Tatry i Pieniny jak mało kto. Specjalizują się w wycieczkach jednodniowych, spływach Dunajcem, kuligach czy raftingu, co gwarantuje dobrze zaplanowane trasy i atrakcje oparte na ich doświadczeniu w regionie."
+            },
+            "2": {
+                "header": "Kompleksowa Oferta",
+                "text": "Od wycieczek po lokalne atrakcje, jak kuligi czy spływy - Trio Travel oferuje szeroki wachlarz usług w jednym miejscu. To idealne rozwiązanie dla tych, którzy chcą w pełni wykorzystać czas w górach."
+            },
+            "3": {
+                "header": "Elastyczność i personalizacja",
+                "text": "Firma stawia na dostosowanie oferty do potrzeb klienta. Niezależnie od tego, czy szukasz spokojnej wycieczki, czy aktywnego wypoczynku, Trio Travel zapewnia elastyczność, by spełnić Twoje oczekiwania."
+            }
+        }
+    },
+    "services": {
+        "cards": {
+            "1": {
+                "header": "Wycieczki i transport",
+                "text": "Trio Travel to biuro podróży posiadające duże doświadczenie w organizacji wszelkich projektów turystycznych, imprez tematycznych oraz transportu. Zakopane znamy jak własną kieszeń i nie ma dla nas rzeczy niemożliwych. Początkowo zajmowaliśmy się głównie transportem krajowym i międzynarodowym, później natomiast staliśmy się przedsiębiorstwem turystyczno-transportowym, organizującym sporo ciekawych realizacji, w tym fantastyczne wycieczki jednodniowe."
+            },
+            "2": {
+                "header": "Organizator Turystyki",
+                "text": "Nasza działalność jest zapisana w Rejestrze Organizatorów Turystyki i Pośredników Turystycznych Marszałka Województwa Małopolskiego pod numerem Z/54/2013. Posiadamy gwarancję ubezpieczeniową AXA, dlatego każda wyprawa z naszym biurem jest nie tylko pełna wrażeń, ale też zapewnia niezbędne bezpieczeństwo. Nasi Klienci doceniają nas, między innymi, za umiejętność dostosowania się do wymagań i potrzeb, kompleksowość oferowanych usług oraz elastyczność."
+            },
+            "3": {
+                "header": "Nasz Zespół",
+                "text": "Nasz zespół składa się z ludzi kreatywnych i pełnych energii, co gwarantuje organizację na najwyższym poziomie. Organizujemy kuligi, w tym te dostarczające największych emocji czyli kuligi wieczorne. Naszą kolejną wycieczką jest także spływ Dunajcem oraz wiele innnych wycieczek jednodniowych. Zakopane posiada mnóstwo atrakcji które chcieli byśmy Państwu pokazać, dlatego z nami na pewno nikt nie będzie się nudził. Oferujemy także najlepiej logistycznie zorganizowany przewóz osób po Zakopanem i nie tylko."
+            }
+        }
+    },
     "reviews": {
         "header": "zadowolonych klientów! Ocena ",
         "header2": "Ponad",
         "text": "Nasi zadowoleni klienci potwierdzają – z TrioTravel każda podróż to niezapomniane wspomnienia, pełna wygoda i perfekcyjna organizacja. Dołącz do grona szczęśliwych podróżników i odkrywaj świat z pełnym spokojem!",
         "cards": {
             "1": {
-                "name": "Mariolka Pyrz",
-                "text": "Bardzo elegancka restauracja. Pyszny tatar, bardzo dobre pizzerinki, bardzo dobre desery. Bardzo miło można odpocząć. Polecam 👍"
+                "name": "Maciej Partyka",
+                "text": "Bardzo dobrze zorganizowana wycieczka na Słowację. Super kontakt, sympatyczny kierowca, program zrealizowany zgodnie z planem, autokar komfortowy."
             },
             "2": {
-                "name": "Amelia",
-                "text": "Obsługa była uprzejma i zawsze uśmiechnięta, co stworzyło miłą atmosferę. Miejsce jest spokojne, idealne do relaksu. Burger był przepyszny i soczysty, a Aperol orzeźwiający i świetnie skomponowany"
+                "name": "Marlena Flis",
+                "text": "Najlepsze wycieczki z biurem Trio travel.Tym razem wybraliśmy się na spacer w koronach drzew.Pelen profesjonalizm pod każdym względem.Pan kierowca Michał spisał się na medal.Super kierowca i przewodnik w jednym .Pozdrawia 10 osobowa grupa z 13 września ."
             },
             "3": {
-                "name": "Beata Sękowska",
-                "text": "Super miejsce na spędzenie miłego popołudnia ze znajomymi. Bardzo dobre drinki. Przyjemna obsługa"
+                "name": "Grzegorz Danilczuk",
+                "text": "Wycieczka dobrze rozplanowana i ciekawa, a przewodnik Michał co chwilę zarzucał ciekawostką na temat gór i zachowywał się bardzo profesjonalnie. Na pewno jeszcze nie raz będę korzystał z tego biura!"
             },
             "4": {
-                "name": "AK K.",
-                "text": "Piękna i nowa sala zabaw dla malutkich i średnich dzieciaków, jest nawet pokój do karmienia i przewijaki! Super cenowo i ładnie w środku"
+                "name": "Agata Andrus",
+                "text": "Bardzo udana wycieczka, spływ Dunajcem był bardzo dobrze zorganizowany i cena super. Pan Michał się nami opiekował, bardzo profesjonalna i zrelaksowana atmosfera. Polecam."
             },
             "5": {
-                "name": "bolek lolek",
-                "text": "Przepyszny schabowy. Ogólnie miejsce bardzo zadbane i czyste. Ścianka wspinaczkowa sala dla dzieci sala gier wszystko nowe"
+                "name": "Marta Dymińska",
+                "text": "Super wycieczka, organizacja rewelacja. Podjechał po nas autokar, kierowca i nasz opiekun wszystko załatwiał, każdemu jasno przekazywał gdzie, co i jak. A po spływie i zwiedzaniu zostaliśmy odstawieni na miejsce pod dom. Cieszę się, że zdecydowaliśmy się na Spływ Dunajcem z biurem Trio Travel. Polecam każdemu. 🍀"
             },
             "6": {
-                "name": "Monika Sam",
-                "text": "Super nowe miejsce przyjemni ludzie bardzo miła obsługa czysto w calym budynku. Siłownia wyposażona super i pomocni trenerzy .polecam serdecznie. 🤩🤩🤩🤩🤩🤩"
+                "name": "Zuzanna Lesner",
+                "text": "Super wycieczka, byliśmy z panem Michałem na ścieżce w koronach drzew. Było jednak zdecydowanie za mało czasu nad Szczyrbskim jeziorem, powinny być na to przeznaczone co najmniej 2h ☺️⛰️"
             },
             "7": {
-                "name": "Magda Thomas",
-                "text": "Najnowsza lokalna perełka. Bardzo miła, przyjazna atmosfera. Profesjonalna obsługa, świetni instruktorzy. Ciekawa oferta i przystępne ceny. Warto regularnie odwiedzać."
+                "name": "Małgorzata Wodzynska",
+                "text": "Wycieczka 30.06 Spływ Dunajcem. Bardzo dobrze zorganizowana, Pan Michał doświadczony przewodnik miał wszystko pod kontrolą widać, że lubi to co robi . Widoki przepiękne, wycieczka warta swojej ceny. POLECAM🙂"
             }
         }
+    },
+    "cta": {
+        "header": "Kasprowy Wierch",
+        "text": "Kup bilety już teraz"
+    },
+    "info": {
+        "header": "Regulamin Wyjazdów Trio Travel do pobrania",
+        "text": "Przedsiębiorca uzyskał subwencję finansową w ramach programu rządowego",
+        "text2": "Tarcza Finansowa 2.0 Polskiego Funduszu Rozwoju dla Mikro, Małych i Średnich Firm",
+        "text3": "udzieloną przez PFR SA."
     },
     "partners": {
         "title": "Nasi Partnerzy",

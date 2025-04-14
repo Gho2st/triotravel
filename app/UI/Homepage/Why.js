@@ -1,39 +1,31 @@
+import { useTranslations } from "next-intl";
+
 export default function Why() {
+  const t = useTranslations("why");
   return (
     <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24 overflow-x-hidden">
-      <h2 className="md:w-2/3 text-4xl md:text-5xl leading-snug mb-12 xl:mb-24 xl:pt-20">
-        Dlaczego wycieczkę najlepiej wybrać u{" "}
+      <h2 className="md:w-2/3 text-3xl md:text-5xl leading-snug mb-12 xl:mb-24 xl:pt-20">
+        {t("header")}
         <span className="font-bold"> Trio Travel? </span>
       </h2>
       <div className="flex flex-col md:flex-row justify-between gap-10 text-center ">
-        <div className="p-6 py-10 shadow-2xl rounded-3xl md:w-1/3">
-          <h3 className="text-3xl mb-10 font-medium">
-            Lokalna wiedza i specjalizacja
+        <div className="p-6 py-10 shadow-2xl rounded-3xl md:w-1/3 border-4 border-[#005588]">
+          <h3 className="text-2xl md:text-3xl mb-10 font-medium">
+            {t("cards.1.header")}
           </h3>
-          <p className="text-lg">
-            Trio Travel to biuro z Zakopanego, które zna Tatry i Pieniny jak
-            mało kto. Specjalizują się w wycieczkach jednodniowych, spływach
-            Dunajcem, kuligach czy raftingu, co gwarantuje dobrze zaplanowane
-            trasy i atrakcje oparte na ich doświadczeniu w regionie.
-          </p>
+          <p className="md:text-lg">{t("cards.1.text")}</p>
         </div>
-        <div className="p-6 py-10 shadow-2xl rounded-3xl md:w-1/3 ">
-          <h3 className="text-3xl mb-10 font-medium">Kompleksowa Oferta</h3>
-          <p className="text-lg">
-            Od wycieczek po lokalne atrakcje, jak kuligi czy spływy – Trio
-            Travel oferuje szeroki wachlarz usług w jednym miejscu. To idealne
-            rozwiązanie dla tych, którzy chcą w pełni wykorzystać czas w górach.
-          </p>
-        </div>
-        <div className="p-6 py-10 shadow-2xl rounded-3xl md:w-1/3">
-          <h3 className="text-3xl mb-10 font-medium">
-            Elastyczność i personalizacja
+        <div className="p-6 py-10 shadow-2xl rounded-3xl md:w-1/3 border-4 border-[#005588] ">
+          <h3 className="text-2xl md:text-3xl mb-10 font-medium">
+            {t("cards.2.header")}
           </h3>
-          <p className="text-lg">
-            Firma stawia na dostosowanie oferty do potrzeb klienta. Niezależnie
-            od tego, czy szukasz spokojnej wycieczki, czy aktywnego wypoczynku,
-            Trio Travel zapewnia elastyczność, by spełnić Twoje oczekiwania.
-          </p>
+          <p className="md:text-lg">{t("cards.2.text")}</p>
+        </div>
+        <div className="p-6 py-10 shadow-2xl rounded-3xl md:w-1/3 border-4 border-[#005588]">
+          <h3 className="text-2xl md:text-3xl mb-10 font-medium">
+            {t("cards.3.header")}
+          </h3>
+          <p className="md:text-lg">{t("cards.3.text")}</p>
         </div>
       </div>
     </section>

@@ -1,5 +1,4 @@
 "use client";
-
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import HeroButton from "../Buttons/HeroButton";
@@ -8,37 +7,40 @@ import { FaFacebook } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
 
 export default function Hero() {
+  const t = useTranslations("hero");
+
   const slides = [
     {
       background: "/baner/baner.png",
-      text: "Wycieczka w góry?",
+      translationKey: "headers.header5", // "Wycieczka w Górach?"
       link: "/",
     },
     {
       background: "/baner/baner2.png",
-      text: "Spływ Kajakiem?",
+      translationKey: "headers.header1", // "Spływ Kajakiem?"
       link: "/wycieczki-splyw-kajakiem",
     },
     {
-      background: "/baner/baner3.png",
-      text: "Zimowy Kulig?",
+      background: "/baner/baner3.png", //"Zimowy Kulig?"
+      translationKey: "headers.header6",
       link: "/kuligi",
     },
     {
       background: "/baner/baner4.png",
-      text: "Baseny Termalne?",
+      translationKey: "headers.header2", // "Baseny Termalne?"
       link: "/wycieczki/termy",
     },
     {
       background: "/baner/baner5.png",
-      text: "Bilety na Kasprowy?",
+      translationKey: "headers.header3", // "Bilety na Kasprowy?"
       link: "/bilety-na-kasprowy-wierch",
     },
     {
       background: "/baner/baner6.png",
-      text: "Transport w Górach?",
+      translationKey: "headers.header4", // "Transport w Górach?"
       link: "/transport",
     },
   ];
@@ -167,7 +169,7 @@ export default function Hero() {
             onMouseLeave={() => setIsPaused(false)}
           >
             <span className="text-2xl md:text-4xl font-medium p-3 md:p-6 w-52 md:w-96 lg:w-144 text-center">
-              {slides[currentSlide].text}
+              {t(slides[currentSlide].translationKey)}
             </span>
             <HeroButton link={slides[currentSlide].link} />
           </motion.div>

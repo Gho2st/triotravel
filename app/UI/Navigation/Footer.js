@@ -9,11 +9,13 @@ import { IoIosArrowUp } from "react-icons/io";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Info from "../Info";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   const [showArrow, setShowArrow] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const t = useTranslations("footer");
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -57,14 +59,14 @@ export default function Footer() {
         <div className="flex flex-col gap-16 md:flex-row justify-between ">
           <div className="text-lg md:text-xl md:w-96 text-center md:text-right pr-0 md:pr-10 md:border-r-2 border-r-gray-200">
             <p className="text-2xl md:text-3xl mb-10 xl:mb-16">
-              Godziny Otwarcia
+              {t("hours.header")}
             </p>
             <div className="mb-6">
-              <p>Poniedziałek - Piątek:</p>
+              <p> {t("hours.1")}:</p>
               <p className="font-light mt-2">9:00 - 17:00</p>
             </div>
             <div>
-              <p>Sobota - Niedziela:</p>
+              <p> {t("hours.2")}:</p>
               <p className="font-light mt-2">10:00 - 16:00</p>
             </div>
           </div>
@@ -101,7 +103,7 @@ export default function Footer() {
           </div>
           <div className="text-lg md:text-xl md:w-96 text-center md:text-left pl-0 md:pl-10 md:border-l-2 border-l-gray-200 ">
             <h3 className="text-2xl md:text-3xl mb-10 xl:mb-16">
-              Kontakt z Nami
+              {t("contact.header")}
             </h3>
             <ul className="flex flex-col gap-4">
               <li className="flex justify-center md:justify-start gap-2 md:gap-4 items-center">

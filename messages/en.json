@@ -1,64 +1,150 @@
 {
     "nav": {
         "links": {
-            "link1": "About Us",
-            "link2": "Restaurant",
-            "link3": "Pricing",
-            "link4": "Group Classes",
-            "link5": "Gallery",
-            "link6": "Contact",
-            "link7": "Partners",
-            "park": "Park"
+            "link1": "Tours",
+            "link2": "Sleigh Rides",
+            "link3": "Tickets to Kasprowy",
+            "link4": "Transport",
+            "link5": "Partners",
+            "link6": "Contact"
         },
-        "parkItems": {
-            "park": "Park",
-            "gym": "Gym",
-            "fitness": "Fitness",
-            "sportshall": "Sports Hall",
-            "minibowling": "Mini Bowling",
-            "squash": "Squash",
-            "multimediaroom": "Multimedia Room",
-            "climbingwall": "Climbing Wall",
-            "gamesroom": "Game Room",
-            "playroom": "Playroom",
-            "bikerental": "Bike Rental"
+        "button": "Buy Online"
+    },
+    "footer": {
+        "hours": {
+            "header": "Opening Hours",
+            "1": "Monday - Friday",
+            "2": "Saturday - Sunday"
         },
-        "button": "Client Zone"
+        "contact": {
+            "header": "Contact Us"
+        }
+    },
+    "hero": {
+        "headers": {
+            "header1": "Kayaking Trip?",
+            "header2": "Thermal Pools?",
+            "header3": "Tickets to Kasprowy?",
+            "header4": "Mountain Transport?",
+            "header5": "Mountain Trip?",
+            "header6": "Winter Sleigh Ride?"
+        }
+    },
+    "about": {
+        "header1": "Trio Travel - Your Travel Agency in Zakopane for Unforgettable Trips.",
+        "text": "We know Zakopane like the back of our hand, and nothing is impossible for us.",
+        "text2": "We have extensive experience in organizing all kinds of tourism projects, themed events, and transportation."
+    },
+    "offer": {
+        "header": "Spring 2025 Offer",
+        "trips": {
+            "1": "Dunajec Rafting 2.5 h",
+            "2": "Chochołowskie Thermal Baths",
+            "3": "Walk in the Treetops",
+            "4": "Bielańska Cave",
+            "5": "Dunajec Rafting 1.5 h",
+            "6": "Secrets of Wieliczka",
+            "7": "Tickets to Kasprowy Wierch",
+            "8": "Slovak Paradise",
+            "9": "Vienna",
+            "10": "Budapest",
+            "11": "Orava Castle",
+            "12": "Ice Temple – Hrebienok",
+            "13": "Kraków Sightseeing",
+            "14": "Around the Tatras",
+            "15": "Whitewater Rafting on the Dunajec"
+        }
+    },
+    "why": {
+        "header": "Why is the best choice for your trip",
+        "cards": {
+            "1": {
+                "header": "Local Knowledge and Expertise",
+                "text": "Trio Travel is a Zakopane-based agency that knows the Tatra and Pieniny Mountains like few others. They specialize in day trips, Dunajec rafting, sleigh rides, and whitewater rafting, ensuring well-planned routes and attractions based on their deep regional experience."
+            },
+            "2": {
+                "header": "Comprehensive Offer",
+                "text": "From local attractions like sleigh rides to river rafting – Trio Travel offers a wide range of services in one place. It’s the perfect solution for anyone wanting to make the most of their time in the mountains."
+            },
+            "3": {
+                "header": "Flexibility and Personalization",
+                "text": "The company focuses on tailoring its offer to the client's needs. Whether you're looking for a relaxing trip or an active adventure, Trio Travel provides the flexibility to meet your expectations."
+            }
+        }
+    },
+    "services": {
+        "cards": {
+            "1": {
+                "header": "Tours and Transport",
+                "text": "Trio Travel is a travel agency with extensive experience in organizing all kinds of tourism projects, themed events, and transportation. We know Zakopane like the back of our hand, and nothing is impossible for us. Initially, we focused mainly on domestic and international transport, but over time, we became a tourism and transport company organizing a wide range of exciting trips, including fantastic one-day excursions."
+            },
+            "2": {
+                "header": "Licensed Tour Operator",
+                "text": "We are registered in the Register of Tour Operators and Tourist Agents of the Marshal of the Małopolska Region under number Z/54/2013. We hold AXA travel insurance, so every trip with us is not only full of great experiences but also ensures essential safety. Our clients appreciate us for our ability to adapt to their needs, the comprehensive nature of our services, and our flexibility."
+            },
+            "3": {
+                "header": "Our Team",
+                "text": "Our team is made up of creative and energetic people, which guarantees top-quality organization. We organize sleigh rides, especially the most thrilling ones – evening rides. We also offer Dunajec river rafting and many other one-day excursions. Zakopane is full of attractions we would love to show you, so with us, you’ll never be bored. We also offer the most logistically efficient local transport in and around Zakopane."
+            }
+        }
+    },
+    "splyw-dunajcem-dluzszy": {
+        "header": "Spływ Dunajcem 2.5h",
+        "header2": "Co oferujemy?",
+        "text": "Przygotowaliśmy dla Państwa szereg niezwykle ciekawych atrakcji, które z pewnością uczynią czas Państwa wypoczynku szalenie interesującym i niezapomnianym. Proponowany przez nas spływ Dunajcem z Zakopanego to rewelacyjny sposób na to, aby należycie nacieszyć się pięknymi krajobrazami, a zarazem wiele zwiedzić. Flisacy umilą go Państwu fascynującymi opowieściami i legendami związanymi z rzeką oraz jej okolicami. Poza spływem na drewnianej tratwie, skąd nacieszycie Państwo oczy widokiem otaczających Pienin, oferta obejmuje również możliwość zwiedzania zamku w Niedzicy, zapory na Dunajcu czy Parku Miniatur Podhala, Orawy i Spisza.",
+        "background-list": {
+            "header": "Wycieczka w Pieniny: Spływ i Niedzica",
+            "header2": "Podczas wycieczki w Pieniny, poza główną atrakcją, którą jest spływ na drewnianych tratwach-odwiedzisz również Niedzicę, w której do wyboru masz jedną z atrakcji:",
+            "list": {
+                "1": "Rejs statkiem po Jeziorze Czorsztyńskim (Podczas rejsu statkiem spacerowym będziesz mógł podziwiać zaporę wodną, ruiny zamku Czorsztyńskiego, zamek Niedzica, skansen Czorsztyński oraz przepiękny górski krajobraz). Taki rejs to przygoda, która na długo zostanie w twojej pamięci!"
+            }
+        },
+        "text2": "Sezon flisacki trwa od 1 kwietnia do 31 października - świątek, piątek i niedziele. Zatem na wycieczkę zapraszamy codziennie!"
     },
     "reviews": {
         "header": "satisfied customers! Rating ",
         "header2": "Over",
-        "text": "Welcome to Muszynova – a place where elegance meets exquisite taste. Enjoy delicious dishes, from juicy burgers to exquisite tartares and sweet desserts, paired with refreshing drinks. Our polite service and calm atmosphere will make every visit a moment of relaxation and pleasure. Spend a lovely afternoon with your loved ones and discover why our guests keep coming back for more!",
+        "text": "Our happy customers agree – with Trio Travel, every journey becomes an unforgettable memory, full of comfort and perfect organization. Join the group of satisfied travelers and explore the world with peace of mind!",
         "cards": {
             "1": {
-                "name": "Mariolka Pyrz",
-                "text": "A very elegant restaurant. Delicious tartar, very good pizzas, and excellent desserts. A very nice place to relax. Highly recommend 👍"
+                "name": "Maciej Partyka",
+                "text": "A very well-organized trip to Slovakia. Great communication, a friendly driver, the itinerary was followed as planned, and the coach was comfortable."
             },
             "2": {
-                "name": "Amelia",
-                "text": "The service was polite and always smiling, creating a nice atmosphere. The place is calm, perfect for relaxation. The burger was delicious and juicy, and the Aperol refreshing and perfectly balanced."
+                "name": "Marlena Flis",
+                "text": "The best trips with Trio Travel agency. This time we went for the treetop walk. Total professionalism in every way. Our driver Michał was outstanding – a great driver and guide in one. Greetings from our 10-person group from September 13!"
             },
             "3": {
-                "name": "Beata Sękowska",
-                "text": "A great place to spend a lovely afternoon with friends. Very good drinks. Pleasant service."
+                "name": "Grzegorz Danilczuk",
+                "text": "Well-planned and interesting trip, and the guide Michał kept sharing fun facts about the mountains and acted very professionally. I’ll definitely use this agency again!"
             },
             "4": {
-                "name": "AK K.",
-                "text": "A beautiful and new playroom for small and medium-sized children, there’s even a nursing room and changing tables! Great value and a nice interior."
+                "name": "Agata Andrus",
+                "text": "A very enjoyable trip – the Dunajec rafting was perfectly organized and the price was great. Michał took care of us, creating a very professional and relaxed atmosphere. Highly recommend."
             },
             "5": {
-                "name": "Bolek Lolek",
-                "text": "Delicious schnitzel. Overall, a very well-maintained and clean place. Climbing wall, kids' room, game room, everything is new."
+                "name": "Marta Dymińska",
+                "text": "Great trip, excellent organization. A coach picked us up, the driver and our guide took care of everything, clearly explaining what to do and where to go. After the rafting and sightseeing, we were dropped off right at our doorstep. I'm glad we chose the Dunajec Rafting with Trio Travel. Highly recommend! 🍀"
             },
             "6": {
-                "name": "Monika Sam",
-                "text": "A fantastic new place with friendly people, very nice service, and cleanliness throughout the building. The gym is well-equipped, and the trainers are helpful. Highly recommend. 🤩🤩🤩🤩🤩🤩"
+                "name": "Zuzanna Lesner",
+                "text": "Great trip! We went with Michał on the treetop walk. There was definitely too little time at Štrbské Lake though – there should be at least 2 hours for that ☺️⛰️"
             },
             "7": {
-                "name": "Magda Thomas",
-                "text": "The latest local gem. Very nice, friendly atmosphere. Professional service, great instructors. Interesting offer and affordable prices. Definitely worth visiting regularly."
+                "name": "Małgorzata Wodzynska",
+                "text": "Trip on June 30 – Dunajec Rafting. Very well organized. Michał, an experienced guide, had everything under control – you could tell he loves what he does. The views were stunning, and the trip was well worth the price. RECOMMENDED 🙂"
             }
         }
+    },
+    "cta": {
+        "header": "Kasprowy Wierch",
+        "text": "Buy tickets now"
+    },
+    "info": {
+        "header": "Trio Travel Trip Regulations – Download",
+        "text": "The company received financial support under the government program",
+        "text2": "Financial Shield 2.0 of the Polish Development Fund for Micro, Small and Medium Enterprises",
+        "text3": "granted by PFR SA."
     },
     "partners": {
         "title": "Our Partners",

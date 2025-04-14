@@ -5,8 +5,10 @@ import Image from "next/image";
 import { Link } from "@/i18n/routing";
 import LocaleSwitcher from "../LocaleSwitcher";
 import Button from "../Buttons/Button";
+import { useTranslations } from "next-intl";
 
 export default function Nav() {
+  const t = useTranslations("nav");
   const [isOpen, setIsOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -70,7 +72,7 @@ export default function Nav() {
                 className="px-3 hover:text-red-500 duration-300"
                 href={"/wycieczki"}
               >
-                Wycieczki
+                {t("links.link1")}
               </Link>
             </li>
             <li>
@@ -78,7 +80,7 @@ export default function Nav() {
                 className="px-3 hover:text-red-500 duration-300"
                 href={"/kuligi"}
               >
-                Kuligi
+                {t("links.link2")}
               </Link>
             </li>
             <li>
@@ -86,7 +88,7 @@ export default function Nav() {
                 className="px-3 hover:text-red-500 duration-300"
                 href={"/bilety-na-kasprowy-wierch"}
               >
-                Bilety Na Kasprowy
+                {t("links.link3")}
               </Link>
             </li>
             <li>
@@ -94,7 +96,7 @@ export default function Nav() {
                 className="px-3 hover:text-red-500 duration-300"
                 href={"/transport"}
               >
-                Transport
+                {t("links.link4")}
               </Link>
             </li>
             <li>
@@ -102,7 +104,7 @@ export default function Nav() {
                 className="px-3 hover:text-red-500 duration-300"
                 href={"/partnerzy"}
               >
-                Partnerzy
+                {t("links.link5")}
               </Link>
             </li>
             <li>
@@ -110,11 +112,11 @@ export default function Nav() {
                 className="px-3 hover:text-red-500 duration-300"
                 href={"/kontakt"}
               >
-                Kontakt
+                {t("links.link6")}
               </Link>
             </li>
             <li>
-              <Button text="Kup Online" link={"/rezerwacje"} />
+              <Button text={t("button")} link={"/rezerwacje"} />
             </li>
           </ul>
           <LocaleSwitcher />
@@ -156,7 +158,7 @@ export default function Nav() {
                     className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-white transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
-                    Wycieczki
+                    {t("links.link1")}
                   </Link>
                 </li>
                 <li>
@@ -165,7 +167,7 @@ export default function Nav() {
                     className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-white transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
-                    Kuligi
+                    {t("links.link2")}
                   </Link>
                 </li>
                 <li>
@@ -174,7 +176,7 @@ export default function Nav() {
                     className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-white transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
-                    Bilety na Kasprowy Wierch
+                    {t("links.link3")}
                   </Link>
                 </li>
                 <li>
@@ -183,7 +185,7 @@ export default function Nav() {
                     className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-white transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
-                    Transport
+                    {t("links.link4")}
                   </Link>
                 </li>
                 <li>
@@ -192,7 +194,7 @@ export default function Nav() {
                     className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-white transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
-                    Partnerzy
+                    {t("links.link5")}
                   </Link>
                 </li>
                 <li>
@@ -201,13 +203,13 @@ export default function Nav() {
                     className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-white transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
-                    Kontakt
+                    {t("links.link6")}
                   </Link>
                 </li>
                 <li className="mt-6">
                   <Button
                     onClick={handleMenuToggle}
-                    text="Kup Online"
+                    text={t("button")}
                     link={"/rezerwacje"}
                   />
                 </li>
