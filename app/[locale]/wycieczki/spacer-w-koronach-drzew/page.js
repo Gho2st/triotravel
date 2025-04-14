@@ -41,8 +41,8 @@ export default function Spacer() {
       "",
       "Dodatkowo płatne (bilet na kolejkę gondolową w dwie strony + na scieżkę w koronach drzew)",
     ],
-    ["Bilet normalny", "30 €"],
-    ["Bilet ulgowy (do 14lat, emeryci 65+)", "24E"],
+    ["Bilet normalny", "30€"],
+    ["Bilet ulgowy (do 14lat, emeryci 65+)", "24€"],
   ];
   return (
     <>
