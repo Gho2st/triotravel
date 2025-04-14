@@ -31,7 +31,7 @@ export default function Atrakcje() {
   const articles = [
     {
       title: "Spływ Dunajcem 2.5h",
-      image: "/wycieczki/splyw.png",
+      image: "/wycieczki/splyw-dunajcem-dluzszy/splyw.png",
       link: "/wycieczki/splyw-dunajcem-dluzszy",
     },
     {
@@ -46,58 +46,63 @@ export default function Atrakcje() {
     },
     {
       title: "Jaskinia Bielańska",
-      image: "/wycieczki/jaskinia.png",
-      link: "/kuligi/wieczor-sylwestrowy",
+      image: "/wycieczki//jaskinia-bielanska/jaskinia.png",
+      link: "/wycieczki/jaskinia-bielanska",
     },
     {
       title: "Spływ Dunajcem 1.5h",
-      image: "/wycieczki/splyw2.png",
-      link: "/kuligi/wieczor-sylwestrowy",
+      image: "/wycieczki/splyw-dunajcem-krotszy/splyw.png",
+      link: "/wycieczki/splyw-dunajcem-krotszy",
     },
     {
       title: "Tajemnice Wieliczki",
-      image: "/wycieczki/wieliczka.png",
-      link: "/kuligi/wieczor-sylwestrowy",
+      image: "/wycieczki/tajemnice-wieliczki/wieliczka.png",
+      link: "/wycieczki/tajemnice-wieliczki",
     },
     {
       title: "Bilety na Kasprowy Wierch",
       image: "/wycieczki/kasprowy.png",
-      link: "/kuligi/wieczor-sylwestrowy",
+      link: "/bilety-na-kasprowy-wierch",
+    },
+    {
+      title: "Słowacki Raj",
+      image: "/wycieczki/slowacki-raj/slowacki-raj.png",
+      link: "/wycieczki/slowacki-raj",
     },
     {
       title: "Wiedeń",
-      image: "/wycieczki/wieden.png",
-      link: "/kuligi/wieczor-sylwestrowy",
+      image: "/wycieczki/wieden/wieden.png",
+      link: "/wycieczki/wieden",
     },
     {
       title: "Budapeszt",
-      image: "/wycieczki/budapeszt.png",
-      link: "/kuligi/wieczor-sylwestrowy",
+      image: "/wycieczki/budapeszt/budapeszt.png",
+      link: "/wycieczki/budapeszt",
     },
     {
       title: "Zamek Orawski",
-      image: "/wycieczki/zamek-orawski.png",
-      link: "/kuligi/wieczor-sylwestrowy",
+      image: "/wycieczki/zamek-orawski/zamek-orawski.png",
+      link: "/wycieczki/zamek-orawski",
     },
     {
       title: "Świątynia Lodowa Hrebieniok",
-      image: "/wycieczki/hrebieniok.png",
-      link: "/kuligi/wieczor-sylwestrowy",
+      image: "/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.png",
+      link: "/wycieczki/swiatynia-lodowa-hrebieniok",
     },
     {
       title: "Zwiedzanie Krakowa",
-      image: "/wycieczki/krakow.png",
-      link: "/kuligi/wieczor-sylwestrowy",
+      image: "/wycieczki/krakow/krakow.png",
+      link: "/wycieczki/krakow-z-przewodnikiem",
     },
     {
       title: "Dookoła Tatr",
-      image: "/wycieczki/tatry.png",
-      link: "/kuligi/wieczor-sylwestrowy",
+      image: "/wycieczki/dookola-tatr/tatry.png",
+      link: "/wycieczki/dookola-tatr",
     },
     {
       title: "Rafting po Dunajcu",
-      image: "/wycieczki/rafting.png",
-      link: "/kuligi/wieczor-sylwestrowy",
+      image: "/wycieczki/rafting-po-dunajcu/rafting.png",
+      link: "/wycieczki/rafting-po-dunajcu",
     },
   ];
   return (
@@ -105,7 +110,7 @@ export default function Atrakcje() {
       <Header text="Wycieczki" />
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
         <LineHeader text="Oferta Wiosna 2025" />
-        <div className="grid grid-cols-2 gap-16 mt-20 justify-center items-center">
+        <div className="grid md:grid-cols-2 gap-16 mt-20 justify-center items-center">
           {articles.map((article, index) => (
             <Card key={index} article={article} index={index} />
           ))}

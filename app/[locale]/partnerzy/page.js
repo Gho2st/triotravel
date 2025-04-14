@@ -20,7 +20,7 @@ export default function Partners() {
   return (
     <>
       <Header text="Nasi Partnerzy" />
-      <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
+      <section className="px-6 pt-0 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
         <div className="mt-16 flex flex-col gap-32">
           {[
             "skocznia",

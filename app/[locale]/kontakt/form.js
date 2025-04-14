@@ -192,19 +192,19 @@ export default function Form() {
               Informacje
             </h3>
             <ul className="flex flex-col gap-8 mt-10">
-              <li className="flex justify-center md:justify-start gap-2 items-center">
+              <li className="flex gap-2 items-center">
                 <FaPhoneAlt className="text-2xl text-customBlue" />
                 <Link className="underline text-xl" href={"tel:48881201205"}>
                   +48 881 201 205{" "}
                 </Link>
               </li>
-              <li className="flex justify-center text-xl md:justify-start gap-2 items-center">
+              <li className="flex  text-xl  gap-2 items-center">
                 <IoMail className="text-2xl text-customBlue" />
                 <Link className="underline" href={"mailto:biuro@triotravel.eu"}>
                   biuro@triotravel.eu{" "}
                 </Link>
               </li>
-              <li className="flex justify-center text-xl md:justify-start gap-2 items-center">
+              <li className="flex  text-xl  gap-2 items-center">
                 <FaLocationDot className="text-2xl text-customBlue" />
                 ul. Kościuszki 23A, 34-500 Zakopane
               </li>

@@ -14,8 +14,8 @@ export default function Map() {
           backgroundPosition: "center",
         }}
       >
-        <div className="text-center text-white text-xl w-3/4 mx-auto px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
-          <h2 className="text-5xl mb-16  font-bold leading-snug">
+        <div className="text-center text-white text-xl md:w-3/4 mx-auto px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
+          <h2 className="text-3xl md:text-5xl mb-16  font-bold leading-snug">
             Miejsce Spotkań - Punkty odbioru na terenie Zakopanego i okolic
           </h2>
           <p>
@@ -32,8 +32,8 @@ export default function Map() {
             regionie.
           </p>
         </div>
-        <div className="flex gap-20">
-          <div className="w-1/3">
+        <div className="flex flex-col md:flex-row md:gap-20">
+          <div className="md:w-1/3">
             <Image
               src="/mapa-przystankow/2.png"
               width={500}
@@ -42,7 +42,7 @@ export default function Map() {
               alt="telefon w ręce z włączoną aplikację mapy"
             />
           </div>
-          <div className="text-white mt-32">
+          <div className="text-white mt-16 md:mt-32 px-6 pb-20">
             <h3 className="text-4xl font-bold">
               {" "}
               Dlaczego warto wybrać nasze punkty odbioru?

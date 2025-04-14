@@ -64,7 +64,7 @@ export default function Nav() {
         {/* Prawa strona: Nawigacja, LocaleSwitcher, Hamburger */}
         <div className="flex items-center gap-6">
           {/* Desktop Navigation */}
-          <ul className="font-medium hidden items-center text-lg font-light xl:flex xl:gap-6 ">
+          <ul className="font-medium hidden items-center text-lg  xl:flex xl:gap-6 ">
             <li>
               <Link className="px-3" href={"/wycieczki"}>
                 Wycieczki
@@ -124,17 +124,18 @@ export default function Nav() {
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            initial="closed"
-            animate="open"
-            exit="closed"
-            className="fixed inset-0 z-40 bg-white text-black overflow-y-auto mt-16"
+            initial={{ opacity: 0, y: "-100%" }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: "-100%" }}
+            transition={{ duration: 0.3, ease: "easeInOut" }}
+            className="fixed inset-0 z-50 bg-gradient-to-b from-white to-gray-50 text-black overflow-y-auto mt-24 shadow-xl"
           >
-            <div className="">
-              <ul className="pt-20 px-10 pb-6 flex flex-col text-sm font-medium min-h-screen">
+            <div className="container mx-auto">
+              <ul className="pt-10 px-6 pb-8 flex flex-col text-base font-semibold min-h-screen gap-2">
                 <li>
                   <Link
                     href="/wycieczki"
-                    className="border-b border-gray-300 py-3"
+                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-white transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
                     Wycieczki
@@ -143,7 +144,7 @@ export default function Nav() {
                 <li>
                   <Link
                     href="/kuligi"
-                    className="border-b border-gray-300 py-3"
+                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-white transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
                     Kuligi
@@ -152,7 +153,7 @@ export default function Nav() {
                 <li>
                   <Link
                     href="/bilety-na-kasprowy-wierch"
-                    className="border-b border-gray-300 py-3"
+                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-white transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
                     Bilety na Kasprowy Wierch
@@ -161,7 +162,7 @@ export default function Nav() {
                 <li>
                   <Link
                     href="/transport"
-                    className="border-b border-gray-300 py-3"
+                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-white transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
                     Transport
@@ -170,7 +171,7 @@ export default function Nav() {
                 <li>
                   <Link
                     href="/partnerzy"
-                    className="border-b border-gray-300 py-3"
+                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-white transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
                     Partnerzy
@@ -179,10 +180,22 @@ export default function Nav() {
                 <li>
                   <Link
                     href="/kontakt"
-                    className="border-b border-gray-300 py-3"
+                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-white transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
                     Kontakt
+                  </Link>
+                </li>
+                {/* Dodajemy link do regulaminu, zgodnie z Twoim wcześniejszym pytaniem */}
+                <li>
+                  <Link
+                    href="/regulamin-trio-travel.pdf"
+                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-white transition-colors duration-200"
+                    onClick={handleMenuToggle}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Regulamin
                   </Link>
                 </li>
               </ul>

@@ -39,7 +39,7 @@ export default function Kasprowy() {
           Cennik Biletów na Kasprowy Wierch
         </h2>
         <Table headers={tableHeaders} rows={tableRows} />
-        <div className="grid grid-cols-3 gap-16 justify-center mt-16">
+        <div className="grid md:grid-cols-3 gap-8 md:gap-16 justify-center mt-16">
           <ClickButton
             onClick={() => handleButtonClick("uwagi")}
             text="Uwagi"
@@ -100,7 +100,7 @@ export default function Kasprowy() {
             </div>
           )}
           {activeSection === "ulgi" && (
-            <div className="text-center mt-20 w-3/4 mx-auto">
+            <div className="text-center mt-20 md:w-3/4 mx-auto">
               <h3 className="text-3xl font-medium">
                 Przejazd Darmowy Przysługuje
               </h3>

@@ -20,9 +20,11 @@ export default function BackgroundList({
           {text}
         </p>
       )}
-      <ul className={`text-lg flex flex-col gap-2 ${textColor}`}>
+      <ul className={`text-lg flex flex-col gap-8 ${textColor}`}>
         {items.map((item, index) => (
-          <li key={index}>{item}</li>
+          <li className="" key={index}>
+            {item}
+          </li>
         ))}
       </ul>
     </div>

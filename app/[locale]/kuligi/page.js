@@ -26,7 +26,7 @@ export default function Kuligi() {
     <>
       <Header text="Kuligi" />
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
-        <div className="w-3/4 mx-auto text-center">
+        <div className="md:w-3/4 mx-auto text-center">
           <p className="text-xl">
             <span className="font-bold">TrioTravel</span> organizuje jedyne w
             swoim rodzaju kuligi. Zakopane posiada wiele niezwykle urokliwych
@@ -46,7 +46,7 @@ export default function Kuligi() {
         {/* NAPIS Z LINIAMI PO BOKU */}
         <LineHeader text=" Kuligi" />
 
-        <div className="grid grid-cols-2 gap-16 mt-20 justify-center items-center">
+        <div className="grid md:grid-cols-2 gap-16 mt-20 justify-center items-center">
           {articles.map((article, index) => (
             <Card key={index} article={article} index={index} />
           ))}

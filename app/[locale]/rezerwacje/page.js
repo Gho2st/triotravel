@@ -8,7 +8,7 @@ export default function Rezerwacje() {
       <div className="">
         <section className="">
           <Header text="Kup Online" />
-          <div className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24 text-center text-xl w-3/4 mx-auto">
+          <div className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24 text-center text-xl md:w-3/4 mx-auto">
             <p className="mb-10">
               Rezerwację online można dokonać najpóźniej <span>24h</span> przed
               planowaną datą wycieczki. Najpóźniej <span>dzień</span> przed
@@ -19,7 +19,7 @@ export default function Rezerwacje() {
               <Button link="/mapa-przystankow" text="Mapa Przystanków" />
             </div>
           </div>
-          <div className="w-3/4 h-196 bg-neutral-200 mx-auto">
+          <div className="md:w-3/4 h-196 bg-neutral-200 mx-auto">
             TU BEDZIE DROPLABS
           </div>
         </section>
