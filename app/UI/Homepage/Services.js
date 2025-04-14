@@ -42,7 +42,7 @@ function ServiceCard({ icon, title, description, isLeftAligned }) {
       transition={{ duration: 1.2 }}
     >
       <div className="bg-blue-800 rounded-lg inline-block p-3">{icon}</div>
-      <h2 className="text-xl leading-snug 2xl:text-4xl 2xl:leading-snug my-5 font-semibold">
+      <h2 className="text-2xl leading-snug 2xl:text-4xl 2xl:leading-snug my-5 font-semibold">
         {t(title)}
       </h2>
       <p className="text-neutral-900 text-xl">{t(description)}</p>
