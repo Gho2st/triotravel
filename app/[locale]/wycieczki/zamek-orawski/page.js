@@ -21,8 +21,8 @@ export default function Zamek() {
     ["Bilet normalny", "90 PLN"],
     ["Bilet ulgowy (dziecko do lat 15, emeryt, niepełnosprawny)", "80 PLN"],
     ["", "Dodatkowo płatne (bilety wstępu do Zamku Orawskiego)"],
-    ["Bilet normalny", "9 E"],
-    ["Bilet ulogwy", "4.5 E"],
+    ["Bilet normalny", "9€"],
+    ["Bilet ulogwy", "4.5€"],
   ];
   return (
     <>

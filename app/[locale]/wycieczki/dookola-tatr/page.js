@@ -37,14 +37,14 @@ export default function Tatry() {
     ["", "Dodatkowo płatne"],
     [
       "Jaskinia Demianowska",
-      "dorośli 12 E , studenci/emeryci/renciści 11 E ,  dzieci w wieku 6-15 lat 6 E**",
+      "dorośli 12€ , studenci/emeryci/renciści 11€ ,  dzieci w wieku 6-15 lat 6€**",
     ],
     ["* fotogrowanie/kamera", "10 E**"],
     [
       "Zamek Orawski",
-      " dorośli 9 E, studenci/emeryci/renciści/dzieci 4,5 E, dzieci do lat 6 GRATIS**",
+      " dorośli 9€, studenci/emeryci/renciści/dzieci 4,5€, dzieci do lat 6 GRATIS**",
     ],
-    ["* fotogrowanie/kamera", "3 E fotografowanie/5 E kamera**"],
+    ["* fotogrowanie/kamera", "3€ fotografowanie/5€ kamera**"],
   ];
   return (
     <>

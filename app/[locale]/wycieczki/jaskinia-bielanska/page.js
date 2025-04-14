@@ -43,9 +43,9 @@ export default function Jaskinia() {
       "",
       "Dodatkowo płatne (Bilety do Jaskini Bielskiej - czas zwiedzania: 70 min)",
     ],
-    ["Bilet normalny", "14 E"],
-    ["Bilet ulgowy (dzieci od 6 do 15 lat)", "7E"],
-    ["Bilet ulgowy (studenci i seniorzy 60+)", "13E"],
+    ["Bilet normalny", "14€"],
+    ["Bilet ulgowy (dzieci od 6 do 15 lat)", "7€"],
+    ["Bilet ulgowy (studenci i seniorzy 60+)", "13€"],
   ];
   return (
     <>

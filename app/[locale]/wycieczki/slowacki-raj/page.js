@@ -31,8 +31,8 @@ export default function SlowackiRaj() {
     ["Bilet normalny", "120 PLN*"],
     ["Bilet ulgowy (dzieci do 10 lat)", "100 PLN*"],
     ["", "Dodatkowo płatne (Wstęp do Słowackiego Parku Narodowego)"],
-    ["Bilet normalny", "4 E"],
-    ["Bilet ulgowy (dzieci do 10 lat i seniorzy powyżej 62 lat)", "3 E"],
+    ["Bilet normalny", "4€"],
+    ["Bilet ulgowy (dzieci do 10 lat i seniorzy powyżej 62 lat)", "3€"],
   ];
   return (
     <>

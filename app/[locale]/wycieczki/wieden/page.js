@@ -88,18 +88,18 @@ export default function Wieden() {
     ],
     ["Bilet ulgowy (dzieci do 14 r.ż)", "300 PLN*"],
     ["", "Dodatkowo płatne"],
-    ["Bilet normalny", "Pałac Schonbrum: 24E, Obiad: ok: 15E"],
+    ["Bilet normalny", "Pałac Schonbrum: 24€, Obiad: ok: 15€"],
     [
       "Bilet ulgowy (dzieci i młodzież 6-18 lat)",
-      "Pałac Schonbrum: 17E, Obiad: ok: 15E",
+      "Pałac Schonbrum: 17€, Obiad: ok: 15€",
     ],
     [
-      "Studenci (na podstawie kart: Eueo26, ISIC, ITIC)",
-      "Pałac Schonbrum: 20E, Obiad: ok: 15E",
+      "Studenci (na podstawie kart: Euro26, ISIC, ITIC)",
+      "Pałac Schonbrum: 20€, Obiad: ok: 15€",
     ],
     [
       "Osoby niepełnosprawne i dzieci do 6 lat",
-      "Pałac Schonbrum: BEZPŁATNE, Obiad: ok: 15E",
+      "Pałac Schonbrum: BEZPŁATNE, Obiad: ok: 15€",
     ],
   ];
   return (

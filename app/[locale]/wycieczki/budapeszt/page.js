@@ -93,7 +93,7 @@ export default function Budapeszt() {
     ],
     ["Bilet ulgowy (dzieci do 14 r.ż)", "260 PLN*"],
     ["", "Dodatkowo płatne"],
-    ["Rejs po Dunaju", "12 E"],
+    ["Rejs po Dunaju", "12 €"],
     [
       "Kościół Macieja",
       "dorośli 2500 HUF, studenci i emeryci pow. 60 lat - 1900 HUF, dzieci do 6 lat gratis,",

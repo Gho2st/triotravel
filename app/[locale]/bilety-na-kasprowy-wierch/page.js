@@ -102,7 +102,7 @@ export default function Kasprowy() {
           {activeSection === "ulgi" && (
             <div className="text-center mt-20 md:w-3/4 mx-auto">
               <h3 className="text-3xl font-medium">
-                Przejazd Darmowy Przysługuje
+                Przejazd darmowy przysługuje
               </h3>
               <p className="text-lg mt-10">
                 Dzieciom do 4 lat. Przejazd darmowy na podstawie biletu

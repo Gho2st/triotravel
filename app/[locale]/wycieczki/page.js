@@ -87,9 +87,9 @@ export default function Atrakcje() {
   return (
     <>
       <Header text={t("trips.header")} />
-      <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
+      <section className="px-6 md:px-20 2xl:px-32 py-16 md:py-20 2xl:py-24">
         <LineHeader text={t("header")} />
-        <div className="grid md:grid-cols-2 gap-16 mt-20 justify-center items-center">
+        <div className="grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-2 gap-16 mt-20 justify-center items-center">
           {articles.map((article, index) => (
             <Card key={index} article={article} index={index} />
           ))}

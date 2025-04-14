@@ -21,8 +21,8 @@ export default function Hrebieniok() {
     ["Bilet normalny", "80 PLN"],
     ["Bilet ulgowy (dzieci do 10 lat)", "75 PLN"],
     ["", "Dodatkowo płatne (wjazd kolejką na Hrebieniok)"],
-    ["Bilet normalny", "16 E"],
-    ["Bilet ulogwy (dzieci do 10 lat)", "14 E"],
+    ["Bilet normalny", "16 €"],
+    ["Bilet ulogwy (dzieci do 10 lat)", "14 €"],
   ];
   return (
     <>

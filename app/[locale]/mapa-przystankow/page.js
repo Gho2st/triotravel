@@ -42,7 +42,7 @@ export default function Map() {
               alt="telefon w ręce z włączoną aplikację mapy"
             />
           </div>
-          <div className="text-white mt-16 md:mt-32 px-6 pb-20">
+          <div className="text-white mt-16 2xl:mt-24 px-6 pb-20">
             <h3 className="text-4xl font-bold">
               {" "}
               Dlaczego warto wybrać nasze punkty odbioru?
