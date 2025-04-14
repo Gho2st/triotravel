@@ -39,7 +39,9 @@
             "header4": "Transport w Górach?",
             "header5": "Wycieczka w Górach?",
             "header6": "Zimowy Kulig?"
-        }
+        },
+        "button": "Rezerwuj",
+        "button2": "Teraz"
     },
     "about": {
         "header1": "Trio Travel - Twoje Biuro Podróży w Zakopanem na Niezapomniane Wycieczki.",

@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation"; // Import useRouter z next/navigation
+import { useTranslations } from "next-intl";
 
 // Animation variants for the button
 const buttonVariants = {
@@ -32,6 +33,7 @@ const circleVariants = {
 
 export default function HeroButton() {
   const router = useRouter(); // Inicjalizacja routera
+  const t = useTranslations("hero");
 
   // Funkcja obsługująca kliknięcie
   const handleClick = () => {
@@ -50,8 +52,8 @@ export default function HeroButton() {
         className="absolute top-[-4rem] left-[-12px] md:left-0 md:top-[-6rem] bg-white p-2 py-5 md:p-6 md:py-10 border-3 text-xl rounded-[100%]"
         variants={circleVariants}
       >
-        <span className="">Rezerwuj</span>{" "}
-        <span className="text-xl md:text-2xl font-bold">TERAZ</span>
+        <span className="">{t("button")}</span>{" "}
+        <span className="text-xl md:text-2xl font-bold">{t("button2")}</span>
       </motion.div>
     </motion.button>
   );

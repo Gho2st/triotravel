@@ -202,7 +202,7 @@ export default function Hero() {
 
       {/* Ikony social media */}
       <motion.div
-        className="absolute text-4xl bottom-0 left-0 flex gap-6 p-6 text-white z-10"
+        className="absolute text-3xl md:text-4xl bottom-0 left-0 flex gap-6 p-6 text-white z-10"
         variants={socialVariants}
         initial="initial"
         animate="animate"

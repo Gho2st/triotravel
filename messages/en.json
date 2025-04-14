@@ -22,13 +22,15 @@
     },
     "hero": {
         "headers": {
-            "header1": "Kayaking Trip?",
+            "header1": "Kayak Trip?",
             "header2": "Thermal Pools?",
             "header3": "Tickets to Kasprowy?",
             "header4": "Mountain Transport?",
             "header5": "Mountain Trip?",
             "header6": "Winter Sleigh Ride?"
-        }
+        },
+        "button": "Book",
+        "button2": "Now"
     },
     "about": {
         "header1": "Trio Travel - Your Travel Agency in Zakopane for Unforgettable Trips.",
