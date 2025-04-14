@@ -37,7 +37,7 @@ export default function Wieden() {
       nas zwiedzanie miasta z przewodnikiem. Tutaj mamy okazję zwiedzić i
       wysłuchać ciekawostek na temat reprezentacyjnego Placu Karola czy
       Hofburgu, który to uważany jest za najważniejszy obiekt zabytkowy w
-      Wiedniu. Jest to dawna siedziba rodu Habsburgów, mająca juz około 700 lat.
+      Wiedniu. Jest to dawna siedziba rodu Habsburgów, mająca już około 700 lat.
       Obiekt jest imponujący, a jego powierzchnia przekracza 240 tysięcy m2.
       Posiada on aż 19 dziedzińców, 50 klatek schodowych, 2600 pokoi oraz
       muzeów, kaplic, ogrodów, bibliotek i innych pomieszczeń. Kolejne atrakcje,
@@ -50,7 +50,7 @@ export default function Wieden() {
       księcia Eugeniusza Sabaudzkiego, w pierwszej połowie XVIII wieku. Na
       całość składają się dwa pałace i ogród. Dolny Belweder oraz Górny Belweder
       są dziełami architekta Johanna Lukasa von Hildebrandta. Ogród stworzony
-      został natomiast przez Dominique'a Girarda i charakteryzuje się francuskim
+      został natomiast przez Dominiquea Girarda i charakteryzuje się francuskim
       stylem, w którym znajdziemy różnego rodzaje posągi w tym sfinksy, fontanny
       oraz niezliczone ilości roślinności.
     </>,

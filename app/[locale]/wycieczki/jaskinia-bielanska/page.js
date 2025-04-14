@@ -71,7 +71,7 @@ export default function Jaskinia() {
           <br></br> Już w pierwszej połowie XVIII wieku wejścia prowadzące do
           jaskini znane były poszukiwaczom złota, jednak przez długi okres czasu
           pozostały one w utajnieniu. Otwór wstępny do jaskini został ponownie
-          odnaleziony przez L. Guldena i poszukiwacza złota Fabry'ego w 1826
+          odnaleziony przez L. Guldena i poszukiwacza złota Fabryego w 1826
           roku. <br></br> <br></br> W 1896 roku elektrownia na rzece Białej
           dostarczała prąd do jaskini, którą można było zwiedzać tylko trzy razy
           w ciągu dnia, przewodnik otwierał ją nawet wtedy gdy na zwiedzanie
