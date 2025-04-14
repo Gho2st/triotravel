@@ -7,7 +7,7 @@ export default function PartnerItem({ t, index, partner, link }) {
   return (
     <article
       className={`flex flex-col md:flex-row justify-between items-center gap-16 xl:gap-24 ${
-        index % 2 === 1 ? "xl:flex-row-reverse" : ""
+        index % 2 === 1 ? "md:flex-row-reverse" : ""
       }`}
     >
       <div className="md:w-3/5">
@@ -18,7 +18,7 @@ export default function PartnerItem({ t, index, partner, link }) {
         </Link>
         <p className="font-light text-xl">{t.text}</p>
       </div>
-      <div className="w-3/5 sm:w-2/5 md:w-2/5">
+      <div className="sm:w-2/5 md:w-2/5">
         <Image
           src={`/partnerzy/${image}`}
           width={100}

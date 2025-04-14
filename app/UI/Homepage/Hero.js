@@ -152,48 +152,51 @@ export default function Hero() {
         />
       </AnimatePresence>
 
-      {/* Strzałka w lewo */}
-      <motion.button
-        onClick={prevSlide}
-        className="absolute left-1 md:left-4 text-white text-xl md:text-4xl p-2 z-10 cursor-pointer"
-        variants={arrowVariants}
-        initial="initial"
-        whileHover="hover"
-        whileTap="tap"
-      >
-        <FaArrowLeft />
-      </motion.button>
+      {/* Kontener na treść i strzałki */}
+      <div className="flex flex-col items-center gap-4 z-10">
+        {/* Animowana treść z obsługą najechania */}
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={currentSlide}
+            className="bg-white/90 inline-flex rounded-2xl shadow-2xl"
+            variants={contentVariants}
+            initial="initial"
+            animate="animate"
+            exit="exit"
+            onMouseEnter={() => setIsPaused(true)}
+            onMouseLeave={() => setIsPaused(false)}
+          >
+            <span className="text-2xl md:text-4xl font-medium p-3 md:p-6 w-52 md:w-96 lg:w-144 text-center">
+              {slides[currentSlide].text}
+            </span>
+            <HeroButton link={slides[currentSlide].link} />
+          </motion.div>
+        </AnimatePresence>
 
-      {/* Animowana treść z obsługą najechania */}
-      <AnimatePresence mode="wait">
-        <motion.div
-          key={currentSlide}
-          className="bg-white/90 inline-flex rounded-2xl shadow-2xl z-10"
-          variants={contentVariants}
-          initial="initial"
-          animate="animate"
-          exit="exit"
-          onMouseEnter={() => setIsPaused(true)}
-          onMouseLeave={() => setIsPaused(false)}
-        >
-          <span className="text-2xl md:text-4xl font-medium p-3 md:p-6 w-52 md:w-96 lg:w-144 text-center">
-            {slides[currentSlide].text}
-          </span>
-          <HeroButton link={slides[currentSlide].link} />
-        </motion.div>
-      </AnimatePresence>
-
-      {/* Strzałka w prawo */}
-      <motion.button
-        onClick={nextSlide}
-        className="absolute right-1 md:right-4 text-white text-xl md:text-4xl p-2 z-10 cursor-pointer"
-        variants={arrowVariants}
-        initial="initial"
-        whileHover="hover"
-        whileTap="tap"
-      >
-        <FaArrowRight />
-      </motion.button>
+        {/* Strzałki - pod napisem na telefonie, po bokach na większych ekranach */}
+        <div className="flex items-center mt-10 md:mt-0 gap-8 md:gap-0 md:absolute md:inset-0 ">
+          <motion.button
+            onClick={prevSlide}
+            className="text-white text-2xl md:text-4xl p-2 cursor-pointer  md:absolute md:left-4"
+            variants={arrowVariants}
+            initial="initial"
+            whileHover="hover"
+            whileTap="tap"
+          >
+            <FaArrowLeft />
+          </motion.button>
+          <motion.button
+            onClick={nextSlide}
+            className="text-white text-2xl md:text-4xl p-2 cursor-pointer   md:absolute md:right-4"
+            variants={arrowVariants}
+            initial="initial"
+            whileHover="hover"
+            whileTap="tap"
+          >
+            <FaArrowRight />
+          </motion.button>
+        </div>
+      </div>
 
       {/* Ikony social media */}
       <motion.div

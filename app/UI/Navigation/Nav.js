@@ -65,33 +65,51 @@ export default function Nav() {
         <div className="flex items-center gap-6">
           {/* Desktop Navigation */}
           <ul className="font-medium hidden items-center text-lg  xl:flex xl:gap-6 ">
-            <li>
-              <Link className="px-3" href={"/wycieczki"}>
+            <li className="">
+              <Link
+                className="px-3 hover:text-red-500 duration-300"
+                href={"/wycieczki"}
+              >
                 Wycieczki
               </Link>
             </li>
             <li>
-              <Link className="px-3" href={"/kuligi"}>
+              <Link
+                className="px-3 hover:text-red-500 duration-300"
+                href={"/kuligi"}
+              >
                 Kuligi
               </Link>
             </li>
             <li>
-              <Link className="px-3" href={"/bilety-na-kasprowy-wierch"}>
+              <Link
+                className="px-3 hover:text-red-500 duration-300"
+                href={"/bilety-na-kasprowy-wierch"}
+              >
                 Bilety Na Kasprowy
               </Link>
             </li>
             <li>
-              <Link className="px-3" href={"/transport"}>
+              <Link
+                className="px-3 hover:text-red-500 duration-300"
+                href={"/transport"}
+              >
                 Transport
               </Link>
             </li>
             <li>
-              <Link className="px-3" href={"/partnerzy"}>
+              <Link
+                className="px-3 hover:text-red-500 duration-300"
+                href={"/partnerzy"}
+              >
                 Partnerzy
               </Link>
             </li>
             <li>
-              <Link className="px-3" href={"/kontakt"}>
+              <Link
+                className="px-3 hover:text-red-500 duration-300"
+                href={"/kontakt"}
+              >
                 Kontakt
               </Link>
             </li>
@@ -186,17 +204,12 @@ export default function Nav() {
                     Kontakt
                   </Link>
                 </li>
-                {/* Dodajemy link do regulaminu, zgodnie z Twoim wcześniejszym pytaniem */}
                 <li>
-                  <Link
-                    href="/regulamin-trio-travel.pdf"
-                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-white transition-colors duration-200"
+                  <Button
                     onClick={handleMenuToggle}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Regulamin
-                  </Link>
+                    text="Kup Online"
+                    link={"/rezerwacje"}
+                  />
                 </li>
               </ul>
             </div>
