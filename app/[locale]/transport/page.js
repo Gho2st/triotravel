@@ -34,7 +34,7 @@ export default function Transport() {
           ]}
         />
         <div className="px-6 md:px-20 xl:px-32 2xl:px-44 pb-10 md:pb-24 md:w-3/4 mx-auto  text-xl text-center">
-          <h2 className="text-3xl md:text-4xl leading-snug mt-8 md:mt-16">
+          <h2 className="text-3xl 2xl:text-4xl leading-snug mt-8 md:mt-16">
             <span className="font-bold">Trio Travel </span> -{" "}
             <span className="font-bold">{t("header3")} </span> {t("header2")}
           </h2>

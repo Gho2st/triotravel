@@ -9,7 +9,7 @@ export default function Info() {
       <div className="flex justify-center">
         <Link
           href="/regulamin.pdf"
-          className="text-center underline uppercase text-3xl mb-20 font-bold"
+          className="text-center underline uppercase text-2xl 2xl:text-3xl mb-20 font-bold"
         >
           {t("header")}
         </Link>
