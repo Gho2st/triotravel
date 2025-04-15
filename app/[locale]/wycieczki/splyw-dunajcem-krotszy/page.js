@@ -19,9 +19,26 @@ export default function SplywKrotszy() {
     setActiveSection((prev) => (prev === section ? false : section));
   };
   const customItems = [
-    "Rejs statkiem po Jeziorze Czorsztyńskim (Podczas rejsu statkiem spacerowym będziesz mógł podziwiać zaporę wodną, ruiny zamku Czorsztyńskiego, zamek Niedzica, skansen Czorsztyński oraz przepiękny górski krajobraz). Taki rejs to przygoda, która na długo zostanie w twojej pamięci!",
-    "Zamek w Niedzicy - gdzie więziono i torturowano Janosika.",
-    "Zaporę Czorsztyńską wraz z spektakularnym malowidłem wykonanym w technice 3D",
+    <>
+      <strong>Rejs statkiem po Jeziorze Czorsztyńskim</strong> - (Podczas rejsu
+      statkiem spacerowym będziesz mógł podziwiać zaporę wodną, ruiny zamku
+      Czorsztyńskiego, zamek Niedzica, skansen Czorsztyński oraz przepiękny
+      górski krajobraz). Taki rejs to przygoda, która na długo zostanie w twojej
+      pamięci!
+    </>,
+    <>
+      <strong>Zamek w Niedzicy </strong> - gdzie więziono i torturowano
+      Janosika.
+    </>,
+    <>
+      <strong>Zaporę Czorsztyńską</strong> - wraz z spektakularnym malowidłem
+      wykonanym w technice 3D
+    </>,
+    <>
+      <strong>Zaporę Czorsztyńską</strong> - wraz z spektakularnym malowidłem
+      wykonanym w technice 3D
+    </>,
+
     "Park Miniatur Podhala, Orawy i Spisza, park linowy.",
     "Wracając do Zakopanego zatrzymamy się w Dębnie, gdzie znajduje się zabytkowy drewniany Kościół z XV w wpisany na listę UNESCO - prelekcja z Panią kustosz ok. 20 min.",
   ];

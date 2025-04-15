@@ -145,7 +145,7 @@ export default function Budapeszt() {
         </div>
         {activeSection === "warunki" && (
           <div className="text-center mt-10 md:w-3/4 mx-auto">
-            <ul className="text-lg mt-10">
+            <ul className="xl:text-lg mt-10">
               <li>
                 Organizator nie odpowiada za zmianę cen wstępów w trakcie
                 sezonu.

@@ -10,17 +10,17 @@ import { FaPeopleCarry } from "react-icons/fa";
 // Define cardsData with translation keys
 const cardsData = [
   {
-    icon: <FaBus className="text-4xl text-white" />,
+    icon: <FaBus className="text-2xl xl:text-4xl text-white" />,
     title: "cards.1.header",
     description: "cards.1.text",
   },
   {
-    icon: <FaSearch className="text-4xl text-white" />,
+    icon: <FaSearch className="text-2xl xl:text-4xl text-white" />,
     title: "cards.2.header",
     description: "cards.2.text",
   },
   {
-    icon: <FaPeopleCarry className="text-4xl text-white" />,
+    icon: <FaPeopleCarry className="text-2xl xl:text-4xl text-white" />,
     title: "cards.3.header",
     description: "cards.3.text",
   },
@@ -42,10 +42,10 @@ function ServiceCard({ icon, title, description, isLeftAligned }) {
       transition={{ duration: 1.2 }}
     >
       <div className="bg-blue-800 rounded-lg inline-block p-3">{icon}</div>
-      <h2 className="text-2xl leading-snug 2xl:text-4xl 2xl:leading-snug my-5 font-semibold">
+      <h2 className="text-xl xl:text-2xl leading-snug 2xl:text-4xl 2xl:leading-snug my-5 font-semibold">
         {t(title)}
       </h2>
-      <p className="text-neutral-900  xl:text-xl">{t(description)}</p>
+      <p className="text-neutral-900  xl:text-lg 2xl:text-xl">{t(description)}</p>
       <span
         className={`absolute top-[50%] translate-y-[-50%] ${
           isLeftAligned ? "right-[-30px]" : "left-[-30px]"
