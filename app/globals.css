@@ -42,7 +42,7 @@ body {
 .slick-track {
   display: flex !important;
   align-items: center !important;
-  padding: 3rem 0;
+  padding: 1rem 0;
 }
 
 .slick-dots {

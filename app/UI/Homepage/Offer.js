@@ -139,7 +139,10 @@ export default function Offer() {
         {t("header")}
       </h2>
       <div>
-        <Slider {...carouselSettings} className="mx-auto my-10 xl:my-12">
+        <Slider
+          {...carouselSettings}
+          className="mx-auto my-10 xl:my-12 2xl:mt-20"
+        >
           {gallery.map((image, index) => (
             <Link href={image.link} key={index}>
               <div className="shadow-xl text-center rounded-xl hover:cursor-pointer group h-[350px] md:h-[450px] flex flex-col">
