@@ -51,14 +51,14 @@ export default function Reviews() {
           {t("header2")} <span className="text-customBlue">564</span>{" "}
           {t("header")} <span className="text-customBlue">4.6/5!</span>
         </h2>
-        <p className="mt-10 xl:mt-12 2xl:px-16 2xl:mt-16 2xl:mb-24 leading-relaxed text-xl">
+        <p className="mt-10 xl:mt-12 2xl:px-16 2xl:mt-16 2xl:mb-24 leading-relaxed text-lg xl:text-xl">
           {t("text")}
         </p>
 
         <div className="mt-0 md:mt-6 2xl:mt-14">
           <Slider {...settings} className="w-[100%] mx-auto">
             {reviews.map((review, index) => (
-              <div key={index} className="p-3 xl:p-4">
+              <div key={index} className="">
                 <div className="bg-white p-6 shadow-lg 2xl:shadow-xl rounded-xl text-center flex flex-col items-center">
                   <div className="flex">
                     <Stars />

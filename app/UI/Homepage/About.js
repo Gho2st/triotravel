@@ -11,7 +11,7 @@ export default function About() {
           <h1 className="text-2xl md:text-3xl 2xl:text-4xl font-semibold leading-snug ">
             {t("header1")}
           </h1>
-          <p className="mt-10 text-2xl leading-snug">{t("text")}</p>
+          <p className="mt-10 text-xl xl:text-2xl leading-snug">{t("text")}</p>
         </div>
         <div className="md:w-1/2">
           <Image
@@ -34,7 +34,9 @@ export default function About() {
           />
         </div>
         <div className="md:w-1/2">
-          <p className="text-xl md:text-2xl 2xl:text-3xl leading-snug">{t("text2")}</p>
+          <p className="text-xl md:text-2xl 2xl:text-3xl leading-snug">
+            {t("text2")}
+          </p>
         </div>
       </div>
     </section>
