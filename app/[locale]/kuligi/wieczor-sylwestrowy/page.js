@@ -41,7 +41,7 @@ export default function Sylwester() {
       <section className=" px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
         {/* NAPIS Z LINIAMI PO BOKU */}
         <LineHeader text="KULIG SYLWESTROWY 2024-2025" />
-        <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto text-xl">
+        <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto xl:text-xl">
           Zapraszamy na{" "}
           <span className="font-semibold">niezapomniany Sylwester </span> w
           klimatycznej scenerii Podhala! Kulig sylwestrowy od{" "}
@@ -64,19 +64,19 @@ export default function Sylwester() {
         </div>
         {/* GODZINY I CENNIK */}
         <div className="my-20 text-center">
-          <h3 className="text-2xl  mb-10 font-semibold">
+          <h3 className="text-xl xl:text-2xl  mb-10 font-semibold">
             Pozostałe godziny do wyboru:
             <br></br>
             20:00 - 22:00
           </h3>
-          <h4 className=" mb-10 text-lg font-medium">
+          <h4 className=" mb-10 xl:text-lg font-medium">
             Ceny w sezonie zimowym 2024/2025
           </h4>
           <Table headers={tableHeaders} rows={tableRows} />
           <div className="mt-10">
             <span className="text-lg font-bold">Menu obejmuje:</span>
 
-            <ul className="text-lg flex flex-col gap-2 mt-10">
+            <ul className="xl:text-lg flex flex-col gap-2 mt-10">
               <li>
                 Kiełbasa do samodzielnego pieczenia, chleb, musztarda,
                 ketchup, herbata Góralska i zwykła,

@@ -37,9 +37,9 @@ export default function Koscielisko() {
       <section className=" px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
         {/* NAPIS Z LINIAMI PO BOKU */}
         <LineHeader text="Góralski Kulig Kościelisko" />
-        <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto text-xl">
+        <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto xl:text-xl">
           Podczas pobytu w Zakopanem zapraszamy na malownicze kuligi połączone z
-          biesiadą przy ognisku. Fantastyczna  niezapomniana przygoda, wyjątkowy
+          biesiadą przy ognisku. Fantastyczna niezapomniana przygoda, wyjątkowy
           klimat, przepiękne widoki i świetna atmosfera. Zapraszamy na
           organizowany{" "}
           <span className="font-semibold">Góralski kulig w Kościelisku.</span>{" "}
@@ -66,7 +66,7 @@ export default function Koscielisko() {
         </div>
         {/* GODZINY I CENNIK */}
         <div className="my-20 text-center">
-          <h3 className="text-2xl  mb-10 font-semibold">
+          <h3 className="text-xl xl:text-2xl  mb-10 font-semibold">
             Godziny kuligów w sezonie zimowym: 16.00, 17.00, 18.00, 19.00{" "}
             <br></br>
             (Wyjazd z Zakopanego około 40 min wcześniej)
@@ -78,15 +78,15 @@ export default function Koscielisko() {
           <div className="mt-10">
             <span className="text-lg font-bold">*Cena obejmuje:</span>
 
-            <ul className="text-lg flex flex-col gap-2 mt-10">
+            <ul className="xl:text-lg flex flex-col gap-2 mt-10">
               <li>
                 transport w dwie strony (odbiór z miejsca zakwaterowania na
                 terenie Zakopanego i Kościeliska),
               </li>
               <li>godzinną przejażdżkę w saniach 4, 8 i 10 osobowych,</li>
-              <li>poczęstunek przy ognisku </li>
+              <li>poczęstunek przy ognisku</li>
               <li>
-                menu podczas kuligów: kiełbasa, chleb, ketchup, musztarda,
+                menu podczas kuligów: kiełbasa, chleb, ketchup, musztarda,
                 herbata zwykła i herbata góralska (bez limitu)
               </li>
               <li>

@@ -14,7 +14,7 @@ export default function Map() {
           backgroundPosition: "center",
         }}
       >
-        <div className="text-center text-white text-xl md:w-3/4 mx-auto px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
+        <div className="text-center text-white xl:text-xl md:w-3/4 mx-auto px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
           <h2 className="text-3xl md:text-5xl mb-16  font-bold leading-snug">
             Miejsce Spotkań - Punkty odbioru na terenie Zakopanego i okolic
           </h2>
@@ -43,11 +43,11 @@ export default function Map() {
             />
           </div>
           <div className="text-white mt-16 2xl:mt-24 px-6 pb-20">
-            <h3 className="text-4xl font-bold">
+            <h3 className="text-2xl xl:text-4xl font-bold">
               {" "}
               Dlaczego warto wybrać nasze punkty odbioru?
             </h3>
-            <ul className="mt-16 text-xl flex flex-col gap-5">
+            <ul className="mt-16 xl:text-xl flex flex-col gap-5">
               <li>
                 Szeroki zasięg: Odbieramy Cię z wielu miejsc w Zakopanem i
                 okolicach.
@@ -61,7 +61,7 @@ export default function Map() {
                 podejścia, skontaktuj się z nami!
               </li>
             </ul>
-            <p className="text-xl mt-16 font-bold w-2/3">
+            <p className="text-xl mt-16 font-bold md:w-2/3">
               Zapoznaj się z mapą i dołącz do nas w wybranym punkcie – czekamy,
               by wspólnie odkrywać piękno Tatr i Pienin!
             </p>

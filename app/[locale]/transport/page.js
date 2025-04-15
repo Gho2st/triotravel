@@ -19,7 +19,7 @@ export default function Transport() {
         />
       </div>
       <section>
-        <p className="px-6 md:px-20 xl:px-32 2xl:px-44 pb-12  md:w-3/4 mx-auto  text-xl text-center">
+        <p className="px-6 md:px-20 xl:px-32 2xl:px-44 pb-12  md:w-3/4 mx-auto  xl:text-xl text-center">
           {t("text")}
         </p>
         <div className="flex justify-center mb-10 md:mb-20">
@@ -33,8 +33,8 @@ export default function Transport() {
             { url: "/transport/4.png", alt: "4 image" },
           ]}
         />
-        <div className="px-6 md:px-20 xl:px-32 2xl:px-44 pb-10 md:pb-24 md:w-3/4 mx-auto  text-xl text-center">
-          <h2 className="text-3xl 2xl:text-4xl leading-snug mt-8 md:mt-16">
+        <div className="px-6 md:px-20 xl:px-32 2xl:px-44 pb-10 md:pb-24 md:w-3/4 mx-auto  xl:text-xl text-center">
+          <h2 className="text-xl  xl:text-3xl 2xl:text-4xl leading-snug mt-8 md:mt-16">
             <span className="font-bold">Trio Travel </span> -{" "}
             <span className="font-bold">{t("header3")} </span> {t("header2")}
           </h2>

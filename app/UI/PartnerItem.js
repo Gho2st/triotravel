@@ -16,7 +16,7 @@ export default function PartnerItem({ t, index, partner, link }) {
             {t.header}
           </h2>
         </Link>
-        <p className="font-light text-xl">{t.text}</p>
+        <p className="font-light xl:text-xl">{t.text}</p>
       </div>
       <div className="sm:w-2/5 md:w-2/5">
         <Image

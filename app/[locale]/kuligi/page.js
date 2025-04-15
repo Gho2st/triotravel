@@ -26,10 +26,10 @@ export default function Kuligi() {
       <Header text={t("header")} />
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
         <div className="md:w-3/4 mx-auto text-center">
-          <p className="text-xl">
+          <p className="xl:text-xl">
             <span className="font-bold">TrioTravel</span> {t("text")}
           </p>
-          <h2 className="text-3xl font-medium my-20 leading-snug">
+          <h2 className="text-xl xl:text-3xl font-medium my-20 leading-snug">
             {t("header2")}
           </h2>
         </div>
