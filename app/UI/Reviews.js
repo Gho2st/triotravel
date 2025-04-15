@@ -63,11 +63,11 @@ export default function Reviews() {
                   <div className="flex">
                     <Stars />
                   </div>
-                  <p className="mt-4 text-lg text-gray-700">
+                  <p className="mt-4 xl:text-lg text-gray-700">
                     &quot;{t(review.text)}&quot;
                   </p>
                   <div className="w-full h-px bg-gray-300 my-4"></div>
-                  <p className="font-bold text-xl text-black">
+                  <p className="font-bold xl:text-xl text-black">
                     {t(review.nameKey)}
                   </p>
                 </div>
