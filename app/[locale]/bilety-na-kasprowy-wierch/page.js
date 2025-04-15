@@ -34,9 +34,9 @@ export default function Kasprowy() {
         />
       </div>
       {/* tabelka  */}
-      <section className="mx-auto px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
+      <section className="mx-auto px-5 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
         <Table headers={tableHeaders} rows={tableRows} />
-        <div className="grid md:grid-cols-3 gap-4 md:gap-16 justify-center mt-16">
+        <div className="grid grid-cols-3 gap-2 md:gap-16 justify-center mt-16">
           <ClickButton
             onClick={() => handleButtonClick("uwagi")}
             text="Uwagi"
@@ -46,7 +46,7 @@ export default function Kasprowy() {
           />
           <ClickButton
             onClick={() => handleButtonClick("info")}
-            text="Informacje Użyteczne"
+            text="Informacje"
             bgColor={activeSection === "info" ? "bg-blue-700" : "bg-customBlue"}
           />
           <ClickButton
@@ -57,7 +57,7 @@ export default function Kasprowy() {
         </div>
         <div>
           {activeSection === "uwagi" && (
-            <div className="text-center mt-20 w-3/4 mx-auto">
+            <div className="text-center mt-20 md:w-3/4 mx-auto">
               <h3 className="text-2xl xl:text-3xl font-medium">Uwagi</h3>
               <p className="xl:text-lg mt-10">
                 Dzieciom do 10 lat. Dzieciom i młodzieży szkolnej do 15 lat na
@@ -73,10 +73,8 @@ export default function Kasprowy() {
             </div>
           )}
           {activeSection === "info" && (
-            <div className="text-center mt-20 w-3/4 mx-auto">
-              <h3 className="text-2xl xl:text-3xl font-medium">
-                Informacje Użyteczne
-              </h3>
+            <div className="text-center mt-20 md:w-3/4 mx-auto">
+              <h3 className="text-2xl xl:text-3xl font-medium">Informacje</h3>
               <p className="xl:text-lg mt-10">
                 Kasa w Kuźnicach prowadzi sprzedaż tylko na dzień bieżący,
                 bezpośrednio przed odjazdem kolei. Przy czym wszystkie osoby,
