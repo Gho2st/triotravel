@@ -45,7 +45,7 @@ function ServiceCard({ icon, title, description, isLeftAligned }) {
       <h2 className="text-2xl leading-snug 2xl:text-4xl 2xl:leading-snug my-5 font-semibold">
         {t(title)}
       </h2>
-      <p className="text-neutral-900 text-lg xl:text-xl">{t(description)}</p>
+      <p className="text-neutral-900  xl:text-xl">{t(description)}</p>
       <span
         className={`absolute top-[50%] translate-y-[-50%] ${
           isLeftAligned ? "right-[-30px]" : "left-[-30px]"

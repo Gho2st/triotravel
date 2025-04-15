@@ -121,7 +121,7 @@ export default function Offer() {
           slidesToShow: 1,
           slidesToScroll: 1,
           centerMode: false,
-          dots: true,
+          dots: false,
           arrows: false,
         },
       },
@@ -139,10 +139,10 @@ export default function Offer() {
         {t("header")}
       </h2>
       <div>
-        <Slider {...carouselSettings} className="mx-auto my-12">
+        <Slider {...carouselSettings} className="mx-auto my-10 xl:my-12">
           {gallery.map((image, index) => (
             <Link href={image.link} key={index}>
-              <div className="shadow-xl text-center rounded-xl hover:cursor-pointer px-2 group h-[350px] md:h-[450px] flex flex-col">
+              <div className="shadow-xl text-center rounded-xl hover:cursor-pointer group h-[350px] md:h-[450px] flex flex-col">
                 <div className="relative w-full h-[250px] md:h-[350px] overflow-hidden rounded-t-xl">
                   <Image
                     src={image.url}

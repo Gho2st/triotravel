@@ -51,7 +51,7 @@ export default function Reviews() {
           {t("header2")} <span className="text-customBlue">564</span>{" "}
           {t("header")} <span className="text-customBlue">4.6/5!</span>
         </h2>
-        <p className="mt-10 xl:mt-12 2xl:px-16 2xl:mt-16 2xl:mb-24 leading-relaxed text-lg xl:text-xl">
+        <p className="mt-10 xl:mt-12 2xl:px-16 2xl:mt-16 2xl:mb-24 leading-relaxed  xl:text-xl">
           {t("text")}
         </p>
 
