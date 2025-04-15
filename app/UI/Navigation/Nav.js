@@ -51,13 +51,13 @@ export default function Nav() {
       >
         {/* Lewa strona: Logo  */}
         <div className="flex items-center">
-          <Link href="/" className="relative h-20 w-20 xl:h-24 xl:w-24">
+          <Link href="/" className="relative h-24 w-24">
             <Image
               src="/logo/logo2.png"
               fill
               alt="Logo Muszynova"
               className="object-contain"
-              sizes="(max-width: 768px) 80px, 130px"
+              sizes="(max-width: 768px) 100px, 150px"
               priority
             />
           </Link>

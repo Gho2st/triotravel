@@ -16,11 +16,11 @@ export default function BackgroundList({
         {title}
       </h3>
       {text && (
-        <p className="mb-8 md:mb-10 text-xl font-medium text-customBlue">
+        <p className="mb-8 md:mb-10 xl:text-xl font-medium text-customBlue">
           {text}
         </p>
       )}
-      <ul className={`text-lg flex flex-col gap-8 ${textColor}`}>
+      <ul className={`xl:text-lg flex flex-col gap-8 ${textColor}`}>
         {items.map((item, index) => (
           <li className="" key={index}>
             {item}

@@ -39,7 +39,7 @@ export default function Hrebieniok() {
       </div>
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
         <LineHeader text="Co oferujemy?" />
-        <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto text-xl">
+        <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto xl:text-xl">
           Zapraszamy na wycieczkę na Słowację podczas, której zobaczą Państwo
           Stary Smokowiec. Przejadą się kolejką szynową na Hrebieniok (Tatry
           Wysokie, 1310m n.p.m.), gdzie na szczycie zlokalizowana jest Lodowa

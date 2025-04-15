@@ -41,7 +41,7 @@ export default function Termy() {
       </div>
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
         <LineHeader text="Zrelaksuj się" />
-        <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto text-xl">
+        <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto xl:text-xl">
           Termy Chochołowskie to największy kompleks termalny na Podhalu. Duże
           baseny wewnętrzne i zewnętrzne łączna powierzchnia lustra wody to 3000
           m2. Kompleks posiada  plażę  trawiastą i piaszczystą gdzie, każdy

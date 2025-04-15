@@ -61,7 +61,7 @@ export default function Tatry() {
       </div>
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
         <LineHeader text="Co oferujemy?" />
-        <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto text-xl">
+        <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto xl:text-xl">
           <strong>Zamek Orawski </strong> Wzniesiony w XIII wieku na potężnej,
           wysokiej na 112 metrów skale Zamek Orawski, jest najoryginalniej
           położonym obiektem na Słowacji. Przebudowywany i rozbudowywany na

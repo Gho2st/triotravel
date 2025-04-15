@@ -73,7 +73,7 @@ export default function SplywDluzszy() {
             items={customItems}
           />
         </div>
-        <p className="text-2xl text-center mt-16 md:w-3/4 mx-auto font-medium">
+        <p className="text-xl xl:text-2xl text-center mt-16 md:w-3/4 mx-auto font-medium">
           Sezon flisacki trwa od 1 kwietnia do 31 października - świątek, piątek
           i niedziele. Zatem na wycieczkę zapraszamy codziennie!
         </p>

@@ -59,7 +59,7 @@ export default function SplywKrotszy() {
       </div>
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
         <LineHeader text="Co oferujemy?" />
-        <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto text-xl">
+        <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto xl:text-xl">
           Przygotowaliśmy dla Państwa szereg niezwykle ciekawych atrakcji, które
           z pewnością uczynią czas Państwa wypoczynku szalenie interesującym i
           niezapomnianym. Proponowany przez nas spływ Dunajcem z Zakopanego to

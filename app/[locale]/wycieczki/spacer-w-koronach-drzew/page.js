@@ -59,7 +59,7 @@ export default function Spacer() {
       </div>
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
         <LineHeader text="Odkryj Piękno Natury" />
-        <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto text-xl">
+        <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto xl:text-xl">
           Ścieżka w Koronach Drzew Bachledka znajduje się w samym sercu
           gatunkowo zróżnicowanego lasu{" "}
           <strong> Pienińskiego Parku Narodowego.</strong>
