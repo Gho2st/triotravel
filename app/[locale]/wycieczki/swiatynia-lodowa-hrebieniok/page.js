@@ -45,14 +45,14 @@ export default function Hrebieniok() {
           Wysokie, 1310m n.p.m.), gdzie na szczycie zlokalizowana jest Lodowa
           Świątynia, która w tym roku inspirowana jest Katedrą na Wawelu.
         </p>
-        <div className="mt-16 md:w-3/4 mx-auto">
+        <div className="mt-16">
           <Table
             headers={tableHeaders}
             rows={tableRows}
             text="*Cena obejmuje: Opiekę wykwalifikowanego pilota oraz przewodnika, transport komfortowym autokarem, ubezpieczenie KL i NNW, zestaw audio guide"
           />
         </div>
-        <div className="mt-16 md:w-3/4 mx-auto">
+        <div className="mt-16">
           <TripProgram title={<>Program wycieczki:</>} items={tripItems} />
         </div>
       </section>

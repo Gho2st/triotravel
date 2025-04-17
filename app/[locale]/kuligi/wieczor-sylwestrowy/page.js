@@ -4,30 +4,32 @@ import Gallery from "@/app/UI/Slider";
 import LineHeader from "@/app/UI/LineHeader";
 import BackgroundList from "@/app/UI/BackgroundList";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function Sylwester() {
+  const t = useTranslations("kuligi.sylwester");
   // Przykładowe dane dla tabeli
-  const tableHeaders = ["Rodzaj biletu", "Wieczór Sylwestrowy"];
+  const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
     ["Bilet normalny", "170 PLN"],
     ["Bilet ulgowy (do 10 lat)", "150 PLN"],
   ];
 
   const customItems = [
-    "Odbiór uczestników imprezy z miejsca zakwaterowania (odbiór z miejsca zamieszkania na terenie miasta Zakopane i gminy Kościelisko, pozostałe lokalizacje do uzgodnienia)",
-    "Godzinny przejazd saniami u podnóża Doliny Kościeliskiej.",
-    "Sanie są cztero- ośmio- lub dziesięcioosobowe",
-    "Czas umila kapela góralska grająca na żywo!",
-    "Prawdziwie góralski poczęstunek",
-    "Cała zabawa odbywa się w malowniczych, zapierających dech w piersiach okolicznościach tatrzańskiej przyrody",
-    "Możliwość spożywania własnego alkoholu",
-    "W przypadku braku śniegu sanie zostaną zastąpione wozami.",
-    "Kulig odbywa się na świeżym powietrzu, bez względu na pogodę, zalecamy stosowny ciepły ubiór",
-    "Czas trwania ok. 2,5 godziny (transport w obie strony, kulig, biesiada)",
+    t("list.1"),
+    t("list.2"),
+    t("list.3"),
+    t("list.4"),
+    t("list.5"),
+    t("list.6"),
+    t("list.7"),
+    t("list.8"),
+    t("list.9"),
+    t("list.10"),
   ];
   return (
     <>
-      <Header text="Kulig w Wieczór Sylwestrowy" />
+      <Header text={t("header")} />
       <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[700px] ">
         <Image
           src="/kuligi/sylwestrowy2.jpg"
@@ -40,61 +42,42 @@ export default function Sylwester() {
       </div>
       <section className=" px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
         {/* NAPIS Z LINIAMI PO BOKU */}
-        <LineHeader text="KULIG SYLWESTROWY 2024-2025" />
+        <LineHeader text={t("header2")} />
         <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto xl:text-xl">
-          Zapraszamy na{" "}
-          <span className="font-semibold">niezapomniany Sylwester </span> w
-          klimatycznej scenerii Podhala! Kulig sylwestrowy od{" "}
-          <span className="font-semibold"> TrioTravel </span> to tradycyjna
-          przejażdżka saniami po zaśnieżonych trasach, zakończona ogniskiem i
-          poczęstunkiem w góralskim stylu. To wyjątkowa okazja, by
-          <span className="font-semibold">
-            powitać Nowy Rok w sercu natury, przy blasku ogniska, muzyce i
-            regionalnych smakołykach.
-          </span>
-          Doświadcz magii góralskiej gościnności wśród przyjaciół i rodziny -
-          spraw, aby nadchodzący rok rozpoczął się niezapomnianymi chwilami!
+          {t.rich("text", {
+            strong: (chunks) => <strong>{chunks}</strong>,
+          })}
         </p>
         {/* more text */}
         <div className="flex justify-center mt-16">
-          <BackgroundList
-            title="Co oferujemy podczas Sylwestrowego Kuligu:"
-            items={customItems}
-          />
+          <BackgroundList title={t("header3")} items={customItems} />
         </div>
         {/* GODZINY I CENNIK */}
-        <div className="my-20 text-center">
+        <div className="mt-20 text-center">
           <h3 className="text-xl xl:text-2xl  mb-10 font-semibold">
-            Pozostałe godziny do wyboru:
-            <br></br>
-            20:00 - 22:00
+            {t("info")}
           </h3>
-          <h4 className=" mb-10 xl:text-lg font-medium">
-            Ceny w sezonie zimowym 2024/2025
-          </h4>
+          <h4 className=" mb-10 xl:text-lg font-medium">{t("header4")} </h4>
           <Table headers={tableHeaders} rows={tableRows} />
           <div className="mt-10">
-            <span className="text-lg font-bold">Menu obejmuje:</span>
+            <span className="text-lg font-bold">{t("table.header4")}</span>
 
             <ul className="xl:text-lg flex flex-col gap-2 mt-10">
-              <li>
-                Kiełbasa do samodzielnego pieczenia, chleb, musztarda,
-                ketchup, herbata Góralska i zwykła,
-              </li>
+              <li>{t("table.list.1")}</li>
             </ul>
           </div>
         </div>
-        <Gallery
-          images={[
-            { url: "/kuligi/goralski/1.jpg", alt: "First image" },
-            { url: "/kuligi/goralski/2.jpg", alt: "2 image" },
-            { url: "/kuligi/goralski/3.jpg", alt: "3 image" },
-            { url: "/kuligi/goralski/4.jpg", alt: "4 image" },
-            { url: "/kuligi/goralski/5.jpg", alt: "5 image" },
-            { url: "/kuligi/goralski/6.jpg", alt: "6 image" },
-          ]}
-        />
       </section>
+      <Gallery
+        images={[
+          { url: "/kuligi/goralski/1.jpg", alt: "First image" },
+          { url: "/kuligi/goralski/2.jpg", alt: "2 image" },
+          { url: "/kuligi/goralski/3.jpg", alt: "3 image" },
+          { url: "/kuligi/goralski/4.jpg", alt: "4 image" },
+          { url: "/kuligi/goralski/5.jpg", alt: "5 image" },
+          { url: "/kuligi/goralski/6.jpg", alt: "6 image" },
+        ]}
+      />
     </>
   );
 }

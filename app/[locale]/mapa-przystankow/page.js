@@ -1,10 +1,12 @@
 import Header from "@/app/UI/Header";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function Map() {
+  const t = useTranslations("pickup");
   return (
     <>
-      <Header text="Mapa Przystanków" />
+      <Header text={t("header")} />
 
       <section
         className="min-h-[100vh] "
@@ -16,21 +18,10 @@ export default function Map() {
       >
         <div className="text-center text-white xl:text-xl md:w-3/4 mx-auto px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
           <h2 className="text-3xl md:text-5xl mb-16  font-bold leading-snug">
-            Miejsce Spotkań - Punkty odbioru na terenie Zakopanego i okolic
+            {t("header2")}
           </h2>
-          <p>
-            W Trio Travel dbamy o Twój komfort, dla tego oferujemy dogodne
-            punkty odbioru na terenie Zakopanego i okolic. Nasza mapa
-            przystanków obejmuje zarówno centrum Zakopanego, jak i pobliskie
-            miejscowości, takie jak Kościelisko, Poronin, Murzasichle, Biały
-            Dunajec czy Gliczarów.
-          </p>
-          <p className="mt-10">
-            Sprawdź naszą mapę i wybierz punkt odbioru w pobliżu Twojego miejsca
-            pobytu – od popularnych lokalizacji w Zakopanem, przez urokliwe
-            okolice Tatrzańskiego Parku Narodowego, aż po malownicze wsie w
-            regionie.
-          </p>
+          <p>{t("text")}</p>
+          <p className="mt-10">{t("text2")}</p>
         </div>
         <div className="flex flex-col md:flex-row md:gap-20">
           <div className="md:w-1/3">
@@ -43,28 +34,13 @@ export default function Map() {
             />
           </div>
           <div className="text-white mt-16 2xl:mt-24 px-6 pb-20">
-            <h3 className="text-2xl xl:text-4xl font-bold">
-              {" "}
-              Dlaczego warto wybrać nasze punkty odbioru?
-            </h3>
+            <h3 className="text-2xl xl:text-4xl font-bold"> {t("header3")}</h3>
             <ul className="mt-16 xl:text-xl flex flex-col gap-5">
-              <li>
-                Szeroki zasięg: Odbieramy Cię z wielu miejsc w Zakopanem i
-                okolicach.
-              </li>
-              <li>
-                Wygoda: Punkty są zlokalizowane w strategicznych miejscach,
-                blisko popularnych tras i noclegów.
-              </li>
-              <li>
-                Elastyczność: Jeśli masz pytania lub potrzebujesz indywidualnego
-                podejścia, skontaktuj się z nami!
-              </li>
+              <li>{t("list.1")}</li>
+              <li>{t("list.2")}</li>
+              <li>{t("list.3")}</li>
             </ul>
-            <p className="text-xl mt-16 font-bold md:w-2/3">
-              Zapoznaj się z mapą i dołącz do nas w wybranym punkcie – czekamy,
-              by wspólnie odkrywać piękno Tatr i Pienin!
-            </p>
+            <p className="text-xl mt-16 font-bold md:w-2/3">{t("header3")}</p>
           </div>
         </div>
       </section>

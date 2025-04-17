@@ -3,7 +3,7 @@ import { defineRouting } from "next-intl/routing";
 
 export const routing = defineRouting({
   // Lista wszystkich obsługiwanych języków
-  locales: ["pl", "en"],
+  locales: ["pl", "en", "ar"],
 
   // Domyślny język, gdy żaden nie pasuje
   defaultLocale: "pl",
@@ -13,6 +13,7 @@ export const routing = defineRouting({
     "/": {
       pl: "/",
       en: "/",
+      ar: "/",
     }, // Dodano przecinek i klamrę zamykającą
   },
 });

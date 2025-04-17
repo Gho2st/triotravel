@@ -71,14 +71,14 @@ export default function Spacer() {
           kolejkę gondolową przejazd w dwie strony (czas trwania przejazdu około
           7 minut), która zawiezie państwa na Szczyt Magury Spiskiej.
         </p>
-        <div className="mt-16 md:w-3/4 mx-auto">
+        <div className="mt-16">
           <Table
             headers={tableHeaders}
             rows={tableRows}
             text="* Cena obejmuje: opiekę kierowcy podczas wycieczki, ubezpieczenie NNW oraz transport z Zakopanego"
           />
         </div>
-        <div className="mt-16 md:w-3/4 mx-auto">
+        <div className="mt-16">
           <BackgroundList title="Więcej informacji" items={customItems} />
           <TripProgram
             title={

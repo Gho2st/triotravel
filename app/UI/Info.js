@@ -26,7 +26,7 @@ export default function Info() {
         </div>
         <p className="md:w-1/2 mt-10 md:mt-0 text-lg text-center md:text-left">
           {t("text")}
-          <span className="text-customRed ">{t("text2")} </span>
+          <span className="text-customRed "> {t("text2")} </span>
           {t("text3")}
         </p>
       </div>

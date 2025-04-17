@@ -57,14 +57,14 @@ export default function Zamek() {
           możliwość zobaczenia autentycznych, drewnianych chałup, które od
           pokoleń zachowują swój niepowtarzalny charakter.
         </p>
-        <div className="mt-16 md:w-3/4 mx-auto">
+        <div className="mt-16">
           <Table
             headers={tableHeaders}
             rows={tableRows}
             text="*Cena obejmuje: Opiekę wykwalifikowanego pilota oraz przewodnika, transport komfortowym autokarem, ubezpieczenie KL i NNW, zestaw audio guide"
           />
         </div>
-        <div className="mt-16 md:w-3/4 mx-auto">
+        <div className="mt-16">
           <TripProgram title={<>Program wycieczki:</>} items={tripItems} />
         </div>
       </section>

@@ -67,6 +67,29 @@
             "13": "Zwiedzanie Krakowa",
             "14": "Dookoła Tatr",
             "15": "Rafting po Dunajcu"
+        },
+        "tripslist": {
+            "kasprowy": {
+                "header": "Bilety Na Kasprowy Wierch",
+                "table": {
+                    "header1": "Rodzaj Biletu",
+                    "header2": "Sezon wysoki",
+                    "header3": "Sezon niski",
+                    "1": "Normalny w górę",
+                    "2": "Ulgowy w górę",
+                    "3": "Normalny w obie strony",
+                    "4": "Ulgowy w obie strony"
+                },
+                "buttons": {
+                    "1": "Uwagi",
+                    "2": "Informacje",
+                    "3": "Ulgi",
+                    "header": "Przejazd darmowy przysługuje",
+                    "text1": "Dzieciom do 10 lat. Dzieciom i młodzieży szkolnej do 15 lat na podstawie ważnej legitymacji szkolnej. Studentom do 26 roku życia (studenci, uczniowie urodzeni po 01.01.1998 r.) na podstawie ważnej polskiej legitymacji studenckiej, legitymacji ISIC oraz EURO 26. Osobom po 65 roku życia (urodzeni przed 31.12.1959) za okazaniem dokumentu potwierdzającego wiek. Opiekunom grup szkolnych (1 opiekun na 10 podopiecznych). Przewodnikom prowadzącym grupy przysługuje bilet dla przewodnika w cenie 35 zł.",
+                    "text2": "Kasa w Kuźnicach prowadzi sprzedaż tylko na dzień bieżący, bezpośrednio przed odjazdem kolei. Przy czym wszystkie osoby, dla których nabywane są bilety, muszą znajdować się bezpośrednio przed kasą. Po zakupie biletów następuje odprawa pasażerska i przejście na peron do odjazdu. Na każdym bilecie widnieje informacja o ważności biletu. Bilety na zjazd koleją linową z Kasprowego Wierchu można nabyć tylko w kasie stacji górnej w miarę wolnych miejsc. Pierwszeństwo w zjeździe mają osoby posiadające bilet powrotny (tzn. do góry i w dół). Przewidywany czas pobytu na Kasprowym Wierchu przy zakupie biletów powrotnych wynosi ok. 1 godz. 40 min. (tzn. jeśli wjazd godz. 8:00, to zjazd godz. 10:00; przejazd koleją ok. 20 min.). Na teren Tatrzańskiego Parku Narodowego nie można wwozić psów oraz innych zwierząt. W cenę biletu wliczony jest bilet wstępu do Tatrzańskiego Parku Narodowego, ważny w dniu zakupu biletu na KL Kasprowy Wierch.",
+                    "text3": "Dzieciom do 4 lat. Przejazd darmowy na podstawie biletu opiekuna, wiek dziecka należy potwierdzić ważnym dokumentem. Nie pobiera się dodatkowej opłaty za wózek dziecięcy."
+                }
+            }
         }
     },
     "why": {
@@ -196,6 +219,99 @@
             "2": "Kulig Dolina Chochołowska",
             "3": "Kulig w Wieczór Sylwestrowy",
             "button": "Wybierz"
+        },
+        "koscielisko": {
+            "header": "Góralski Kulig Kościelisko",
+            "header2": "Co oferujemy?",
+            "header3": "W programie naszego kuligu oferujemy",
+            "header4": "Ceny w sezonie zimowym",
+            "list": {
+                "1": "Odbiór z miejsca zamieszkania na terenie miasta Zakopane i gminy Kościelisko (pozostałe lokalizacje do uzgodnienia)",
+                "2": "Kulig z pochodniami w Kościelisku.",
+                "3": "Po kuligu zapraszamy na smaczny poczęstunek, w tym: pieczoną kiełbasę oraz herbatę zwykłą bądź góralską",
+                "4": "Biesiada wraz z ogniskiem przygotowana będzie w pięknej górskiej scenerii.",
+                "5": "Cała zabawa odbywa się w okolicznościach pięknej tatrzańskiej przyrody."
+            },
+            "text": "Podczas pobytu w Zakopanem zapraszamy na malownicze kuligi połączone z biesiadą przy ognisku. Fantastyczna niezapomniana przygoda, wyjątkowy klimat, przepiękne widoki i świetna atmosfera. Zapraszamy na organizowany <strong>Góralski kulig w Kościelisku</strong>. Przejażdżka saniami wśród malowniczej scenerii przepełnionej górskim klimatem stworzy unikalny klimat, którego nie będą mogli Państwo zapomnieć. Przejażdżka w saniach trwa <strong>ok. 1h</strong> podczas której przejazd rozświetlony zostanie przez <strong>pochodnie</strong>. Następnie zapraszamy Państwa na ognisko wraz ze <strong>smakowitym poczęstunkiem i kapelą</strong> umilającą czas muzyką na żywo.",
+            "info": "Godziny kuligów w sezonie zimowym: 16.00, 17.00, 18.00, 19.00 (Wyjazd z Zakopanego około 40 min wcześniej)",
+            "table": {
+                "header1": "Rodzaj biletu",
+                "header2": "Od 01.12.2024 do końca sezonu zimowego",
+                "3": "Bilet normalny",
+                "4": "Bilet ulgowy (do 10 lat)",
+                "header3": "*Cena obejmuje:",
+                "list": {
+                    "1": "transport w dwie strony (odbiór z miejsca zakwaterowania na terenie Zakopanego i Kościeliska)",
+                    "2": "godzinną przejażdżkę w saniach 4, 8 i 10 osobowych",
+                    "3": "poczęstunek przy ognisku",
+                    "4": "menu podczas kuligów: kiełbasa, chleb, ketchup, musztarda, herbata zwykła i herbata góralska (bez limitu)",
+                    "5": "* w przypadku niewystarczającej ilości śniegu lub jego braku kuligi odbywają się na wozach / dorożkami"
+                }
+            }
+        },
+        "dolina": {
+            "header": "Kulig Dolina Chochołowska",
+            "header2": "Kulig VIP w Dolinie Chochołowskiej",
+            "header3": "W programie naszego kuligu oferujemy",
+            "header4": "Ceny w sezonie zimowym",
+            "list": {
+                "1": "Odbiór z miejsca zamieszkania na terenie miasta Zakopane i gminy Kościelisko (pozostałe lokalizacje do uzgodnienia)",
+                "2": "Kulig widokowy z pochodniami w Dolinie Chochołowskiej w saniach 4-osobowych* z krótkim postojem na wykonanie pamiątkowych fotografii",
+                "3": "Po kuligu pieczenie kiełbasek przy ognisku z herbatą zwykłą i góralską oraz góralski bigos (możliwość spożywania własnego alkoholu)",
+                "4": "Prawdziwa góralska biesiada przy góralskiej muzyce (na żywo)",
+                "5": "Cała zabawa odbywa się w okolicznościach pięknej tatrzańskiej przyrody.",
+                "6": "Czas trwania ok. 2,5 - 3h"
+            },
+            "text": "Jedyna i niepowtarzalna okazja na to, by poznać piękną zimową aurę słynnej <strong>Doliny Chochołowskiej!</strong> Podczas pobytu u podnóża naszych pięknych Polskich Tatr nie może zabraknąć prawdziwego góralskiego kuligu. TrioTravel może Państwu zaoferować jedyny w swoim rodzaju kulig w dolinie Chochołowskiej, gdzie nie doświadczą państwo tłoku i gwaru miasta. <strong>Godzinną</strong> przeprawę saniami rozświetlą nam pochodnie, a gdy już zgasną zastąpimy <strong>biesiadą</strong> przy góralskim ognisku czyli słynnej Watrze. Przygotowany dla Państwa <strong>poczęstunek</strong> czekał już będzie przy rozżarzonym ognisku, a czas umilać będzie <strong>prawdziwa kapela góralska.</strong>",
+            "info": "Start kuligu codziennie o  godz. 17:00, 19:00 (Wyjazd z Zakopanego około 40 min wcześniej)",
+            "table": {
+                "header1": "Rodzaj biletu",
+                "header2": "Od 01.12.2024 do końca sezonu zimowego",
+                "header3": "Od 26.12.2024 do 06.01.2025",
+                "3": "Bilet normalny",
+                "4": "Bilet ulgowy (do 10 lat)",
+                "header4": "*Cena obejmuje:",
+                "list": {
+                    "1": "transport w dwie strony (odbiór z miejsca zakwaterowania na terenie Zakopanego i Kościeliska)",
+                    "2": "godzinną przejażdżkę w saniach czteroosobowych",
+                    "3": "godzinną biesiadę z kapelą góralską wraz poczęstunkiem przy ognisku",
+                    "4": "bilety wstępu do TPN",
+                    "5": "pochodnie podczas jazdy saniami",
+                    "6": "menu podczas kuligów: bigos, oscypek, pajda chleba z gazdowskim smalcem, wino grzane, kiełbasa, chleb, ketchup, ogórki, musztarda, herbata zwykła i góralska (bez limitu)",
+                    "7": "* W przypadku grupy 3 - osobowej (lub 7 itd.) obowiązuje dopłata do pustego miejsca w saniach: 70zł",
+                    "8": "  * w przypadku niewystarczającej ilości śniegu lub jego braku kuligi odbywają się na wozach / dorożkami"
+                }
+            }
+        },
+        "sylwester": {
+            "header": "Kulig w Wieczór Sylwestrowy",
+            "header2": "KULIG SYLWESTROWY 2024-2025",
+            "header3": "Co oferujemy podczas Sylwestrowego Kuligu:",
+            "header4": "Ceny w sezonie zimowym",
+            "list": {
+                "1": "Odbiór uczestników imprezy z miejsca zakwaterowania (odbiór z miejsca zamieszkania na terenie miasta Zakopane i gminy Kościelisko, pozostałe lokalizacje do uzgodnienia)",
+                "2": "Godzinny przejazd saniami u podnóża Doliny Kościeliskiej.",
+                "3": "Sanie są cztero- ośmio- lub dziesięcioosobowe",
+                "4": "Czas umila kapela góralska grająca na żywo!",
+                "5": "Prawdziwie góralski poczęstunek",
+                "6": "Cała zabawa odbywa się w malowniczych, zapierających dech w piersiach okolicznościach tatrzańskiej przyrody",
+                "7": "Możliwość spożywania własnego alkoholu",
+                "8": "W przypadku braku śniegu sanie zostaną zastąpione wozami.",
+                "9": "Kulig odbywa się na świeżym powietrzu, bez względu na pogodę, zalecamy stosowny ciepły ubiór",
+                "10": "Czas trwania ok. 2,5 godziny (transport w obie strony, kulig, biesiada)"
+            },
+            "text": "Zapraszamy na <strong>niezapomniany Sylwester</strong> w klimatycznej scenerii Podhala! Kulig sylwestrowy od <strong>TrioTravel</strong> to tradycyjna przejażdżka saniami po zaśnieżonych trasach, zakończona ogniskiem i poczęstunkiem w góralskim stylu. To wyjątkowa okazja, by <strong>powitać Nowy Rok w sercu natury, przy blasku ogniska, muzyce i regionalnych smakołykach.</strong> Doświadcz magii góralskiej gościnności wśród przyjaciół i rodziny - spraw, aby nadchodzący rok rozpoczął się niezapomnianymi chwilami!",
+            "info": "Pozostałe godziny do wyboru: 20:00 - 22:00",
+            "table": {
+                "header1": "Rodzaj biletu",
+                "header2": "Wieczór Sylwestrowy",
+                "3": "Bilet normalny",
+                "4": "Bilet ulgowy (do 10 lat)",
+                "header4": "*Menu obejmuje:",
+                "list": {
+                    "1": "Kiełbasa do samodzielnego pieczenia, chleb, musztarda, ketchup, herbata Góralska i zwykła"
+                }
+            }
         }
     },
     "reservations": {
@@ -210,6 +326,19 @@
         "header3": "Twój Sposób",
         "text2": "Dokładamy wszelkich starań aby każde zlecenie było wykonane należycie i spełniało oczekiwania naszych Klientów. Priorytetem pracy zespołu jest zadowolenie Klienta oraz wysoka jakość świadczonych usług. Nasi kierowcy to doświadczeni pracownicy, zapewniający pełen profesjonalizm oraz odpowiednie umiejętności. Dzięki wieloletniemu doświadczeniu w transporcie, organizowany przez nas przewóz osób to komfortowa i bezpieczna podróż. Obowiązkowo zapewniamy terminowość oraz atrakcyjne ceny. Każdy zlecający ma inne oczekiwania i potrzeby, dlatego zawsze dopasowujemy nasze usługi do indywidualnych wymagań. Nasze pojazdy posiadają wszelkie niezbędne zezwolenia oraz pełne wyposażenie umożliwiające bezproblemowe wyjazdy zagraniczne, co gwarantuje bezpieczeństwo i wygodę podróżnych podczas każdej trasy.",
         "button": "Mapa Przystanków"
+    },
+    "pickup": {
+        "header": "Mapa Przystanków",
+        "header2": "Miejsce Spotkań - Punkty odbioru na terenie Zakopanego i okolic",
+        "header3": "Dlaczego warto wybrać nasze punkty odbioru?",
+        "text": "W Trio Travel dbamy o Twój komfort, dla tego oferujemy dogodne punkty odbioru na terenie Zakopanego i okolic. Nasza mapa przystanków obejmuje zarówno centrum Zakopanego, jak i pobliskie miejscowości, takie jak Kościelisko, Poronin, Murzasichle, Biały Dunajec czy Gliczarów.",
+        "text2": "Sprawdź naszą mapę i wybierz punkt odbioru w pobliżu Twojego miejsca pobytu – od popularnych lokalizacji w Zakopanem, przez urokliwe okolice Tatrzańskiego Parku Narodowego, aż po malownicze wsie w regionie.",
+        "list": {
+            "1": "Szeroki zasięg: Odbieramy Cię z wielu miejsc w Zakopanem i okolicach.",
+            "2": "Wygoda: Punkty są zlokalizowane w strategicznych miejscach, blisko popularnych tras i noclegów.",
+            "3": "Elastyczność: Jeśli masz pytania lub potrzebujesz indywidualnego podejścia, skontaktuj się z nami!"
+        },
+        "text3": "Zapoznaj się z mapą i dołącz do nas w wybranym punkcie – czekamy, by wspólnie odkrywać piękno Tatr i Pienin!"
     },
     "contact": {
         "title": "Kontakt",

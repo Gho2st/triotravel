@@ -2,7 +2,7 @@ import Header2 from "./Header2";
 
 export default function Table({ headers, rows, text }) {
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto md:w-3/4 mx-auto">
       <Header2 />
       <table className="w-full table-auto border-collapse  bg-white rounded-xl shadow-md">
         <thead>

@@ -124,14 +124,14 @@ export default function Budapeszt() {
           architektura sprawia, że do stolicy naszych bratanków corocznie
           ściągają rzesze turystów z całego świata.
         </p>
-        <div className="mt-16 md:w-3/4 mx-auto">
+        <div className="mt-16">
           <Table
             headers={tableHeaders}
             rows={tableRows}
             text="*Cena obejmuje: Opiekę wykwalifikowanego pilota oraz przewodnika, transport komfortowym autokarem, ubezpieczenie KL i NNW, zestaw audio guide"
           />
         </div>
-        <div className="mt-16 md:w-3/4 mx-auto">
+        <div className="mt-16">
           <TripProgram title={<>Program wycieczki:</>} items={tripItems} />
         </div>
         <div className="flex justify-center mt-16">

@@ -56,6 +56,29 @@
             "13": "Kraków Sightseeing",
             "14": "Around the Tatras",
             "15": "Whitewater Rafting on the Dunajec"
+        },
+        "tripslist": {
+            "kasprowy": {
+                "header": "Tickets to Kasprowy Wierch",
+                "table": {
+                    "header1": "Ticket Type",
+                    "header2": "High Season",
+                    "header3": "Low Season",
+                    "1": "Regular – One Way Up",
+                    "2": "Reduced – One Way Up",
+                    "3": "Regular – Round Trip",
+                    "4": "Reduced – Round Trip"
+                },
+                "buttons": {
+                    "1": "Notes",
+                    "2": "Information",
+                    "3": "Discounts",
+                    "header": "Free ride eligibility",
+                    "text1": "Children up to 10 years old. Children and school youth up to 15 years old with a valid school ID. Students up to 26 years old (born after 01.01.1998) with a valid Polish student ID, ISIC, or EURO 26 card. Seniors over 65 (born before 31.12.1959) with a valid document confirming age. School group supervisors (1 supervisor per 10 students). Tour guides leading groups are eligible for a guide ticket priced at 35 PLN.",
+                    "text2": "The ticket office in Kuźnice only sells tickets for the current day, just before the cable car departs. All people for whom tickets are purchased must be present directly at the ticket window. After purchase, passengers proceed to boarding. Each ticket includes its validity information. Return tickets from the upper Kasprowy station can only be purchased at the mountain station, depending on seat availability. Priority for descent is given to passengers with round-trip tickets. Estimated stay at Kasprowy Wierch for round-trip ticket holders is about 1 hour and 40 minutes (e.g., ascent at 8:00, descent at 10:00; cable car ride approx. 20 minutes). It is prohibited to bring dogs or other animals into the Tatra National Park. The ticket price includes entry to the Tatra National Park, valid on the date of the Kasprowy Wierch cable car ticket purchase.",
+                    "text3": "Children up to 4 years old. Free ride based on the guardian’s ticket – child’s age must be confirmed with a valid document. No extra charge for a stroller."
+                }
+            }
         }
     },
     "why": {
@@ -209,6 +232,99 @@
             "2": "Sleigh Ride in the Chochołowska Valley",
             "3": "New Year's Eve Sleigh Ride",
             "button": "Choose"
+        },
+        "koscielisko": {
+            "header": "Highlander Sleigh Ride in Kościelisko",
+            "header2": "What do we offer?",
+            "header3": "Our sleigh ride program includes:",
+            "header4": "Winter season prices",
+            "list": {
+                "1": "Pickup from your accommodation in Zakopane or the Kościelisko municipality (other locations upon arrangement)",
+                "2": "Torch-lit sleigh ride in Kościelisko.",
+                "3": "After the ride, we invite you for a tasty treat including grilled sausage and traditional or highlander-style tea",
+                "4": "The bonfire feast will be set in a beautiful mountain setting.",
+                "5": "The entire experience takes place amidst the scenic Tatra nature."
+            },
+            "text": "During your stay in Zakopane, we invite you to join our picturesque sleigh rides combined with a bonfire feast. A fantastic and unforgettable adventure, a unique atmosphere, breathtaking views, and great vibes. Join us for the organized <strong>Highlander sleigh ride in Kościelisko</strong>. A scenic ride in a sleigh through mountain landscapes will create a one-of-a-kind experience you won’t forget. The sleigh ride lasts for <strong>around 1 hour</strong> and is beautifully lit by <strong>torches</strong>. Afterwards, you’re invited to enjoy a bonfire with a <strong>delicious local meal and live highlander music</strong>.",
+            "info": "Sleigh ride hours during the winter season: 4:00 PM, 5:00 PM, 6:00 PM, 7:00 PM (Departure from Zakopane about 40 minutes earlier)",
+            "table": {
+                "header1": "Ticket Type",
+                "header2": "From 01.12.2024 until the end of the winter season",
+                "3": "Regular ticket",
+                "4": "Discounted ticket (up to 10 years old)",
+                "header3": "*The price includes:",
+                "list": {
+                    "1": "Round-trip transport (pickup from accommodation in Zakopane or Kościelisko)",
+                    "2": "One-hour sleigh ride in 4, 8, or 10-person sleighs",
+                    "3": "Bonfire refreshments",
+                    "4": "Sleigh ride menu: sausage, bread, ketchup, mustard, regular tea and highlander tea (unlimited)",
+                    "5": "* If there is insufficient snow, the sleigh rides will take place in horse-drawn carriages instead"
+                }
+            }
+        },
+        "dolina": {
+            "header": "Sleigh Ride in Chochołowska Valley",
+            "header2": "VIP Sleigh Ride in Chochołowska Valley",
+            "header3": "Our sleigh ride program includes:",
+            "header4": "Winter season prices",
+            "list": {
+                "1": "Pickup from your accommodation in Zakopane or the Kościelisko municipality (other locations upon arrangement)",
+                "2": "Scenic torch-lit sleigh ride in Chochołowska Valley in 4-person sleighs*, with a short stop for souvenir photos",
+                "3": "After the ride, grilled sausages at a bonfire with regular and highlander-style tea, plus traditional highlander stew (you may bring your own alcohol)",
+                "4": "Authentic highlander feast with live folk music",
+                "5": "The entire experience takes place amidst the beautiful Tatra nature",
+                "6": "Duration: approx. 2.5 – 3 hours"
+            },
+            "text": "A unique and one-of-a-kind opportunity to experience the magical winter atmosphere of the famous <strong>Chochołowska Valley!</strong> While staying at the foot of the beautiful Polish Tatra Mountains, a true highlander sleigh ride is a must. TrioTravel offers an exceptional sleigh ride in the Chochołowska Valley, away from the hustle and bustle of the city. The <strong>hour-long</strong> sleigh journey will be illuminated by torches, followed by a <strong>feast</strong> by a highlander bonfire, known as 'Watra'. A delicious <strong>refreshment</strong> will be waiting for you by the fire, accompanied by a <strong>live traditional highlander band.</strong>",
+            "info": "Sleigh rides depart daily at 5:00 PM and 7:00 PM (Departure from Zakopane about 40 minutes earlier)",
+            "table": {
+                "header1": "Ticket Type",
+                "header2": "From 01.12.2024 until the end of the winter season",
+                "header3": "From 26.12.2024 to 06.01.2025",
+                "3": "Regular ticket",
+                "4": "Discounted ticket (up to 10 years old)",
+                "header4": "*The price includes:",
+                "list": {
+                    "1": "Round-trip transport (pickup from accommodation in Zakopane or Kościelisko)",
+                    "2": "One-hour ride in 4-person sleighs",
+                    "3": "One-hour feast with a live highlander band and refreshments by the bonfire",
+                    "4": "Admission tickets to the Tatra National Park (TPN)",
+                    "5": "Torches during the sleigh ride",
+                    "6": "Sleigh ride menu: bigos, smoked cheese (oscypek), bread with highlander lard, mulled wine, sausage, bread, ketchup, pickles, mustard, regular and highlander tea (unlimited)",
+                    "7": "* For groups of 3 (or 7, etc.), an extra fee applies for the empty seat in the sleigh: 70 PLN",
+                    "8": "* If there is insufficient snow, sleigh rides take place in horse-drawn wagons or carriages"
+                }
+            }
+        },
+        "sylwester": {
+            "header": "New Year's Eve Sleigh Ride",
+            "header2": "NEW YEAR'S EVE SLEIGH RIDE 2024–2025",
+            "header3": "What we offer during the New Year's Eve sleigh ride:",
+            "header4": "Winter season prices",
+            "list": {
+                "1": "Pickup from accommodation (pickup within Zakopane and Kościelisko municipality; other locations by arrangement)",
+                "2": "One-hour sleigh ride at the foot of the Kościeliska Valley",
+                "3": "Sleighs for 4, 8 or 10 people",
+                "4": "Live traditional highlander music during the ride",
+                "5": "Authentic highlander refreshments",
+                "6": "The entire experience takes place in a picturesque and breathtaking Tatra landscape",
+                "7": "You may bring and consume your own alcohol",
+                "8": "In case of no snow, sleighs will be replaced with horse-drawn wagons",
+                "9": "The sleigh ride is outdoors and takes place regardless of weather conditions – warm clothing is highly recommended",
+                "10": "Total duration: approx. 2.5 hours (round-trip transport, sleigh ride, and highlander feast)"
+            },
+            "text": "Join us for an <strong>unforgettable New Year’s Eve</strong> in the magical scenery of Podhale! The New Year's Eve sleigh ride by <strong>TrioTravel</strong> is a traditional ride through snowy trails, ending with a bonfire and refreshments in true highlander style. It's a unique opportunity to <strong>ring in the New Year surrounded by nature, by the firelight, with music and local delicacies.</strong> Experience the magic of highlander hospitality with your friends and family – make the start of the new year truly unforgettable!",
+            "info": "Other available time slots: 8:00 PM – 10:00 PM",
+            "table": {
+                "header1": "Ticket type",
+                "header2": "New Year's Eve night",
+                "3": "Regular ticket",
+                "4": "Discounted ticket (up to 10 years old)",
+                "header4": "*Menu includes:",
+                "list": {
+                    "1": "Sausage for self-grilling, bread, mustard, ketchup, highlander and regular tea"
+                }
+            }
         }
     },
     "reservations": {
@@ -249,5 +365,18 @@
         "header3": "Your Way",
         "text2": "We do our utmost to ensure every assignment is carried out properly and meets our clients' expectations. Our team's top priorities are customer satisfaction and the highest quality of service. Our drivers are experienced professionals, delivering full reliability and the necessary skills. With years of experience in transportation, our passenger services guarantee a comfortable and safe journey. We are committed to punctuality and competitive pricing. Since every client has different needs and expectations, we always tailor our services to meet individual requirements. All of our vehicles are fully licensed and equipped for international travel, ensuring safety and comfort on every route.",
         "button": "Pickup Point Map"
+    },
+    "pickup": {
+        "header": "Pickup Map",
+        "header2": "Meeting Points – Pickup Locations in Zakopane and Surrounding Areas",
+        "header3": "Why choose our pickup points?",
+        "text": "At Trio Travel, we care about your comfort, which is why we offer convenient pickup points throughout Zakopane and the surrounding area. Our pickup map covers both Zakopane's city center and nearby towns such as Kościelisko, Poronin, Murzasichle, Biały Dunajec, and Gliczarów.",
+        "text2": "Check out our map and choose a pickup point near your accommodation – from popular spots in Zakopane, to charming areas near the Tatra National Park, and picturesque villages across the region.",
+        "list": {
+            "1": "Wide coverage: We pick you up from many locations in and around Zakopane.",
+            "2": "Convenience: Points are strategically located close to popular routes and accommodations.",
+            "3": "Flexibility: If you have any questions or need a personalized approach, feel free to contact us!"
+        },
+        "text3": "Take a look at the map and join us at your selected point – we’re excited to explore the beauty of the Tatras and Pieniny with you!"
     }
 }

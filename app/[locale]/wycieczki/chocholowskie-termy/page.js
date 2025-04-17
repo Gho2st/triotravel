@@ -54,7 +54,7 @@ export default function Termy() {
             items={customItems}
           />
         </div>
-        <div className="mt-16 md:w-3/4 mx-auto">
+        <div className="mt-16">
           <Table headers={tableHeaders} rows={tableRows} />
         </div>
       </section>

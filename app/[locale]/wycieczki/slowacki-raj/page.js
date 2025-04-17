@@ -63,14 +63,14 @@ export default function SlowackiRaj() {
           Korytowy. To jedno z najbardziej malowniczych i najchętniej
           odwiedzanych miejsc w całym parku
         </p>
-        <div className="mt-16 md:w-3/4 mx-auto">
+        <div className="mt-16">
           <Table
             headers={tableHeaders}
             rows={tableRows}
             text="* Cena obejmuje: opiekę kierowcy podczas wycieczki, ubezpieczenie NNW oraz transport z Zakopanego"
           />
         </div>
-        <div className="mt-16 md:w-3/4 mx-auto">
+        <div className="mt-16">
           <TripProgram title={<>Program wycieczki:</>} items={tripItems} />
         </div>
         <div className="flex justify-center mt-16">

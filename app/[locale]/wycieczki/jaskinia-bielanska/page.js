@@ -85,10 +85,10 @@ export default function Jaskinia() {
           2004 roku miejscowość została spustoszona przez potężny huragan, który
           powalił 14 tys. ha lasów.
         </p>
-        <div className="mt-16 md:w-3/4 mx-auto">
+        <div className="mt-16">
           <Table headers={tableHeaders} rows={tableRows} />
         </div>
-        <div className="mt-16 md:w-3/4 mx-auto">
+        <div className="mt-16">
           <TripProgram
             title={
               <>

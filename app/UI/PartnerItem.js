@@ -12,7 +12,7 @@ export default function PartnerItem({ t, index, partner, link }) {
     >
       <div className="md:w-3/5">
         <Link href={link} className=" ">
-          <h2 className="text-2xl font-medium  inline-block hover:text-yellow-600 duration-300 transition-all md:text-2xl mb-10 underline md:underline-offset-[1rem]">
+          <h2 className="text-2xl xl:text-3xl font-medium  inline-block hover:text-yellow-600 duration-300 transition-all md:text-2xl mb-10 underline md:underline-offset-[1rem]">
             {t.header}
           </h2>
         </Link>

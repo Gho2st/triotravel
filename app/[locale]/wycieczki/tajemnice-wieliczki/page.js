@@ -60,14 +60,14 @@ export default function Wieliczka() {
           będzie nie tylko niezapomniana przygoda, ale również „solna dawka”
           zdrowia!
         </p>
-        <div className="mt-16 md:w-3/4 mx-auto">
+        <div className="mt-16">
           <Table
             headers={tableHeaders}
             rows={tableRows}
             text="**Ceny biletów wstępów mogą ulec zmianie"
           />
         </div>
-        <div className="mt-16 md:w-3/4 mx-auto">
+        <div className="mt-16">
           <TripProgram
             title={
               <>

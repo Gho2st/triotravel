@@ -8,7 +8,7 @@ export default function BackgroundList({
 }) {
   return (
     <div
-      className={`inline-block text-center  ${bgColor} rounded-2xl p-4 py-10 md:p-10 mx-auto ${className}`}
+      className={`inline-block text-center  ${bgColor} md:w-3/4 rounded-2xl p-4 py-10 md:p-10 mx-auto ${className}`}
     >
       <h3
         className={`text-2xl xl:text-3xl mb-8 md:mb-12 font-semibold leading-snug ${textColor}`}
