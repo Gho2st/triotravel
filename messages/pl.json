@@ -89,6 +89,98 @@
                     "text2": "Kasa w Kuźnicach prowadzi sprzedaż tylko na dzień bieżący, bezpośrednio przed odjazdem kolei. Przy czym wszystkie osoby, dla których nabywane są bilety, muszą znajdować się bezpośrednio przed kasą. Po zakupie biletów następuje odprawa pasażerska i przejście na peron do odjazdu. Na każdym bilecie widnieje informacja o ważności biletu. Bilety na zjazd koleją linową z Kasprowego Wierchu można nabyć tylko w kasie stacji górnej w miarę wolnych miejsc. Pierwszeństwo w zjeździe mają osoby posiadające bilet powrotny (tzn. do góry i w dół). Przewidywany czas pobytu na Kasprowym Wierchu przy zakupie biletów powrotnych wynosi ok. 1 godz. 40 min. (tzn. jeśli wjazd godz. 8:00, to zjazd godz. 10:00; przejazd koleją ok. 20 min.). Na teren Tatrzańskiego Parku Narodowego nie można wwozić psów oraz innych zwierząt. W cenę biletu wliczony jest bilet wstępu do Tatrzańskiego Parku Narodowego, ważny w dniu zakupu biletu na KL Kasprowy Wierch.",
                     "text3": "Dzieciom do 4 lat. Przejazd darmowy na podstawie biletu opiekuna, wiek dziecka należy potwierdzić ważnym dokumentem. Nie pobiera się dodatkowej opłaty za wózek dziecięcy."
                 }
+            },
+            "splyw-dunajcem-dluzszy": {
+                "header": "Spływ Dunajcem 2.5h",
+                "header2": "Co Oferujemy?",
+                "header3": "Wycieczka w Pieniny: Spływ i Niedzica",
+                "header4": "Podczas wycieczki w Pieniny, poza główną atrakcją, którą jest spływ na drewnianych tratwach-odwiedzisz również Niedzicę, w której do wyboru masz jedną z atrakcji:",
+                "text": "Przygotowaliśmy dla Państwa szereg niezwykle ciekawych atrakcji, które z pewnością uczynią czas Państwa wypoczynku szalenie interesującym i niezapomnianym. Proponowany przez nas spływ Dunajcem z Zakopanego to rewelacyjny sposób na to, aby należycie nacieszyć się pięknymi krajobrazami, a zarazem wiele zwiedzić. Flisacy umilą go Państwu fascynującymi opowieściami i legendami związanymi z rzeką oraz jej okolicami. Poza spływem na drewnianej tratwie, skąd nacieszycie Państwo oczy widokiem otaczających Pienin, oferta obejmuje również możliwość zwiedzania zamku w Niedzicy, zapory na Dunajcu czy Parku Miniatur Podhala, Orawy i Spisza.",
+                "list": {
+                    "1": "Rejs statkiem po Jeziorze Czorsztyńskim (Podczas rejsu statkiem spacerowym będziesz mógł podziwiać zaporę wodną, ruiny zamku Czorsztyńskiego, zamek Niedzica, skansen Czorsztyński oraz przepiękny górski krajobraz). Taki rejs to przygoda, która na długo zostanie w twojej pamięci!",
+                    "2": "Zamek w Niedzicy -  gdzie więziono i torturowano Janosika.",
+                    "3": "Zaporę Czorsztyńską wraz z spektakularnym malowidłem wykonanym w technice 3D",
+                    "4": "Park Miniatur Podhala, Orawy i Spisza, park linowy.",
+                    "5": "Wracając do Zakopanego zatrzymamy się w Dębnie, gdzie znajduje się zabytkowy drewniany Kościół z XV w wpisany na listę UNESCO - prelekcja z Panią kustosz ok. 20 min."
+                },
+                "info": "Sezon flisacki trwa od 1 kwietnia do 31 października - świątek, piątek i niedziele. Zatem na wycieczkę zapraszamy codziennie!",
+                "table": {
+                    "header1": "Rodzaj biletu",
+                    "header2": "Spływ Dunajcem 2.5h",
+                    "1": "Bilet normalny",
+                    "2": "Bilet ulgowy (do 10 lat)",
+                    "3": "Bilet ulgowy (do 3 lat)",
+                    "text": "* Cena obejmuje: opiekę kierowcy podczas wycieczki oraz ubezpieczenie NNW"
+                },
+                "tripprogram": {
+                    "header": "Program Wycieczki (ok. 9-10h):",
+                    "1": "Wyjazd z Zakopanego",
+                    "2": "Spływ Dunajcem do Szczawnicy (około 2,15 h)",
+                    "3": "Odbiór ze Szczawnicy i przejazd do Niedzicy",
+                    "4": "Czas wolny (2h)",
+                    "5": "Przejazd do Dębna",
+                    "6": "Zwiedzanie Kościółka z Panią Kustosz (około 20 minut)",
+                    "7": "Wyjazd powrotny",
+                    "8": "Planowy przyjazd do Zakopanego"
+                },
+                "funfact": {
+                    "header": "Ciekawostki o Spływie Dunajcem",
+                    "text1": "Powstanie przełomu Dunajca do dziś nie jest do końca poznane. Legendy mówią, że właśnie tędy słynny rycerz Ferkowicz gonił króla węży.",
+                    "text2": "Kręta trasa jaką pokonał miała właśnie zmienić się w Przełom Dunajca. Inni górale mówią, że ujście rzece wybił sam król Bolesław Chrobry.",
+                    "cta": "Chcesz wiedzieć więcej? Zapytaj flisaka…"
+                }
+            },
+            "termy": {
+                "header": "Termy Chochołowskie",
+                "header2": "Zrelaksuj się",
+                "header3": "W strefie basenowej znajdziecie:",
+                "text": "Termy Chochołowskie to największy kompleks termalny na Podhalu. Duże baseny wewnętrzne i zewnętrzne łączna powierzchnia lustra wody to 3000 m2. Kompleks posiada  plażę  trawiastą i piaszczystą gdzie, każdy znajdzie miejsce do upragnionego relaksu. W kompleksie znajdują się strefy basenowe jak i lecznicze.",
+                "list": {
+                    "1": "8 basenów whirpool z wodą termalną",
+                    "2": "1 basen whirpool z wodą solankową,",
+                    "3": "2 baseny wewnętrzne termalne ze stanowiskami do masażu,",
+                    "4": "2 baseny zewnętrzne termalne z atrakcjami wodnymi (rwąca rzeka, dysze wodne, etc.),",
+                    "5": "3 zjeżdżalnie (w tym jedna z zapadnią),",
+                    "6": "basen pływacki o wymiarach 16x8 m z systemem monitoringu."
+                },
+                "table": {
+                    "header1": "Rodzaj biletu",
+                    "header2": "HIT PAKIET czas 4 godziny (wstęp na strefę basenową i leczniczą, transport z miejsca zakwaterowania w obie strony GRATIS)",
+                    "1": "Bilet normalny",
+                    "2": "Bilet ulgowy (do 10 lat, studencji do 26 roku życia, emeryci 65+) (do 10 lat)"
+                }
+            },
+            "spacer-w-koronach-drzew": {
+                "header": "Spacer w Koronach Drzew",
+                "header2": "Odkryj Piękno Natury",
+                "header3": "Więcej informacji",
+                "text": "Ścieżka w Koronach Drzew Bachledka znajduje się w samym sercu gatunkowo zróżnicowanego lasu <strong>Pienińskiego Parku Narodowego.</strong> Zwiedzającym pokaże, dlaczego jest natura Magury Spiskiej wyjątkowa. Razem z nami zapoznajesz się z miejscowymi lasami. Stajesz się częścią życia leśnego oraz dowiesz się coś o różnych gatunków zwierząt i roślin występujących bardzo rzadko. Wyjazd wczesnym rankiem z Zakopanego w stronę Bachledowej Doliny. Tutaj zaprosimy Państwa na kolejkę gondolową przejazd w dwie strony (czas trwania przejazdu około 7 minut), która zawiezie państwa na Szczyt Magury Spiskiej.",
+                "list": {
+                    "1": "Podczas przechadzania się po ścieżce, skorzystać można z wielu tablic informacyjnych przeznaczonych bez przeszkód do przeczytania, znajdujących się na kilku przystankach w sekcji poziomej Ścieżki. Tablice zawierają interesujące informacje dotyczące fauny, flory oraz życia lasów miejscowych, jak i ich ochrony czy niszczącej siły pogody.",
+                    "2": "Trasa o długości ponad 600 m przeprowadzi zwiedzających przez gatunkowo zróżnicowany las, w którym znajduje się dużo różnych niespodzianek i ciekawostek."
+                },
+                "table": {
+                    "header1": "Rodzaj biletu",
+                    "header2": "Spacer w Koronach Drzew",
+                    "1": "Bilet normalny",
+                    "2": "Bilet ulgowy (do 14lat, emeryci 65+)",
+                    "additional": "Dodatkowo płatne (bilet na kolejkę gondolową w dwie strony + na scieżkę w koronach drzew)",
+                    "text": "* Cena obejmuje: opiekę kierowcy podczas wycieczki, ubezpieczenie NNW oraz transport z Zakopanego"
+                },
+                "tripprogram": {
+                    "header": "Program Wycieczki (ok. 8-9h):",
+                    "1": "Transfer z Zakopanego",
+                    "2": "Wyjazd kolejką Gondolową Bachledka na szczyt Magury Spiskiej",
+                    "3": "Spacer ścieżką po Koronie Drzew",
+                    "4": "Zjazd kolejką",
+                    "5": "Przejazd do Szczyrbskiego Plesa (Czas wolny 2 godziny ) ** niedostępny w sezonie zimowym **",
+                    "6": "Wyjazd do Zakopanego",
+                    "7": "Wyjazd powrotny",
+                    "8": "Planowany powrót",
+                    "text": "Po zakończeniu zwiedzania wracamy kolejka gondolową na parking z którego ruszamy przez Taty Wysokie (Tatrzańska Łomnica,Stary Smokowiec) do Szczyrbskiego Plesa. Tutaj zapraszamy Państwa na czas wolny. Dla chętnych spacer wokoło jeziora zajmie około 40 minut, Strbske Pleso - to po naszemu Szczyrbskie Jezioro. Położone na wysokości 1346 m n.p.m. Często porównywane do naszego Morskiego Oka. Jezioro jest otoczone lasem świerkowym, bardzo zniszczonym przez huraganowy wiatr w 2004.Osada ta ma status uzdrowiska klimatycznego jest także powszechnie znanym kurortem narciarskim. To przepiękne miejsce a mało brakowało, by po jeziorze zajmującym około 20 ha mogło nie być śladu, gdy w połowie XIX wieku mieszkańcy okolicy chcieli go odwodnić i zmienić na pastwisko. Po spacerze dookoła urokliwego jeziora powrót do Zakopanego. Trasa o długości ponad 600 m przeprowadzi zwiedzających przez gatunkowo zróżnicowany las, w którym znajduje się dużo różnych niespodzianek i ciekawostek.",
+                    "button": "Warunki Uczestnictwa",
+                    "text2": "Dzieciom do 10 lat. Dzieciom i młodzieży szkolnej do 15 lat na podstawie ważnej legitymacji szkolnej. Studentom do 26 roku życia (studenci, uczniowie urodzeni po 01.01.1998 r.) na podstawie ważnej polskiej legitymacji studenckiej, legitymacji ISIC oraz EURO 26. Osobom po 65 roku życia (urodzeni przed 31.12.1959) za okazaniem dokumentu potwierdzającego wiek. Opiekunom grup szkolnych (1 opiekun na 10 podopiecznych). Przewodnikom prowadzącym grupy przysługuje bilet dla przewodnika w cenie 35 zł."
+                }
             }
         }
     },

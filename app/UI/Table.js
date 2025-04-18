@@ -10,7 +10,7 @@ export default function Table({ headers, rows, text }) {
             {headers.map((header, index) => (
               <th
                 key={index}
-                className="px-6 py-4 text-center text-xl font-semibold"
+                className="px-6 py-4 text-center md:text-xl font-semibold"
               >
                 {header}
               </th>
@@ -26,7 +26,7 @@ export default function Table({ headers, rows, text }) {
               {row.map((cell, cellIndex) => (
                 <td
                   key={cellIndex}
-                  className="px-6 py-4 text-center text-lg text-gray-700"
+                  className="px-6 py-4 text-center md:text-lg text-gray-700"
                 >
                   {cell}
                 </td>

@@ -78,6 +78,98 @@
                     "text2": "The ticket office in Kuźnice only sells tickets for the current day, just before the cable car departs. All people for whom tickets are purchased must be present directly at the ticket window. After purchase, passengers proceed to boarding. Each ticket includes its validity information. Return tickets from the upper Kasprowy station can only be purchased at the mountain station, depending on seat availability. Priority for descent is given to passengers with round-trip tickets. Estimated stay at Kasprowy Wierch for round-trip ticket holders is about 1 hour and 40 minutes (e.g., ascent at 8:00, descent at 10:00; cable car ride approx. 20 minutes). It is prohibited to bring dogs or other animals into the Tatra National Park. The ticket price includes entry to the Tatra National Park, valid on the date of the Kasprowy Wierch cable car ticket purchase.",
                     "text3": "Children up to 4 years old. Free ride based on the guardian’s ticket – child’s age must be confirmed with a valid document. No extra charge for a stroller."
                 }
+            },
+            "splyw-dunajcem-dluzszy": {
+                "header": "Dunajec Rafting 2.5h",
+                "header2": "What Do We Offer?",
+                "header3": "Trip to the Pieniny Mountains: Rafting and Niedzica",
+                "header4": "During the trip to the Pieniny Mountains, apart from the main attraction – a rafting trip on traditional wooden rafts – you will also visit Niedzica, where you can choose one of the following attractions:",
+                "text": "We have prepared a range of fascinating attractions that will surely make your holiday time incredibly exciting and unforgettable. Our suggested Dunajec rafting tour from Zakopane is a fantastic way to enjoy stunning landscapes and explore many sites. The rafters will entertain you with captivating stories and legends related to the river and its surroundings. In addition to rafting on a wooden raft, where you can admire the beauty of the Pieniny mountains, the offer also includes the option to visit the castle in Niedzica, the Dunajec dam, or the Miniature Park of Podhale, Orava, and Spiš.",
+                "list": {
+                    "1": "A boat cruise on Lake Czorsztyn (During the sightseeing cruise, you will admire the water dam, the ruins of Czorsztyn Castle, Niedzica Castle, the Czorsztyn open-air museum, and the stunning mountain scenery). Such a cruise is an adventure you will remember for a long time!",
+                    "2": "Niedzica Castle – where Janosik was imprisoned and tortured.",
+                    "3": "The Czorsztyn Dam with a spectacular 3D mural.",
+                    "4": "Miniature Park of Podhale, Orava, and Spiš, rope park.",
+                    "5": "On the way back to Zakopane, we’ll stop in Dębno, where there is a historic 15th-century wooden church listed as a UNESCO World Heritage Site – with a short 20-minute talk by the curator."
+                },
+                "info": "The rafting season runs from April 1st to October 31st – rain or shine, including Fridays and Sundays. So, we invite you to join us every day!",
+                "table": {
+                    "header1": "Ticket Type",
+                    "header2": "Dunajec Rafting 2.5h",
+                    "1": "Regular Ticket",
+                    "2": "Discounted Ticket (up to 10 years old)",
+                    "3": "Discounted Ticket (up to 3 years old)",
+                    "text": "* Price includes: driver assistance during the tour and accident insurance (NNW)"
+                },
+                "tripprogram": {
+                    "header": "Trip Program (approx. 9–10h):",
+                    "1": "Departure from Zakopane",
+                    "2": "Dunajec River Rafting to Szczawnica (approx. 2h 15min)",
+                    "3": "Pick-up in Szczawnica and transfer to Niedzica",
+                    "4": "Free time (2h)",
+                    "5": "Transfer to Dębno",
+                    "6": "Visit to the Wooden Church with a Curator Talk (approx. 20 min)",
+                    "7": "Return departure",
+                    "8": "Planned arrival in Zakopane"
+                },
+                "funfact": {
+                    "header": "Fun Facts About the Dunajec Rafting",
+                    "text1": "The origin of the Dunajec Gorge is still not fully understood. According to legend, the famous knight Ferkowicz chased the King of Snakes through this route.",
+                    "text2": "The winding path he took was said to have turned into the Dunajec Gorge. Other highlanders claim that the river’s outlet was carved out by King Bolesław the Brave himself.",
+                    "cta": "Want to know more? Ask your rafter..."
+                }
+            },
+            "termy": {
+                "header": "Chochołowskie Thermal Baths",
+                "header2": "Relax Yourself",
+                "header3": "In the pool area you will find:",
+                "text": "Chochołowskie Thermal Baths is the largest thermal complex in the Podhale region. With large indoor and outdoor pools, the total water surface area amounts to 3000 m². The complex features both grassy and sandy beaches, offering everyone a perfect spot to relax. It includes both recreational and therapeutic zones.",
+                "list": {
+                    "1": "8 whirlpool pools with thermal water",
+                    "2": "1 whirlpool pool with saline water",
+                    "3": "2 indoor thermal pools with massage stations",
+                    "4": "2 outdoor thermal pools with water attractions (lazy river, water jets, etc.)",
+                    "5": "3 water slides (including one with a trapdoor)",
+                    "6": "Swimming pool sized 16x8 m with monitoring system"
+                },
+                "table": {
+                    "header1": "Ticket Type",
+                    "header2": "HIT PACKAGE – 4-hour pass (includes access to pool and therapeutic zones + FREE round-trip transport from your accommodation)",
+                    "1": "Regular Ticket",
+                    "2": "Discounted Ticket (children up to 10 years old, students up to 26, seniors 65+)"
+                }
+            },
+            "spacer-w-koronach-drzew": {
+                "header": "Walk Among the Treetops",
+                "header2": "Discover the Beauty of Nature",
+                "header3": "More Information",
+                "text": "The Treetop Walk Bachledka is located in the heart of the species-rich forest of the <strong>Pieniny National Park.</strong> It reveals why the nature of the Spiš Magura is so special. During this experience, you will become familiar with the local forests, become part of forest life, and learn about rare species of animals and plants. The trip starts early in the morning from Zakopane towards the Bachledova Valley. From there, you’ll take a round-trip gondola ride (approx. 7 minutes) up to the peak of the Spiš Magura.",
+                "list": {
+                    "1": "While walking along the treetop path, you can stop at several stations with information boards, all easily accessible. These provide fascinating insights into local flora, fauna, forest life, its protection, and the destructive power of weather.",
+                    "2": "The over 600-meter-long route leads visitors through a diverse forest filled with surprises and interesting facts."
+                },
+                "table": {
+                    "header1": "Ticket Type",
+                    "header2": "Walk Among the Treetops",
+                    "1": "Regular Ticket",
+                    "2": "Discounted Ticket (children up to 14, seniors 65+)",
+                    "additional": "Extra cost (gondola round-trip ticket + treetop walk entrance ticket)",
+                    "text": "* Price includes: driver assistance during the tour, accident insurance (NNW), and transport from Zakopane"
+                },
+                "tripprogram": {
+                    "header": "Tour Program (approx. 8–9h):",
+                    "1": "Transfer from Zakopane",
+                    "2": "Gondola ride to the top of Spiš Magura",
+                    "3": "Walk along the Treetop Trail",
+                    "4": "Gondola descent",
+                    "5": "Drive to Štrbské Pleso (Free time – 2 hours) **unavailable in winter season**",
+                    "6": "Return to Zakopane",
+                    "7": "Departure",
+                    "8": "Estimated arrival",
+                    "text": "After the treetop walk, we return via gondola to the parking lot and head through the High Tatras (Tatranská Lomnica, Starý Smokovec) to Štrbské Pleso. There you’ll have free time. For those interested, a walk around the lake takes about 40 minutes. Štrbské Pleso – also known as Štrbské Lake – is located at 1,346 m above sea level. Often compared to Poland’s Morskie Oko, it’s surrounded by spruce forests severely damaged by a hurricane in 2004. The settlement has the status of a climatic health resort and is also a popular ski destination. It’s a beautiful place – and it almost disappeared in the 19th century, when locals wanted to drain the 20-hectare lake and turn it into pasture. After the lake walk, we return to Zakopane. The 600-meter-long path takes visitors through a diverse forest full of natural wonders and surprises.",
+                    "button": "Participation Conditions",
+                    "text2": "Discounts apply to: children up to 10 years old, schoolchildren up to 15 with valid school ID, students up to 26 with a valid Polish student ID, ISIC, or EURO 26 card, seniors 65+ with proof of age, one guardian per 10 schoolchildren, and licensed tour guides (guide ticket costs 35 PLN)."
+                }
             }
         }
     },
