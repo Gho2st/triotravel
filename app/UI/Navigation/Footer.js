@@ -126,7 +126,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-24 text-center">
-          <p className="text-lg">TrioTravel & Domiweb | {currentYear}</p>
+          <p className="text-lg">TrioTravel | {currentYear}</p>
         </div>
         {showArrow && (
           <span className="fixed bg-customBlue shadow-2xl rounded-lg p-1 text-4xl text-white bottom-6 right-6 xl:bottom-16 xl:right-10 z-10">
