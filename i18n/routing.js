@@ -15,7 +15,7 @@ export const routing = defineRouting({
       en: "/",
       ar: "/",
     }, // Dodano przecinek i klamrę zamykającą
-    "/o-nas": {
+    "/bilety-na-kasprowy-wierch": {
       pl: "/bilety-na-kasprowy-wierch",
       en: "",
       ar: "",

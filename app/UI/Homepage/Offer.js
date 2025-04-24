@@ -44,7 +44,7 @@ const gallery = [
     link: "/wycieczki/tajemnice-wieliczki",
   },
   {
-    url: "/wycieczki/kasprowy.png",
+    url: "/wycieczki//kasprowy-wierch/1.png",
     alt: "trips.7",
     link: "/bilety-na-kasprowy-wierch",
   },
@@ -92,7 +92,7 @@ export default function Offer() {
   const carouselSettings = {
     infinite: true,
     speed: 800,
-    lazyLoad: "ondemand",
+    lazyLoad: "progressive",
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
