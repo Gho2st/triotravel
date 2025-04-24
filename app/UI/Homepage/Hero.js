@@ -14,30 +14,35 @@ export default function Hero() {
 
   const slides = [
     {
-      background: "/baner/baner.png",
-      translationKey: "headers.header5", // "Wycieczka w Górach?"
-      link: "/",
+      background: "/wycieczki/spacer-w-koronach-drzew/korony.png",
+      translationKey: "headers.header7", // "Spacer W Koronach Drzew"
+      link: "/wycieczki/spacer-w-koronach-drzew",
     },
     {
       background: "/baner/baner2.png",
-      translationKey: "headers.header1", // "Spływ Kajakiem?"
-      link: "/wycieczki-splyw-kajakiem",
+      translationKey: "headers.header1", // "Spływ Dunajcem?"
+      link: "/wycieczki/splyw-dunajcem-dluzszy",
     },
     {
-      background: "/baner/baner3.png", //"Zimowy Kulig?"
-      translationKey: "headers.header6",
-      link: "/kuligi",
+      background: "/wycieczki/biesiada-goralska/baner.png",
+      translationKey: "headers.header5", // "Biesiada Goralska?"
+      link: "/wycieczki/biesiada-goralska",
     },
+    // {
+    //   background: "/baner/baner3.png", //"Zimowy Kulig?"
+    //   translationKey: "headers.header6",
+    //   link: "/kuligi",
+    // },
     {
       background: "/baner/baner4.png",
       translationKey: "headers.header2", // "Baseny Termalne?"
       link: "/wycieczki/termy",
     },
-    {
-      background: "/baner/baner5.png",
-      translationKey: "headers.header3", // "Bilety na Kasprowy?"
-      link: "/bilety-na-kasprowy-wierch",
-    },
+    // {
+    //   background: "/baner/baner5.png",
+    //   translationKey: "headers.header3", // "Bilety na Kasprowy?"
+    //   link: "/bilety-na-kasprowy-wierch",
+    // },
     {
       background: "/baner/baner6.png",
       translationKey: "headers.header4", // "Transport w Górach?"

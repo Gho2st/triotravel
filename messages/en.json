@@ -1,9 +1,9 @@
 {
     "nav": {
         "links": {
-            "link1": "Tours",
+            "link1": "Trips",
             "link2": "Sleigh Rides",
-            "link3": "Tickets to Kasprowy",
+            "link3": "Kasprowy Wierch Tickets",
             "link4": "Transport",
             "link5": "Partners",
             "link6": "Contact"
@@ -20,237 +20,713 @@
             "header": "Contact Us"
         }
     },
+    "welcome": "Welcome to our website!",
+    "notfound": {
+        "title": "404 - Page Not Found",
+        "text": "PS: This often happens due to a typo in the URL or when the page has moved to a slightly different address...",
+        "button": "Homepage"
+    },
+    "error": {
+        "title": "Something went wrong!",
+        "text": "We apologize, an issue has occurred. Please try again later or contact us if the problem persists.",
+        "button": "Try again"
+    },
     "hero": {
         "headers": {
-            "header1": "Kayak Trip?",
+            "header1": "Dunajec River Rafting?",
             "header2": "Thermal Pools?",
-            "header3": "Tickets to Kasprowy?",
+            "header3": "Kasprowy Wierch Tickets?",
             "header4": "Mountain Transport?",
-            "header5": "Mountain Trip?",
-            "header6": "Winter Sleigh Ride?"
+            "header5": "Highlander Feast?",
+            "header6": "Winter Sleigh Ride?",
+            "header7": "Treetop Walk?"
         },
-        "button": "Book",
+        "button": "Book Now",
         "button2": "Now"
     },
     "about": {
         "header1": "Trio Travel - Your Travel Agency in Zakopane for Unforgettable Trips",
         "text": "We know Zakopane like the back of our hand, and nothing is impossible for us!",
-        "text2": "We have extensive experience in organizing all kinds of tourism projects, themed events, and transportation"
+        "text2": "We have extensive experience in organizing various tourist projects, themed events, and transportation."
     },
     "offer": {
         "header": "Spring 2025 Offer",
         "trips": {
-            "header": "Tours",
-            "1": "Dunajec Rafting 2.5 h",
+            "header": "Trips",
+            "1": "Dunajec River Rafting 2.5h",
             "2": "Chochołowskie Thermal Baths",
-            "3": "Walk in the Treetops",
+            "3": "Treetop Walk",
             "4": "Bielańska Cave",
-            "5": "Dunajec Rafting 1.5 h",
+            "5": "Dunajec River Rafting 1.5h",
             "6": "Secrets of Wieliczka",
-            "7": "Tickets to Kasprowy Wierch",
+            "7": "Kasprowy Wierch Tickets",
             "8": "Slovak Paradise",
             "9": "Vienna",
             "10": "Budapest",
             "11": "Orava Castle",
-            "12": "Ice Temple – Hrebienok",
-            "13": "Kraków Sightseeing",
-            "14": "Around the Tatras",
-            "15": "Whitewater Rafting on the Dunajec"
+            "12": "Ice Temple Hrebieniok",
+            "13": "Krakow Tour",
+            "14": "Around the Tatra Mountains",
+            "15": "Dunajec Rafting",
+            "16": "Highlander Feast"
         },
         "tripslist": {
-            "kasprowy": {
-                "header": "Tickets to Kasprowy Wierch",
+            "biesiada": {
+                "header": "Highlander Feast",
+                "header2": "Highlander Fun - An Unforgettable Party in Podhale Style",
+                "header3": "Attraction Description:",
+                "text": "Join us for an unforgettable Highlander Feast! Experience an authentic adventure in the heart of the mountains, full of folklore, music, and delicious food. Enjoy dancing by the bonfire, tales from the highlanders, and a unique atmosphere under the stars. Join us and feel the magic of mountain culture! Don’t miss out!",
+                "list": {
+                    "1": "Ride in highlander carriages - Guests board traditional horse-drawn carriages and embark on a scenic route at the foot of the Kościeliska Valley. Along the way, there are short stops at viewpoints where guests can taste regional spirits (optional: lemon vodka, pear vodka, plum brandy)."
+                },
                 "table": {
                     "header1": "Ticket Type",
-                    "header2": "High Season",
-                    "header3": "Low Season",
-                    "1": "Regular – One Way Up",
-                    "2": "Reduced – One Way Up",
-                    "3": "Regular – Round Trip",
-                    "4": "Reduced – Round Trip"
+                    "header2": "Total Trip Cost",
+                    "header3": "Low season",
+                    "1": "Adult",
+                    "2": "Reduced (children up to 14 years)",
+                    "3": "Reduced (children up to 3 years)"
+                },
+                "tripprogram": {
+                    "header": "Trip Program:",
+                    "1": "Pick-up of guests as close as possible to their accommodation and comfortable transfer to the attraction starting point.",
+                    "2": "The adventure begins! Ride in highlander carriages through scenic areas at the foot of the Kościeliska Valley with stops at viewpoints.",
+                    "3": "Arrival at a highlander hut and start of the feast full of music, dance, and traditional games with unlimited refreshments.",
+                    "4": "Planned return to the pick-up point and end of the unforgettable highlander party."
+                }
+            },
+            "kasprowy": {
+                "header": "Kasprowy Wierch Tickets",
+                "table": {
+                    "header1": "Ticket Type",
+                    "header2": "High season",
+                    "header3": "Low season",
+                    "1": "Adult one-way (up)",
+                    "2": "Reduced one-way (up)",
+                    "3": "Adult round-trip",
+                    "4": "Reduced round-trip",
+                    "text": "* Ticket prices may vary depending on the time."
                 },
                 "buttons": {
                     "1": "Notes",
                     "2": "Information",
                     "3": "Discounts",
-                    "header": "Free ride eligibility",
-                    "text1": "Children up to 10 years old. Children and school youth up to 15 years old with a valid school ID. Students up to 26 years old (born after 01.01.1998) with a valid Polish student ID, ISIC, or EURO 26 card. Seniors over 65 (born before 31.12.1959) with a valid document confirming age. School group supervisors (1 supervisor per 10 students). Tour guides leading groups are eligible for a guide ticket priced at 35 PLN.",
-                    "text2": "The ticket office in Kuźnice only sells tickets for the current day, just before the cable car departs. All people for whom tickets are purchased must be present directly at the ticket window. After purchase, passengers proceed to boarding. Each ticket includes its validity information. Return tickets from the upper Kasprowy station can only be purchased at the mountain station, depending on seat availability. Priority for descent is given to passengers with round-trip tickets. Estimated stay at Kasprowy Wierch for round-trip ticket holders is about 1 hour and 40 minutes (e.g., ascent at 8:00, descent at 10:00; cable car ride approx. 20 minutes). It is prohibited to bring dogs or other animals into the Tatra National Park. The ticket price includes entry to the Tatra National Park, valid on the date of the Kasprowy Wierch cable car ticket purchase.",
-                    "text3": "Children up to 4 years old. Free ride based on the guardian’s ticket – child’s age must be confirmed with a valid document. No extra charge for a stroller."
+                    "header": "Free ride is available for",
+                    "text1": "Children under 10. Schoolchildren up to 15 years with a valid school ID. Students up to 26 years (born after 01.01.1998) with a valid student ID, ISIC, or EURO 26 card. Seniors over 65 (born before 31.12.1959) upon presenting proof of age. School group supervisors (1 supervisor per 10 students). Guides leading groups are eligible for a guide ticket priced at 35 PLN.",
+                    "text2": "The ticket office in Kuźnice sells tickets only for the current day, directly before departure. All persons for whom tickets are purchased must be present at the ticket office. After purchasing tickets, passenger check-in and boarding proceed. Each ticket displays its validity. Tickets for the downhill cable car from Kasprowy Wierch can only be purchased at the upper station, subject to availability. Priority for the descent is given to those with a return ticket (i.e., up and down). The expected stay at Kasprowy Wierch with round-trip tickets is about 1 hour 40 minutes (e.g., if ascent at 8:00, descent at 10:00; cable car ride approx. 20 min.). Dogs and other animals are not allowed in the Tatra National Park. The ticket price includes entry to the Tatra National Park, valid on the day of purchase for the KL Kasprowy Wierch.",
+                    "text3": "Children under 4. Free ride based on the guardian's ticket; the child's age must be confirmed with a valid document. No additional fee for baby strollers."
                 }
             },
             "splyw-dunajcem-dluzszy": {
-                "header": "Dunajec Rafting 2.5h",
-                "header2": "What Do We Offer?",
-                "header3": "Trip to the Pieniny Mountains: Rafting and Niedzica",
-                "header4": "During the trip to the Pieniny Mountains, apart from the main attraction – a rafting trip on traditional wooden rafts – you will also visit Niedzica, where you can choose one of the following attractions:",
-                "text": "We have prepared a range of fascinating attractions that will surely make your holiday time incredibly exciting and unforgettable. Our suggested Dunajec rafting tour from Zakopane is a fantastic way to enjoy stunning landscapes and explore many sites. The rafters will entertain you with captivating stories and legends related to the river and its surroundings. In addition to rafting on a wooden raft, where you can admire the beauty of the Pieniny mountains, the offer also includes the option to visit the castle in Niedzica, the Dunajec dam, or the Miniature Park of Podhale, Orava, and Spiš.",
+                "header": "Dunajec River Rafting 2.5h",
+                "header2": "What We Offer?",
+                "header3": "Pieniny Trip: Rafting and Niedzica",
+                "header4": "During the Pieniny trip, besides the main attraction—rafting on wooden rafts—you will also visit Niedzica, where you can choose from many attractions:",
+                "text": "We have prepared a series of extremely interesting attractions that will undoubtedly make your leisure time highly engaging and unforgettable. Our proposed Dunajec rafting from Zakopane is an excellent way to fully enjoy the beautiful landscapes while also exploring many sights. The raftsmen will entertain you with fascinating stories and legends related to the river and its surroundings. Besides rafting on a wooden raft, where you can admire the surrounding Pieniny, the offer also includes visiting Niedzica Castle, the Dunajec Dam, or the Miniature Park of Podhale, Orava, and Spiš.",
                 "list": {
-                    "1": "A boat cruise on Lake Czorsztyn (During the sightseeing cruise, you will admire the water dam, the ruins of Czorsztyn Castle, Niedzica Castle, the Czorsztyn open-air museum, and the stunning mountain scenery). Such a cruise is an adventure you will remember for a long time!",
-                    "2": "Niedzica Castle – where Janosik was imprisoned and tortured.",
-                    "3": "The Czorsztyn Dam with a spectacular 3D mural.",
+                    "1": "Boat cruise on Lake Czorsztyn (During the cruise, you can admire the dam, the ruins of Czorsztyn Castle, Niedzica Castle, the Czorsztyn Open-Air Museum, and the beautiful mountain landscape. Such a cruise is an adventure that will stay in your memory for a long time!).",
+                    "2": "Niedzica Castle - where Janosik was imprisoned and tortured.",
+                    "3": "Czorsztyn Dam with a spectacular 3D mural.",
                     "4": "Miniature Park of Podhale, Orava, and Spiš, rope park.",
-                    "5": "On the way back to Zakopane, we’ll stop in Dębno, where there is a historic 15th-century wooden church listed as a UNESCO World Heritage Site – with a short 20-minute talk by the curator."
+                    "5": "On the way back to Zakopane, we will stop in Dębno, where you can see a historic wooden church from the 15th century, listed as a UNESCO World Heritage Site—a 20-minute lecture with the curator."
                 },
-                "info": "The rafting season runs from April 1st to October 31st – rain or shine, including Fridays and Sundays. So, we invite you to join us every day!",
+                "info": "The rafting season runs from April 1 to October 31—Thursday, Friday, and Sunday. So, we invite you on the trip every day!",
                 "table": {
                     "header1": "Ticket Type",
-                    "header2": "Dunajec Rafting 2.5h",
-                    "1": "Regular Ticket",
-                    "2": "Discounted Ticket (up to 10 years old)",
-                    "3": "Discounted Ticket (up to 3 years old)",
-                    "text": "* Price includes: driver assistance during the tour and accident insurance (NNW)"
+                    "header2": "Dunajec River Rafting 2.5h",
+                    "1": "Adult ticket",
+                    "2": "Reduced ticket (up to 10 years)",
+                    "3": "Reduced ticket (up to 3 years)",
+                    "text": "* Price includes: driver's assistance during the trip and NNW insurance."
                 },
                 "tripprogram": {
-                    "header": "Trip Program (approx. 9–10h):",
+                    "header": "Trip Program:",
                     "1": "Departure from Zakopane",
-                    "2": "Dunajec River Rafting to Szczawnica (approx. 2h 15min)",
-                    "3": "Pick-up in Szczawnica and transfer to Niedzica",
+                    "2": "Dunajec rafting to Szczawnica",
+                    "3": "Pick-up from Szczawnica and transfer to Niedzica",
                     "4": "Free time (2h)",
                     "5": "Transfer to Dębno",
-                    "6": "Visit to the Wooden Church with a Curator Talk (approx. 20 min)",
-                    "7": "Return departure",
+                    "6": "Church tour with the curator",
+                    "7": "Return trip",
                     "8": "Planned arrival in Zakopane"
                 },
                 "funfact": {
-                    "header": "Fun Facts About the Dunajec Rafting",
-                    "text1": "The origin of the Dunajec Gorge is still not fully understood. According to legend, the famous knight Ferkowicz chased the King of Snakes through this route.",
-                    "text2": "The winding path he took was said to have turned into the Dunajec Gorge. Other highlanders claim that the river’s outlet was carved out by King Bolesław the Brave himself.",
-                    "cta": "Want to know more? Ask your rafter..."
+                    "header": "Fun Facts About Dunajec Rafting",
+                    "text1": "The origin of the Dunajec Gorge remains partially unknown to this day. Legends say that this is where the famous knight Ferkowicz chased the king of snakes.",
+                    "text2": "The winding path he took was said to have formed the Dunajec Gorge. Other highlanders say that King Bolesław Chrobry himself carved the river's outlet.",
+                    "cta": "Want to know more?",
+                    "more": {
+                        "header": "Fun Facts About Dunajec Rafting",
+                        "header2": "Legends and Secrets of the Dunajec Gorge!",
+                        "text": "Was it the knight Ferkowicz chasing the king of snakes, or did Bolesław Chrobry carve the river's outlet? Discover the legends and secrets of the Dunajec Gorge!",
+                        "cta": {
+                            "header": "Book your rafting today!",
+                            "text": "Experience an unforgettable adventure in the heart of the Pieniny. Reserve your spot on the Dunajec rafting!",
+                            "button": "Book Now"
+                        },
+                        "cards": {
+                            "1": {
+                                "header": "Dunajec Gorge – A Natural Wonder",
+                                "text": "The Dunajec Gorge is one of the most beautiful river gorges in Europe. It was formed millions of years ago when the river cut through the limestone rocks of the Pieniny."
+                            },
+                            "2": {
+                                "header": "Centuries-Old Rafting Traditions",
+                                "text": "Dunajec rafting has been organized for over 200 years! Initially, raftsmen transported goods, and since the 19th century, they have been taking tourists, including aristocrats."
+                            },
+                            "3": {
+                                "header": "Seven Bends of the Dunajec",
+                                "text": "The rafting route is about 12 km long and passes through seven scenic bends. The most famous is the one around Trzy Korony, the highest peak in the Pieniny."
+                            },
+                            "4": {
+                                "header": "Pieniny – Home to Rare Species",
+                                "text": "The Pieniny are home to lynxes, wolves, and fire salamanders. Lucky visitors might spot a golden eagle circling above the gorge."
+                            },
+                            "5": {
+                                "header": "The Legend of Janosik",
+                                "text": "Highlanders believe that the outlaw Janosik hid in the caves of the Dunajec. The rocks called 'Janosik’s Gate' are said to be his secret escape route."
+                            },
+                            "6": {
+                                "header": "Named Rocks",
+                                "text": "The rock formations in the gorge have their own names, like 'White Lady' or 'Falcon’s Path.' Each hides a story told by the raftsmen."
+                            },
+                            "7": {
+                                "header": "Rafting in Films and Literature",
+                                "text": "The Dunajec Gorge inspired Sienkiewicz’s 'The Deluge' and has appeared in Polish films, captivating artists for centuries."
+                            },
+                            "8": {
+                                "header": "Raftmen’s Jokes and Tales",
+                                "text": "Raftsmen are masters of storytelling! Their humorous tales, passed down through generations, make the rafting a real show."
+                            },
+                            "9": {
+                                "header": "Dunajec – A River of Two Countries",
+                                "text": "The Dunajec marks the border between Poland and Slovakia. Raftsmen joke that rafting is the easiest 'international trip.'"
+                            },
+                            "10": {
+                                "header": "Rafting Season",
+                                "text": "Rafting takes place from April to October. Spring offers blooming nature, while autumn dazzles with the colors of the Pieniny."
+                            }
+                        }
+                    }
+                }
+            },
+            "splyw-dunajcem-krotszy": {
+                "header": "Dunajec River Rafting 1.5h",
+                "header2": "What We Offer?",
+                "header3": "Pieniny Trip: Rafting and Niedzica",
+                "text": "We have prepared a series of extremely interesting attractions that will undoubtedly make your leisure time highly engaging and unforgettable. Our proposed Dunajec rafting from Zakopane is an excellent way to fully enjoy the beautiful landscapes while also exploring many sights. The raftsmen will entertain you with fascinating stories and legends related to the river and its surroundings. Besides rafting on a wooden raft, where you can admire the surrounding Pieniny, the offer also includes visiting Niedzica Castle, the Dunajec Dam, or the Miniature Park of Podhale, Orava, and Spiš.",
+                "list": {
+                    "header": "During the Pieniny trip, besides the main attraction—rafting on wooden rafts—you will also visit Niedzica, where you can choose from many attractions:",
+                    "1": "Boat cruise on Lake Czorsztyn (During the cruise, you can admire the dam, the ruins of Czorsztyn Castle, Niedzica Castle, the Czorsztyn Open-Air Museum, and the beautiful mountain landscape. Such a cruise is an adventure that will stay in your memory for a long time!).",
+                    "2": "Niedzica Castle - where Janosik was imprisoned and tortured.",
+                    "3": "Czorsztyn Dam with a spectacular 3D mural.",
+                    "4": "Miniature Park of Podhale, Orava, and Spiš, rope park.",
+                    "5": "On the way back to Zakopane, we will stop in Dębno, where you can see a historic wooden church from the 15th century, listed as a UNESCO World Heritage Site—a 20-minute lecture with the curator."
+                },
+                "info": "The rafting season runs from April 1 to October 31—Thursday, Friday, and Sunday. So, we invite you on the trip every day!",
+                "table": {
+                    "header1": "Ticket Type",
+                    "header2": "Dunajec River Rafting 1.5h",
+                    "1": "Adult ticket",
+                    "2": "Reduced ticket (up to 10 years)",
+                    "3": "Reduced ticket (up to 3 years)",
+                    "text": "* Price includes: driver's assistance during the trip and NNW insurance."
+                },
+                "tripprogram": {
+                    "header": "Trip Program:",
+                    "1": "Departure from Zakopane",
+                    "2": "Rafting from Majere (Slovakia) on the Dunajec (approx. 1.5-2h) to the landing in Leśnica (Slovakia)",
+                    "3": "Transfer to Niedzica",
+                    "4": "Free time",
+                    "5": "Transfer to Dębno",
+                    "6": "Church tour with the curator (approx. 20 minutes)",
+                    "7": "Return trip",
+                    "8": "Planned arrival in Zakopane"
+                },
+                "funfact": {
+                    "header": "Fun Facts About Dunajec Rafting",
+                    "text1": "The origin of the Dunajec Gorge remains partially unknown to this day. Legends say that this is where the famous knight Ferkowicz chased the king of snakes.",
+                    "text2": "The winding path he took was said to have formed the Dunajec Gorge. Other highlanders say that King Bolesław Chrobry himself carved the river's outlet.",
+                    "cta": "Want to know more?",
+                    "more": {
+                        "header": "Fun Facts About Dunajec Rafting",
+                        "header2": "Legends and Secrets of the Dunajec Gorge!",
+                        "text": "Was it the knight Ferkowicz chasing the king of snakes, or did Bolesław Chrobry carve the river's outlet? Discover the legends and secrets of the Dunajec Gorge!",
+                        "cta": {
+                            "header": "Book your rafting today!",
+                            "text": "Experience an unforgettable adventure in the heart of the Pieniny. Reserve your spot on the Dunajec rafting!",
+                            "button": "Book Now"
+                        },
+                        "cards": {
+                            "1": {
+                                "header": "Dunajec Gorge – A Natural Wonder",
+                                "text": "The Dunajec Gorge is one of the most beautiful river gorges in Europe. It was formed millions of years ago when the river cut through the limestone rocks of the Pieniny."
+                            },
+                            "2": {
+                                "header": "Centuries-Old Rafting Traditions",
+                                "text": "Dunajec rafting has been organized for over 200 years! Initially, raftsmen transported goods, and since the 19th century, they have been taking tourists, including aristocrats."
+                            },
+                            "3": {
+                                "header": "Seven Bends of the Dunajec",
+                                "text": "The rafting route is about 12 km long and passes through seven scenic bends. The most famous is the one around Trzy Korony, the highest peak in the Pieniny."
+                            },
+                            "4": {
+                                "header": "Pieniny – Home to Rare Species",
+                                "text": "The Pieniny are home to lynxes, wolves, and fire salamanders. Lucky visitors might spot a golden eagle circling above the gorge."
+                            },
+                            "5": {
+                                "header": "The Legend of Janosik",
+                                "text": "Highlanders believe that the outlaw Janosik hid in the caves of the Dunajec. The rocks called 'Janosik’s Gate' are said to be his secret escape route."
+                            },
+                            "6": {
+                                "header": "Named Rocks",
+                                "text": "The rock formations in the gorge have their own names, like 'White Lady' or 'Falcon’s Path.' Each hides a story told by the raftsmen."
+                            },
+                            "7": {
+                                "header": "Rafting in Films and Literature",
+                                "text": "The Dunajec Gorge inspired Sienkiewicz’s 'The Deluge' and has appeared in Polish films, captivating artists for centuries."
+                            },
+                            "8": {
+                                "header": "Raftmen’s Jokes and Tales",
+                                "text": "Raftsmen are masters of storytelling! Their humorous tales, passed down through generations, make the rafting a real show."
+                            },
+                            "9": {
+                                "header": "Dunajec – A River of Two Countries",
+                                "text": "The Dunajec marks the border between Poland and Slovakia. Raftsmen joke that rafting is the easiest 'international trip.'"
+                            },
+                            "10": {
+                                "header": "Rafting Season",
+                                "text": "Rafting takes place from April to October. Spring offers blooming nature, while autumn dazzles with the colors of the Pieniny."
+                            }
+                        }
+                    }
                 }
             },
             "termy": {
                 "header": "Chochołowskie Thermal Baths",
-                "header2": "Relax Yourself",
-                "header3": "In the pool area you will find:",
-                "text": "Chochołowskie Thermal Baths is the largest thermal complex in the Podhale region. With large indoor and outdoor pools, the total water surface area amounts to 3000 m². The complex features both grassy and sandy beaches, offering everyone a perfect spot to relax. It includes both recreational and therapeutic zones.",
+                "header2": "Relax",
+                "header3": "In the pool area, you will find:",
+                "text": "Chochołowskie Thermal Baths are the largest thermal complex in Podhale. Large indoor and outdoor pools cover a total water surface of 3000 m². The complex features a grassy and sandy beach where everyone can find a spot for relaxation. The complex includes both pool and therapeutic zones.",
                 "list": {
-                    "1": "8 whirlpool pools with thermal water",
-                    "2": "1 whirlpool pool with saline water",
+                    "1": "8 whirlpool baths with thermal water",
+                    "2": "1 whirlpool bath with brine water",
                     "3": "2 indoor thermal pools with massage stations",
-                    "4": "2 outdoor thermal pools with water attractions (lazy river, water jets, etc.)",
-                    "5": "3 water slides (including one with a trapdoor)",
-                    "6": "Swimming pool sized 16x8 m with monitoring system"
+                    "4": "2 outdoor thermal pools with water attractions (rapid river, water jets, etc.)",
+                    "5": "3 slides (including one with a drop)",
+                    "6": "A swimming pool measuring 16x8 m with a monitoring system."
                 },
                 "table": {
                     "header1": "Ticket Type",
-                    "header2": "HIT PACKAGE – 4-hour pass (includes access to pool and therapeutic zones + FREE round-trip transport from your accommodation)",
-                    "1": "Regular Ticket",
-                    "2": "Discounted Ticket (children up to 10 years old, students up to 26, seniors 65+)"
+                    "header2": "HIT PACKAGE - 4-hour access (entry to the pool and therapeutic zone, free transport to/from accommodation)",
+                    "1": "Adult ticket",
+                    "2": "Reduced ticket (children up to 10 years, students up to 26 years, seniors 65+)"
                 }
             },
             "spacer-w-koronach-drzew": {
-                "header": "Walk Among the Treetops",
+                "header": "Treetop Walk",
                 "header2": "Discover the Beauty of Nature",
                 "header3": "More Information",
-                "text": "The Treetop Walk Bachledka is located in the heart of the species-rich forest of the <strong>Pieniny National Park.</strong> It reveals why the nature of the Spiš Magura is so special. During this experience, you will become familiar with the local forests, become part of forest life, and learn about rare species of animals and plants. The trip starts early in the morning from Zakopane towards the Bachledova Valley. From there, you’ll take a round-trip gondola ride (approx. 7 minutes) up to the peak of the Spiš Magura.",
+                "text": "The Treetop Walk Bachledka is located in the heart of a species-diverse forest in <strong>Pieniny National Park.</strong> It shows visitors why the nature of Spišská Magura is unique. Together with us, you will explore the local forests, become part of forest life, and learn about various rare animal and plant species. Early morning departure from Zakopane towards Bachledova Valley. Here, we invite you to take the gondola lift (approx. 7-minute ride), which will take you to the summit of Spišská Magura.",
                 "list": {
-                    "1": "While walking along the treetop path, you can stop at several stations with information boards, all easily accessible. These provide fascinating insights into local flora, fauna, forest life, its protection, and the destructive power of weather.",
-                    "2": "The over 600-meter-long route leads visitors through a diverse forest filled with surprises and interesting facts."
+                    "1": "While walking along the path, you can use many informational boards placed at several stops along the horizontal section of the path. The boards contain interesting information about the local fauna, flora, forest life, conservation, and the destructive power of weather.",
+                    "2": "The over 600-meter-long route will take visitors through a species-diverse forest with many surprises and curiosities."
                 },
                 "table": {
                     "header1": "Ticket Type",
-                    "header2": "Walk Among the Treetops",
-                    "1": "Regular Ticket",
-                    "2": "Discounted Ticket (children up to 14, seniors 65+)",
-                    "additional": "Extra cost (gondola round-trip ticket + treetop walk entrance ticket)",
-                    "text": "* Price includes: driver assistance during the tour, accident insurance (NNW), and transport from Zakopane"
+                    "header2": "Treetop Walk",
+                    "1": "Adult ticket",
+                    "2": "Reduced ticket (children up to 14 years, seniors 65+)",
+                    "additional": "Additional charges (gondola lift round-trip ticket + treetop walk)",
+                    "text": "* Price includes: driver's assistance during the trip, NNW insurance, and transport from Zakopane."
                 },
                 "tripprogram": {
-                    "header": "Tour Program (approx. 8–9h):",
+                    "header": "Trip Program (approx. 8-9h):",
                     "1": "Transfer from Zakopane",
-                    "2": "Gondola ride to the top of Spiš Magura",
-                    "3": "Walk along the Treetop Trail",
+                    "2": "Gondola ride to the summit of Spišská Magura",
+                    "3": "Treetop Walk",
                     "4": "Gondola descent",
-                    "5": "Drive to Štrbské Pleso (Free time – 2 hours) **unavailable in winter season**",
+                    "5": "Transfer to Štrbské Pleso (Free time 2 hours) ** Not available in winter season **",
                     "6": "Return to Zakopane",
-                    "7": "Departure",
-                    "8": "Estimated arrival",
-                    "text": "After the treetop walk, we return via gondola to the parking lot and head through the High Tatras (Tatranská Lomnica, Starý Smokovec) to Štrbské Pleso. There you’ll have free time. For those interested, a walk around the lake takes about 40 minutes. Štrbské Pleso – also known as Štrbské Lake – is located at 1,346 m above sea level. Often compared to Poland’s Morskie Oko, it’s surrounded by spruce forests severely damaged by a hurricane in 2004. The settlement has the status of a climatic health resort and is also a popular ski destination. It’s a beautiful place – and it almost disappeared in the 19th century, when locals wanted to drain the 20-hectare lake and turn it into pasture. After the lake walk, we return to Zakopane. The 600-meter-long path takes visitors through a diverse forest full of natural wonders and surprises.",
+                    "7": "Return trip",
+                    "8": "Planned return",
+                    "text": "After the tour, we return by gondola to the parking lot, from where we head through the High Tatras (Tatranská Lomnica, Starý Smokovec) to Štrbské Pleso. Here, we invite you for free time. For those interested, a walk around the lake takes about 40 minutes. Štrbské Pleso—or Szczyrbskie Jezioro in Polish—is located at an altitude of 1346 m above sea level. Often compared to our Morskie Oko, the lake is surrounded by spruce forests, heavily damaged by a hurricane in 2004. This settlement has the status of a climatic health resort and is also a well-known ski resort. This beautiful place almost disappeared in the mid-19th century when locals wanted to drain it and turn it into pasture. After a walk around the picturesque lake, return to Zakopane. The over 600-meter-long route will take visitors through a species-diverse forest with many surprises and curiosities.",
                     "button": "Participation Conditions",
-                    "text2": "Discounts apply to: children up to 10 years old, schoolchildren up to 15 with valid school ID, students up to 26 with a valid Polish student ID, ISIC, or EURO 26 card, seniors 65+ with proof of age, one guardian per 10 schoolchildren, and licensed tour guides (guide ticket costs 35 PLN)."
+                    "text2": "Each participant must have a valid passport or ID card. In case of bad weather or unsuitable trail conditions, we reserve the right to change the trip route or sightseeing order. Cancellation due to insufficient participants may occur no later than 1 day before the trip by 9:00 PM. The trip takes place outside Poland. All sanitary-epidemiological conditions applicable in the destination country—Slovakia—must be met."
+                }
+            },
+            "jaskinia-bielanska": {
+                "header": "Bielańska Cave",
+                "header2": "What We Offer?",
+                "header3": "Trip Description",
+                "text": "Bielańska Cave is the only cave in the Slovak Tatras open to visitors. It was the first cave in Europe illuminated with electric light. To reach the entrance at 890 m above sea level, you must climb 122 meters in elevation, covering a 1370-meter-long route, with the tour lasting 70 minutes. In the first half of the 18th century, the cave entrances were known to gold seekers but remained secret for a long time. The entrance was rediscovered by L. Gulden and gold seeker Fabry in 1826. In 1896, a power plant on the Biała River supplied electricity to the cave, which could only be visited three times a day. The guide opened it even if only one tourist was waiting. Today, the cave features numerous dripstone waterfalls, pagoda-like stalagmites, and small lakes. Later, we drive under the Tatra Mountains to Štrbské Pleso, a lake on the Slovak side, just a 5-minute walk from the parking lot where your driver will be waiting. Passing through Starý Smokovec and Tatranská Lomnica (a ski resort complex), you will see the beauty and power of nature, as the area was devastated by a massive hurricane in 2004, which felled 14,000 hectares of forests.",
+                "list": {
+                    "1": "Štrbské Pleso - 300 years ago, there were three water reservoirs where the current lake is. The lake basin was formed by the melting of dead ice about 80 m thick left by a retreating glacier. Research in 1998 confirmed suspicions that the lake was formed by a massive earthquake that sealed the moraine and suddenly raised the water level, as mentioned in historical sources—the chronicler Gašpar Hain of Levoča mentions the formation of a new, large lake after an earthquake in the Tatras on August 6, 1662. The surface area of Štrbské Pleso is 19.76 ha. The maximum depth is 20 m, with a volume of 1,284,000 m³. The lake is covered with ice for an average of 155 days a year. It has no inflowing or outflowing rivers.",
+                    "2": "Starý Smokovec - A popular tourist center, mainly for skiers and hiking enthusiasts. It is also an important hub for the electrified narrow-gauge railway connecting Poprad, Tatranská Lomnica, and Štrbské Pleso. Starý Smokovec also has the lower station of the funicular to Smokovecké Sedlo. A very famous building in Starý Smokovec is the Grand Hotel, built in 1904. Starý Smokovec is home to the headquarters of the Mountain Rescue Service (HZS). The forests around Smokovec were almost completely destroyed by a hurricane on November 19, 2004. The wind felled trees over at least 14,000 hectares, destroying about 60% of the spruce population in the Slovak High Tatras. About 3 million m³ of wood lay on the southern slopes of the Tatras. Clearing the fallen forest took about 2 years, while regeneration will take about 100 years. A monument commemorating the event was built in Starý Smokovec, revealing a view of the Tatras and Poprad. This was not the end of the disaster, as a few years later—in April 2013—a fire burned 22 hectares of young forest.",
+                    "3": "Tatranská Lomnica - The settlement was established around 1881 and was initially treated as a tourist destination. In 1893, the first hotel—Lomnica—was built here. A significant increase in tourist importance dates back to the late 1930s when the construction of an extremely modern cable car to Lomnica with an intermediate station above Lomnický Pond was completed. The final section of the cable car overcomes a height difference of 850 meters on one span, with the cabin about 300 meters above the ground. Since 2001, the lower section has been closed due to unprofitability and the need for renovation. It is unknown if it will ever reopen; perhaps a museum will be established in the lower station building, designed by the famous Slovak architect Dušan Jurkovič."
+                },
+                "table": {
+                    "header1": "Ticket Type",
+                    "header2": "Bielańska Cave",
+                    "1": "Adult ticket",
+                    "2": "Reduced ticket (children up to 12 years, students up to 26 years, seniors 65+)",
+                    "3": "Adult ticket",
+                    "4": "Reduced ticket (children 6-15 years)",
+                    "5": "Reduced ticket (students and seniors 60+)",
+                    "additional": "Additional charges (Tickets to Bielańska Cave - tour duration: 70 min)"
+                },
+                "tripprogram": {
+                    "header": "Trip Program:",
+                    "1": "Departure from Zakopane",
+                    "2": "Hike to Bielańska Cave (approx. 20 minutes)",
+                    "3": "Cave entry (guided tour approx. 70 minutes)",
+                    "4": "Transfer to Štrbské Pleso - Free time (2 hours)",
+                    "5": "Return to Zakopane",
+                    "6": "Planned return"
+                },
+                "buttons": {
+                    "header": "Participation Conditions",
+                    "1": "Each participant must have a valid passport or ID card.",
+                    "2": "In case of bad weather or unsuitable trail conditions, we reserve the right to change the trip route or sightseeing order.",
+                    "3": "Cancellation due to insufficient participants may occur no later than 1 day before the trip by 9:00 PM.",
+                    "4": "The trip takes place outside Poland. All sanitary-epidemiological conditions applicable in the destination country—Slovakia—must be met."
+                }
+            },
+            "wieliczka": {
+                "header": "Secrets of Wieliczka",
+                "header2": "What We Offer?",
+                "header3": "Trip Description",
+                "text": "The Wieliczka Salt Mine is considered one of the seven wonders of Poland. Exploring the beautiful underground chambers, peeking into amazing salt lakes, admiring unique carpentry structures, and one-of-a-kind salt sculptures, you will feel the unique atmosphere. In 2004, it turned out that the brine located 104 meters underground is a fantastic place for windsurfing. Mateusz Kusznierewicz himself tried it, supported by a huge blower and a crowd of enthusiastic fans. A nearly 3-kilometer walk along a winding route with 800 steps to climb will take you 135 meters underground, offering not only an unforgettable adventure but also a 'salt dose' of health!",
+                "table": {
+                    "header1": "Ticket Type",
+                    "header2": "Secrets of Wieliczka",
+                    "1": "Adult ticket",
+                    "2": "Reduced ticket (children up to 10 years, students up to 26 years, seniors 65+)",
+                    "3": "Adult ticket",
+                    "4": "Reduced ticket (children up to 10 years, students up to 26 years, seniors 65+)",
+                    "text": "**Ticket prices may change",
+                    "additional": "Additional charges (Salt Mine entrance tickets)"
+                },
+                "tripprogram": {
+                    "header": "Trip Program:",
+                    "1": "Departure from Zakopane",
+                    "2": "Guided tour of the Salt Mine (approx. 3 hours)",
+                    "3": "End of the tour",
+                    "4": "Free time (1h)",
+                    "5": "Return to Zakopane",
+                    "6": "Planned return"
+                }
+            },
+            "slowacki-raj": {
+                "header": "Slovak Paradise",
+                "header2": "What We Offer?",
+                "header3": "Trip Description",
+                "text": "We invite you on a hiking trip along the Sucha Bela stream with numerous bridges, waterfalls, metal ladders several meters high to overcome heights. The water flowing in these places creates unique waterfalls. This route is for moderately advanced hikers with some agility and no fear of heights. SUCHÁ BELÁ GORGE (SUCHÁ BELÁ) A one-way green trail starting in Podlesok, using numerous wooden and metal ladders to cross the Sucha Bela gorge. Along the way, you will pass beautiful waterfalls: Okienkowy and Korytowy. This is one of the most picturesque and frequently visited places in the entire park.",
+                "table": {
+                    "header1": "Ticket Type",
+                    "header2": "Bielańska Cave",
+                    "1": "Adult ticket",
+                    "2": "Reduced ticket (children up to 10 years)",
+                    "3": "Adult ticket",
+                    "4": "Reduced ticket (children up to 10 years and seniors over 62 years)",
+                    "additional": "Additional charges (Entrance to Slovak National Park)",
+                    "text": "* Price includes: driver's assistance during the trip, NNW insurance, and transport from Zakopane."
+                },
+                "tripprogram": {
+                    "header": "Trip Program:",
+                    "1": "Departure from Zakopane",
+                    "2": "Hike along the Sucha Bela route (ladders)",
+                    "3": "End of the route, free time.",
+                    "4": "Return to Zakopane",
+                    "5": "Return to Zakopane",
+                    "6": "Planned return"
+                },
+                "buttons": {
+                    "header": "Participation Conditions",
+                    "1": "Each participant must have a valid passport or ID card.",
+                    "2": "In case of bad weather or unsuitable trail conditions, we reserve the right to change the trip route or sightseeing order.",
+                    "3": "Cancellation due to insufficient participants may occur no later than 1 day before the trip by 9:00 PM."
+                }
+            },
+            "wieden": {
+                "header": "Vienna",
+                "header2": "What We Offer?",
+                "header3": "Discover Vienna",
+                "text": "Located on the Danube, the capital of Austria attracts with its rich history, culture, and traditions. The historic city center, full of monuments from all historical periods, was inscribed on the UNESCO World Heritage List in 2001. Due to its wealth of attractions, Vienna is one of the most visited cities in Europe. At the end of the 18th century, the most famous composers of the time worked here, hence the term Viennese Classics, collectively referring to Joseph Haydn, Wolfgang Amadeus Mozart, and Ludwig van Beethoven.",
+                "list": {
+                    "header": "During the trip to Vienna, many attractions await us:",
+                    "1": "Center - The Ring is one of the most recognizable streets in Vienna. It is home to the most important landmarks of the Austrian capital. The Ring, like a ring, surrounds the entire historic center. The avenue was built on the site of the old city walls, demolished in the 19th century. Although the purpose of the Ringstrasse was to prevent rebellion against the authorities, it turned out to be an elegant boulevard fully dedicated to the residents of Vienna. The most beautiful palaces and many public buildings were built here. One of the first attractions you will see after driving along the Ring is the Hundertwasser House—an unusual tenement house distinguished by interesting colors and irregular shapes, built by the famous architect of the same name. After admiring this interesting work of contemporary architecture, we will explore the city with a guide. Here, you will have the opportunity to visit and hear interesting facts about the representative Charles Square, the Hofburg, considered the most important historic building in Vienna. This was the former residence of the Habsburgs, about 700 years old. The building is impressive, covering over 240,000 m². It has 19 courtyards, 50 staircases, 2,600 rooms, museums, chapels, gardens, libraries, and other rooms. Other attractions in the center of the Austrian capital include Kohlmarkt, Graben, and St. Stephen's Cathedral.",
+                    "2": "Belvedere - The greatest treasure of Vienna and one of the most beautiful Baroque buildings in the world. It was created for Prince Eugene of Savoy in the first half of the 18th century. The complex consists of two palaces and a garden. The Lower and Upper Belvedere are the works of architect Johann Lukas von Hildebrandt. The garden, created by Dominique Girard, features a French style with various statues, including sphinxes, fountains, and countless plants.",
+                    "3": "Schönbrunn Palace and Gardens - The summer residence of Empress Sisi is the most popular attraction in the city. Called the Vienna Versailles, it impresses with its representative building, inspired by the residence of Louis XIV. It served members of the Habsburg dynasty and their distinguished guests. Today, open to visitors, it is one of the most important Austrian monuments—inscribed on the UNESCO World Cultural and Natural Heritage List. It is characterized by exceptional richness of architectural decorations, wall paintings, gilding, and beautiful mosaic floors. The palace also includes a zoo and a palm house. Schönbrunn also features a French-style park complex with a boxwood maze."
+                },
+                "table": {
+                    "header1": "Ticket Type",
+                    "header2": "Vienna",
+                    "1": "Adult ticket",
+                    "2": "Reduced ticket (schoolchildren, students, seniors with ID)",
+                    "3": "Reduced ticket (children 6-14 years)",
+                    "4": "Adult ticket",
+                    "5": "Reduced ticket (children and youth 6-18 years)",
+                    "6": "Students (based on Euro26, ISIC, ITIC cards)",
+                    "7": "Disabled persons and children under 6",
+                    "text": "*Price includes: Care of a qualified guide and tour leader, transport by comfortable coach, accident and medical insurance, audio guide set",
+                    "a1": "Schönbrunn Palace: 24€, Lunch: approx: 15€",
+                    "a2": "Schönbrunn Palace: 17€, Lunch: approx: 15€",
+                    "a3": "Schönbrunn Palace: 20€, Lunch: approx: 15€",
+                    "a4": "Schönbrunn Palace: FREE, Lunch: approx: 15€",
+                    "additional": "Additional charges"
+                },
+                "tripprogram": {
+                    "header": "Trip Program:",
+                    "1": "Departure from Zakopane",
+                    "2": "Arrival in Vienna",
+                    "3": "Transfer to Schönbrunn Palace and Gardens",
+                    "4": "Free time in the center",
+                    "5": "Walking tour of the center with a guide through Charles Square, Hofburg, Kohlmarkt, and Graben to St. Stephen's Cathedral",
+                    "6": "Meeting with the guide, ride along the Ring, where the most important city landmarks are located, Hundertwasser House",
+                    "7": "Transfer to Belvedere Gardens",
+                    "8": "Planned return to Zakopane"
+                },
+                "buttons": {
+                    "header": "Participation Conditions",
+                    "1": "The organizer is not responsible for changes in entrance fees during the season.",
+                    "2": "The order of sightseeing may change.",
+                    "3": "Cancellation due to insufficient participants may occur no later than 1 day before the trip by 7:00 PM.",
+                    "4": "A valid passport or ID card is required for each participant, regardless of age."
+                }
+            },
+            "budapeszt": {
+                "header": "Budapest",
+                "header2": "What We Offer?",
+                "header3": "Discover Budapest",
+                "text": "Budapest is undoubtedly one of the most interesting and beautiful cities in Europe. Its charming location on the Danube, the wonderful hills of Buda full of geothermal springs, interesting history, and rich architecture attract crowds of tourists from all over the world to the capital of our Hungarian brothers every year.",
+                "list": {
+                    "header": "During the trip to Budapest, many attractions await us:",
+                    "1": "Heroes' Square - Located at the end of the famous Andrássy Avenue, the square has been adorned since 1929 with the monumental Millennium Monument, symbolizing over a thousand years of Hungarian state history.",
+                    "2": "Vajdahunyad Castle - Built at the turn of the 19th and 20th centuries, Vajdahunyad Castle, like the Millennium Monument, was a symbol of the thousand years of Hungary. The building is characterized by great architectural diversity, as the author intended to combine twenty stylistically diverse castles, palaces, and churches into a coherent whole. The intention succeeded brilliantly, and today the castle is a must-see on any Budapest tour.",
+                    "3": "Gellért Hill - The best viewpoint in Budapest owes its name to St. Gerard (Gellért), who allegedly ended his life here as a martyr in the mid-11th century. The massive hill is built with remnants of an Austrian fortress erected in 1850, crowned by a 40-meter Freedom Monument built after World War II. The entire site is a UNESCO World Heritage Site.",
+                    "4": "Castle Hill - This is the oldest and most attractive part of Budapest. For centuries, it was the seat of Hungarian rulers, who spared no expense to show their wealth. The historic character of the city is most emphasized by the Royal Castle, whose origins date back to the 13th century, and the famous Matthias Church—one of the most beautiful temples in Hungary. Tourists are delighted not only by the monumental buildings but also by the streets of the Buda Old Town, full of charm and mystery.",
+                    "5": "St. Stephen's Basilica - One of the most important Hungarian temples impresses not only with its power but also with its craftsmanship. A curiosity of the temple is the right hand of St. Stephen—the patron of the temple and the first king of Hungary.",
+                    "6": "Parliament - The undisputed symbol of Budapest was built at the turn of the 19th and 20th centuries. This neo-Gothic gem is still the seat of the Hungarian government, and the Hungarian coronation jewels are also stored here. The massive dimensions of the building (268 m x 123 m) make it not only one of the most beautiful but also one of the largest national parliament buildings in the world.",
+                    "7": "Danube Cruise - At the end of the tour, you will have the opportunity to see the most attractive places in Budapest from the perspective of a ship. The cruise will be the perfect end to this exciting day."
+                },
+                "table": {
+                    "header1": "Ticket Type",
+                    "header2": "Budapest",
+                    "1": "Adult ticket",
+                    "2": "Reduced ticket (schoolchildren, students, seniors with ID)",
+                    "3": "Reduced ticket (children up to 14 years)",
+                    "4": "Danube Cruise",
+                    "5": "Matthias Church",
+                    "6": "Basilica",
+                    "7": "Lunch",
+                    "8": "Travel Tips",
+                    "text": "*Price includes: Care of a qualified guide and tour leader, transport by comfortable coach, accident and medical insurance, audio guide set",
+                    "a1": "adults 2500 HUF, students and seniors over 60 - 1900 HUF, children under 6 free,",
+                    "a2": "adults 2000 HUF, students and seniors over 60 - 1500 HUF",
+                    "a3": "approx. 3000 HUF",
+                    "a4": "1,000 HUF = approx. 15 PLN",
+                    "additional": "Additional charges"
+                },
+                "tripprogram": {
+                    "header": "Trip Program:",
+                    "1": "Departure from Zakopane",
+                    "2": "Arrival in Budapest",
+                    "3": "Guided tour: Heroes' Square, Vajdahunyad Castle, ride along Andrássy Avenue, Gellért Hill, Castle Hill (Royal Castle, Matthias Church), St. Stephen's Basilica;",
+                    "4": "Boat cruise on the Danube (approx. 1h)",
+                    "5": "Planned return to Zakopane"
+                },
+                "buttons": {
+                    "header": "Participation Conditions",
+                    "1": "The organizer is not responsible for changes in entrance fees during the season.",
+                    "2": "The order of sightseeing may change.",
+                    "3": "Cancellation due to insufficient participants may occur no later than 1 day before the trip by 6:00 PM.",
+                    "4": "A valid passport or ID card is required for each participant, regardless of age."
+                }
+            },
+            "zamek-orawski": {
+                "header": "Orava Castle",
+                "header2": "What We Offer?",
+                "header3": "Discover Budapest",
+                "text": "Triotravel is pleased to invite you on a one-day trip full of attractions. We offer you a unique journey that includes a visit to Orava Castle, the Open-Air Museum in Chochołów, and a tasting of oscypek cheese in the oldest shepherd's hut in the region. Orava Castle Located on a high rock, Orava Castle is a majestic fortress that impresses with its architecture and rich history. During the guided tour, you will learn fascinating stories about the life of the castle and its inhabitants. It is an unforgettable journey through time that will introduce you to the culture and traditions of the region. Open-Air Museum in Chochołów The Open-Air Museum in Chochołów is a unique place where you can feel the spirit of traditional highlander culture. Located in the picturesque village of Chochołów, the museum offers visitors the chance to see authentic wooden cottages that have retained their unique character for generations.",
+                "table": {
+                    "header1": "Ticket Type",
+                    "header2": "Orava Castle",
+                    "1": "Adult ticket",
+                    "2": "Reduced ticket (children up to 15 years, seniors, disabled)",
+                    "3": "Adult ticket",
+                    "4": "Reduced ticket",
+                    "text": "*Price includes: Care of a qualified guide and tour leader, transport by comfortable coach, accident and medical insurance, audio guide set",
+                    "additional": "Additional charges (entrance tickets to Orava Castle)"
+                },
+                "tripprogram": {
+                    "header": "Trip Program:",
+                    "1": "Departure from Zakopane",
+                    "2": "Visit to Orava Castle",
+                    "3": "Transfer through the Open-Air Museum in Chochołów",
+                    "4": "Stop at the border - possibility to visit a Slovak store",
+                    "5": "Oscypek cheese tasting in the Oldest Shepherd's Hut",
+                    "6": "Return to Zakopane"
+                }
+            },
+            "dookola-tatr": {
+                "header": "Around the Tatra Mountains",
+                "header2": "What We Offer?",
+                "text": "Orava Castle Built in the 13th century on a massive 112-meter-high rock, Orava Castle is the most originally located object in Slovakia. Rebuilt and expanded over several hundred years, today it is an excellent example of various techniques of defensive architecture. The castle was originally the seat of the owners of Orava. In 1868, the first museum exhibition on Slovak lands was created here. The castle serves museum functions to this day. During the tour, you will see historical, archaeological, and ethnographic exhibitions. The highlight of the walk through the museum will be entering the highest castle chambers. Demänovská Cave of Liberty - The attractiveness of Demänovská Cave of Liberty is evidenced by the fact that it is the most visited cave in Slovakia. Multicolored dripstone formations of various shapes, tufa lakes, and an underground river make this object one of the most beautiful caves in Europe.",
+                "table": {
+                    "header1": "Ticket Type",
+                    "header2": "Price",
+                    "1": "Adult ticket",
+                    "2": "Reduced ticket (schoolchildren, students, seniors with ID)",
+                    "3": "Reduced ticket (children up to 14 years)",
+                    "4": "Demänovská Cave",
+                    "5": "* photography/camera",
+                    "6": "Orava Castle",
+                    "7": "* photography/camera",
+                    "8": "Travel Tips",
+                    "text": "* Price includes: Transport by comfortable coach, care of a qualified tour leader, accident and medical insurance. **Ticket prices may change",
+                    "a1": "adults 12€, students/seniors/pensioners 11€, children aged 6-15 6€**",
+                    "a2": "adults 9€, students/seniors/pensioners/children 4.5€, children under 6 FREE**",
+                    "a3": "3€ photography/5€ camera**",
+                    "additional": "Additional charges"
+                },
+                "tripprogram": {
+                    "header": "Trip Program:",
+                    "1": "Departure from Zakopane",
+                    "2": "Guided tour of Orava Castle",
+                    "3": "Visit to Demänovská Cave (approx. 70 min)",
+                    "4": "Free time in Liptovský Mikuláš (approx. 70 min)",
+                    "5": "Planned return to Zakopane"
+                },
+                "buttons": {
+                    "header": "Participation Conditions",
+                    "1": "A valid passport or ID card is required for each participant, regardless of age.",
+                    "2": "The organizer is not responsible for changes in entrance fees during the season.",
+                    "3": "The order of sightseeing may change.",
+                    "4": "Cancellation due to insufficient participants may occur no later than 1 day before the trip by 7:00 PM."
+                }
+            },
+            "rafting-po-dunajcu": {
+                "header": "Dunajec Rafting",
+                "header2": "What We Offer?",
+                "header3": "What Will You See?",
+                "info": "The rafting season runs from April 1 to October 31—Thursday, Friday, and Sunday. So, we invite you on the trip every day! NOTE: Bring a change of clothes. Rafting is allowed in sandals, waterproof shoes, or barefoot. No high heels.",
+                "text": "Initially, rafting in the Dunajec Valley was organized only for special occasions. Only nobles, the wealthy, and important figures who met with the king at Czorsztyn and Niedzica castles could enjoy it. Today, you too can feel like a VIP and experience the thrill of adventure with adrenaline in the background...",
+                "list": {
+                    "header": "During the Pieniny trip, besides the main attraction—a thrilling two-hour rafting on the Dunajec—you will also visit Niedzica, where you can choose one of the attractions:",
+                    "1": "Boat cruise on Lake Czorsztyn: During the cruise, you can admire the dam, the ruins of Czorsztyn Castle, Niedzica Castle, the Czorsztyn Open-Air Museum, and the beautiful mountain landscape. Such a cruise is an adventure that will stay in your memory for a long time!",
+                    "2": "Niedzica Castle: It is here in the castle dungeons that you can see the torture chamber with stocks, where, according to legend, Janosik was shackled.",
+                    "3": "Tour of the Dunajec Dam The main Czorsztyn-Niedzica Dam is the largest earth dam in Poland, 56 m high and 404 m long.",
+                    "4": "The Miniature Park of Podhale, Orava, and Spiš is an absolutely unique place. In one place, you can admire the most beautiful sacral monuments, castles, and much more.",
+                    "5": "During the trip, you will also see the historic wooden church in Dębno from the 15th century, listed as a UNESCO World Heritage Site—it was here that Janosik married Maryna..."
+                },
+                "table": {
+                    "header1": "Ticket Type",
+                    "header2": "Dunajec Rafting",
+                    "1": "Adult ticket",
+                    "2": "Reduced ticket (children up to 10 years)",
+                    "3": "Boat Cruise",
+                    "4": "Niedzica Castle Tour",
+                    "5": "Miniature Park Tour",
+                    "text": "* Price includes: Driver's assistance, rafting ticket, entry to PPN, and NNW insurance.",
+                    "additional": "Additional charges"
+                },
+                "tripprogram": {
+                    "header": "Trip Duration:"
+                }
+            },
+            "swiatynia-lodowa-hrebieniok": {
+                "header": "Ice Temple Hrebieniok",
+                "header2": "What We Offer?",
+                "text": "We invite you on a trip to Slovakia, during which you will see Starý Smokovec. Take the cog railway to Hrebieniok (High Tatras, 1310 m above sea level), where the Ice Temple is located at the summit, this year inspired by Wawel Cathedral.",
+                "table": {
+                    "header1": "Ticket Type",
+                    "header2": "Ice Temple Hrebieniok",
+                    "1": "Adult ticket",
+                    "2": "Reduced ticket (children up to 10 years)",
+                    "3": "Adult ticket",
+                    "4": "Reduced ticket (children up to 10 years)",
+                    "text": "*Price includes: Care of a qualified guide and tour leader, transport by comfortable coach, accident and medical insurance, audio guide set",
+                    "additional": "Additional charges (cog railway ride to Hrebieniok)"
+                },
+                "tripprogram": {
+                    "header": "Trip Program:",
+                    "1": "Departure from Zakopane",
+                    "2": "Arrival in Starý Smokovec",
+                    "3": "Cog railway ride to Hrebieniok",
+                    "4": "Visit to the Ice Temple",
+                    "5": "Free time",
+                    "6": "Return to Zakopane"
                 }
             }
         }
     },
+    "pricing": {
+        "header": "Pricing"
+    },
     "why": {
-        "header": "Why is the best choice for your trip",
+        "header": "Why Choose Your Trip with ",
         "cards": {
             "1": {
-                "header": "Local Knowledge and Expertise",
-                "text": "Trio Travel is a Zakopane-based agency that knows the Tatra and Pieniny Mountains like few others. They specialize in day trips, Dunajec rafting, sleigh rides, and whitewater rafting, ensuring well-planned routes and attractions based on their deep regional experience."
+                "header": "Local Knowledge and Specialization",
+                "text": "Trio Travel is a Zakopane-based agency that knows the Tatra and Pieniny Mountains like no other. They specialize in one-day trips, Dunajec rafting, sleigh rides, and rafting, ensuring well-planned routes and attractions based on their regional expertise."
             },
             "2": {
                 "header": "Comprehensive Offer",
-                "text": "From local attractions like sleigh rides to river rafting – Trio Travel offers a wide range of services in one place. It’s the perfect solution for anyone wanting to make the most of their time in the mountains."
+                "text": "From trips to local attractions like sleigh rides and rafting, Trio Travel offers a wide range of services in one place. It's the perfect solution for those who want to make the most of their time in the mountains."
             },
             "3": {
                 "header": "Flexibility and Personalization",
-                "text": "The company focuses on tailoring its offer to the client's needs. Whether you're looking for a relaxing trip or an active adventure, Trio Travel provides the flexibility to meet your expectations."
+                "text": "The company focuses on tailoring its offer to the client's needs. Whether you're looking for a quiet trip or an active holiday, Trio Travel provides flexibility to meet your expectations."
             }
         }
     },
     "services": {
         "cards": {
             "1": {
-                "header": "Tours and Transport",
-                "text": "Trio Travel is a travel agency with extensive experience in organizing all kinds of tourism projects, themed events, and transportation. We know Zakopane like the back of our hand, and nothing is impossible for us. Initially, we focused mainly on domestic and international transport, but over time, we became a tourism and transport company organizing a wide range of exciting trips, including fantastic one-day excursions."
+                "header": "Trips and Transport",
+                "text": "Trio Travel is a travel agency with extensive experience in organizing various tourist projects, themed events, and transportation. We know Zakopane like the back of our hand, and nothing is impossible for us. Initially, we mainly dealt with domestic and international transport, but later we became a tourism and transport company, organizing many interesting projects, including fantastic one-day trips."
             },
             "2": {
-                "header": "Licensed Tour Operator",
-                "text": "We are registered in the Register of Tour Operators and Tourist Agents of the Marshal of the Małopolska Region under number Z/54/2013. We hold AXA travel insurance, so every trip with us is not only full of great experiences but also ensures essential safety. Our clients appreciate us for our ability to adapt to their needs, the comprehensive nature of our services, and our flexibility."
+                "header": "Tourism Organizer",
+                "text": "Our activity is registered in the Register of Tourism Organizers and Intermediaries of the Marshal of the Małopolska Region under number Z/54/2013. We have AXA insurance guarantee, so every trip with our agency is not only full of excitement but also provides necessary safety. Our clients appreciate us, among other things, for our ability to adapt to requirements and needs, the comprehensiveness of the services offered, and flexibility."
             },
             "3": {
                 "header": "Our Team",
-                "text": "Our team is made up of creative and energetic people, which guarantees top-quality organization. We organize sleigh rides, especially the most thrilling ones – evening rides. We also offer Dunajec river rafting and many other one-day excursions. Zakopane is full of attractions we would love to show you, so with us, you’ll never be bored. We also offer the most logistically efficient local transport in and around Zakopane."
+                "text": "Our team consists of creative and energetic people, ensuring organization at the highest level. We organize sleigh rides, including the most exciting evening sleigh rides. Another of our trips is Dunajec rafting and many other one-day trips. Zakopane has many attractions we would like to show you, so with us, no one will be bored. We also offer the best logistically organized transport of people around Zakopane and beyond."
             }
         }
-    },
-    "splyw-dunajcem-dluzszy": {
-        "header": "Spływ Dunajcem 2.5h",
-        "header2": "Co oferujemy?",
-        "text": "Przygotowaliśmy dla Państwa szereg niezwykle ciekawych atrakcji, które z pewnością uczynią czas Państwa wypoczynku szalenie interesującym i niezapomnianym. Proponowany przez nas spływ Dunajcem z Zakopanego to rewelacyjny sposób na to, aby należycie nacieszyć się pięknymi krajobrazami, a zarazem wiele zwiedzić. Flisacy umilą go Państwu fascynującymi opowieściami i legendami związanymi z rzeką oraz jej okolicami. Poza spływem na drewnianej tratwie, skąd nacieszycie Państwo oczy widokiem otaczających Pienin, oferta obejmuje również możliwość zwiedzania zamku w Niedzicy, zapory na Dunajcu czy Parku Miniatur Podhala, Orawy i Spisza.",
-        "background-list": {
-            "header": "Wycieczka w Pieniny: Spływ i Niedzica",
-            "header2": "Podczas wycieczki w Pieniny, poza główną atrakcją, którą jest spływ na drewnianych tratwach-odwiedzisz również Niedzicę, w której do wyboru masz jedną z atrakcji:",
-            "list": {
-                "1": "Rejs statkiem po Jeziorze Czorsztyńskim (Podczas rejsu statkiem spacerowym będziesz mógł podziwiać zaporę wodną, ruiny zamku Czorsztyńskiego, zamek Niedzica, skansen Czorsztyński oraz przepiękny górski krajobraz). Taki rejs to przygoda, która na długo zostanie w twojej pamięci!"
-            }
-        },
-        "text2": "Sezon flisacki trwa od 1 kwietnia do 31 października - świątek, piątek i niedziele. Zatem na wycieczkę zapraszamy codziennie!"
     },
     "reviews": {
         "header": "satisfied customers! Rating ",
         "header2": "Over",
-        "text": "Our happy customers agree – with Trio Travel, every journey becomes an unforgettable memory, full of comfort and perfect organization. Join the group of satisfied travelers and explore the world with peace of mind!",
+        "text": "Our satisfied customers confirm—with TrioTravel, every journey is unforgettable memories, full comfort, and perfect organization. Join the ranks of happy travelers and explore the world with complete peace of mind!",
         "cards": {
             "1": {
                 "name": "Maciej Partyka",
-                "text": "A very well-organized trip to Slovakia. Great communication, a friendly driver, the itinerary was followed as planned, and the coach was comfortable."
+                "text": "Very well-organized trip to Slovakia. Great contact, friendly driver, program realized according to plan, comfortable coach."
             },
             "2": {
                 "name": "Marlena Flis",
-                "text": "The best trips with Trio Travel agency. This time we went for the treetop walk. Total professionalism in every way. Our driver Michał was outstanding – a great driver and guide in one. Greetings from our 10-person group from September 13!"
+                "text": "The best trips with Trio Travel. This time, we went on a treetop walk. Full professionalism in every aspect. Driver Michał did a great job. Super driver and guide in one. Greetings from the 10-person group from September 13."
             },
             "3": {
                 "name": "Grzegorz Danilczuk",
-                "text": "Well-planned and interesting trip, and the guide Michał kept sharing fun facts about the mountains and acted very professionally. I’ll definitely use this agency again!"
+                "text": "The trip was well-planned and interesting, and guide Michał kept throwing in interesting facts about the mountains and behaved very professionally. I will definitely use this agency again!"
             },
             "4": {
                 "name": "Agata Andrus",
-                "text": "A very enjoyable trip – the Dunajec rafting was perfectly organized and the price was great. Michał took care of us, creating a very professional and relaxed atmosphere. Highly recommend."
+                "text": "A very successful trip, Dunajec rafting was very well organized, and the price was great. Michał took care of us, very professional and relaxed atmosphere. I recommend it."
             },
             "5": {
                 "name": "Marta Dymińska",
-                "text": "Great trip, excellent organization. A coach picked us up, the driver and our guide took care of everything, clearly explaining what to do and where to go. After the rafting and sightseeing, we were dropped off right at our doorstep. I'm glad we chose the Dunajec Rafting with Trio Travel. Highly recommend! 🍀"
+                "text": "Super trip, great organization. The coach picked us up, the driver and our caretaker arranged everything, clearly communicating where, what, and how. After the rafting and sightseeing, we were dropped off right at our door. I'm glad we decided on Dunajec rafting with Trio Travel. I recommend it to everyone. 🍀"
             },
             "6": {
                 "name": "Zuzanna Lesner",
-                "text": "Great trip! We went with Michał on the treetop walk. There was definitely too little time at Štrbské Lake though – there should be at least 2 hours for that ☺️⛰️"
+                "text": "Great trip, we were with Michał on the treetop walk. However, there was definitely too little time at Štrbské Pleso, there should be at least 2 hours ☺️⛰️"
             },
             "7": {
                 "name": "Małgorzata Wodzynska",
-                "text": "Trip on June 30 – Dunajec Rafting. Very well organized. Michał, an experienced guide, had everything under control – you could tell he loves what he does. The views were stunning, and the trip was well worth the price. RECOMMENDED 🙂"
+                "text": "Trip on 30.06 Dunajec rafting. Very well organized, Michał is an experienced guide who had everything under control, it's clear he loves what he does. The views were beautiful, the trip was worth its price. RECOMMEND🙂"
             }
         }
     },
@@ -259,216 +735,211 @@
         "text": "Buy tickets now"
     },
     "info": {
-        "header": "Trio Travel Trip Regulations – Download",
-        "text": "The company received financial support under the government program",
-        "text2": "Financial Shield 2.0 of the Polish Development Fund for Micro, Small and Medium Enterprises",
+        "header": "Trio Travel Trip Regulations to Download",
+        "text": "The entrepreneur received financial support under the government program",
+        "text2": "Financial Shield 2.0 of the Polish Development Fund for Micro, Small, and Medium Enterprises",
         "text3": "granted by PFR SA."
     },
     "partners": {
         "title": "Our Partners",
         "skocznia": {
-            "header": "Cottages near the Ski Jump",
-            "text": "The cottages are entirely made of wood, which lets you experience and feel the mountain atmosphere. Each cottage is centrally heated, has a fully equipped kitchenette with a relaxation area, and two separate bedrooms."
+            "header": "Cabins Under the Ski Jump",
+            "text": "The cabins are entirely built of wood, allowing you to experience and feel the mountain atmosphere. Each cabin is centrally heated, features a fully equipped kitchenette with a relaxation area, and two separate bedrooms."
         },
         "wierszyki": {
             "header": "Wierszyki Shelters",
-            "text": "An undeniable advantage of the shelter is its location, which will delight both tourists wanting to spend time on the famous Krupówki Street and those who prefer several-hour hikes away from the hustle and bustle."
+            "text": "The undeniable advantage of the cabin is its location, which will delight both tourists wanting to spend time on the famous Krupówki Street and those who prefer multi-hour hikes away from the hustle and bustle."
         },
         "oldstreet": {
             "header": "Old Street Apartment",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae finibus est. Aenean eget egestas mauris. Nullam varius nulla nisi, molestie convallis nisl dictum vitae."
+            "text": "Immerse yourself in the unique charm of the Tatra Mountains while discovering unforgettable moments in our cozy apartment in the very heart of Zakopane. Located just a step away from Krupówki, our apartment offers not only comfortable accommodation but also the unique atmosphere of a mountain town."
         },
         "gorski": {
-            "header": "Górski Szaflary Apartment",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae finibus est. Aenean eget egestas mauris. Nullam varius nulla nisi, molestie convallis nisl dictum vitae."
+            "header": "Mountain Apartment Szaflary",
+            "text": "Looking for a place with character, close to Zakopane? Our apartment, decorated in a traditional highland style, will be the perfect choice!"
         },
         "elzbiecina": {
             "header": "Elżbiecina Villa",
-            "text": "Elżbiecina Villa – the former Korfanty residence, is a unique blend of history, design, Zakopane-style architecture, and the omnipresent Witkacy-inspired Zakopane spirit."
+            "text": "Elżbiecina Villa—the former residence of the Korfanty family—is a unique blend of history, design, Zakopane architecture, and the ever-present Witkacy-style Zakopane vibe."
         },
         "rentplanet": {
             "header": "RentPlanet Apartments",
-            "text": "Innovative methods and tools are used to automate many booking processes. Thanks to this, guest service in the apartment becomes simpler, and many actions take place practically without human involvement."
+            "text": "Innovative methods and tools are used to automate many booking processes. As a result, guest service in the apartment becomes simpler, and many tasks are carried out practically without human involvement."
         },
         "nosal": {
-            "header": "Hotel Nosal",
-            "text": "Mornings with a view of the mountain range are a ready-made recipe for a good mood all day long. Traditional Podhale cuisine is the hallmark of our original restaurant Dym i Wiatr."
+            "header": "Nosal Hotel",
+            "text": "Mornings with a view of the mountain range are a ready-made recipe for a good mood all day long. Traditional Podhale cuisine is the hallmark of our signature Restaurant Smoke and Wind."
         },
         "klimatyczne": {
-            "header": "Atmospheric Cottages",
-            "text": "Atmospheric Cottages are very comfortable cottages built with those in mind who are looking for a place with a warm, friendly vibe conducive to relaxation."
+            "header": "Cozy Cabins",
+            "text": "Cozy Cabins are very comfortable cabins built with those in mind who are looking for a place with a warm, friendly atmosphere conducive to relaxation."
         },
         "patryk": {
-            "header": "Villa Patryk",
-            "text": "Villa “Patryk” is located in a quiet and peaceful area, with plenty of greenery and walking trails nearby that encourage active rest. We especially recommend the trail to Gubałówka, the Jan Kasprowicz trail through Bachledzki Wierch, and others."
+            "header": "Patryk Villa",
+            "text": "Villa 'Patryk' is situated in a quiet and peaceful area, surrounded by greenery and walking trails nearby, promoting active relaxation. We particularly recommend the trail to Gubałówka, the Jan Kasprowicz trail via Bachledzki Wierch, and others."
         }
-    },
-    "welcome": "Welcome to the page!",
-    "notfound": {
-        "title": "404 - Page Not Found",
-        "text": "PS: This often happens due to a typo in the URL or if the page has moved to a slightly different address...",
-        "button": "Home Page"
-    },
-    "error": {
-        "title": "Something Went Wrong!",
-        "text": "We're sorry, there was an issue. Please try again later or contact us if the problem persists.",
-        "button": "Try Again"
     },
     "kuligi": {
         "header": "Sleigh Rides",
-        "text": "organizes one-of-a-kind sleigh rides. Zakopane is home to many charming places, including the beautiful Kościeliska Valley. Our sleigh ride experiences include many attractions such as an authentic highlander feast. Sleigh rides are available all year round. Our travel agency provides pickup by minibus from your accommodation, refreshments in a truly highlander style, and the entire event is accompanied by live music from a traditional highlander band.",
-        "header2": "Discover Zakopane from its most magical side and join us for an unforgettable sleigh ride!",
-        "header3": "Choose Yours",
+        "text": "organizes unique sleigh rides. Zakopane has many incredibly picturesque places, including the Kościeliska Valley. The sleigh rides include many attractions such as a real highlander feast. Sleigh rides are organized all year round. Our travel agency provides bus pick-up from your accommodation, refreshments in a true highlander style. The entire stay is enlivened by the rhythm of highlander band music.",
+        "header2": "See Zakopane from its most beautiful side and join us for an unforgettable sleigh ride!",
+        "header3": "Choose Your",
         "cards": {
-            "1": "Highlander Sleigh Ride in Kościelisko",
-            "2": "Sleigh Ride in the Chochołowska Valley",
+            "1": "Highlander Sleigh Ride Kościelisko",
+            "2": "Sleigh Ride Chochołowska Valley",
             "3": "New Year's Eve Sleigh Ride",
             "button": "Choose"
         },
         "koscielisko": {
-            "header": "Highlander Sleigh Ride in Kościelisko",
-            "header2": "What do we offer?",
-            "header3": "Our sleigh ride program includes:",
-            "header4": "Winter season prices",
+            "header": "Highlander Sleigh Ride Kościelisko",
+            "header2": "What We Offer?",
+            "header3": "Our sleigh ride program includes",
+            "header4": "Prices in the winter season",
             "list": {
-                "1": "Pickup from your accommodation in Zakopane or the Kościelisko municipality (other locations upon arrangement)",
-                "2": "Torch-lit sleigh ride in Kościelisko.",
-                "3": "After the ride, we invite you for a tasty treat including grilled sausage and traditional or highlander-style tea",
-                "4": "The bonfire feast will be set in a beautiful mountain setting.",
-                "5": "The entire experience takes place amidst the scenic Tatra nature."
+                "1": "Pick-up from the place of residence in Zakopane and Kościelisko municipality (other locations to be agreed upon)",
+                "2": "Sleigh ride with torches in Kościelisko.",
+                "3": "After the sleigh ride, we invite you to a tasty refreshment, including roasted sausage and regular or highlander tea.",
+                "4": "A feast with a bonfire will be prepared in beautiful mountain scenery.",
+                "5": "The whole fun takes place in the beautiful surroundings of Tatra nature."
             },
-            "text": "During your stay in Zakopane, we invite you to join our picturesque sleigh rides combined with a bonfire feast. A fantastic and unforgettable adventure, a unique atmosphere, breathtaking views, and great vibes. Join us for the organized <strong>Highlander sleigh ride in Kościelisko</strong>. A scenic ride in a sleigh through mountain landscapes will create a one-of-a-kind experience you won’t forget. The sleigh ride lasts for <strong>around 1 hour</strong> and is beautifully lit by <strong>torches</strong>. Afterwards, you’re invited to enjoy a bonfire with a <strong>delicious local meal and live highlander music</strong>.",
-            "info": "Sleigh ride hours during the winter season: 4:00 PM, 5:00 PM, 6:00 PM, 7:00 PM (Departure from Zakopane about 40 minutes earlier)",
+            "text": "During your stay in Zakopane, we invite you to picturesque sleigh rides combined with a bonfire feast. A fantastic, unforgettable adventure, unique atmosphere, breathtaking views, and great fun. We invite you to the organized <strong>Highlander sleigh ride in Kościelisko</strong>. A sleigh ride among picturesque scenery filled with mountain atmosphere will create a unique climate that you will not forget. The sleigh ride lasts <strong>approx. 1 hour</strong>, during which the ride will be illuminated by <strong>torches</strong>. Then we invite you to a bonfire with <strong>tasty refreshments and a band</strong> playing live music.",
+            "info": "Sleigh ride hours in the winter season: 4:00 PM, 5:00 PM, 6:00 PM, 7:00 PM (Departure from Zakopane about 40 minutes earlier)",
             "table": {
                 "header1": "Ticket Type",
-                "header2": "From 01.12.2024 until the end of the winter season",
-                "3": "Regular ticket",
-                "4": "Discounted ticket (up to 10 years old)",
-                "header3": "*The price includes:",
+                "header2": "From 01.12.2024 to the end of the winter season",
+                "3": "Adult ticket",
+                "4": "Reduced ticket (up to 10 years)",
+                "header3": "*Price includes:",
                 "list": {
-                    "1": "Round-trip transport (pickup from accommodation in Zakopane or Kościelisko)",
-                    "2": "One-hour sleigh ride in 4, 8, or 10-person sleighs",
-                    "3": "Bonfire refreshments",
-                    "4": "Sleigh ride menu: sausage, bread, ketchup, mustard, regular tea and highlander tea (unlimited)",
-                    "5": "* If there is insufficient snow, the sleigh rides will take place in horse-drawn carriages instead"
+                    "1": "round-trip transport (pick-up from accommodation in Zakopane and Kościelisko)",
+                    "2": "one-hour sleigh ride in 4, 8, and 10-person sleighs",
+                    "3": "refreshments by the bonfire",
+                    "4": "menu during sleigh rides: sausage, bread, ketchup, mustard, regular tea, and highlander tea (unlimited)",
+                    "5": "* in case of insufficient snow or lack thereof, sleigh rides take place on wagons/carriages"
                 }
             }
         },
         "dolina": {
-            "header": "Sleigh Ride in Chochołowska Valley",
+            "header": "Sleigh Ride Chochołowska Valley",
             "header2": "VIP Sleigh Ride in Chochołowska Valley",
-            "header3": "Our sleigh ride program includes:",
-            "header4": "Winter season prices",
+            "header3": "Our sleigh ride program includes",
+            "header4": "Prices in the winter season",
             "list": {
-                "1": "Pickup from your accommodation in Zakopane or the Kościelisko municipality (other locations upon arrangement)",
-                "2": "Scenic torch-lit sleigh ride in Chochołowska Valley in 4-person sleighs*, with a short stop for souvenir photos",
-                "3": "After the ride, grilled sausages at a bonfire with regular and highlander-style tea, plus traditional highlander stew (you may bring your own alcohol)",
-                "4": "Authentic highlander feast with live folk music",
-                "5": "The entire experience takes place amidst the beautiful Tatra nature",
-                "6": "Duration: approx. 2.5 – 3 hours"
+                "1": "Pick-up from the place of residence in Zakopane and Kościelisko municipality (other locations to be agreed upon)",
+                "2": "Scenic sleigh ride with torches in Chochołowska Valley in 4-person sleighs* with a short stop for souvenir photos.",
+                "3": "After the sleigh ride, roasting sausages by the bonfire with regular and highlander tea and highlander bigos (possibility to bring your own alcohol).",
+                "4": "A real highlander feast with live highlander music.",
+                "5": "The whole fun takes place in the beautiful surroundings of Tatra nature.",
+                "6": "Duration approx. 2.5 - 3h"
             },
-            "text": "A unique and one-of-a-kind opportunity to experience the magical winter atmosphere of the famous <strong>Chochołowska Valley!</strong> While staying at the foot of the beautiful Polish Tatra Mountains, a true highlander sleigh ride is a must. TrioTravel offers an exceptional sleigh ride in the Chochołowska Valley, away from the hustle and bustle of the city. The <strong>hour-long</strong> sleigh journey will be illuminated by torches, followed by a <strong>feast</strong> by a highlander bonfire, known as 'Watra'. A delicious <strong>refreshment</strong> will be waiting for you by the fire, accompanied by a <strong>live traditional highlander band.</strong>",
-            "info": "Sleigh rides depart daily at 5:00 PM and 7:00 PM (Departure from Zakopane about 40 minutes earlier)",
+            "text": "A unique and one-of-a-kind opportunity to experience the beautiful winter aura of the famous <strong>Chochołowska Valley!</strong> During your stay at the foot of our beautiful Polish Tatra Mountains, you cannot miss a real highlander sleigh ride. TrioTravel can offer you a unique sleigh ride in Chochołowska Valley, where you will not experience the crowds and noise of the city. The <strong>one-hour</strong> sleigh ride will be illuminated by torches, and when they go out, we will replace them with a <strong>feast</strong> by a highlander bonfire, the famous Watra. The <strong>refreshments</strong> prepared for you will already be waiting by the glowing bonfire, and the time will be enlivened by a <strong>real highlander band.</strong>",
+            "info": "Sleigh ride starts daily at 5:00 PM, 7:00 PM (Departure from Zakopane about 40 minutes earlier)",
             "table": {
                 "header1": "Ticket Type",
-                "header2": "From 01.12.2024 until the end of the winter season",
+                "header2": "From 01.12.2024 to the end of the winter season",
                 "header3": "From 26.12.2024 to 06.01.2025",
-                "3": "Regular ticket",
-                "4": "Discounted ticket (up to 10 years old)",
-                "header4": "*The price includes:",
+                "3": "Adult ticket",
+                "4": "Reduced ticket (up to 10 years)",
+                "header4": "*Price includes:",
                 "list": {
-                    "1": "Round-trip transport (pickup from accommodation in Zakopane or Kościelisko)",
-                    "2": "One-hour ride in 4-person sleighs",
-                    "3": "One-hour feast with a live highlander band and refreshments by the bonfire",
-                    "4": "Admission tickets to the Tatra National Park (TPN)",
-                    "5": "Torches during the sleigh ride",
-                    "6": "Sleigh ride menu: bigos, smoked cheese (oscypek), bread with highlander lard, mulled wine, sausage, bread, ketchup, pickles, mustard, regular and highlander tea (unlimited)",
-                    "7": "* For groups of 3 (or 7, etc.), an extra fee applies for the empty seat in the sleigh: 70 PLN",
-                    "8": "* If there is insufficient snow, sleigh rides take place in horse-drawn wagons or carriages"
+                    "1": "round-trip transport (pick-up from accommodation in Zakopane and Kościelisko)",
+                    "2": "one-hour sleigh ride in 4-person sleighs",
+                    "3": "one-hour feast with a highlander band and refreshments by the bonfire",
+                    "4": "Tatra National Park entrance tickets",
+                    "5": "torches during the sleigh ride",
+                    "6": "menu during sleigh rides: bigos, oscypek, bread with highlander lard, mulled wine, sausage, bread, ketchup, pickles, mustard, regular tea, and highlander tea (unlimited)",
+                    "7": "* For groups of 3 (or 7, etc.), a fee for an empty seat in the sleigh applies: 70 PLN",
+                    "8": "  * in case of insufficient snow or lack thereof, sleigh rides take place on wagons/carriages"
                 }
             }
         },
         "sylwester": {
             "header": "New Year's Eve Sleigh Ride",
-            "header2": "NEW YEAR'S EVE SLEIGH RIDE 2024–2025",
-            "header3": "What we offer during the New Year's Eve sleigh ride:",
-            "header4": "Winter season prices",
+            "header2": "NEW YEAR'S EVE SLEIGH RIDE 2024-2025",
+            "header3": "What We Offer During the New Year's Eve Sleigh Ride:",
+            "header4": "Prices in the winter season",
             "list": {
-                "1": "Pickup from accommodation (pickup within Zakopane and Kościelisko municipality; other locations by arrangement)",
-                "2": "One-hour sleigh ride at the foot of the Kościeliska Valley",
-                "3": "Sleighs for 4, 8 or 10 people",
-                "4": "Live traditional highlander music during the ride",
-                "5": "Authentic highlander refreshments",
-                "6": "The entire experience takes place in a picturesque and breathtaking Tatra landscape",
-                "7": "You may bring and consume your own alcohol",
-                "8": "In case of no snow, sleighs will be replaced with horse-drawn wagons",
-                "9": "The sleigh ride is outdoors and takes place regardless of weather conditions – warm clothing is highly recommended",
-                "10": "Total duration: approx. 2.5 hours (round-trip transport, sleigh ride, and highlander feast)"
+                "1": "Pick-up of participants from the place of accommodation (pick-up from the place of residence in Zakopane and Kościelisko municipality, other locations to be agreed upon).",
+                "2": "One-hour sleigh ride at the foot of Kościeliska Valley.",
+                "3": "Sleighs are for four, eight, or ten people.",
+                "4": "Time is enlivened by a highlander band playing live!",
+                "5": "A real highlander refreshment.",
+                "6": "The whole fun takes place in picturesque, breathtaking surroundings of Tatra nature.",
+                "7": "Possibility to bring your own alcohol.",
+                "8": "In case of no snow, sleighs will be replaced by wagons.",
+                "9": "The sleigh ride takes place outdoors, regardless of the weather; we recommend appropriate warm clothing.",
+                "10": "Duration approx. 2.5 hours (round-trip transport, sleigh ride, feast)."
             },
-            "text": "Join us for an <strong>unforgettable New Year’s Eve</strong> in the magical scenery of Podhale! The New Year's Eve sleigh ride by <strong>TrioTravel</strong> is a traditional ride through snowy trails, ending with a bonfire and refreshments in true highlander style. It's a unique opportunity to <strong>ring in the New Year surrounded by nature, by the firelight, with music and local delicacies.</strong> Experience the magic of highlander hospitality with your friends and family – make the start of the new year truly unforgettable!",
-            "info": "Other available time slots: 8:00 PM – 10:00 PM",
+            "text": "We invite you to an <strong>unforgettable New Year's Eve</strong> in the atmospheric scenery of Podhale! The New Year's Eve sleigh ride from <strong>TrioTravel</strong> is a traditional sleigh ride through snowy trails, ending with a bonfire and refreshments in highlander style. It's a unique opportunity to <strong>welcome the New Year in the heart of nature, by the glow of a bonfire, with music and regional delicacies.</strong> Experience the magic of highlander hospitality among friends and family—make the coming year start with unforgettable moments!",
+            "info": "Other hours to choose from: 8:00 PM - 10:00 PM",
             "table": {
-                "header1": "Ticket type",
-                "header2": "New Year's Eve night",
-                "3": "Regular ticket",
-                "4": "Discounted ticket (up to 10 years old)",
+                "header1": "Ticket Type",
+                "header2": "New Year's Eve",
+                "3": "Adult ticket",
+                "4": "Reduced ticket (up to 10 years)",
                 "header4": "*Menu includes:",
                 "list": {
-                    "1": "Sausage for self-grilling, bread, mustard, ketchup, highlander and regular tea"
+                    "1": "Sausage for self-roasting, bread, mustard, ketchup, highlander tea, and regular tea"
                 }
             }
         }
     },
     "reservations": {
         "header": "Buy Online",
-        "text": "Online reservations can be made no later than 24 hours before the planned tour date. Up to one day before the planned tour date, reservations can also be made by phone.",
-        "button": "Pickup Point Map"
+        "text": "Online reservations can be made no later than 24 hours before the planned trip date. At the latest, one day before the planned trip date, reservations can be made by phone.",
+        "button": "Pickup Points Map"
+    },
+    "transport": {
+        "header": "Transport",
+        "text": "Trio Travel offers comprehensive and well-organized passenger transport. Zakopane is not the only area where we operate; we also deal with transport throughout the country and abroad. Our services include transfers to and from airports, local transport, as well as servicing conferences, weddings, and all other typical and atypical orders. ",
+        "header2": "for safe and comfortable travel. We invite you to contact us and share the miles!",
+        "header3": "Your Way",
+        "text2": "We make every effort to ensure that each order is carried out properly and meets the expectations of our clients. The team's priority is customer satisfaction and the high quality of services provided. Our drivers are experienced employees, ensuring full professionalism and appropriate skills. Thanks to many years of experience in transport, the passenger transport we organize is a comfortable and safe journey. We guarantee punctuality and attractive prices. Each client has different expectations and needs, so we always tailor our services to individual requirements. Our vehicles have all the necessary permits and full equipment enabling trouble-free international trips, ensuring the safety and comfort of passengers during each route.",
+        "button": "Pickup Points Map"
+    },
+    "pickup": {
+        "header": "Pickup Points Map",
+        "header2": "Meeting Points - Pickup locations in Zakopane and surrounding areas",
+        "header3": "Why choose our pickup points?",
+        "text": "At Trio Travel, we care about your comfort, which is why we offer convenient pickup points in Zakopane and surrounding areas. Our pickup map covers both the center of Zakopane and nearby towns such as Kościelisko, Białka Tatrzańska, Bukowina, or Poronin.",
+        "text2": "Check our map and choose a pickup point near your place of stay—from popular locations in Zakopane, through charming areas near Tatra National Park, to picturesque villages in the region.",
+        "list": {
+            "1": "Wide coverage: We pick you up from many places in Zakopane and surrounding areas.",
+            "2": "Convenience: Points are located in strategic locations, close to popular routes and accommodations.",
+            "3": "Flexibility: If you have questions or need an individual approach, contact us!"
+        },
+        "text3": "Check the map and join us at the chosen point—we’re waiting to explore the beauty of the Tatra and Pieniny Mountains together!"
     },
     "contact": {
         "title": "Contact",
-        "header": "Get in Touch with Us!",
-        "text": "Have questions? Want to plan your dream trip? Write to us or give us a call — we’ll be happy to help!",
-        "button": "Send a Message!",
+        "header": "Get in touch with us!",
+        "text": "Do you have questions? Want to plan your dream trip? Write to us or call—we’ll be happy to help!",
+        "button": "Send a message!",
+        "sending": "Sending...",
         "form": {
-            "name": "Full Name",
+            "name": "Name and Surname",
             "email": "Your Email",
-            "message": "Your Message"
+            "message": "Your Message",
+            "placeholder1": "Enter Your First and Last Name",
+            "placeholder2": "Enter Your Email"
         },
         "info": {
             "header": "Information",
             "header2": "Opening Hours",
-            "hours1": "Monday – Friday",
-            "hours2": "Saturday – Sunday"
+            "hours1": "Monday - Friday",
+            "hours2": "Saturday - Sunday"
         },
         "errors": {
-            "captcha": "Please confirm you're not a robot before submitting.",
+            "captcha": "Please confirm you're not a robot before sending.",
             "emptyFields": "Please fill in all required fields.",
-            "other": "An unexpected error occurred."
+            "other": "Unexpected error."
         },
         "answers": {
             "1": "Thank you for submitting the form!",
-            "2": "We’ll do our best to respond as soon as possible."
+            "2": "We will try to respond as soon as possible."
         }
     },
-    "transport": {
-        "header": "Transport",
-        "text": "Trio Travel offers comprehensive and well-organized passenger transport services. Zakopane is not the only area we serve — we also operate throughout Poland and abroad. Our services include airport transfers, local transportation, as well as support for conferences, weddings, and all kinds of standard and non-standard requests.",
-        "header2": "for safe and comfortable travel. Get in touch and let’s hit the road together!",
-        "header3": "Your Way",
-        "text2": "We do our utmost to ensure every assignment is carried out properly and meets our clients' expectations. Our team's top priorities are customer satisfaction and the highest quality of service. Our drivers are experienced professionals, delivering full reliability and the necessary skills. With years of experience in transportation, our passenger services guarantee a comfortable and safe journey. We are committed to punctuality and competitive pricing. Since every client has different needs and expectations, we always tailor our services to meet individual requirements. All of our vehicles are fully licensed and equipped for international travel, ensuring safety and comfort on every route.",
-        "button": "Pickup Point Map"
-    },
-    "pickup": {
-        "header": "Pickup Map",
-        "header2": "Meeting Points – Pickup Locations in Zakopane and Surrounding Areas",
-        "header3": "Why choose our pickup points?",
-        "text": "At Trio Travel, we care about your comfort, which is why we offer convenient pickup points throughout Zakopane and the surrounding area. Our pickup map covers both Zakopane's city center and nearby towns such as Kościelisko, Poronin, Murzasichle, Biały Dunajec, and Gliczarów.",
-        "text2": "Check out our map and choose a pickup point near your accommodation – from popular spots in Zakopane, to charming areas near the Tatra National Park, and picturesque villages across the region.",
-        "list": {
-            "1": "Wide coverage: We pick you up from many locations in and around Zakopane.",
-            "2": "Convenience: Points are strategically located close to popular routes and accommodations.",
-            "3": "Flexibility: If you have any questions or need a personalized approach, feel free to contact us!"
-        },
-        "text3": "Take a look at the map and join us at your selected point – we’re excited to explore the beauty of the Tatras and Pieniny with you!"
+    "majer": {
+        "header": "Trip Organizer"
     }
 }

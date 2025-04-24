@@ -29,18 +29,23 @@ export default function Atrakcje() {
       link: "/wycieczki/jaskinia-bielanska",
     },
     {
-      title: t("trips.5"),
-      image: "/wycieczki/splyw-dunajcem-krotszy/splyw.png",
-      link: "/wycieczki/splyw-dunajcem-krotszy",
-    },
-    {
       title: t("trips.6"),
       image: "/wycieczki/tajemnice-wieliczki/wieliczka.png",
       link: "/wycieczki/tajemnice-wieliczki",
     },
+    // {
+    //   title: t("trips.5"),
+    //   image: "/wycieczki/splyw-dunajcem-krotszy/splyw.png",
+    //   link: "/wycieczki/splyw-dunajcem-krotszy",
+    // },
+    {
+      title: t("trips.16"),
+      image: "/wycieczki/biesiada-goralska/baner.png",
+      link: "/wycieczki/biesiada-goralska",
+    },
     {
       title: t("trips.7"),
-      image: "/wycieczki/kasprowy.png",
+      image: "/wycieczki/kasprowy-wierch/4.png",
       link: "/bilety-na-kasprowy-wierch",
     },
     {
@@ -63,16 +68,12 @@ export default function Atrakcje() {
       image: "/wycieczki/zamek-orawski/zamek-orawski.png",
       link: "/wycieczki/zamek-orawski",
     },
-    {
-      title: t("trips.12"),
-      image: "/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.png",
-      link: "/wycieczki/swiatynia-lodowa-hrebieniok",
-    },
-    {
-      title: t("trips.13"),
-      image: "/wycieczki/krakow/krakow.png",
-      link: "/wycieczki/krakow-z-przewodnikiem",
-    },
+    // {
+    //   title: t("trips.12"),
+    //   image: "/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.png",
+    //   link: "/wycieczki/swiatynia-lodowa-hrebieniok",
+    // },
+
     {
       title: t("trips.14"),
       image: "/wycieczki/dookola-tatr/tatry.png",

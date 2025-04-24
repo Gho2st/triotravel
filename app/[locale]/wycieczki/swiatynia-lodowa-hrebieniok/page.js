@@ -4,29 +4,31 @@ import Image from "next/image";
 import Table from "@/app/UI/Table";
 import Gallery from "@/app/UI/Slider";
 import TripProgram from "@/app/UI/TripProgram";
+import { useTranslations } from "next-intl";
 
 export default function Hrebieniok() {
+  const t = useTranslations("offer.tripslist.swiatynia-lodowa-hrebieniok");
   const tripItems = [
-    "8:00 - Wyjazd z Zakopanego",
-    "9:00 - Przyjazd do Starego Smokowca",
-    "9:30 - Wyjazd kolejką na Hrebieniok",
-    "10:00 - 12:00-Zwiedzanie Świątyni Lodowej",
-    "12:00 - 13:00 - Czas wolny",
-    "15:00 - Powrót do Zakopanego",
+    "8:00 - " + t("tripprogram.1"),
+    "9:00 - " + t("tripprogram.2"),
+    "9:30 - " + t("tripprogram.3"),
+    "10:00 - 12:00 " + t("tripprogram.4"),
+    "12:00 - 13:00 " + t("tripprogram.5"),
+    "15:00 - " + t("tripprogram.6"),
   ];
 
   // Przykładowe dane dla tabeli
-  const tableHeaders = ["Rodzaj biletu", "Świątynia Lodowa Hrebieniok"];
+  const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
-    ["Bilet normalny", "80 PLN"],
-    ["Bilet ulgowy (dzieci do 10 lat)", "75 PLN"],
-    ["", "Dodatkowo płatne (wjazd kolejką na Hrebieniok)"],
-    ["Bilet normalny", "16 €"],
-    ["Bilet ulogwy (dzieci do 10 lat)", "14 €"],
+    [t("table.1"), "80 PLN"],
+    [t("table.2"), "75 PLN"],
+    ["", t("table.additional")],
+    [t("table.3"), "16 €"],
+    [t("table.4"), "14 €"],
   ];
   return (
     <>
-      <Header text="Świątynia Lodowa Hrebieniok" />
+      <Header text={t("header")} />
       <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[700px] ">
         <Image
           src="/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.png"
@@ -38,22 +40,19 @@ export default function Hrebieniok() {
         />
       </div>
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
-        <LineHeader text="Co oferujemy?" />
+        <LineHeader text={t("header2")} />
         <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto xl:text-xl">
-          Zapraszamy na wycieczkę na Słowację podczas, której zobaczą Państwo
-          Stary Smokowiec. Przejadą się kolejką szynową na Hrebieniok (Tatry
-          Wysokie, 1310m n.p.m.), gdzie na szczycie zlokalizowana jest Lodowa
-          Świątynia, która w tym roku inspirowana jest Katedrą na Wawelu.
+          {t("text")}
         </p>
         <div className="mt-16">
           <Table
             headers={tableHeaders}
             rows={tableRows}
-            text="*Cena obejmuje: Opiekę wykwalifikowanego pilota oraz przewodnika, transport komfortowym autokarem, ubezpieczenie KL i NNW, zestaw audio guide"
+            text={t("table.text")}
           />
         </div>
         <div className="mt-16">
-          <TripProgram title={<>Program wycieczki:</>} items={tripItems} />
+          <TripProgram title={t("tripprogram.header")} items={tripItems} />
         </div>
       </section>
       <div>
@@ -64,16 +63,16 @@ export default function Hrebieniok() {
               alt: "First image",
             },
             {
-                url: "/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.png",
-                alt: "First image",
+              url: "/wycieczki/swiatynia-lodowa-hrebieniok/1.png",
+              alt: "First image",
             },
             {
-                url: "/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.png",
-                alt: "First image",
+              url: "/wycieczki/swiatynia-lodowa-hrebieniok/2.png",
+              alt: "First image",
             },
             {
-                url: "/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.png",
-                alt: "First image",
+              url: "/wycieczki/swiatynia-lodowa-hrebieniok/3.png",
+              alt: "First image",
             },
           ]}
         />

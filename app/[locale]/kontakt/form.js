@@ -112,7 +112,7 @@ export default function Form() {
                     type="text"
                     onChange={handleChange}
                     value={formData.fullName}
-                    placeholder="Wpisz swoję Imię i Nazwisko"
+                    placeholder={t("form.placeholder1")}
                     style={{
                       border: errorFields.includes("fullName")
                         ? "1px solid red"
@@ -134,7 +134,7 @@ export default function Form() {
                     type="email"
                     onChange={handleChange}
                     value={formData.email}
-                    placeholder="Wpisz swój email"
+                    placeholder={t("form.placeholder2")}
                     style={{
                       border: errorFields.includes("email")
                         ? "1px solid red"

@@ -7,15 +7,15 @@ export default function Partners() {
 
   // Tablica linków dla partnerów
   const partnerLinks = {
-    skocznia: "https://muszyna.pl",
-    wierszyki: "https://www.topkids-muszyna.pl/",
-    oldstreet: "https://www.alpinasport.pl/",
-    gorski: "https://www.dwkolejarz.pl/",
-    elzbiecina: "https://20wszur.pl/",
-    rentplanet: "https://20wszur.pl/",
-    nosal: "https://trenerodadoz.pl/",
-    klimatyczne: "https://activ-vital.pl/",
-    patryk: "https://muszyna-domnawzgorzu.pl/",
+    skocznia: "http://www.domkipodskocznia.pl/",
+    wierszyki: "https://wierszykishelters.pl/",
+    oldstreet: "https://apartamentoldstreet.pl/",
+    gorski: "http://bsn-zakopane.pl/apartament/",
+    elzbiecina: "https://www.willa-elzbiecina.pl/",
+    rentplanet: "https://www.rentplanet.pl/",
+    nosal: "https://www.hotelnosal.pl/",
+    klimatyczne: "http://www.domkiklimatyczne.pl/pl/",
+    patryk: "http://patryk-zakopane.pl/",
   };
   return (
     <>

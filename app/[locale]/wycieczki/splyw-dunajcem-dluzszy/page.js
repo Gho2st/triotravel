@@ -84,7 +84,7 @@ export default function SplywDluzszy() {
               alt: "First image",
             },
             { url: "/wycieczki/splyw-dunajcem-dluzszy/2.jpg", alt: "2 image" },
-            { url: "/wycieczki/splyw-dunajcem-dluzszy/3.jpg", alt: "3 image" },
+            { url: "/wycieczki/splyw-dunajcem-dluzszy/3.png", alt: "3 image" },
             { url: "/wycieczki/splyw-dunajcem-dluzszy/4.jpg", alt: "4 image" },
           ]}
         />

@@ -6,27 +6,26 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 
 export default function Gallery({ images = [] }) {
-  // Initialize gallery state with props
   const [gallery, setGallery] = useState(images);
 
-  // Update gallery when props change
   useEffect(() => {
     setGallery(images);
   }, [images]);
 
   const carouselSettings = {
     infinite: true,
-    speed: 800,
+    speed: 6000, // Dłuższy czas przejścia dla płynniejszego efektu
     lazyLoad: "ondemand",
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 6000,
-    cssEase: "linear",
+    autoplaySpeed: 0, // Ustaw na 0, aby ruch był ciągły
+    cssEase: "linear", // Linearne przejście dla stałej prędkości
     initialSlide: 0,
     centerMode: true,
     dots: false,
     arrows: true,
+    pauseOnHover: false, // Wyłącza zatrzymywanie przy najechaniu
     responsive: [
       {
         breakpoint: 1334,
@@ -48,7 +47,6 @@ export default function Gallery({ images = [] }) {
     ],
   };
 
-  // Handle case when no images are provided
   if (!gallery || gallery.length === 0) {
     return (
       <div className="mb-20 mt-10 text-center">
@@ -59,17 +57,16 @@ export default function Gallery({ images = [] }) {
 
   return (
     <div className="overflow-hidden">
-      <Slider {...carouselSettings} className=" mx-auto ">
+      <Slider {...carouselSettings} className="mx-auto">
         {gallery.map((image, index) => (
           <div
             key={image.id || index}
             className="relative w-full h-[300px] md:h-[500px]"
           >
-            {/* Stały rozmiar kontenera */}
             <Image
               src={image.url || image}
               alt={image.alt || `Gallery Image ${index}`}
-              fill // Użyj fill zamiast width/height dla responsywności
+              fill
               className="md:rounded-xl object-cover focus:outline-none"
               loading="lazy"
             />

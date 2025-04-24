@@ -91,19 +91,19 @@ export default function Spacer() {
         <Gallery
           images={[
             {
-              url: "/wycieczki/spacer-w-koronach-drzew/korony.png",
+              url: "/wycieczki/spacer-w-koronach-drzew/1.png",
               alt: "First image",
             },
             {
-              url: "/wycieczki/spacer-w-koronach-drzew/korony.png",
+              url: "/wycieczki/spacer-w-koronach-drzew/2.png",
               alt: "First image",
             },
             {
-              url: "/wycieczki/spacer-w-koronach-drzew/korony.png",
+              url: "/wycieczki/spacer-w-koronach-drzew/3.png",
               alt: "First image",
             },
             {
-              url: "/wycieczki/spacer-w-koronach-drzew/korony.png",
+              url: "/wycieczki/spacer-w-koronach-drzew/4.png",
               alt: "First image",
             },
           ]}

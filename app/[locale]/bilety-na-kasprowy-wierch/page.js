@@ -5,6 +5,7 @@ import Table from "@/app/UI/Table";
 import ClickButton from "@/app/UI/Buttons/ClickButton";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import Gallery from "@/app/UI/Slider";
 
 export default function Kasprowy() {
   const t = useTranslations("offer.tripslist.kasprowy");
@@ -41,7 +42,7 @@ export default function Kasprowy() {
       </div>
       {/* tabelka  */}
       <section className="mx-auto px-5 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
-        <Table headers={tableHeaders} rows={tableRows} />
+        <Table headers={tableHeaders} rows={tableRows} text={t("table.text")} />
         <div className="grid grid-cols-3 gap-2 md:gap-16 justify-center mt-16">
           <ClickButton
             onClick={() => handleButtonClick("uwagi")}
@@ -88,6 +89,16 @@ export default function Kasprowy() {
           )}
         </div>
       </section>
+      <div>
+        <Gallery
+          images={[
+            { url: "/wycieczki/kasprowy-wierch/1.png", alt: "First image" },
+            { url: "/wycieczki/kasprowy-wierch/2.png", alt: "First image" },
+            { url: "/wycieczki/kasprowy-wierch/3.png", alt: "First image" },
+            { url: "/wycieczki/kasprowy-wierch/4.png", alt: "First image" },
+          ]}
+        />
+      </div>
     </>
   );
 }

@@ -29,10 +29,15 @@ const gallery = [
     link: "/wycieczki/jaskinia-bielanska",
   },
   {
-    url: "/wycieczki/splyw-dunajcem-krotszy/splyw.png",
-    alt: "trips.5",
-    link: "/wycieczki/splyw-dunajcem-krotszy",
+    url: "/wycieczki/biesiada-goralska/baner.png",
+    alt: "trips.16",
+    link: "/wycieczki/biesiada-goralska",
   },
+  // {
+  //   url: "/wycieczki/splyw-dunajcem-krotszy/splyw.png",
+  //   alt: "trips.5",
+  //   link: "/wycieczki/splyw-dunajcem-krotszy",
+  // },
   {
     url: "/wycieczki/tajemnice-wieliczki/wieliczka.png",
     alt: "trips.6",
@@ -49,6 +54,11 @@ const gallery = [
     link: "/wycieczki/slowacki-raj",
   },
   {
+    url: "/wycieczki/zamek-orawski/zamek-orawski.png",
+    alt: "trips.11",
+    link: "/wycieczki/zamek-orawski",
+  },
+  {
     url: "/wycieczki/wieden/wieden.png",
     alt: "trips.9",
     link: "/wycieczki/wieden",
@@ -58,21 +68,12 @@ const gallery = [
     alt: "trips.10",
     link: "/wycieczki/budapeszt",
   },
-  {
-    url: "/wycieczki/zamek-orawski/zamek-orawski.png",
-    alt: "trips.11",
-    link: "/wycieczki/zamek-orawski",
-  },
-  {
-    url: "/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.png",
-    alt: "trips.12",
-    link: "/wycieczki/swiatynia-lodowa-hrebieniok",
-  },
-  {
-    url: "/wycieczki/krakow/krakow.png",
-    alt: "trips.13",
-    link: "/wycieczki/krakow-z-przewodnikiem",
-  },
+
+  // {
+  //   url: "/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.png",
+  //   alt: "trips.12",
+  //   link: "/wycieczki/swiatynia-lodowa-hrebieniok",
+  // },
   {
     url: "/wycieczki/dookola-tatr/tatry.png",
     alt: "trips.14",

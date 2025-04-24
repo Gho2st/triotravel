@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { routing, usePathname, useRouter } from "@/i18n/routing";
 import { useLocale } from "next-intl";
+import ReactCountryFlag from "react-country-flag";
 
 export default function LocaleSwitcher() {
   const router = useRouter();
@@ -11,27 +12,29 @@ export default function LocaleSwitcher() {
   const [isOpen, setIsOpen] = useState(false);
 
   function changeLocale(nextLocale) {
-    router.replace({ pathname }, { locale: nextLocale });
-    setIsOpen(false); // Zamknij dropdown po wybraniu języka
+    router.replace(pathname, { locale: nextLocale });
+    setIsOpen(false);
   }
 
   const localeFlags = {
-    pl: "🇵🇱", // Polska
-    en: "🇬🇧", // Angielski
-    de: "🇩🇪", // Niemiecki
-    ua: "🇺🇦", // Ukraiński
-    sk: "🇸🇰", // Słowacki
+    pl: "PL",
+    en: "GB",
+    ar: "SA", // Zmieniono 'sa' na 'ar'
   };
 
   return (
     <div className="relative">
-      {/* Przycisk otwierający dropdown */}
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center border border-gray-300 p-1 xl:p-2 rounded-lg bg-white text-black hover:bg-gray-100 transition-colors"
       >
         <span className="flex items-center">
-          {localeFlags[locale]}{" "}
+          <ReactCountryFlag
+            countryCode={localeFlags[locale]}
+            svg
+            style={{ width: "1.5em", height: "1.5em", marginRight: "0.25em" }}
+            title={locale.toUpperCase()}
+          />
           <span className="ml-1">{locale.toUpperCase()}</span>
         </span>
         <svg
@@ -52,7 +55,6 @@ export default function LocaleSwitcher() {
         </svg>
       </button>
 
-      {/* Dropdown z językami */}
       {isOpen && (
         <div className="absolute top-full mt-1 w-24 rounded-lg bg-white shadow-lg border border-gray-200 z-10">
           {routing.locales.map((cur) => (
@@ -64,7 +66,16 @@ export default function LocaleSwitcher() {
               }`}
             >
               <span className="flex items-center">
-                {localeFlags[cur]}{" "}
+                <ReactCountryFlag
+                  countryCode={localeFlags[cur]}
+                  svg
+                  style={{
+                    width: "1.5em",
+                    height: "1.5em",
+                    marginRight: "0.25em",
+                  }}
+                  title={cur.toUpperCase()}
+                />
                 <span className="ml-2">{cur.toUpperCase()}</span>
               </span>
             </button>

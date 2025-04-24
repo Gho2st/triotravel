@@ -4,29 +4,32 @@ import Image from "next/image";
 import Table from "@/app/UI/Table";
 import Gallery from "@/app/UI/Slider";
 import TripProgram from "@/app/UI/TripProgram";
+import Majer from "@/app/UI/Majer";
+import { useTranslations } from "next-intl";
 
 export default function Zamek() {
+  const t = useTranslations("offer.tripslist.zamek-orawski");
   const tripItems = [
-    "Wyjazd z Zakopanego",
-    "Zwiedzanie Zamku Orawskiego",
-    "Przejazd przez Skansen w Chochołowie",
-    "Postój na granicy - możliwość wizyty w sklepie Słowackim",
-    "Degustacja Oscypków w Najstarszej Bacówce",
-    "Powrót do Zakopanego",
+    t("tripprogram.1"),
+    t("tripprogram.2"),
+    t("tripprogram.3"),
+    t("tripprogram.4"),
+    t("tripprogram.5"),
+    t("tripprogram.6"),
   ];
 
   // Przykładowe dane dla tabeli
-  const tableHeaders = ["Rodzaj biletu", "Zamek Orawski"];
+  const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
-    ["Bilet normalny", "90 PLN"],
-    ["Bilet ulgowy (dziecko do lat 15, emeryt, niepełnosprawny)", "80 PLN"],
-    ["", "Dodatkowo płatne (bilety wstępu do Zamku Orawskiego)"],
-    ["Bilet normalny", "9€"],
-    ["Bilet ulogwy", "4.5€"],
+    [t("table.1"), "90 PLN"],
+    [t("table.2"), "80 PLN"],
+    ["", t("table.additional")],
+    [t("table.3"), "9€"],
+    [t("table.4"), "4.5€"],
   ];
   return (
     <>
-      <Header text="Zamek Orawski" />
+      <Header text={t("header")} />
       <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[700px] ">
         <Image
           src="/wycieczki/zamek-orawski/zamek-orawski.png"
@@ -38,53 +41,42 @@ export default function Zamek() {
         />
       </div>
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
-        <LineHeader text="Co oferujemy?" />
+        <LineHeader text={t("header2")} />
         <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto xl:text-xl">
-          Triotravel z przyjemnością zaprasza na pełną atrakcji jednodniową
-          wycieczkę. Proponujemy Państwu wyjątkową podróż, która obejmuje
-          zwiedzanie Zamku Orawskiego, Skansenu w Chochołowie oraz degustację
-          oscypków w najstarszej bacówce w regionie. <br></br>
-          <br></br>
-          Zamek Orawski Położony na wysokiej skale, Zamek Orawski to
-          majestatyczna twierdza, która zachwyca swoją architekturą i bogatą
-          historią. Podczas zwiedzania z przewodnikiem poznają Państwo
-          fascynujące opowieści o życiu zamku oraz jego mieszkańców. To
-          niezapomniana podróż w czasie, która przybliży Państwu kulturę i
-          tradycje regionu.<br></br>
-          <br></br> Skansen w Chochołowie Skansen w Chochołowie to unikatowe
-          miejsce, gdzie można poczuć ducha tradycyjnej kultury góralskiej.
-          Położony w malowniczej wsi Chochołów, skansen oferuje zwiedzającym
-          możliwość zobaczenia autentycznych, drewnianych chałup, które od
-          pokoleń zachowują swój niepowtarzalny charakter.
+          {t("text")}
         </p>
         <div className="mt-16">
           <Table
             headers={tableHeaders}
             rows={tableRows}
-            text="*Cena obejmuje: Opiekę wykwalifikowanego pilota oraz przewodnika, transport komfortowym autokarem, ubezpieczenie KL i NNW, zestaw audio guide"
+            text={t("table.text")}
           />
         </div>
         <div className="mt-16">
-          <TripProgram title={<>Program wycieczki:</>} items={tripItems} />
+          <TripProgram
+            title={<>{t("tripprogram.header")}</>}
+            items={tripItems}
+          />
         </div>
       </section>
+      <Majer />
       <div>
         <Gallery
           images={[
             {
-              url: "/wycieczki/zamek-orawski/zamek-orawski.png",
+              url: "/wycieczki/zamek-orawski/1.png",
               alt: "First image",
             },
             {
-              url: "/wycieczki/zamek-orawski/zamek-orawski.png",
+              url: "/wycieczki/zamek-orawski/2.png",
               alt: "First image",
             },
             {
-              url: "/wycieczki/zamek-orawski/zamek-orawski.png",
+              url: "/wycieczki/zamek-orawski/3.png",
               alt: "First image",
             },
             {
-              url: "/wycieczki/zamek-orawski/zamek-orawski.png",
+              url: "/wycieczki/zamek-orawski/4.png",
               alt: "First image",
             },
           ]}

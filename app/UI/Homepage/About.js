@@ -11,26 +11,30 @@ export default function About() {
           <h1 className="text-2xl md:text-3xl 2xl:text-4xl font-semibold leading-snug ">
             {t("header1")}
           </h1>
-          <p className="mt-10 text-lg xl:text-xl 2xl:text-2xl leading-snug">{t("text")}</p>
+          <p className="mt-10 text-lg xl:text-xl 2xl:text-2xl leading-snug">
+            {t("text")}
+          </p>
         </div>
-        <div className="md:w-1/2">
-          <Image
-            src={"/about/1.png"}
-            width={100}
-            height={100}
-            layout="responsive"
-            alt="1"
-          />
-        </div>
-      </div>
-      <div className="flex flex-col-reverse md:flex-row gap-10 xl:gap-20 mt-16 md:mt-20">
         <div className="md:w-1/2">
           <Image
             src={"/about/2.png"}
             width={100}
             height={100}
             layout="responsive"
+            alt="1"
+            className="rounded-2xl"
+          />
+        </div>
+      </div>
+      <div className="flex flex-col-reverse md:flex-row gap-10 xl:gap-20 mt-16 md:mt-20">
+        <div className="md:w-1/2">
+          <Image
+            src={"/about/1.png"}
+            width={100}
+            height={100}
+            layout="responsive"
             alt="2"
+            className="rounded-2xl"
           />
         </div>
         <div className="md:w-1/2">

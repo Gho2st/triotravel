@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 export default function FunFact() {
   const t = useTranslations("offer.tripslist.splyw-dunajcem-dluzszy.funfact");
   return (
@@ -8,8 +9,13 @@ export default function FunFact() {
         <p className="mt-8 xl:mt-16">{t("text1")}</p>
       </div>
       <div>
-        <p>{t("text2")}</p>
-        <p className="mt-8 xl:mt-16 font-bold">{t("cta")}</p>
+        <p className="mb-8 xl:mb-16">{t("text2")}</p>
+        <Link
+          className="font-bold underline text-customBlue"
+          href={"/ciekawostki-o-splywie-dunajcem"}
+        >
+          {t("cta")}
+        </Link>
       </div>
     </div>
   );

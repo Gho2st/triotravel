@@ -155,7 +155,7 @@ export default function Nav() {
                 <li>
                   <Link
                     href="/wycieczki"
-                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-white transition-colors duration-200"
+                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
                     {t("links.link1")}
@@ -164,7 +164,7 @@ export default function Nav() {
                 <li>
                   <Link
                     href="/kuligi"
-                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-white transition-colors duration-200"
+                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
                     {t("links.link2")}
@@ -173,7 +173,7 @@ export default function Nav() {
                 <li>
                   <Link
                     href="/bilety-na-kasprowy-wierch"
-                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-white transition-colors duration-200"
+                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
                     {t("links.link3")}
@@ -182,7 +182,7 @@ export default function Nav() {
                 <li>
                   <Link
                     href="/transport"
-                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-white transition-colors duration-200"
+                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
                     {t("links.link4")}
@@ -191,7 +191,7 @@ export default function Nav() {
                 <li>
                   <Link
                     href="/partnerzy"
-                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-white transition-colors duration-200"
+                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
                     {t("links.link5")}
@@ -200,7 +200,7 @@ export default function Nav() {
                 <li>
                   <Link
                     href="/kontakt"
-                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-white transition-colors duration-200"
+                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
                     {t("links.link6")}

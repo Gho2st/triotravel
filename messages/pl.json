@@ -33,12 +33,13 @@
     },
     "hero": {
         "headers": {
-            "header1": "Spływ Kajakiem?",
+            "header1": "Spływ Dunajcem?",
             "header2": "Baseny Termalne?",
             "header3": "Bilety na Kasprowy?",
             "header4": "Transport w Górach?",
-            "header5": "Wycieczka w Górach?",
-            "header6": "Zimowy Kulig?"
+            "header5": "Biesiada Góralska?",
+            "header6": "Zimowy Kulig?",
+            "header7": "Spacer w Koronach Drzew?"
         },
         "button": "Rezerwuj",
         "button2": "Teraz"
@@ -66,9 +67,34 @@
             "12": "Świątynia Lodowa Hrebieniok",
             "13": "Zwiedzanie Krakowa",
             "14": "Dookoła Tatr",
-            "15": "Rafting po Dunajcu"
+            "15": "Rafting po Dunajcu",
+            "16": "Biesiada Góralska"
         },
         "tripslist": {
+            "biesiada": {
+                "header": "Biesiada Góralska",
+                "header2": "Śpasy Góralskie - Niezapomniana impreza w stylu Podhala",
+                "header3": "Opis Atrakcji:",
+                "text": "Zapraszamy na niezapomnianą Biesiadę Góralską! Przeżyj autentyczną przygodę w sercu gór, pełną folkloru, muzyki i wyśmienitej kuchni. Czekają na Ciebie tańce przy ognisku, opowieści górali i niepowtarzalna atmosfera pod gwiazdami. Dołącz do nas i poczuj magię górskiej kultury! Nie przegap!",
+                "list": {
+                    "1": "Przejażdżka góralskimi powozami - Goście wsiadają do tradycyjnych powozów konnych i wyruszają w malowniczą trasę u podnóża Doliny Kościeliskiej. Po drodze planowane są krótkie przystanki w punktach widokowych, gdzie chętni mogą skosztować regionalnych trunków (opcjonalnie: cytrynówka, gruszkówka,śliwowica)."
+                },
+                "table": {
+                    "header1": "Rodzaj Biletu",
+                    "header2": "Całkowity Koszt Wycieczki",
+                    "header3": "Sezon niski",
+                    "1": "Normalny",
+                    "2": "Ulgowy (dzieci do 14 lat)",
+                    "3": "Ulgowy (dzieci do 3 lat)"
+                },
+                "tripprogram": {
+                    "header": "Program Wycieczki:",
+                    "1": "Odbiór gości możliwie blisko  miejsca zakwaterowania i komfortowy przejazd na miejsce rozpoczęcia atrakcji.",
+                    "2": "Początek przygody! Przejażdżka góralskimi powozami przez malownicze tereny u podnóża Doliny Kościeliskiej z przystankami na punktach widokowych.",
+                    "3": "Przyjazd do góralskiego szałasu i rozpoczęcie biesiady pełnej muzyki, tańca i tradycyjnych zabaw wraz z poczęstunkiem bez limitu",
+                    "4": "Planowany powrót do miejsca odbioru  i zakończenie niezapomnianej góralskiej imprezy."
+                }
+            },
             "kasprowy": {
                 "header": "Bilety Na Kasprowy Wierch",
                 "table": {
@@ -78,7 +104,8 @@
                     "1": "Normalny w górę",
                     "2": "Ulgowy w górę",
                     "3": "Normalny w obie strony",
-                    "4": "Ulgowy w obie strony"
+                    "4": "Ulgowy w obie strony",
+                    "text": "* Ceny biletów mogą ulec zmianie w zależności od godziny. "
                 },
                 "buttons": {
                     "1": "Uwagi",
@@ -94,7 +121,7 @@
                 "header": "Spływ Dunajcem 2.5h",
                 "header2": "Co Oferujemy?",
                 "header3": "Wycieczka w Pieniny: Spływ i Niedzica",
-                "header4": "Podczas wycieczki w Pieniny, poza główną atrakcją, którą jest spływ na drewnianych tratwach-odwiedzisz również Niedzicę, w której do wyboru masz jedną z atrakcji:",
+                "header4": "Podczas wycieczki w Pieniny, poza główną atrakcją, którą jest spływ na drewnianych tratwach-odwiedzisz również Niedzicę, w której do wyboru masz wiele atrakcji:",
                 "text": "Przygotowaliśmy dla Państwa szereg niezwykle ciekawych atrakcji, które z pewnością uczynią czas Państwa wypoczynku szalenie interesującym i niezapomnianym. Proponowany przez nas spływ Dunajcem z Zakopanego to rewelacyjny sposób na to, aby należycie nacieszyć się pięknymi krajobrazami, a zarazem wiele zwiedzić. Flisacy umilą go Państwu fascynującymi opowieściami i legendami związanymi z rzeką oraz jej okolicami. Poza spływem na drewnianej tratwie, skąd nacieszycie Państwo oczy widokiem otaczających Pienin, oferta obejmuje również możliwość zwiedzania zamku w Niedzicy, zapory na Dunajcu czy Parku Miniatur Podhala, Orawy i Spisza.",
                 "list": {
                     "1": "Rejs statkiem po Jeziorze Czorsztyńskim (Podczas rejsu statkiem spacerowym będziesz mógł podziwiać zaporę wodną, ruiny zamku Czorsztyńskiego, zamek Niedzica, skansen Czorsztyński oraz przepiękny górski krajobraz). Taki rejs to przygoda, która na długo zostanie w twojej pamięci!",
@@ -113,11 +140,103 @@
                     "text": "* Cena obejmuje: opiekę kierowcy podczas wycieczki oraz ubezpieczenie NNW"
                 },
                 "tripprogram": {
-                    "header": "Program Wycieczki (ok. 9-10h):",
+                    "header": "Program Wycieczki:",
                     "1": "Wyjazd z Zakopanego",
-                    "2": "Spływ Dunajcem do Szczawnicy (około 2,15 h)",
+                    "2": "Spływ Dunajcem do Szczawnicy",
                     "3": "Odbiór ze Szczawnicy i przejazd do Niedzicy",
                     "4": "Czas wolny (2h)",
+                    "5": "Przejazd do Dębna",
+                    "6": "Zwiedzanie Kościółka z Panią Kustosz",
+                    "7": "Wyjazd powrotny",
+                    "8": "Planowy przyjazd do Zakopanego"
+                },
+                "funfact": {
+                    "header": "Ciekawostki o Spływie Dunajcem",
+                    "text1": "Powstanie przełomu Dunajca do dziś nie jest do końca poznane. Legendy mówią, że właśnie tędy słynny rycerz Ferkowicz gonił króla węży.",
+                    "text2": "Kręta trasa jaką pokonał miała właśnie zmienić się w Przełom Dunajca. Inni górale mówią, że ujście rzece wybił sam król Bolesław Chrobry.",
+                    "cta": "Chcesz wiedzieć więcej?",
+                    "more": {
+                        "header": "Ciekawostki o Spływie Dunajcem",
+                        "header2": "Legendy i sekrety Przełomu Dunajca!",
+                        "text": "Czy to rycerz Ferkowicz gonił króla węży, czy Bolesław Chrobry wybił ujście rzece? Poznaj legendy i sekrety Przełomu Dunajca!",
+                        "cta": {
+                            "header": "Zarezerwuj spływ już dziś!",
+                            "text": "Przeżyj niezapomnianą przygodę w sercu Pienin. Zarezerwuj miejsce na spływie Dunajcem!",
+                            "button": "Zarezerwuj teraz"
+                        },
+                        "cards": {
+                            "1": {
+                                "header": "Przełom Dunajca – cud natury",
+                                "text": "Przełom Dunajca to jeden z najpiękniejszych przełomów rzecznych w Europie. Powstał miliony lat temu, gdy rzeka przecięła wapienne skały Pienin."
+                            },
+                            "2": {
+                                "header": "Flisackie tradycje od wieków",
+                                "text": "Spływy Dunajcem organizowane są od ponad 200 lat! Początkowo flisacy transportowali towary, a od XIX wieku wożą turystów, w tym arystokrację."
+                            },
+                            "3": {
+                                "header": "Siedem zakrętów Dunajca",
+                                "text": "Trasa spływu ma około 12 km i prowadzi przez siedem malowniczych zakrętów. Najsłynniejszy to ten wokół Trzech Koron, najwyższego szczytu Pienin."
+                            },
+                            "4": {
+                                "header": "Pieniny – dom dla rzadkich gatunków",
+                                "text": "W Pieninach żyją rysie, wilki i salamandry plamiste. Szczęściarze mogą zobaczyć orła przedniego krążącego nad przełomem."
+                            },
+                            "5": {
+                                "header": "Legenda o Janosiku",
+                                "text": "Górale wierzą, że w jaskiniach Dunajca ukrywał się zbójnik Janosik. Skały zwane „Janosikowymi Wrotami” to podobno jego tajemna ucieczka."
+                            },
+                            "6": {
+                                "header": "Skały z imionami",
+                                "text": "Formacje skalne w przełomie mają własne nazwy, jak „Biała Dama” czy „Sokola Perć”. Każda kryje historię, którą opowiedzą flisacy."
+                            },
+                            "7": {
+                                "header": "Spływ w filmach i literaturze",
+                                "text": "Przełom Dunajca zainspirował Sienkiewicza do „Potopu” i pojawiał się w polskich filmach, fascynując artystów od wieków."
+                            },
+                            "8": {
+                                "header": "Flisackie żarty i opowieści",
+                                "text": "Flisacy to mistrzowie opowieści! Ich żartobliwe historie, przekazywane z pokolenia na pokolenie, sprawiają, że spływ to prawdziwe show."
+                            },
+                            "9": {
+                                "header": "Dunajec – rzeka dwóch krajów",
+                                "text": "Dunajec wyznacza granicę między Polską a Słowacją. Spływ to najłatwiejsza „podróż międzynarodowa”, jak żartują flisacy."
+                            },
+                            "10": {
+                                "header": "Sezon na spływ",
+                                "text": "Spływy odbywają się od kwietnia do października. Wiosna kusi budzącą się przyrodą, a jesień – kolorami Pienin."
+                            }
+                        }
+                    }
+                }
+            },
+            "splyw-dunajcem-krotszy": {
+                "header": "Spływ Dunajcem 1.5h",
+                "header2": "Co Oferujemy?",
+                "header3": "Wycieczka w Pieniny: Spływ i Niedzica",
+                "text": "Przygotowaliśmy dla Państwa szereg niezwykle ciekawych atrakcji, które z pewnością uczynią czas Państwa wypoczynku szalenie interesującym i niezapomnianym. Proponowany przez nas spływ Dunajcem z Zakopanego to rewelacyjny sposób na to, aby należycie nacieszyć się pięknymi krajobrazami, a zarazem wiele zwiedzić. Flisacy umilą go Państwu fascynującymi opowieściami i legendami związanymi z rzeką oraz jej okolicami. Poza spływem na drewnianej tratwie, skąd nacieszycie Państwo oczy widokiem otaczających Pienin, oferta obejmuje również możliwość zwiedzania zamku w Niedzicy, zapory na Dunajcu czy Parku Miniatur Podhala, Orawy i Spisza.",
+                "list": {
+                    "header": "Podczas wycieczki w Pieniny, poza główną atrakcją, którą jest spływ na drewnianych tratwach-odwiedzisz również Niedzicę, w której do wyboru masz wiele atrakcji:",
+                    "1": "Rejs statkiem po Jeziorze Czorsztyńskim (Podczas rejsu statkiem spacerowym będziesz mógł podziwiać zaporę wodną, ruiny zamku Czorsztyńskiego, zamek Niedzica, skansen Czorsztyński oraz przepiękny górski krajobraz). Taki rejs to przygoda, która na długo zostanie w twojej pamięci!",
+                    "2": "Zamek w Niedzicy -  gdzie więziono i torturowano Janosika.",
+                    "3": "Zaporę Czorsztyńską wraz z spektakularnym malowidłem wykonanym w technice 3D",
+                    "4": "Park Miniatur Podhala, Orawy i Spisza, park linowy.",
+                    "5": "Wracając do Zakopanego zatrzymamy się w Dębnie, gdzie znajduje się zabytkowy drewniany Kościół z XV w wpisany na listę UNESCO - prelekcja z Panią kustosz ok. 20 min."
+                },
+                "info": "Sezon flisacki trwa od 1 kwietnia do 31 października - świątek, piątek i niedziele. Zatem na wycieczkę zapraszamy codziennie!",
+                "table": {
+                    "header1": "Rodzaj biletu",
+                    "header2": "Spływ Dunajcem 1.5h",
+                    "1": "Bilet normalny",
+                    "2": "Bilet ulgowy (do 10 lat)",
+                    "3": "Bilet ulgowy (do 3 lat)",
+                    "text": "* Cena obejmuje: opiekę kierowcy podczas wycieczki oraz ubezpieczenie NNW"
+                },
+                "tripprogram": {
+                    "header": "Program Wycieczki:",
+                    "1": "Wyjazd z Zakopanego",
+                    "2": "Spływ tratwami z miejscowości Majere (Słowacja) po Dunajcu (czas spływu około 1,5 -2 h) do przystani w Leśnicy (Słowacja)",
+                    "3": "Wyjazd do Niedzicy",
+                    "4": "Czas wolny",
                     "5": "Przejazd do Dębna",
                     "6": "Zwiedzanie Kościółka z Panią Kustosz (około 20 minut)",
                     "7": "Wyjazd powrotny",
@@ -127,7 +246,59 @@
                     "header": "Ciekawostki o Spływie Dunajcem",
                     "text1": "Powstanie przełomu Dunajca do dziś nie jest do końca poznane. Legendy mówią, że właśnie tędy słynny rycerz Ferkowicz gonił króla węży.",
                     "text2": "Kręta trasa jaką pokonał miała właśnie zmienić się w Przełom Dunajca. Inni górale mówią, że ujście rzece wybił sam król Bolesław Chrobry.",
-                    "cta": "Chcesz wiedzieć więcej? Zapytaj flisaka…"
+                    "cta": "Chcesz wiedzieć więcej?",
+                    "more": {
+                        "header": "Ciekawostki o Spływie Dunajcem",
+                        "header2": "Legendy i sekrety Przełomu Dunajca!",
+                        "text": "Czy to rycerz Ferkowicz gonił króla węży, czy Bolesław Chrobry wybił ujście rzece? Poznaj legendy i sekrety Przełomu Dunajca!",
+                        "cta": {
+                            "header": "Zarezerwuj spływ już dziś!",
+                            "text": "Przeżyj niezapomnianą przygodę w sercu Pienin. Zarezerwuj miejsce na spływie Dunajcem!",
+                            "button": "Zarezerwuj teraz"
+                        },
+                        "cards": {
+                            "1": {
+                                "header": "Przełom Dunajca – cud natury",
+                                "text": "Przełom Dunajca to jeden z najpiękniejszych przełomów rzecznych w Europie. Powstał miliony lat temu, gdy rzeka przecięła wapienne skały Pienin."
+                            },
+                            "2": {
+                                "header": "Flisackie tradycje od wieków",
+                                "text": "Spływy Dunajcem organizowane są od ponad 200 lat! Początkowo flisacy transportowali towary, a od XIX wieku wożą turystów, w tym arystokrację."
+                            },
+                            "3": {
+                                "header": "Siedem zakrętów Dunajca",
+                                "text": "Trasa spływu ma około 12 km i prowadzi przez siedem malowniczych zakrętów. Najsłynniejszy to ten wokół Trzech Koron, najwyższego szczytu Pienin."
+                            },
+                            "4": {
+                                "header": "Pieniny – dom dla rzadkich gatunków",
+                                "text": "W Pieninach żyją rysie, wilki i salamandry plamiste. Szczęściarze mogą zobaczyć orła przedniego krążącego nad przełomem."
+                            },
+                            "5": {
+                                "header": "Legenda o Janosiku",
+                                "text": "Górale wierzą, że w jaskiniach Dunajca ukrywał się zbójnik Janosik. Skały zwane „Janosikowymi Wrotami” to podobno jego tajemna ucieczka."
+                            },
+                            "6": {
+                                "header": "Skały z imionami",
+                                "text": "Formacje skalne w przełomie mają własne nazwy, jak „Biała Dama” czy „Sokola Perć”. Każda kryje historię, którą opowiedzą flisacy."
+                            },
+                            "7": {
+                                "header": "Spływ w filmach i literaturze",
+                                "text": "Przełom Dunajca zainspirował Sienkiewicza do „Potopu” i pojawiał się w polskich filmach, fascynując artystów od wieków."
+                            },
+                            "8": {
+                                "header": "Flisackie żarty i opowieści",
+                                "text": "Flisacy to mistrzowie opowieści! Ich żartobliwe historie, przekazywane z pokolenia na pokolenie, sprawiają, że spływ to prawdziwe show."
+                            },
+                            "9": {
+                                "header": "Dunajec – rzeka dwóch krajów",
+                                "text": "Dunajec wyznacza granicę między Polską a Słowacją. Spływ to najłatwiejsza „podróż międzynarodowa”, jak żartują flisacy."
+                            },
+                            "10": {
+                                "header": "Sezon na spływ",
+                                "text": "Spływy odbywają się od kwietnia do października. Wiosna kusi budzącą się przyrodą, a jesień – kolorami Pienin."
+                            }
+                        }
+                    }
                 }
             },
             "termy": {
@@ -179,10 +350,317 @@
                     "8": "Planowany powrót",
                     "text": "Po zakończeniu zwiedzania wracamy kolejka gondolową na parking z którego ruszamy przez Taty Wysokie (Tatrzańska Łomnica,Stary Smokowiec) do Szczyrbskiego Plesa. Tutaj zapraszamy Państwa na czas wolny. Dla chętnych spacer wokoło jeziora zajmie około 40 minut, Strbske Pleso - to po naszemu Szczyrbskie Jezioro. Położone na wysokości 1346 m n.p.m. Często porównywane do naszego Morskiego Oka. Jezioro jest otoczone lasem świerkowym, bardzo zniszczonym przez huraganowy wiatr w 2004.Osada ta ma status uzdrowiska klimatycznego jest także powszechnie znanym kurortem narciarskim. To przepiękne miejsce a mało brakowało, by po jeziorze zajmującym około 20 ha mogło nie być śladu, gdy w połowie XIX wieku mieszkańcy okolicy chcieli go odwodnić i zmienić na pastwisko. Po spacerze dookoła urokliwego jeziora powrót do Zakopanego. Trasa o długości ponad 600 m przeprowadzi zwiedzających przez gatunkowo zróżnicowany las, w którym znajduje się dużo różnych niespodzianek i ciekawostek.",
                     "button": "Warunki Uczestnictwa",
-                    "text2": "Dzieciom do 10 lat. Dzieciom i młodzieży szkolnej do 15 lat na podstawie ważnej legitymacji szkolnej. Studentom do 26 roku życia (studenci, uczniowie urodzeni po 01.01.1998 r.) na podstawie ważnej polskiej legitymacji studenckiej, legitymacji ISIC oraz EURO 26. Osobom po 65 roku życia (urodzeni przed 31.12.1959) za okazaniem dokumentu potwierdzającego wiek. Opiekunom grup szkolnych (1 opiekun na 10 podopiecznych). Przewodnikom prowadzącym grupy przysługuje bilet dla przewodnika w cenie 35 zł."
+                    "text2": "Każdy uczestnik musi posiadać ważny paszport lub dowód osobisty. W przypadku złej pogody lub nieodpowiednich warunków na szlaku zastrzegamy sobie prawo do zmiany trasy wycieczki lub kolejności zwiedzania. Odwołanie imprezy z powodu braku odpowiedniej ilości uczestników, może nastąpić najpóźniej na 1 dzień przed rozpoczęciem imprezy do godziny 21.00. Wyjazd realizowany jest poza granicami RP. Należy spełnić wszelkie warunki sanitarno-epidemiologiczne obowiązujące w kraju docelowym - Słowacja."
+                }
+            },
+            "jaskinia-bielanska": {
+                "header": "Jaskinia Bielańska",
+                "header2": "Co oferujemy?",
+                "header3": "Opis Wycieczki",
+                "text": "Jaskinia Bielańska jest jedyną jaskinią udostępnioną dla zwiedzających w Tatrach Słowackich. To pierwsza jaskinia w Europie oświetlona światłem elektrycznym. Aby dojść do wejścia, które znajduje się na wysokości 890 m npm. należy pokonać różnicę poziomów równą 122 metrów, długość trasy wynosi 1370 m, a zwiedzanie trwa 70 minut. Już w pierwszej połowie XVIII wieku wejścia prowadzące do jaskini znane były poszukiwaczom złota, jednak przez długi okres czasu pozostały one w utajnieniu. Otwór wstępny do jaskini został ponownie odnaleziony przez L. Guldena i poszukiwacza złota Fabryego w 1826 roku. W 1896 roku elektrownia na rzece Białej dostarczała prąd do jaskini, którą można było zwiedzać tylko trzy razy w ciągu dnia, przewodnik otwierał ją nawet wtedy gdy na zwiedzanie oczekiwał jeden turysta. Obecnie wnętrze jaskini ukazuje liczne naciekowe wodospady, stalagmity przypominające pagody i liczne jeziorka. Dalej udajemy się drogą popod TATRY do Szczyrbskiego Plesa, jeziora po stronie słowackiej, do którego jest zaledwie 5 min (pieszo) od parkingu, na którym będzie czekał na Państwa kierowca. Przejeżdżając przez Stary Smokowiec, mijając Tatrzańską Łomnicę (kompleks wyciągów narciarskich) zobaczymy piękno i siłę przyrody,bo w 2004 roku miejscowość została spustoszona przez potężny huragan, który powalił 14 tys. ha lasów.",
+                "list": {
+                    "1": "Szczyrbskie Pleso - Jeszcze 300 lat temu na miejscu obecnego jeziora istniały trzy zbiorniki wodne, natomiast misa jeziora powstała wskutek stopienia się kry martwego lodu o grubości ok. 80 m, pozostawionej przez cofający się lodowiec. Prace badawcze prowadzone w 1998 r. potwierdzają przypuszczenia na temat powstania zbiornika w wyniku wielkiego trzęsienia ziemi, które spowodowało uszczelnienie moreny i nagłe zwiększenie poziomu wody co potwierdzają źródła historyczne– lewocki kronikarz Gašpar Hain wspomina o powstaniu nowego, dużego jeziora po trzęsieniu ziemi w Tatrach 6 sierpnia 1662 r. Powierzchnia Szczyrbskiego Jeziora wynosi 19,76 ha. Maksymalna głębokość jeziora wynosi 20 m, objętość jest równa 1 284 000 m³. Średnio przez 155 dni w roku jezioro jest pokryte warstwą lodu. Nie posiada rzek zasilających ani wypływających.",
+                    "2": "Stary Smokowiec - Popularny ośrodek turystyczny, głównie dla narciarzy oraz amatorów pieszych wycieczek. Jest również ważnym węzłem zelektryfikowanej linii kolei wąskotorowej, łączącej Poprad, Tatrzańską Łomnicę oraz Szczyrbskie Jezioro. W Starym Smokowcu znajduje się także dolna stacja kolejki na Smokowieckie Siodełko. Bardzo znanym budynkiem w Starym Smokowcu jest wybudowany w roku 1904 Grand Hotel. W Starym Smokowcu mieści się siedziba Górskiego Pogotowia Ratunkowego (HZS), słowackiej służby ratowniczej. Lasy otaczające Smokowiec zostały niemal doszczętnie zniszczone w czasie huraganu w dniu 19 listopada 2004. Wiatr powalił wówczas drzewa na powierzchni co najmniej 14 tys. ha. Zniszczeniu uległo wtedy około 60% populacji świerka w słowackich Wysokich Tatrach. Na stokach południowych Tatr zalegało około 3 mln m³ drewna. Usuwanie zwalonego lasu odbywało się przez okres około 2 lat, natomiast odrodzenie potrwa ok.100 lat. W Starym Smokowcu został wybudowany pomnik upamiętniający to zdarzenie, huragan odsłonił widok na Tatry oraz Poprad. To nie koniec katastrofy, gdyż kilka lat później - w kwietniu 2013 roku pożar strawił 22 ha młodego lasu.",
+                    "3": "Tatrzańska Łomnica - Osada powstała ok. 1881 roku, od początku była traktowana jako miejsce turystyczne, a w 1893 r. powstał tutaj pierwszy hotel – Łomnica. Istotny wzrost znaczenia turystycznego osada datuje w końcu lat 30. XX w., kiedy to ukończono budowę niezwykle nowoczesnej w tamtych czasach kolei linowej na Łomnicę ze stacją pośrednią nad Łomnickim Stawem. Odcinek końcowy kolejki pokonuje na jednym przęśle do szczytu różnicę wysokości 850 metrów, zaś wagonik kolejki znajduje się około 300 metrów nad ziemią. Od 2001 roku jej dolny odcinek jest nieczynny ze względu na nieopłacalność i konieczność remontu. Nie wiadomo, czy kiedykolwiek ruszy; być może w dolnym budynku stacyjnym, zaprojektowanym przez znanego słowackiego architekta Dušana Jurkoviča, powstanie muzeum."
+                },
+                "table": {
+                    "header1": "Rodzaj biletu",
+                    "header2": "Jaskinia Bielańska",
+                    "1": "Bilet normalny",
+                    "2": "Bilet ulgowy (dzieci do 12 roku, studenci do 26 lat, emeryci 65+)",
+                    "3": "Bilet normalny",
+                    "4": "Bilet ulgowy (dzieci od 6 do 15 lat)",
+                    "5": "Bilet ulgowy (studenci i seniorzy 60+)",
+                    "additional": "Dodatkowo płatne (Bilety do Jaskini Bielskiej - czas zwiedzania: 70 min)"
+                },
+                "tripprogram": {
+                    "header": "Program Wycieczki:",
+                    "1": "Wyjazd z Zakopanego",
+                    "2": "Piesze podejście do Jaskini Bielskiej (około 20 minut)",
+                    "3": "Wejście do Jaskini (czas zwiedzania z przewodnikiem około 70 minut)",
+                    "4": "Przejazd do Szczyrbskiego Jeziora - Czas wolny (2 godziny)",
+                    "5": "Wyjazd do Zakopanego",
+                    "6": "Planowany powrót"
+                },
+                "buttons": {
+                    "header": "Warunki Uczestnictwa",
+                    "1": "Każdy uczestnik musi posiadać ważny paszport lub dowód osobisty.",
+                    "2": "W przypadku złej pogody lub nieodpowiednich warunków na szlaku zastrzegamy sobie prawo do zmiany trasy wycieczki lub kolejności zwiedzania.",
+                    "3": "Odwołanie imprezy z powodu braku odpowiedniej ilości uczestników, może nastąpić najpóźniej na 1 dzień przed rozpoczęciem imprezy do godziny 21.00.",
+                    "4": "Wyjazd realizowany jest poza granicami RP. Należy spełnić wszelkie warunki sanitarno-epidemiologiczne obowiązujące w kraju docelowym - Słowacja."
+                }
+            },
+            "wieliczka": {
+                "header": "Tajemnice Wieliczki",
+                "header2": "Co oferujemy?",
+                "header3": "Opis Wycieczki",
+                "text": "Kopalnia Soli w Wieliczce uznawana jest za jeden z siedmiu cudów Polski. Penetrując piękne podziemne komory, zaglądając do niesamowitych solnych jezior, podziwiając niezwykłe konstrukcje ciesielskie i unikalne solne rzeźby, poczujesz wyjątkowy klimat. W 2004 roku okazało się, że położona 104 metry pod ziemią solanka jest wspaniałym miejscem do uprawiania windsurfingu. Wypróbował ją sam Mateusz Kusznierewicz, którego w żeglowaniu wspomagała ogromna dmuchawa oraz duża ilość zagorzałych kibiców. Blisko 3-kilometrowy spacer po krętej trasie wraz z 800 schodami do pokonania, zaprowadzi Państwa na głębokość 135 metrów co będzie nie tylko niezapomniana przygoda, ale również „solna dawka” zdrowia!",
+                "table": {
+                    "header1": "Rodzaj biletu",
+                    "header2": "Tajemnice Wieliczki",
+                    "1": "Bilet normalny",
+                    "2": "Bilet ulgowy (dzieci do 10 roku, studenci do 26 lat, emeryci 65+)",
+                    "3": "Bilet normalny",
+                    "4": "Bilet ulgowy (dzieci do 10 roku, studenci do 26 lat, emeryci 65+)",
+                    "text": "**Ceny biletów wstępów mogą ulec zmianie",
+                    "additional": "Dodatkowo płatne (Bilety wstępu do kopalni)"
+                },
+                "tripprogram": {
+                    "header": "Program Wycieczki:",
+                    "1": "Wyjazd z Zakopanego",
+                    "2": "Piesze zwiedzanie z Przewodnikiem Kopalni Soli (około 3 godziny)",
+                    "3": "Zakończenie zwiedzania",
+                    "4": "Czas wolny (1h)",
+                    "5": "Wyjazd do Zakopanego",
+                    "6": "Planowany powrót"
+                }
+            },
+            "slowacki-raj": {
+                "header": "Słowacki Raj",
+                "header2": "Co oferujemy?",
+                "header3": "Opis Wycieczki",
+                "text": "Zapraszamy Państwa na pieszą wycieczkę wzdłuż potoku Sucha Bela z licznymi mostkami,wodospadami przerzuconymi nad potokiem, metalowymi drabinami mającymi kilka metrów wysokości, za pomocą których pokonuje się wysokość. Woda spływająca w tych miejscach tworzy niepowtarzalne wodospady. To trasa dla średnio zaawansowanego turysty posiadającego trochę zręczności i brak lęku wysokości. WĄWÓZ SUCHA BELA (SUCHÁ BELÁ)Jednokierunkowy zielony szlak, mający początek w Podlesku, za pomocą licznych drabinek drewnianych oraz metalowych przeprawimy się przez wąwóz Sucha Bela. Po drodze mijamy piękne wodospady: Okienkowy oraz Korytowy. To jedno z najbardziej malowniczych i najchętniej odwiedzanych miejsc w całym parku",
+                "table": {
+                    "header1": "Rodzaj biletu",
+                    "header2": "Jaskinia Bielańska",
+                    "1": "Bilet normalny",
+                    "2": "Bilet ulgowy (dzieci do 10 lat)",
+                    "3": "Bilet normalny",
+                    "4": "Bilet ulgowy (dzieci do 10 lat i seniorzy powyżej 62 lat)",
+                    "additional": "Dodatkowo płatne (Wstęp do Słowackiego Parku Narodowego)",
+                    "text": "* Cena obejmuje: opiekę kierowcy podczas wycieczki, ubezpieczenie NNW oraz transport z Zakopanego"
+                },
+                "tripprogram": {
+                    "header": "Program Wycieczki:",
+                    "1": "Wyjazd z Zakopanego",
+                    "2": "Wędrówka trasą - Sucha Bela (drabinki)",
+                    "3": "Zakończenie trasy, czas wolny.",
+                    "4": "Wyjazd do Zakopanego",
+                    "5": "Wyjazd do Zakopanego",
+                    "6": "Planowany powrót"
+                },
+                "buttons": {
+                    "header": "Warunki Uczestnictwa",
+                    "1": "Każdy uczestnik musi posiadać ważny paszport lub dowód osobisty.",
+                    "2": "W przypadku złej pogody lub nieodpowiednich warunków na szlaku zastrzegamy sobie prawo do zmiany trasy wycieczki lub kolejności zwiedzania.",
+                    "3": "Odwołanie imprezy z powodu braku odpowiedniej ilości uczestników, może nastąpić najpóźniej na 1 dzień przed rozpoczęciem imprezy do godziny 21.00."
+                }
+            },
+            "wieden": {
+                "header": "Wiedeń",
+                "header2": "Co oferujemy?",
+                "header3": "Poznaj Wiedeń",
+                "text": "Położona nad Dunajem stolica Austrii przyciąga wielkim bogactwem wielowiekowej historii, kultury i tradycji. Historyczne centrum miasta, pełne zabytków ze wszystkich epok historycznych zostało w 2001 roku wpisane na Listę światowego dziedzictwa UNESCO. Ze względu na bogactwo atrakcji Wiedeń należy do najchętniej odwiedzanych miast Europy. Pod koniec XVIII wieku tworzyli tu najsłynniejsi kompozytorzy nie tylko tamtych czasów, czego dowodem jest określenie klasycy wiedeńscy, są tak wspólnie określani Józef Haydn, Wolfgang Amadeusz Mozart i Ludwig van Beethoven.",
+                "list": {
+                    "header": "Podczas wycieczki do Wiednia czeka nas wiele atrakcji:",
+                    "1": "Centrum - Ring jest jedną z najbardziej rozpoznawalnych ulic Wiednia. Przy niej mieszczą się najważniejsze zabytki austriackiej stolicy. Ring jak pierścień otacza całe historyczne centrum. Aleja została bowiem wybudowana na miejscu dawnych murów miejskich, które wyburzono w XIX wieku. Chociaż w zasadzie celem powstania Ringstrasse było uniemożliwienie poddanym buntu przeciwko władzy, okazało się, że nowa ulica to elegancki bulwar oddany w pełni do użytku mieszkańcom Wiednia. Stanęły tu najpiękniejsze pałace w całym mieście oraz wiele budynków użyteczności publicznej. Jedną z pierwszych atrakcji, jaką zobaczymy po przejechaniu Ringiem jest Dom Hundertwassera - nietypowa kamienica wyróżniająca się ciekawymi barwami oraz nieregularnymi kształtami, zbudowana przez słynnego architekta o tymże właśnie imieniu. Kiedy już skończymy podziwiać to interesujące dzieło ówczesnej architektury czeka nas zwiedzanie miasta z przewodnikiem. Tutaj mamy okazję zwiedzić i wysłuchać ciekawostek na temat reprezentacyjnego Placu Karola czy Hofburgu, który to uważany jest za najważniejszy obiekt zabytkowy w Wiedniu. Jest to dawna siedziba rodu Habsburgów, mająca już około 700 lat. Obiekt jest imponujący, a jego powierzchnia przekracza 240 tysięcy m2. Posiada on aż 19 dziedzińców, 50 klatek schodowych, 2600 pokoi oraz muzeów, kaplic, ogrodów, bibliotek i innych pomieszczeń. Kolejne atrakcje, które czekają w centrum austriackiej stolicy to Kohlmarkt, Graben oraz Katedra Św. Szczepana.",
+                    "2": "Belweder - to największy skarb Wiednia i jeden z najpiękniejszych obiektów barokowych na świecie. Został stworzony dla księcia Eugeniusza Sabaudzkiego, w pierwszej połowie XVIII wieku. Na całość składają się dwa pałace i ogród. Dolny Belweder oraz Górny Belweder są dziełami architekta Johanna Lukasa von Hildebrandta. Ogród stworzony został natomiast przez Dominiquea Girarda i charakteryzuje się francuskim stylem, w którym znajdziemy różnego rodzaje posągi w tym sfinksy, fontanny oraz niezliczone ilości roślinności.",
+                    "3": "Pałac i ogrody Schönbrunn - Letnia rezydencja cesarzowej Sisi to najpopularniejsza atrakcja miasta. Nazywany wiedeńskim Wersalem zachwyca reprezentacyjnym gmachem, inspirowanym posiadłością Ludwika XIV. Służył członkom dynastii Habsburgów i ich znamienitym gościom. Obecnie udostępniony zwiedzającym pełni rolę jednego z najważniejszych austriackich zabytków - został wpisany na Listę Światowego Dziedzictwa Kulturalnego i Przyrodniczego UNESCO. Charakteryzuje go wyjątkowe bogactwo dekoracji architektonicznych, malowideł ściennych, złoceń oraz przepięknych mozaikowych podłóg. Przy pałacu funkcjonuje również ogród zoologiczny i palmiarnia. Schönbrunn to również kompleks parkowy w stylu francuskim z labiryntem wykonanym z bukszpanu."
+                },
+                "table": {
+                    "header1": "Rodzaj biletu",
+                    "header2": "Wiedeń",
+                    "1": "Bilet normalny",
+                    "2": "Bilet ulgowy (młodzież szkolna, studenci, emeryci za okazaniem legitymacji)",
+                    "3": "Bilet ulgowy (dzieci do 14 r.ż)",
+                    "4": "Bilet normalny",
+                    "5": "Bilet ulgowy (dzieci i młodzież 6-18 lat)",
+                    "6": "Studenci (na podstawie kart: Euro26, ISIC, ITIC)",
+                    "7": "Osoby niepełnosprawne i dzieci do 6 lat",
+                    "text": "*Cena obejmuje: Opiekę wykwalifikowanego pilota oraz przewodnika, transport komfortowym autokarem, ubezpieczenie KL i NNW, zestaw audio guide",
+                    "a1": "Pałac Schonbrum: 24€, Obiad: ok: 15€",
+                    "a2": "Pałac Schonbrum: 17€, Obiad: ok: 15€",
+                    "a3": "Pałac Schonbrum: 20€, Obiad: ok: 15€",
+                    "a4": "Pałac Schonbrum: BEZPŁATNE, Obiad: ok: 15€",
+                    "additional": "Dodatkowo płatne"
+                },
+                "tripprogram": {
+                    "header": "Program Wycieczki:",
+                    "1": "Wyjazd z Zakopanego",
+                    "2": "Przyjazd do Wiednia",
+                    "3": "Przejazd do Pałacu i ogrodów Schönbrunn",
+                    "4": "Czas wolny w centrum",
+                    "5": "Spacer po centrum z przewodnikiem przez Plac Karola, Hofburg, Kohlmarkt i Graben do Katedry Św. Szczepana",
+                    "6": "Spotkanie z przewodnikiem, przejazd Ringiem, przy którym mieszczą się najważniejsze zabytki miasta, Dom Hundertwassera",
+                    "7": "Przejazd do ogrodów Belwederu",
+                    "8": "Planowany powrót do Zakopanego"
+                },
+                "buttons": {
+                    "header": "Warunki Uczestnictwa",
+                    "1": "Organizator nie odpowiada za zmianę cen wstępów w trakcie sezonu.",
+                    "2": "Kolejność zwiedzania może ulec zmianie.",
+                    "3": "Odwołanie imprezy z powodu braku odpowiedniej ilości uczestników, może nastąpić najpóźniej na 1 dzień przed rozpoczęciem imprezy do godziny 19.00.",
+                    "4": "Wymagany ważny paszport lub dowód osobisty dla każdego uczestnika wycieczki bez względu na wiek."
+                }
+            },
+            "budapeszt": {
+                "header": "Budapeszt",
+                "header2": "Co oferujemy?",
+                "header3": "Poznaj Budapeszt",
+                "text": "Budapeszt to bez wątpienia jedno z najciekawszych i najpiękniejszych miast w Europie. Urokliwe położenie nad Dunajem, wspaniałe wzgórza Budy pełne źródeł geotermalnych, ciekawa historia i bogata architektura sprawia, że do stolicy naszych bratanków corocznie ściągają rzesze turystów z całego świata.",
+                "list": {
+                    "header": "Podczas wycieczki do Budapesztu czeka nas wiele atrakcji:",
+                    "1": "Plac Bohaterów - Położony na krańcu słynnej Alei Andrassyego plac od roku 1929 jest ozdobiony monumentalnym pomnikiem Millenium, symbolizującym ponad tysiącletnią historię państwa węgierskiego.",
+                    "2": "Zamek Vajdahunyad - Wzniesiony na przełomie XIX i XX wieku Zamek Vajdahunyad podobnie jak pomnik milenijny był symbolem tysiąclecia Węgier. Budynek charakteryzuje ogromna różnorodność architektoniczna, gdyż zamierzeniem autora projektu było połączenie dwudziestu różnorodnych stylistycznie zamków, pałaców i kościołów w spójną całość. Zamiar udał się znakomicie i dziś zamek należy do żelaznych punktów każdej wycieczki zwiedzającej Budapeszt.",
+                    "3": "Wzgórze Gellerta - Najlepszy punkt widokowy w Budapeszcie zawdzięcza swoją nazwę św. Gellertowi (Gerardowi) który w połowie XI wieku miał tu zakończyć życie męczeńską śmiercią. Potężne wzgórze zabudowane jest pozostałościami austriackiej fortecy wzniesionej w 1850 roku, zaś całość zwieńczona jest 40 metrowym pomnikiem Wolności powstałym po II wojnie światowej. Całość wpisana jest na listę światowego dziedzictwa UNESCO.",
+                    "4": "Wzgórze Zamkowe - Jest to najstarsza i najbardziej atrakcyjna część Budapesztu. To właśnie tu przez wieki znajdowała się siedziba władców węgierskich, którzy nie szczędzili grosza by pokazać swe bogactwo. Zabytkowy charakter miasta najbardziej podkreśla Zamek Królewski, którego początki sięgają XIII wieku i słynny kościół Macieja- jedna z najpiękniejszych świątyń na Węgrzech. Turystów zachwycają nie tylko monumentalne budowle, ale również uliczki budańskiej starówki, pełne uroku i tajemnic.",
+                    "5": "Katedra św. Stefana - Jedna z najważniejszych świątyń węgierskich zachwyca nie tylko swą potęgą, ale również kunsztem wykonania. Ciekawostką świątyni jest prawica świętego Stefana- patrona świątyni i pierwszego króla Węgier.",
+                    "6": "Parlament - Niekwestionowany symbol Budapesztu powstał na przełomie XIX i XX wieku. Neogotycka perełka jest po dziś dzień siedzibą rządu węgierskiego, przechowywane są tu również węgierskie klejnoty koronacyjne. Potężne wymiary budynku (268 m x 123 m) sprawiają, iż jest to nie tylko jeden z najpiękniejszych, ale również jeden z największych gmachów parlamentów narodowych na świecie.",
+                    "7": "Rejs po Dunaju - Pod koniec zwiedzania będą Państwo mieli okazję zobaczyć najatrakcyjniejsze miejsca Budapesztu z perspektywy pokładu statku. Rejs będzie idealnym zwieńczeniem tego atrakcyjnego dnia."
+                },
+                "table": {
+                    "header1": "Rodzaj biletu",
+                    "header2": "Budapeszt",
+                    "1": "Bilet normalny",
+                    "2": "Bilet ulgowy (młodzież szkolna, studenci, emeryci za okazaniem legitymacji)",
+                    "3": "Bilet ulgowy (dzieci do 14 r.ż)",
+                    "4": "Rejs po Dunaju",
+                    "5": "Kościół Macieja",
+                    "6": "Bazylika",
+                    "7": "Obiad",
+                    "8": "Wskazówki podróżnicze",
+                    "text": "*Cena obejmuje: Opiekę wykwalifikowanego pilota oraz przewodnika, transport komfortowym autokarem, ubezpieczenie KL i NNW, zestaw audio guide",
+                    "a1": "dorośli 2500 HUF, studenci i emeryci pow. 60 lat - 1900 HUF, dzieci do 6 lat gratis,",
+                    "a2": "dorośli 2000 HUF, studenci i emeryci pow. 60 lat - 1500 HUF",
+                    "a3": "ok. 3000 HUF",
+                    "a4": "1 000 HUF = ok. 15 zł",
+                    "additional": "Dodatkowo płatne"
+                },
+                "tripprogram": {
+                    "header": "Program Wycieczki:",
+                    "1": "Wyjazd z Zakopanego",
+                    "2": "Dojazd do Budapesztu",
+                    "3": "Zwiedzanie z przewodnikiem: Plac Bohaterów, Zamek Vajdahunyad, przejazd Aleją Andrassyego, Wzgórze Gellerta, Wzgórze Zamkowe (Zamek Królewski, Kościół Macieja), bazylika św. Stefana;",
+                    "4": "Rejs statkiem po Dunaju (ok. 1h)",
+                    "5": "Planowany powrót do Zakopanego"
+                },
+                "buttons": {
+                    "header": "Warunki Uczestnictwa",
+                    "1": "Organizator nie odpowiada za zmianę cen wstępów w trakcie sezonu.",
+                    "2": "Kolejność zwiedzania może ulec zmianie.",
+                    "3": "Odwołanie imprezy z powodu braku odpowiedniej ilości uczestników może nastąpić najpóźniej na 1 dzień przed rozpoczęciem imprezy do godziny 18.00..",
+                    "4": "Wymagany ważny paszport lub dowód osobisty dla każdego uczestnika wycieczki bez względu na wiek."
+                }
+            },
+            "zamek-orawski": {
+                "header": "Zamek Orawski",
+                "header2": "Co oferujemy?",
+                "header3": "Poznaj Budapeszt",
+                "text": "Triotravel z przyjemnością zaprasza na pełną atrakcji jednodniową wycieczkę. Proponujemy Państwu wyjątkową podróż, która obejmuje zwiedzanie Zamku Orawskiego, Skansenu w Chochołowie oraz degustację oscypków w najstarszej bacówce w regionie. Zamek Orawski Położony na wysokiej skale, Zamek Orawski to majestatyczna twierdza, która zachwyca swoją architekturą i bogatą historią. Podczas zwiedzania z przewodnikiem poznają Państwo fascynujące opowieści o życiu zamku oraz jego mieszkańców. To niezapomniana podróż w czasie, która przybliży Państwu kulturę i tradycje regionu. Skansen w Chochołowie Skansen w Chochołowie to unikatowe miejsce, gdzie można poczuć ducha tradycyjnej kultury góralskiej. Położony w malowniczej wsi Chochołów, skansen oferuje zwiedzającym możliwość zobaczenia autentycznych, drewnianych chałup, które od pokoleń zachowują swój niepowtarzalny charakter.",
+                "table": {
+                    "header1": "Rodzaj biletu",
+                    "header2": "Zamek Orawski",
+                    "1": "Bilet normalny",
+                    "2": "Bilet ulgowy (dziecko do lat 15, emeryt, niepełnosprawny)",
+                    "3": "Bilet normalny",
+                    "4": "Bilet ulgowy",
+                    "text": "*Cena obejmuje: Opiekę wykwalifikowanego pilota oraz przewodnika, transport komfortowym autokarem, ubezpieczenie KL i NNW, zestaw audio guide",
+                    "additional": "Dodatkowo płatne (bilety wstępu do Zamku Orawskiego)"
+                },
+                "tripprogram": {
+                    "header": "Program Wycieczki:",
+                    "1": "Wyjazd z Zakopanego",
+                    "2": "Zwiedzanie Zamku Orawskiego",
+                    "3": "Przejazd przez Skansen w Chochołowie",
+                    "4": "Postój na granicy - możliwość wizyty w sklepie Słowackim",
+                    "5": "Degustacja Oscypków w Najstarszej Bacówce",
+                    "6": "Powrót do Zakopanego"
+                }
+            },
+            "dookola-tatr": {
+                "header": "Dookoła Tatr",
+                "header2": "Co oferujemy?",
+                "text": "Zamek Orawski Wzniesiony w XIII wieku na potężnej, wysokiej na 112 metrów skale Zamek Orawski, jest najoryginalniej położonym obiektem na Słowacji. Przebudowywany i rozbudowywany na przestrzeni kilkuset lat, dziś stanowi świetny przykład różnych technik budownictwa obronnego. Zamek pierwotnie był siedzibą właścicieli Orawy. W 1868 roku utworzono w nim pierwszą na ziemiach słowackich ekspozycję muzealną. Funkcje muzealne zamek pełni do dziś. Podczas zwiedzania zobaczą państwo ekspozycje o charakterze historycznym, archeologicznym i etnograficznym. Zwieńczeniem przechadzki po muzeum, będzie wejście do najwyżej położonych komnat zamkowych. Jaskinia Demianowska Wolności - O atrakcyjności Jaskini Demianowskiej Wolności, niech świadczy fakt, iż jest to najczęściej odwiedzana jaskinia Słowacji. Wielokolorowe formy naciekowe o zróżnicowanych kształtach, tufowe jeziorka i podziemna rzeka sprawiają, że obiekt ten uznawany jest za jedną z najpiękniejszych jaskiń w Europie.",
+                "table": {
+                    "header1": "Rodzaj biletu",
+                    "header2": "Cena",
+                    "1": "Bilet normalny",
+                    "2": "Bilet ulgowy (mlodzież szkolna, studenci, emeryci za okazaniem legitymacji)",
+                    "3": "Bilet ulgowy (dzieci do 14 lat)",
+                    "4": "Jaskinia Demianowska",
+                    "5": "* fotogrowanie/kamera",
+                    "6": "Zamek Orawski",
+                    "7": "* fotogrowanie/kamera",
+                    "8": "Wskazówki podróżnicze",
+                    "text": "* Cena obejmuje: Przejazd komfortowym autokarem, opiekę wykwalifikowanego pilota, ubezpieczenie NNW, KL. **Ceny biletów wstępów mogą ulec zmianie",
+                    "a1": "dorośli 12€ , studenci/emeryci/renciści 11€ , dzieci w wieku 6-15 lat 6€**",
+                    "a2": "dorośli 9€, studenci/emeryci/renciści/dzieci 4,5€, dzieci do lat 6 GRATIS**",
+                    "a3": "3€ fotografowanie/5€ kamera**",
+                    "additional": "Dodatkowo płatne"
+                },
+                "tripprogram": {
+                    "header": "Program Wycieczki:",
+                    "1": "Wyjazd z Zakopanego",
+                    "2": "Zwiedzanie Zamku Orawskiego z przewodnikiem",
+                    "3": "Zwiedzanie Jaskini Demianowskiej (ok. 70 min)",
+                    "4": "Czas wolny Liptowski Mikulasz (ok. 70 min)",
+                    "5": "Planowany powrót do Zakopanego"
+                },
+                "buttons": {
+                    "header": "Warunki Uczestnictwa",
+                    "1": "Wymagany ważny paszport lub dowód osobisty dla każdego uczestnika wycieczki bez względu na wiek.",
+                    "2": "Organizator nie odpowiada za zmianę cen wstępów w trakcie sezonu.",
+                    "3": "Kolejność zwiedzania może ulec zmianie.",
+                    "4": "Odwołanie imprezy z powodu braku odpowiedniej ilości uczestników, może nastąpić najpóźniej na 1 dzień przed rozpoczęciem imprezy do godziny 19.00."
+                }
+            },
+            "rafting-po-dunajcu": {
+                "header": "Rafting po Dunajcu",
+                "header2": "Co oferujemy?",
+                "header3": "Co zobaczysz?",
+                "info": "Sezon spływowy trwa od 1 kwietnia do 31 października - świątek, piątek i niedziele. Zatem na wycieczkę zapraszamy codziennie! UWAGA: Weź ze sobą odzież na przebranie. Spływ dozwolony w sandałach, butach wodoodpornych lub na bosaka. Szpilki odpadają.",
+                "text": "Na początku spływy Doliną Dunajca organizowane były wyłącznie na wyjątkowe okazje. Korzystać z nich mogli jedynie możnowładcy, bogacze oraz ważne persony, którzy spotykali się z królem na zamku w Czorsztynie i Niedzicy. Dziś również ty możesz być jak VIP i poczuć władczą rządzę przygody z adrenaliną w tle…",
+                "list": {
+                    "header": "Podczas wycieczki w Pieniny, poza główną atrakcją, którą jest pełen emocji dwugodzinny spływ pontonami po Dunajcu, odwiedzisz również Niedzicę, w której do wyboru masz jedną z atrakcji:",
+                    "1": "Rejs statkiem po Jeziorze Czorsztyńskim: Podczas rejsu statkiem spacerowym będziesz mógł podziwiać zaporę wodną, ruiny zamku Czorsztyńskiego, zamek Niedzica, skansen Czorsztyński oraz przepiękny górski krajobraz. Taki rejs to przygoda, która na długo zostanie w twojej pamięci!",
+                    "2": "Zamek w Niedzicy: To właśnie tu w zamkowych lochach można obejrzeć izbę tortur z dybami, w które wedle legendy miał być zakuty Janosik",
+                    "3": "Zwiedzanie Zapory na Dunajcu Zapora główna Czorsztyn - Niedzica to największa w Polsce zapora ziemna o wysokości 56 m i długości 404 m.",
+                    "4": "Park Miniatur Podhala, Orawy i Spisza to miejsce absolutnie wyjątkowe. W jednym miejscu możesz podziwiać najpiękniejsze zabytki sakralne, zamki i wiele, wiele więcej.",
+                    "5": "Podczas wycieczki zobaczysz również zabytkowy Kościółek w Dębnie z XV w. wpisany na listę UNESCO - to właśnie tutaj Janosik brał za żonę Marynę..."
+                },
+                "table": {
+                    "header1": "Rodzaj biletu",
+                    "header2": "Rafting po Dunajcu",
+                    "1": "Bilet normalny",
+                    "2": "Bilet ulgowy (dzieci do 10 lat)",
+                    "3": "Rejs Statkiem",
+                    "4": "Zwiedzanie zamku w Niedzicy",
+                    "5": "Zwiedzanie parku miniatur",
+                    "text": "* Cena obejmuje: Opiekę kierowcy, bilet na spływ, wstęp do PPN oraz ubezpieczenie NNW ",
+                    "additional": "Dodatkowo płatne"
+                },
+                "tripprogram": {
+                    "header": "Czas trwania wycieczki:"
+                }
+            },
+            "swiatynia-lodowa-hrebieniok": {
+                "header": "Świątynia Lodowa Hrebieniok",
+                "header2": "Co oferujemy?",
+                "text": "Zapraszamy na wycieczkę na Słowację podczas, której zobaczą Państwo Stary Smokowiec. Przejadą się kolejką szynową na Hrebieniok (Tatry Wysokie, 1310m n.p.m.), gdzie na szczycie zlokalizowana jest Lodowa Świątynia, która w tym roku inspirowana jest Katedrą na Wawelu.",
+                "table": {
+                    "header1": "Rodzaj biletu",
+                    "header2": "Świątynia Lodowa Hrebieniok",
+                    "1": "Bilet normalny",
+                    "2": "Bilet ulgowy (dzieci do 10 lat)",
+                    "3": "Bilet normalny",
+                    "4": "Bilet ulogwy (dzieci do 10 lat)",
+                    "text": "*Cena obejmuje: Opiekę wykwalifikowanego pilota oraz przewodnika, transport komfortowym autokarem, ubezpieczenie KL i NNW, zestaw audio guide",
+                    "additional": "Dodatkowo płatne (wjazd kolejką na Hrebieniok)"
+                },
+                "tripprogram": {
+                    "header": "Program Wycieczki:",
+                    "1": "Wyjazd z Zakopanego",
+                    "2": "Przyjazd do Starego Smokowca",
+                    "3": "Wyjazd kolejką na Hrebieniok",
+                    "4": "Zwiedzanie Świątyni Lodowej",
+                    "5": "Czas wolny",
+                    "6": "Powrót do Zakopanego"
                 }
             }
         }
+    },
+    "pricing": {
+        "header": "Cennik"
     },
     "why": {
         "header": "Dlaczego wycieczkę najlepiej wybrać u ",
@@ -274,11 +752,11 @@
         },
         "oldstreet": {
             "header": "Apartament Old Street",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae finibus est. Aenean eget egestas mauris. Nullam varius nulla nisi, molestie convallis nisl dictum vitae."
+            "text": "Zanurz się w niepowtarzalnym uroku Tatr, odkrywając niezapomniane chwile w naszym przytulnym apartamencie w samym sercu Zakopanego. Położony zaledwie krok od Krupówek, nasz apartament oferuje nie tylko wygodne zakwaterowanie, ale także niepowtarzalny klimat górskiego miasta."
         },
         "gorski": {
             "header": "Apartament Górski Szaflary",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae finibus est. Aenean eget egestas mauris. Nullam varius nulla nisi, molestie convallis nisl dictum vitae."
+            "text": "Szukasz miejsca z klimatem, blisko Zakopanego? Nasz apartament, urządzony w tradycyjnym, góralskim stylu, będzie idealnym wyborem!"
         },
         "elzbiecina": {
             "header": "Willa Elżbiecina",
@@ -423,7 +901,7 @@
         "header": "Mapa Przystanków",
         "header2": "Miejsce Spotkań - Punkty odbioru na terenie Zakopanego i okolic",
         "header3": "Dlaczego warto wybrać nasze punkty odbioru?",
-        "text": "W Trio Travel dbamy o Twój komfort, dla tego oferujemy dogodne punkty odbioru na terenie Zakopanego i okolic. Nasza mapa przystanków obejmuje zarówno centrum Zakopanego, jak i pobliskie miejscowości, takie jak Kościelisko, Poronin, Murzasichle, Biały Dunajec czy Gliczarów.",
+        "text": "W Trio Travel dbamy o Twój komfort, dla tego oferujemy dogodne punkty odbioru na terenie Zakopanego i okolic. Nasza mapa przystanków obejmuje zarówno centrum Zakopanego, jak i pobliskie miejscowości, takie jak Kościelisko, Białka Tatrzańska, Bukowina czy Poronin.",
         "text2": "Sprawdź naszą mapę i wybierz punkt odbioru w pobliżu Twojego miejsca pobytu – od popularnych lokalizacji w Zakopanem, przez urokliwe okolice Tatrzańskiego Parku Narodowego, aż po malownicze wsie w regionie.",
         "list": {
             "1": "Szeroki zasięg: Odbieramy Cię z wielu miejsc w Zakopanem i okolicach.",
@@ -441,7 +919,9 @@
         "form": {
             "name": "Imię i Nazwisko",
             "email": "Twój Email",
-            "message": "Twoja wiadomość"
+            "message": "Twoja wiadomość",
+            "placeholder1": "Wpisz Swoję Imię i Nazwisko",
+            "placeholder2": "Wpisz Swój email"
         },
         "info": {
             "header": "Informacje",
@@ -458,5 +938,8 @@
             "1": "Dziękujęmy za przesłanie formularza!",
             "2": "Postaramy się odpowiedzieć tak szybko, jak to możliwe."
         }
+    },
+    "majer": {
+        "header": "Organizator Wyjazdu"
     }
 }
