@@ -941,5 +941,111 @@
     },
     "majer": {
         "header": "Trip Organizer"
+    },
+    "metadata": {
+        "homepage": {
+            "title": "Zakopane Travel Agency: Trips, Sleigh Rides, Rafting - Trio Travel",
+            "description": "Trio Travel Agency offers one-day trips, sleigh rides, Dunajec River rafting, and passenger transport in Zakopane. We warmly invite you to explore our offer."
+        },
+        "trips": {
+            "title": "Trips with Trio Travel - Zakopane, Dunajec Rafting, Kasprowy",
+            "description": "Discover Zakopane with Trio Travel! One-day trips, Dunajec River rafting, Kasprowy Wierch tickets, sleigh rides, and more. Book online and experience an unforgettable adventure!"
+        },
+        "kuligi": {
+            "title": "Sleigh Rides in Zakopane with Trio Travel - Highland Adventure",
+            "description": "Experience an unforgettable sleigh ride in Zakopane with Trio Travel! Kościelisko Valley, highland feast, live music. Book a sleigh ride in Chochołowska Valley or a New Year's Eve one!"
+        },
+        "koscielisko": {
+            "title": "Highland Sleigh Ride Kościelisko - Unforgettable Adventure with Trio Travel",
+            "description": "Join us for a picturesque Highland Sleigh Ride in Kościelisko with Trio Travel! Enjoy a one-hour sleigh ride with torches, a bonfire, delicious snacks, and live highland music. Pickup from Zakopane and Kościelisko included. Tickets from 130 PLN. Book online and experience an unforgettable winter adventure in the Tatras!"
+        },
+        "dolina-chocholowska": {
+            "title": "VIP Sleigh Ride Chochołowska Valley - Highland Adventure with Trio Travel",
+            "description": "Experience an unforgettable VIP Sleigh Ride in Chochołowska Valley with Trio Travel! A one-hour sleigh ride with torches, a bonfire feast with a highland band, bigos, oscypek cheese, and mulled wine. Pickup from Zakopane and Kościelisko. Tickets from 179 PLN. Book online!"
+        },
+        "wieczor-sylwestrowy": {
+            "title": "New Year's Eve Sleigh Ride Zakopane - Trio Travel",
+            "description": "Welcome the New Year with a New Year's Eve Sleigh Ride with Trio Travel! Sleigh ride in Kościelisko Valley, bonfire, highland band, and highland snacks. Tickets from 150 PLN. Book online!"
+        },
+        "kasprowy": {
+            "title": "Kasprowy Wierch Tickets - Zakopane with Trio Travel",
+            "description": "Buy Kasprowy Wierch tickets with Trio Travel! Price list, discounts, quick booking. Discover the Tatras with a cable car and enjoy the views!"
+        },
+        "transport": {
+            "title": "Transport Zakopane and Nationwide - Trio Travel Passenger Services",
+            "description": "Trio Travel offers professional transport in Zakopane and abroad. Airport transfers, local transport, weddings. Book a comfortable journey!"
+        },
+        "mapa-przystankow": {
+            "title": "Zakopane Stops Map - Trio Travel Pickup Points",
+            "description": "Check the Trio Travel stops map in Zakopane and surrounding areas! Convenient pickup points in the city center, Kościelisko, Białka Tatrzańska. Book transport!"
+        },
+        "partners": {
+            "title": "Our Partners Zakopane - Trio Travel Collaboration",
+            "description": "Meet Trio Travel's partners in Zakopane! Comfortable chalets, apartments, and hotels near Krupówki and the Tatras. Book a stay with a highland vibe!"
+        },
+        "kontakt": {
+            "title": "Contact Trio Travel Zakopane - Call or Write",
+            "description": "Contact Trio Travel in Zakopane! Phone, email, contact form. Plan trips and transport. We're here for you from 9:00 AM to 5:00 PM!"
+        },
+        "rezerwacje": {
+            "title": "Book Trips Online Zakopane - Trio Travel Reservations",
+            "description": "Book trips online with Trio Travel in Zakopane! Quick and convenient, up to 24 hours before departure. Check the offer and buy tickets for sleigh rides, Dunajec rafting!"
+        },
+        "splyw-dunajcem-dluzszy": {
+            "title": "2.5h Dunajec Rafting from Zakopane - Trio Travel",
+            "description": "Experience an unforgettable Dunajec River rafting on wooden rafts - a 2.5-hour adventure with raftsmen, Pieniny views, and a visit to Niedzica Castle. Book with Trio Travel!"
+        },
+        "splyw-dunajcem-krotszy": {
+            "title": "1.5h Dunajec Rafting | Shorter Route with Guide | Trio Travel",
+            "description": "Shorter 1.5h Dunajec River rafting on wooden rafts from Slovakia. Attractions: Niedzica Castle, dam, and Dębno Church (UNESCO). Check the program and prices!"
+        },
+        "termy": {
+            "title": "Chochołowska Thermal Baths with Transport - Relaxation with Trio Travel",
+            "description": "Visit the largest thermal complex in Podhale - Chochołowska Thermal Baths! The package includes 4 hours of relaxation in pool and wellness zones, plus free transport from Zakopane!"
+        },
+        "spacer-w-koronach-drzew": {
+            "title": "Tree Top Walk and Štrbské Pleso with Trio Travel",
+            "description": "Immerse yourself in nature! Tree Top Walk in Bachledka and a visit to Štrbské Pleso - combined tour with transport from Zakopane. Book with Trio Travel!"
+        },
+        "jaskinia-bielanska": {
+            "title": "Belianska Cave and Štrbské Pleso with Trio Travel",
+            "description": "Explore Belianska Cave - the only tourist cave in the Slovak Tatras - and relax by the picturesque Štrbské Pleso. Trip from Zakopane with Trio Travel!"
+        },
+        "tajemnice-wieliczki": {
+            "title": "Secrets of Wieliczka - Salt Mine Tour | Trio Travel",
+            "description": "Discover the secrets of the Wieliczka Salt Mine - one of Poland's seven wonders. Explore salt chambers, lakes, and sculptures. An unforgettable adventure awaits!"
+        },
+        "biesiada-goralska": {
+            "title": "Highland Feast - Adventure with Dance, Music, and Tradition",
+            "description": "Experience an unforgettable Highland Feast! Dancing by the bonfire, rides in highland carriages, and authentic highland cuisine in the heart of Kościelisko Valley. Join us!"
+        },
+        "slowacki-raj": {
+            "title": "Slovak Paradise - Hike through Suchá Belá Gorge, Waterfalls, and Ladders",
+            "description": "Visit Slovak Paradise! Experience an exciting hike along the Suchá Belá stream with metal ladders, bridges, and waterfalls. Perfect adventure in the heart of Slovak National Park."
+        },
+        "wieden": {
+            "title": "Vienna - Trip to the Capital of Austria, Schönbrunn Palace, and Ringstrasse",
+            "description": "Visit Vienna with Trio Travel! See Schönbrunn Palace, St. Stephen's Cathedral, Ringstrasse, and other historic landmarks of Austria's capital. A trip full of attractions and history."
+        },
+        "budapeszt": {
+            "title": "Budapest - Trip to the Capital of Hungary, Heroes' Square, and Danube Cruise",
+            "description": "Visit Budapest with Trio Travel! See Heroes' Square, Vajdahunyad Castle, Gellért Hill, Danube cruise, and other attractions of Hungary's capital. Full of history and the magic of the city by the Danube."
+        },
+        "zamek-orawski": {
+            "title": "Orava Castle - Trip from Zakopane | Guided Tour",
+            "description": "One-day trip to Orava Castle with Trio Travel - explore the majestic fortress, visit the Chochołów open-air museum, and taste oscypek cheese. Transport from Zakopane, tickets included. Check the program and prices!"
+        },
+        "dookola-tatr": {
+            "title": "Around the Tatras Trip - Orava Castle and Demänovská Cave",
+            "description": "One-day trip around the Tatras with visits to Orava Castle and Demänovská Cave. Transport from Zakopane, entrance tickets, and guide included. Check the program and prices!"
+        },
+        "rafting-po-dunajcu": {
+            "title": "Dunajec Rafting - Pontoon Adventure in Pieniny | Trio Travel",
+            "description": "Two-hour pontoon rafting on the Dunajec River with additional attractions: Niedzica Castle, boat cruise, and dam. Transport from Zakopane, tickets included. Check the program!"
+        },
+        "swiatynia-lodowa-hrebieniok": {
+            "title": "Hrebienok Ice Temple - Trip with Trio Travel | Hrebienok Funicular",
+            "description": "Visit the Hrebienok Ice Temple with Trio Travel! The trip includes a funicular ride, exploring the ice cathedral inspired by Wawel, and free time in Stary Smokovec. Check prices and program!"
+        }
     }
 }
