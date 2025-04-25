@@ -1,4 +1,3 @@
-"use client";
 import BackgroundList from "@/app/UI/BackgroundList";
 import Header from "@/app/UI/Header";
 import LineHeader from "@/app/UI/LineHeader";
@@ -6,18 +5,40 @@ import Image from "next/image";
 import Table from "@/app/UI/Table";
 import Gallery from "@/app/UI/Slider";
 import TripProgram from "@/app/UI/TripProgram";
-import ClickButton from "@/app/UI/Buttons/ClickButton";
-import { useState } from "react";
+
 import { useTranslations } from "next-intl";
+import ButtonComponent from "./ButtonComponent";
+
+import { getTranslations } from "next-intl/server";
+import { routing } from "@/i18n/routing";
+
+export async function generateMetadata({ params }) {
+  const resolvedParams = await params;
+  const { locale } = resolvedParams;
+  const t = await getTranslations({
+    locale,
+    namespace: "metadata.spacer-w-koronach-drzew",
+  });
+
+  const path = routing.pathnames["/wycieczki/spacer-w-koronach-drzew"][locale]; // Pobieramy ścieżkę dla języka
+  // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
+  const canonicalUrl =
+    locale === "pl"
+      ? `https://triotravel.pl${path}`
+      : `https://triotravel.pl/${locale}${path}`;
+
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: canonicalUrl,
+    },
+  };
+}
+
 export default function Spacer() {
   const t = useTranslations("offer.tripslist.spacer-w-koronach-drzew");
-  // Stany dla sekcji
-  const [activeSection, setActiveSection] = useState(false); // Domyślnie false
 
-  // Function to toggle active section
-  const handleButtonClick = (section) => {
-    setActiveSection((prev) => (prev === section ? false : section));
-  };
   const customItems = [t("list.1"), t("list.2")];
 
   const tripItems = [
@@ -71,20 +92,7 @@ export default function Spacer() {
           <BackgroundList title={t("header3")} items={customItems} />
           <TripProgram title={t("tripprogram.header")} items={tripItems} />
           <p className="text-center mt-16 text-lg">{t("tripprogram.text")}</p>
-          <div className="flex justify-center mt-16">
-            <ClickButton
-              onClick={() => handleButtonClick("warunki")}
-              text={t("tripprogram.button")}
-              bgColor={
-                activeSection === "warunki" ? "bg-blue-700" : "bg-customBlue"
-              }
-            />
-          </div>
-          {activeSection === "warunki" && (
-            <div className="text-center mt-10 md:w-3/4 mx-auto">
-              <p className="text-lg mt-10">{t("tripprogram.text2")}</p>
-            </div>
-          )}
+          <ButtonComponent />
         </div>
       </section>
       <div>

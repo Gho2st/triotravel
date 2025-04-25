@@ -5,6 +5,33 @@ import Link from "next/link";
 import Script from "next/script"; // <-- to dodaj!
 import { useTranslations } from "next-intl";
 
+import { getTranslations } from "next-intl/server";
+import { routing } from "@/i18n/routing";
+
+export async function generateMetadata({ params }) {
+  const resolvedParams = await params;
+  const { locale } = resolvedParams;
+  const t = await getTranslations({
+    locale,
+    namespace: "metadata.rezerwacje",
+  });
+
+  const path = routing.pathnames["/rezerwacje"][locale]; // Pobieramy ścieżkę dla języka
+  // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
+  const canonicalUrl =
+    locale === "pl"
+      ? `https://triotravel.pl${path}`
+      : `https://triotravel.pl/${locale}${path}`;
+
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: canonicalUrl,
+    },
+  };
+}
+
 export default function Rezerwacje() {
   const t = useTranslations("reservations");
 

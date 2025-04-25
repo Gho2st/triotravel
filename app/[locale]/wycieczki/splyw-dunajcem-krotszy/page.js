@@ -1,4 +1,3 @@
-"use client";
 import BackgroundList from "@/app/UI/BackgroundList";
 import Header from "@/app/UI/Header";
 import LineHeader from "@/app/UI/LineHeader";
@@ -7,19 +6,38 @@ import Table from "@/app/UI/Table";
 import Gallery from "@/app/UI/Slider";
 import TripProgram from "@/app/UI/TripProgram";
 import FunFact from "@/app/UI/FunFact";
-import { useState } from "react";
-import ClickButton from "@/app/UI/Buttons/ClickButton";
 import { useTranslations } from "next-intl";
+
+import { getTranslations } from "next-intl/server";
+import { routing } from "@/i18n/routing";
+
+export async function generateMetadata({ params }) {
+  const resolvedParams = await params;
+  const { locale } = resolvedParams;
+  const t = await getTranslations({
+    locale,
+    namespace: "metadata.splyw-dunajcem-krotszy",
+  });
+
+  const path = routing.pathnames["/wycieczki/splyw-dunajcem-krotszy"][locale]; // Pobieramy ścieżkę dla języka
+  // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
+  const canonicalUrl =
+    locale === "pl"
+      ? `https://triotravel.pl${path}`
+      : `https://triotravel.pl/${locale}${path}`;
+
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: canonicalUrl,
+    },
+  };
+}
 
 export default function SplywKrotszy() {
   const t = useTranslations("offer.tripslist.splyw-dunajcem-krotszy");
-  // Stany dla sekcji
-  const [activeSection, setActiveSection] = useState(false); // Domyślnie false
 
-  // Function to toggle active section
-  const handleButtonClick = (section) => {
-    setActiveSection((prev) => (prev === section ? false : section));
-  };
   const customItems = [
     t("list.1"),
     t("list.2"),

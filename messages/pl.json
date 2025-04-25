@@ -941,5 +941,111 @@
     },
     "majer": {
         "header": "Organizator Wyjazdu"
+    },
+    "metadata": {
+        "homepage": {
+            "title": "Biuro Podróży Zakopane: Wycieczki, Kuligi, Spływ - Trio Travel",
+            "description": "Biuro podróży Trio Travel oferuje Państwu wycieczki jednodniowe, kuligi, spływ Dunajcem oraz przewóz osób w Zakopanem. Serdecznie zapraszamy do zapoznania się z naszą ofertą."
+        },
+        "trips": {
+            "title": "Wycieczki z Trio Travel - Zakopane, Spływ Dunajcem, Kasprowy",
+            "description": "Odkryj Zakopane z Trio Travel! Wycieczki jednodniowe, spływ Dunajcem, bilety na Kasprowy, kuligi i więcej. Zarezerwuj online i przeżyj niezapomnianą przygodę!"
+        },
+        "kuligi": {
+            "title": "Kuligi w Zakopanem z Logo Trio Travel - Góralska Przygoda",
+            "description": "Przeżyj niezapomniany kulig w Zakopanem z Trio Travel! Dolina Kościeliska, biesiada góralska, muzyka na żywo. Rezerwuj kulig w Dolinie Chochołowskiej lub sylwestrowy!"
+        },
+        "koscielisko": {
+            "title": "Góralski Kulig Kościelisko - Niezapomniana Przygoda z Trio Travel",
+            "description": "Zapraszamy na malowniczy Góralski Kulig w Kościelisku z Trio Travel! Ciesz się godziną przejażdżki saniami z pochodniami, ogniskiem, pysznym poczęstunkiem i góralską muzyką na żywo. Odbiór z Zakopanego i Kościeliska w cenie. Bilety od 130 PLN. Rezerwuj online i przeżyj niezapomnianą zimową przygodę w Tatrach!"
+        },
+        "dolina-chocholowska": {
+            "title": "Kulig VIP Dolina Chochołowska - Góralska Przygoda z Trio Travel",
+            "description": "Przeżyj niezapomniany Kulig VIP w Dolinie Chochołowskiej z Trio Travel! Godzinna przejażdżka saniami z pochodniami, biesiada przy ognisku z kapelą góralską, bigos, oscypek i grzane wino. Odbiór z Zakopanego i Kościeliska. Bilety od 179 PLN. Rezerwuj online!"
+        },
+        "wieczor-sylwestrowy": {
+            "title": "Kulig Sylwestrowy Zakopane - Trio Travel",
+            "description": "Powitaj Nowy Rok na Kuligu Sylwestrowym z Trio Travel! Przejażdżka saniami w Dolinie Kościeliskiej, ognisko, kapela góralska i góralski poczęstunek. Bilety od 150 PLN. Rezerwuj online!"
+        },
+        "kasprowy": {
+            "title": "Bilety na Kasprowy Wierch - Zakopane z Trio Travel",
+            "description": "Kup bilety na Kasprowy Wierch z Trio Travel! Cennik, ulgi, szybka rezerwacja. Odkryj Tatry z kolejką linową i ciesz się widokami!"
+        },
+        "transport": {
+            "title": "Transport Zakopane i Kraj - Trio Travel Przewóz Osób",
+            "description": "Trio Travel oferuje profesjonalny transport w Zakopanem i za granicą. Transfery lotniskowe, przewozy lokalne, wesela. Zarezerwuj komfortową podróż!"
+        },
+        "mapa-przystankow": {
+            "title": "Mapa Przystanków Zakopane - Trio Travel Punkty Odbioru",
+            "description": "Sprawdź mapę przystanków Trio Travel w Zakopanem i okolicach! Wygodne punkty odbioru w centrum, Kościelisku, Białce Tatrzańskiej. Zarezerwuj transport!"
+        },
+        "partners": {
+            "title": "Nasi Partnerzy Zakopane - Trio Travel Współpraca",
+            "description": "Poznaj partnerów Trio Travel w Zakopanem! Komfortowe domki, apartamenty i hotele blisko Krupówek i Tatr. Zarezerwuj pobyt z góralskim klimatem!"
+        },
+        "kontakt": {
+            "title": "Kontakt Trio Travel Zakopane - Zadzwoń lub Napisz",
+            "description": "Skontaktuj się z Trio Travel w Zakopanem! Telefon, email, formularz kontaktowy. Planuj wycieczki i transport. Jesteśmy dla Ciebie w godz. 9:00-17:00!"
+        },
+        "rezerwacje": {
+            "title": "Kup Online Wycieczki Zakopane - Trio Travel Rezerwacje",
+            "description": "Rezerwuj wycieczki online z Trio Travel w Zakopanem! Szybko i wygodnie, do 24h przed wyjazdem. Sprawdź ofertę i kup bilety na kuligi, spływ dunajcem!"
+        },
+        "splyw-dunajcem-dluzszy": {
+            "title": "Spływ Dunajcem 2.5h z Zakopanego - Trio Travel",
+            "description": "Przeżyj niezapomniany spływ Dunajcem na drewnianych tratwach - 2,5-godzinna przygoda z flisakami, widokami Pienin oraz zwiedzaniem zamku w Niedzicy. Zarezerwuj z Trio Travel!"
+        },
+        "splyw-dunajcem-krotszy": {
+            "title": "Spływ Dunajcem 1.5h | Krótsza Trasa z Przewodnikiem | Trio Travel",
+            "description": "Krótsza wersja spływu Dunajcem (1.5h) drewnianymi tratwami ze Słowacji. Atrakcje: zamek w Niedzicy, zapora i kościół w Dębnie (UNESCO). Sprawdź program i ceny!"
+        },
+        "termy": {
+            "title": "Termy Chochołowskie z Transportem - Relaks z Trio Travel",
+            "description": "Odwiedź największy kompleks termalny na Podhalu - Termy Chochołowskie! W pakiecie 4h relaksu w strefach basenowych i leczniczych oraz transport z Zakopanego gratis!"
+        },
+        "spacer-w-koronach-drzew": {
+            "title": "Spacer w Koronach Drzew i Szczyrbskie Jezioro z Trio Travel",
+            "description": "Zanurz się w naturze! Spacer w koronach drzew w Bachledce i wizyta nad Szczyrbskim Jeziorem - łączone zwiedzanie z transportem z Zakopanego. Rezerwuj z Trio Travel!"
+        },
+        "jaskinia-bielanska": {
+            "title": "Jaskinia Bielańska i Szczyrbskie Jezioro z Trio Travel",
+            "description": "Zwiedź Jaskinię Bielańską - jedyną jaskinię turystyczną w Tatrach Słowackich - oraz odpocznij nad malowniczym Szczyrbskim Jeziorem. Wyjazd z Zakopanego z Trio Travel!"
+        },
+        "tajemnice-wieliczki": {
+            "title": "Tajemnice Wieliczki - Wycieczka do Kopalni Soli | Trio Travel",
+            "description": "Poznaj tajemnice Kopalni Soli w Wieliczce - jeden z siedmiu cudów Polski. Eksploruj solne komory, jeziora i rzeźby. Niezapomniana przygoda czeka na Ciebie!"
+        },
+        "biesiada-goralska": {
+            "title": "Biesiada Góralska - Przygoda z Tańcami, Muzyką i Tradycją",
+            "description": "Przeżyj niezapomnianą Biesiadę Góralską! Tańce przy ognisku, przejażdżki góralskimi powozami i autentyczna góralska kuchnia w sercu Doliny Kościeliskiej. Dołącz do nas!"
+        },
+        "slowacki-raj": {
+            "title": "Słowacki Raj - Wędrówka po Wąwozie Sucha Bela, Wodospady i Drabinki",
+            "description": "Odwiedź Słowacki Raj! Przeżyj ekscytującą wędrówkę wzdłuż potoku Sucha Bela z metalowymi drabinkami, mostkami i wodospadami. Idealna przygoda w sercu Słowackiego Parku Narodowego."
+        },
+        "wieden": {
+            "title": "Wiedeń - Wycieczka do Stolicy Austrii, Pałac Schönbrunn i Ringstrasse",
+            "description": "Odwiedź Wiedeń z Trio Travel! Zobacz Pałac Schönbrunn, Katedrę Św. Szczepana, Ringstrasse i inne historyczne zabytki stolicy Austrii. Wycieczka pełna atrakcji i historii."
+        },
+        "budapeszt": {
+            "title": "Budapeszt - Wycieczka do Stolicy Węgier, Plac Bohaterów i Rejs po Dunaju",
+            "description": "Odwiedź Budapeszt z Trio Travel! Zobacz Plac Bohaterów, Zamek Vajdahunyad, Wzgórze Gellerta, Rejs po Dunaju i inne atrakcje stolicy Węgier. Pełna historia i magia miasta nad Dunajem."
+        },
+        "zamek-orawski": {
+            "title": "Zamek Orawski - Wycieczka z Zakopanego | Zwiedzanie z przewodnikiem",
+            "description": "Jednodniowa wycieczka na Zamek Orawski z Trio Travel - zwiedzanie majestatycznej twierdzy, skansen w Chochołowie i degustacja oscypków. Transport z Zakopanego, bilety w cenie. Sprawdź program i cennik!"
+        },
+        "dookola-tatr": {
+            "title": "Wycieczka Dookoła Tatr - Zamek Orawski i Jaskinia Demianowska",
+            "description": "Jednodniowa wycieczka dookoła Tatr ze zwiedzaniem Zamku Orawskiego i Jaskini Demianowskiej. Transport z Zakopanego, bilety wstępu i opieka przewodnika. Sprawdź program i cennik!"
+        },
+        "rafting-po-dunajcu": {
+            "title": "Rafting po Dunajcu - Spływ Pontonami w Pieninach | Trio Travel",
+            "description": "Dwugodzinny spływ pontonami po Dunajcu z dodatkowymi atrakcjami: zamek w Niedzicy, rejs statkiem i zapora wodna. Transport z Zakopanego, bilety w cenie. Sprawdź program!"
+        },
+        "swiatynia-lodowa-hrebieniok": {
+            "title": "Świątynia Lodowa Hrebieniok - Wycieczka z Trio Travel | Kolejka na Hrebieniok",
+            "description": "Odwiedź Świątynię Lodową na Hrebienioku z Trio Travel! Wycieczka obejmuje przejazd kolejką, zwiedzanie lodowej katedry inspirowanej Wawelem oraz czas wolny w Starym Smokowcu. Sprawdź cennik i program!"
+        }
     }
 }

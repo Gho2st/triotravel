@@ -55,7 +55,7 @@ export default function Nav() {
             <Image
               src="/logo/logo2.png"
               fill
-              alt="Logo Muszynova"
+              alt="Logo Trio Travel"
               className="object-contain"
               sizes="(max-width: 768px) 100px, 150px"
               priority

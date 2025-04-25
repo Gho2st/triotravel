@@ -1,9 +1,14 @@
 "use client";
 
 import { useState } from "react";
+import dynamic from "next/dynamic";
 import { routing, usePathname, useRouter } from "@/i18n/routing";
 import { useLocale } from "next-intl";
-import ReactCountryFlag from "react-country-flag";
+
+// Dynamic import - SSR off to prevent hydration mismatch
+const ReactCountryFlag = dynamic(() => import("react-country-flag"), {
+  ssr: false,
+});
 
 export default function LocaleSwitcher() {
   const router = useRouter();
@@ -19,7 +24,7 @@ export default function LocaleSwitcher() {
   const localeFlags = {
     pl: "PL",
     en: "GB",
-    ar: "SA", // Zmieniono 'sa' na 'ar'
+    ar: "SA",
   };
 
   return (

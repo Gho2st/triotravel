@@ -3,6 +3,29 @@ import Image from "next/image";
 import Gallery from "@/app/UI/Slider";
 import { useTranslations } from "next-intl";
 import Button from "@/app/UI/Buttons/Button";
+import { getTranslations } from "next-intl/server";
+import { routing } from "@/i18n/routing";
+
+export async function generateMetadata({ params }) {
+  const resolvedParams = await params;
+  const { locale } = resolvedParams;
+  const t = await getTranslations({ locale, namespace: "metadata.transport" });
+
+  const path = routing.pathnames["/transport"][locale]; // Pobieramy ścieżkę dla języka
+  // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
+  const canonicalUrl =
+    locale === "pl"
+      ? `https://triotravel.pl${path}`
+      : `https://triotravel.pl/${locale}${path}`;
+
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: canonicalUrl,
+    },
+  };
+}
 
 export default function Transport() {
   const t = useTranslations("transport");
