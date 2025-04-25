@@ -7,7 +7,8 @@ export const routing = defineRouting({
 
   // Domyślny język, gdy żaden nie pasuje
   defaultLocale: "pl",
-  localePrefix: "as-needed", // lub 'as-needed', w zależności od potrzeb
+  localePrefix: "as-needed", // lub 'always', w zależności od potrzeb
+
   // Tłumaczenie ścieżek dla każdego języka
   pathnames: {
     "/": {
@@ -18,120 +19,117 @@ export const routing = defineRouting({
     "/wycieczki": {
       pl: "/wycieczki",
       en: "/trips",
-      ar: "/rihlat",
+      ar: "/رحلات",
     },
-    //kuligi
-
     "/kuligi": {
       pl: "/kuligi",
       en: "/sleigh-rides",
-      ar: "/zalajat",
+      ar: "/زلاقات",
     },
     "/kuligi/goralski-koscielisko": {
       pl: "/kuligi/goralski-koscielisko",
       en: "/sleigh-rides/highlander-koscielisko",
-      ar: "/رحلات-المزلقة/هايلاندر-كوسيلسكو",
+      ar: "/زلاقات/هايلاندر-كوسيلسكو",
     },
     "/kuligi/dolina-chocholowska": {
       pl: "/kuligi/dolina-chocholowska",
       en: "/sleigh-rides/chocholowska-valley",
-      ar: "/رحلات-المزلقة/وادي-خوخووفسكا",
+      ar: "/زلاقات/وادي-خوخووفسكا",
     },
     "/kuligi/wieczor-sylwestrowy": {
       pl: "/kuligi/wieczor-sylwestrowy",
       en: "/sleigh-rides/new-years-eve",
-      ar: "/رحلات-المزلقة/ليلة-رأس-السنة",
+      ar: "/زلاقات/ليلة-رأس-السنة",
     },
     "/bilety-na-kasprowy-wierch": {
       pl: "/bilety-na-kasprowy-wierch",
       en: "/kasprowy-wierch-tickets",
-      ar: "/tathakir-kasprowy",
+      ar: "/تذاكر-كاسپروي",
     },
     "/transport": {
       pl: "/transport",
       en: "/transport",
-      ar: "/naql",
+      ar: "/نقل",
     },
     "/mapa-przystankow": {
       pl: "/mapa-przystankow",
       en: "/map-of-stops",
-      ar: "/khariitat-mawaqif",
+      ar: "/خريطة-المواقف",
     },
     "/partnerzy": {
       pl: "/partnerzy",
       en: "/partners",
-      ar: "/shuraka",
+      ar: "/شركاء",
     },
     "/kontakt": {
       pl: "/kontakt",
       en: "/contact",
-      ar: "/itisal",
+      ar: "/اتصال",
     },
     "/rezerwacje": {
       pl: "/rezerwacje",
       en: "/reservations",
-      ar: "/hajuzat",
+      ar: "/حجوزات",
     },
-    // Wycieczki - wszystkie mają prefix w odpowiednim języku
     "/wycieczki/splyw-dunajcem-dluzszy": {
       pl: "/wycieczki/splyw-dunajcem-dluzszy",
       en: "/trips/dunajec-rafting-extended",
-      ar: "/rihlat/alnhar-dunajec-almtwsl",
+      ar: "/رحلات/التجديف-نهر-دوناجتس-المطول",
     },
     "/wycieczki/chocholowskie-termy": {
       pl: "/wycieczki/chocholowskie-termy",
       en: "/trips/chocholowska-thermal-pools",
-      ar: "/rihlat/alhmayat-almya-chocholowskie",
+      ar: "/رحلات/حمامات-خوخووفسكا-الحرارية",
     },
     "/wycieczki/spacer-w-koronach-drzew": {
       pl: "/wycieczki/spacer-w-koronach-drzew",
       en: "/trips/tree-top-walk-bachledka",
-      ar: "/rihlat/mashyat-fawq-ashjar-bachledka",
+      ar: "/رحلات/مشي-فوق-الأشجار-باخليدكا",
     },
     "/wycieczki/jaskinia-bielanska": {
       pl: "/wycieczki/jaskinia-bielanska",
       en: "/trips/belianska-cave-trip",
-      ar: "/rihlat/rahla-kahf-belianska",
+      ar: "/رحلات/رحلة-كهف-بيليانسكا",
     },
     "/wycieczki/tajemnice-wieliczki": {
       pl: "/wycieczki/tajemnice-wieliczki",
       en: "/trips/wieliczka-salt-mine-tour",
-      ar: "/rihlat/asrar-manhaf-wieliczka",
+      ar: "/رحلات/أسرار-منجم-فيليتشكا",
     },
     "/wycieczki/biesiada-goralska": {
       pl: "/wycieczki/biesiada-goralska",
       en: "/trips/goral-feast",
-      ar: "/rihlat/maidat-aljbal-al-ghoral",
+      ar: "/رحلات/مأدبة-الجبال-الغورال",
     },
     "/wycieczki/slowacki-raj": {
       pl: "/wycieczki/slowacki-raj",
       en: "/trips/slovak-raj",
-      ar: "/rihlat/al-ra-al-slowaki",
+      ar: "/رحلات/الجنة-السلوفاكية",
     },
     "/wycieczki/wieden": {
       pl: "/wycieczki/wieden",
       en: "/trips/vienna",
-      ar: "/rihlat/fiyina",
+      ar: "/رحلات/فيينا",
     },
     "/wycieczki/budapeszt": {
       pl: "/wycieczki/budapeszt",
       en: "/trips/budapest",
-      ar: "/rihlat/budabist",
+      ar: "/رحلات/بودابست",
     },
     "/wycieczki/zamek-orawski": {
       pl: "/wycieczki/zamek-orawski",
       en: "/trips/orava-castle",
-      ar: "/rihlat/qalat-orawski",
+      ar: "/رحلات/قلعة-أوراوا",
     },
     "/wycieczki/dookola-tatr": {
       pl: "/wycieczki/dookola-tatr",
       en: "/trips/around-tatras",
-      ar: "/rihlat/hawal-al-tatr",
+      ar: "/رحلات/حول-تاترا",
     },
     "/wycieczki/rafting-po-dunajcu": {
       pl: "/wycieczki/rafting-po-dunajcu",
       en: "/trips/dunajec-river-rafting",
-      ar: "/rihlat/rafting-nahr-dunajec",
+      ar: "/رحلات/التجديف-نهر-دوناجتس",
     },
     "/wycieczki/swiatynia-lodowa-hrebieniok": {
       pl: "/wycieczki/swiatynia-lodowa-hrebieniok",
@@ -143,7 +141,7 @@ export const routing = defineRouting({
       en: "/trips/shorter-dunajec-river-rafting",
       ar: "/رحلات/رحلة-نهر-دوناجتس-القصيرة",
     },
-  },
+  }, // Added missing closing curly brace
 });
 
 export const { Link, redirect, usePathname, useRouter } =
