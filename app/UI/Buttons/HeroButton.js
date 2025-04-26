@@ -42,17 +42,17 @@ export default function HeroButton() {
 
   return (
     <motion.button
-      className="bg-red-500 shadow-2xl w-20 md:w-36 relative rounded-r-2xl border-0 cursor-pointer"
+      className="bg-red-500 shadow-2xl w-22 md:w-36 relative rounded-r-2xl border-0 cursor-pointer"
       variants={buttonVariants}
       initial="initial"
       whileHover="hover"
       onClick={handleClick} // Dodanie obsługi kliknięcia
     >
       <motion.div
-        className="absolute top-[-4rem] left-[-12px] md:left-0 md:top-[-6rem] bg-white p-2 py-5 md:p-6 md:py-10 border-3 text-xl rounded-[100%]"
+        className="absolute flex flex-col justify-center items-center top-[-4rem] left-[-13px] md:left-[-4px] md:top-[-6rem] bg-white w-30 h-30 md:w-40 md:h-40 border-3 rounded-[100%]"
         variants={circleVariants}
       >
-        <span className="">{t("button")}</span>{" "}
+        <span className="text-xl md:text-2xl">{t("button")}</span>{" "}
         <span className="text-xl md:text-2xl font-bold">{t("button2")}</span>
       </motion.div>
     </motion.button>
