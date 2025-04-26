@@ -212,24 +212,30 @@ export default function Hero() {
         initial="initial"
         animate="animate"
       >
-        <motion.div
+        <motion.a
           className="cursor-pointer"
-          whileHover={{ y: -10, transition: { yoyo: Infinity, duration: 0.4 } }}
+          href="https://www.instagram.com/triotravell/"
+          whileHover={{
+            y: -10,
+            transition: { repeat: Infinity, duration: 0.4 },
+          }}
         >
           <FaInstagram />
-        </motion.div>
-        <motion.div
+        </motion.a>
+        <motion.a
           className="cursor-pointer"
           whileHover={{ y: -10, transition: { yoyo: Infinity, duration: 0.4 } }}
+          href="https://www.facebook.com/TrioTravel"
         >
           <FaFacebook />
-        </motion.div>
-        <motion.div
+        </motion.a>
+        <motion.a
           className="cursor-pointer"
           whileHover={{ y: -10, transition: { yoyo: Infinity, duration: 0.4 } }}
+          href="mailto:biuro@triotravel.eu"
         >
           <IoMail />
-        </motion.div>
+        </motion.a>
       </motion.div>
     </section>
   );
