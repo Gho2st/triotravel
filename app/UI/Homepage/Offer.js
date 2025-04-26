@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import Link from "next/link"; // Import Link from Next.js
+import { Link } from "@/i18n/routing";
 
 // Sample gallery data
 const gallery = [

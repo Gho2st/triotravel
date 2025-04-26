@@ -1,6 +1,6 @@
 "use client";
 import { FaLongArrowAltRight } from "react-icons/fa";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import { useState } from "react";
 import { useRef } from "react";
 import ReCAPTCHA from "react-google-recaptcha";

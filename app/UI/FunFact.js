@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 export default function FunFact() {
   const t = useTranslations("offer.tripslist.splyw-dunajcem-dluzszy.funfact");
   return (

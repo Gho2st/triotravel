@@ -2,7 +2,6 @@ import Header from "@/app/UI/Header";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import LineHeader from "@/app/UI/LineHeader";
-import Link from "next/link";
 import Button from "@/app/UI/Buttons/Button";
 
 // Komponent pojedynczej karty

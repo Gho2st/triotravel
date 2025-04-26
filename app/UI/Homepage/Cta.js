@@ -1,5 +1,4 @@
 import { useTranslations } from "next-intl";
-import Link from "next/link";
 import Button from "../Buttons/Button";
 
 export default function Cta() {

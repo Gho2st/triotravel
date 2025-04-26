@@ -1,7 +1,7 @@
 import Button from "@/app/UI/Buttons/Button";
 import Header from "@/app/UI/Header";
 import { FaPhoneAlt } from "react-icons/fa";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import Script from "next/script"; // <-- to dodaj!
 import { useTranslations } from "next-intl";
 
