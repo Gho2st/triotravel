@@ -173,7 +173,7 @@ export default function Hero() {
             onMouseEnter={() => setIsPaused(true)}
             onMouseLeave={() => setIsPaused(false)}
           >
-            <span className="text-2xl md:text-4xl font-medium p-3 md:p-6 w-52 md:w-96 lg:w-144 text-center">
+            <span className="text-2xl md:text-4xl font-medium p-3 md:p-6 w-52 min-h-24 md:w-96 lg:w-144 text-center flex justify-center items-center">
               {t(slides[currentSlide].translationKey)}
             </span>
             <HeroButton link={slides[currentSlide].link} />
