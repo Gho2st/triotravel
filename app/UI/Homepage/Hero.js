@@ -36,7 +36,7 @@ export default function Hero() {
     {
       background: "/baner/baner4.png",
       translationKey: "headers.header2", // "Baseny Termalne?"
-      link: "/wycieczki/termy",
+      link: "/wycieczki/chocholowskie-termy",
     },
     // {
     //   background: "/baner/baner5.png",

@@ -31,13 +31,13 @@ const circleVariants = {
   },
 };
 
-export default function HeroButton() {
+export default function HeroButton({ link }) {
   const router = useRouter(); // Inicjalizacja routera
   const t = useTranslations("hero");
 
   // Funkcja obsługująca kliknięcie
   const handleClick = () => {
-    router.push("/rezerwacje"); // Przekierowanie do /rezerwacje
+    router.push(link); // Przekierowanie do /rezerwacje
   };
 
   return (
