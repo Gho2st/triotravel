@@ -237,6 +237,13 @@
                 }
             },
             "splyw-dunajcem-krotszy": {
+                "alt": {
+                    "1": "Spływ tratwami drewnianymi na rzece Dunajec w obliczu natury",
+                    "2": "Tratwa z plisakami i uczestnikami na tle zielonych szczytów",
+                    "3": "Dwie tratwy podczas spływu Dunajcem",
+                    "4": "Cztery tratwy z plisakami i uczestnikami spływu rzeką Dunajec",
+                    "5": "Drewniany kościół w Dębnie"
+                },
                 "header": "Spływ Dunajcem 1.5h",
                 "header2": "Co Oferujemy?",
                 "header3": "Wycieczka w Pieniny: Spływ i Niedzica",
@@ -694,9 +701,9 @@
                 "alt": {
                     "1": "Uczestnicy raftingu w kaskach podczas przejazdu",
                     "2": "Cudowna zieloona okolica podczas raftingu",
-                    "3": "Jaskinia Demianowska w środku",
-                    "4": "Naturalne kształy Jaskini Demianowskiej",
-                    "5": "Naturalne kształy Jaskini Demianowskiej"
+                    "3": "Dwie grupy uczestników podczas zabawy raftingowej",
+                    "4": "Uśmiechy podczas zabawy a tle woda",
+                    "5": "Uczestnicy walczący z wodą"
                 },
                 "header": "Rafting po Dunajcu",
                 "header2": "Co oferujemy?",
@@ -727,6 +734,12 @@
                 }
             },
             "swiatynia-lodowa-hrebieniok": {
+                "alt": {
+                    "1": "Światynia Lodowa Hrebieniok podświetlona na czerwono-niebiesko",
+                    "2": "Świątynia lodowa z bliska",
+                    "3": "Świątynia lodowa Hrebieniok z bliska",
+                    "4": "Wnętrze świątyni lodowej"
+                },
                 "header": "Świątynia Lodowa Hrebieniok",
                 "header2": "Co oferujemy?",
                 "text": "Zapraszamy na wycieczkę na Słowację podczas, której zobaczą Państwo Stary Smokowiec. Przejadą się kolejką szynową na Hrebieniok (Tatry Wysokie, 1310m n.p.m.), gdzie na szczycie zlokalizowana jest Lodowa Świątynia, która w tym roku inspirowana jest Katedrą na Wawelu.",

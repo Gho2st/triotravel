@@ -64,7 +64,7 @@ export default function Hrebieniok() {
           height={500}
           layout="responsive"
           className="object-cover"
-          alt="Basen termalny pełen wody na tle budynku Term Chochołowskich"
+          alt={t("alt.1")}
         />
       </div>
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
@@ -88,19 +88,19 @@ export default function Hrebieniok() {
           images={[
             {
               url: "/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.png",
-              alt: "First image",
+              alt: t("alt.1"),
             },
             {
               url: "/wycieczki/swiatynia-lodowa-hrebieniok/1.png",
-              alt: "First image",
+              alt: t("alt.2"),
             },
             {
               url: "/wycieczki/swiatynia-lodowa-hrebieniok/2.png",
-              alt: "First image",
+              alt: t("alt.3"),
             },
             {
               url: "/wycieczki/swiatynia-lodowa-hrebieniok/3.png",
-              alt: "First image",
+              alt: t("alt.4"),
             },
           ]}
         />

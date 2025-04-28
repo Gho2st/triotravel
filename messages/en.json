@@ -237,6 +237,13 @@
                 }
             },
             "splyw-dunajcem-krotszy": {
+                "alt": {
+                    "1": "Wooden rafting on the Dunajec River amidst nature",
+                    "2": "Raft with boatmen and participants against a backdrop of green peaks",
+                    "3": "Two rafts during a Dunajec river float",
+                    "4": "Four rafts with boatmen and participants on the Dunajec River",
+                    "5": "Wooden church in Dębno"
+                },
                 "header": "Dunajec River Rafting 1.5h",
                 "header2": "What We Offer?",
                 "header3": "Pieniny Trip: Rafting and Niedzica",
@@ -727,6 +734,12 @@
                 }
             },
             "swiatynia-lodowa-hrebieniok": {
+                "alt": {
+                    "1": "Hrebienok Ice Temple illuminated in red and blue lights",
+                    "2": "Close-up view of the ice temple",
+                    "3": "Close-up of Hrebienok Ice Temple",
+                    "4": "Interior of the ice temple"
+                },
                 "header": "Ice Temple Hrebieniok",
                 "header2": "What We Offer?",
                 "text": "We invite you on a trip to Slovakia, during which you will see Starý Smokovec. Take the cog railway to Hrebieniok (High Tatras, 1310 m above sea level), where the Ice Temple is located at the summit, this year inspired by Wawel Cathedral.",

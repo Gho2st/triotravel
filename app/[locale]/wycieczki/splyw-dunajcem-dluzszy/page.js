@@ -111,9 +111,9 @@ export default function SplywDluzszy() {
               url: "/wycieczki/splyw-dunajcem-dluzszy/1.jpg",
               alt: t("alt.2"),
             },
-            { url: "/wycieczki/splyw-dunajcem-dluzszy/2.jpg", alt: t("alt.2") },
-            { url: "/wycieczki/splyw-dunajcem-dluzszy/3.png", alt: t("alt.2") },
-            { url: "/wycieczki/splyw-dunajcem-dluzszy/4.jpg", alt: t("alt.2") },
+            { url: "/wycieczki/splyw-dunajcem-dluzszy/2.jpg", alt: t("alt.3") },
+            { url: "/wycieczki/splyw-dunajcem-dluzszy/3.png", alt: t("alt.4") },
+            { url: "/wycieczki/splyw-dunajcem-dluzszy/4.jpg", alt: t("alt.5") },
           ]}
         />
       </div>

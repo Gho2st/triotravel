@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import HeroButton from "../Buttons/HeroButton";
 import { FaInstagram } from "react-icons/fa6";
@@ -12,43 +12,36 @@ import { useTranslations } from "next-intl";
 export default function Hero() {
   const t = useTranslations("hero");
 
-  const slides = [
-    {
-      background: "/wycieczki/spacer-w-koronach-drzew/korony.png",
-      translationKey: "headers.header7", // "Spacer W Koronach Drzew"
-      link: "/wycieczki/spacer-w-koronach-drzew",
-    },
-    {
-      background: "/baner/baner2.png",
-      translationKey: "headers.header1", // "Spływ Dunajcem?"
-      link: "/wycieczki/splyw-dunajcem-dluzszy",
-    },
-    {
-      background: "/wycieczki/biesiada-goralska/baner.png",
-      translationKey: "headers.header5", // "Biesiada Goralska?"
-      link: "/wycieczki/biesiada-goralska",
-    },
-    // {
-    //   background: "/baner/baner3.png", //"Zimowy Kulig?"
-    //   translationKey: "headers.header6",
-    //   link: "/kuligi",
-    // },
-    {
-      background: "/baner/baner4.png",
-      translationKey: "headers.header2", // "Baseny Termalne?"
-      link: "/wycieczki/chocholowskie-termy",
-    },
-    // {
-    //   background: "/baner/baner5.png",
-    //   translationKey: "headers.header3", // "Bilety na Kasprowy?"
-    //   link: "/bilety-na-kasprowy-wierch",
-    // },
-    {
-      background: "/baner/baner6.png",
-      translationKey: "headers.header4", // "Transport w Górach?"
-      link: "/transport",
-    },
-  ];
+  const slides = useMemo(
+    () => [
+      {
+        background: "/wycieczki/spacer-w-koronach-drzew/korony.png",
+        translationKey: "headers.header7", // "Spacer W Koronach Drzew"
+        link: "/wycieczki/spacer-w-koronach-drzew",
+      },
+      {
+        background: "/baner/baner2.png",
+        translationKey: "headers.header1", // "Spływ Dunajcem?"
+        link: "/wycieczki/splyw-dunajcem-dluzszy",
+      },
+      {
+        background: "/wycieczki/biesiada-goralska/baner.png",
+        translationKey: "headers.header5", // "Biesiada Goralska?"
+        link: "/wycieczki/biesiada-goralska",
+      },
+      {
+        background: "/baner/baner4.png",
+        translationKey: "headers.header2", // "Baseny Termalne?"
+        link: "/wycieczki/chocholowskie-termy",
+      },
+      {
+        background: "/baner/baner6.png",
+        translationKey: "headers.header4", // "Transport w Górach?"
+        link: "/transport",
+      },
+    ],
+    []
+  );
 
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
@@ -60,7 +53,7 @@ export default function Hero() {
       const img = new Image();
       img.src = slide.background;
     });
-  }, []);
+  }, [slides]);
 
   useEffect(() => {
     if (pathname === "/") {
@@ -77,7 +70,7 @@ export default function Hero() {
     }, 7000);
 
     return () => clearInterval(interval);
-  }, [currentSlide, slides.length, isPaused]);
+  }, [currentSlide, slides, isPaused]);
 
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % slides.length);
@@ -181,10 +174,10 @@ export default function Hero() {
         </AnimatePresence>
 
         {/* Strzałki - pod napisem na telefonie, po bokach na większych ekranach */}
-        <div className="flex items-center mt-10 md:mt-0 gap-8 md:gap-0  ">
+        <div className="flex items-center mt-10 md:mt-0 gap-8 md-gap-0">
           <motion.button
             onClick={prevSlide}
-            className="text-white text-2xl md:text-4xl p-2 cursor-pointer  md:absolute md:left-4"
+            className="text-white text-2xl md:text-4xl p-2 cursor-pointer md:absolute md:left-4"
             variants={arrowVariants}
             initial="initial"
             whileHover="hover"
@@ -194,7 +187,7 @@ export default function Hero() {
           </motion.button>
           <motion.button
             onClick={nextSlide}
-            className="text-white text-2xl md:text-4xl p-2 cursor-pointer   md:absolute md:right-4"
+            className="text-white text-2xl md:text-4xl p-2 cursor-pointer md:absolute md:right-4"
             variants={arrowVariants}
             initial="initial"
             whileHover="hover"
