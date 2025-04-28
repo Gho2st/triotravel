@@ -45,6 +45,10 @@
         "button2": "Więcej"
     },
     "about": {
+        "alt": {
+            "1": "Ludzie w tratwie podczas spływu rzeką Dunajec",
+            "2": "Zamek Orawski na wzgórzu"
+        },
         "header1": "Trio Travel - Twoje Biuro Podróży w Zakopanem na Niezapomniane Wycieczki",
         "text": "Zakopane znamy jak własną kieszeń i nie ma dla nas rzeczy niemożliwych!",
         "text2": "Posiadamy duże doświadczenie w organizacji wszelkich projektów turystycznych, imprez tematycznych oraz transportu"
@@ -72,6 +76,13 @@
         },
         "tripslist": {
             "biesiada": {
+                "alt": {
+                    "1": "Widok na malowniczą trasę Doliny Kościeliskiej",
+                    "2": "Spacerujący ludzie na trasie",
+                    "3": "Strumyk w lesie",
+                    "4": "Trasa prowadząca obok skał",
+                    "5": "Kapliczka posród drzew"
+                },
                 "header": "Biesiada Góralska",
                 "header2": "Śpasy Góralskie - Niezapomniana impreza w stylu Podhala",
                 "header3": "Opis Atrakcji:",
@@ -107,6 +118,12 @@
                     "4": "Ulgowy w obie strony",
                     "text": "* Ceny biletów mogą ulec zmianie w zależności od godziny. "
                 },
+                "alt": {
+                    "1": "Kolejka na Kasprowy Wierch",
+                    "2": "Szczyt Kasprowego Wierchu pokryty śniegiem",
+                    "3": "Zielony szczyt z budynkiem",
+                    "4": "Góry w tle Kasprowego Wierchu"
+                },
                 "buttons": {
                     "1": "Uwagi",
                     "2": "Informacje",
@@ -118,6 +135,13 @@
                 }
             },
             "splyw-dunajcem-dluzszy": {
+                "alt": {
+                    "1": "Spływ tratwami drewnianymi na rzece Dunajec w obliczu natury",
+                    "2": "Tratwa z plisakami i uczestnikami na tle zielonych szczytów",
+                    "3": "Dwie tratwy podczas spływu Dunajcem",
+                    "4": "Cztery tratwy z plisakami i uczestnikami spływu rzeką Dunajec",
+                    "5": "Drewniany kościół w Dębnie"
+                },
                 "header": "Spływ Dunajcem 2.5h",
                 "header2": "Co Oferujemy?",
                 "header3": "Wycieczka w Pieniny: Spływ i Niedzica",
@@ -156,6 +180,9 @@
                     "text2": "Kręta trasa jaką pokonał miała właśnie zmienić się w Przełom Dunajca. Inni górale mówią, że ujście rzece wybił sam król Bolesław Chrobry.",
                     "cta": "Chcesz wiedzieć więcej?",
                     "more": {
+                        "alt": {
+                            "1": "Przełom Dunajca z widokiem na tratwy flisackie"
+                        },
                         "header": "Ciekawostki o Spływie Dunajcem",
                         "header2": "Legendy i sekrety Przełomu Dunajca!",
                         "text": "Czy to rycerz Ferkowicz gonił króla węży, czy Bolesław Chrobry wybił ujście rzece? Poznaj legendy i sekrety Przełomu Dunajca!",
@@ -302,6 +329,13 @@
                 }
             },
             "termy": {
+                "alt": {
+                    "1": "Basen termalny pełen wody na tle budynku Term Chochołowskich",
+                    "2": "Baseny jacuzzi z bąbelkami",
+                    "3": "Budynek Term Chochołowskich z zewnątrz",
+                    "4": "Klimatyczne oświetlnie basenów wieczorem",
+                    "5": "Drewniane ławki z widokiem"
+                },
                 "header": "Termy Chochołowskie",
                 "header2": "Zrelaksuj się",
                 "header3": "W strefie basenowej znajdziecie:",
@@ -322,6 +356,13 @@
                 }
             },
             "spacer-w-koronach-drzew": {
+                "alt": {
+                    "1": "Drewniana kładka w koronach drzew",
+                    "2": "Widok z drona na kładkę prowadząca w koronach drzew a w tle masywne góry",
+                    "3": "Kolejka górska Bachledka",
+                    "4": "Jezioro Szczyrbskie a w tle góry",
+                    "5": "Natura przy jeziorze Szczyrbskim"
+                },
                 "header": "Spacer w Koronach Drzew",
                 "header2": "Odkryj Piękno Natury",
                 "header3": "Więcej informacji",
@@ -354,6 +395,12 @@
                 }
             },
             "jaskinia-bielanska": {
+                "alt": {
+                    "1": "Przebijające światło do Jaskini Bielańskiej",
+                    "2": "Jaskinia w środku",
+                    "3": "Oświetlona Jaskinia Bielańska",
+                    "4": "Wejście do Jaskini z napisem"
+                },
                 "header": "Jaskinia Bielańska",
                 "header2": "Co oferujemy?",
                 "header3": "Opis Wycieczki",
@@ -391,6 +438,13 @@
                 }
             },
             "wieliczka": {
+                "alt": {
+                    "1": "Tunel w Kopalni Soli w Wieliczce z drewnianymi ścianami",
+                    "2": "Niesamowite Figury w środku kopalni",
+                    "3": "Obraz w ścianie kopalni soli",
+                    "4": "Wystawa solnych eksponatów",
+                    "5": "Stare drewniane mechanizmy w kopalni"
+                },
                 "header": "Tajemnice Wieliczki",
                 "header2": "Co oferujemy?",
                 "header3": "Opis Wycieczki",
@@ -416,6 +470,13 @@
                 }
             },
             "slowacki-raj": {
+                "alt": {
+                    "1": "Ludzie pozujący do zdjęć na punkcie widokowym",
+                    "2": "Drewniane domki przy wodzie",
+                    "3": "Drabina przy mini wodospadzie",
+                    "4": "Trasa przy skałach i strumyku",
+                    "5": "Trasa nad wodą zawieszona na skale"
+                },
                 "header": "Słowacki Raj",
                 "header2": "Co oferujemy?",
                 "header3": "Opis Wycieczki",
@@ -447,6 +508,13 @@
                 }
             },
             "wieden": {
+                "alt": {
+                    "1": "Pałac Schönbrunn",
+                    "2": "Piękne zakończenie wysokiego budynku",
+                    "3": "Stary tramwaj w mieście Wiedeń",
+                    "4": "Kadr na cudowne zielony zadbane ogrody i pałac przy pomniku",
+                    "5": "Panorama miasta Wiedeń"
+                },
                 "header": "Wiedeń",
                 "header2": "Co oferujemy?",
                 "header3": "Poznaj Wiedeń",
@@ -494,6 +562,12 @@
                 }
             },
             "budapeszt": {
+                "alt": {
+                    "1": "Budynek słynnego Parlamentu w Budapeszcie",
+                    "2": "Monumentalny historyczny pomnik Rybaka",
+                    "3": "Kościół Macieja",
+                    "4": "Stary Tramwaj"
+                },
                 "header": "Budapeszt",
                 "header2": "Co oferujemy?",
                 "header3": "Poznaj Budapeszt",
@@ -543,6 +617,12 @@
                 }
             },
             "zamek-orawski": {
+                "alt": {
+                    "1": "Zamek Orawski z drona przy zachodzie słońca",
+                    "2": "Zamek porośnięty roślinnością",
+                    "3": "Zamek Orawski wkomponowujący się w naturalne skały",
+                    "4": "Zamek Orawski przy drzewach"
+                },
                 "header": "Zamek Orawski",
                 "header2": "Co oferujemy?",
                 "header3": "Poznaj Budapeszt",
@@ -568,6 +648,12 @@
                 }
             },
             "dookola-tatr": {
+                "alt": {
+                    "1": "Zamek Orawski przy drzewach",
+                    "2": "Zamek Orawski z drona przy zachodzie słońca",
+                    "3": "Jaskinia Demianowska w środku",
+                    "4": "Naturalne kształy Jaskini Demianowskiej"
+                },
                 "header": "Dookoła Tatr",
                 "header2": "Co oferujemy?",
                 "text": "Zamek Orawski Wzniesiony w XIII wieku na potężnej, wysokiej na 112 metrów skale Zamek Orawski, jest najoryginalniej położonym obiektem na Słowacji. Przebudowywany i rozbudowywany na przestrzeni kilkuset lat, dziś stanowi świetny przykład różnych technik budownictwa obronnego. Zamek pierwotnie był siedzibą właścicieli Orawy. W 1868 roku utworzono w nim pierwszą na ziemiach słowackich ekspozycję muzealną. Funkcje muzealne zamek pełni do dziś. Podczas zwiedzania zobaczą państwo ekspozycje o charakterze historycznym, archeologicznym i etnograficznym. Zwieńczeniem przechadzki po muzeum, będzie wejście do najwyżej położonych komnat zamkowych. Jaskinia Demianowska Wolności - O atrakcyjności Jaskini Demianowskiej Wolności, niech świadczy fakt, iż jest to najczęściej odwiedzana jaskinia Słowacji. Wielokolorowe formy naciekowe o zróżnicowanych kształtach, tufowe jeziorka i podziemna rzeka sprawiają, że obiekt ten uznawany jest za jedną z najpiękniejszych jaskiń w Europie.",
@@ -605,6 +691,13 @@
                 }
             },
             "rafting-po-dunajcu": {
+                "alt": {
+                    "1": "Uczestnicy raftingu w kaskach podczas przejazdu",
+                    "2": "Cudowna zieloona okolica podczas raftingu",
+                    "3": "Jaskinia Demianowska w środku",
+                    "4": "Naturalne kształy Jaskini Demianowskiej",
+                    "5": "Naturalne kształy Jaskini Demianowskiej"
+                },
                 "header": "Rafting po Dunajcu",
                 "header2": "Co oferujemy?",
                 "header3": "Co zobaczysz?",
@@ -790,6 +883,13 @@
             "3": "Kulig w Wieczór Sylwestrowy",
             "button": "Wybierz"
         },
+        "alt": {
+            "1": "Góralski kulig w saniach przez zaśnieżoną dolinę",
+            "2": "Widok na zaśnieżone góry podczas kuligu",
+            "3": "Tradycyjne sanie góralskie ciągnięte przez konie",
+            "4": "Grupa turystów w saniach podczas wieczornego kuligu",
+            "5": "Uczestnicy kuligu z pochodniami w górskiej scenerii,"
+        },
         "koscielisko": {
             "header": "Góralski Kulig Kościelisko",
             "header2": "Co oferujemy?",
@@ -895,9 +995,19 @@
         "header2": "na bezpieczne i komfortowe podróżowanie. Zapraszamy do kontaktu i wspólnych kilometrów!",
         "header3": "Twój Sposób",
         "text2": "Dokładamy wszelkich starań aby każde zlecenie było wykonane należycie i spełniało oczekiwania naszych Klientów. Priorytetem pracy zespołu jest zadowolenie Klienta oraz wysoka jakość świadczonych usług. Nasi kierowcy to doświadczeni pracownicy, zapewniający pełen profesjonalizm oraz odpowiednie umiejętności. Dzięki wieloletniemu doświadczeniu w transporcie, organizowany przez nas przewóz osób to komfortowa i bezpieczna podróż. Obowiązkowo zapewniamy terminowość oraz atrakcyjne ceny. Każdy zlecający ma inne oczekiwania i potrzeby, dlatego zawsze dopasowujemy nasze usługi do indywidualnych wymagań. Nasze pojazdy posiadają wszelkie niezbędne zezwolenia oraz pełne wyposażenie umożliwiające bezproblemowe wyjazdy zagraniczne, co gwarantuje bezpieczeństwo i wygodę podróżnych podczas każdej trasy.",
-        "button": "Mapa Przystanków"
+        "button": "Mapa Przystanków",
+        "alt": {
+            "1": "Bus ze śladem przejechanej trasy",
+            "2": "Granatowy bus na tle gór pokrytych śniegiem",
+            "3": "Autobus na parkingu",
+            "4": "Srebrny Autobus firmy Majer",
+            "5": "Bus na parkingu, a w tle termy"
+        }
     },
     "pickup": {
+        "alt": {
+            "1": "Telefon w ręce z włączoną aplikację mapy przystanków Trio Travel"
+        },
         "header": "Mapa Przystanków",
         "header2": "Miejsce Spotkań - Punkty odbioru na terenie Zakopanego i okolic",
         "header3": "Dlaczego warto wybrać nasze punkty odbioru?",

@@ -34,6 +34,7 @@ export async function generateMetadata({ params }) {
 
 export default function Koscielisko() {
   const t = useTranslations("kuligi.koscielisko");
+  const a = useTranslations("kuligi.alt");
   const tableHeaders = [t("table.header1"), t("table.header2")];
 
   const tableRows = [
@@ -106,12 +107,11 @@ export default function Koscielisko() {
 
       <Gallery
         images={[
-          { url: "/kuligi/goralski/1.jpg", alt: "First image" },
-          { url: "/kuligi/goralski/2.jpg", alt: "Second image" },
-          { url: "/kuligi/goralski/3.jpg", alt: "Third image" },
-          { url: "/kuligi/goralski/4.jpg", alt: "Fourth image" },
-          { url: "/kuligi/goralski/5.jpg", alt: "Fifth image" },
-          { url: "/kuligi/goralski/6.jpg", alt: "Sixth image" },
+          { url: "/kuligi/photos/1.jpg", alt: a("1") },
+          { url: "/kuligi/photos/2.jpg", alt: a("2") },
+          { url: "/kuligi/photos/3.jpg", alt: a("3") },
+          { url: "/kuligi/photos/4.jpg", alt: a("4") },
+          { url: "/kuligi/photos/5.jpg", alt: a("5") },
         ]}
       />
     </>

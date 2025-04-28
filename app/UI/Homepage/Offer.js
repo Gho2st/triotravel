@@ -164,7 +164,7 @@ export default function Offer() {
         >
           {gallery.map((image, index) => (
             <Link href={image.link} key={index} className="keen-slider__slide">
-              <div className="shadow-xl bg-white text-center rounded-xl hover:cursor-pointer group h-[350px] md:h-[450px] flex flex-col">
+              <div className="bg-white text-center rounded-xl hover:cursor-pointer group h-[350px] md:h-[450px] flex flex-col">
                 <div className="relative w-full aspect-[4/3] overflow-hidden rounded-t-xl">
                   <Image
                     src={image.url}
@@ -198,7 +198,7 @@ export default function Offer() {
       </div>
 
       {/* DOTS */}
-      <div className="flex justify-center mt-8 gap-2">
+      <div className="flex justify-center mt-12 gap-2">
         {Array.from({ length: slideCount }).map((_, idx) => (
           <button
             key={idx}

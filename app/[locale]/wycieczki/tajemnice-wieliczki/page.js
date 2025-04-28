@@ -12,7 +12,10 @@ import { routing } from "@/i18n/routing";
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
   const { locale } = resolvedParams;
-  const t = await getTranslations({ locale, namespace: "metadata.tajemnice-wieliczki" });
+  const t = await getTranslations({
+    locale,
+    namespace: "metadata.tajemnice-wieliczki",
+  });
 
   const path = routing.pathnames["/wycieczki/tajemnice-wieliczki"][locale]; // Pobieramy ścieżkę dla języka
   // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
@@ -61,7 +64,7 @@ export default function Wieliczka() {
           height={500}
           layout="responsive"
           className="object-cover"
-          alt="Basen termalny pełen wody na tle budynku Term Chochołowskich"
+          alt={t("alt.1")}
         />
       </div>
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
@@ -88,19 +91,19 @@ export default function Wieliczka() {
           images={[
             {
               url: "/wycieczki/tajemnice-wieliczki/1.png",
-              alt: "First image",
+              alt: t("alt.2"),
             },
             {
               url: "/wycieczki/tajemnice-wieliczki/2.png",
-              alt: "First image",
+              alt: t("alt.3"),
             },
             {
               url: "/wycieczki/tajemnice-wieliczki/3.png",
-              alt: "First image",
+              alt: t("alt.4"),
             },
             {
               url: "/wycieczki/tajemnice-wieliczki/4.png",
-              alt: "First image",
+              alt: t("alt.5"),
             },
           ]}
         />

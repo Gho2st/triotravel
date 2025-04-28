@@ -9,6 +9,33 @@ import Majer from "@/app/UI/Majer";
 import { useTranslations } from "next-intl";
 import TatryButtons from "./TatryButtons";
 
+import { getTranslations } from "next-intl/server";
+import { routing } from "@/i18n/routing";
+
+export async function generateMetadata({ params }) {
+  const resolvedParams = await params;
+  const { locale } = resolvedParams;
+  const t = await getTranslations({
+    locale,
+    namespace: "metadata.dookola-tatr",
+  });
+
+  const path = routing.pathnames["/wycieczki/dookola-tatr"][locale]; // Pobieramy ścieżkę dla języka
+  // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
+  const canonicalUrl =
+    locale === "pl"
+      ? `https://triotravel.pl${path}`
+      : `https://triotravel.pl/${locale}${path}`;
+
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: canonicalUrl,
+    },
+  };
+}
+
 export default function Tatry() {
   const t = useTranslations("offer.tripslist.dookola-tatr");
 
@@ -42,7 +69,7 @@ export default function Tatry() {
           height={500}
           layout="responsive"
           className="object-cover"
-          alt="Basen termalny pełen wody na tle budynku Term Chochołowskich"
+          alt={t("alt.1")}
         />
       </div>
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
@@ -67,20 +94,20 @@ export default function Tatry() {
         <Gallery
           images={[
             {
+              url: "/wycieczki/dookola-tatr/tatry.png",
+              alt: t("alt.1"),
+            },
+            {
               url: "/wycieczki/dookola-tatr/1.png",
-              alt: "First image",
+              alt: t("alt.2"),
             },
             {
               url: "/wycieczki/dookola-tatr/2.png",
-              alt: "First image",
+              alt: t("alt.3"),
             },
             {
               url: "/wycieczki/dookola-tatr/3.png",
-              alt: "First image",
-            },
-            {
-              url: "/wycieczki/dookola-tatr/4.png",
-              alt: "First image",
+              alt: t("alt.4"),
             },
           ]}
         />

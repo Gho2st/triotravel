@@ -65,7 +65,7 @@ export default function Rafting() {
           height={500}
           layout="responsive"
           className="object-cover"
-          alt="Basen termalny pełen wody na tle budynku Term Chochołowskich"
+          alt={t("alt.1")}
         />
       </div>
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
@@ -87,7 +87,7 @@ export default function Rafting() {
           <Table
             headers={tableHeaders}
             rows={tableRows}
-            text="* Cena obejmuje: Opiekę kierowcy, bilet na spływ, wstęp do PPN oraz ubezpieczenie NNW "
+            text={t("table.text")}
           />
         </div>
         <div className="mt-16">
@@ -102,19 +102,19 @@ export default function Rafting() {
           images={[
             {
               url: "/wycieczki/rafting-po-dunajcu/1.png",
-              alt: "First image",
+              alt: t("alt.2"),
             },
             {
               url: "/wycieczki/rafting-po-dunajcu/2.png",
-              alt: "First image",
+              alt: t("alt.3"),
             },
             {
               url: "/wycieczki/rafting-po-dunajcu/3.png",
-              alt: "First image",
+              alt: t("alt.4"),
             },
             {
               url: "/wycieczki/rafting-po-dunajcu/4.png",
-              alt: "First image",
+              alt: t("alt.5"),
             },
           ]}
         />

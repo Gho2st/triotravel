@@ -45,6 +45,10 @@
         "button2": "More"
     },
     "about": {
+        "alt": {
+            "1": "People on a raft during a river ride on the Dunajec River",
+            "2": "Orava Castle on a hill"
+        },
         "header1": "Trio Travel - Your Travel Agency in Zakopane for Unforgettable Trips",
         "text": "We know Zakopane like the back of our hand, and nothing is impossible for us!",
         "text2": "We have extensive experience in organizing various tourist projects, themed events, and transportation."
@@ -72,6 +76,13 @@
         },
         "tripslist": {
             "biesiada": {
+                "alt": {
+                    "1": "View of the picturesque Kościeliska Valley trail",
+                    "2": "People walking along the trail",
+                    "3": "Forest stream",
+                    "4": "Trail running alongside rock formations",
+                    "5": "Wayside shrine among the trees"
+                },
                 "header": "Highlander Feast",
                 "header2": "Highlander Fun - An Unforgettable Party in Podhale Style",
                 "header3": "Attraction Description:",
@@ -107,6 +118,12 @@
                     "4": "Reduced round-trip",
                     "text": "* Ticket prices may vary depending on the time."
                 },
+                "alt": {
+                    "1": "Cable car to Kasprowy Wierch",
+                    "2": "Snow-covered peak of Kasprowy Wierch",
+                    "3": "Green peak with a building",
+                    "4": "Mountains in the background of Kasprowy Wierch"
+                },
                 "buttons": {
                     "1": "Notes",
                     "2": "Information",
@@ -118,6 +135,13 @@
                 }
             },
             "splyw-dunajcem-dluzszy": {
+                "alt": {
+                    "1": "Wooden rafting on the Dunajec River amidst nature",
+                    "2": "Raft with boatmen and participants against a backdrop of green peaks",
+                    "3": "Two rafts during a Dunajec river float",
+                    "4": "Four rafts with boatmen and participants on the Dunajec River",
+                    "5": "Wooden church in Dębno"
+                },
                 "header": "Dunajec River Rafting 2.5h",
                 "header2": "What We Offer?",
                 "header3": "Pieniny Trip: Rafting and Niedzica",
@@ -156,6 +180,9 @@
                     "text2": "The winding path he took was said to have formed the Dunajec Gorge. Other highlanders say that King Bolesław Chrobry himself carved the river's outlet.",
                     "cta": "Want to know more?",
                     "more": {
+                        "alt": {
+                            "1": "Dunajec River Gorge with view of traditional Polish timber rafts"
+                        },
                         "header": "Fun Facts About Dunajec Rafting",
                         "header2": "Legends and Secrets of the Dunajec Gorge!",
                         "text": "Was it the knight Ferkowicz chasing the king of snakes, or did Bolesław Chrobry carve the river's outlet? Discover the legends and secrets of the Dunajec Gorge!",
@@ -302,6 +329,13 @@
                 }
             },
             "termy": {
+                "alt": {
+                    "1": "Thermal pool filled with water with Termy Chochołowskie building in the background",
+                    "2": "Jacuzzi pools with bubbles",
+                    "3": "Termy Chochołowskie building exterior",
+                    "4": "Atmospheric evening lighting of the pools",
+                    "5": "Wooden benches with a view"
+                },
                 "header": "Chochołowskie Thermal Baths",
                 "header2": "Relax",
                 "header3": "In the pool area, you will find:",
@@ -322,6 +356,13 @@
                 }
             },
             "spacer-w-koronach-drzew": {
+                "alt": {
+                    "1": "Wooden treetop walkway",
+                    "2": "Drone view of the treetop walkway with massive mountains in the background",
+                    "3": "Bachledka mountain chairlift",
+                    "4": "Štrbské Pleso lake with mountains in the background",
+                    "5": "Nature by Štrbské Pleso lake"
+                },
                 "header": "Treetop Walk",
                 "header2": "Discover the Beauty of Nature",
                 "header3": "More Information",
@@ -354,6 +395,12 @@
                 }
             },
             "jaskinia-bielanska": {
+                "alt": {
+                    "1": "Sunlight piercing into Bielańska Cave",
+                    "2": "Inside view of the cave",
+                    "3": "Illuminated Bielańska Cave",
+                    "4": "Cave entrance with a sign"
+                },
                 "header": "Bielańska Cave",
                 "header2": "What We Offer?",
                 "header3": "Trip Description",
@@ -391,6 +438,13 @@
                 }
             },
             "wieliczka": {
+                "alt": {
+                    "1": "Tunnel with wooden walls in the Wieliczka Salt Mine",
+                    "2": "Amazing salt sculptures inside the mine",
+                    "3": "Salt-carved artwork on the mine wall",
+                    "4": "Exhibition of salt artifacts",
+                    "5": "Historic wooden mining mechanisms"
+                },
                 "header": "Secrets of Wieliczka",
                 "header2": "What We Offer?",
                 "header3": "Trip Description",
@@ -416,6 +470,13 @@
                 }
             },
             "slowacki-raj": {
+                "alt": {
+                    "1": "People posing for photos at a viewpoint",
+                    "2": "Wooden cabins by the water",
+                    "3": "Ladder by a mini waterfall",
+                    "4": "Trail along rocks and a stream",
+                    "5": "Cliffside trail suspended above water"
+                },
                 "header": "Slovak Paradise",
                 "header2": "What We Offer?",
                 "header3": "Trip Description",
@@ -447,6 +508,13 @@
                 }
             },
             "wieden": {
+                "alt": {
+                    "1": "Schönbrunn Palace",
+                    "2": "Beautiful architectural detail of a tall building",
+                    "3": "Historic tram in Vienna",
+                    "4": "View of magnificent green gardens and palace near the monument",
+                    "5": "Vienna city panorama"
+                },
                 "header": "Vienna",
                 "header2": "What We Offer?",
                 "header3": "Discover Vienna",
@@ -494,6 +562,12 @@
                 }
             },
             "budapeszt": {
+                "alt": {
+                    "1": "Building of the famous Hungarian Parliament in Budapest",
+                    "2": "Monumental Fisherman's Bastion historical landmark",
+                    "3": "Matthias Church",
+                    "4": "Historic tram"
+                },
                 "header": "Budapest",
                 "header2": "What We Offer?",
                 "header3": "Discover Budapest",
@@ -543,6 +617,12 @@
                 }
             },
             "zamek-orawski": {
+                "alt": {
+                    "1": "Orava Castle at sunset - drone view",
+                    "2": "Castle overgrown with vegetation",
+                    "3": "Orava Castle blending with natural rock formations",
+                    "4": "Orava Castle surrounded by trees"
+                },
                 "header": "Orava Castle",
                 "header2": "What We Offer?",
                 "header3": "Discover Budapest",
@@ -568,6 +648,12 @@
                 }
             },
             "dookola-tatr": {
+                "alt": {
+                    "1": "Orava Castle among the trees",
+                    "2": "Aerial view of Orava Castle at sunset",
+                    "3": "Interior of Demänovská Cave",
+                    "4": "Natural rock formations in Demänovská Cave"
+                },
                 "header": "Around the Tatra Mountains",
                 "header2": "What We Offer?",
                 "text": "Orava Castle Built in the 13th century on a massive 112-meter-high rock, Orava Castle is the most originally located object in Slovakia. Rebuilt and expanded over several hundred years, today it is an excellent example of various techniques of defensive architecture. The castle was originally the seat of the owners of Orava. In 1868, the first museum exhibition on Slovak lands was created here. The castle serves museum functions to this day. During the tour, you will see historical, archaeological, and ethnographic exhibitions. The highlight of the walk through the museum will be entering the highest castle chambers. Demänovská Cave of Liberty - The attractiveness of Demänovská Cave of Liberty is evidenced by the fact that it is the most visited cave in Slovakia. Multicolored dripstone formations of various shapes, tufa lakes, and an underground river make this object one of the most beautiful caves in Europe.",
@@ -605,6 +691,13 @@
                 }
             },
             "rafting-po-dunajcu": {
+                "alt": {
+                    "1": "Rafting participants wearing helmets during the ride",
+                    "2": "Beautiful green surroundings during rafting",
+                    "3": "Two groups of participants enjoying rafting",
+                    "4": "Smiling faces with water in the background",
+                    "5": "Participants battling the water"
+                },
                 "header": "Dunajec Rafting",
                 "header2": "What We Offer?",
                 "header3": "What Will You See?",
@@ -790,6 +883,13 @@
             "3": "New Year's Eve Sleigh Ride",
             "button": "Choose"
         },
+        "alt": {
+            "1": "Highland sleigh ride through a snow-covered valley",
+            "2": "View of snow-covered mountains during a sleigh ride",
+            "3": "Traditional highland sleigh pulled by horses",
+            "4": "Group of tourists in a sleigh during an evening ride",
+            "5": "Sleigh ride participants with torches in a mountain scenery"
+        },
         "koscielisko": {
             "header": "Highlander Sleigh Ride Kościelisko",
             "header2": "What We Offer?",
@@ -895,9 +995,19 @@
         "header2": "for safe and comfortable travel. We invite you to contact us and share the miles!",
         "header3": "Your Way",
         "text2": "We make every effort to ensure that each order is carried out properly and meets the expectations of our clients. The team's priority is customer satisfaction and the high quality of services provided. Our drivers are experienced employees, ensuring full professionalism and appropriate skills. Thanks to many years of experience in transport, the passenger transport we organize is a comfortable and safe journey. We guarantee punctuality and attractive prices. Each client has different expectations and needs, so we always tailor our services to individual requirements. Our vehicles have all the necessary permits and full equipment enabling trouble-free international trips, ensuring the safety and comfort of passengers during each route.",
-        "button": "Pickup Points Map"
+        "button": "Pickup Points Map",
+        "alt": {
+            "1": "Bus with a trace of the driven route",
+            "2": "Navy blue bus against a backdrop of snow-covered mountains",
+            "3": "Bus in a parking lot",
+            "4": "Silver Bus by Majer company",
+            "5": "Bus in a parking lot with a thermal spa in the background"
+        }
     },
     "pickup": {
+        "alt": {
+            "1": "Phone in hand with the Trio Travel stop map app open"
+        },
         "header": "Pickup Points Map",
         "header2": "Meeting Points - Pickup locations in Zakopane and surrounding areas",
         "header3": "Why choose our pickup points?",

@@ -34,7 +34,7 @@ export default function Ciekawostki() {
           height={500}
           layout="responsive"
           className="object-cover"
-          alt="Przełom Dunajca z widokiem na tratwy flisackie"
+          alt={t("alt.1")}
         />
       </div>
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">

@@ -11,7 +11,10 @@ import { routing } from "@/i18n/routing";
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
   const { locale } = resolvedParams;
-  const t = await getTranslations({ locale, namespace: "metadata.dolina-chocholowska" });
+  const t = await getTranslations({
+    locale,
+    namespace: "metadata.dolina-chocholowska",
+  });
 
   const path = routing.pathnames["/kuligi/dolina-chocholowska"][locale]; // Pobieramy ścieżkę dla języka
   // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
@@ -31,6 +34,7 @@ export async function generateMetadata({ params }) {
 
 export default function Dolina() {
   const t = useTranslations("kuligi.dolina");
+  const a = useTranslations("kuligi.alt");
   // Przykładowe dane dla tabeli
   const tableHeaders = [
     t("table.header1"),
@@ -103,12 +107,11 @@ export default function Dolina() {
       </section>
       <Gallery
         images={[
-          { url: "/kuligi/goralski/1.jpg", alt: "First image" },
-          { url: "/kuligi/goralski/2.jpg", alt: "2 image" },
-          { url: "/kuligi/goralski/3.jpg", alt: "3 image" },
-          { url: "/kuligi/goralski/4.jpg", alt: "4 image" },
-          { url: "/kuligi/goralski/5.jpg", alt: "5 image" },
-          { url: "/kuligi/goralski/6.jpg", alt: "6 image" },
+          { url: "/kuligi/photos/1.jpg", alt: a("1") },
+          { url: "/kuligi/photos/2.jpg", alt: a("2") },
+          { url: "/kuligi/photos/3.jpg", alt: a("3") },
+          { url: "/kuligi/photos/4.jpg", alt: a("4") },
+          { url: "/kuligi/photos/5.jpg", alt: a("5") },
         ]}
       />
     </>

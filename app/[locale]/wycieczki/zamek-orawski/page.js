@@ -64,7 +64,7 @@ export default function Zamek() {
           height={500}
           layout="responsive"
           className="object-cover"
-          alt="Basen termalny pełen wody na tle budynku Term Chochołowskich"
+          alt={t("alt.1")}
         />
       </div>
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
@@ -91,20 +91,20 @@ export default function Zamek() {
         <Gallery
           images={[
             {
+              url: "/wycieczki/zamek-orawski/zamek-orawski.png",
+              alt: t("alt.1"),
+            },
+            {
               url: "/wycieczki/zamek-orawski/1.png",
-              alt: "First image",
+              alt: t("alt.2"),
             },
             {
               url: "/wycieczki/zamek-orawski/2.png",
-              alt: "First image",
+              alt: t("alt.3"),
             },
             {
               url: "/wycieczki/zamek-orawski/3.png",
-              alt: "First image",
-            },
-            {
-              url: "/wycieczki/zamek-orawski/4.png",
-              alt: "First image",
+              alt: t("alt.4"),
             },
           ]}
         />

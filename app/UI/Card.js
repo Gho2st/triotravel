@@ -14,8 +14,6 @@ export default function Card({ article, index }) {
         />
       </div>
       <div className="flex flex-col justify-between 2xl:justify-center 2xl:gap-10 2xl:w-2/3 p-2 text-center min-h-[200px]">
-        {" "}
-        {/* Dodano min-h-[200px] */}
         <h3 className="text-2xl sm:text-3xl font-semibold text-gray-800 mb-6">
           {article.title}
         </h3>

@@ -14,7 +14,10 @@ import { routing } from "@/i18n/routing";
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
   const { locale } = resolvedParams;
-  const t = await getTranslations({ locale, namespace: "metadata.splyw-dunajcem-dluzszy" });
+  const t = await getTranslations({
+    locale,
+    namespace: "metadata.splyw-dunajcem-dluzszy",
+  });
 
   const path = routing.pathnames["/wycieczki/splyw-dunajcem-dluzszy"][locale]; // Pobieramy ścieżkę dla języka
   // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
@@ -71,7 +74,7 @@ export default function SplywDluzszy() {
           height={500}
           layout="responsive"
           className="object-cover"
-          alt="Spływ tratwami drewnianymi na rzece Dunajec w obliczu natury"
+          alt={t("alt.1")}
         />
       </div>
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
@@ -106,11 +109,11 @@ export default function SplywDluzszy() {
           images={[
             {
               url: "/wycieczki/splyw-dunajcem-dluzszy/1.jpg",
-              alt: "First image",
+              alt: t("alt.2"),
             },
-            { url: "/wycieczki/splyw-dunajcem-dluzszy/2.jpg", alt: "2 image" },
-            { url: "/wycieczki/splyw-dunajcem-dluzszy/3.png", alt: "3 image" },
-            { url: "/wycieczki/splyw-dunajcem-dluzszy/4.jpg", alt: "4 image" },
+            { url: "/wycieczki/splyw-dunajcem-dluzszy/2.jpg", alt: t("alt.2") },
+            { url: "/wycieczki/splyw-dunajcem-dluzszy/3.png", alt: t("alt.2") },
+            { url: "/wycieczki/splyw-dunajcem-dluzszy/4.jpg", alt: t("alt.2") },
           ]}
         />
       </div>

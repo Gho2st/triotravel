@@ -8,7 +8,10 @@ import { routing } from "@/i18n/routing";
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
   const { locale } = resolvedParams;
-  const t = await getTranslations({ locale, namespace: "metadata.mapa-przystankow" });
+  const t = await getTranslations({
+    locale,
+    namespace: "metadata.mapa-przystankow",
+  });
 
   const path = routing.pathnames["/mapa-przystankow"][locale]; // Pobieramy ścieżkę dla języka
   // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy

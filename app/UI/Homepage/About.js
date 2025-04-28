@@ -21,7 +21,7 @@ export default function About() {
             width={100}
             height={100}
             layout="responsive"
-            alt="1"
+            alt={t("alt.1")}
             className="rounded-2xl"
           />
         </div>
@@ -33,7 +33,7 @@ export default function About() {
             width={100}
             height={100}
             layout="responsive"
-            alt="2"
+            alt={t("alt.2")}
             className="rounded-2xl"
           />
         </div>
