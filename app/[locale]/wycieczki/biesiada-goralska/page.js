@@ -6,19 +6,15 @@ import Table from "@/app/UI/Table";
 import Gallery from "@/app/UI/Slider";
 import { useTranslations } from "next-intl";
 import TripProgram from "@/app/UI/TripProgram";
-
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
   const { locale } = resolvedParams;
-  const t = await getTranslations({
-    locale,
-    namespace: "metadata.biesiada-goralska",
-  });
+  const t = await getTranslations({ locale, namespace: "metadata.biesiada-goralska" });
 
-  const path = routing.pathnames["/biesiada-goralska"][locale]; // Pobieramy ścieżkę dla języka
+  const path = routing.pathnames["/wycieczki/biesiada-goralska"][locale]; // Pobieramy ścieżkę dla języka
   // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
   const canonicalUrl =
     locale === "pl"

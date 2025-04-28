@@ -1,10 +1,10 @@
 "use client";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import "keen-slider/keen-slider.min.css";
+import { useKeenSlider } from "keen-slider/react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
+import { useEffect, useRef, useState } from "react";
 
 // Sample gallery data
 const gallery = [
@@ -85,48 +85,50 @@ const gallery = [
     link: "/wycieczki/rafting-po-dunajcu",
   },
 ];
-
 export default function Offer() {
   const t = useTranslations("offer");
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const [slideCount, setSlideCount] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
 
-  const carouselSettings = {
-    infinite: true,
-    speed: 800,
-    lazyLoad: "progressive",
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 6000,
-    cssEase: "linear",
-    initialSlide: 0,
-    centerMode: true,
-    dots: true,
-    responsive: [
-      {
-        breakpoint: 1334,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 1150,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 800,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          centerMode: false,
-          dots: false,
-          arrows: false,
-        },
-      },
-    ],
+  const [sliderRef, slider] = useKeenSlider({
+    loop: true,
+    mode: "snap",
+    slides: {
+      perView: 3,
+      spacing: 16,
+    },
+    breakpoints: {
+      "(max-width: 1334px)": { slides: { perView: 3, spacing: 16 } },
+      "(max-width: 1150px)": { slides: { perView: 2, spacing: 16 } },
+      "(max-width: 800px)": { slides: { perView: 1, spacing: 12 } },
+    },
+    created(slider) {
+      setCurrentSlide(slider.track.details.rel);
+      setSlideCount(slider.track.details.slides.length);
+    },
+    slideChanged(slider) {
+      setCurrentSlide(slider.track.details.rel);
+    },
+    renderMode: "performance",
+    drag: true,
+    defaultAnimation: { duration: 800 },
+  });
+
+  useEffect(() => {
+    if (!slider) return;
+
+    const interval = setInterval(() => {
+      if (!isPaused) {
+        slider.current?.next();
+      }
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, [slider, isPaused]);
+
+  const pauseAutoplay = () => {
+    setIsPaused(true);
   };
 
   return (
@@ -136,35 +138,79 @@ export default function Offer() {
         <span className="transform -rotate-45 text-sm font-medium"></span>
       </div>
 
-      <h2 className="text-center font-semibold text-4xl md:text-5xl 2xl:text-6xl">
+      <h2 className="text-center pb-10 font-semibold text-4xl md:text-5xl 2xl:text-6xl">
         {t("header")}
       </h2>
-      <div>
-        <Slider
-          {...carouselSettings}
-          className="mx-auto my-10 xl:my-12 2xl:mt-20"
+
+      {/* STRZAŁKI */}
+      <div className="relative mt-10">
+        {/* Left Arrow */}
+        <button
+          onClick={() => {
+            slider.current?.prev();
+            pauseAutoplay();
+          }}
+          className="hidden cursor-pointer md:flex absolute top-1/2 -translate-y-1/2 -left-4 md:-left-14 z-10 p-3 rounded-full bg-red-500 hover:bg-red-600 text-white shadow-lg transition"
+        >
+          ◀
+        </button>
+
+        {/* SLIDER */}
+        <div
+          ref={sliderRef}
+          className="keen-slider mx-auto"
+          onMouseDown={pauseAutoplay}
+          onTouchStart={pauseAutoplay}
         >
           {gallery.map((image, index) => (
-            <Link href={image.link} key={index}>
-              <div className="shadow-xl text-center rounded-xl hover:cursor-pointer group h-[350px] md:h-[450px] flex flex-col">
-                <div className="relative w-full h-[250px] md:h-[350px] overflow-hidden rounded-t-xl">
+            <Link href={image.link} key={index} className="keen-slider__slide">
+              <div className="shadow-xl bg-white text-center rounded-xl hover:cursor-pointer group h-[350px] md:h-[450px] flex flex-col">
+                <div className="relative w-full aspect-[4/3] overflow-hidden rounded-t-xl">
                   <Image
                     src={image.url}
                     alt={image.alt}
                     fill
+                    priority={index < 2}
                     className="rounded-t-xl object-cover transition-transform duration-300 group-hover:scale-110 group-hover:-translate-y-2"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
                 </div>
                 <div className="flex-1 flex items-center justify-center px-2">
-                  <span className="text-xl py-3 font-semibold md:text-2xl transition-colors duration-300 group-hover:text-customBlue line-clamp-2">
+                  <span className="text-xl py-8 sm:py-0 2xl:py-10 font-semibold md:text-2xl transition-colors duration-300 group-hover:text-customBlue">
                     {t(image.alt)}
                   </span>
                 </div>
               </div>
             </Link>
           ))}
-        </Slider>
+        </div>
+
+        {/* Right Arrow */}
+        <button
+          onClick={() => {
+            slider.current?.next();
+            pauseAutoplay();
+          }}
+          className="hidden cursor-pointer md:flex absolute top-1/2 -translate-y-1/2 -right-4 md:-right-14 z-10 p-3 rounded-full bg-red-500 hover:bg-red-600 text-white shadow-lg transition"
+        >
+          ▶
+        </button>
+      </div>
+
+      {/* DOTS */}
+      <div className="flex justify-center mt-8 gap-2">
+        {Array.from({ length: slideCount }).map((_, idx) => (
+          <button
+            key={idx}
+            onClick={() => {
+              slider.current?.moveToIdx(idx);
+              pauseAutoplay();
+            }}
+            className={`w-3 h-3 rounded-full ${
+              currentSlide === idx ? "bg-red-500 scale-125" : "bg-gray-300"
+            } transition-all`}
+          />
+        ))}
       </div>
     </section>
   );

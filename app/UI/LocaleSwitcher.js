@@ -61,7 +61,7 @@ export default function LocaleSwitcher() {
       </button>
 
       {isOpen && (
-        <div className="absolute top-full mt-1 w-24 rounded-lg bg-white shadow-lg border border-gray-200 z-10">
+        <div className="absolute top-full mt-1 w-24 rounded-lg bg-white shadow-lg border border-gray-200 z-30">
           {routing.locales.map((cur) => (
             <button
               key={cur}

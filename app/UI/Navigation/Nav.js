@@ -148,7 +148,7 @@ export default function Nav() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: "-100%" }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="fixed inset-0 z-50 bg-gradient-to-b from-white to-gray-50 text-black overflow-y-auto mt-24 shadow-xl"
+            className="fixed inset-0 z-20 bg-gradient-to-b from-white to-gray-50 text-black overflow-y-auto mt-24 shadow-xl"
           >
             <div className="container mx-auto">
               <ul className="pt-10 px-6 pb-8 flex flex-col text-base font-semibold min-h-screen gap-2">
