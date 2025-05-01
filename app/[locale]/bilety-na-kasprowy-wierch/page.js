@@ -6,6 +6,7 @@ import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import KasprowyComponent from "./Kasprowy";
 import CtaLink from "@/app/UI/CtaLink";
+import BackgroundList from "@/app/UI/BackgroundList";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -31,6 +32,14 @@ export async function generateMetadata({ params }) {
 export default function Kasprowy() {
   const t = useTranslations("offer.tripslist.kasprowy");
 
+  const customItems = [
+    t("list.1"),
+    t("list.2"),
+    t("list.3"),
+    t("list.4"),
+    t("list.5"),
+  ];
+
   return (
     <>
       <Header text={t("header")} />
@@ -41,6 +50,9 @@ export default function Kasprowy() {
           fill
           alt="kolejka jadąca na Kasprowy Wierch"
         />
+      </div>
+      <div className="flex justify-center mt-16">
+        <BackgroundList title={t("list.header")} items={customItems} />
       </div>
       {/* tabelka i przyciski  */}
       <KasprowyComponent />
