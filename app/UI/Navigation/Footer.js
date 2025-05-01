@@ -73,7 +73,7 @@ export default function Footer() {
             </div>
           </div>
           <div>
-            <div className="flex justify-center  w-1/2 md:w-1/1 mx-auto">
+            <div className="flex justify-center  w-1/2 md:w-2/3 mx-auto">
               <Image
                 alt="logo"
                 src={"/logo/logo.png"}
