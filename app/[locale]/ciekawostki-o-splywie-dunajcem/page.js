@@ -2,7 +2,7 @@ import Header from "@/app/UI/Header";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import LineHeader from "@/app/UI/LineHeader";
-import Button from "@/app/UI/Buttons/Button";
+import CtaLink from "@/app/UI/CtaLink";
 
 // Komponent pojedynczej karty
 const FunFactCard = ({ header, text }) => (
@@ -53,16 +53,8 @@ export default function Ciekawostki() {
           )}
         </div>
         {/* CTA */}
-        <div className="text-center mt-16 md:mt-24 bg-customRed p-10 text-white rounded-2xl shadow-2xl">
-          <h2 className="font-semibold text-2xl md:text-3xl xl:text-4xl">
-            {t("cta.header")}
-          </h2>
-          <p className="my-8 xl:my-12 font-medium md:text-lg xl:text-xl">
-            {t("cta.text")}
-          </p>
-          <Button text={t("cta.button")} link="/rezerwacje" />
-        </div>
       </section>
+      <CtaLink />
     </>
   );
 }

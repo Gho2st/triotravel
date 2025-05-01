@@ -285,11 +285,6 @@
                         "header": "Ciekawostki o Spływie Dunajcem",
                         "header2": "Legendy i sekrety Przełomu Dunajca!",
                         "text": "Czy to rycerz Ferkowicz gonił króla węży, czy Bolesław Chrobry wybił ujście rzece? Poznaj legendy i sekrety Przełomu Dunajca!",
-                        "cta": {
-                            "header": "Zarezerwuj spływ już dziś!",
-                            "text": "Przeżyj niezapomnianą przygodę w sercu Pienin. Zarezerwuj miejsce na spływie Dunajcem!",
-                            "button": "Zarezerwuj teraz"
-                        },
                         "cards": {
                             "1": {
                                 "header": "Przełom Dunajca – cud natury",
@@ -838,7 +833,12 @@
     },
     "cta": {
         "header": "Kasprowy Wierch",
-        "text": "Kup bilety już teraz"
+        "text": "Kup bilety już teraz",
+        "trips": {
+            "header": "Zarezerwuj już dziś!",
+            "text": "Odkryj niezapomniane miejsca z Trio Travel! Gwarantujemy wyjątkowe przeżycia, komfort podróży i profesjonalną opiekę na każdym kroku. Nie czekaj – najlepsze terminy szybko znikają!",
+            "button": "Zarezerwuj teraz"
+        }
     },
     "info": {
         "header": "Regulamin Wyjazdów Trio Travel do pobrania",
