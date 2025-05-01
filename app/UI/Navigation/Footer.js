@@ -9,6 +9,8 @@ import { IoIosArrowUp } from "react-icons/io";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Info from "../Info";
+import { FaWhatsapp } from "react-icons/fa";
+
 import { useTranslations } from "next-intl";
 
 export default function Footer() {
@@ -80,7 +82,7 @@ export default function Footer() {
                 layout="responsive"
               />
             </div>
-            <div className="flex mt-10 text-3xl md:text-4xl justify-center gap-16 md:gap-24">
+            <div className="flex mt-10 text-2xl md:text-3xl xl:text-4xl justify-center gap-16">
               <Link
                 href={"https://www.facebook.com/TrioTravel"}
                 className=" transition-all duration-200 hover:scale-110 rounded-2xl"
@@ -92,6 +94,12 @@ export default function Footer() {
                 className=" transition-all duration-200 hover:scale-110 rounded-2xl"
               >
                 <FaInstagram className="" />
+              </Link>
+              <Link
+                href={"https://wa.me/+48881201205"}
+                className=" transition-all duration-200 hover:scale-110 rounded-2xl"
+              >
+                <FaWhatsapp className="" />
               </Link>
               <Link
                 href={"mailto:biuro@triotravel.eu"}
