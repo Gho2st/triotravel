@@ -8,6 +8,7 @@ import { useTranslations } from "next-intl";
 import ButtonComponent from "./ButtonComponent";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import CtaLink from "@/app/UI/CtaLink";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -110,6 +111,7 @@ export default function SlowackiRaj() {
           ]}
         />
       </div>
+      <CtaLink />
     </>
   );
 }

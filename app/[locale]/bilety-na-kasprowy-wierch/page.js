@@ -5,6 +5,7 @@ import Gallery from "@/app/UI/Slider";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import KasprowyComponent from "./Kasprowy";
+import CtaLink from "@/app/UI/CtaLink";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -53,6 +54,7 @@ export default function Kasprowy() {
           ]}
         />
       </div>
+      <CtaLink />
     </>
   );
 }
