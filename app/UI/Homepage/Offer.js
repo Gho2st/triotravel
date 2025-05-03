@@ -150,7 +150,7 @@ export default function Offer() {
             slider.current?.prev();
             pauseAutoplay();
           }}
-          className="hidden cursor-pointer md:flex absolute top-1/2 -translate-y-1/2 -left-4 md:-left-14 z-10 p-3 rounded-full bg-red-500 hover:bg-red-600 text-white shadow-lg transition"
+          className="hidden cursor-pointer md:flex absolute top-1/2 -translate-y-1/2 -left-4 md:-left-14 z-10 p-2 px-3 rounded-full bg-red-500 hover:bg-red-600 text-white shadow-lg transition"
         >
           ◀
         </button>
@@ -191,7 +191,7 @@ export default function Offer() {
             slider.current?.next();
             pauseAutoplay();
           }}
-          className="hidden cursor-pointer md:flex absolute top-1/2 -translate-y-1/2 -right-4 md:-right-14 z-10 p-3 rounded-full bg-red-500 hover:bg-red-600 text-white shadow-lg transition"
+          className="hidden cursor-pointer md:flex absolute top-1/2 -translate-y-1/2 -right-4 md:-right-14 z-10 p-2 px-3 rounded-full bg-red-500 hover:bg-red-600 text-white shadow-lg transition"
         >
           ▶
         </button>
