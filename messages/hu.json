@@ -1,0 +1,1182 @@
+{
+    "nav": {
+        "links": {
+            "link1": "Kirándulások",
+            "link2": "Lovasszán túrák",
+            "link3": "Jegyek a Kasprowyra",
+            "link4": "Szállítás",
+            "link5": "Partnerek",
+            "link6": "Kapcsolat"
+        },
+        "button": "Vásárlás online"
+    },
+    "footer": {
+        "hours": {
+            "header": "Nyitvatartási idő",
+            "1": "Hétfő - Péntek",
+            "2": "Szombat - Vasárnap"
+        },
+        "contact": {
+            "header": "Kapcsolatfelvétel"
+        }
+    },
+    "welcome": "Üdvözlünk az oldalon!",
+    "notfound": {
+        "title": "404 - Az oldal nem található",
+        "text": "PS: Gyakran elgépelés vagy az oldal címének apró megváltozása okozza ezt a hibát...",
+        "button": "Főoldal"
+    },
+    "error": {
+        "title": "Valami hiba történt!",
+        "text": "Sajnáljuk, probléma történt. Próbáld meg később újra, vagy lépj velünk kapcsolatba, ha a hiba ismétlődik.",
+        "button": "Próbáld újra"
+    },
+    "hero": {
+        "headers": {
+            "header1": "Tutajozás a Dunajecen?",
+            "header2": "Termálfürdők?",
+            "header3": "Jegyek a Kasprowyra?",
+            "header4": "Hegyi szállítás?",
+            "header5": "Hegyi lakoma?",
+            "header6": "Téli lovasszán túra?",
+            "header7": "Séta a lombkoronák között?"
+        },
+        "button": "Megnézem",
+        "button2": "Több"
+    },
+    "about": {
+        "alt": {
+            "1": "Emberek tutajon a Dunajec folyón",
+            "2": "Az Árva vára egy dombon"
+        },
+        "header1": "Trio Travel – Utazási Irodád Zakopanéban felejthetetlen kirándulásokra",
+        "text": "Zakopánét úgy ismerjük, mint a tenyerünket – szenvedéllyel és elkötelezettséggel osztjuk meg ügyfeleinkkel ennek a helynek az egyedi hangulatát. Nálunk nincs lehetetlen – minden kirándulást egyénileg igazítunk, hogy teljesítsük az elvárásaidat és maradandó élményeket nyújtsunk.",
+        "text2": "Több éves tapasztalatunkkal különféle turisztikai projektek teljes körű megszervezésére specializálódtunk – iskolai és céges kirándulásoktól kezdve, csapatépítő és tematikus rendezvényeken át, egészen a szállításig és eseménylogisztikáig. Legyen szó hegyi kalandról, pihentető hétvégéről vagy aktív túráról idegenvezetővel, a Trio Travel minden részletről gondoskodik."
+    },
+    "offer": {
+        "header": "2025 Tavaszi Ajánlat",
+        "trips": {
+            "header": "Kirándulások",
+            "1": "Tutajozás a Dunajecen 2,5 óra",
+            "2": "Chochołowi termálfürdők",
+            "3": "Séta a lombkoronák között",
+            "4": "Bélai-cseppkőbarlang",
+            "5": "Tutajozás a Dunajecen 1,5 óra",
+            "6": "Wieliczka titkai",
+            "7": "Jegyek a Kasprowy-csúcsra",
+            "8": "Szlovák Paradicsom",
+            "9": "Bécs",
+            "10": "Budapest",
+            "11": "Árva vára",
+            "12": "Jégtemplom a Hrebienokon",
+            "13": "Krakkó felfedezése",
+            "14": "A Tátra körül",
+            "15": "Rafting a Dunajecen",
+            "16": "Hegyi lakoma"
+        },
+        "tripslist": {
+            "biesiada": {
+                "alt": {
+                    "1": "Kilátás a festői Kościelisko-völgyi útvonalra",
+                    "2": "Sétálók az útvonalon",
+                    "3": "Patak az erdőben",
+                    "4": "Sziklák melletti ösvény",
+                    "5": "Kápolna a fák között"
+                },
+                "header": "Hegyi lakoma",
+                "header2": "Goral mulatságok – Felejthetetlen esemény Podhale stílusában",
+                "header3": "Programleírás:",
+                "text": "Meghívunk egy felejthetetlen hegyi lakomára! Éld át az autentikus kalandot a hegyek szívében – folklórral, zenével és finom ételekkel. Tánc a tábortűz körül, hegyi történetek és varázslatos hangulat vár rád. Csatlakozz hozzánk, és érezd meg a hegyi kultúra varázsát! Ne hagyd ki!",
+                "list": {
+                    "1": "Gorál lovaskocsis kirándulás – A vendégek hagyományos lovaskocsikba szállnak be, és elindulnak egy festői útvonalon a Kościelisko-völgy lábánál. Útközben rövid megállók lesznek kilátópontokon, ahol regionális italokat lehet kóstolni (opcionálisan: citromos pálinka, körtepálinka, szilvapálinka)."
+                },
+                "table": {
+                    "header1": "Jegytípus",
+                    "header2": "Kirándulás teljes ára",
+                    "header3": "Előszezon",
+                    "1": "Normál",
+                    "2": "Kedvezményes (14 éves korig)",
+                    "3": "Kedvezményes (3 éves korig)"
+                },
+                "tripprogram": {
+                    "header": "Kirándulás programja:",
+                    "1": "Vendégfelvétel a lehető legközelebb a szálláshelyhez és kényelmes utazás az esemény helyszínére.",
+                    "2": "Kaland kezdete! Lovaskocsis túra festői tájakon a Kościelisko-völgy lábánál kilátópontokkal.",
+                    "3": "Érkezés a hegyi kunyhóhoz, ahol kezdődik a zene-, tánc- és hagyományos játékokkal teli lakoma korlátlan vendéglátással.",
+                    "4": "Visszatérés a kiindulóponthoz és a felejthetetlen hegyi mulatság befejezése."
+                }
+            },
+            "kasprowy": {
+                "header": "Jegyek a Kasprowy Wierchre",
+                "table": {
+                    "header1": "Jegy típusa",
+                    "header2": "Főszezon",
+                    "header3": "Holtszezon",
+                    "1": "Normál felfelé",
+                    "2": "Kedvezményes felfelé",
+                    "3": "Normál oda-vissza",
+                    "4": "Kedvezményes oda-vissza",
+                    "text": "* A jegyárak az időponttól függően változhatnak."
+                },
+                "list": {
+                    "header": "Fedezze fel a fenséges Kasprowy Wierchet – a Tátra egyik legszebb csúcsát, amely vonzza a hegyi panorámák és felejthetetlen élmények szerelmeseit.",
+                    "1": "Legendás felvonó: Az egyetlen ilyen attrakció Lengyelországban, 1936 óta működik, és mindössze 12-20 perc alatt juttat fel a csúcsra.",
+                    "2": "Felejthetetlen kilátás: A Kasprowy Wierch kilátóteraszáról látható a Świnica, a Czerwone Wierchy és a festői völgyek.",
+                    "3": "Ideális kiindulópont túrákhoz: Induljon túrára a Giewont, a Gąsienicowa-völgy vagy a Czerwone Wierchy felé.",
+                    "4": "Mindenki számára vonzó: A Kasprowy Wierch tökéletes választás családok, párok és hegyi rajongók számára.",
+                    "5": "A Trio Travel segítségével gyorsan, kényelmesen és kedvező áron foglalhat jegyet a Kasprowy Wierch felvonóra. Utazzon 1987 méter magasságba, és gyönyörködjön a lengyel és szlovák Tátra lélegzetelállító panorámájában!"
+                },
+                "alt": {
+                    "1": "Felvonó a Kasprowy Wierchre",
+                    "2": "A Kasprowy Wierch csúcsa hóval borítva",
+                    "3": "Zöld csúcs épülettel",
+                    "4": "Hegyek a Kasprowy Wierch hátterében"
+                },
+                "buttons": {
+                    "1": "Megjegyzések",
+                    "2": "Információk",
+                    "3": "Kedvezmények",
+                    "header": "Ingyenes utazásra jogosultak",
+                    "text1": "10 év alatti gyermekek. 15 év alatti iskolás gyermekek és fiatalok érvényes iskolai igazolvány alapján. 26 év alatti diákok (1998.01.01. után születettek) érvényes lengyel diákigazolvány, ISIC vagy EURO 26 igazolvány alapján. 65 év feletti személyek (1959.12.31. előtt születettek) életkort igazoló dokumentum bemutatásával. Iskolai csoportok kísérői (1 kísérő 10 diákra). A csoportokat vezető idegenvezetők 35 zł-ért vásárolhatnak jegyet.",
+                    "text2": "A Kuźnice pénztára csak az aktuális napra szóló jegyeket értékesít, közvetlenül az indulás előtt. A jegyet vásárlóknak a pénztár előtt kell tartózkodniuk. A jegyvásárlást követően utasellenőrzés és peronra való áthaladás következik. Minden jegyen szerepel az érvényességi információ. A Kasprowy Wierchről lefelé közlekedő felvonójegyet csak a felső állomás pénztárában lehet megvásárolni, a szabad helyek függvényében. Az oda-vissza jeggyel rendelkezők elsőbbséget élveznek a lefelé utazásnál. Az oda-vissza jegyekkel a Kasprowy Wierchen töltött idő kb. 1 óra 40 perc (pl. 8:00-kor indulás felfelé, 10:00-kor lefelé; a felvonó útja kb. 20 perc). A Tátrai Nemzeti Park területére kutyák és más állatok nem vihetők be. A jegy ára tartalmazza a Tátrai Nemzeti Park belépőjegyét, amely az adott napon érvényes a Kasprowy Wierch felvonóra.",
+                    "text3": "4 év alatti gyermekek. Ingyenes utazás a kísérő jegye alapján, a gyermek életkorát érvényes dokumentummal kell igazolni. A babakocsiért nem kell külön díjat fizetni."
+                }
+            },
+            "splyw-dunajcem-dluzszy": {
+                "alt": {
+                    "1": "Tutajozás fa tutajokon a Dunajec folyón a természet ölelésében",
+                    "2": "Tutaj tutajosokkal és résztvevőkkel a zöld csúcsok hátterében",
+                    "3": "Két tutaj a Dunajec folyón",
+                    "4": "Négy tutaj tutajosokkal és a Dunajec folyón tutajozó résztvevőkkel",
+                    "5": "Dębno fa temploma"
+                },
+                "header": "Dunajec tutajozás 2,5 óra",
+                "header2": "Mit kínálunk?",
+                "header3": "Kirándulás a Pieninekbe: Tutajozás és Niedzica",
+                "header4": "A Pieninekbe irányuló kirándulás során a fő attrakció, a fa tutajokon való tutajozás mellett Niedzicát is meglátogatja, ahol számos látnivaló közül választhat:",
+                "text": "Számos rendkívül izgalmas attrakciót készítettünk elő, amelyek biztosan érdekessé és felejthetetlenné teszik a pihenés idejét. A Zakopanéból induló Dunajec tutajozás fantasztikus módja annak, hogy gyönyörködjön a gyönyörű tájakban, miközben rengeteget láthat. A tutajosok lenyűgöző történetekkel és a folyóval valamint környékével kapcsolatos legendákkal szórakoztatják Önt. A fa tutajokon való tutajozáson kívül, ahonnan a Pieninek lenyűgöző látványában gyönyörködhet, az ajánlat magában foglalja a Niedzicai vár, a Dunajec gát vagy a Podhale, Orawa és Szepesség Miniatűr Parkjának meglátogatását is.",
+                "list": {
+                    "1": "Hajókázás a Czorsztyni-tavon (A sétahajózás során megcsodálhatja a víztározót, a Czorsztyni vár romjait, a Niedzicai várat, a Czorsztyni skanzent és a gyönyörű hegyi tájat). Ez az utazás olyan kaland, amely sokáig emlékezetes marad!",
+                    "2": "Niedzicai vár – ahol Jánost fogva tartották és kínozták.",
+                    "3": "Czorsztyni gát 3D technikával készült látványos festménnyel.",
+                    "4": "Podhale, Orawa és Szepesség Miniatűr Parkja, kötélpálya.",
+                    "5": "Zakopanéba visszatérve megállunk Dębnóban, ahol a XV. századi, UNESCO-listán szereplő fa templom található – kb. 20 perces előadás a templom gondnokával."
+                },
+                "info": "A tutajos szezon április 1-től október 31-ig tart – hétköznap, péntek és vasárnap. Tehát minden nap várjuk a kirándulásra!",
+                "table": {
+                    "header1": "Jegy típusa",
+                    "header2": "Dunajec tutajozás 2,5 óra",
+                    "1": "Normál jegy",
+                    "2": "Kedvezményes jegy (10 évig)",
+                    "3": "Kedvezményes jegy (3 évig)",
+                    "text": "* Az ár tartalmazza: a sofőr felügyeletét a kirándulás során és az NNW biztosítást."
+                },
+                "tripprogram": {
+                    "header": "Kirándulás programja:",
+                    "1": "Indulás Zakopanéból",
+                    "2": "Tutajozás a Dunajec folyón Szczawnicába",
+                    "3": "Felvétel Szczawnicában és utazás Niedzicába",
+                    "4": "Szabadidő (2 óra)",
+                    "5": "Utazás Dębnóba",
+                    "6": "A templom megtekintése a gondnok vezetésével",
+                    "7": "Visszautazás",
+                    "8": "Tervezett érkezés Zakopanéba"
+                },
+                "funfact": {
+                    "header": "Érdekességek a Dunajec tutajozásról",
+                    "text1": "A Dunajec szurdokának keletkezése máig nem teljesen ismert. A legendák szerint itt üldözte Ferkowicz lovag a kígyók királyát.",
+                    "text2": "A kanyargós útvonal, amelyet megtett, állítólag a Dunajec szurdokává alakult. Más hegyi emberek szerint a folyó torkolatát maga Bolesław Chrobry király nyitotta meg.",
+                    "cta": "Többet szeretnél tudni?",
+                    "more": {
+                        "alt": {
+                            "1": "A Dunajec szurdoka tutajokkal"
+                        },
+                        "header": "Érdekességek a Dunajec tutajozásról",
+                        "header2": "A Dunajec szurdokának legendái és titkai!",
+                        "text": "Ferkowicz lovag üldözte a kígyók királyát, vagy Bolesław Chrobry nyitotta meg a folyó torkolatát? Ismerd meg a Dunajec szurdokának legendáit és titkait!",
+                        "cta": {
+                            "header": "Foglalj tutajozást még ma!",
+                            "text": "Éld át a felejthetetlen kalandot a Pieninek szívében. Foglalj helyet a Dunajec tutajozásra!",
+                            "button": "Foglalj most"
+                        },
+                        "cards": {
+                            "1": {
+                                "header": "Dunajec szurdoka – a természet csodája",
+                                "text": "A Dunajec szurdoka Európa egyik legszebb folyami szurdoka. Millió évvel ezelőtt keletkezett, amikor a folyó átvágta a Pieninek mészkőszikláit."
+                            },
+                            "2": {
+                                "header": "Tutajos hagyományok évszázadok óta",
+                                "text": "A Dunajec tutajozást több mint 200 éve szervezik! Kezdetben a tutajosok árut szállítottak, a XIX. századtól pedig turistákat, köztük arisztokratákat."
+                            },
+                            "3": {
+                                "header": "A Dunajec hét kanyarulata",
+                                "text": "A tutajozás útvonala körülbelül 12 km, és hét festői kanyaron vezet keresztül. A leghíresebb a Három Korona, a Pieninek legmagasabb csúcsa körüli kanyar."
+                            },
+                            "4": {
+                                "header": "Pieninek – ritka fajok otthona",
+                                "text": "A Pieninekben hiúzok, farkasok és foltos szalamandrák élnek. A szerencsések láthatják a szurdok felett köröző sasokat."
+                            },
+                            "5": {
+                                "header": "Jánosik legendája",
+                                "text": "A hegyi emberek szerint a Dunajec barlangjaiban rejtőzött Jánosik, a betyár. A „Jánosik kapuja” nevű sziklák állítólag az ő titkos menekülési útvonala."
+                            },
+                            "6": {
+                                "header": "Nevet viselő sziklák",
+                                "text": "A szurdok sziklaformációi saját nevekkel rendelkeznek, mint például a „Fehér Hölgy” vagy a „Sólyom Szirt”. Mindegyikhez történet fűződik, amelyet a tutajosok mesélnek el."
+                            },
+                            "7": {
+                                "header": "Tutajozás filmekben és irodalomban",
+                                "text": "A Dunajec szurdoka inspirálta Sienkiewiczet az „Özönvíz” című művéhez, és számos lengyel filmben is megjelent, évszázadok óta lenyűgözve a művészeket."
+                            },
+                            "8": {
+                                "header": "Tutajos tréfák és történetek",
+                                "text": "A tutajosok mesterei a történetmesélésnek! Tréfás történeteik, amelyeket nemzedékről nemzedékre adnak át, igazi show-vá teszik a tutajozást."
+                            },
+                            "9": {
+                                "header": "Dunajec – két ország folyója",
+                                "text": "A Dunajec jelöli a határt Lengyelország és Szlovákia között. A tutajozás a tutajosok szerint a legegyszerűbb „nemzetközi utazás”."
+                            },
+                            "10": {
+                                "header": "Tutajozási szezon",
+                                "text": "A tutajozás áprilistól októberig tart. Tavasszal az ébredező természet, ősszel pedig a Pieninek színei csábítanak."
+                            }
+                        }
+                    }
+                }
+            },
+            "splyw-dunajcem-krotszy": {
+                "alt": {
+                    "1": "Tutajozás fa tutajokon a Dunajec folyón a természet ölelésében",
+                    "2": "Tutaj tutajosokkal és résztvevőkkel a zöld csúcsok hátterében",
+                    "3": "Két tutaj a Dunajec folyón",
+                    "4": "Négy tutaj tutajosokkal és a Dunajec folyón tutajozó résztvevőkkel",
+                    "5": "Dębno fa temploma"
+                },
+                "header": "Dunajec tutajozás 1,5 óra",
+                "header2": "Mit kínálunk?",
+                "header3": "Kirándulás a Pieninekbe: Tutajozás és Niedzica",
+                "text": "Számos rendkívül izgalmas attrakciót készítettünk elő, amelyek biztosan érdekessé és felejthetetlenné teszik a pihenés idejét. A Zakopanéból induló Dunajec tutajozás fantasztikus módja annak, hogy gyönyörködjön a gyönyörű tájakban, miközben rengeteget láthat. A tutajosok lenyűgöző történetekkel és a folyóval valamint környékével kapcsolatos legendákkal szórakoztatják Önt. A fa tutajokon való tutajozáson kívül, ahonnan a Pieninek lenyűgöző látványában gyönyörködhet, az ajánlat magában foglalja a Niedzicai vár, a Dunajec gát vagy a Podhale, Orawa és Szepesség Miniatűr Parkjának meglátogatását is.",
+                "list": {
+                    "header": "A Pieninekbe irányuló kirándulás során a fő attrakció, a fa tutajokon való tutajozás mellett Niedzicát is meglátogatja, ahol számos látnivaló közül választhat:",
+                    "1": "Hajókázás a Czorsztyni-tavon (A sétahajózás során megcsodálhatja a víztározót, a Czorsztyni vár romjait, a Niedzicai várat, a Czorsztyni skanzent és a gyönyörű hegyi tájat). Ez az utazás olyan kaland, amely sokáig emlékezetes marad!",
+                    "2": "Niedzicai vár – ahol Jánost fogva tartották és kínozták.",
+                    "3": "Czorsztyni gát 3D technikával készült látványos festménnyel.",
+                    "4": "Podhale, Orawa és Szepesség Miniatűr Parkja, kötélpálya.",
+                    "5": "Zakopanéba visszatérve megállunk Dębnóban, ahol a XV. századi, UNESCO-listán szereplő fa templom található – kb. 20 perces előadás a templom gondnokával."
+                },
+                "info": "A tutajos szezon április 1-től október 31-ig tart – hétköznap, péntek és vasárnap. Tehát minden nap várjuk a kirándulásra!",
+                "table": {
+                    "header1": "Jegy típusa",
+                    "header2": "Dunajec tutajozás 1,5 óra",
+                    "1": "Normál jegy",
+                    "2": "Kedvezményes jegy (10 évig)",
+                    "3": "Kedvezményes jegy (3 évig)",
+                    "text": "* Az ár tartalmazza: a sofőr felügyeletét a kirándulás során és az NNW biztosítást."
+                },
+                "tripprogram": {
+                    "header": "Kirándulás programja:",
+                    "1": "Indulás Zakopanéból",
+                    "2": "Tutajozás a Dunajec folyón Majere településről (Szlovákia) a Leśnica kikötőig (Szlovákia) (a tutajozás időtartama kb. 1,5-2 óra)",
+                    "3": "Utazás Niedzicába",
+                    "4": "Szabadidő",
+                    "5": "Utazás Dębnóba",
+                    "6": "A templom megtekintése a gondnok vezetésével (kb. 20 perc)",
+                    "7": "Visszautazás",
+                    "8": "Tervezett érkezés Zakopanéba"
+                },
+                "funfact": {
+                    "header": "Érdekességek a Dunajec tutajozásról",
+                    "text1": "A Dunajec szurdokának keletkezése máig nem teljesen ismert. A legendák szerint itt üldözte Ferkowicz lovag a kígyók királyát.",
+                    "text2": "A kanyargós útvonal, amelyet megtett, állítólag a Dunajec szurdokává alakult. Más hegyi emberek szerint a folyó torkolatát maga Bolesław Chrobry király nyitotta meg.",
+                    "cta": "Többet szeretnél tudni?",
+                    "more": {
+                        "header": "Érdekességek a Dunajec tutajozásról",
+                        "header2": "A Dunajec szurdokának legendái és titkai!",
+                        "text": "Ferkowicz lovag üldözte a kígyók királyát, vagy Bolesław Chrobry nyitotta meg a folyó torkolatát? Ismerd meg a Dunajec szurdokának legendáit és titkait!",
+                        "cards": {
+                            "1": {
+                                "header": "Dunajec szurdoka – a természet csodája",
+                                "text": "A Dunajec szurdoka Európa egyik legszebb folyami szurdoka. Millió évvel ezelőtt keletkezett, amikor a folyó átvágta a Pieninek mészkőszikláit."
+                            },
+                            "2": {
+                                "header": "Tutajos hagyományok évszázadok óta",
+                                "text": "A Dunajec tutajozást több mint 200 éve szervezik! Kezdetben a tutajosok árut szállítottak, a XIX. századtól pedig turistákat, köztük arisztokratákat."
+                            },
+                            "3": {
+                                "header": "A Dunajec hét kanyarulata",
+                                "text": "A tutajozás útvonala körülbelül 12 km, és hét festői kanyaron vezet keresztül. A leghíresebb a Három Korona, a Pieninek legmagasabb csúcsa körüli kanyar."
+                            },
+                            "4": {
+                                "header": "Pieninek – ritka fajok otthona",
+                                "text": "A Pieninekben hiúzok, farkasok és foltos szalamandrák élnek. A szerencsések láthatják a szurdok felett köröző sasokat."
+                            },
+                            "5": {
+                                "header": "Jánosik legendája",
+                                "text": "A hegyi emberek szerint a Dunajec barlangjaiban rejtőzött Jánosik, a betyár. A „Jánosik kapuja” nevű sziklák állítólag az ő titkos menekülési útvonala."
+                            },
+                            "6": {
+                                "header": "Nevet viselő sziklák",
+                                "text": "A szurdok sziklaformációi saját nevekkel rendelkeznek, mint például a „Fehér Hölgy” vagy a „Sólyom Szirt”. Mindegyikhez történet fűződik, amelyet a tutajosok mesélnek el."
+                            },
+                            "7": {
+                                "header": "Tutajozás filmekben és irodalomban",
+                                "text": "A Dunajec szurdoka inspirálta Sienkiewiczet az „Özönvíz” című művéhez, és számos lengyel filmben is megjelent, évszázadok óta lenyűgözve a művészeket."
+                            },
+                            "8": {
+                                "header": "Tutajos tréfák és történetek",
+                                "text": "A tutajosok mesterei a történetmesélésnek! Tréfás történeteik, amelyeket nemzedékről nemzedékre adnak át, igazi show-vá teszik a tutajozást."
+                            },
+                            "9": {
+                                "header": "Dunajec – két ország folyója",
+                                "text": "A Dunajec jelöli a határt Lengyelország és Szlovákia között. A tutajozás a tutajosok szerint a legegyszerűbb „nemzetközi utazás”."
+                            },
+                            "10": {
+                                "header": "Tutajozási szezon",
+                                "text": "A tutajozás áprilistól októberig tart. Tavasszal az ébredező természet, ősszel pedig a Pieninek színei csábítanak."
+                            }
+                        }
+                    }
+                }
+            },
+            "termy": {
+                "alt": {
+                    "1": "Termálmedence vízzel teli, a Chochołowi Termálfürdő épülete előtt",
+                    "2": "Jacuzzi medencék buborékokkal",
+                    "3": "A Chochołowi Termálfürdő épülete kívülről",
+                    "4": "Hangulatos esti medencevilágítás",
+                    "5": "Fa padok kilátással"
+                },
+                "header": "Chochołowi Termálfürdő",
+                "header2": "Pihenjen",
+                "header3": "A medence zónában megtalálható:",
+                "text": "A Chochołowi Termálfürdő a legnagyobb termál komplexum Podhalén. Nagy belső és külső medencék, a vízfelület teljes területe 3000 m². A komplexum füves és homokos stranddal rendelkezik, ahol mindenki megtalálja a vágyott pihenés helyét. A komplexumban medence- és gyógyzónák találhatók.",
+                "list": {
+                    "1": "8 termálvizes whirlpool medence",
+                    "2": "1 sós vizes whirlpool medence",
+                    "3": "2 belső termálmedence masszázspontokkal",
+                    "4": "2 külső termálmedence vízi attrakciókkal (vad folyó, vízsugarak stb.)",
+                    "5": "3 csúszda (ebből egy csapóajtóval)",
+                    "6": "16x8 m-es úszómedence megfigyelő rendszerrel"
+                },
+                "table": {
+                    "header1": "Jegy típusa",
+                    "header2": "HIT CSOMAG 4 óra (belépés a medence- és gyógyzónába, ingyenes transzfer a szálláshelyről oda-vissza)",
+                    "1": "Normál jegy",
+                    "2": "Kedvezményes jegy (10 évig, 26 év alatti diákok, 65 év feletti nyugdíjasok)"
+                }
+            },
+            "spacer-w-koronach-drzew": {
+                "alt": {
+                    "1": "Fa palló a fák koronájában",
+                    "2": "Drónfelvétel a fák koronáján vezető pallóról, háttérben hatalmas hegyekkel",
+                    "3": "Bachledka hegyi vasút",
+                    "4": "Szczyrbskie-tó, háttérben hegyekkel",
+                    "5": "Természet a Szczyrbskie-tó körül"
+                },
+                "header": "Séta a fák koronájában",
+                "header2": "Fedezze fel a természet szépségét",
+                "header3": "További információk",
+                "text": "A Bachledka Fák Koronája Sétaút a Pienini Nemzeti Park változatos erdejének szívében található. A látogatóknak megmutatja, miért különleges a Szepesi Magura természete. Velünk együtt megismerheti a helyi erdőket. Része lesz az erdei életnek, és megtudhat valamit a nagyon ritka állat- és növényfajokról. Kora reggeli indulás Zakopanéból a Bachledka-völgybe. Itt meghívjuk Önöket egy oda-vissza utazásra a gondolás felvonóval (az utazás időtartama körülbelül 7 perc), amely a Szepesi Magura csúcsára viszi Önöket.",
+                "list": {
+                    "1": "A sétaút mentén számos információs tábla található, amelyeket akadálymentesen lehet elolvasni, és a sétaút vízszintes szakaszán több megállóhelyen helyezkednek el. A táblák érdekes információkat tartalmaznak a helyi fauna, flóra, erdők életéről, védelméről és az időjárás pusztító erejéről.",
+                    "2": "A több mint 600 méter hosszú útvonal változatos erdőn vezet keresztül, tele meglepetésekkel és érdekességekkel."
+                },
+                "table": {
+                    "header1": "Jegy típusa",
+                    "header2": "Séta a fák koronájában",
+                    "1": "Normál jegy",
+                    "2": "Kedvezményes jegy (14 évig, 65 év feletti nyugdíjasok)",
+                    "additional": "Külön fizetendő (jegy a gondolás felvonóra oda-vissza + a fák koronája sétaútra)",
+                    "text": "* Az ár tartalmazza: a sofőr felügyeletét a kirándulás során, NNW biztosítást és transzfert Zakopanéból."
+                },
+                "tripprogram": {
+                    "header": "Kirándulás programja (kb. 8-9 óra):",
+                    "1": "Transzfer Zakopanéból",
+                    "2": "Utazás a Bachledka gondolás felvonóval a Szepesi Magura csúcsára",
+                    "3": "Séta a fák koronája sétaúton",
+                    "4": "Lefelé utazás a felvonóval",
+                    "5": "Utazás Szczyrbskie Pleso-hoz (2 óra szabadidő) ** téli szezonban nem elérhető **",
+                    "6": "Indulás Zakopanéba",
+                    "7": "Visszautazás",
+                    "8": "Tervezett visszaérkezés",
+                    "text": "A látogatás befejezése után a gondolás felvonóval visszatérünk a parkolóba, ahonnan a Magas-Tátrán keresztül (Tatranská Lomnica, Ótátrafüred) Szczyrbskie Pleso-hoz utazunk. Itt szabadidőt kínálunk. Azok számára, akik szeretnének, a tó körüli séta körülbelül 40 percet vesz igénybe. Szczyrbskie Pleso – magyarul Szczyrbskie-tó. 1346 méter tengerszint feletti magasságban található. Gyakran hasonlítják a mi Morskie Oko-hoz. A tavat lucfenyőerdő veszi körül, amelyet 2004-ben egy hurrikán súlyosan megrongált. A település klimatikus gyógyhely státusszal rendelkezik, és jól ismert síközpont. Ez egy gyönyörű hely, és majdnem elveszett, mert a XIX. század közepén a környék lakói le akarták csapolni a körülbelül 20 hektáros tavat, hogy legelővé alakítsák. A bájos tó körüli séta után visszautazás Zakopanéba. A több mint 600 méter hosszú útvonal változatos erdőn vezet keresztül, tele meglepetésekkel és érdekességekkel.",
+                    "button": "Részvételi feltételek",
+                    "text2": "Minden résztvevőnek érvényes útlevéllel vagy személyi igazolvánnyal kell rendelkeznie. Rossz időjárás vagy nem megfelelő ösvényviszonyok esetén fenntartjuk a jogot az útvonal vagy a látnivalók sorrendjének megváltoztatására. Az esemény törlésére a megfelelő számú résztvevő hiánya miatt legkésőbb az esemény kezdete előtt 1 nappal, 21:00-ig kerülhet sor. A kirándulás a Lengyel Köztársaság határain kívül valósul meg. Meg kell felelni a célországban – Szlovákiában – érvényes összes egészségügyi és járványügyi követelménynek."
+                }
+            },
+            "jaskinia-bielanska": {
+                "alt": {
+                    "1": "Fény áttörése a Bielańska-barlangba",
+                    "2": "A barlang belseje",
+                    "3": "Megvilágított Bielańska-barlang",
+                    "4": "Bejárat a barlanghoz felirattal"
+                },
+                "header": "Bielańska-barlang",
+                "header2": "Mit kínálunk?",
+                "header3": "Kirándulás leírása",
+                "text": "A Bielańska-barlang az egyetlen látogatható barlang a szlovák Tátrában. Ez Európa első elektromos világítással ellátott barlangja. A bejárathoz, amely 890 méter tengerszint feletti magasságban található, 122 méteres szintkülönbséget kell leküzdeni. Az útvonal hossza 1370 méter, a látogatás 70 percig tart. Már a XVIII. század első felében ismerték a barlangba vezető bejáratokat az aranykeresők, de hosszú ideig titokban tartották őket. A barlang bejárati nyílását 1826-ban L. Gulden és Fabry aranykereső újra felfedezte. 1896-ban a Biała folyón lévő erőmű áramot biztosított a barlanghoz, amelyet naponta csak háromszor lehetett látogatni, és az idegenvezető akkor is kinyitotta, ha csak egy turista várta a látogatást. Jelenleg a barlang belseje számos cseppkővízesést, pagodára emlékeztető sztalagmitokat és számos kis tavat mutat be. Ezután a Tátra mentén haladunk Szczyrbskie Pleso-hoz, a szlovák oldalon található tóhoz, amely mindössze 5 perc sétára van a parkolótól, ahol a sofőr várja Önöket. Útközben áthaladunk Ótátrafüreden, elhaladunk Tatranská Lomnica (sífelvonók komplexuma) mellett, és láthatjuk a természet szépségét és erejét, mivel 2004-ben a települést egy hatalmas hurrikán pusztította el, amely 14 ezer hektár erdőt döntött le.",
+                "list": {
+                    "1": "Szczyrbskie Pleso – 300 évvel ezelőtt a jelenlegi tó helyén három víztározó volt, a tó medencéje pedig az olvadó, körülbelül 80 méter vastag holt jég által hátrahagyatott gleccser visszahúzódása során alakult ki. Az 1998-ban végzett kutatások megerősítik a feltételezéseket, hogy a tó egy nagy földrengés következtében jött létre, amely lezárta a morénát és hirtelen megemelte a vízszintet, amit történelmi források is alátámasztanak – Gašpar Hain lewocki krónikás említi egy új, nagy tó keletkezését az 1662. augusztus 6-i tátrai földrengés után. A Szczyrbskie-tó területe 19,76 hektár. A tó maximális mélysége 20 méter, térfogata 1 284 000 m³. Évente átlagosan 155 napig jég borítja. Nincsenek tápláló vagy kifolyó folyói.",
+                    "2": "Ótátrafüred – Népszerű turisztikai központ, főként síelők és gyalogtúrázók számára. Fontos csomópontja a Popradot, Tatranská Lomnicát és Szczyrbskie Pleso-t összekötő villamosított keskeny nyomtávú vasútnak. Ótátrafüreden található a Smokowieckie Siodełko felvonó alsó állomása is. Nagyon híres épület Ótátrafüreden az 1904-ben épült Grand Hotel. Ótátrafüreden található a Hegyimentő Szolgálat (HZS), a szlovák mentőszolgálat székhelye. A Smokowiecet körülvevő erdők szinte teljesen elpusztultak az 2004. november 19-i hurrikán során. A szél akkor legalább 14 ezer hektárnyi fát döntött ki. A szlovák Magas-Tátra lucfenyő állományának körülbelül 60%-a pusztult el. A kidőlt erdők eltávolítása körülbelül 2 évig tartott, az újjáéledés pedig körülbelül 100 évig tart. Ótátrafüreden emlékművet emeltek ennek az eseménynek a megörökítésére, a hurrikán pedig feltárta a Tátra és Poprad látványát. A katasztrófa ezzel nem ért véget, mivel néhány évvel később, 2013 áprilisában egy tűzvész 22 hektár fiatal erdőt pusztított el.",
+                    "3": "Tatranská Lomnica – A település körülbelül 1881-ben jött létre, kezdettől fogva turisztikai helyként kezelték, és 1893-ban itt épült az első hotel – a Lomnica. A település turisztikai jelentőségének jelentős növekedése a XX. század 30-as éveinek végére datálható, amikor befejezték a Lomnicára vezető, akkoriban rendkívül modern felvonó építését, egy közbenső állomással a Łomnicki-tó felett. A felvonó végső szakasza egyetlen fesztávon 850 méteres szintkülönbséget küzd le a csúcsig, a felvonó kabinja pedig körülbelül 300 méterrel a föld felett halad. 2001 óta az alsó szakasz nem működik, mivel nem gazdaságos és felújításra szorul. Nem tudni, hogy valaha újraindul-e; lehetséges, hogy a híres szlovák építész, Dušan Jurkovič által tervezett alsó állomás épületében múzeumot alakítanak ki."
+                },
+                "table": {
+                    "header1": "Jegy típusa",
+                    "header2": "Bielańska-barlang",
+                    "1": "Normál jegy",
+                    "2": "Kedvezményes jegy (12 év alatti gyermekek, 26 év alatti diákok, 65 év feletti nyugdíjasok)",
+                    "3": "Normál jegy",
+                    "4": "Kedvezményes jegy (6-15 év közötti gyermekek)",
+                    "5": "Kedvezményes jegy (diákok és 60 év feletti idősek)",
+                    "additional": "Külön fizetendő (jegyek a Bielańska-barlangba – látogatás időtartama: 70 perc)"
+                },
+                "tripprogram": {
+                    "header": "Kirándulás programja:",
+                    "1": "Indulás Zakopanéból",
+                    "2": "Gyalogos megközelítés a Bielańska-barlanghoz (kb. 20 perc)",
+                    "3": "Belépés a barlangba (vezetett túra, kb. 70 perc)",
+                    "4": "Utazás Szczyrbskie-tóhoz – Szabadidő (2 óra)",
+                    "5": "Indulás Zakopanéba",
+                    "6": "Tervezett visszaérkezés"
+                },
+                "buttons": {
+                    "header": "Részvételi feltételek",
+                    "1": "Minden résztvevőnek érvényes útlevéllel vagy személyi igazolvánnyal kell rendelkeznie.",
+                    "2": "Rossz időjárás vagy nem megfelelő ösvény).\n",
+                    "3": "Az esemény törlésére a megfelelő számú résztvevő hiánya miatt legkésőbb az esemény kezdete előtt 1 nappal, 21:00-ig kerülhet sor.",
+                    "4": "A kirándulás a Lengyel Köztársaság határain kívül valósul meg. Meg kell felelni a célországban – Szlovákiában – érvényes összes egészségügyi és járványügyi követelménynek."
+                }
+            },
+            "wieliczka": {
+                "alt": {
+                    "1": "Alagút a Wieliczkai Sóbányában fa falakkal",
+                    "2": "Lenyűgöző szobrok a bánya belsejében",
+                    "3": "Kép a sóbánya falában",
+                    "4": "Sós kiállítási tárgyak bemutatója",
+                    "5": "Régi fa mechanizmusok a bányában"
+                },
+                "header": "Wieliczka titkai",
+                "header2": "Mit kínálunk?",
+                "header3": "Kirándulás leírása",
+                "text": "A Wieliczkai Sóbányát Lengyelország hét csodájának egyikének tartják. A gyönyörű földalatti kamrák felfedezése, a lenyűgöző sós tavak megtekintése, a különleges ácsmunkák és egyedi sós szobrok csodálata során különleges hangulatot érezhet. 2004-ben kiderült, hogy a 104 méter mélyen található sósvíz kiváló hely a szörfözéshez. Ezt maga Mateusz Kusznierewicz is kipróbálta, akit az vitorlázásban egy hatalmas ventilátor és számos lelkes szurkoló segített. A közel 3 kilométeres séta a kanyargós útvonalon, 800 lépcső megmászásával, 135 méter mélységbe vezet, ami nemcsak felejthetetlen kaland, hanem egy „sós adag” egészség is!",
+                "table": {
+                    "header1": "Jegy típusa",
+                    "header2": "Wieliczka titkai",
+                    "1": "Normál jegy",
+                    "2": "Kedvezményes jegy (10 év alatti gyermekek, 26 év alatti diákok, 65 év feletti nyugdíjasok)",
+                    "3": "Normál jegy",
+                    "4": "Kedvezményes jegy (10 év alatti gyermekek, 26 év alatti diákok, 65 év feletti nyugdíjasok)",
+                    "text": "**A belépőjegyek árai változhatnak",
+                    "additional": "Külön fizetendő (Belépőjegyek a bányába)"
+                },
+                "tripprogram": {
+                    "header": "Kirándulás programja:",
+                    "1": "Indulás Zakopanéból",
+                    "2": "Gyalogos látogatás idegenvezetővel a Sóbányában (kb. 3 óra)",
+                    "3": "A látogatás befejezése",
+                    "4": "Szabadidő (1 óra)",
+                    "5": "Indulás Zakopanéba",
+                    "6": "Tervezett visszaérkezés"
+                }
+            },
+            "slowacki-raj": {
+                "alt": {
+                    "1": "Emberek pózolnak fényképekhez a kilátóponton",
+                    "2": "Fa házak a víz mellett",
+                    "3": "Létra egy kis vízesés mellett",
+                    "4": "Útvonal sziklák és patak mellett",
+                    "5": "Víz felett sziklára függesztett útvonal"
+                },
+                "header": "Szlovák Paradicsom",
+                "header2": "Mit kínálunk?",
+                "header3": "Kirándulás leírása",
+                "text": "Meghívjuk Önöket egy gyalogos kirándulásra a Sucha Bela patak mentén, számos híddal, a patak felett átívelő vízesésekkel, több méter magas fém létrákkal, amelyek segítségével leküzdhetők a magasságok. A víz ezeken a helyeken egyedülálló vízeséseket hoz létre. Ez egy közepesen haladó turisták számára alkalmas útvonal, akik rendelkeznek némi ügyességgel és nem félnek a magasságtól. SUCHÁ BELÁ SZURDOK Egyirányú zöld jelzésű ösvény, amely Podlesokból indul, számos fa és fém létrán keresztül haladunk át a Suchá Belá szurdokon. Útközben elhaladunk a gyönyörű Okienkowy és Korytowy vízesések mellett. Ez a park egyik legfestőibb és leglátogatottabb helyszíne.",
+                "table": {
+                    "header1": "Jegy típusa",
+                    "header2": "Bielańska-barlang",
+                    "1": "Normál jegy",
+                    "2": "Kedvezményes jegy (10 év alatti gyermekek)",
+                    "3": "Normál jegy",
+                    "4": "Kedvezményes jegy (10 év alatti gyermekek és 62 év feletti idősek)",
+                    "additional": "Külön fizetendő (Belépés a Szlovák Nemzeti Parkba)",
+                    "text": "* Az ár tartalmazza: a sofőr felügyeletét a kirándulás során, NNW biztosítást és transzfert Zakopanéból"
+                },
+                "tripprogram": {
+                    "header": "Kirándulás programja:",
+                    "1": "Indulás Zakopanéból",
+                    "2": "Túrázás a Sucha Bela útvonalon (létrák)",
+                    "3": "Az útvonal befejezése, szabadidő",
+                    "4": "Indulás Zakopanéba",
+                    "5": "Indulás Zakopanéba",
+                    "6": "Tervezett visszaérkezés"
+                },
+                "buttons": {
+                    "header": "Részvételi feltételek",
+                    "1": "Minden résztvevőnek érvényes útlevéllel vagy személyi igazolvánnyal kell rendelkeznie.",
+                    "2": "Rossz időjárás vagy nem megfelelő ösvényviszonyok esetén fenntartjuk a jogot az útvonal vagy a látnivalók sorrendjének megváltoztatására.",
+                    "3": "Az esemény törlésére a megfelelő számú résztvevő hiánya miatt legkésőbb az esemény kezdete előtt 1 nappal, 21:00-ig kerülhet sor."
+                }
+            },
+            "wieden": {
+                "alt": {
+                    "1": "Schönbrunn Palota",
+                    "2": "Magas épület gyönyörű teteje",
+                    "3": "Régi villamos Bécs városában",
+                    "4": "Kép a csodálatos, gondozott zöld kertekről és a palotáról egy emlékmű mellett",
+                    "5": "Bécs városának panorámája"
+                },
+                "header": "Bécs",
+                "header2": "Mit kínálunk?",
+                "header3": "Ismerje meg Bécset",
+                "text": "A Duna partján fekvő Ausztria fővárosa évszázados történelmével, kultúrájával és hagyományaival vonzza a látogatókat. A város történelmi központja, amely tele van minden történelmi korból származó műemlékekkel, 2001-ben felkerült az UNESCO Világörökségi Listájára. A számos látnivaló miatt Bécs Európa egyik leglátogatottabb városa. A XVIII. század végén itt alkottak a kor leghíresebb zeneszerzői, amit a bécsi klasszikusok elnevezés is bizonyít, így nevezik együtt Joseph Haydnt, Wolfgang Amadeus Mozartot és Ludwig van Beethovent.",
+                "list": {
+                    "header": "A bécsi kirándulás során számos látnivaló vár ránk:",
+                    "1": "Központ - A Ring Bécs egyik legismertebb utcája. Itt találhatók az osztrák főváros legfontosabb műemlékei. A Ring, mint egy gyűrű, körülöleli a történelmi központot. Az sugárutat a XIX. században lebontott egykori városfalak helyén építették. Bár a Ringstrasse létrehozásának célja eredetileg az alattvalók lázadásának megakadályozása volt, az új utca elegáns sétánnyá vált, amelyet teljesen a bécsi lakosok rendelkezésére bocsátottak. Itt épültek a város legszebb palotái és számos középület. Az első látnivalók egyike, amelyet a Ring mentén láthatunk, a Hundertwasser-ház – egy szokatlan lakóépület, amelyet élénk színei és szabálytalan formái jellemeznek, és a híres azonos nevű építész tervezte. Miután befejeztük ennek a modern építészeti műnek a csodálatát, idegenvezetővel folytatjuk a város felfedezését. Itt lehetőségünk nyílik meglátogatni és érdekes történeteket hallani a reprezentatív Károly térről vagy a Hofburgról, amelyet Bécs legfontosabb műemlékének tartanak. Ez a Habsburgok egykori székhelye, amely már körülbelül 700 éves. Az épület lenyűgöző, területe meghaladja a 240 ezer m²-t. 19 udvara, 50 lépcsőháza, 2600 szobája, valamint múzeumok, kápolnák, kertek, könyvtárak és egyéb helyiségek találhatók benne. A további látnivalók az osztrák főváros központjában a Kohlmarkt, a Graben és a Szent István-székesegyház.",
+                    "2": "Belvedere - Bécs legnagyobb kincse és a világ egyik legszebb barokk építménye. Savoyai Jenő herceg számára épült a XVIII. század első felében. Az épület két palotából és egy kertből áll. Az Alsó Belvedere és a Felső Belvedere Johann Lukas von Hildebrandt építész alkotásai. A kertet Dominique Girard tervezte, francia stílusban, különböző szobrokkal, köztük szfinxekkel, szökőkutakkal és rengeteg növényzettel.",
+                    "3": "Schönbrunn Palota és kertek - Sisi császárné nyári rezidenciája a város legnépszerűbb látnivalója. A bécsi Versailles-nak nevezett épület lenyűgöző reprezentatív építményével, amely XIV. Lajos birtokáról merített ihletet. A Habsburg-dinasztia tagjainak és jeles vendégeiknek szolgált. Ma a látogatók számára nyitva áll, és Ausztria egyik legfontosabb műemléke – felkerült az UNESCO Kulturális és Természeti Világörökség Listájára. Különleges építészeti dekorációk, falfestmények, aranyozások és gyönyörű mozaikpadlók jellemzik. A palota mellett állatkert és pálmaház is működik. Schönbrunn egy francia stílusú parkkomplexum is, bukszpanból készült labirintussal."
+                },
+                "table": {
+                    "header1": "Jegy típusa",
+                    "header2": "Bécs",
+                    "1": "Normál jegy",
+                    "2": "Kedvezményes jegy (iskolás fiatalok, diákok, nyugdíjasok igazolvány bemutatásával)",
+                    "3": "Kedvezményes jegy (14 év alatti gyermekek)",
+                    "4": "Normál jegy",
+                    "5": "Kedvezményes jegy (6-18 év közötti gyermekek és fiatalok)",
+                    "6": "Diákok (Euro26, ISIC, ITIC kártyák alapján)",
+                    "7": "Fogyatékkal élők és 6 év alatti gyermekek",
+                    "text": "* Az ár tartalmazza: képzett idegenvezető és kísérő felügyeletét, kényelmes autóbuszos utazást, KL és NNW biztosítást, audio guide készletet",
+                    "a1": "Schönbrunn Palota: 24€, Ebéd: kb. 15€",
+                    "a2": "Schönbrunn Palota: 17€, Ebéd: kb. 15€",
+                    "a3": "Schönbrunn Palota: 20€, Ebéd: kb. 15€",
+                    "a4": "Schönbrunn Palota: INGYENES, Ebéd: kb. 15€",
+                    "additional": "Külön fizetendő"
+                },
+                "tripprogram": {
+                    "header": "Kirándulás programja:",
+                    "1": "Indulás Zakopanéból",
+                    "2": "Érkezés Bécsbe",
+                    "3": "Utazás a Schönbrunn Palotához és kertjeihez",
+                    "4": "Szabadidő a központban",
+                    "5": "Séta a központban idegenvezetővel a Károly téren, Hofburgon, Kohlmarkton és Grabenen keresztül a Szent István-székesegyházig",
+                    "6": "Találkozó az idegenvezetővel, utazás a Ring mentén, ahol a város legfontosabb műemlékei találhatók, Hundertwasser-ház",
+                    "7": "Utazás a Belvedere kertjeihez",
+                    "8": "Tervezett visszaérkezés Zakopanéba"
+                },
+                "buttons": {
+                    "header": "Részvételi feltételek",
+                    "1": "A szervező nem vállal felelősséget a szezon közbeni belépőjegyár-változásokért.",
+                    "2": "A látnivalók sorrendje változhat.",
+                    "3": "Az esemény törlésére a megfelelő számú résztvevő hiánya miatt legkésőbb az esemény kezdete előtt 1 nappal, 19:00-ig kerülhet sor.",
+                    "4": "Minden résztvevőnek érvényes útlevéllel vagy személyi igazolvánnyal kell rendelkeznie, kortól függetlenül."
+                }
+            },
+            "budapeszt": {
+                "alt": {
+                    "1": "A híres budapesti Parlament épülete",
+                    "2": "Monumentális történelmi Halászbástya emlékmű",
+                    "3": "Mátyás-templom",
+                    "4": "Régi villamos"
+                },
+                "header": "Budapest",
+                "header2": "Mit kínálunk?",
+                "header3": "Ismerje meg Budapestet",
+                "text": "Budapest kétségtelenül Európa egyik legérdekesebb és legszebb városa. A Duna felett elterülő varázslatos fekvése, a termálforrásokkal teli budai dombok, az izgalmas történelem és a gazdag építészet miatt testvérnépeink fővárosába évente turisták tömegei érkeznek a világ minden tájáról.",
+                "list": {
+                    "header": "A budapesti kirándulás során számos látnivaló vár ránk:",
+                    "1": "Hősök tere - A híres Andrássy út végén található tér 1929 óta díszíti a monumentális Millenniumi emlékmű, amely a magyar állam több mint ezeréves történelmét szimbolizálja.",
+                    "2": "Vajdahunyad vára - A XIX. és XX. század fordulóján épült Vajdahunyad vára, akárcsak a millenniumi emlékmű, a magyarság ezer évét jelképezi. Az épületet hatalmas építészeti sokszínűség jellemzi, mivel a tervező szándéka az volt, hogy húsz különböző stílusú kastélyt, palotát és templomot egyesítsen harmonikus egésszé. A szándék remekül sikerült, és ma a vár a budapesti kirándulások elengedhetetlen része.",
+                    "3": "Gellért-hegy - Budapest legjobb kilátópontja nevét Szent Gellértnek (Gerardnak) köszönheti, aki a XI. század közepén itt szenvedett mártírhalált. A hatalmas hegyen az 1850-ben épült osztrák erőd maradványai találhatók, az egészet pedig a II. világháború után emelt 40 méteres Szabadság-emlékmű koronázza. Az egész felkerült az UNESCO Világörökségi Listájára.",
+                    "4": "Várhegy - Ez Budapest legrégebbi és legvonzóbb része. Itt évszázadokon át a magyar uralkodók székhelye volt, akik nem sajnálták a pénzt, hogy gazdagságukat megmutassák. A város történelmi jellegét leginkább a Királyi Palota hangsúlyozza, amelynek kezdetei a XIII. századig nyúlnak vissza, valamint a híres Mátyás-templom – az egyik legszebb templom Magyarországon. A turistákat nemcsak a monumentális épületek ragadják magukkal, hanem a budai óváros bájos és titokzatos utcái is.",
+                    "5": "Szent István-bazilika - Az egyik legfontosabb magyar templom nemcsak méreteivel, hanem kivitelezésének művésziességével is lenyűgöz. A templom érdekessége Szent István jobb keze – a templom védőszentjének és Magyarország első királyának ereklyéje.",
+                    "6": "Parlament - Budapest vitathatatlan szimbóluma a XIX. és XX. század fordulóján épült. A neogótikus gyöngyszem ma is a magyar kormány székhelye, itt őrzik a magyar koronázási ékszereket is. Az épület hatalmas méretei (268 m x 123 m) miatt nemcsak a világ egyik legszebb, hanem legnagyobb nemzeti parlamentje is.",
+                    "7": "Hajókázás a Dunán - A látogatás végén lehetőségük lesz Budapest legvonzóbb helyszíneit egy hajó fedélzetéről megtekinteni. A hajókázás tökéletes lezárása lesz ennek az izgalmas napnak."
+                },
+                "table": {
+                    "header1": "Jegy típusa",
+                    "header2": "Budapest",
+                    "1": "Normál jegy",
+                    "2": "Kedvezményes jegy (iskolás fiatalok, diákok, nyugdíjasok igazolvány bemutatásával)",
+                    "3": "Kedvezményes jegy (14 év alatti gyermekek)",
+                    "4": "Hajókázás a Dunán",
+                    "5": "Mátyás-templom",
+                    "6": "Bazilika",
+                    "7": "Ebéd",
+                    "8": "Utazási tippek",
+                    "text": "* Az ár tartalmazza: képzett idegenvezető és kísérő felügyeletét, kényelmes autóbuszos utazást, KL és NNW biztosítást, audio guide készletet",
+                    "a1": "felnőttek 2500 HUF, diákok és 60 év feletti nyugdíjasok - 1900 HUF, 6 év alatti gyermekek ingyen",
+                    "a2": "felnőttek 2000 HUF, diákok és 60 év feletti nyugdíjasok - 1500 HUF",
+                    "a3": "kb. 3000 HUF",
+                    "a4": "1000 HUF = kb. 15 zł",
+                    "additional": "Külön fizetendő"
+                },
+                "tripprogram": {
+                    "header": "Kirándulás programja:",
+                    "1": "Indulás Zakopanéból",
+                    "2": "Érkezés Budapestre",
+                    "3": "Városnézés idegenvezetővel: Hősök tere, Vajdahunyad vára, utazás az Andrássy úton, Gellért-hegy, Várhegy (Királyi Palota, Mátyás-templom), Szent István-bazilika",
+                    "4": "Hajókázás a Dunán (kb. 1 óra)",
+                    "5": "Tervezett visszaérkezés Zakopanéba"
+                },
+                "buttons": {
+                    "header": "Részvételi feltételek",
+                    "1": "A szervező nem vállal felelősséget a szezon közbeni belépőjegyár-változásokért.",
+                    "2": "A látnivalók sorrendje változhat.",
+                    "3": "Az esemény törlésére a megfelelő számú résztvevő hiánya miatt legkésőbb az esemény kezdete előtt 1 nappal, 18:00-ig kerülhet sor.",
+                    "4": "Minden résztvevőnek érvényes útlevéllel vagy személyi igazolvánnyal kell rendelkeznie, kortól függetlenül."
+                }
+            },
+            "zamek-orawski": {
+                "alt": {
+                    "1": "Orawai Vár drónfelvételen naplementekor",
+                    "2": "Növényzettel borított vár",
+                    "3": "Az Orawai Vár, amely a természetes sziklákba illeszkedik",
+                    "4": "Orawai Vár fák mellett"
+                },
+                "header": "Orawai Vár",
+                "header2": "Mit kínálunk?",
+                "header3": "Ismerje meg Budapestet",
+                "text": "A Triotravel örömmel invitálja Önt egy egynapos, látnivalókban gazdag kirándulásra. Egyedülálló utazást kínálunk, amely magában foglalja az Orawai Vár látogatását, a Chochołowi Skanzent, valamint oscypek kóstolót a régió legrégebbi pásztorkunyhójában. Orawai Vár A magas sziklán elhelyezkedő Orawai Vár fenséges erődítmény, amely építészetével és gazdag történelmével lenyűgöz. Az idegenvezetés során megismerhetik a vár életével és lakóival kapcsolatos lenyűgöző történeteket. Ez egy felejthetetlen időutazás, amely közelebb hozza a régió kultúráját és hagyományait. Chochołowi Skanzen A Chochołowi Skanzen egyedülálló hely, ahol átérezheti a hagyományos hegyi kultúra szellemét. A festői Chochołów faluban található skanzen lehetőséget nyújt a látogatóknak, hogy megtekintsék az autentikus fa házakat, amelyek generációk óta megőrzik egyedi jellegüket.",
+                "table": {
+                    "header1": "Jegy típusa",
+                    "header2": "Orawai Vár",
+                    "1": "Normál jegy",
+                    "2": "Kedvezményes jegy (15 év alatti gyermekek, nyugdíjasok, fogyatékkal élők)",
+                    "3": "Normál jegy",
+                    "4": "Kedvezményes jegy",
+                    "text": "* Az ár tartalmazza: képzett idegenvezető és kísérő felügyeletét, kényelmes autóbuszos utazást, KL és NNW biztosítást, audio guide készletet",
+                    "additional": "Külön fizetendő (belépőjegyek az Orawai Várba)"
+                },
+                "tripprogram": {
+                    "header": "Kirándulás programja:",
+                    "1": "Indulás Zakopanéból",
+                    "2": "Az Orawai Vár látogatása",
+                    "3": "Utazás a Chochołowi Skanzenen keresztül",
+                    "4": "Megálló a határon – lehetőség szlovák bolt látogatására",
+                    "5": "Oscypek kóstolás a legrégebbi pásztorkunyhóban",
+                    "6": "Visszatérés Zakopanéba"
+                }
+            },
+            "dookola-tatr": {
+                "alt": {
+                    "1": "Orawai Vár fák mellett",
+                    "2": "Orawai Vár drónfelvételen naplementekor",
+                    "3": "Deménvölgyi Szabadság-barlang belseje",
+                    "4": "A Deménvölgyi Barlang természetes formái"
+                },
+                "header": "A Tátra körül",
+                "header2": "Mit kínálunk?",
+                "text": "Orawai Vár A XIII. században, 112 méter magas sziklán épült Orawai Vár Szlovákia legegyedibb fekvésű építménye. Több száz év alatt átépítették és kibővítették, ma különböző védelmi építészeti technikák kiváló példája. A vár eredetileg az Orawa tulajdonosainak székhelye volt. 1868-ban itt hozták létre a szlovák földön az első múzeumi kiállítást. A vár ma is múzeumi funkciót tölt be. A látogatás során történelmi, régészeti és néprajzi kiállításokat tekinthetnek meg. A múzeumi séta csúcspontja a legmagasabban fekvő vártermek meglátogatása. Deménvölgyi Szabadság-barlang A Deménvölgyi Szabadság-barlang vonzerejét jelzi, hogy Szlovákia leglátogatottabb barlangja. A színes, változatos formájú cseppkőképződmények, tufás tavacskák és a földalatti folyó miatt ezt az objektumot Európa egyik legszebb barlangjaként tartják számon.",
+                "table": {
+                    "header1": "Jegy típusa",
+                    "header2": "Ár",
+                    "1": "Normál jegy",
+                    "2": "Kedvezményes jegy (iskolás fiatalok, diákok, nyugdíjasok igazolvány bemutatásával)",
+                    "3": "Kedvezményes jegy (14 év alatti gyermekek)",
+                    "4": "Deménvölgyi Barlang",
+                    "5": "* fényképezés/kamera",
+                    "6": "Orawai Vár",
+                    "7": "* fényképezés/kamera",
+                    "8": "Utazási tippek",
+                    "text": "* Az ár tartalmazza: kényelmes autóbuszos utazást, képzett kísérő felügyeletét, NNW és KL biztosítást. **A belépőjegyek árai változhatnak",
+                    "a1": "felnőttek 12€, diákok/nyugdíjasok/rokkantnyugdíjasok 11€, 6-15 év közötti gyermekek 6€**",
+                    "a2": "felnőttek 9€, diákok/nyugdíjasok/rokkantnyugdíjasok/gyermekek 4,5€, 6 év alatti gyermekek INGYENES**",
+                    "a3": "3€ fényképezés/5€ kamera**",
+                    "additional": "Külön fizetendő"
+                },
+                "tripprogram": {
+                    "header": "Kirándulás programja:",
+                    "1": "Indulás Zakopanéból",
+                    "2": "Az Orawai Vár látogatása idegenvezetővel",
+                    "3": "A Deménvölgyi Barlang látogatása (kb. 70 perc)",
+                    "4": "Szabadidő Liptószentmiklóson (kb. 70 perc)",
+                    "5": "Tervezett visszaérkezés Zakopanéba"
+                },
+                "buttons": {
+                    "header": "Részvételi feltételek",
+                    "1": "Minden résztvevőnek érvényes útlevéllel vagy személyi igazolvánnyal kell rendelkeznie, kortól függetlenül.",
+                    "2": "A szervező nem vállal felelősséget a szezon közbeni belépőjegyár-változásokért.",
+                    "3": "A látnivalók sorrendje változhat.",
+                    "4": "Az esemény törlésére a megfelelő számú résztvevő hiánya miatt legkésőbb az esemény kezdete előtt 1 nappal, 19:00-ig kerülhet sor."
+                }
+            },
+            "rafting-po-dunajcu": {
+                "alt": {
+                    "1": "Rafting résztvevők sisakban az út során",
+                    "2": "Csodálatos zöld környezet a rafting közben",
+                    "3": "Két csoport résztvevő a rafting szórakozás közben",
+                    "4": "Mosolyok a szórakozás közben, háttérben a víz",
+                    "5": "Résztvevők a vízzel küzdenek"
+                },
+                "header": "Rafting a Dunajecen",
+                "header2": "Mit kínálunk?",
+                "header3": "Mit láthatsz?",
+                "info": "A tutajozási szezon április 1-től október 31-ig tart – hétköznap, péntek és vasárnap. Tehát minden nap várjuk a kirándulásra! FIGYELEM: Hozz magaddal váltóruhát. A tutajozás szandálban, vízálló cipőben vagy mezítláb engedélyezett. Magassarkú cipő nem megengedett.",
+                "text": "Kezdetben a Dunajec-völgyi tutajozásokat kizárólag különleges alkalmakra szervezték. Csak a főurak, gazdagok és fontos személyiségek vehették igénybe, akik a czorsztyni és a niedzicai várban találkoztak a királlyal. Ma te is VIP-nek érezheted magad, és átélheted a kalandvágyat, adrenalintól fűtve…",
+                "list": {
+                    "header": "A Pieninekbe irányuló kirándulás során a fő attrakció, a kétórás, érzelmekkel teli tutajozás mellett, Niedzicát is meglátogatod, ahol választhatsz az alábbi látnivalók közül:",
+                    "1": "Hajókázás a Czorsztyni-tavon: A sétahajózás során megcsodálhatod a víztározót, a czorsztyni vár romjait, a niedzicai várat, a czorsztyni skanzent és a gyönyörű hegyi tájat. Ez egy olyan kaland, amely sokáig emlékezetes marad!",
+                    "2": "Niedzicai vár: Itt, a vár pincéiben megtekintheted a kínzókamrát bilincsekkel, amelyekbe a legenda szerint Jánost is bezárták.",
+                    "3": "A Dunajec gát megtekintése: A Czorsztyn-Niedzica fő gát Lengyelország legnagyobb, 56 méter magas és 404 méter hosszú földgátja.",
+                    "4": "Podhale, Orawa és Szepesség Miniatűr Parkja teljesen egyedülálló hely. Egy helyen csodálhatod meg a legszebb vallási műemlékeket, várakat és még sok mást.",
+                    "5": "A kirándulás során megtekintheted a XV. századi, UNESCO-listán szereplő dębnói templomocskát is – itt vette feleségül Jánosik Marynát..."
+                },
+                "table": {
+                    "header1": "Jegy típusa",
+                    "header2": "Rafting a Dunajecen",
+                    "1": "Normál jegy",
+                    "2": "Kedvezményes jegy (10 év alatti gyermekek)",
+                    "3": "Hajókázás",
+                    "4": "Niedzicai vár látogatása",
+                    "5": "Miniatűr park látogatása",
+                    "text": "* Az ár tartalmazza: a sofőr felügyeletét, a tutajozási jegyet, a Pienini Nemzeti Park belépőjét és az NNW biztosítást",
+                    "additional": "Külön fizetendő"
+                },
+                "tripprogram": {
+                    "header": "A kirándulás időtartama:"
+                }
+            },
+            "swiatynia-lodowa-hrebieniok": {
+                "alt": {
+                    "1": "A Hrebieniok Jégtemplom piros-kék megvilágításban",
+                    "2": "Jégtemplom közelről",
+                    "3": "Hrebieniok Jégtemplom közelről",
+                    "4": "A jégtemplom belseje"
+                },
+                "header": "Hrebieniok Jégtemplom",
+                "header2": "Mit kínálunk?",
+                "text": "Meghívjuk Önt egy szlovákiai kirándulásra, amelynek során meglátogathatja Ótátrafüredet. Felszállhat a Hrebieniokra (Magas-Tátra, 1310 m tengerszint feletti magasság) vezető fogaskerekű vasútra, ahol a csúcson található a Jégtemplom, amelyet ebben az évben a Waweli Katedrális inspirált.",
+                "table": {
+                    "header1": "Jegy típusa",
+                    "header2": "Hrebieniok Jégtemplom",
+                    "1": "Normál jegy",
+                    "2": "Kedvezményes jegy (10 év alatti gyermekek)",
+                    "3": "Normál jegy",
+                    "4": "Kedvezményes jegy (10 év alatti gyermekek)",
+                    "text": "* Az ár tartalmazza: képzett kísérő és idegenvezető felügyeletét, kényelmes autóbuszos utazást, KL és NNW biztosítást, audio guide készletet",
+                    "additional": "Külön fizetendő (felvonójegy a Hrebieniokra)"
+                },
+                "tripprogram": {
+                    "header": "Kirándulás programja:",
+                    "1": "Indulás Zakopanéból",
+                    "2": "Érkezés Ótátrafüredre",
+                    "3": "Utazás a Hrebieniokra fogaskerekű vasúttal",
+                    "4": "A Jégtemplom megtekintése",
+                    "5": "Szabadidő",
+                    "6": "Visszatérés Zakopanéba"
+                }
+            }
+        }
+    },
+    "pricing": {
+        "header": "Árlista"
+    },
+    "why": {
+        "header": "Miért érdemes a kirándulást a következővel választani ",
+        "cards": {
+            "1": {
+                "header": "Helyi tudás és szakértelem",
+                "text": "A Trio Travel egy zakopanei iroda, amely páratlanul ismeri a Tátrát és a Pienineket. Egynapos kirándulásokra, Dunajec tutajozásra, szánkózásra vagy raftingra specializálódtak, ami garantálja a jól megtervezett útvonalakat és a régióban szerzett tapasztalatok alapján összeállított látnivalókat."
+            },
+            "2": {
+                "header": "Átfogó ajánlat",
+                "text": "A helyi látnivalókhoz szervezett kirándulásoktól kezdve, mint a szánkózás vagy tutajozás, a Trio Travel széles körű szolgáltatásokat kínál egy helyen. Tökéletes megoldás azoknak, akik teljes mértékben ki szeretnék használni az időt a hegyekben."
+            },
+            "3": {
+                "header": "Rugalmasság és személyre szabás",
+                "text": "A cég az ügyfelek igényeinek megfelelő ajánlatok kialakítására helyezi a hangsúlyt. Függetlenül attól, hogy nyugodt kirándulást vagy aktív kikapcsolódást keresel, a Trio Travel rugalmasságot biztosít az elvárásaid teljesítéséhez."
+            }
+        }
+    },
+    "services": {
+        "cards": {
+            "1": {
+                "header": "Kirándulások és szállítás",
+                "text": "A Trio Travel egy utazási iroda, amely nagy tapasztalattal rendelkezik turisztikai projektek, tematikus rendezvények és szállítás szervezésében. Zakopanét úgy ismerjük, mint a tenyerünket, és számunkra nincs lehetetlen. Kezdetben főként belföldi és nemzetközi szállítással foglalkoztunk, később azonban turisztikai-szállítási vállalkozássá váltunk, számos izgalmas projektet szervezve, köztük fantasztikus egynapos kirándulásokat."
+            },
+            "2": {
+                "header": "Turisztikai Szervező",
+                "text": "Tevékenységünk a Kis-lengyelországi Vajdaság Marsalljának Turisztikai Szervezők és Közvetítők Nyilvántartásában szerepel a Z/54/2013 számon. AXA biztosítási garanciával rendelkezünk, ezért minden utazás irodánkkal nemcsak élményekkel teli, hanem a szükséges biztonságot is nyújtja. Ügyfeleink többek között azért értékelnek minket, mert képesek vagyunk alkalmazkodni az igényekhez és szükségletekhez, átfogó szolgáltatásokat kínálunk, és rugalmasak vagyunk."
+            },
+            "3": {
+                "header": "Csapatunk",
+                "text": "Csapatunk kreatív és energikus emberekből áll, ami garantálja a legmagasabb szintű szervezést. Szánkózásokat szervezünk, köztük a legnagyobb izgalmakat nyújtó esti szánkózásokat. Egy másik kirándulásunk a Dunajec tutajozás, valamint számos további egynapos kirándulás. Zakopane rengeteg látnivalót kínál, amelyeket szeretnénk megmutatni Önöknek, így velünk senki sem fog unatkozni. A legjobban logisztikailag megszervezett személyszállítást is kínáljuk Zakopanéban és azon kívül."
+            }
+        }
+    },
+    "reviews": {
+        "header": "elégedett ügyfél! Értékelés ",
+        "header2": "Több mint",
+        "text": "Elégedett ügyfeleink megerősítik – a TrioTravellel minden utazás felejthetetlen emlék, teljes kényelem és tökéletes szervezés. Csatlakozz az elégedett utazók táborához, és fedezd fel a világot teljes nyugalommal!",
+        "cards": {
+            "1": {
+                "name": "Maciej Partyka",
+                "text": "Nagyon jól megszervezett kirándulás Szlovákiába. Kiváló kapcsolat, barátságos sofőr, a program a terv szerint zajlott, kényelmes autóbusz."
+            },
+            "2": {
+                "name": "Marlena Flis",
+                "text": "A legjobb kirándulások a Trio Travel irodával. Ezúttal a fák koronája sétára mentünk. Teljes professzionalizmus minden szempontból. Michał sofőr úr kitűnően teljesített. Szuper sofőr és idegenvezető egy személyben. Üdvözlet a szeptember 13-i 10 fős csoporttól."
+            },
+            "3": {
+                "name": "Grzegorz Danilczuk",
+                "text": "Jól megtervezett és érdekes kirándulás, Michał idegenvezető pedig folyamatosan érdekes történetekkel szórakoztatott a hegyekről, és nagyon professzionálisan viselkedett. Biztosan nem utoljára veszem igénybe ezt az irodát!"
+            },
+            "4": {
+                "name": "Agata Andrus",
+                "text": "Nagyon sikeres kirándulás, a Dunajec tutajozás remekül megszervezett volt, és az ár szuper. Michał úr gondoskodott rólunk, nagyon professzionális és nyugodt légkör. Ajánlom."
+            },
+            "5": {
+                "name": "Marta Dymińska",
+                "text": "Szuper kirándulás, fantasztikus szervezés. Az autóbusz értünk jött, a sofőr és kísérőnk mindent elintézett, mindenkinek világosan elmagyarázta, hol, mit és hogyan. A tutajozás és a látogatás után visszavittek minket a házunkhoz. Örülök, hogy a Trio Travel irodával mentünk a Dunajec tutajozásra. Mindenkinek ajánlom. 🍀"
+            },
+            "6": {
+                "name": "Zuzanna Lesner",
+                "text": "Szuper kirándulás, Michał úrral voltunk a fák koronája sétán. Azonban határozottan túl kevés idő jutott a Szczyrbskie-tóra, legalább 2 óra kellett volna rá ☺️⛰️"
+            },
+            "7": {
+                "name": "Małgorzata Wodzynska",
+                "text": "Június 30-i kirándulás a Dunajec tutajozásra. Nagyon jól megszervezett, Michał úr tapasztalt idegenvezetőként mindent kézben tartott, látszik, hogy szereti, amit csinál. Gyönyörű kilátás, a kirándulás megérte az árát. AJÁNLOM🙂"
+            }
+        }
+    },
+    "cta": {
+        "header": "Kasprowy Wierch",
+        "text": "Vedd meg a jegyeket most",
+        "trips": {
+            "header": "Foglalj még ma!",
+            "text": "Fedezd fel a felejthetetlen helyeket a Trio Travellel! Különleges élményeket, kényelmes utazást GLsizei: Különleges élményeket, kényelmes utazást és minden lépésnél professzionális gondoskodást garantálunk. Ne várj – a legjobb időpontok gyorsan elfogynak!",
+            "button": "Foglalj most"
+        }
+    },
+    "info": {
+        "header": "A Trio Travel kirándulások szabályzata letölthető",
+        "text": "A vállalkozó pénzügyi támogatást kapott a kormányzati program keretében",
+        "text2": "A Lengyel Fejlesztési Alap 2.0 Pénzügyi Pajzsa a Mikro-, Kis- és Középvállalkozások számára",
+        "text3": "amelyet a PFR SA nyújtott."
+    },
+    "partners": {
+        "title": "Partnereink",
+        "skocznia": {
+            "header": "Sífelvonó melletti házak",
+            "text": "A házak teljes egészében fából épültek, így megismerheted és átérezheted a hegyi hangulatot. Minden ház központi fűtéssel rendelkezik, teljesen felszerelt konyhasarokkal, pihenőhellyel és két külön hálószobával."
+        },
+        "wierszyki": {
+            "header": "Wierszyki Menedékházak",
+            "text": "A ház elhelyezkedése kétségtelen előnye, amely boldoggá teszi mind azokat a turistákat, akik a híres Krupówki utcán szeretnének időt tölteni, mind azokat, akik több órás túrákat szeretnének tenni a város forgatagától távol."
+        },
+        "oldstreet": {
+            "header": "Old Street Apartman",
+            "text": "Merülj el a Tátra egyedülálló varázsában, és élj át felejthetetlen pillanatokat hangulatos apartmanunkban, Zakopane szívében. A Krupówki utcától csupán egy lépésre található apartmanunk nemcsak kényelmes szállást kínál, hanem a hegyi város egyedi hangulatát is."
+        },
+        "gorski": {
+            "header": "Górski Szaflary Apartman",
+            "text": "Hangulatos helyet keresel Zakopane közelében? Hagyományos, hegyi stílusban berendezett apartmanunk tökéletes választás!"
+        },
+        "elzbiecina": {
+            "header": "Elżbiecina Villa",
+            "text": "Az Elżbiecina Villa – a Korfanty család egykori rezidenciája – a történelem, a dizájn, a zakopanei építészet és a mindenütt jelenlévő witkaci zakopanei szellem egyedülálló kombinációja."
+        },
+        "rentplanet": {
+            "header": "RentPlanet Apartmanok",
+            "text": "Az alkalmazott innovatív módszerek és eszközök automatizálják a foglalási folyamatok nagy részét. Ennek köszönhetően a vendégek kiszolgálása az apartmanban egyszerűbbé válik, és sok tevékenység gyakorlatilag emberi beavatkozás nélkül zajlik."
+        },
+        "nosal": {
+            "header": "Nosal Hotel",
+            "text": "A hegyvonulatra néző reggelek garantált receptje a jó hangulatnak egész napra. A hagyományos podhalei konyha a mi saját Dym i Wiatr Éttermünk specialitása."
+        },
+        "klimatyczne": {
+            "header": "Hangulatos Házak",
+            "text": "A Hangulatos Házak rendkívül kényelmes házak, amelyeket azoknak építettek, akik olyan helyet keresnek, ahol meleg, barátságos légkör uralkodik, ami kedvez a pihenésnek."
+        },
+        "patryk": {
+            "header": "Patryk Villa",
+            "text": "A „Patryk” Villa csendes és nyugodt környéken található, a közelben lévő zöld sétautak kedveznek az aktív pihenésnek. Különösen ajánljuk a Gubałówka ösvényt, a Jan Kasprowicz ösvényt a Bachledzki Wierchen keresztül és másokat."
+        }
+    },
+    "kuligi": {
+        "header": "Szánkózás",
+        "text": "egyedülálló szánkózásokat szervez. Zakopane számos rendkívül bájos hellyel rendelkezik, amelyek közül mindenképpen érdemes megemlíteni a Kościelisko-völgyet. A szánkózások során számos látnivaló vár, például egy igazi hegyi lakoma. A szánkózásokat egész évben szervezzük. Utazási irodánk biztosítja a buszos felvételt a szálláshelyedről, egy igazi hegyi stílusú vendéglátást. Az egész tartózkodást egy hegyi zenekar ritmusos zenéje teszi még kellemesebbé.",
+        "header2": "Fedezd fel Zakopanét a legszebb oldaláról, és csatlakozz hozzánk egy felejthetetlen szánkózásra!",
+        "header3": "Válaszd ki a sajátodat",
+        "cards": {
+            "1": "Kościelisko Hegyi Szánkózás",
+            "2": "Chochołowska-völgyi Szánkózás",
+            "3": "Szilveszteri Esti Szánkózás",
+            "button": "Válassz"
+        },
+        "alt": {
+            "1": "Hegyi szánkózás szánokkal a havas völgyben",
+            "2": "Kilátás a havas hegyekre a szánkózás során",
+            "3": "Hagyományos hegyi szánok, lovak által húzva",
+            "4": "Turistacsoport szánokon egy esti szánkózás során",
+            "5": "Szánkózás résztvevői fáklyákkal a hegyi környezetben"
+        },
+        "koscielisko": {
+            "header": "Kościelisko Hegyi Szánkózás",
+            "header2": "Mit kínálunk?",
+            "header3": "Szánkózásunk programjában kínáljuk",
+            "header4": "Árak a téli szezonban",
+            "list": {
+                "1": "Felvétel a szálláshelyről Zakopane város és Kościelisko község területén (egyéb helyszínek egyeztetés alapján)",
+                "2": "Fáklyás szánkózás Kościeliskóban.",
+                "3": "A szánkózás után finom vendéglátásra invitálunk, beleértve: sült kolbászt és hagyományos vagy hegyi teát",
+                "4": "A lakoma tábortűz mellett, gyönyörű hegyi környezetben kerül megrendezésre.",
+                "5": "Az egész szórakozás a gyönyörű tátrai természet körülményei között zajlik."
+            },
+            "text": "Zakopanei tartózkodásod során meghívunk festői szánkózásokra, amelyeket tábortűz melletti lakoma kísér. Fantasztikus, felejthetetlen kaland, egyedi hangulat, gyönyörű kilátás és nagyszerű légkör. Meghívunk a <strong>Kościelisko Hegyi Szánkózásra</strong>. A szánokkal való utazás a festői, hegyi hangulatú környezetben egyedi élményt nyújt, amelyet nem fogsz elfelejteni. A szánokkal való utazás <strong>kb. 1 órát</strong> tart, amelyet <strong>fáklyák</strong> világítanak meg. Ezután meghívunk egy tábortűz melletti <strong>finom vendéglátásra és élő zenés hegyi zenekarra</strong>.",
+            "info": "A szánkózások időpontjai a téli szezonban: 16:00, 17:00, 18:00, 19:00 (Indulás Zakopanéból körülbelül 40 perccel korábban)",
+            "table": {
+                "header1": "Jegy típusa",
+                "header2": "2024.12.01-től a téli szezon végéig",
+                "3": "Normál jegy",
+                "4": "Kedvezményes jegy (10 év alatti gyermekek)",
+                "header3": "*Az ár tartalmazza:",
+                "list": {
+                    "1": "oda-vissza szállítás (felvétel a szálláshelyről Zakopane és Kościelisko területén)",
+                    "2": "egyórás szánutazás 4, 8 és 10 személyes szánokon",
+                    "3": "vendéglátás tábortűz mellett",
+                    "4": "menü a szánkózások során: kolbász, kenyér, ketchup, mustár, hagyományos és hegyi tea (korlátlanul)",
+                    "5": "* ha nincs elegendő hó vagy teljesen hiányzik, a szánkózások szekereken / fogatokon zajlanak"
+                }
+            }
+        },
+        "dolina": {
+            "header": "Chochołowska-völgyi Szánkózás",
+            "header2": "VIP Szánkózás a Chochołowska-völgyben",
+            "header3": "Szánkózásunk programjában kínáljuk",
+            "header4": "Árak a téli szezonban",
+            "list": {
+                "1": "Felvétel a szálláshelyről Zakopane város és Kościelisko község területén (egyéb helyszínek egyeztetés alapján)",
+                "2": "Kilátásos fáklyás szánkózás a Chochołowska-völgyben 4 személyes szánokon* rövid megállással emlékfotók készítéséhez",
+                "3": "A szánkózás után kolbászsütés tábortűz mellett hagyományos és hegyi teával, valamint hegyi káposztás étellel (saját alkohol fogyasztása megengedett)",
+                "4": "Igazi hegyi lakoma élő hegyi zenével",
+                "5": "Az egész szórakozás a gyönyörű tátrai természet körülményei között zajlik.",
+                "6": "Időtartam kb. 2,5 - 3 óra"
+            },
+            "text": "Egyedülálló lehetőség a híres <strong>Chochołowska-völgy</strong> gyönyörű téli hangulatának megismerésére! A gyönyörű Lengyel Tátrák lábánál tett látogatás során nem hiányozhat egy igazi hegyi szánkózás. A TrioTravel egyedülálló szánkózást kínál a Chochołowska-völgyben, ahol nem fogsz városi forgatagot és zajt tapasztalni. Az <strong>egyórás</strong> szánutazást fáklyák világítják meg, és amikor azok elalszanak, egy híres hegyi tábortűz melletti <strong>lakomával</strong> folytatjuk, vagyis a híres Watra-val. A számodra előkészített <strong>vendéglátás</strong> már vár a lángoló tábortűz mellett, és az időt egy <strong>igazi hegyi zenekar</strong> teszi kellemesebbé.",
+            "info": "A szánkózás indulása naponta 17:00 és 19:00 órakor (Indulás Zakopanéból körülbelül 40 perccel korábban)",
+            "table": {
+                "header1": "Jegy típusa",
+                "header2": "2024.12.01-től a téli szezon végéig",
+                "header3": "2024.12.26-tól 2025.01.06-ig",
+                "3": "Normál jegy",
+                "4": "Kedvezményes jegy (10 év alatti gyermekek)",
+                "header4": "*Az ár tartalmazza:",
+                "list": {
+                    "1": "oda-vissza szállítás (felvétel a szálláshelyről Zakopane és Kościelisko területén)",
+                    "2": "egyórás szánutazás négyszemélyes szánokon",
+                    "3": "egyórás lakoma hegyi zenekarral és vendéglátással tábortűz mellett",
+                    "4": "belépőjegyek a Tátrai Nemzeti Parkba",
+                    "5": "fáklyák a szánutazás során",
+                    "6": "menü a szánkózások során: káposztás étel, oscypek, kenyérszelet gazda szalonnával, forralt bor, kolbász, kenyér, ketchup, uborka, mustár, hagyományos és hegyi tea (korlátlanul)",
+                    "7": "* 3 fős (vagy 7 stb.) csoport esetén felár fizetendő az üres helyért a szánon: 70 PLN",
+                    "8": "* ha nincs elegendő hó vagy teljesen hiányzik, a szánkózások szekereken / fogatokon zajlanak"
+                }
+            }
+        },
+        "sylwester": {
+            "header": "Szilveszteri Esti Szánkózás",
+            "header2": "SZILVESZTERI SZÁNKÓZÁS 2024-2025",
+            "header3": "Mit kínálunk a Szilveszteri Szánkózás során:",
+            "header4": "Árak a téli szezonban",
+            "list": {
+                "1": "A rendezvény résztvevőinek felvétele a szálláshelyről (felvétel a szálláshelyről Zakopane város és Kościelisko község területén, egyéb helyszínek egyeztetés alapján)",
+                "2": "Egyórás szánutazás a Kościelisko-völgy lábánál.",
+                "3": "A szánok 4, 8 vagy 10 személyesek",
+                "4": "Az időt egy élőben játszó hegyi zenekar teszi kellemesebbé!",
+                "5": "Igazi hegyi vendéglátás",
+                "6": "Az egész szórakozás festői, lélegzetelállító tátrai természet körülményei között zajlik",
+                "7": "Saját alkohol fogyasztása megengedett",
+                "8": "Hó hiányában a szánokat szekerekre cseréljük.",
+                "9": "A szánkózás a szabadban zajlik, időjárástól függetlenül, megfelelő meleg öltözet ajánlott",
+                "10": "Időtartam kb. 2,5 óra (oda-vissza szállítás, szánkózás, lakoma)"
+            },
+            "text": "Meghívunk egy <strong>felejthetetlen Szilveszterre</strong> Podhale hangulatos környezetében! A <strong>TrioTravel</strong> szilveszteri szánkózása hagyományos szánutazás a havas utakon, amelyet tábortűz és hegyi stílusú vendéglátás zár. Ez egy különleges lehetőség, hogy <strong>az Új Évet a természet szívében, tábortűz fényénél, zenével és regionális finomságokkal köszöntsd.</strong> Éld át a hegyi vendégszeretet varázsát barátaid és családod körében – tedd felejthetetlenné az új év kezdetét!",
+            "info": "Egyéb választható időpontok: 20:00 - 22:00",
+            "table": {
+                "header1": "Jegy típusa",
+                "header2": "Szilveszteri Este",
+                "3": "Normál jegy",
+                "4": "Kedvezményes jegy (10 év alatti gyermekek)",
+                "header4": "*A menü tartalmazza:",
+                "list": {
+                    "1": "Önálló sütéshez kolbász, kenyér, mustár, ketchup, hegyi és hagyományos tea"
+                }
+            }
+        }
+    },
+    "reservations": {
+        "header": "Online Vásárlás",
+        "text": "Online foglalás legkésőbb 24 órával a tervezett kirándulás dátuma előtt lehetséges. Legkésőbb a tervezett kirándulás előtti napon telefonos foglalás lehetséges.",
+        "button": "Megállóhelyek Térképe"
+    },
+    "transport": {
+        "header": "Szállítás",
+        "text": "A Trio Travel átfogó és kiválóan megszervezett személyszállítást kínál. Zakopane nem az egyetlen terület, ahol működünk, foglalkozunk országos és külföldi szállítással is. Szolgáltatásaink magukban foglalják a reptéri transzfereket, helyi szállítást, valamint konferenciák, esküvők és egyéb tipikus és szokatlan megbízások kiszolgálását.",
+        "header2": "biztonságos és kényelmes utazáshoz. Hívj minket, és utazzunk együtt!",
+        "header3": "A Te Módod",
+        "text2": "Minden erőnkkel azon vagyunk, hogy minden megbízás megfelelően teljesüljön és megfeleljen ügyfeleink elvárásainak. Csapatunk munkájának prioritása az ügyfél elégedettsége és a nyújtott szolgáltatások magas minősége. Sofőrjeink tapasztalt munkatársak, akik teljes professzionalizmust és megfelelő készségeket biztosítanak. A szállításban szerzett sokéves tapasztalatunknak köszönhetően általunk szervezett személyszállítás kényelmes és biztonságos utazást jelent. Kötelezően biztosítjuk a pontosságot és vonzó árakat. Minden megbízónak más elvárásai és igényei vannak, ezért szolgáltatásainkat mindig az egyéni igényekhez igazítjuk. Járműveink minden szükséges engedéllyel és teljes felszereléssel rendelkeznek, amelyek lehetővé teszik a problémamentes külföldi utazásokat, garantálva az utasok biztonságát és kényelmét minden útvonalon.",
+        "button": "Megállóhelyek Térképe",
+        "alt": {
+            "1": "Busz a megtett útvonal nyomával",
+            "2": "Sötétkék busz havas hegyek hátterében",
+            "3": "Autóbusz a parkolóban",
+            "4": "A Majer cég ezüst autóbusza",
+            "5": "Busz a parkolóban, háttérben termálfürdőkkel"
+        }
+    },
+    "pickup": {
+        "alt": {
+            "1": "Telefon a kézben a Trio Travel megállóhelyek térkép alkalmazásával"
+        },
+        "header": "Megállóhelyek Térképe",
+        "header2": "Találkozási Helyek - Felvételi pontok Zakopane és környékén",
+        "header3": "Miért érdemes választani a felvételi pontjainkat?",
+        "text": "A Trio Travelnél törődünk a kényelmeddel, ezért kényelmes felvételi pontokat kínálunk Zakopane és környéke területén. Megállóhelyeink térképe magában foglalja Zakopane központját és a közeli településeket, mint például Kościelisko, Białka Tatrzańska, Bukowina vagy Poronin.",
+        "text2": "Nézd meg térképünket, és válassz egy felvételi pontot a szálláshelyed közelében – a népszerű zakopanei helyszínektől a Tátrai Nemzeti Park bájos környékén át a régió festői falvaiig.",
+        "list": {
+            "1": "Széles lefedettség: Számos helyről felvesszük Zakopane és környékén.",
+            "2": "Kényelem: A pontok stratégiai helyeken vannak, közel a népszerű útvonalakhoz és szállásokhoz.",
+            "3": "Rugalmasság: Ha kérdéseid vannak vagy egyéni megközelítésre van szükséged, lépj kapcsolatba velünk!"
+        },
+        "text3": "Ismerd meg a térképet, és csatlakozz hozzánk a választott ponton – várunk, hogy együtt fedezzük fel a Tátra és a Pieninek szépségeit!"
+    },
+    "contact": {
+        "title": "Kapcsolat",
+        "header": "Lépj kapcsolatba velünk!",
+        "text": "Kérdésed van? Álmaid utazását szeretnéd megtervezni? Írj nekünk vagy hívj minket – örömmel segítünk!",
+        "button": "Üzenet küldése!",
+        "sending": "Küldés...",
+        "form": {
+            "name": "Név és vezetéknév",
+            "email": "Email címed",
+            "message": "Üzeneted",
+            "placeholder1": "Add meg a neved és vezetékneved",
+            "placeholder2": "Add meg az email címed"
+        },
+        "info": {
+            "header": "Információk",
+            "header2": "Nyitvatartási idő",
+            "hours1": "Hétfő - Péntek",
+            "hours2": "Szombat - Vasárnap"
+        },
+        "errors": {
+            "captcha": "Kérlek, jelöld be, hogy nem vagy robot, mielőtt elküldöd.",
+            "emptyFields": "Kérlek, tölts ki minden kötelező mezőt.",
+            "other": "Váratlan hiba."
+        },
+        "answers": {
+            "1": "Köszönjük, hogy elküldted az űrlapot!",
+            "2": "Igyekszünk a lehető leghamarabb válaszolni."
+        }
+    },
+    "majer": {
+        "header": "Utazás Szervezője"
+    },
+    "metadata": {
+        "homepage": {
+            "title": "Zakopanei Utazási Iroda: Kirándulások, Szánkózás, Tutajozás - Trio Travel",
+            "description": "A Trio Travel utazási iroda egynapos kirándulásokat, szánkózásokat, Dunajec tutajozást és személyszállítást kínál Zakopanéban. Szívélyesen meghívunk, hogy ismerkedj meg ajánlatunkkal."
+        },
+        "trips": {
+            "title": "Kirándulások a Trio Travellel - Zakopane, Dunajec Tutajozás, Kasprowy",
+            "description": "Fedezd fel Zakopanét a Trio Travellel! Egynapos kirándulások, Dunajec tutajozás, jegyek a Kasprowyra, szánkózások és még sok más. Foglalj online és élj át felejthetetlen kalandot!"
+        },
+        "kuligi": {
+            "title": "Szánkózás Zakopanéban a Trio Travel Logóval - Hegyi Kaland",
+            "description": "Élj át felejthetetlen szánkózást Zakopanéban a Trio Travellel! Kościelisko-völgy, hegyi lakoma, élő zene. Foglalj szánkózást a Chochołowska-völgyben vagy szilveszteri szánkózást!"
+        },
+        "koscielisko": {
+            "title": "Kościelisko Hegyi Szánkózás - Felejthetetlen Kaland a Trio Travellel",
+            "description": "Meghívunk egy festői Kościelisko Hegyi Szánkózásra a Trio Travellel! Élvezd az egyórás fáklyás szánutazást, tábortüzet, finom vendéglátást és élő hegyi zenét. Felvétel Zakopanéból és Kościeliskóból az árban. Jegyek 130 PLN-től. Foglalj online és élj át felejthetetlen téli kalandot a Tátrában!"
+        },
+        "dolina-chocholowska": {
+            "title": "VIP Szánkózás a Chochołowska-völgyben - Hegyi Kaland a Trio Travellel",
+            "description": "Élj át felejthetetlen VIP Szánkózást a Chochołowska-völgyben a Trio Travellel! Egyórás fáklyás szánutazás, tábortűz melletti lakoma hegyi zenekarral, káposztás étel, oscypek és forralt bor. Felvétel Zakopanéból és Kościeliskóból. Jegyek 179 PLN-től. Foglalj online!"
+        },
+        "wieczor-sylwestrowy": {
+            "title": "Szilveszteri Szánkózás Zakopanéban - Trio Travel",
+            "description": "Köszöntsd az Új Évet egy Szilveszteri Szánkózással a Trio Travellel! Szánutazás a Kościelisko-völgyben, tábortűz, hegyi zenekar és hegyi vendéglátás. Jegyek 150 PLN-től. Foglalj online!"
+        },
+        "kasprowy": {
+            "title": "Jegyek a Kasprowy Wierchre - Zakopane a Trio Travellel",
+            "description": "Vásárolj jegyeket a Kasprowy Wierchre a Trio Travellel! Árlista, kedvezmények, gyors foglalás. Fedezd fel a Tátrát a felvonóval és élvezd a kilátást!"
+        },
+        "transport": {
+            "title": "Szállítás Zakopanéban és Országszerte - Trio Travel Személyszállítás",
+            "description": "A Trio Travel professzionális szállítást kínál Zakopanéban és külföldön. Reptéri transzferek, helyi szállítás, esküvők. Foglalj kényelmes utazást!"
+        },
+        "mapa-przystankow": {
+            "title": "Zakopanei Megállóhelyek Térképe - Trio Travel Felvételi Pontok",
+            "description": "Nézd meg a Trio Travel megállóhelyeinek térképét Zakopanéban és környékén! Kényelmes felvételi pontok a központban, Kościeliskóban, Białka Tatrzańskában. Foglalj szállítást!"
+        },
+        "partners": {
+            "title": "Partnereink Zakopanéban - Trio Travel Együttműködés",
+            "description": "Ismerd meg a Trio Travel partnereit Zakopanéban! Kényelmes házak, apartmanok és hotelek a Krupówki és a Tátra közelében. Foglalj hegyi hangulatú szállást!"
+        },
+        "kontakt": {
+            "title": "Kapcsolat a Trio Travellel Zakopanéban - Hívj vagy Írj",
+            "description": "Lépj kapcsolatba a Trio Travellel Zakopanéban! Telefon, email, kapcsolatfelvételi űrlap. Tervezz kirándulásokat és szállítást. Elérhetőek vagyunk 9:00-17:00 között!"
+        },
+        "rezerwacje": {
+            "title": "Online Vásárlás Kirándulások Zakopanéban - Trio Travel Foglalások",
+            "description": "Foglalj kirándulásokat online a Trio Travellel Zakopanéban! Gyorsan és kényelmesen, legkésőbb 24 órával az indulás előtt. Nézd meg az ajánlatot és vásárolj jegyeket szánkózásra, Dunajec tutajozásra!"
+        },
+        "splyw-dunajcem-dluzszy": {
+            "title": "Dunajec Tutajozás 2,5 óra Zakopanéból - Trio Travel",
+            "description": "Élj át felejthetetlen Dunajec tutajozást fa tutajokkal – 2,5 órás kaland tutajosokkal, a Pieninek kilátásával és a niedzicai vár látogatásával. Foglalj a Trio Travellel!"
+        },
+        "splyw-dunajcem-krotszy": {
+            "title": "Dunajec Tutajozás 1,5 óra | Rövidebb Útvonal Idegenvezetővel | Trio Travel",
+            "description": "A Dunajec tutajozás rövidebb változata (1,5 óra) fa tutajokkal Szlovákiából. Látnivalók: niedzicai vár, gát és a dębnói templom (UNESCO). Nézd meg a programot és az árakat!"
+        },
+        "termy": {
+            "title": "Chochołowi Termálfürdők Szállítással - Pihenés a Trio Travellel",
+            "description": "Látogass el Podhale legnagyobb termálkomplexumába – a Chochołowi Termálfürdőkbe! A csomag 4 óra pihenést tartalmaz a medence- és gyógyzónákban, valamint ingyenes szállítást Zakopanéból!"
+        },
+        "spacer-w-koronach-drzew": {
+            "title": "Séta a Fák Koronájában és Szczyrbskie-tó a Trio Travellel",
+            "description": "Merülj el a természetben! Séta a fák koronájában Bachledkában és látogatás a Szczyrbskie-tónál – kombinált látogatás szállítással Zakopanéból. Foglalj a Trio Travellel!"
+        },
+        "jaskinia-bielanska": {
+            "title": "Bielańska Barlang és Szczyrbskie-tó a Trio Travellel",
+            "description": "Látogasd meg a Bielańska Barlangot – a Szlovák Tátrák egyetlen turisztikai barlangját – és pihenj a festői Szczyrbskie-tó mellett. Kirándulás Zakopanéból a Trio Travellel!"
+        },
+        "tajemnice-wieliczki": {
+            "title": "Wieliczka Titkai - Kirándulás a Sóbányába | Trio Travel",
+            "description": "Ismerd meg a Wieliczkai Sóbánya titkait – Lengyelország hét csodájának egyikét. Fedezd fel a sós kamrákat, tavakat és szobrokat. Felejthetetlen kaland vár rád!"
+        },
+        "biesiada-goralska": {
+            "title": "Hegyi Lakoma - Kaland Tánccal, Zenével és Hagyományokkal",
+            "description": "Élj át felejthetetlen Hegyi Lakomát! Tánc tábortűz mellett, hegyi fogatokkal való utazások és autentikus hegyi konyha a Kościelisko-völgy szívében. Csatlakozz hozzánk!"
+        },
+        "slowacki-raj": {
+            "title": "Szlovák Paradicsom - Túrázás a Sucha Bela Szurdokban, Vízesések és Létrák",
+            "description": "Látogasd meg a Szlovák Paradicsomot! Élj át izgalmas túrát a Sucha Bela patak mentén fém létrákkal, hidakkal és vízesésekkel. Tökéletes kaland a Szlovák Nemzeti Park szívében."
+        },
+        "wieden": {
+            "title": "Bécs - Kirándulás Ausztria Fővárosába, Schönbrunn Palota és Ringstrasse",
+            "description": "Látogasd meg Bécset a Trio Travellel! Nézd meg a Schönbrunn Palotát, a Szent István-székesegyházat, a Ringstrasse-t és más történelmi műemlékeket Ausztria fővárosában. Látnivalókkal és történelemmel teli kirándulás."
+        },
+        "budapeszt": {
+            "title": "Budapest - Kirándulás Magyarország Fővárosába, Hősök tere és Hajókázás a Dunán",
+            "description": "Látogasd meg Budapestet a Trio Travellel! Nézd meg a Hősök terét, a Vajdahunyad várát, a Gellért-hegyet, hajókázz a Dunán és más látnivalókat Magyarország fővárosában. Történelemmel és varázslattal teli város a Duna partján."
+        },
+        "zamek-orawski": {
+            "title": "Orawai Vár - Kirándulás Zakopanéból | Idegenvezetéses Látogatás",
+            "description": "Egynapos kirándulás az Orawai Várhoz a Trio Travellel – a fenséges erődítmény látogatása, Chochołowi skanzen és oscypek kóstolás. Szállítás Zakopanéból, jegyek az árban. Nézd meg a programot és az árakat!"
+        },
+        "dookola-tatr": {
+            "title": "Kirándulás a Tátra Körül - Orawai Vár és Deménvölgyi Barlang",
+            "description": "Egynapos kirándulás a Tátra körül az Orawai Vár és a Deménvölgyi Barlang látogatásával. Szállítás Zakopanéból, belépőjegyek és idegenvezető gondoskodása. Nézd meg a programot és az árakat!"
+        },
+        "rafting-po-dunajcu": {
+            "title": "Rafting a Dunajecen - Csónakos Tutajozás a Pieninekben | Trio Travel",
+            "description": "Kétórás csónakos tutajozás a Dunajecen további látnivalókkal: niedzicai vár, hajókázás és víztározó. Szállítás Zakopanéból, jegyek az árban. Nézd meg a programot!"
+        },
+        "swiatynia-lodowa-hrebieniok": {
+            "title": "Hrebieniok Jégtemplom - Kirándulás a Trio Travellel | Felvonó a Hrebieniokra",
+            "description": "Látogasd meg a Hrebieniok Jégtemplomot a Trio Travellel! A kirándulás magában foglalja a fogaskerekű vasúti utazást, a Wawel által inspirált jégkatedrális látogatását és szabadidőt Ótátrafüreden. Nézd meg az árakat és a programot!"
+        }
+    }
+}

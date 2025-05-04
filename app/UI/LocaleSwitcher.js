@@ -25,6 +25,7 @@ export default function LocaleSwitcher() {
     pl: "PL",
     en: "GB",
     ar: "SA",
+    hu: "HU",
   };
 
   return (
