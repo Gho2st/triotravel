@@ -75,6 +75,27 @@
             "16": "Highlander Feast"
         },
         "tripslist": {
+            "tatry-i-zakopane": {
+                "alt": {
+                    "1": "Purple crocuses in a meadow",
+                    "2": "Wildlife on a rock",
+                    "3": "Grazing sheep and rams in a valley",
+                    "4": "People with carriages next to traditional Zakopane architecture",
+                    "5": "People walking in the valley"
+                },
+                "header": "Mountain Trip",
+                "header2": "Tatras and Zakopane",
+                "header3": "Description of Attractions:",
+                "text": "Join us for an unforgettable adventure in the heart of the Tatras! Our mountain trips are the perfect way to explore majestic peaks, picturesque valleys, and crystal-clear lakes. From walks around Morskie Oko, hikes to Kasprowy Wierch, to relaxing in the Chochołowska Valley – there’s something for everyone. We offer both easy trails for families and challenges for adrenaline enthusiasts, including an exciting trip to the Slovak Paradise. Join us, explore Zakopane with a guide, and feel the magic of Tatra nature!",
+                "list": {
+                    "1": "Kasprowy Wierch - Kasprowy Wierch (1987 m above sea level) is one of the most popular Tatra peaks. You can reach it by cable car from Kuźnice or hike up. The easiest trail is the green one from Kuźnice via Myślenickie Turnie (7 km, approx. 3.5h). Alternatively, the blue trail through Hala Gąsienicowa offers stunning views. From the summit, you can enjoy a panorama of the Western Tatras, High Tatras, and the Slovak Silent Valley. At the top, there is a High-Altitude Meteorological Observatory and a restaurant.",
+                    "2": "Morskie Oko - The largest lake in the Tatras, located at 1395 m above sea level. The trail from Palenica Białczańska (red trail, 9 km) takes about 2.5h one way. Along the way, you pass the Mickiewicz Waterfalls. The trail is easy, ideal for families, though it can be crowded in season. At the lake, there is a PTTK shelter where you can rest and try local delicacies.",
+                    "3": "Strążyska Valley - An ideal trail for beginners and families with children. The red trail (4 km round trip, approx. 1.5h) leads to the Siklawica Waterfall (23 m). Along the way, you pass Strążyska Glade with a buffet. The valley offers a beautiful view of Giewont. The trail is easy, partially gravel, and suitable for strollers.",
+                    "4": "Kościeliska Valley - One of the most beautiful Tatra valleys. The green trail from Kiry to the Ornak Shelter (5.5 km, approx. 1.5h) is easy and offers views of limestone rock formations and caves (e.g., Mroźna Cave, additional fee). In spring, the valley is adorned with crocuses. The trail is wide, perfect for family walks.",
+                    "5": "Chochołowska Valley - The largest valley in the Tatras, famous for crocuses and pastoral huts. The green trail from Siwa Polana to the PTTK Shelter (7.5 km, approx. 2h) is easy, partially paved, suitable for strollers and bikes. The valley features a chapel from the movie 'Janosik' and a plaque commemorating John Paul II’s visit.",
+                    "6": "Zakopane Sightseeing Tour - The tour includes visiting Krupówki, a ride to Gubałówka, a visit to the Krzeptówki Sanctuary, and a walk to the Old Church. The tour is tailored for groups of all ages, with a professional guide."
+                }
+            },
             "biesiada": {
                 "alt": {
                     "1": "View of the picturesque Kościeliska Valley trail",
@@ -1177,6 +1198,10 @@
         "swiatynia-lodowa-hrebieniok": {
             "title": "Hrebienok Ice Temple - Trip with Trio Travel | Hrebienok Funicular",
             "description": "Visit the Hrebienok Ice Temple with Trio Travel! The trip includes a funicular ride, exploring the ice cathedral inspired by Wawel, and free time in Stary Smokovec. Check prices and program!"
+        },
+        "tatry-i-zakopane": {
+            "title": "Trips in the Tatras and Zakopane - Morskie Oko, Kasprowy Wierch",
+            "description": "Discover the Tatras and Zakopane! Trips to Morskie Oko, Kasprowy Wierch, Chochołowska Valley, and more. Book an adventure or explore with a guide!"
         }
     }
 }

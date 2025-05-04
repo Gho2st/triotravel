@@ -72,9 +72,31 @@
             "13": "Zwiedzanie Krakowa",
             "14": "Dookoła Tatr",
             "15": "Rafting po Dunajcu",
-            "16": "Biesiada Góralska"
+            "16": "Biesiada Góralska",
+            "17": "Tatry i Zakopane"
         },
         "tripslist": {
+            "tatry-i-zakopane": {
+                "alt": {
+                    "1": "Fioletowe Krokusy na polanie",
+                    "2": "Zwierzyna na skale",
+                    "3": "Pasące się owce i barany w dolinie",
+                    "4": "Ludzie z powozami obok tradycyjnego budownictwa Zakopane",
+                    "5": "Spacerujący ludzie w Dolinie"
+                },
+                "header": "Wycieczka w Górach",
+                "header2": "Tatry i Zakopane",
+                "header3": "Opis Atrakcji:",
+                "text": "Zapraszamy na niezapomnianą przygodę w sercu Tatr! Nasze wycieczki w góry to idealny sposób, by odkryć majestatyczne szczyty, malownicze doliny i krystaliczne jeziora. Od spacerów nad Morskim Okiem, przez wędrówki na Kasprowy Wierch, po relaks w Dolinie Chochołowskiej – każdy znajdzie coś dla siebie. Oferujemy zarówno łatwe trasy dla rodzin, jak i wyzwania dla miłośników adrenaliny, w tym emocjonującą wyprawę do Słowackiego Raju. Dołącz do nas, poznaj Zakopane z przewodnikiem i poczuj magię tatrzańskiej przyrody!",
+                "list": {
+                    "1": "Kasprowy Wierch - Kasprowy Wierch (1987 m n.p.m.) to jeden z najpopularniejszych szczytów Tatr. Można na niego wjechać koleją linową z Kuźnic lub wejść pieszo. Najłatwiejszy szlak to zielony z Kuźnic przez Myślenickie Turnie (7 km, ok. 3,5h). Alternatywnie, szlak niebieski przez Halę Gąsienicową oferuje piękne widoki. Ze szczytu roztacza się panorama na Tatry Zachodnie, Wysokie i słowacką Dolinę Cichą. Na górze znajduje się Wysokogórskie Obserwatorium Meteorologiczne oraz restauracja.",
+                    "2": "Morskie Oko - to największe jezioro w Tatrach, położone na wysokości 1395 m n.p.m. Trasa z Palenicy Białczańskiej (czerwony szlak, 9 km) zajmuje ok. 2,5h w jedną stronę. Po drodze mijamy Wodogrzmoty Mickiewicza. Szlak jest łatwy, idealny dla rodzin, choć w sezonie bywa zatłoczony. Przy jeziorze znajduje się schronisko PTTK, gdzie można odpocząć i spróbować lokalnych przysmaków.",
+                    "3": "Dolina Strążyska - to idealna trasa dla początkujących i rodzin z dziećmi. Czerwony szlak (4 km w obie strony, ok. 1,5h) prowadzi do wodospadu Siklawica (23 m). Po drodze mijamy Polanę Strążyską z bufetem. Z doliny rozpościera się piękny widok na Giewont. Trasa jest łatwa, częściowo szutrowa, odpowiednia także dla wózków dziecięcych.",
+                    "4": "Dolina Kościeliska -  to jedna z najpiękniejszych tatrzańskich dolin. Zielony szlak z Kir do schroniska Ornak (5,5 km, ok. 1,5h) jest łatwy i oferuje widoki na wapienne formacje skalne oraz jaskinie (np. Jaskinia Mroźna, dodatkowo płatna). Wiosną dolina zachwyca krokusami. Trasa jest szeroka, idealna na spacery rodzinne.",
+                    "5": "Dolina Chochołowska -  Dolina Chochołowska, największa w Tatrach, słynie z krokusów i szałasów pasterskich. Zielony szlak z Siwej Polany do schroniska PTTK (7,5 km, ok. 2h) jest łatwy, częściowo asfaltowy, odpowiedni dla wózków i rowerów. W dolinie znajduje się kościółek z filmu „Janosik” oraz tablica upamiętniająca wizytę Jana Pawła II.",
+                    "6": "Wycieczka Objazdowa po Zakopanem - Wycieczka obejmuje zwiedzanie Krupówek, wjazd na Gubałówkę, wizytę w Sanktuarium na Krzeptówkach oraz spacer po Starym Kościółku. Trasa dostosowana do grup w każdym wieku, z profesjonalnym przewodnikiem. "
+                }
+            },
             "biesiada": {
                 "alt": {
                     "1": "Widok na malowniczą trasę Doliny Kościeliskiej",
@@ -1182,6 +1204,10 @@
         "swiatynia-lodowa-hrebieniok": {
             "title": "Świątynia Lodowa Hrebieniok - Wycieczka z Trio Travel | Kolejka na Hrebieniok",
             "description": "Odwiedź Świątynię Lodową na Hrebienioku z Trio Travel! Wycieczka obejmuje przejazd kolejką, zwiedzanie lodowej katedry inspirowanej Wawelem oraz czas wolny w Starym Smokowcu. Sprawdź cennik i program!"
+        },
+        "tatry-i-zakopane": {
+            "title": "Wycieczki w Tatrach i Zakopanem - Morskie Oko, Kasprowy Wierch",
+            "description": "Odkryj Tatry i Zakopane! Wycieczki na Morskie Oko, Kasprowy Wierch, Dolinę Chochołowską i więcej. Rezerwuj wyprawę lub zwiedzaj z przewodnikiem!"
         }
     }
 }

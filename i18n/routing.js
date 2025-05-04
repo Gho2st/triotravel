@@ -167,6 +167,12 @@ export const routing = defineRouting({
       ar: "/رحلات/رحلة-نهر-دوناجتس-القصيرة",
       hu: "/kirándulások/rövidebb-dunajec-folyó-rafting",
     },
+    "/wycieczki/tatry-i-zakopane": {
+      pl: "/wycieczki/tatry-i-zakopane",
+      en: "/trips/tatras-and-zakopane",
+      ar: "/رحلات/تاترا-وزاكوباني",
+      hu: "/kirándulások/tátra-és-zakopane",
+    },
   }, // Added missing closing curly brace
 });
 

@@ -75,6 +75,27 @@
             "16": "Hegyi lakoma"
         },
         "tripslist": {
+            "tatry-i-zakopane": {
+                "alt": {
+                    "1": "Lila krókuszok a réten",
+                    "2": "Vadállatok a sziklán",
+                    "3": "Legelő juhok és kosok a völgyben",
+                    "4": "Emberek lovas kocsikkal a hagyományos zakopanei építészet mellett",
+                    "5": "Sétáló emberek a völgyben"
+                },
+                "header": "Hegyi kirándulás",
+                "header2": "Tátra és Zakopane",
+                "header3": "Látnivalók leírása:",
+                "text": "Csatlakozzon hozzánk egy felejthetetlen kalandra a Tátra szívében! Hegyi kirándulásaink tökéletes módja annak, hogy felfedezze a lenyűgöző csúcsokat, festői völgyeket és kristálytiszta tavakat. A Morskie Oko körüli sétáktól, a Kasprowy Wierch megmászásán át a Chochołowska-völgyben való pihenésig – mindenki talál magának valót. Könnyű útvonalakat kínálunk családoknak és kihívásokat az adrenalint kedvelőknek, beleértve egy izgalmas kirándulást a Szlovák Paradicsomba. Csatlakozzon hozzánk, fedezze fel Zakopanét idegenvezetővel, és érezze a tátrai természet varázsát!",
+                "list": {
+                    "1": "Kasprowy Wierch - A Kasprowy Wierch (1987 m tengerszint felett) a Tátra egyik legnépszerűbb csúcsa. Feljuthat rá felvonóval Kuźnicéből vagy gyalog. A legkönnyebb útvonal a zöld jelzésű Kuźnicéből a Myślenickie Turnie-n keresztül (7 km, kb. 3,5 óra). Alternatívaként a kék jelzésű útvonal a Hala Gąsienicowa-n keresztül gyönyörű kilátást nyújt. A csúcsról panoráma nyílik a Nyugati-Tátrára, a Magas-Tátrára és a szlovák Csendes-völgyre. A csúcson található egy Magashegyi Meteorológiai Obszervatórium és egy étterem.",
+                    "2": "Morskie Oko - A Tátra legnagyobb tava, 1395 m tengerszint felett. Az útvonal Palenica Białczańskától (piros jelzés, 9 km) körülbelül 2,5 órát vesz igénybe egy irányba. Útközben elhaladunk a Mickiewicz-vízesések mellett. Az útvonal könnyű, ideális családoknak, bár szezonban zsúfolt lehet. A tónál található a PTTK menedékház, ahol pihenhet és megkóstolhatja a helyi finomságokat.",
+                    "3": "Strążyska-völgy - Ideális útvonal kezdőknek és kisgyermekes családoknak. A piros jelzésű útvonal (4 km oda-vissza, kb. 1,5 óra) a Siklawica-vízeséshez (23 m) vezet. Útközben elhaladunk a Strążyska-réten, ahol büfé található. A völgyből gyönyörű kilátás nyílik a Giewontra. Az útvonal könnyű, részben kavicsos, és alkalmas babakocsik számára is.",
+                    "4": "Kościeliska-völgy - A Tátra egyik legszebb völgye. A zöld jelzésű útvonal Kirytől az Ornak menedékházig (5,5 km, kb. 1,5 óra) könnyű, és mészkő sziklaformációkra valamint barlangokra (pl. Mroźna-barlang, külön díj ellenében) nyújt kilátást. Tavasszal a völgyet krókuszok díszítik. Az útvonal széles, tökéletes családi sétákhoz.",
+                    "5": "Chochołowska-völgy - A Tátra legnagyobb völgye, híres krókuszairól és pásztorkunyhóiról. A zöld jelzésű útvonal Siwa Polanától a PTTK menedékházig (7,5 km, kb. 2 óra) könnyű, részben aszfaltozott, alkalmas babakocsik és kerékpárok számára. A völgyben található a „Janosik” című filmből ismert kápolna és egy II. János Pál pápa látogatását megörökítő tábla.",
+                    "6": "Zakopanei városnéző túra - A túra magában foglalja a Krupówki meglátogatását, felvonózást a Gubałówkára, látogatást a Krzeptówki-szentélyben és sétát a Régi Templomhoz. A túra minden korosztály számára alkalmas, profi idegenvezetővel."
+                }
+            },
             "biesiada": {
                 "alt": {
                     "1": "Kilátás a festői Kościelisko-völgyi útvonalra",
@@ -1182,6 +1203,10 @@
         "swiatynia-lodowa-hrebieniok": {
             "title": "Hrebieniok Jégtemplom - Kirándulás a Trio Travellel | Felvonó a Hrebieniokra",
             "description": "Látogasd meg a Hrebieniok Jégtemplomot a Trio Travellel! A kirándulás magában foglalja a fogaskerekű vasúti utazást, a Wawel által inspirált jégkatedrális látogatását és szabadidőt Ótátrafüreden. Nézd meg az árakat és a programot!"
+        },
+        "tatry-i-zakopane": {
+            "title": "Kirándulások a Tátrában és Zakopanében - Morskie Oko, Kasprowy Wierch",
+            "description": "Fedezd fel a Tátrát és Zakopanét! Kirándulások a Morskie Oko-hoz, Kasprowy Wierch-re, Chochołowska-völgybe és még sok más helyre. Foglalj kalandot vagy fedezz fel idegenvezetővel!"
         }
     }
 }

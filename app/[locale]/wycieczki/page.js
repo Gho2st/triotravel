@@ -77,6 +77,11 @@ export default function Atrakcje() {
       link: "/wycieczki/slowacki-raj",
     },
     {
+      title: t("trips.17"),
+      image: "/wycieczki/tatry-i-zakopane/tatry-i-zakopane.png",
+      link: "/wycieczki/tatry-i-zakopane",
+    },
+    {
       title: t("trips.9"),
       image: "/wycieczki/wieden/wieden.png",
       link: "/wycieczki/wieden",
