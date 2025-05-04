@@ -1068,6 +1068,11 @@
     "majer": {
         "header": "Trip Organizer"
     },
+    "slovakia": {
+        "header": "Discover Slovakia with us",
+        "text": "Explore the beauty of the Tatras, castles, and Slovak culture!",
+        "alt": "Flag of Slovakia"
+    },
     "metadata": {
         "homepage": {
             "title": "Zakopane Travel Agency: Trips, Sleigh Rides, Rafting - Trio Travel",

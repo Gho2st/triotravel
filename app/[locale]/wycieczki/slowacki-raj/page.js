@@ -9,6 +9,7 @@ import ButtonComponent from "./ButtonComponent";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import CtaLink from "@/app/UI/CtaLink";
+import Slovakia from "@/app/UI/Slovakia";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -73,6 +74,7 @@ export default function SlowackiRaj() {
         <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto xl:text-xl">
           {t("text")}
         </p>
+        <Slovakia />
         <div className="mt-16">
           <Table
             headers={tableHeaders}
