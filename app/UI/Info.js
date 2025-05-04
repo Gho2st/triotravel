@@ -7,12 +7,12 @@ export default function Info() {
   return (
     <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
       <div className="flex justify-center">
-        <Link
+        <a
           href="/regulamin.pdf"
           className="text-center underline uppercase text-2xl 2xl:text-3xl mb-20 font-bold"
         >
           {t("header")}
-        </Link>
+        </a>
       </div>
       <div className="flex flex-col md:flex-row justify-center md:gap-16">
         <div className="w-1/2 mx-auto md:mx-0 md:w-1/6">
