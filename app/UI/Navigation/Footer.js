@@ -137,10 +137,17 @@ export default function Footer() {
           <p className="text-lg">TrioTravel | {currentYear}</p>
         </div>
         {showArrow && (
-          <span className="fixed bg-customBlue shadow-2xl rounded-lg p-1 text-4xl text-white bottom-6 right-6 xl:bottom-16 xl:right-10 z-10">
+          <span className="fixed bg-customBlue shadow-2xl rounded-lg p-1 text-4xl text-white bottom-6 left-6 xl:bottom-16 xl:left-10 z-10">
             <IoIosArrowUp onClick={scrollToTop} className="cursor-pointer" />
           </span>
         )}
+        {/* WhatsApp Icon */}
+        <Link
+          href="https://wa.me/+48881201205"
+          className="fixed bg-[#25D366] shadow-2xl rounded-full p-2 text-4xl xl:text-5xl text-white bottom-6 right-6 xl:bottom-16 xl:right-10 z-10"
+        >
+          <FaWhatsapp className="cursor-pointer" />
+        </Link>
       </footer>
     </>
   );
