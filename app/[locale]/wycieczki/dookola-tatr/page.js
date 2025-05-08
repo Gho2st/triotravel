@@ -5,6 +5,7 @@ import Table from "@/app/UI/Table";
 import Gallery from "@/app/UI/Slider";
 import TripProgram from "@/app/UI/TripProgram";
 import Majer from "@/app/UI/Majer";
+import Slovakia from "@/app/UI/Slovakia";
 
 import { useTranslations } from "next-intl";
 import TatryButtons from "./TatryButtons";
@@ -78,6 +79,7 @@ export default function Tatry() {
         <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto xl:text-xl">
           {t("text")}
         </p>
+        <Slovakia />
         <div className="mt-16">
           <Table
             headers={tableHeaders}

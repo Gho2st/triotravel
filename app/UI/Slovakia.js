@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 export default function Slovakia() {
   const t = useTranslations("slovakia");
@@ -6,7 +7,13 @@ export default function Slovakia() {
     <div className="flex justify-center items-center my-16">
       <div className="flex items-center gap-5 p-5 bg-gray-100 rounded-lg max-w-md">
         {/* Mapa Słowacji z pliku SVG */}
-        <img src="/slovakia.svg" alt={t("alt")} className="w-24 h-auto" />
+        <Image
+          src="/slovakia.svg"
+          width={100}
+          height={100}
+          alt={t("alt")}
+          className="w-24 h-auto"
+        />
 
         {/* Tekst promocyjny */}
         <div>
