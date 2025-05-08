@@ -65,7 +65,7 @@ export default function Jaskinia() {
       <Header text={t("header")} />
       <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[700px] ">
         <Image
-          src="/wycieczki/jaskinia-bielanska/jaskinia.png"
+          src="/wycieczki/jaskinia-bielanska/jaskinia.webp"
           width={500}
           height={500}
           layout="responsive"
@@ -94,19 +94,19 @@ export default function Jaskinia() {
         <Gallery
           images={[
             {
-              url: "/wycieczki/jaskinia-bielanska/jaskinia.png",
+              url: "/wycieczki/jaskinia-bielanska/jaskinia.webp",
               alt: t("alt.1"),
             },
             {
-              url: "/wycieczki/jaskinia-bielanska/1.png",
+              url: "/wycieczki/jaskinia-bielanska/1.webp",
               alt: t("alt.2"),
             },
             {
-              url: "/wycieczki/jaskinia-bielanska/2.png",
+              url: "/wycieczki/jaskinia-bielanska/2.webp",
               alt: t("alt.3"),
             },
             {
-              url: "/wycieczki/jaskinia-bielanska/3.png",
+              url: "/wycieczki/jaskinia-bielanska/3.webp",
               alt: t("alt.4"),
             },
           ]}

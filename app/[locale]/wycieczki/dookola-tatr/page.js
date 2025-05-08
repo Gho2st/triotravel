@@ -65,7 +65,7 @@ export default function Tatry() {
       <Header text={t("header")} />
       <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[700px] ">
         <Image
-          src="/wycieczki/dookola-tatr/tatry.png"
+          src="/wycieczki/dookola-tatr/tatry.webp"
           width={500}
           height={500}
           layout="responsive"
@@ -95,19 +95,19 @@ export default function Tatry() {
         <Gallery
           images={[
             {
-              url: "/wycieczki/dookola-tatr/tatry.png",
+              url: "/wycieczki/dookola-tatr/tatry.webp",
               alt: t("alt.1"),
             },
             {
-              url: "/wycieczki/dookola-tatr/1.png",
+              url: "/wycieczki/dookola-tatr/1.webp",
               alt: t("alt.2"),
             },
             {
-              url: "/wycieczki/dookola-tatr/2.png",
+              url: "/wycieczki/dookola-tatr/2.webp",
               alt: t("alt.3"),
             },
             {
-              url: "/wycieczki/dookola-tatr/3.png",
+              url: "/wycieczki/dookola-tatr/3.webp",
               alt: t("alt.4"),
             },
           ]}

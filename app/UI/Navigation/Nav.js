@@ -53,7 +53,7 @@ export default function Nav() {
         <div className="flex items-center">
           <Link href="/" className="relative h-24 w-24">
             <Image
-              src="/logo/logo2.png"
+              src="/logo/logo2.webp"
               fill
               alt="Logo Trio Travel"
               className="object-contain"

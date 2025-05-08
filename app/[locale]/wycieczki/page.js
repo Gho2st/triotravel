@@ -33,83 +33,83 @@ export default function Atrakcje() {
   const articles = [
     {
       title: t("trips.1"),
-      image: "/wycieczki/splyw-dunajcem-dluzszy/splyw.png",
+      image: "/wycieczki/splyw-dunajcem-dluzszy/splyw.webp",
       link: "/wycieczki/splyw-dunajcem-dluzszy",
     },
     {
       title: t("trips.2"),
-      image: "/wycieczki/termy/termy.png",
+      image: "/wycieczki/termy/termy.webp",
       link: "/wycieczki/chocholowskie-termy",
     },
     {
       title: t("trips.3"),
-      image: "/wycieczki/spacer-w-koronach-drzew/korony.png",
+      image: "/wycieczki/spacer-w-koronach-drzew/korony.webp",
       link: "/wycieczki/spacer-w-koronach-drzew",
     },
     {
       title: t("trips.4"),
-      image: "/wycieczki//jaskinia-bielanska/jaskinia.png",
+      image: "/wycieczki//jaskinia-bielanska/jaskinia.webp",
       link: "/wycieczki/jaskinia-bielanska",
     },
     {
       title: t("trips.6"),
-      image: "/wycieczki/tajemnice-wieliczki/wieliczka.png",
+      image: "/wycieczki/tajemnice-wieliczki/wieliczka.webp",
       link: "/wycieczki/tajemnice-wieliczki",
     },
     // {
     //   title: t("trips.5"),
-    //   image: "/wycieczki/splyw-dunajcem-krotszy/splyw.png",
+    //   image: "/wycieczki/splyw-dunajcem-krotszy/splyw.webp",
     //   link: "/wycieczki/splyw-dunajcem-krotszy",
     // },
     {
       title: t("trips.16"),
-      image: "/wycieczki/biesiada-goralska/baner.png",
+      image: "/wycieczki/biesiada-goralska/baner.webp",
       link: "/wycieczki/biesiada-goralska",
     },
     {
       title: t("trips.7"),
-      image: "/wycieczki/kasprowy-wierch/4.png",
+      image: "/wycieczki/kasprowy-wierch/4.webp",
       link: "/bilety-na-kasprowy-wierch",
     },
     {
       title: t("trips.8"),
-      image: "/wycieczki/slowacki-raj/slowacki-raj.png",
+      image: "/wycieczki/slowacki-raj/slowacki-raj.webp",
       link: "/wycieczki/slowacki-raj",
     },
     {
       title: t("trips.17"),
-      image: "/wycieczki/tatry-i-zakopane/tatry-i-zakopane.png",
+      image: "/wycieczki/tatry-i-zakopane/tatry-i-zakopane.webp",
       link: "/wycieczki/tatry-i-zakopane",
     },
     {
       title: t("trips.9"),
-      image: "/wycieczki/wieden/wieden.png",
+      image: "/wycieczki/wieden/wieden.webp",
       link: "/wycieczki/wieden",
     },
     {
       title: t("trips.10"),
-      image: "/wycieczki/budapeszt/budapeszt.png",
+      image: "/wycieczki/budapeszt/budapeszt.webp",
       link: "/wycieczki/budapeszt",
     },
     {
       title: t("trips.11"),
-      image: "/wycieczki/zamek-orawski/zamek-orawski.png",
+      image: "/wycieczki/zamek-orawski/zamek-orawski.webp",
       link: "/wycieczki/zamek-orawski",
     },
     // {
     //   title: t("trips.12"),
-    //   image: "/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.png",
+    //   image: "/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.webp",
     //   link: "/wycieczki/swiatynia-lodowa-hrebieniok",
     // },
 
     {
       title: t("trips.14"),
-      image: "/wycieczki/dookola-tatr/tatry.png",
+      image: "/wycieczki/dookola-tatr/tatry.webp",
       link: "/wycieczki/dookola-tatr",
     },
     {
       title: t("trips.15"),
-      image: "/wycieczki/rafting-po-dunajcu/rafting.png",
+      image: "/wycieczki/rafting-po-dunajcu/rafting.webp",
       link: "/wycieczki/rafting-po-dunajcu",
     },
   ];

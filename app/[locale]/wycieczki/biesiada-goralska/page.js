@@ -57,7 +57,7 @@ export default function Biesiada() {
       <Header text={t("header")} />
       <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[700px] ">
         <Image
-          src="/wycieczki/biesiada-goralska/baner.png"
+          src="/wycieczki/biesiada-goralska/baner.webp"
           width={500}
           height={500}
           layout="responsive"
@@ -83,10 +83,10 @@ export default function Biesiada() {
       <div>
         <Gallery
           images={[
-            { url: "/wycieczki/biesiada-goralska/1.png", alt: t("alt.2") },
-            { url: "/wycieczki/biesiada-goralska/2.png", alt: t("alt.3") },
-            { url: "/wycieczki/biesiada-goralska/3.png", alt: t("alt.4") },
-            { url: "/wycieczki/biesiada-goralska/4.png", alt: t("alt.5") },
+            { url: "/wycieczki/biesiada-goralska/1.webp", alt: t("alt.2") },
+            { url: "/wycieczki/biesiada-goralska/2.webp", alt: t("alt.3") },
+            { url: "/wycieczki/biesiada-goralska/3.webp", alt: t("alt.4") },
+            { url: "/wycieczki/biesiada-goralska/4.webp", alt: t("alt.5") },
           ]}
         />
       </div>

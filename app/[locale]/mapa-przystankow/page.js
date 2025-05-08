@@ -38,7 +38,7 @@ export default function Map() {
       <section
         className="min-h-[100vh] "
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url("/mapa-przystankow/1.png")`,
+          backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url("/mapa-przystankow/1.webp")`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -53,11 +53,11 @@ export default function Map() {
         <div className="flex flex-col md:flex-row md:gap-20">
           <div className="md:w-1/3">
             <Image
-              src="/mapa-przystankow/2.png"
+              src="/mapa-przystankow/2.webp"
               width={500}
               height={500}
               layout="responsive"
-              alt="telefon w ręce z włączoną aplikację mapy"
+              alt=""
             />
           </div>
           <div className="text-white mt-16 2xl:mt-24 px-6 pb-20">

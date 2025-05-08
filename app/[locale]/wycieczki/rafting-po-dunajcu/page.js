@@ -61,7 +61,7 @@ export default function Rafting() {
       <Header text={t("header")} />
       <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[700px] ">
         <Image
-          src="/wycieczki/rafting-po-dunajcu/rafting.png"
+          src="/wycieczki/rafting-po-dunajcu/rafting.webp"
           width={500}
           height={500}
           layout="responsive"
@@ -102,19 +102,19 @@ export default function Rafting() {
         <Gallery
           images={[
             {
-              url: "/wycieczki/rafting-po-dunajcu/1.png",
+              url: "/wycieczki/rafting-po-dunajcu/1.webp",
               alt: t("alt.2"),
             },
             {
-              url: "/wycieczki/rafting-po-dunajcu/2.png",
+              url: "/wycieczki/rafting-po-dunajcu/2.webp",
               alt: t("alt.3"),
             },
             {
-              url: "/wycieczki/rafting-po-dunajcu/3.png",
+              url: "/wycieczki/rafting-po-dunajcu/3.webp",
               alt: t("alt.4"),
             },
             {
-              url: "/wycieczki/rafting-po-dunajcu/4.png",
+              url: "/wycieczki/rafting-po-dunajcu/4.webp",
               alt: t("alt.5"),
             },
           ]}

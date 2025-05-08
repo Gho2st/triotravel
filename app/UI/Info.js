@@ -17,7 +17,7 @@ export default function Info() {
       <div className="flex flex-col md:flex-row justify-center md:gap-16">
         <div className="w-1/2 mx-auto md:mx-0 md:w-1/6">
           <Image
-            src="/others/pfr.png"
+            src="/others/pfr.webp"
             width={500}
             height={500}
             layout="responsive"

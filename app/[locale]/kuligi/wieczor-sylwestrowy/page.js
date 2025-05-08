@@ -62,7 +62,7 @@ export default function Sylwester() {
       <Header text={t("header")} />
       <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[700px] ">
         <Image
-          src="/kuligi/sylwestrowy2.jpg"
+          src="/kuligi/sylwestrowy2.webp"
           width={500}
           height={500}
           layout="responsive"
@@ -100,11 +100,11 @@ export default function Sylwester() {
       </section>
       <Gallery
         images={[
-          { url: "/kuligi/photos/1.jpg", alt: a("1") },
-          { url: "/kuligi/photos/2.jpg", alt: a("2") },
-          { url: "/kuligi/photos/3.jpg", alt: a("3") },
-          { url: "/kuligi/photos/4.jpg", alt: a("4") },
-          { url: "/kuligi/photos/5.jpg", alt: a("5") },
+          { url: "/kuligi/photos/1.webp", alt: a("1") },
+          { url: "/kuligi/photos/2.webp", alt: a("2") },
+          { url: "/kuligi/photos/3.webp", alt: a("3") },
+          { url: "/kuligi/photos/4.webp", alt: a("4") },
+          { url: "/kuligi/photos/5.webp", alt: a("5") },
         ]}
       />
       <CtaLink />

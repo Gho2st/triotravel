@@ -30,17 +30,17 @@ export default function Kuligi() {
   const articles = [
     {
       title: t("cards.1"),
-      image: "/kuligi/koscielisko.png",
+      image: "/kuligi/koscielisko.webp",
       link: "/kuligi/goralski-koscielisko",
     },
     {
       title: t("cards.2"),
-      image: "/kuligi/dolina.png",
+      image: "/kuligi/dolina.webp",
       link: "/kuligi/dolina-chocholowska",
     },
     {
       title: t("cards.3"),
-      image: "/kuligi/sylwestrowy.png",
+      image: "/kuligi/sylwestrowy.webp",
       link: "/kuligi/wieczor-sylwestrowy",
     },
   ];

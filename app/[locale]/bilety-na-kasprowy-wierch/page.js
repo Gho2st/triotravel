@@ -46,7 +46,7 @@ export default function Kasprowy() {
       <div className="relative h-136 w-full">
         <Image
           className="object-cover"
-          src="/others/kasprowy.png"
+          src="/others/kasprowy.webp"
           fill
           alt="kolejka jadąca na Kasprowy Wierch"
         />
@@ -59,10 +59,10 @@ export default function Kasprowy() {
       <div>
         <Gallery
           images={[
-            { url: "/wycieczki/kasprowy-wierch/1.png", alt: "First image" },
-            { url: "/wycieczki/kasprowy-wierch/2.png", alt: "First image" },
-            { url: "/wycieczki/kasprowy-wierch/3.png", alt: "First image" },
-            { url: "/wycieczki/kasprowy-wierch/4.png", alt: "First image" },
+            { url: "/wycieczki/kasprowy-wierch/1.webp", alt: "First image" },
+            { url: "/wycieczki/kasprowy-wierch/2.webp", alt: "First image" },
+            { url: "/wycieczki/kasprowy-wierch/3.webp", alt: "First image" },
+            { url: "/wycieczki/kasprowy-wierch/4.webp", alt: "First image" },
           ]}
         />
       </div>

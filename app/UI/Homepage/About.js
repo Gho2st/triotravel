@@ -17,7 +17,7 @@ export default function About() {
         </div>
         <div className="md:w-1/2">
           <Image
-            src={"/about/2.png"}
+            src={"/about/2.webp"}
             width={100}
             height={100}
             layout="responsive"
@@ -29,7 +29,7 @@ export default function About() {
       <div className="flex flex-col-reverse md:flex-row gap-10 xl:gap-20 mt-16 md:mt-20">
         <div className="md:w-1/2">
           <Image
-            src={"/about/1.png"}
+            src={"/about/1.webp"}
             width={100}
             height={100}
             layout="responsive"

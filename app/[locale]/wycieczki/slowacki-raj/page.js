@@ -61,7 +61,7 @@ export default function SlowackiRaj() {
       <Header text={t("header")} />
       <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[700px] ">
         <Image
-          src="/wycieczki/slowacki-raj/slowacki-raj.png"
+          src="/wycieczki/slowacki-raj/slowacki-raj.webp"
           width={500}
           height={500}
           layout="responsive"
@@ -95,19 +95,19 @@ export default function SlowackiRaj() {
         <Gallery
           images={[
             {
-              url: "/wycieczki/slowacki-raj/1.png",
+              url: "/wycieczki/slowacki-raj/1.webp",
               alt: t("alt.2"),
             },
             {
-              url: "/wycieczki/slowacki-raj/2.png",
+              url: "/wycieczki/slowacki-raj/2.webp",
               alt: t("alt.3"),
             },
             {
-              url: "/wycieczki/slowacki-raj/3.png",
+              url: "/wycieczki/slowacki-raj/3.webp",
               alt: t("alt.4"),
             },
             {
-              url: "/wycieczki/slowacki-raj/4.png",
+              url: "/wycieczki/slowacki-raj/4.webp",
               alt: t("alt.5"),
             },
           ]}

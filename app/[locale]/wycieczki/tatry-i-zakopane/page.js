@@ -51,7 +51,7 @@ export default function Zakopane() {
       <Header text={t("header")} />
       <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[700px] ">
         <Image
-          src="/wycieczki/tatry-i-zakopane/tatry-i-zakopane.png"
+          src="/wycieczki/tatry-i-zakopane/tatry-i-zakopane.webp"
           width={500}
           height={500}
           layout="responsive"
@@ -75,19 +75,19 @@ export default function Zakopane() {
         <Gallery
           images={[
             {
-              url: "/wycieczki/tatry-i-zakopane/1.png",
+              url: "/wycieczki/tatry-i-zakopane/1.webp",
               alt: t("alt.2"),
             },
             {
-              url: "/wycieczki/tatry-i-zakopane/2.png",
+              url: "/wycieczki/tatry-i-zakopane/2.webp",
               alt: t("alt.3"),
             },
             {
-              url: "/wycieczki/tatry-i-zakopane/3.png",
+              url: "/wycieczki/tatry-i-zakopane/3.webp",
               alt: t("alt.4"),
             },
             {
-              url: "/wycieczki/tatry-i-zakopane/4.png",
+              url: "/wycieczki/tatry-i-zakopane/4.webp",
               alt: t("alt.5"),
             },
           ]}

@@ -72,7 +72,7 @@ export default function Budapeszt() {
       <Header text={t("header")} />
       <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[700px] ">
         <Image
-          src="/wycieczki/budapeszt/budapeszt.png"
+          src="/wycieczki/budapeszt/budapeszt.webp"
           width={500}
           height={500}
           layout="responsive"
@@ -112,19 +112,19 @@ export default function Budapeszt() {
         <Gallery
           images={[
             {
-              url: "/wycieczki/budapeszt/1.png",
+              url: "/wycieczki/budapeszt/1.webp",
               alt: t("alt.2"),
             },
             {
-              url: "/wycieczki/budapeszt/2.png",
+              url: "/wycieczki/budapeszt/2.webp",
               alt: t("alt.3"),
             },
             {
-              url: "/wycieczki/budapeszt/3.png",
+              url: "/wycieczki/budapeszt/3.webp",
               alt: t("alt.4"),
             },
             {
-              url: "/wycieczki/budapeszt/budapeszt.png",
+              url: "/wycieczki/budapeszt/budapeszt.webp",
               alt: t("alt.1"),
             },
           ]}

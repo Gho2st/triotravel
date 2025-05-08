@@ -34,7 +34,7 @@ export default function Transport() {
       <Header text={t("header")} />
       <div className="md:w-2/5 mx-auto">
         <Image
-          src={"/transport/bus.png"}
+          src={"/transport/bus.webp"}
           width={500}
           height={500}
           layout="responsive"
@@ -50,10 +50,10 @@ export default function Transport() {
         </div>
         <Gallery
           images={[
-            { url: "/transport/1.png", alt: t("alt.2") },
-            { url: "/transport/2.png", alt: t("alt.3") },
-            { url: "/transport/3.png", alt: t("alt.4") },
-            { url: "/transport/4.png", alt: t("alt.5") },
+            { url: "/transport/1.webp", alt: t("alt.2") },
+            { url: "/transport/2.webp", alt: t("alt.3") },
+            { url: "/transport/3.webp", alt: t("alt.4") },
+            { url: "/transport/4.webp", alt: t("alt.5") },
           ]}
         />
         <div className="px-6 md:px-20 xl:px-32 2xl:px-44 pb-10 md:pb-24 md:w-3/4 mx-auto  xl:text-xl text-center">

@@ -76,7 +76,7 @@ export default function Footer() {
             <div className="flex justify-center  w-1/2 md:w-2/3 mx-auto">
               <Image
                 alt="logo"
-                src={"/logo/logo.png"}
+                src={"/logo/logo.webp"}
                 width={330}
                 height={330}
                 layout="responsive"

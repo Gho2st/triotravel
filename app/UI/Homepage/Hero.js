@@ -15,27 +15,27 @@ export default function Hero() {
   const slides = useMemo(
     () => [
       {
-        background: "/wycieczki/spacer-w-koronach-drzew/korony.png",
+        background: "/wycieczki/spacer-w-koronach-drzew/korony.webp",
         translationKey: "headers.header7", // "Spacer W Koronach Drzew"
         link: "/wycieczki/spacer-w-koronach-drzew",
       },
       {
-        background: "/baner/baner2.png",
+        background: "/baner/baner2.webp",
         translationKey: "headers.header1", // "Spływ Dunajcem?"
         link: "/wycieczki/splyw-dunajcem-dluzszy",
       },
       {
-        background: "/wycieczki/biesiada-goralska/baner.png",
+        background: "/wycieczki/biesiada-goralska/baner.webp",
         translationKey: "headers.header5", // "Biesiada Goralska?"
         link: "/wycieczki/biesiada-goralska",
       },
       {
-        background: "/baner/baner4.png",
+        background: "/baner/baner4.webp",
         translationKey: "headers.header2", // "Baseny Termalne?"
         link: "/wycieczki/chocholowskie-termy",
       },
       {
-        background: "/baner/baner6.png",
+        background: "/baner/baner6.webp",
         translationKey: "headers.header4", // "Transport w Górach?"
         link: "/transport",
       },

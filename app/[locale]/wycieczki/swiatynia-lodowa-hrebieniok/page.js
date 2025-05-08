@@ -60,7 +60,7 @@ export default function Hrebieniok() {
       <Header text={t("header")} />
       <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[700px] ">
         <Image
-          src="/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.png"
+          src="/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.webp"
           width={500}
           height={500}
           layout="responsive"
@@ -88,19 +88,19 @@ export default function Hrebieniok() {
         <Gallery
           images={[
             {
-              url: "/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.png",
+              url: "/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.webp",
               alt: t("alt.1"),
             },
             {
-              url: "/wycieczki/swiatynia-lodowa-hrebieniok/1.png",
+              url: "/wycieczki/swiatynia-lodowa-hrebieniok/1.webp",
               alt: t("alt.2"),
             },
             {
-              url: "/wycieczki/swiatynia-lodowa-hrebieniok/2.png",
+              url: "/wycieczki/swiatynia-lodowa-hrebieniok/2.webp",
               alt: t("alt.3"),
             },
             {
-              url: "/wycieczki/swiatynia-lodowa-hrebieniok/3.png",
+              url: "/wycieczki/swiatynia-lodowa-hrebieniok/3.webp",
               alt: t("alt.4"),
             },
           ]}

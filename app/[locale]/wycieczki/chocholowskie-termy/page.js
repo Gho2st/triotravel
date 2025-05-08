@@ -53,7 +53,7 @@ export default function Termy() {
       <Header text={t("header")} />
       <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[700px] ">
         <Image
-          src="/wycieczki/termy/termy.png"
+          src="/wycieczki/termy/termy.webp"
           width={500}
           height={500}
           layout="responsive"
@@ -76,10 +76,10 @@ export default function Termy() {
       <div>
         <Gallery
           images={[
-            { url: "/wycieczki/termy/1.jpg", alt: t("alt.2") },
-            { url: "/wycieczki/termy/2.jpg", alt: t("alt.3") },
-            { url: "/wycieczki/termy/3.jpg", alt: t("alt.4") },
-            { url: "/wycieczki/termy/4.jpg", alt: t("alt.5") },
+            { url: "/wycieczki/termy/1.webp", alt: t("alt.2") },
+            { url: "/wycieczki/termy/2.webp", alt: t("alt.3") },
+            { url: "/wycieczki/termy/3.webp", alt: t("alt.4") },
+            { url: "/wycieczki/termy/4.webp", alt: t("alt.5") },
           ]}
         />
       </div>

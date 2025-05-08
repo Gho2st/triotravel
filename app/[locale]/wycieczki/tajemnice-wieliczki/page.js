@@ -60,7 +60,7 @@ export default function Wieliczka() {
       <Header text={t("header")} />
       <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[700px] ">
         <Image
-          src="/wycieczki/tajemnice-wieliczki/wieliczka.png"
+          src="/wycieczki/tajemnice-wieliczki/wieliczka.webp"
           width={500}
           height={500}
           layout="responsive"
@@ -91,19 +91,19 @@ export default function Wieliczka() {
         <Gallery
           images={[
             {
-              url: "/wycieczki/tajemnice-wieliczki/1.png",
+              url: "/wycieczki/tajemnice-wieliczki/1.webp",
               alt: t("alt.2"),
             },
             {
-              url: "/wycieczki/tajemnice-wieliczki/2.png",
+              url: "/wycieczki/tajemnice-wieliczki/2.webp",
               alt: t("alt.3"),
             },
             {
-              url: "/wycieczki/tajemnice-wieliczki/3.png",
+              url: "/wycieczki/tajemnice-wieliczki/3.webp",
               alt: t("alt.4"),
             },
             {
-              url: "/wycieczki/tajemnice-wieliczki/4.png",
+              url: "/wycieczki/tajemnice-wieliczki/4.webp",
               alt: t("alt.5"),
             },
           ]}

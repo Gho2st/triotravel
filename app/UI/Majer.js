@@ -9,7 +9,7 @@ export default function Majer() {
       <LineHeader text={t("header")} />
       <div className="w-1/2 md:w-2/5 xl:w-1/5 mx-auto mt-8 xl:mt-16">
         <Image
-          src={"/logo/majer.png"}
+          src={"/logo/majer.webp"}
           width={500}
           height={500}
           layout="responsive"
