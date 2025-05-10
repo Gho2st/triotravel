@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
+// pamietaj zeby dodac env na serwer
+
 // Funkcja walidacji pól formularza :)
 function validateFields(fields) {
   return Object.entries(fields).every(
@@ -94,7 +96,7 @@ export async function POST(request) {
 
     const mailOptions = {
       from: process.env.NODEMAILER_EMAIL,
-      to: "domiweb.biuro@gmail.com",
+      to: "biuro@triotravel.eu",
       replyTo: email, // Adres e-mail klienta podany w formularzu
       subject: "Email ze strony TrioTravel od klienta",
       html: createEmailTemplate(fields),
