@@ -19,7 +19,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/trips`,
-          ar: `${baseUrl}/ar/رحلات`,
+          ar: `${baseUrl}/ar/rihlat`,
           hu: `${baseUrl}/hu/kirándulások`,
         },
       },
@@ -30,7 +30,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/sleigh-rides`,
-          ar: `${baseUrl}/ar/زلاقات`,
+          ar: `${baseUrl}/ar/zalajat`,
           hu: `${baseUrl}/hu/szánkózás`,
         },
       },
@@ -41,7 +41,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/sleigh-rides/highlander-koscielisko`,
-          ar: `${baseUrl}/ar/زلاقات/هايلاندر-كوسيلسكو`,
+          ar: `${baseUrl}/ar/zalajat/highlander-koscielisko`,
           hu: `${baseUrl}/hu/szánkózás/hegyvidéki-koscielisko`,
         },
       },
@@ -52,7 +52,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/sleigh-rides/chocholowska-valley`,
-          ar: `${baseUrl}/ar/زلاقات/وادي-خوخووفسكا`,
+          ar: `${baseUrl}/ar/zalajat/wadi-chocholowska`,
           hu: `${baseUrl}/hu/szánkózás/chocholowska-völgy`,
         },
       },
@@ -63,7 +63,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/sleigh-rides/new-years-eve`,
-          ar: `${baseUrl}/ar/زلاقات/ليلة-رأس-السنة`,
+          ar: `${baseUrl}/ar/zalajat/laylat-ras-al-sana`,
           hu: `${baseUrl}/hu/szánkózás/szilveszteri-est`,
         },
       },
@@ -74,7 +74,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/kasprowy-wierch-tickets`,
-          ar: `${baseUrl}/ar/تذاكر-كاسپروي`,
+          ar: `${baseUrl}/ar/tazakir-kasprowy`,
           hu: `${baseUrl}/hu/kasprowy-wierch-jegyek`,
         },
       },
@@ -85,7 +85,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/transport`,
-          ar: `${baseUrl}/ar/نقل`,
+          ar: `${baseUrl}/ar/naql`,
           hu: `${baseUrl}/hu/közlekedés`,
         },
       },
@@ -96,7 +96,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/map-of-stops`,
-          ar: `${baseUrl}/ar/خريطة-المواقف`,
+          ar: `${baseUrl}/ar/kharitat-al-mawaqif`,
           hu: `${baseUrl}/hu/megállók-térképe`,
         },
       },
@@ -107,7 +107,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/partners`,
-          ar: `${baseUrl}/ar/شركاء`,
+          ar: `${baseUrl}/ar/shuraka`,
           hu: `${baseUrl}/hu/partnerek`,
         },
       },
@@ -118,7 +118,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/contact`,
-          ar: `${baseUrl}/ar/اتصال`,
+          ar: `${baseUrl}/ar/ittasil`,
           hu: `${baseUrl}/hu/kapcsolat`,
         },
       },
@@ -129,7 +129,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/reservations`,
-          ar: `${baseUrl}/ar/حجوزات`,
+          ar: `${baseUrl}/ar/hajuzat`,
           hu: `${baseUrl}/hu/foglalások`,
         },
       },
@@ -140,7 +140,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/trips/dunajec-rafting-extended`,
-          ar: `${baseUrl}/ar/رحلات/التجديف-نهر-دوناجتس-المطول`,
+          ar: `${baseUrl}/ar/rihlat/tajdeef-dunajec-mutawwal`,
           hu: `${baseUrl}/hu/kirándulások/dunajec-rafting-hosszabb`,
         },
       },
@@ -151,7 +151,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/trips/chocholowska-thermal-pools`,
-          ar: `${baseUrl}/ar/رحلات/حمامات-خوخووفسكا-الحرارية`,
+          ar: `${baseUrl}/ar/rihlat/hammamat-chocholowska-harrariya`,
           hu: `${baseUrl}/hu/kirándulások/chocholowska-termálfürdők`,
         },
       },
@@ -162,7 +162,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/trips/tree-top-walk-bachledka`,
-          ar: `${baseUrl}/ar/رحلات/مشي-فوق-الأشجار-باخليدكا`,
+          ar: `${baseUrl}/ar/rihlat/mashi-fawq-al-ashjar-bachledka`,
           hu: `${baseUrl}/hu/kirándulások/fakorona-séta-bachledka`,
         },
       },
@@ -173,7 +173,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/trips/belianska-cave-trip`,
-          ar: `${baseUrl}/ar/رحلات/رحلة-كهف-بيليانسكا`,
+          ar: `${baseUrl}/ar/rihlat/rihlat-kahf-belianska`,
           hu: `${baseUrl}/hu/kirándulások/belianska-barlangtúra`,
         },
       },
@@ -184,7 +184,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/trips/wieliczka-salt-mine-tour`,
-          ar: `${baseUrl}/ar/رحلات/أسرار-منجم-فيليتشكا`,
+          ar: `${baseUrl}/ar/rihlat/asrar-manjam-wieliczka`,
           hu: `${baseUrl}/hu/kirándulások/wieliczka-sóbánya-túra`,
         },
       },
@@ -195,7 +195,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/trips/goral-feast`,
-          ar: `${baseUrl}/ar/رحلات/مأدبة-الجبال-الغورال`,
+          ar: `${baseUrl}/ar/rihlat/madbat-al-jibal-goral`,
           hu: `${baseUrl}/hu/kirándulások/hegyvidéki-lakoma`,
         },
       },
@@ -206,7 +206,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/trips/slovak-raj`,
-          ar: `${baseUrl}/ar/رحلات/الجنة-السلوفاكية`,
+          ar: `${baseUrl}/ar/rihlat/jannat-slovak`,
           hu: `${baseUrl}/hu/kirándulások/szlovák-paradicsom`,
         },
       },
@@ -217,7 +217,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/trips/vienna`,
-          ar: `${baseUrl}/ar/رحلات/فيينا`,
+          ar: `${baseUrl}/ar/rihlat/vienna`,
           hu: `${baseUrl}/hu/kirándulások/bécs`,
         },
       },
@@ -228,7 +228,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/trips/b bioticapest`,
-          ar: `${baseUrl}/ar/رحلات/بودابست`,
+          ar: `${baseUrl}/ar/rihlat/budapest`,
           hu: `${baseUrl}/hu/kirándulások/budapest`,
         },
       },
@@ -239,7 +239,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/trips/orava-castle`,
-          ar: `${baseUrl}/ar/رحلات/قلعة-أوراوا`,
+          ar: `${baseUrl}/ar/rihlat/qilat-orava`,
           hu: `${baseUrl}/hu/kirándulások/árva-vár`,
         },
       },
@@ -250,7 +250,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/trips/around-tatras`,
-          ar: `${baseUrl}/ar/رحلات/حول-تاترا`,
+          ar: `${baseUrl}/ar/rihlat/hawl-tatra`,
           hu: `${baseUrl}/hu/kirándulások/tátra-körül`,
         },
       },
@@ -261,7 +261,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/trips/dunajec-river-rafting`,
-          ar: `${baseUrl}/ar/رحلات/التجديف-نهر-دوناجتس`,
+          ar: `${baseUrl}/ar/rihlat/tajdeef-nahr-dunajec`,
           hu: `${baseUrl}/hu/kirándulások/dunajec-folyó-rafting`,
         },
       },
@@ -272,7 +272,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/trips/ice-temple-hrebienok`,
-          ar: `${baseUrl}/ar/رحلات/معبد-الثلج-هريبيانوك`,
+          ar: `${baseUrl}/ar/rihlat/mabad-thalj-hrebienok`,
           hu: `${baseUrl}/hu/kirándulások/jégtemplom-hrebienok`,
         },
       },
@@ -283,7 +283,7 @@ export default function sitemap() {
       alternates: {
         languages: {
           en: `${baseUrl}/en/trips/shorter-dunajec-river-rafting`,
-          ar: `${baseUrl}/ar/رحلات/رحلة-نهر-دوناجتس-القصيرة`,
+          ar: `${baseUrl}/ar/rihlat/rihlat-nahr-dunajec-qasira`,
           hu: `${baseUrl}/hu/kirándulások/rövidebb-dunajec-folyó-rafting`,
         },
       },
