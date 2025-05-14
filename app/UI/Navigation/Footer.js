@@ -58,8 +58,8 @@ export default function Footer() {
       <Info />
 
       <footer className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24 bg-customBlue text-white overflow-hidden ">
-        <div className="flex flex-col gap-16 md:flex-row justify-between ">
-          <div className="text-lg md:text-xl md:w-96 text-center md:text-right pr-0 md:pr-10 md:border-r-2 border-r-gray-200">
+        <div className="flex flex-col gap-16 xl:flex-row justify-between ">
+          <div className="text-lg md:text-xl xl:w-96 text-center xl:text-right pr-0 xl:pr-10 xl:border-r-2 border-r-gray-200">
             <p className="text-2xl md:text-3xl mb-10 xl:mb-16">
               {t("hours.header")}
             </p>
@@ -73,7 +73,7 @@ export default function Footer() {
             </div>
           </div>
           <div>
-            <div className="flex justify-center  w-1/2 md:w-2/3 mx-auto">
+            <div className="flex justify-center  w-1/2 sm:w-1/3  xl:w-2/3 mx-auto">
               <Image
                 alt="logo"
                 src={"/logo/logo.webp"}
@@ -109,24 +109,24 @@ export default function Footer() {
               </Link>
             </div>
           </div>
-          <div className="text-lg md:text-xl md:w-96 text-center md:text-left pl-0 md:pl-10 md:border-l-2 border-l-gray-200 ">
+          <div className="text-lg md:text-xl xl:w-96 text-center xl:text-left pl-0 xl:pl-10 xl:border-l-2 border-l-gray-200 ">
             <h3 className="text-2xl md:text-3xl mb-10 xl:mb-16">
               {t("contact.header")}
             </h3>
             <ul className="flex flex-col gap-4">
-              <li className="flex justify-center md:justify-start gap-2 md:gap-4 items-center">
+              <li className="flex justify-center xl:justify-start gap-2 md:gap-4 items-center">
                 <FaPhoneAlt className="text-2xl" />
                 <Link className="underline" href={"tel:48881201205"}>
                   +48 881 201 205{" "}
                 </Link>
               </li>
-              <li className="flex justify-center md:justify-start gap-2 md:gap-4 items-center">
+              <li className="flex justify-center xl:justify-start gap-2 md:gap-4 items-center">
                 <IoMail className="text-2xl" />
                 <Link className="underline" href={"mailto:biuro@triotravel.eu"}>
                   biuro@triotravel.eu{" "}
                 </Link>
               </li>
-              <li className="flex justify-center md:justify-start gap-2 md:gap-4 items-center break-words">
+              <li className="flex justify-center xl:justify-start gap-2 md:gap-4 items-center break-words">
                 <FaLocationDot className="text-2xl" />
                 ul. Kościuszki 23A,<br></br> 34-500 Zakopane
               </li>

@@ -43,15 +43,15 @@ export default function Map() {
           backgroundPosition: "center",
         }}
       >
-        <div className="text-center text-white xl:text-xl md:w-3/4 mx-auto px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
+        <div className="text-center text-white xl:text-xl lg:w-3/4 mx-auto px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
           <h2 className="text-3xl md:text-5xl mb-16  font-bold leading-snug">
             {t("header2")}
           </h2>
           <p>{t("text")}</p>
           <p className="mt-10">{t("text2")}</p>
         </div>
-        <div className="flex flex-col md:flex-row md:gap-20">
-          <div className="md:w-1/3">
+        <div className="flex flex-col lg:flex-row md:gap-20">
+          <div className="sm:w-1/3 md:w-1/2">
             <Image
               src="/mapa-przystankow/2.webp"
               width={500}
