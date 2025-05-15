@@ -5,6 +5,7 @@ import "../globals.css";
 import { notFound } from "next/navigation";
 import { getMessages } from "next-intl/server";
 import ClientBody from "../UI/ClientBody";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const font = Poppins({
   subsets: ["latin"],
@@ -22,6 +23,7 @@ export default async function LocaleLayout({ children, params }) {
 
   return (
     <html lang={locale}>
+      <GoogleTagManager gtmId="GTM-M8ZVL5X6" />
       <body>
         <NextIntlClientProvider messages={messages}>
           <ClientBody fontClassName={font.className}>{children}</ClientBody>
