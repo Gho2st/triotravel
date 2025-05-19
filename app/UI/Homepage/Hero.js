@@ -20,7 +20,7 @@ export default function Hero() {
         link: "/wycieczki/spacer-w-koronach-drzew",
       },
       {
-        background: "/baner/baner2.webp",
+        background: "/wycieczki/splyw-dunajcem-dluzszy/4.webp",
         translationKey: "headers.header1", // "Spływ Dunajcem?"
         link: "/wycieczki/splyw-dunajcem-dluzszy",
       },
@@ -38,6 +38,16 @@ export default function Hero() {
         background: "/baner/baner6.webp",
         translationKey: "headers.header4", // "Transport w Górach?"
         link: "/transport",
+      },
+      {
+        background: "/wycieczki/tajemnice-wieliczki/6.webp",
+        translationKey: "headers.header8", // "Transport w Górach?"
+        link: "/wycieczki/tajemnice-wieliczki",
+      },
+      {
+        background: "/wycieczki/jaskinia-bielanska/jaskinia.webp",
+        translationKey: "headers.header9", // "Transport w Górach?"
+        link: "/wycieczki/jaskinia-bielanska",
       },
     ],
     []

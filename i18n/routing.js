@@ -173,6 +173,12 @@ export const routing = defineRouting({
       ar: "/rihlat/tatra-wa-zakopane",
       hu: "/kirándulások/tátra-és-zakopane",
     },
+    "/wycieczki/tatry-i-zakopane/szlak-papieski": {
+      pl: "/wycieczki/tatry-i-zakopane/szlak-papieski",
+      en: "/trips/tatras-and-zakopane/papal-trail",
+      ar: "/rihlat/tatra-wa-zakopane/darb-al-baba",
+      hu: "/kirandulasok/tatra-es-zakopane/papai-osveny",
+    },
   },
 });
 

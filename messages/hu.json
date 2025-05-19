@@ -39,7 +39,9 @@
             "header4": "Hegyi szállítás?",
             "header5": "Hegyi lakoma?",
             "header6": "Téli lovasszán túra?",
-            "header7": "Séta a lombkoronák között?"
+            "header7": "Séta a lombkoronák között?",
+            "header8": "Wieliczka titkai?",
+            "header9": "Bielai-barlang?"
         },
         "button": "Megnézem",
         "button2": "Több"
@@ -76,6 +78,54 @@
             "17": "Tátra és Zakopane"
         },
         "tripslist": {
+            "szlak-papieski": {
+                "alt": {
+                    "1": "II. János Pál pápa szobra Ząbiében, Lengyelországban, a talapzaton feliratos idézettel.",
+                    "2": "Egy csoport ember egy szobrokkal teli helyiségben gyűlt össze, különböző műalkotásokat bemutatva. A helyszín beltéri, kiemelve a mennyezetet és a jelenlévők sokféle öltözékét.",
+                    "3": "Egy férfi egy férfi szobrát tartja egy múzeumban, más emberek és művészeti kiállítások között. A mennyezet látható fölötte, hozzájárulva a tér hangulatához."
+                },
+                "header": "Pápai Ösvény – Körutazás Zakopanéban és környékén",
+                "header2": "Szent II. János Pál és Zakopane történelmének nyomában",
+                "header3": "Látványosságok leírása:",
+                "text": "Meghívunk egy különleges, nyugodt körutazásra Szent II. János Pál nyomában, valamint Zakopane és környékének legszebb és legjelentősebb történelmi helyszíneire. Ez tökéletes választás azoknak, akik szeretnék megismerni Podhale spirituális és kulturális lényegét hosszú gyalogtúrák nélkül. Közlekedés: légkondicionált busz sofőr-idegenvezetővel. Felszállás: a szálláshelyhez legközelebbi megállóból. Túra típusa: panorámás, körutazás, hosszú séták nélkül.",
+                "list": {
+                    "1": "Toporowa Cyrhla – utunk kiindulópontja a Pápai Kőnél, ahol a híres Pápai Ösvény kezdődik. Rövid szünet fotózásra és a Tátra panorámájának megcsodálására: Giewont és Kasprowy Wierch.",
+                    "2": "Jaszczurówka Kápolna – Zakopane építészeti gyöngyszeme, Stanisław Witkiewicz tervezésében. Belépünk, hogy megnézzük az egyedi belső teret és átérezzük a hegyvidéki hit szellemét.",
+                    "3": "Olcza-völgy és Nosal – utazás a Nosal lábánál és az Olcza-völgy bejáratánál, amelyek különösen közel álltak Karol Wojtyła szívéhez.",
+                    "4": "Wielka Krokiew és a síugró komplexum – kívülről csodáljuk meg a híres síugrót és kisebb társait.",
+                    "5": "Zakopane alkotóinak utcái – utazás olyan utcákon keresztül, amelyeket többek között Piłsudski, Makuszyński és Tetmajer tiszteletére neveztek el.",
+                    "6": "Kościeliska utca és Pęksowy Brzyzek – Zakopane legrégebbi utcája, ahol található az első zakopanei temető, a történelmi Gąsienica Kápolna 1800-ból, egy régi fakeresztény templom és Zakopane legrégebbi fogadója, az 'U Jana Wnuka'.",
+                    "7": "Zakopanei stílus és a Koliba Villa – utazás a villa és a több mint 200 éves történelmi hegyvidéki házak mellett.",
+                    "8": "Fatimai Szűzanya Szentély Krzeptówkiban – hosszabb megálló a látogatásra. Megnézzük Lengyelország legnagyobb faoltárát, Szent II. János Pál ereklyéit és az 1997-es pápai oltárt, amelyet a Wielka Krokiew alól helyeztek át.",
+                    "9": "Gronik és egy régi pásztorkunyhó Witówban – utazás a groniki katonai bázison keresztül és megálló a régió egyik legrégebbi pásztorkunyhójánál. Lehetőség eredeti oscypek sajt vásárlására és bundz kóstolására.",
+                    "10": "Chochołów – élő skanzen – látogatás egy egyedülálló faluban, amely 33 eredeti fa hegyvidéki házból áll, valamint megálló Jan Zięder híres szobrász műhelyénél.",
+                    "11": "Visszatérés a Gubałówka csúcson keresztül – festői útvonal Zakopane és a Tátra panorámájával. Tökéletes befejezése egy élményekkel teli napnak."
+                },
+                "tripprogram": {
+                    "header": "Időtartam: kb.",
+                    "1": "Toporowa Cyrhla",
+                    "2": "II. János Pál Pápai Kő – a Pápai Ösvény kezdete",
+                    "3": "Kilátópont: Tátra panoráma, Giewont, Kasprowy Wierch",
+                    "4": "Jaszczurówka Kápolna – látogatás",
+                    "5": "Olcza-völgy, Nosal síkomplexum",
+                    "6": "Siugrók: Wielka Krokiew, Kis, Közepes",
+                    "7": "TOPR/GOPR egység",
+                    "8": "Zakopane utcái: Piłsudski, Makuszyński, Przerwa-Tetmajer",
+                    "9": "Kościeliska utca: Pęksowy Brzyzek temető, Gąsienica Kápolna (1800), régi templom, U Jana Wnuka fogadó",
+                    "10": "Koliba Villa, 200 éves zakopanei stílusú házak",
+                    "11": "Krzeptówki Szentély: faoltár, II. János Pál ereklyék, pápai oltár (1997)",
+                    "12": "Gronik, Witów pásztorkunyhó: bundz, oscypek",
+                    "13": "Chochołów skanzen: 33 hegyvidéki ház",
+                    "14": "Jan Zięder szobrász műhelye – látogatás",
+                    "15": "Visszatérés Gubałówkán keresztül: kilátás Zakopané-ra és a Tátrára"
+                },
+                "cta": {
+                    "header": "Pápai Ösvény – Körutazás Zakopanéban és környékén",
+                    "text1": "Meghívunk egy különleges, nyugodt körutazásra Szent II. János Pál nyomában, valamint Zakopane és környékének legszebb és legjelentősebb történelmi helyszíneire.",
+                    "text2": "Ez tökéletes választás azoknak, akik szeretnék megismerni Podhale spirituális és kulturális lényegét hosszú gyalogtúrák nélkül.",
+                    "cta": "Szeretnél többet megtudni?"
+                }
+            },
             "tatry-i-zakopane": {
                 "alt": {
                     "1": "Lila krókuszok a réten",
@@ -149,10 +199,13 @@
                     "5": "A Trio Travel segítségével gyorsan, kényelmesen és kedvező áron foglalhat jegyet a Kasprowy Wierch felvonóra. Utazzon 1987 méter magasságba, és gyönyörködjön a lengyel és szlovák Tátra lélegzetelállító panorámájában!"
                 },
                 "alt": {
-                    "1": "Felvonó a Kasprowy Wierchre",
-                    "2": "A Kasprowy Wierch csúcsa hóval borítva",
-                    "3": "Zöld csúcs épülettel",
-                    "4": "Hegyek a Kasprowy Wierch hátterében"
+                    "1": "Egy felvonó halad át egy havas hegyvidéki táj felett, téli környezetben, síelésre ideális lejtőkkel.",
+                    "2": "Egy felvonó függ a hegyekben, fák és havas táj veszi körül. A háttérben hegyvonulat látható, felhőkkel az égen és lucfenyőkkel és vörösfenyőkkel borított erdővel alul.",
+                    "3": "Egy felvonó függ a levegőben hegyek és kék égbolt hátterében, felhőkkel körülvéve. Alatta fák és fű látható, őszies tájat ábrázolva egy hegyi állomásnál.",
+                    "4": "Egy épület dombon helyezkedik el hegyek hátterében, füves és fás területtel körülvéve, felhős ég alatt.",
+                    "5": "Egy felvonó emelkedik a hegyre, tiszta kék ég és vadonatúj terep közepette.",
+                    "6": "Egy felvonó függ egy völgy felett, hegyekkel körülvéve, szabadtéri közlekedési lehetőséget nyújtva.",
+                    "7": "Egy felvonó siklik át a hegyvidéki tájon, dombok, köd és sziklák hátterével a tiszta ég alatt."
                 },
                 "buttons": {
                     "1": "Megjegyzések",
@@ -166,11 +219,16 @@
             },
             "splyw-dunajcem-dluzszy": {
                 "alt": {
-                    "1": "Tutajozás fa tutajokon a Dunajec folyón a természet ölelésében",
-                    "2": "Tutaj tutajosokkal és résztvevőkkel a zöld csúcsok hátterében",
-                    "3": "Két tutaj a Dunajec folyón",
-                    "4": "Négy tutaj tutajosokkal és a Dunajec folyón tutajozó résztvevőkkel",
-                    "5": "Dębno fa temploma"
+                    "1": "Egy csoport ember különböző csónakokban evez egy tavon, amelyet fák vesznek körül, szabadtéri rekreációt űzve.",
+                    "2": "Egy csoport ember egy tutajon élvezi a tavat, amelyet fák és hegyek vesznek körül, felhős égbolt alatt.",
+                    "3": "Egy csoport ember kenuzik egy folyón, amelyet fák és hegyek vesznek körül, tiszta égbolt alatt.",
+                    "4": "Egy fából készült épület hegyes tetővel, körülötte fák és füvek, őszi tájban tiszta égbolt alatt.",
+                    "5": "Egy csoport ember egy csónakban egy folyón, amelyet fák és hegyek vesznek körül, felhős égbolt alatt.",
+                    "6": "Egy csoport ember élvezi a tutajozást egy nyugodt vízen, amelyet fák és hegyek vesznek körül, tiszta égbolt alatt.",
+                    "7": "Egy nyugodt folyóképe csónakokkal, amelyek gyengéden lebegnek a vízen, körülöttük buja fák a partokon. Az ég tiszta, néhány felhővel szórva, festőies természeti tájat alkotva egy nyugodt szabadtéri környezetben.",
+                    "8": "Egy csoport ember evez egy csónakban egy folyón lefelé, amelyet fák és hegyek vesznek körül.",
+                    "9": "Egy vár egy szigeten helyezkedik el, körülötte víz, fák és tiszta égbolt a háttérben. A táj magában foglal egy víztározót és hegyeket, valamint felhőket a felett. Zöld fű borítja a víztest partját.",
+                    "10": "Egy vár egy dombon ül, áttekintve egy víztömeget, körülötte fák és hegyek felhős égbolt alatt. Egy híd ível át a víztározón, egy vonat látható a közelben a tájban."
                 },
                 "header": "Dunajec tutajozás 2,5 óra",
                 "header2": "Mit kínálunk?",
@@ -268,11 +326,12 @@
             },
             "splyw-dunajcem-krotszy": {
                 "alt": {
-                    "1": "Tutajozás fa tutajokon a Dunajec folyón a természet ölelésében",
-                    "2": "Tutaj tutajosokkal és résztvevőkkel a zöld csúcsok hátterében",
-                    "3": "Két tutaj a Dunajec folyón",
-                    "4": "Négy tutaj tutajosokkal és a Dunajec folyón tutajozó résztvevőkkel",
-                    "5": "Dębno fa temploma"
+                    "1": "Egy csoport ember mentőmellényben egy csónakban, együtt evezve egy fákkal körülvett folyón.",
+                    "2": "Egy csónak egy sziklás parton pihen egy folyó mellett, fákkal és hegyekkel körülvéve, tiszta égbolt alatt.",
+                    "3": "Egy csoport ember egy fákkal és fűvel körülvett épület előtt gyűlt össze.",
+                    "4": "Egy festői park egy fákkal és növényekkel körülvett pavilonnal, füves talajjal és egy közeli fa kerítéssel. A pavilon fából készült, rönkház szerkezetre hasonlít.",
+                    "5": "Egy csónak lebeg egy fákkal és hegyekkel körülvett folyón, amely a szabadtéri tevékenységeket és a vízi közlekedést jelképezi.",
+                    "6": "Egy csoport ember együtt evez egy felfújható csónakban egy tavon, a természet ölelésében."
                 },
                 "header": "Dunajec tutajozás 1,5 óra",
                 "header2": "Mit kínálunk?",
@@ -362,11 +421,12 @@
             },
             "termy": {
                 "alt": {
-                    "1": "Termálmedence vízzel teli, a Chochołowi Termálfürdő épülete előtt",
-                    "2": "Jacuzzi medencék buborékokkal",
-                    "3": "A Chochołowi Termálfürdő épülete kívülről",
-                    "4": "Hangulatos esti medencevilágítás",
-                    "5": "Fa padok kilátással"
+                    "1": "Termálmedence vízzel töltve, a háttérben a Termy Chochołowskie épülettel.",
+                    "2": "Egy nagy úszómedence, amelyet egy épület vesz körül, további építményekkel a háttérben, egy fürdővárosban éjszaka. A jelenet fákat tartalmaz, és kék árnyalatokat tükröz a vízben.",
+                    "3": "Egy fa pad egy szobában pihen, mennyezettel és ablakkal, építészeti elemekkel a falakon és a padlón.",
+                    "4": "Tágas fedett medence terület nagy kőpadlóval és nagy ablakkal, amely természetes fényt enged a térbe. A medencét falak veszik körül, és mennyezet van felette, pihentető légkört teremtve ebben a szabadidőközponti környezetben.",
+                    "5": "Tágas fedett medence nagy kőpadlóval körülvéve, ablakokkal, amelyek természetes nappali fényt engednek a területre. A helyiség magas mennyezettel és falakkal rendelkezik, amelyek hozzájárulnak a nyitott légköréhez.",
+                    "6": "Egy csoport ember, akik éjszaka élvezik az úszómedencét, üdülőhelyi légkörben, épületekkel és szökőkúttal a háttérben, tiszta kék ég alatt."
                 },
                 "header": "Chochołowi Termálfürdő",
                 "header2": "Pihenjen",
@@ -389,11 +449,14 @@
             },
             "spacer-w-koronach-drzew": {
                 "alt": {
-                    "1": "Fa palló a fák koronájában",
-                    "2": "Drónfelvétel a fák koronáján vezető pallóról, háttérben hatalmas hegyekkel",
-                    "3": "Bachledka hegyi vasút",
-                    "4": "Szczyrbskie-tó, háttérben hegyekkel",
-                    "5": "Természet a Szczyrbskie-tó körül"
+                    "1": "Egy torony egy hegyvidéki tájban, emberekkel a szerkezetén. A jelenet zöld füvet, fákat és tiszta eget tartalmaz, bemutatva a természet szépségét egy magaslati pontból.",
+                    "2": "Egy nő és egy lány áll egy fából készült tábla mellett egy nyúllal, kint kék ég alatt, fákkal és kerítéssel körülvéve. Mindketten szabadtéri tevékenységhez megfelelő ruházatot viselnek, látható cipő is.",
+                    "3": "Két függőkocsi lebeg a buja zöld erdő felett, hegyekkel a háttérben.",
+                    "4": "Egy csoport ember sétál egy fákkal körülvett platformon, teherautóval és más járművekkel a háttérben. Napos nyári nap van, mindenki laza ruházatot és cipőt visel.",
+                    "5": "Egy csoport ember ül egy füves területen, fákkal körülvéve, felhős ég alatt, játszótérrel és épülettel a háttérben.",
+                    "6": "Egy ember ül egy függőkocsiban, hegyekkel és fákkal körülvéve, tiszta égbolttal és felhőkkel a háttérben. A függőkocsi egy síszelep rendszer része egy hegyi állomáson.",
+                    "7": "Egy híd, amin több ember sétál, fákkal körülvéve, részben felhős ég alatt.",
+                    "8": "Egy felvonó halad át egy havas tájban, hegyekkel a háttérben, tiszta ég alatt."
                 },
                 "header": "Séta a fák koronájában",
                 "header2": "Fedezze fel a természet szépségét",
@@ -428,10 +491,13 @@
             },
             "jaskinia-bielanska": {
                 "alt": {
-                    "1": "Fény áttörése a Bielańska-barlangba",
-                    "2": "A barlang belseje",
-                    "3": "Megvilágított Bielańska-barlang",
-                    "4": "Bejárat a barlanghoz felirattal"
+                    "1": "Egy barlang belseje számos mennyezetről lelógó cseppkővel és a földből emelkedő cseppkőoszlopokkal, természetes képződmények keverékével, bemutatva a szpeleotémák szépségét a földalatti környezetben.",
+                    "2": "Egy megvilágított barlang belseje, egyedi természetes képződményekkel egy lávacsőben.",
+                    "3": "Egy nyugodt vízmeder egy barlangban, lágy természetes fénnyel megvilágítva, amely a sziklaformációk között szűrődik be.",
+                    "4": "Egy sötét barlang belseje számos mennyezetről lelógó cseppkővel és a földből emelkedő cseppkőoszlopokkal, természetes képződményeket bemutatva.",
+                    "5": "Egy csoport ember felfedez egy barlangot, lenyűgöző természetes formációk, köztük cseppkövek és cseppkőoszlopok között.",
+                    "6": "Két hajó egy hegyekkel körülvett tón, tiszta kék vízzel és ragyogó égbolttal. A jelenet a szabadtéri rekreáció és nyugalom lényegét mutatja.",
+                    "7": "Egy nyugodt tó buja zöld fák és magasztos hegyek között, tükrözve a tiszta kék eget."
                 },
                 "header": "Bielańska-barlang",
                 "header2": "Mit kínálunk?",
@@ -471,11 +537,15 @@
             },
             "wieliczka": {
                 "alt": {
-                    "1": "Alagút a Wieliczkai Sóbányában fa falakkal",
-                    "2": "Lenyűgöző szobrok a bánya belsejében",
-                    "3": "Kép a sóbánya falában",
-                    "4": "Sós kiállítási tárgyak bemutatója",
-                    "5": "Régi fa mechanizmusok a bányában"
+                    "1": "Fából készült szerkezet látható gerendákkal, egy ember áll a háttérben.",
+                    "2": "Egy kőszobor, amely egy férfit ábrázol, egy barlangban található, sziklás falakkal körülvéve és egyenetlen talajjal alatta.",
+                    "3": "Kőszobor, amely több alakot ábrázol egy asztal körül összegyűlve, az Utolsó Vacsorát megjelenítve. A részletek bonyolult faragásokat és domborműveket mutatnak, kiemelve a mű művészi értékét. A kép fekete-fehér, hangsúlyozva annak történelmi jelentőségét, mint egy múzeumi környezetben kiállított műtárgyat.",
+                    "4": "Egy szoba, amelyben egy vitrin különböző köveket mutat be, természetes fénnyel megvilágítva a teret.",
+                    "5": "Fából készült szerkezet egy barlangban található, sziklás falakkal és gyenge megvilágítással körülvéve. A talaj egyenetlen és természetes, kiegészítve a fa konstrukció rusztikus megjelenését.",
+                    "6": "Egy barlang belseje, amely egy víztömeget tartalmaz, kőfalakkal körülvéve.",
+                    "7": "Dekoratív csillár lóg egy szoba mennyezetéről, meleg fénnyel megvilágítva a teret.",
+                    "8": "Egy szobor egy barlangban található, sziklás falakkal és természetes elemekkel körülvéve. A gyenge megvilágítás kiemeli a szobor körvonalait a durva háttér előtt.",
+                    "9": "Dekoratív csillár lóg egy kőfalakkal és kőpadlóval rendelkező szoba mennyezetéről. A tér egy asztallal van berendezve, olyan belső hangulatot teremtve, amely egy templomra vagy történelmi épületre emlékeztet."
                 },
                 "header": "Wieliczka titkai",
                 "header2": "Mit kínálunk?",
@@ -503,11 +573,14 @@
             },
             "slowacki-raj": {
                 "alt": {
-                    "1": "Emberek pózolnak fényképekhez a kilátóponton",
-                    "2": "Fa házak a víz mellett",
-                    "3": "Létra egy kis vízesés mellett",
-                    "4": "Útvonal sziklák és patak mellett",
-                    "5": "Víz felett sziklára függesztett útvonal"
+                    "1": "Egy csoport ember sétál egy földúton, fákkal körülvéve egy erdős területen. Túraöltözéket viselnek és felkészültek a túrázásra, közelében látható egy folyó és sziklás terep.",
+                    "2": "Egy csoport ember mászik fel egy létrán a szabadban, hegyekkel és sziklás tereppel körülvéve. Túraöltözéket viselnek és mászófelszerelést használnak, például kötélzetet és köteleket a biztonság érdekében. A tevékenység kalandosnak és izgalmasnak tűnik.",
+                    "3": "Egy csoport ember mászik fel egy létrán egy vízesés felett, buja zöldellés és sziklás terep közepette.",
+                    "4": "Egy lenyűgöző vízesés zuhan le sziklás szirteken, buja zöld fákkal és nyugodt erdei környezettel körülvéve. A víz egy tiszta patakba folyik alul, nyugodt hangulatot teremtve a természetes tájban.",
+                    "5": "Egy nyugodt vízesés zuhan le sziklás szirteken, buja zöld erdővel körülvéve, egy patakkal, amely egy nyugodt hegyi patakba folyik alul.",
+                    "6": "Egy csoport ember mászik egy kötélen egy buja szabadtéri környezetben, fákkal és sziklákkal körülvéve, egy vízeséssel a háttérben. Az egyének megfelelő túraöltözéket viselnek, és úgy tűnik, hogy egy kalandos tevékenységben vesznek részt.",
+                    "7": "Egy faág közeli képe egy buja erdőben, élénk zöldelléssel és lombjal körülvéve. A háttérben magas fák és sűrű növényzet látható, tipikus a dzsungel vagy esőerdő környezetre.",
+                    "8": "Egy csoport ember sétál egy sziklás ösvényen egy erdőben, fákkal és természettel körülvéve."
                 },
                 "header": "Szlovák Paradicsom",
                 "header2": "Mit kínálunk?",
@@ -541,11 +614,13 @@
             },
             "wieden": {
                 "alt": {
-                    "1": "Schönbrunn Palota",
-                    "2": "Magas épület gyönyörű teteje",
-                    "3": "Régi villamos Bécs városában",
-                    "4": "Kép a csodálatos, gondozott zöld kertekről és a palotáról egy emlékmű mellett",
-                    "5": "Bécs városának panorámája"
+                    "1": "Egy emberekkel teli lovas kocsi az előtérben, a háttérben a Hofburg palotával. A jelenet szabadtéren zajlik, tiszta égboltot és városi hangulatot mutatva.",
+                    "2": "Egy szökőkút egy épület előtt, füves terület és fák veszik körül, felhős égbolt alatt.",
+                    "3": "Fehér épület kőoszlopokkal és kőjárdával.",
+                    "4": "Egy nagy épület tágas udvarral és szökőkúttal, zöldövezet veszi körül, beleértve fákat és sövényeket, a Schönbrunn palota látható a háttérben tiszta égbolt alatt.",
+                    "5": "Egy nagy, sok ablakkal rendelkező épület az ég hátterében, bemutatva építészeti homlokzatát. A szerkezet jelentős nevezetesség, valószínűleg palotára vagy stadionra hasonlít, panorámás szabadtéri kilátásban látható.",
+                    "6": "Egy nagy templomépület magas toronnyal és harangtoronnyal, felhők és kék ég hátterében, előtte úttal és járművekkel, városi nevezetességek veszik körül.",
+                    "7": "Zöld épület gyeppel és bokrokkal körülvéve, felhőkkel az égen és fákkal a közelben."
                 },
                 "header": "Bécs",
                 "header2": "Mit kínálunk?",
@@ -595,10 +670,13 @@
             },
             "budapeszt": {
                 "alt": {
-                    "1": "A híres budapesti Parlament épülete",
-                    "2": "Monumentális történelmi Halászbástya emlékmű",
-                    "3": "Mátyás-templom",
-                    "4": "Régi villamos"
+                    "1": "Budapest városképének kilátása a Lánchíddal a Duna felett, egy hajóval a vízen és a Szent István-bazilikával, amely kiemelkedik a kék ég alatt.",
+                    "2": "Egy folyó, amely a város fényeit tükrözi éjszaka, egy híddal, amely átível rajta. A jelenet városi épületeket és természeti elemeket ötvöz a sötétedő ég alatt.",
+                    "3": "Egy folyó, amelyet a város fényei világítanak meg éjszaka, egy híddal, amely átível rajta, és a város sziluettjével a háttérben. Az ég sötét, felhős foltokkal, és tükrözi a csillogó vizet alatta.",
+                    "4": "Egy középkori vár több toronnyal és bástyával, fákkal körülvéve és kék égbolt előtt. Az építmény kőfalakat és tornyokat tartalmaz, klasszikus építészeti stílust tükrözve. Az előtérben fű és egy ösvény látható, amely a vár felé vezet, egy parkoló járművel a közelben.",
+                    "5": "Panorámakép a város látképéről egy kőépület perspektívájából, olyan építészeti elemeket mutatva, mint ívek és árkádok, tiszta égbolt előtt.",
+                    "6": "Egy csoport ember gyűlik össze egy téren, egy szoborral és oszlopokkal, felhős égbolt alatt, középületekkel körülvéve.",
+                    "7": "Egy hajó siklik át a folyón egy híd alatt, a város sziluettjével a háttérben napkelte vagy napnyugta idején."
                 },
                 "header": "Budapest",
                 "header2": "Mit kínálunk?",
@@ -724,11 +802,14 @@
             },
             "rafting-po-dunajcu": {
                 "alt": {
-                    "1": "Rafting résztvevők sisakban az út során",
-                    "2": "Csodálatos zöld környezet a rafting közben",
-                    "3": "Két csoport résztvevő a rafting szórakozás közben",
-                    "4": "Mosolyok a szórakozás közben, háttérben a víz",
-                    "5": "Résztvevők a vízzel küzdenek"
+                    "1": "Egy csoport ember mentőmellényben evez egy gumicsónakban egy folyón. A víz hullámos, jelezve a zuhatagokat, és a jelenet a szabadtéri rekreációt ábrázolja természetes környezetben.",
+                    "2": "Egy csoport ember ül egy gumicsónakban egy tavon, mentőmellényt visel és evez. Körülöttük fák és fű található, tiszta kék égbolt alatt, hegyekkel a háttérben.",
+                    "3": "Egy csoport ember színes gumicsónakokban úszik lefelé egy folyón, fák között, szabadtéri rekreációval foglalkozva.",
+                    "4": "Egy csoport ember látható egy gumicsónakban egy tavon, mentőmellényt viselnek és eveznek, élvezve a szabadtéri rekreációt.",
+                    "5": "Egy csoport ember mentőmellényben evez egy gumicsónakban egy folyón. A jelenet egy dinamikus szabadtéri helyszínt mutat fröcskölő vízzel és környező természettel.",
+                    "6": "Egy csoport ember egy csónakban egy folyón, hegyekkel körülvéve, kék égbolt alatt felhőkkel.",
+                    "7": "Egy csoport ember kajakokban parkol egy sziklás parton, háttérben fákkal és részben felhős égbolttal. Mentőmellényt viselnek, és úgy tűnik, élvezik a szabadtéri rekreációt.",
+                    "8": "Egy csoport ember mentőmellényben ül egy gumicsónakban egy folyón. Együtt eveznek, a folyópart mentén fákkal és tiszta kék égbolt felettük."
                 },
                 "header": "Rafting a Dunajecen",
                 "header2": "Mit kínálunk?",
@@ -1208,6 +1289,10 @@
         "tatry-i-zakopane": {
             "title": "Kirándulások a Tátrában és Zakopanében - Morskie Oko, Kasprowy Wierch",
             "description": "Fedezd fel a Tátrát és Zakopanét! Kirándulások a Morskie Oko-hoz, Kasprowy Wierch-re, Chochołowska-völgybe és még sok más helyre. Foglalj kalandot vagy fedezz fel idegenvezetővel!"
+        },
+        "szlak-papieski": {
+            "title": "Pápai Ösvény Zakopanéban – II. János Pál nyomában | Trio Travel",
+            "description": "Fedezze fel Zakopane spirituális és történelmi látnivalóit II. János Pál pápa nyomában! Kényelmes buszos kirándulás hosszú gyaloglás nélkül. Morskie Oko, Krzeptówki, Chochołów. Helyi idegenvezető és szállítás. Foglaljon online a Trio Travellel!"
         }
     }
 }

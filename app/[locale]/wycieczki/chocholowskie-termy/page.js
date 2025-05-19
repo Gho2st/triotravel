@@ -80,6 +80,7 @@ export default function Termy() {
             { url: "/wycieczki/termy/2.webp", alt: t("alt.3") },
             { url: "/wycieczki/termy/3.webp", alt: t("alt.4") },
             { url: "/wycieczki/termy/4.webp", alt: t("alt.5") },
+            { url: "/wycieczki/termy/5.webp", alt: t("alt.6") },
           ]}
         />
       </div>

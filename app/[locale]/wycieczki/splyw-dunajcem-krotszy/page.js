@@ -70,7 +70,7 @@ export default function SplywKrotszy() {
       <Header text={t("header")} />
       <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[700px] ">
         <Image
-          src="/wycieczki/splyw-dunajcem-dluzszy/splyw.webp"
+          src="/wycieczki/splyw-dunajcem-krotszy/splyw.webp"
           width={500}
           height={500}
           layout="responsive"
@@ -112,12 +112,25 @@ export default function SplywKrotszy() {
         <Gallery
           images={[
             {
-              url: "/wycieczki/splyw-dunajcem-dluzszy/1.webp",
+              url: "/wycieczki/splyw-dunajcem-krotszy/1.webp",
               alt: t("alt.2"),
             },
-            { url: "/wycieczki/splyw-dunajcem-dluzszy/2.webp", alt: t("alt.3") },
-            { url: "/wycieczki/splyw-dunajcem-dluzszy/3.webp", alt: t("alt.4") },
-            { url: "/wycieczki/splyw-dunajcem-dluzszy/4.webp", alt: t("alt.5") },
+            {
+              url: "/wycieczki/splyw-dunajcem-krotszy/2.webp",
+              alt: t("alt.3"),
+            },
+            {
+              url: "/wycieczki/splyw-dunajcem-krotszy/3.webp",
+              alt: t("alt.4"),
+            },
+            {
+              url: "/wycieczki/splyw-dunajcem-krotszy/4.webp",
+              alt: t("alt.5"),
+            },
+            {
+              url: "/wycieczki/splyw-dunajcem-krotszy/5.webp",
+              alt: t("alt.6"),
+            },
           ]}
         />
       </div>

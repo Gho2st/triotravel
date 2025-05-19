@@ -117,6 +117,18 @@ export default function Rafting() {
               url: "/wycieczki/rafting-po-dunajcu/4.webp",
               alt: t("alt.5"),
             },
+            {
+              url: "/wycieczki/rafting-po-dunajcu/5.webp",
+              alt: t("alt.6"),
+            },
+            {
+              url: "/wycieczki/rafting-po-dunajcu/6.webp",
+              alt: t("alt.7"),
+            },
+            {
+              url: "/wycieczki/rafting-po-dunajcu/7.webp",
+              alt: t("alt.8"),
+            },
           ]}
         />
       </div>

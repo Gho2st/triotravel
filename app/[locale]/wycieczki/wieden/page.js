@@ -116,15 +116,23 @@ export default function Wieden() {
             },
             {
               url: "/wycieczki/wieden/2.webp",
-              alt: t("alt.2"),
-            },
-            {
-              url: "/wycieczki/wieden/3.webp",
               alt: t("alt.3"),
             },
             {
-              url: "/wycieczki/wieden/4.webp",
+              url: "/wycieczki/wieden/3.webp",
               alt: t("alt.4"),
+            },
+            {
+              url: "/wycieczki/wieden/4.webp",
+              alt: t("alt.5"),
+            },
+            {
+              url: "/wycieczki/wieden/5.webp",
+              alt: t("alt.6"),
+            },
+            {
+              url: "/wycieczki/wieden/6.webp",
+              alt: t("alt.7"),
             },
           ]}
         />

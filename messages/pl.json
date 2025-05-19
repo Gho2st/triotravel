@@ -39,7 +39,9 @@
             "header4": "Transport w Górach?",
             "header5": "Biesiada Góralska?",
             "header6": "Zimowy Kulig?",
-            "header7": "Spacer w Koronach Drzew?"
+            "header7": "Spacer w Koronach Drzew?",
+            "header8": "Tajemnice Wieliczki?",
+            "header9": "Jaskinia Bielańska?"
         },
         "button": "Zobacz",
         "button2": "Więcej"
@@ -76,6 +78,54 @@
             "17": "Tatry i Zakopane"
         },
         "tripslist": {
+            "szlak-papieski": {
+                "alt": {
+                    "1": "Pomnik Jana Pawła II w Ząbiu, Polska, z wyrytym cytatem u podstawy.",
+                    "2": "Grupa ludzi zebranych w pomieszczeniu pełnym posągów, prezentujących różne dzieła sztuki. Sceneria jest wewnętrzna, podkreśla sufit powyżej oraz różnorodne ubrania noszone przez obecnych.",
+                    "3": "Mężczyzna trzymający posąg mężczyzny w muzeum, otoczony innymi ludźmi i artystycznymi ekspozycjami. Sufit jest widoczny powyżej, dodając atmosfery przestrzeni."
+                },
+                "header": "Szlak Papieski – Objazdówka po Zakopanem i okolicy",
+                "header2": "Śladami św. Jana Pawła II i zakopiańskiej historii",
+                "header3": "Opis Atrakcji:",
+                "text": "Zapraszamy na wyjątkową, spokojną wycieczkę objazdową śladami św. Jana Pawła II oraz najpiękniejszych i najbardziej historycznych miejsc Zakopanego i okolicy. To doskonała propozycja dla osób, które chcą poznać duchowy i kulturowy wymiar Podhala, bez konieczności długich wędrówek pieszych. Transport: klimatyzowany bus z kierowcą-przewodnikiem. Odbiór: z przystanku najbliżej miejsca zakwaterowania. Charakter wycieczki: widokowa, objazdowa, bez długich spacerów",
+                "list": {
+                    "1": "Toporowa Cyrhla – start naszej wyprawy przy Kamieniu Papieskim, miejscu, gdzie rozpoczyna się słynny Szlak Papieski. Krótka przerwa na zdjęcia i podziwianie panoramy Tatr: Giewontu i Kasprowego Wierchu.",
+                    "2": "Kaplica na Jaszczurówce – perła architektury zakopiańskiej autorstwa Stanisława Witkiewicza. Wchodzimy do środka, aby zobaczyć wyjątkowe wnętrze i poczuć ducha góralskiej wiary.",
+                    "3": "Dolina Olczyska i Nosal – przejazd u podnóży Nosala oraz przez wlot do Doliny Olczyskiej – miejsca szczególnie bliskie sercu Karola Wojtyły.",
+                    "4": "Wielka Krokiew i kompleks skoczni narciarskich – podziwiamy z zewnątrz słynną skocznię oraz jej mniejsze siostry.",
+                    "5": "Ulice zakopiańskich twórców – przejazd ulicami nazwanymi na cześć m.in. Piłsudskiego, Makuszyńskiego i Tetmajera.",
+                    "6": "Ul. Kościeliska i Pęksowy Brzyzek – najstarsza ulica Zakopanego, gdzie znajduje się pierwszy zakopiański cmentarz, zabytkowa kaplica Gąsieniców z 1800 r., stary drewniany kościółek i najstarsza karczma w Zakopanem „U Jana Wnuka”.",
+                    "7": "Styl zakopiański i Willa Koliba – przejazd obok willi i zabytkowych góralskich chałup mających nawet ponad 200 lat..",
+                    "8": "Sanktuarium Matki Bożej Fatimskiej na Krzeptówkach – dłuższy postój na zwiedzanie. Zobaczymy największy drewniany ołtarz w Polsce, relikwie św. Jana Pawła II oraz ołtarz papieski z 1997 roku, przeniesiony spod Wielkiej Krokwi.",
+                    "9": "Gronik i stara bacówka w Witowie – przejazd przez wojskową bazę w Groniku i postój w jednej z najstarszych bacówek regionu. Możliwość zakupu oryginalnych oscypków i degustacja bundzu.",
+                    "10": "Chochołów – żywy skansen – wizyta w unikalnej wiosce złożonej z 33 autentycznych, drewnianych góralskich domów oraz postój w pracowni słynnego rzeźbiarza Jana Ziędera.",
+                    "11": "Powrót przez szczyt Gubałówki – malownicza trasa z panoramą na całe Zakopane i Tatry. Idealne zakończenie dnia pełnego wrażeń."
+                },
+                "tripprogram": {
+                    "header": "Czas trwania: ok.",
+                    "1": "Toporowa Cyrhla",
+                    "2": "Kamień Papieski JP2 – start Szlaku Papieskiego",
+                    "3": "Punkt widokowy: panorama Tatr, Giewont, Kasprowy Wierch",
+                    "4": "Kaplica na Jaszczurówce – zwiedzanie",
+                    "5": "Dolina Olczyska, kompleks narciarski Nosal",
+                    "6": "Skocznie narciarskie: Wielka Krokiew, Mała, Średnia",
+                    "7": "Jednostka TOPR/GOPR",
+                    "8": "Ulice Zakopanego: Piłsudski, Makuszyński, Przerwa-Tetmajer",
+                    "9": "Ulica Kościeliska: Cmentarz na Pęksowym Brzyzku, Kaplica Gąsieniców (1800), stary kościółek, karczma u Jana Wnuka",
+                    "10": "Willa Koliba, 200-letnie chałupy w stylu zakopiańskim",
+                    "11": "Sanktuarium na Krzeptówkach: drewniany ołtarz, relikwie JP2, ołtarz papieski (1997)",
+                    "12": "Gronik, bacówka w Witowie: bundz, oscypki",
+                    "13": "Skansen w Chochołowie: 33 chałupy góralskie",
+                    "14": "Pracownia rzeźbiarza Jana Ziędera – zwiedzanie",
+                    "15": "Powrót przez Gubałówkę: widok na Zakopane i Tatry"
+                },
+                "cta": {
+                    "header": "Szlak Papieski – Objazdówka po Zakopanem i okolicy",
+                    "text1": "Zapraszamy na wyjątkową, spokojną wycieczkę objazdową śladami św. Jana Pawła II oraz najpiękniejszych i najbardziej historycznych miejsc Zakopanego i okolicy. ",
+                    "text2": "To doskonała propozycja dla osób, które chcą poznać duchowy i kulturowy wymiar Podhala, bez konieczności długich wędrówek pieszych.",
+                    "cta": "Chcesz wiedzieć więcej?"
+                }
+            },
             "tatry-i-zakopane": {
                 "alt": {
                     "1": "Fioletowe Krokusy na polanie",
@@ -149,10 +199,13 @@
                     "5": "Z Trio Travel zarezerwujesz bilety na kolejkę na Kasprowy Wierch szybko, wygodnie i w atrakcyjnych cenach. Wjedź na wysokość 1987 m n.p.m. i podziwiaj zapierającą dech w piersiach panoramę Tatr Polskich i Słowackich!"
                 },
                 "alt": {
-                    "1": "Kolejka na Kasprowy Wierch",
-                    "2": "Szczyt Kasprowego Wierchu pokryty śniegiem",
-                    "3": "Zielony szczyt z budynkiem",
-                    "4": "Góry w tle Kasprowego Wierchu"
+                    "1": "Kolejka linowa przemieszcza się nad ośnieżonym górskim krajobrazem, otoczona zimową scenerią ze stokami idealnymi do narciarstwa.",
+                    "2": "Kolejka linowa zawieszona w górach, otoczona drzewami i śnieżnym krajobrazem. W tle widoczny jest łańcuch górski, chmury na niebie oraz las świerków i modrzewi poniżej.",
+                    "3": "Kolejka linowa zawieszona w powietrzu na tle gór i błękitnego nieba, otoczona chmurami. Poniżej widać drzewa i trawę, przedstawiające jesienny krajobraz w stacji górskiej.",
+                    "4": "Budynek położony na wzgórzu z górami w tle, otoczony trawą i drzewami pod pochmurnym niebem.",
+                    "5": "Kolejka linowa wspinająca się na górę, otoczona czystym błękitnym niebem i surowym terenem.",
+                    "6": "Kolejka linowa zawieszona nad doliną, otoczona górami, zapewniająca transport w plenerze.",
+                    "7": "Kolejka linowa sunąca nad górskim krajobrazem z pagórkami, mgłą i klifami w tle pod czystym niebem."
                 },
                 "buttons": {
                     "1": "Uwagi",
@@ -166,11 +219,16 @@
             },
             "splyw-dunajcem-dluzszy": {
                 "alt": {
-                    "1": "Spływ tratwami drewnianymi na rzece Dunajec w obliczu natury",
-                    "2": "Tratwa z plisakami i uczestnikami na tle zielonych szczytów",
-                    "3": "Dwie tratwy podczas spływu Dunajcem",
-                    "4": "Cztery tratwy z plisakami i uczestnikami spływu rzeką Dunajec",
-                    "5": "Drewniany kościół w Dębnie"
+                    "1": "Grupa ludzi w różnych łodziach wiosłujących na jeziorze otoczonym drzewami, uczestniczących w rekreacji na świeżym powietrzu.",
+                    "2": "Grupa ludzi na tratwie ciesząca się jeziorem otoczonym drzewami i górami pod pochmurnym niebem.",
+                    "3": "Grupa ludzi wiosłujących w kajakach na rzece otoczonej drzewami i górami pod bezchmurnym niebem.",
+                    "4": "Drewniany budynek ze spiczastym dachem otoczony drzewami i trawą, pod bezchmurnym niebem w jesiennym krajobrazie.",
+                    "5": "Grupa ludzi w łodzi na rzece otoczonej drzewami i górami pod pochmurnym niebem.",
+                    "6": "Grupa ludzi ciesząca się nawigowaniem tratwą na spokojnym zbiorniku wodnym otoczonym drzewami i górami pod bezchmurnym niebem.",
+                    "7": "Spokojna scena nad rzeką z łodziami delikatnie unoszącymi się na wodzie, otoczonymi bujnymi drzewami wzdłuż brzegów. Niebo jest bezchmurne z kilkoma rozproszonymi chmurami, tworząc malowniczy naturalny krajobraz w spokojnym otoczeniu na świeżym powietrzu.",
+                    "8": "Grupa ludzi w łodzi wiosłujących w dół rzeki otoczonej drzewami i górami.",
+                    "9": "Zamek położony na wyspie, otoczony wodą z drzewami i bezchmurnym niebem w tle. Krajobraz obejmuje zbiornik wodny i góry, a także chmury nad głową. Zielona trawa porasta brzeg zbiornika wodnego.",
+                    "10": "Zamek usytuowany na wzgórzu z widokiem na zbiornik wodny, otoczony drzewami i górami pod pochmurnym niebem. Most rozciąga się nad zbiornikiem, w pobliżu widoczny jest pociąg w krajobrazie."
                 },
                 "header": "Spływ Dunajcem 2.5h",
                 "header2": "Co Oferujemy?",
@@ -268,11 +326,12 @@
             },
             "splyw-dunajcem-krotszy": {
                 "alt": {
-                    "1": "Spływ tratwami drewnianymi na rzece Dunajec w obliczu natury",
-                    "2": "Tratwa z plisakami i uczestnikami na tle zielonych szczytów",
-                    "3": "Dwie tratwy podczas spływu Dunajcem",
-                    "4": "Cztery tratwy z plisakami i uczestnikami spływu rzeką Dunajec",
-                    "5": "Drewniany kościół w Dębnie"
+                    "1": "Grupa ludzi w kamizelkach ratunkowych w łodzi, wiosłujących razem na rzece otoczonej drzewami.",
+                    "2": "Łódź spoczywająca na skalistym brzegu obok rzeki, otoczona drzewami i górami pod bezchmurnym niebem.",
+                    "3": "Grupa ludzi zebranych przed budynkiem otoczonym drzewami i trawą.",
+                    "4": "Malowniczy park z altaną otoczoną drzewami i roślinami, z trawiastym podłożem i drewnianym płotem w pobliżu. Altana jest wykonana z drewna, przypominając strukturę chaty z bali.",
+                    "5": "Łódź unosząca się na rzece otoczonej drzewami i górami, reprezentująca aktywność na świeżym powietrzu i transport wodny.",
+                    "6": "Grupa ludzi wiosłujących razem w nadmuchiwanej łodzi na jeziorze, otoczeni naturą."
                 },
                 "header": "Spływ Dunajcem 1.5h",
                 "header2": "Co Oferujemy?",
@@ -362,11 +421,12 @@
             },
             "termy": {
                 "alt": {
-                    "1": "Basen termalny pełen wody na tle budynku Term Chochołowskich",
-                    "2": "Baseny jacuzzi z bąbelkami",
-                    "3": "Budynek Term Chochołowskich z zewnątrz",
-                    "4": "Klimatyczne oświetlnie basenów wieczorem",
-                    "5": "Drewniane ławki z widokiem"
+                    "1": "Basen termalny wypełniony wodą z budynkiem Termy Chochołowskie w tle.",
+                    "2": "Duży basen otoczony budynkiem, z dodatkowymi strukturami w tle, położony w miasteczku uzdrowiskowym w nocy. Scena obejmuje drzewa i odbija niebieskie odcienie w wodzie.",
+                    "3": "Drewniana ławka stoi w pomieszczeniu z sufitem i oknem, z elementami architektonicznymi na ścianach i podłodze.",
+                    "4": "Przestronny kryty basen z dużą kamienną podłogą i dużym oknem, które wpuszcza naturalne światło. Basen jest otoczony ścianami i ma sufit nad głową, tworząc relaksującą atmosferę w środowisku centrum rekreacyjnego.",
+                    "5": "Przestronny kryty basen otoczony dużą kamienną podłogą, z oknami wpuszczającymi naturalne światło dzienne. Pomieszczenie ma wysokie sufity i ściany, które przyczyniają się do otwartej atmosfery.",
+                    "6": "Grupa ludzi korzystających z basenu w nocy, otoczona atmosferą kurortu z budynkami i fontanną w tle pod czystym niebieskim niebem."
                 },
                 "header": "Termy Chochołowskie",
                 "header2": "Zrelaksuj się",
@@ -389,11 +449,14 @@
             },
             "spacer-w-koronach-drzew": {
                 "alt": {
-                    "1": "Drewniana kładka w koronach drzew",
-                    "2": "Widok z drona na kładkę prowadząca w koronach drzew a w tle masywne góry",
-                    "3": "Kolejka górska Bachledka",
-                    "4": "Jezioro Szczyrbskie a w tle góry",
-                    "5": "Natura przy jeziorze Szczyrbskim"
+                    "1": "Wieża położona w górskim krajobrazie, z ludźmi poruszającymi się po jej konstrukcji. Scena obejmuje zieloną trawę, drzewa i czyste niebo, ukazując piękno natury z wysokiego punktu widokowego.",
+                    "2": "Kobieta i dziewczynka stojące przy drewnianej tablicy z królikiem, na zewnątrz pod błękitnym niebem, otoczone drzewami i płotem. Obie mają na sobie odzież odpowiednią do aktywności na świeżym powietrzu, widoczne jest także obuwie.",
+                    "3": "Dwie gondole zawieszone w powietrzu nad bujnym zielonym lasem, z górami w tle.",
+                    "4": "Grupa osób idących po platformie otoczonej drzewami, z ciężarówką i innymi pojazdami w tle. Jest słoneczny letni dzień, wszyscy są ubrani w casualowe ubrania i obuwie.",
+                    "5": "Grupa osób siedząca na trawiastym polu, otoczona drzewami pod pochmurnym niebem, z placem zabaw i budynkiem w tle.",
+                    "6": "Osoba siedząca w gondoli, otoczona górami i drzewami, z czystym niebem i chmurami w tle. Gondola jest częścią wyciągu narciarskiego w stacji górskiej.",
+                    "7": "Most, po którym przechodzi kilka osób, otoczony drzewami pod częściowo zachmurzonym niebem.",
+                    "8": "Kolejka linowa przemieszczająca się przez ośnieżony krajobraz z widokiem na góry pod czystym niebem."
                 },
                 "header": "Spacer w Koronach Drzew",
                 "header2": "Odkryj Piękno Natury",
@@ -428,10 +491,13 @@
             },
             "jaskinia-bielanska": {
                 "alt": {
-                    "1": "Przebijające światło do Jaskini Bielańskiej",
-                    "2": "Jaskinia w środku",
-                    "3": "Oświetlona Jaskinia Bielańska",
-                    "4": "Wejście do Jaskini z napisem"
+                    "1": "Wnętrze jaskini z licznymi stalaktytami zwisającymi ze stropu i stalagmitami wyrastającymi z podłoża, z różnorodnymi naturalnymi formacjami skalnymi, ukazujące piękno nacieków w podziemnym środowisku.",
+                    "2": "Wnętrze jaskini oświetlone światłem, prezentujące unikalne naturalne formacje w tubie lawowej.",
+                    "3": "Spokojne jeziorko ukryte w jaskini, delikatnie oświetlone naturalnym światłem przenikającym przez skalne formacje.",
+                    "4": "Ciemne wnętrze jaskini z licznymi stalaktytami zwisającymi ze stropu i stalagmitami wyrastającymi z podłoża, ukazujące naturalne formacje skalne.",
+                    "5": "Grupa ludzi eksplorująca jaskinię, otoczona oszałamiającymi naturalnymi formacjami, w tym stalaktytami i stalagmitami.",
+                    "6": "Dwie łodzie na jeziorze otoczonym górami, z krystalicznie czystą niebieską wodą i jasnym niebem. Scena oddaje esencję rekreacji na świeżym powietrzu i spokoju.",
+                    "7": "Spokojne jezioro pośród bujnej zieleni drzew i majestatycznych gór, odbijające błękitne niebo."
                 },
                 "header": "Jaskinia Bielańska",
                 "header2": "Co oferujemy?",
@@ -471,11 +537,15 @@
             },
             "wieliczka": {
                 "alt": {
-                    "1": "Tunel w Kopalni Soli w Wieliczce z drewnianymi ścianami",
-                    "2": "Niesamowite Figury w środku kopalni",
-                    "3": "Obraz w ścianie kopalni soli",
-                    "4": "Wystawa solnych eksponatów",
-                    "5": "Stare drewniane mechanizmy w kopalni"
+                    "1": "Drewniana konstrukcja z widocznymi belkami, z osobą stojącą w tle.",
+                    "2": "Kamienna statua mężczyzny znajduje się w jaskini, otoczona skalnymi ścianami i nierównym gruntem.",
+                    "3": "Kamienna rzeźba przedstawiająca wiele postaci zebranych wokół stołu, reprezentująca Ostatnią Wieczerzę. Szczegóły ukazują misterną rzeźbę i pracę reliefową, podkreślając artyzm dzieła. Obraz jest czarno-biały, co podkreśla jego historyczne znaczenie jako eksponatu w muzeum.",
+                    "4": "Pomieszczenie z witryną展示ającą różne skały, oświetlone naturalnym światłem.",
+                    "5": "Drewniana konstrukcja znajduje się w jaskini, otoczona skalnymi ścianami i słabym oświetleniem. Grunt jest nierówny i naturalny, uzupełniając rustykalny wygląd drewnianej konstrukcji.",
+                    "6": "Wnętrze jaskini z akwenem wodnym otoczonym kamiennymi ścianami.",
+                    "7": "Dekoracyjny żyrandol wisi z sufitu pomieszczenia, oświetlając przestrzeń ciepłym światłem.",
+                    "8": "Statua znajduje się w jaskini, otoczona skalnymi ścianami i naturalnymi elementami. Słabe oświetlenie podkreśla kontury statuy na tle surowej scenerii.",
+                    "9": "Dekoracyjny żyrandol wisi z sufitu pomieszczenia z kamiennymi ścianami i kamienną podłogą. Przestrzeń jest umeblowana stołem, tworząc atmosferę wnętrza przypominającą kościół lub historyczny budynek."
                 },
                 "header": "Tajemnice Wieliczki",
                 "header2": "Co oferujemy?",
@@ -503,11 +573,14 @@
             },
             "slowacki-raj": {
                 "alt": {
-                    "1": "Ludzie pozujący do zdjęć na punkcie widokowym",
-                    "2": "Drewniane domki przy wodzie",
-                    "3": "Drabina przy mini wodospadzie",
-                    "4": "Trasa przy skałach i strumyku",
-                    "5": "Trasa nad wodą zawieszona na skale"
+                    "1": "Grupa osób idąca leśną ścieżką otoczoną drzewami. Są ubrani w odzież turystyczną i przygotowani do wędrówki, w pobliżu widoczna jest rzeka i skalisty teren.",
+                    "2": "Grupa osób wspinająca się po drabinie w plenerze, otoczona górami i skalistym terenem. Mają na sobie odzież turystyczną i używają sprzętu wspinaczkowego, takiego jak uprzęże i liny, dla bezpieczeństwa. Aktywność wygląda na przygodową i angażującą.",
+                    "3": "Grupa osób wspinająca się po drabinie nad wodospadem, otoczona bujną zielenią i skalistym terenem.",
+                    "4": "Zachwycający wodospad spływający po skalnych klifach, otoczony bujnymi zielonymi drzewami i spokojnym leśnym otoczeniem. Woda wpływa do czystego strumienia poniżej, tworząc spokojną atmosferę w naturalnym krajobrazie.",
+                    "5": "Spokojny wodospad spływający po skalnych klifach, otoczony bujnym zielonym lasem, ze strumieniem wpływającym do spokojnego potoku poniżej.",
+                    "6": "Grupa osób wspinająca się po linie w bujnym plenerze, otoczona drzewami i skałami, z wodospadem widocznym w tle. Osoby są ubrane w odpowiednią odzież turystyczną i wydają się być zaangażowane w przygodową aktywność.",
+                    "7": "Zbliżenie gałęzi drzewa w bujnym lesie, otoczonej żywą zielenią i liśćmi. W tle widać wysokie drzewa i gęstą roślinność typową dla dżungli lub środowiska lasu deszczowego.",
+                    "8": "Grupa osób idąca skalistą ścieżką w lesie otoczonym drzewami i przyrodą."
                 },
                 "header": "Słowacki Raj",
                 "header2": "Co oferujemy?",
@@ -541,11 +614,13 @@
             },
             "wieden": {
                 "alt": {
-                    "1": "Pałac Schönbrunn",
-                    "2": "Piękne zakończenie wysokiego budynku",
-                    "3": "Stary tramwaj w mieście Wiedeń",
-                    "4": "Kadr na cudowne zielony zadbane ogrody i pałac przy pomniku",
-                    "5": "Panorama miasta Wiedeń"
+                    "1": "Bryczka konna pełna ludzi na pierwszym planie, z pałacem Hofburg widocznym w tle. Scena rozgrywa się na zewnątrz, prezentując czyste niebo i miejską atmosferę.",
+                    "2": "Fontanna przed budynkiem, otoczona trawą i drzewami, pod pochmurnym niebem.",
+                    "3": "Biały budynek z kamiennymi filarami i kamiennym chodnikiem.",
+                    "4": "Duży budynek z przestronnym dziedzińcem i fontanną, otoczony zielenią, w tym drzewami i żywopłotami, z pałacem Schönbrunn widocznym w tle pod czystym niebem.",
+                    "5": "Duży budynek z wieloma oknami, na tle nieba, prezentujący swoją architektoniczną fasadę. Struktura jest znaczącym zabytkiem, przypominającym pałac lub stadion, widocznym w panoramicznym widoku na zewnątrz.",
+                    "6": "Duży budynek kościelny z wysoką wieżą i dzwonnicą, na tle chmur i błękitnego nieba, z drogą i pojazdami z przodu, otoczony miejskimi zabytkami.",
+                    "7": "Zielony budynek otoczony trawnikiem i krzewami, z chmurami na niebie i drzewami w pobliżu."
                 },
                 "header": "Wiedeń",
                 "header2": "Co oferujemy?",
@@ -595,10 +670,13 @@
             },
             "budapeszt": {
                 "alt": {
-                    "1": "Budynek słynnego Parlamentu w Budapeszcie",
-                    "2": "Monumentalny historyczny pomnik Rybaka",
-                    "3": "Kościół Macieja",
-                    "4": "Stary Tramwaj"
+                    "1": "Widok miejski Budapesztu z Mostem Łańcuchowym nad Dunajem, łódką na wodzie i bazyliką św. Stefana widoczną na tle błękitnego nieba.",
+                    "2": "Rzeka odbijająca światła miasta nocą, z mostem rozciągającym się nad nią. Scena przedstawia połączenie miejskich budynków i naturalnych elementów pod ciemniejącym niebem.",
+                    "3": "Rzeka rozświetlona nocą przez miejskie światła, z mostem rozciągającym się nad nią i sylwetką miasta w tle. Niebo jest ciemne z lekką poświatą chmur, odbijającą migoczącą wodę poniżej.",
+                    "4": "Średniowieczny zamek z licznymi wieżami i basztami, otoczony drzewami na tle błękitnego nieba. Budowla ma kamienne mury i iglice, odzwierciedlające klasyczny styl architektoniczny. Na pierwszym planie widoczna jest trawa i ścieżka prowadząca do zamku, z zaparkowanym pojazdem w pobliżu.",
+                    "5": "Panoramiczny widok na miejską linię zabudowy z perspektywy kamiennego budynku, ukazujący elementy architektoniczne, takie jak łuki i arkady, na tle czystego nieba.",
+                    "6": "Grupa ludzi zgromadzonych na placu z pomnikiem i kolumnami, pod pochmurnym niebem, otoczonym budynkami użyteczności publicznej.",
+                    "7": "Łódź płynie po rzece pod mostem, z widoczną linią zabudowy miasta w tle podczas wschodu lub zachodu słońca."
                 },
                 "header": "Budapeszt",
                 "header2": "Co oferujemy?",
@@ -681,10 +759,13 @@
             },
             "dookola-tatr": {
                 "alt": {
-                    "1": "Zamek Orawski przy drzewach",
-                    "2": "Zamek Orawski z drona przy zachodzie słońca",
-                    "3": "Jaskinia Demianowska w środku",
-                    "4": "Naturalne kształy Jaskini Demianowskiej"
+                    "1": "Wnętrze jaskini z licznymi stalaktytami zwisającymi ze stropu i stalagmitami wyrastającymi z podłoża, z różnorodnymi naturalnymi formacjami skalnymi, ukazujące piękno nacieków w podziemnym środowisku.",
+                    "2": "Wnętrze jaskini oświetlone światłem, prezentujące unikalne naturalne formacje w tubie lawowej.",
+                    "3": "Spokojne jeziorko ukryte w jaskini, delikatnie oświetlone naturalnym światłem przenikającym przez skalne formacje.",
+                    "4": "Ciemne wnętrze jaskini z licznymi stalaktytami zwisającymi ze stropu i stalagmitami wyrastającymi z podłoża, ukazujące naturalne formacje skalne.",
+                    "5": "Grupa ludzi eksplorująca jaskinię, otoczona oszałamiającymi naturalnymi formacjami, w tym stalaktytami i stalagmitami.",
+                    "6": "Dwie łodzie na jeziorze otoczonym górami, z krystalicznie czystą niebieską wodą i jasnym niebem. Scena oddaje esencję rekreacji na świeżym powietrzu i spokoju.",
+                    "7": "Spokojne jezioro pośród bujnej zieleni drzew i majestatycznych gór, odbijające błękitne niebo."
                 },
                 "header": "Dookoła Tatr",
                 "header2": "Co oferujemy?",
@@ -724,11 +805,14 @@
             },
             "rafting-po-dunajcu": {
                 "alt": {
-                    "1": "Uczestnicy raftingu w kaskach podczas przejazdu",
-                    "2": "Cudowna zieloona okolica podczas raftingu",
-                    "3": "Dwie grupy uczestników podczas zabawy raftingowej",
-                    "4": "Uśmiechy podczas zabawy a tle woda",
-                    "5": "Uczestnicy walczący z wodą"
+                    "1": "Grupa osób w kamizelkach ratunkowych płynie pontonem po rzece. Woda jest wzburzona z falami, co wskazuje na bystrza, a scena przedstawia rekreację na świeżym powietrzu w naturalnym otoczeniu.",
+                    "2": "Grupa osób siedzi w pontonie na jeziorze, w kamizelkach ratunkowych i wiosłuje. Wokół nich są drzewa i trawa, pod czystym błękitnym niebem z górami w tle.",
+                    "3": "Grupa osób w kolorowych pontonach spływa rzeką otoczoną drzewami, uprawiając rekreację na świeżym powietrzu.",
+                    "4": "Grupa osób znajduje się w pontonie na jeziorze, w kamizelkach ratunkowych i wiosłuje, ciesząc się rekreacją na świeżym powietrzu.",
+                    "5": "Grupa osób w kamizelkach ratunkowych płynie pontonem po rzece. Scena przedstawia dynamiczne warunki na świeżym powietrzu z pluskającą wodą i otaczającą przyrodą.",
+                    "6": "Grupa osób w pontonie na rzece otoczonej górami pod błękitnym niebem z chmurami.",
+                    "7": "Grupa osób w kajakach zaparkowanych na skalistym brzegu, z drzewami w tle i częściowo zachmurzonym niebem. Mają na sobie kamizelki ratunkowe i wydają się cieszyć rekreacją na świeżym powietrzu.",
+                    "8": "Grupa osób w kamizelkach ratunkowych siedzi w pontonie na rzece. Wspólnie wiosłują, z drzewami wzdłuż brzegu rzeki i czystym błękitnym niebem nad głową."
                 },
                 "header": "Rafting po Dunajcu",
                 "header2": "Co oferujemy?",
@@ -1208,6 +1292,10 @@
         "tatry-i-zakopane": {
             "title": "Wycieczki w Tatrach i Zakopanem - Morskie Oko, Kasprowy Wierch",
             "description": "Odkryj Tatry i Zakopane! Wycieczki na Morskie Oko, Kasprowy Wierch, Dolinę Chochołowską i więcej. Rezerwuj wyprawę lub zwiedzaj z przewodnikiem!"
+        },
+        "szlak-papieski": {
+            "title": "Szlak Papieski w Zakopanem – Wycieczka Śladami Jana Pawła II | Trio Travel",
+            "description": "Odkryj duchowe i historyczne miejsca Zakopanego śladami św. Jana Pawła II. Objazdowa wycieczka bez pieszych wędrówek – Morskie Oko, Krzeptówki, Chochołów. Komfortowy transport, lokalny przewodnik. Rezerwuj online z Trio Travel!"
         }
     }
 }

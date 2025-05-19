@@ -124,8 +124,16 @@ export default function Budapeszt() {
               alt: t("alt.4"),
             },
             {
-              url: "/wycieczki/budapeszt/budapeszt.webp",
-              alt: t("alt.1"),
+              url: "/wycieczki/budapeszt/4.webp",
+              alt: t("alt.5"),
+            },
+            {
+              url: "/wycieczki/budapeszt/5.webp",
+              alt: t("alt.6"),
+            },
+            {
+              url: "/wycieczki/budapeszt/6.webp",
+              alt: t("alt.7"),
             },
           ]}
         />

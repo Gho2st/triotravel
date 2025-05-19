@@ -116,6 +116,18 @@ export default function Spacer() {
             url: "/wycieczki/spacer-w-koronach-drzew/4.webp",
             alt: t("alt.5"),
           },
+          {
+            url: "/wycieczki/spacer-w-koronach-drzew/5.webp",
+            alt: t("alt.6"),
+          },
+          {
+            url: "/wycieczki/spacer-w-koronach-drzew/6.webp",
+            alt: t("alt.7"),
+          },
+          {
+            url: "/wycieczki/spacer-w-koronach-drzew/7.webp",
+            alt: t("alt.8"),
+          },
         ]}
       />
       <CtaLink />

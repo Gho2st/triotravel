@@ -39,7 +39,9 @@
             "header4": "Mountain Transport?",
             "header5": "Highlander Feast?",
             "header6": "Winter Sleigh Ride?",
-            "header7": "Treetop Walk?"
+            "header7": "Treetop Walk?",
+            "header8": "The secrets of Wieliczka?",
+            "header9": "Bielańska Cave?"
         },
         "button": "View",
         "button2": "More"
@@ -76,6 +78,54 @@
             "17": "Tatras and Zakopane"
         },
         "tripslist": {
+            "szlak-papieski": {
+                "alt": {
+                    "1": "Statue of Pope John Paul II in Ząbie, Poland, with an inscribed quote at the base.",
+                    "2": "A group of people gathered in a room filled with statues, showcasing various art pieces. The setting is indoors, highlighting the ceiling above and the diverse clothing worn by the individuals present.",
+                    "3": "A man holding a statue of a man indoors at a museum, surrounded by other people and artistic displays. The ceiling is visible above, adding to the atmosphere of the space."
+                },
+                "header": "Papal Trail – A Tour Around Zakopane and Its Surroundings",
+                "header2": "In the Footsteps of St. John Paul II and Zakopane’s History",
+                "header3": "Description of Attractions:",
+                "text": "We invite you to a unique, leisurely sightseeing tour following the footsteps of St. John Paul II and the most beautiful and historic places in Zakopane and its surroundings. This is an excellent option for those who want to explore the spiritual and cultural essence of Podhale without the need for long hikes. Transport: air-conditioned bus with a driver-guide. Pickup: from the stop closest to your accommodation. Tour type: scenic, sightseeing, without long walks.",
+                "list": {
+                    "1": "Toporowa Cyrhla – the starting point of our journey at the Papal Stone, where the famous Papal Trail begins. A short break for photos and admiring the Tatra panorama: Giewont and Kasprowy Wierch.",
+                    "2": "Jaszczurówka Chapel – a gem of Zakopane architecture designed by Stanisław Witkiewicz. We enter to see the unique interior and feel the spirit of highlander faith.",
+                    "3": "Olcza Valley and Nosal – a drive at the foot of Nosal and through the entrance to Olcza Valley, places particularly close to Karol Wojtyła’s heart.",
+                    "4": "Wielka Krokiew and the ski jumping complex – we admire the famous ski jump and its smaller counterparts from the outside.",
+                    "5": "Streets of Zakopane’s creators – a drive through streets named after figures like Piłsudski, Makuszyński, and Tetmajer.",
+                    "6": "Kościeliska Street and Pęksowy Brzyzek – Zakopane’s oldest street, home to the first Zakopane cemetery, the historic Gąsienica Chapel from 1800, an old wooden church, and the oldest inn in Zakopane, 'U Jana Wnuka'.",
+                    "7": "Zakopane style and Willa Koliba – a drive past the villa and historic highlander cottages, some over 200 years old.",
+                    "8": "Sanctuary of Our Lady of Fatima in Krzeptówki – a longer stop for sightseeing. We will see Poland’s largest wooden altar, relics of St. John Paul II, and the papal altar from 1997, relocated from Wielka Krokiew.",
+                    "9": "Gronik and an old shepherd’s hut in Witów – a drive through the military base in Gronik and a stop at one of the region’s oldest shepherd huts. Opportunity to purchase authentic oscypek cheese and taste bundz.",
+                    "10": "Chochołów – a living open-air museum – a visit to a unique village made up of 33 authentic wooden highlander houses and a stop at the workshop of renowned sculptor Jan Zięder.",
+                    "11": "Return via Gubałówka peak – a scenic route with a panorama of Zakopane and the Tatras. The perfect end to a day full of experiences."
+                },
+                "tripprogram": {
+                    "header": "Duration: approx.",
+                    "1": "Toporowa Cyrhla",
+                    "2": "JP2 Papal Stone – start of the Papal Trail",
+                    "3": "Viewpoint: Tatra panorama, Giewont, Kasprowy Wierch",
+                    "4": "Jaszczurówka Chapel – sightseeing",
+                    "5": "Olcza Valley, Nosal ski complex",
+                    "6": "Ski jumps: Wielka Krokiew, Small, Medium",
+                    "7": "TOPR/GOPR unit",
+                    "8": "Zakopane streets: Piłsudski, Makuszyński, Przerwa-Tetmajer",
+                    "9": "Kościeliska Street: Pęksowy Brzyzek Cemetery, Gąsienica Chapel (1800), old church, U Jana Wnuka inn",
+                    "10": "Willa Koliba, 200-year-old Zakopane-style cottages",
+                    "11": "Krzeptówki Sanctuary: wooden altar, JP2 relics, papal altar (1997)",
+                    "12": "Gronik, Witów shepherd’s hut: bundz, oscypek",
+                    "13": "Chochołów open-air museum: 33 highlander cottages",
+                    "14": "Jan Zięder’s sculptor workshop – sightseeing",
+                    "15": "Return via Gubałówka: view of Zakopane and the Tatras"
+                },
+                "cta": {
+                    "header": "Papal Trail – A Tour Around Zakopane and Its Surroundings",
+                    "text1": "We invite you to a unique, leisurely sightseeing tour following the footsteps of St. John Paul II and the most beautiful and historic places in Zakopane and its surroundings.",
+                    "text2": "This is an excellent option for those who want to explore the spiritual and cultural essence of Podhale without the need for long hikes.",
+                    "cta": "Want to know more?"
+                }
+            },
             "tatry-i-zakopane": {
                 "alt": {
                     "1": "Purple crocuses in a meadow",
@@ -149,10 +199,13 @@
                     "5": "With Trio Travel, you can quickly, conveniently, and affordably book tickets for the cable car to Kasprowy Wierch. Ascend to 1,987 meters above sea level and admire the breathtaking panorama of the Polish and Slovak Tatra Mountains!"
                 },
                 "alt": {
-                    "1": "Cable car to Kasprowy Wierch",
-                    "2": "Snow-covered peak of Kasprowy Wierch",
-                    "3": "Green peak with a building",
-                    "4": "Mountains in the background of Kasprowy Wierch"
+                    "1": "A cable car travels over a snowy mountain landscape, surrounded by a winter environment with slopes ideal for skiing.",
+                    "2": "A cable car suspended in the mountains, surrounded by trees and a snowy landscape. The scene includes a mountain range in the background, with clouds above and a forest of spruce and larch below.",
+                    "3": "A cable car is suspended in the air against a backdrop of mountains and a blue sky, surrounded by clouds. Below it, trees and grass can be seen, representing an autumn landscape at a hill station.",
+                    "4": "A building situated on a hill with a mountainous backdrop, surrounded by grass and trees under a cloudy sky.",
+                    "5": "A cable car ascending a mountain, surrounded by clear blue skies and rugged terrain.",
+                    "6": "A cable car suspended over a valley, surrounded by mountains, providing transport in an outdoor setting.",
+                    "7": "A cable car gliding over a mountainous landscape with a backdrop of hills, fog, and cliffs under a clear sky."
                 },
                 "buttons": {
                     "1": "Notes",
@@ -166,11 +219,16 @@
             },
             "splyw-dunajcem-dluzszy": {
                 "alt": {
-                    "1": "Wooden rafting on the Dunajec River amidst nature",
-                    "2": "Raft with boatmen and participants against a backdrop of green peaks",
-                    "3": "Two rafts during a Dunajec river float",
-                    "4": "Four rafts with boatmen and participants on the Dunajec River",
-                    "5": "Wooden church in Dębno"
+                    "1": "A group of people in various boats paddling on a lake surrounded by trees, engaging in outdoor recreation.",
+                    "2": "A group of people on a raft enjoying a lake surrounded by trees and mountains under a cloudy sky.",
+                    "3": "A group of people paddling canoes on a river surrounded by trees and mountains under a clear sky.",
+                    "4": "A wooden building with a pointed roof surrounded by trees and grass, under a clear sky in an autumn landscape.",
+                    "5": "A group of people in a boat on a river surrounded by trees and mountains under a cloudy sky.",
+                    "6": "A group of people enjoy navigating a raft on a calm body of water surrounded by trees and mountains under a clear sky.",
+                    "7": "A serene river scene featuring boats gently floating on the water, surrounded by lush trees along the banks. The sky is clear with a few clouds scattered above, creating a picturesque natural landscape in a tranquil outdoor setting.",
+                    "8": "A group of people in a boat paddling down a river surrounded by trees and mountains.",
+                    "9": "A castle situated on an island, surrounded by water with trees and a clear sky in the background. The landscape includes a reservoir and mountains, along with clouds overhead. Green grass lines the bank of the water body.",
+                    "10": "A castle perched on a hill overlooking a body of water, surrounded by trees and mountains under a cloudy sky. A bridge spans the reservoir, with a train visible nearby in the landscape."
                 },
                 "header": "Dunajec River Rafting 2.5h",
                 "header2": "What We Offer?",
@@ -263,11 +321,12 @@
             },
             "splyw-dunajcem-krotszy": {
                 "alt": {
-                    "1": "Wooden rafting on the Dunajec River amidst nature",
-                    "2": "Raft with boatmen and participants against a backdrop of green peaks",
-                    "3": "Two rafts during a Dunajec river float",
-                    "4": "Four rafts with boatmen and participants on the Dunajec River",
-                    "5": "Wooden church in Dębno"
+                    "1": "A group of people wearing life jackets in a boat, paddling together on a river surrounded by trees.",
+                    "2": "A boat resting on a rocky shore beside a river, surrounded by trees and mountains under a clear sky.",
+                    "3": "A group of people gathered outside a building surrounded by trees and grass.",
+                    "4": "A scenic park featuring a gazebo surrounded by trees and plants, with a grassy ground and a wooden fence nearby. The gazebo is made of wood, resembling a log cabin structure.",
+                    "5": "A boat floating on a river surrounded by trees and mountains, representing outdoor activity and transportation on water.",
+                    "6": "A group of people paddling together in an inflatable boat on a lake, surrounded by nature."
                 },
                 "header": "Dunajec River Rafting 1.5h",
                 "header2": "What We Offer?",
@@ -358,10 +417,11 @@
             "termy": {
                 "alt": {
                     "1": "Thermal pool filled with water with Termy Chochołowskie building in the background",
-                    "2": "Jacuzzi pools with bubbles",
-                    "3": "Termy Chochołowskie building exterior",
-                    "4": "Atmospheric evening lighting of the pools",
-                    "5": "Wooden benches with a view"
+                    "2": "A large swimming pool surrounded by a building, with additional structures in the background, set in a spa town during nighttime. The scene includes trees and reflects blue hues in the water.",
+                    "3": "A wooden bench rests in a room with a ceiling and window, featuring architectural elements on the walls and floor.",
+                    "4": "A spacious indoor pool area featuring a large stone floor and a large window that allows natural light to fill the space. The pool is surrounded by walls and has a ceiling overhead, creating a relaxing atmosphere in this leisure centre environment.",
+                    "5": "A spacious indoor pool surrounded by a large stone floor, featuring windows that allow natural daylight to illuminate the area. The room has high ceilings and walls that contribute to its open atmosphere.",
+                    "6": "A group of people enjoying a swimming pool at night, surrounded by a resort atmosphere with buildings and a fountain in the background under a clear blue sky."
                 },
                 "header": "Chochołowskie Thermal Baths",
                 "header2": "Relax",
@@ -384,11 +444,14 @@
             },
             "spacer-w-koronach-drzew": {
                 "alt": {
-                    "1": "Wooden treetop walkway",
-                    "2": "Drone view of the treetop walkway with massive mountains in the background",
-                    "3": "Bachledka mountain chairlift",
-                    "4": "Štrbské Pleso lake with mountains in the background",
-                    "5": "Nature by Štrbské Pleso lake"
+                    "1": "A tower situated in a mountainous landscape, with people walking on its structure. The scene includes green grass, trees, and a clear sky, showcasing the beauty of nature from a high vantage point.",
+                    "2": "A woman and a girl standing next to a wooden board with a rabbit, outdoors under a blue sky surrounded by trees and a fence. Both are wearing clothing suitable for outdoor activity, and there is visible footwear.",
+                    "3": "Two gondolas suspended in the air above a lush green forest, with mountains in the background.",
+                    "4": "A group of people walking on a platform surrounded by trees, with a truck and other vehicles in the background. It's a sunny day during summer, and everyone is dressed in casual clothing and footwear.",
+                    "5": "A group of people sitting on a grassy field, surrounded by trees under a cloudy sky, with a playground and building in the background.",
+                    "6": "A person sitting in a gondola, surrounded by mountains and trees, with a clear sky and clouds in the background. The gondola is part of a ski tow transport system at a hill station.",
+                    "7": "A bridge with several people walking across it, surrounded by trees and under a partly cloudy sky.",
+                    "8": "A cable car traveling through a snowy landscape with a view of mountains under a clear sky."
                 },
                 "header": "Treetop Walk",
                 "header2": "Discover the Beauty of Nature",
@@ -423,10 +486,13 @@
             },
             "jaskinia-bielanska": {
                 "alt": {
-                    "1": "Sunlight piercing into Bielańska Cave",
-                    "2": "Inside view of the cave",
-                    "3": "Illuminated Bielańska Cave",
-                    "4": "Cave entrance with a sign"
+                    "1": "A cave interior featuring numerous stalactites hanging from the ceiling and stalagmites rising from the ground, with a mix of natural rock formations, showcasing the beauty of speleothems in an underground environment.",
+                    "2": "A cave interior illuminated by lights, showcasing unique natural formations within a lava tube.",
+                    "3": "A serene pool of water nestled within a cave, illuminated by soft natural light filtering through the rocky formations.",
+                    "4": "A dark cave interior featuring numerous stalactites hanging from the ceiling and stalagmites rising from the ground, showcasing natural formations.",
+                    "5": "A group of people exploring a cave, surrounded by stunning natural formations including stalactites and stalagmites.",
+                    "6": "Two boats on a lake surrounded by mountains, with clear blue water and a bright sky overhead. The scene captures the essence of outdoor recreation and tranquility.",
+                    "7": "A serene lake nestled among lush green trees and majestic mountains, reflecting the clear blue sky."
                 },
                 "header": "Bielańska Cave",
                 "header2": "What We Offer?",
@@ -466,11 +532,15 @@
             },
             "wieliczka": {
                 "alt": {
-                    "1": "Tunnel with wooden walls in the Wieliczka Salt Mine",
-                    "2": "Amazing salt sculptures inside the mine",
-                    "3": "Salt-carved artwork on the mine wall",
-                    "4": "Exhibition of salt artifacts",
-                    "5": "Historic wooden mining mechanisms"
+                    "1": "A wooden structure with visible beams, featuring a person standing in the background.",
+                    "2": "A stone statue of a man is situated in a cave, with rocky walls surrounding it and the ground uneven beneath.",
+                    "3": "A stone sculpture depicting multiple figures gathered around a table, representing the Last Supper. The details showcase intricate carvings and relief work, highlighting the artistry of the piece. The image is in black and white, emphasizing its historical significance as an artifact displayed in a museum setting.",
+                    "4": "A room featuring a display case that showcases various rocks, with natural light illuminating the space.",
+                    "5": "A wooden structure is situated within a cave, surrounded by rocky walls and dim lighting. The ground is uneven and natural, complementing the rustic appearance of the wooden construction.",
+                    "6": "A cave interior featuring a body of water surrounded by stone walls.",
+                    "7": "Alt text: A decorative chandelier hangs from the ceiling of a room, illuminating the space with warm light.",
+                    "8": "A statue is situated inside a cave, surrounded by rocky walls and natural elements. The dim lighting highlights the contours of the statue against the rugged backdrop.",
+                    "9": "A decorative chandelier hanging from the ceiling of a room with stone walls and a stone floor. The space is furnished with a table, creating an indoor atmosphere reminiscent of a church or historical building."
                 },
                 "header": "Secrets of Wieliczka",
                 "header2": "What We Offer?",
@@ -498,11 +568,14 @@
             },
             "slowacki-raj": {
                 "alt": {
-                    "1": "People posing for photos at a viewpoint",
-                    "2": "Wooden cabins by the water",
-                    "3": "Ladder by a mini waterfall",
-                    "4": "Trail along rocks and a stream",
-                    "5": "Cliffside trail suspended above water"
+                    "1": "A group of people walking on a dirt trail surrounded by trees in a forested area. They are dressed in outdoor clothing and equipped for hiking, with a river and rocky terrain visible nearby.",
+                    "2": "A group of people climbing a ladder in an outdoor setting, surrounded by mountains and rocky terrain. They are dressed in outdoor clothing and using climbing gear such as harnesses and ropes for safety. The activity appears adventurous and engaging.",
+                    "3": "A group of people climbing a ladder over a waterfall surrounded by lush greenery and rocky terrain.",
+                    "4": "A stunning waterfall cascading down rocky cliffs, surrounded by lush green trees and a serene forest setting. The water flows into a clear stream below, creating a tranquil atmosphere in the natural landscape.",
+                    "5": "A serene waterfall cascading down rocky cliffs surrounded by lush green forest, with a stream flowing into a tranquil creek below.",
+                    "6": "A group of people climbing a rope in a lush outdoor setting, surrounded by trees and rocks, with a waterfall visible in the background. The individuals are dressed in appropriate outdoor clothing and appear to be engaged in an adventurous activity.",
+                    "7": "A close-up of a tree branch in a lush forest setting, surrounded by vibrant greenery and foliage. The background includes tall trees and dense vegetation typical of a jungle or rainforest environment.",
+                    "8": "A group of people walking on a rocky path in a forest surrounded by trees and nature."
                 },
                 "header": "Slovak Paradise",
                 "header2": "What We Offer?",
@@ -536,11 +609,13 @@
             },
             "wieden": {
                 "alt": {
-                    "1": "Schönbrunn Palace",
-                    "2": "Beautiful architectural detail of a tall building",
-                    "3": "Historic tram in Vienna",
-                    "4": "View of magnificent green gardens and palace near the monument",
-                    "5": "Vienna city panorama"
+                    "1": "A horse-drawn carriage filled with people is in the foreground, with the Hofburg palace visible in the background. The scene takes place outdoors, showcasing a clear sky and city atmosphere.",
+                    "2": "A fountain in front of a building, surrounded by grass and trees, under a cloudy sky.",
+                    "3": "A white building featuring stone pillars and a stone walkway.",
+                    "4": "A large building features a spacious courtyard with a fountain, surrounded by greenery, including trees and hedges, with Schönbrunn Palace visible in the background under a clear sky.",
+                    "5": "A large building with many windows, set against the sky, showcasing its architectural facade. The structure is a notable landmark, possibly resembling a palace or stadium, visible in a panoramic outdoor view.",
+                    "6": "A large church building featuring a tall steeple and tower, set against a backdrop of clouds and blue sky, with a road and vehicles in front, surrounded by urban landmarks.",
+                    "7": "A green building surrounded by a lawn and bushes, with clouds in the sky and trees nearby."
                 },
                 "header": "Vienna",
                 "header2": "What We Offer?",
@@ -590,10 +665,13 @@
             },
             "budapeszt": {
                 "alt": {
-                    "1": "Building of the famous Hungarian Parliament in Budapest",
-                    "2": "Monumental Fisherman's Bastion historical landmark",
-                    "3": "Matthias Church",
-                    "4": "Historic tram"
+                    "1": "A cityscape view of Budapest with the Chain Bridge over the Danube River, a boat on the water, and St. Stephen's Basilica prominent in the background under a blue sky.",
+                    "2": "A river reflecting the city lights at night, with a bridge spanning across it. The scene captures a blend of urban buildings and natural elements under a darkening sky.",
+                    "3": "A river illuminated by city lights at night, with a bridge spanning across it and a skyline in the background. The sky is dark with hints of clouds, reflecting the shimmering water below.",
+                    "4": "A medieval castle with multiple towers and turrets, surrounded by trees and set against a blue sky. The structure features stone walls and spires, reflecting classic architectural design. In the foreground, there is grass and a path leading towards the castle, with a vehicle parked nearby.",
+                    "5": "A panoramic view of a city skyline from the vantage point of a stone building, showcasing architectural features such as arches and an arcade against a clear sky.",
+                    "6": "A group of people gathering in a plaza featuring a statue and columns, with a cloudy sky above and buildings surrounding the public space.",
+                    "7": "A boat glides along a river beneath a bridge, with a city skyline visible in the background during sunrise or sunset."
                 },
                 "header": "Budapest",
                 "header2": "What We Offer?",
@@ -719,11 +797,14 @@
             },
             "rafting-po-dunajcu": {
                 "alt": {
-                    "1": "Rafting participants wearing helmets during the ride",
-                    "2": "Beautiful green surroundings during rafting",
-                    "3": "Two groups of participants enjoying rafting",
-                    "4": "Smiling faces with water in the background",
-                    "5": "Participants battling the water"
+                    "1": "A group of people wearing life jackets is paddling in an inflatable raft on a river. The water is choppy with waves, indicating rapids, and the scene captures outdoor recreation in a natural setting.",
+                    "2": "A group of people is sitting in an inflatable raft on a lake, wearing life jackets and paddling. Surrounding them are trees and grass, under a clear blue sky with mountains in the background.",
+                    "3": "A group of people in colorful rafts floats down a river surrounded by trees, engaged in outdoor recreation.",
+                    "4": "A group of people is seen in an inflatable raft on a lake, wearing life jackets and engaged in paddling, enjoying outdoor recreation.",
+                    "5": "A group of people wearing life jackets is paddling on an inflatable raft on a river. The scene shows a dynamic outdoor setting with splashing water and surrounding nature.",
+                    "6": "A group of people in a raft on a river surrounded by mountains under a blue sky with clouds.",
+                    "7": "A group of people in kayaks is parked on a rocky shore, with trees in the background and a partly cloudy sky above. They are wearing life jackets and appear to be enjoying outdoor recreation.",
+                    "8": "A group of people wearing life jackets is seated in an inflatable raft on a river. They are paddling together, with trees lining the riverbank and a clear blue sky overhead."
                 },
                 "header": "Dunajec Rafting",
                 "header2": "What We Offer?",
@@ -1203,6 +1284,10 @@
         "tatry-i-zakopane": {
             "title": "Trips in the Tatras and Zakopane - Morskie Oko, Kasprowy Wierch",
             "description": "Discover the Tatras and Zakopane! Trips to Morskie Oko, Kasprowy Wierch, Chochołowska Valley, and more. Book an adventure or explore with a guide!"
+        },
+        "szlak-papieski": {
+            "title": "The Papal Trail in Zakopane – Tour in the Footsteps of John Paul II | Trio Travel",
+            "description": "Discover the spiritual and historical landmarks of Zakopane in the footsteps of Saint John Paul II. Comfortable sightseeing tour – no long walks. Visit Morskie Oko, Krzeptówki, Chochołów. Local guide and transport included. Book online with Trio Travel!"
         }
     }
 }

@@ -110,6 +110,18 @@ export default function SlowackiRaj() {
               url: "/wycieczki/slowacki-raj/4.webp",
               alt: t("alt.5"),
             },
+            {
+              url: "/wycieczki/slowacki-raj/5.webp",
+              alt: t("alt.6"),
+            },
+            {
+              url: "/wycieczki/slowacki-raj/6.webp",
+              alt: t("alt.7"),
+            },
+            {
+              url: "/wycieczki/slowacki-raj/7.webp",
+              alt: t("alt.8"),
+            },
           ]}
         />
       </div>

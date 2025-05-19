@@ -288,5 +288,27 @@ export default function sitemap() {
         },
       },
     },
+    {
+      url: `${baseUrl}/wycieczki/tatry-i-zakopane`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/trips/tatras-and-zakopane`,
+          ar: `${baseUrl}/ar/rihlat/tatra-wa-zakopane`,
+          hu: `${baseUrl}/hu/kirándulások/tatra-es-zakopane`,
+        },
+      },
+    },
+    {
+      url: `${baseUrl}/wycieczki/tatry-i-zakopane/szlak-papieski`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/trips/tatras-and-zakopane/papal-trail`,
+          ar: `${baseUrl}/ar/rihlat/tatra-wa-zakopane/darb-al-baba`,
+          hu: `${baseUrl}/hu/kirándulások/tatra-es-zakopane/papai-osveny`,
+        },
+      },
+    },
   ];
 }

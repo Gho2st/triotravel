@@ -59,10 +59,12 @@ export default function Kasprowy() {
       <div>
         <Gallery
           images={[
-            { url: "/wycieczki/kasprowy-wierch/1.webp", alt: "First image" },
-            { url: "/wycieczki/kasprowy-wierch/2.webp", alt: "First image" },
-            { url: "/wycieczki/kasprowy-wierch/3.webp", alt: "First image" },
-            { url: "/wycieczki/kasprowy-wierch/4.webp", alt: "First image" },
+            { url: "/wycieczki/kasprowy-wierch/1.webp", alt: t("alt.2") },
+            { url: "/wycieczki/kasprowy-wierch/2.webp", alt: t("alt.3") },
+            { url: "/wycieczki/kasprowy-wierch/3.webp", alt: t("alt.4") },
+            { url: "/wycieczki/kasprowy-wierch/4.webp", alt: t("alt.5") },
+            { url: "/wycieczki/kasprowy-wierch/5.webp", alt: t("alt.6") },
+            { url: "/wycieczki/kasprowy-wierch/6.webp", alt: t("alt.7") },
           ]}
         />
       </div>

@@ -106,6 +106,22 @@ export default function Wieliczka() {
               url: "/wycieczki/tajemnice-wieliczki/4.webp",
               alt: t("alt.5"),
             },
+            {
+              url: "/wycieczki/tajemnice-wieliczki/5.webp",
+              alt: t("alt.6"),
+            },
+            {
+              url: "/wycieczki/tajemnice-wieliczki/6.webp",
+              alt: t("alt.7"),
+            },
+            {
+              url: "/wycieczki/tajemnice-wieliczki/7.webp",
+              alt: t("alt.8"),
+            },
+            {
+              url: "/wycieczki/tajemnice-wieliczki/8.webp",
+              alt: t("alt.9"),
+            },
           ]}
         />
       </div>
