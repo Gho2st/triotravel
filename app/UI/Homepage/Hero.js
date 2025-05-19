@@ -24,30 +24,37 @@ export default function Hero() {
         translationKey: "headers.header1", // "Spływ Dunajcem?"
         link: "/wycieczki/splyw-dunajcem-dluzszy",
       },
+
+      {
+        background: "/baner/baner4.webp",
+        translationKey: "headers.header2", // "Baseny Termalne?"
+        link: "/wycieczki/chocholowskie-termy",
+      },
+
+      {
+        background: "/wycieczki/tajemnice-wieliczki/6.webp",
+        translationKey: "headers.header8", // "wieliczka?"
+        link: "/wycieczki/tajemnice-wieliczki",
+      },
+      {
+        background: "/wycieczki/jaskinia-bielanska/jaskinia.webp",
+        translationKey: "headers.header9", // "jaskinia bielanska"
+        link: "/wycieczki/jaskinia-bielanska",
+      },
+      {
+        background: "/wycieczki/slowacki-raj/slowacki-raj.webp",
+        translationKey: "headers.header10", // "jaskinia bielanska"
+        link: "/wycieczki/slowacki-raj",
+      },
       {
         background: "/wycieczki/biesiada-goralska/baner.webp",
         translationKey: "headers.header5", // "Biesiada Goralska?"
         link: "/wycieczki/biesiada-goralska",
       },
       {
-        background: "/baner/baner4.webp",
-        translationKey: "headers.header2", // "Baseny Termalne?"
-        link: "/wycieczki/chocholowskie-termy",
-      },
-      {
         background: "/baner/baner6.webp",
-        translationKey: "headers.header4", // "Transport w Górach?"
+        translationKey: "headers.header4", // "transport?"
         link: "/transport",
-      },
-      {
-        background: "/wycieczki/tajemnice-wieliczki/6.webp",
-        translationKey: "headers.header8", // "Transport w Górach?"
-        link: "/wycieczki/tajemnice-wieliczki",
-      },
-      {
-        background: "/wycieczki/jaskinia-bielanska/jaskinia.webp",
-        translationKey: "headers.header9", // "Transport w Górach?"
-        link: "/wycieczki/jaskinia-bielanska",
       },
     ],
     []

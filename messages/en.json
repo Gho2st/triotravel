@@ -41,7 +41,8 @@
             "header6": "Winter Sleigh Ride?",
             "header7": "Treetop Walk?",
             "header8": "The secrets of Wieliczka?",
-            "header9": "Bielańska Cave?"
+            "header9": "Bielańska Cave?",
+            "header10": "Slovak Paradise?"
         },
         "button": "View",
         "button2": "More"
@@ -638,9 +639,9 @@
                     "6": "Students (based on Euro26, ISIC, ITIC cards)",
                     "7": "Disabled persons and children under 6",
                     "text": "*Price includes: Care of a qualified guide and tour leader, transport by comfortable coach, accident and medical insurance, audio guide set",
-                    "a1": "Schönbrunn Palace: 24€, Lunch: approx: 15€",
-                    "a2": "Schönbrunn Palace: 17€, Lunch: approx: 15€",
-                    "a3": "Schönbrunn Palace: 20€, Lunch: approx: 15€",
+                    "a1": "Schönbrunn Palace: 27€, Lunch: approx: 15€",
+                    "a2": "Schönbrunn Palace: 19€, Lunch: approx: 15€",
+                    "a3": "Schönbrunn Palace: 22€, Lunch: approx: 15€",
                     "a4": "Schönbrunn Palace: FREE, Lunch: approx: 15€",
                     "additional": "Additional charges"
                 },

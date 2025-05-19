@@ -41,7 +41,8 @@
             "header6": "Téli lovasszán túra?",
             "header7": "Séta a lombkoronák között?",
             "header8": "Wieliczka titkai?",
-            "header9": "Bielai-barlang?"
+            "header9": "Bielai-barlang?",
+            "header10": "Szlovák Paradicsom?"
         },
         "button": "Megnézem",
         "button2": "Több"
@@ -643,9 +644,9 @@
                     "6": "Diákok (Euro26, ISIC, ITIC kártyák alapján)",
                     "7": "Fogyatékkal élők és 6 év alatti gyermekek",
                     "text": "* Az ár tartalmazza: képzett idegenvezető és kísérő felügyeletét, kényelmes autóbuszos utazást, KL és NNW biztosítást, audio guide készletet",
-                    "a1": "Schönbrunn Palota: 24€, Ebéd: kb. 15€",
-                    "a2": "Schönbrunn Palota: 17€, Ebéd: kb. 15€",
-                    "a3": "Schönbrunn Palota: 20€, Ebéd: kb. 15€",
+                    "a1": "Schönbrunn Palota: 27€, Ebéd: kb. 15€",
+                    "a2": "Schönbrunn Palota: 19€, Ebéd: kb. 15€",
+                    "a3": "Schönbrunn Palota: 22€, Ebéd: kb. 15€",
                     "a4": "Schönbrunn Palota: INGYENES, Ebéd: kb. 15€",
                     "additional": "Külön fizetendő"
                 },

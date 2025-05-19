@@ -41,7 +41,8 @@
             "header6": "Zimowy Kulig?",
             "header7": "Spacer w Koronach Drzew?",
             "header8": "Tajemnice Wieliczki?",
-            "header9": "Jaskinia Bielańska?"
+            "header9": "Jaskinia Bielańska?",
+            "header10": "Słowacki Raj?"
         },
         "button": "Zobacz",
         "button2": "Więcej"
@@ -643,9 +644,9 @@
                     "6": "Studenci (na podstawie kart: Euro26, ISIC, ITIC)",
                     "7": "Osoby niepełnosprawne i dzieci do 6 lat",
                     "text": "*Cena obejmuje: Opiekę wykwalifikowanego pilota oraz przewodnika, transport komfortowym autokarem, ubezpieczenie KL i NNW, zestaw audio guide",
-                    "a1": "Pałac Schonbrum: 24€, Obiad: ok: 15€",
-                    "a2": "Pałac Schonbrum: 17€, Obiad: ok: 15€",
-                    "a3": "Pałac Schonbrum: 20€, Obiad: ok: 15€",
+                    "a1": "Pałac Schonbrum: 27€, Obiad: ok: 15€",
+                    "a2": "Pałac Schonbrum: 19€, Obiad: ok: 15€",
+                    "a3": "Pałac Schonbrum: 22€, Obiad: ok: 15€",
                     "a4": "Pałac Schonbrum: BEZPŁATNE, Obiad: ok: 15€",
                     "additional": "Dodatkowo płatne"
                 },
