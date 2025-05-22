@@ -199,6 +199,7 @@ export default function Hero() {
             initial="initial"
             whileHover="hover"
             whileTap="tap"
+            aria-label="Poprzedni slajd"
           >
             <FaArrowLeft />
           </motion.button>
@@ -209,6 +210,7 @@ export default function Hero() {
             initial="initial"
             whileHover="hover"
             whileTap="tap"
+            aria-label="Następny Slajd"
           >
             <FaArrowRight />
           </motion.button>
