@@ -355,13 +355,11 @@
                 "tripprogram": {
                     "header": "Trip Program:",
                     "1": "Departure from Zakopane",
-                    "2": "Rafting from Majere (Slovakia) on the Dunajec (approx. 1.5-2h) to the landing in Leśnica (Slovakia)",
-                    "3": "Transfer to Niedzica",
-                    "4": "Free time",
-                    "5": "Transfer to Dębno",
-                    "6": "Church tour with the curator (approx. 20 minutes)",
-                    "7": "Return trip",
-                    "8": "Planned arrival in Zakopane"
+                    "2": "Rafting from the village of Majere (Slovakia) on the Dunajec River (rafting time about 1.5 - 2 hours) to the pier in Leśnica (Slovakia)",
+                    "3": "Stop at the viewpoint overlooking the Pieniny panorama",
+                    "4": "Transfer to the liquor store (possibility to purchase)",
+                    "5": "Drive to the castle and dam in Niedzica (2 hours free time)",
+                    "6": "Return to Zakopane"
                 },
                 "funfact": {
                     "header": "Fun Facts About Dunajec Rafting",

@@ -362,13 +362,11 @@
                 "tripprogram": {
                     "header": "Program Wycieczki:",
                     "1": "Wyjazd z Zakopanego",
-                    "2": "Spływ tratwami z miejscowości Majere (Słowacja) po Dunajcu (czas spływu około 1,5 -2 h) do przystani w Leśnicy (Słowacja)",
-                    "3": "Wyjazd do Niedzicy",
-                    "4": "Czas wolny",
-                    "5": "Przejazd do Dębna",
-                    "6": "Zwiedzanie Kościółka z Panią Kustosz (około 20 minut)",
-                    "7": "Wyjazd powrotny",
-                    "8": "Planowy przyjazd do Zakopanego"
+                    "2": "Spływ tratwami z miejscowości Majere (Słowacja) po Dunajcu (czas spływu około 1,5 - 2 h) do przystani w Leśnicy (Słowacja)",
+                    "3": "Postój w punkcie widokowym na panoramę Pienin",
+                    "4": "Przejazd do sklepu z alkoholami (możliwość zakupu)",
+                    "5": "Przejazd pod zamek i zaporę w Niedzicy (czas wolny 2 h)",
+                    "6": "Powrót do Zakopanego"
                 },
                 "funfact": {
                     "header": "Ciekawostki o Spływie Dunajcem",

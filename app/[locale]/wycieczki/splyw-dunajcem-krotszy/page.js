@@ -50,13 +50,11 @@ export default function SplywKrotszy() {
 
   const tripItems = [
     "8:00 - " + t("tripprogram.1"),
-    "10:00 - " + t("tripprogram.2"),
-    "12:30 - " + t("tripprogram.3"),
-    "13:00 - " + t("tripprogram.4"),
-    "15:00 - " + t("tripprogram.5"),
-    "15:30 - " + t("tripprogram.6"),
-    "16:00 - " + t("tripprogram.7"),
-    "17:00 - " + t("tripprogram.8"),
+    t("tripprogram.2"),
+    t("tripprogram.3"),
+    t("tripprogram.4"),
+    t("tripprogram.5"),
+    t("tripprogram.6"),
   ];
 
   // Przykładowe dane dla tabeli

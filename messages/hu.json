@@ -360,13 +360,11 @@
                 "tripprogram": {
                     "header": "Kirándulás programja:",
                     "1": "Indulás Zakopanéból",
-                    "2": "Tutajozás a Dunajec folyón Majere településről (Szlovákia) a Leśnica kikötőig (Szlovákia) (a tutajozás időtartama kb. 1,5-2 óra)",
-                    "3": "Utazás Niedzicába",
-                    "4": "Szabadidő",
-                    "5": "Utazás Dębnóba",
-                    "6": "A templom megtekintése a gondnok vezetésével (kb. 20 perc)",
-                    "7": "Visszautazás",
-                    "8": "Tervezett érkezés Zakopanéba"
+                    "2": "Rafting Majere faluból (Szlovákia) a Dunajec folyón (a rafting időtartama kb. 1,5 - 2 óra) a leśnicai kikötőig (Szlovákia)",
+                    "3": "Megálló a Pieniny panorámáját kínáló kilátópontnál",
+                    "4": "Utazás egy italboltba (vásárlási lehetőség)",
+                    "5": "Utazás a niedzicai várhoz és gáthoz (2 óra szabadidő)",
+                    "6": "Visszatérés Zakopanéba"
                 },
                 "funfact": {
                     "header": "Érdekességek a Dunajec tutajozásról",
