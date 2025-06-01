@@ -2,18 +2,79 @@
 import { useTranslations } from "next-intl";
 
 export default function TripTime({
-  availableDays = ["Pon", "Wt", "Śr", "Czw", "Pt", "Sob", "Nd"],
-  showCallInfo = false, // opcjonalny prop
-  isKasprowy = false, // <-- nowy parametr
+  availableDays = ["Pon", "Wt", "Śr", "Czw", "Pt", "Sob", "Nd"], // Domyślne dni w polskim formacie
+  showCallInfo = false,
+  isKasprowy = false,
 }) {
   const t = useTranslations("triptime");
 
-  // Pobierz dni skrócone i pełne z tłumaczeń
-  const shortDays = t.raw("days"); // ["Pon", "Wt", ...]
-  const fullDays = t.raw("fullDays"); // ["Poniedziałek", "Wtorek", ...]
+  const shortDays = t.raw("days");
+  const fullDays = t.raw("fullDays");
+
+  // Mapowania dni między językami (polski jako punkt odniesienia)
+  const dayTranslations = {
+    pl: {
+      Pon: "Pon",
+      Wt: "Wt",
+      Śr: "Śr",
+      Czw: "Czw",
+      Pt: "Pt",
+      Sob: "Sob",
+      Nd: "Nd",
+    },
+    en: {
+      Pon: "Mon",
+      Wt: "Tue",
+      Śr: "Wed",
+      Czw: "Thu",
+      Pt: "Fri",
+      Sob: "Sat",
+      Nd: "Sun",
+    },
+    ar: {
+      Pon: "الإثنين",
+      Wt: "الثلاثاء",
+      Śr: "الأربعاء",
+      Czw: "الخميس",
+      Pt: "الجمعة",
+      Sob: "السبت",
+      Nd: "الأحد",
+    },
+    hu: {
+      Pon: "H",
+      Wt: "K",
+      Śr: "Sze",
+      Czw: "Cs",
+      Pt: "P",
+      Sob: "Szo",
+      Nd: "V",
+    },
+  };
+
+  // Określ język na podstawie shortDays
+  const currentLocale = shortDays.includes("Mon")
+    ? "en"
+    : shortDays.includes("الإثنين")
+    ? "ar"
+    : shortDays.includes("H")
+    ? "hu"
+    : "pl";
+
+  // Normalizuj availableDays do bieżącego języka
+  const normalizedAvailableDays = availableDays.map((day) => {
+    const polishDays = Object.keys(dayTranslations.pl);
+    if (polishDays.includes(day)) {
+      return dayTranslations[currentLocale][day] || day;
+    }
+    // Jeśli dzień nie jest w polskim formacie, spróbuj odwrotnego mapowania
+    const reverseMap = Object.entries(dayTranslations[currentLocale]).find(
+      ([, value]) => value === day
+    );
+    return reverseMap ? reverseMap[1] : day;
+  });
 
   // Mapowanie skróconych dni na pełne
-  const mappedAvailableDays = availableDays.map((short) => {
+  const mappedAvailableDays = normalizedAvailableDays.map((short) => {
     const index = shortDays.indexOf(short);
     return index !== -1 ? fullDays[index] : short;
   });
@@ -21,17 +82,23 @@ export default function TripTime({
   const getDescription = () => {
     if (isKasprowy) {
       return t("kasprowyDaily");
-    } else if (availableDays.length === 7) {
+    } else if (normalizedAvailableDays.length === 7) {
       return t("daily");
-    } else if (availableDays.length > 0) {
+    } else if (normalizedAvailableDays.length > 0) {
       return t("specificDays", { days: mappedAvailableDays.join(", ") });
     } else {
       return t("noDays");
     }
   };
 
+  // Ustaw kierunek tekstu dla arabskiego (RTL)
+  const isRTL = currentLocale === "ar";
+
   return (
-    <section className="py-12 px-2 sm:px-6 lg:px-8 text-center bg-gray-50 rounded-lg mt-16">
+    <section
+      className="py-12 px-2 sm:px-6 lg:px-8 text-center bg-gray-50 rounded-lg mt-16"
+      dir={isRTL ? "rtl" : "ltr"}
+    >
       <h2 className="text-3xl font-bold text-customBlue mb-6 sm:mb-8">
         {t("title")}
       </h2>
@@ -41,11 +108,11 @@ export default function TripTime({
           <div
             key={day}
             className={`w-12 h-12 flex items-center justify-center rounded-full text-sm sm:text-lg font-semibold transition-colors duration-200 ${
-              availableDays.includes(day)
+              normalizedAvailableDays.includes(day)
                 ? "bg-customBlue text-white"
                 : "bg-gray-200 text-gray-500"
             }`}
-            title={fullDays[i]} // podpowiedź po najechaniu
+            title={fullDays[i]}
           >
             {day}
           </div>
@@ -57,7 +124,7 @@ export default function TripTime({
       </p>
 
       {showCallInfo && (
-        <p className=" text-gray-500 italic mt-10">{t("call")}</p>
+        <p className="text-gray-500 italic mt-10">{t("call")}</p>
       )}
     </section>
   );
