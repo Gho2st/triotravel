@@ -6,6 +6,7 @@ import Gallery from "@/app/UI/Slider";
 import TripProgram from "@/app/UI/TripProgram";
 import Majer from "@/app/UI/Majer";
 import Slovakia from "@/app/UI/Slovakia";
+import TripTime from "@/app/UI/TripTime";
 
 import { useTranslations } from "next-intl";
 import TatryButtons from "./TatryButtons";
@@ -52,9 +53,9 @@ export default function Tatry() {
   // Przykładowe dane dla tabeli
   const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
-    [t("table.1"), "105 PLN*"],
-    [t("table.2"), "99 PLN*"],
-    [t("table.3"), "95 PLN*"],
+    [t("table.1"), "130 PLN*"],
+    [t("table.2"), "120 PLN*"],
+    [t("table.3"), "110 PLN*"],
     ["", t("table.additional")],
     [t("table.4"), t("table.a1")],
     [t("table.5"), "10 E**"],
@@ -89,6 +90,9 @@ export default function Tatry() {
         </div>
         <div className="mt-16">
           <TripProgram title={t("tripprogram.header")} items={tripItems} />
+          <TripTime
+            availableDays={["Śr", "Sob"]} // Przykład: wybrane dni
+          />
         </div>
         <TatryButtons />
       </section>

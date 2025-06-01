@@ -5,6 +5,7 @@ import Table from "@/app/UI/Table";
 import Gallery from "@/app/UI/Slider";
 import TripProgram from "@/app/UI/TripProgram";
 import { useTranslations } from "next-intl";
+import TripTime from "@/app/UI/TripTime";
 
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
@@ -84,6 +85,9 @@ export default function Wieliczka() {
           <TripProgram
             title={<>{t("tripprogram.header")}</>}
             items={tripItems}
+          />
+          <TripTime
+            availableDays={["Pon", "Pt"]} // Przykład: wybrane dni
           />
         </div>
       </section>

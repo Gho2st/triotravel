@@ -7,6 +7,7 @@ import { routing } from "@/i18n/routing";
 import KasprowyComponent from "./Kasprowy";
 import CtaLink from "@/app/UI/CtaLink";
 import BackgroundList from "@/app/UI/BackgroundList";
+import TripTime from "@/app/UI/TripTime";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -55,6 +56,7 @@ export default function Kasprowy() {
         <BackgroundList title={t("list.header")} items={customItems} />
       </div>
       {/* tabelka i przyciski  */}
+      <TripTime isKasprowy={true} />
       <KasprowyComponent />
       <div>
         <Gallery

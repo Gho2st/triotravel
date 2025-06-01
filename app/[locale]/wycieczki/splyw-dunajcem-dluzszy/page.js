@@ -11,6 +11,7 @@ import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import CtaLink from "@/app/UI/CtaLink";
+import TripTime from "@/app/UI/TripTime";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -64,6 +65,7 @@ export default function SplywDluzszy() {
     [t("table.1"), "180 PLN*"],
     [t("table.2"), "160 PLN*"],
     [t("table.3"), "80 PLN*"],
+    [t("table.4"), "70 PLN*"],
   ];
   return (
     <>
@@ -100,6 +102,7 @@ export default function SplywDluzszy() {
             text={t("table.text")}
           />
           <TripProgram title={t("tripprogram.header")} items={tripItems} />
+          <TripTime />
         </div>
       </section>
       <div className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">

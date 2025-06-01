@@ -7,6 +7,7 @@ import Gallery from "@/app/UI/Slider";
 import TripProgram from "@/app/UI/TripProgram";
 import FunFact from "@/app/UI/FunFact";
 import { useTranslations } from "next-intl";
+import TripTime from "@/app/UI/TripTime";
 
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
@@ -102,6 +103,9 @@ export default function SplywKrotszy() {
           <TripProgram
             title={<>{t("tripprogram.header")}</>}
             items={tripItems}
+          />
+          <TripTime
+            availableDays={["Wt", "Czw", "Sob"]} // Przykład: wybrane dni
           />
         </div>
       </section>

@@ -42,7 +42,8 @@
             "header7": "Spacer w Koronach Drzew?",
             "header8": "Tajemnice Wieliczki?",
             "header9": "Jaskinia Bielańska?",
-            "header10": "Słowacki Raj?"
+            "header10": "Słowacki Raj?",
+            "header11": "Transport nad Morskie Oko?"
         },
         "button": "Zobacz",
         "button2": "Więcej"
@@ -76,7 +77,8 @@
             "14": "Dookoła Tatr",
             "15": "Rafting po Dunajcu",
             "16": "Biesiada Góralska",
-            "17": "Tatry i Zakopane"
+            "17": "Tatry i Zakopane",
+            "18": "Szlak Papieski"
         },
         "tripslist": {
             "szlak-papieski": {
@@ -88,37 +90,32 @@
                 "header": "Szlak Papieski – Objazdówka po Zakopanem i okolicy",
                 "header2": "Śladami św. Jana Pawła II i zakopiańskiej historii",
                 "header3": "Opis Atrakcji:",
-                "text": "Zapraszamy na wyjątkową, spokojną wycieczkę objazdową śladami św. Jana Pawła II oraz najpiękniejszych i najbardziej historycznych miejsc Zakopanego i okolicy. To doskonała propozycja dla osób, które chcą poznać duchowy i kulturowy wymiar Podhala, bez konieczności długich wędrówek pieszych. Transport: klimatyzowany bus z kierowcą-przewodnikiem. Odbiór: z przystanku najbliżej miejsca zakwaterowania. Charakter wycieczki: widokowa, objazdowa, bez długich spacerów",
+                "text": "Zapraszamy na wyjątkową, spokojną wycieczkę objazdową, która łączy duchowość, historię i podhalańską kulturę. „Szlak Papieski” to propozycja idealna dla osób, które chcą poznać Zakopane i jego okolice bez forsownych wędrówek. Przez 4– 5 godzin podróżujemy komfortowym busem z przewodnikiem, odwiedzając najważniejsze i najbardziej poruszające miejsca związane ze św. Janem Pawłem II oraz historią regionu.",
                 "list": {
-                    "1": "Toporowa Cyrhla – start naszej wyprawy przy Kamieniu Papieskim, miejscu, gdzie rozpoczyna się słynny Szlak Papieski. Krótka przerwa na zdjęcia i podziwianie panoramy Tatr: Giewontu i Kasprowego Wierchu.",
-                    "2": "Kaplica na Jaszczurówce – perła architektury zakopiańskiej autorstwa Stanisława Witkiewicza. Wchodzimy do środka, aby zobaczyć wyjątkowe wnętrze i poczuć ducha góralskiej wiary.",
-                    "3": "Dolina Olczyska i Nosal – przejazd u podnóży Nosala oraz przez wlot do Doliny Olczyskiej – miejsca szczególnie bliskie sercu Karola Wojtyły.",
+                    "1": "Naszą wyprawę rozpoczynamy od Toporowej Cyrhli, gdzie znajduje się Kamień Papieski – symboliczny początek Szlaku Papieskiego. Już tutaj, przy pięknej panoramie Tatr z Giewontem i Kasprowym Wierchem w tle, można poczuć wyjątkowy klimat tej wycieczki.",
+                    "2": "Następnie udajemy się do Kaplicy na Jaszczurówce – perły zakopiańskiej architektury, projektu Stanisława Witkiewicza. Wchodzimy do środka, by w ciszy i skupieniu poczuć ducha góralskiej wiary.",
+                    "3": "Przejeżdżamy przez miejsca szczególnie bliskie sercu Karola Wojtyły: Dolinę Olczyską i podnóże Nosala. Podziwiamy także Wielką Krokiew oraz kompleks skoczni – symbole sportowego ducha Zakopanego.",
                     "4": "Wielka Krokiew i kompleks skoczni narciarskich – podziwiamy z zewnątrz słynną skocznię oraz jej mniejsze siostry.",
-                    "5": "Ulice zakopiańskich twórców – przejazd ulicami nazwanymi na cześć m.in. Piłsudskiego, Makuszyńskiego i Tetmajera.",
-                    "6": "Ul. Kościeliska i Pęksowy Brzyzek – najstarsza ulica Zakopanego, gdzie znajduje się pierwszy zakopiański cmentarz, zabytkowa kaplica Gąsieniców z 1800 r., stary drewniany kościółek i najstarsza karczma w Zakopanem „U Jana Wnuka”.",
-                    "7": "Styl zakopiański i Willa Koliba – przejazd obok willi i zabytkowych góralskich chałup mających nawet ponad 200 lat..",
-                    "8": "Sanktuarium Matki Bożej Fatimskiej na Krzeptówkach – dłuższy postój na zwiedzanie. Zobaczymy największy drewniany ołtarz w Polsce, relikwie św. Jana Pawła II oraz ołtarz papieski z 1997 roku, przeniesiony spod Wielkiej Krokwi.",
-                    "9": "Gronik i stara bacówka w Witowie – przejazd przez wojskową bazę w Groniku i postój w jednej z najstarszych bacówek regionu. Możliwość zakupu oryginalnych oscypków i degustacja bundzu.",
-                    "10": "Chochołów – żywy skansen – wizyta w unikalnej wiosce złożonej z 33 autentycznych, drewnianych góralskich domów oraz postój w pracowni słynnego rzeźbiarza Jana Ziędera.",
-                    "11": "Powrót przez szczyt Gubałówki – malownicza trasa z panoramą na całe Zakopane i Tatry. Idealne zakończenie dnia pełnego wrażeń."
+                    "5": "Kolejne punkty to przejazd ulicami nazwanymi na cześć wybitnych postaci zakopiańskiej kultury aż docieramy do Kościeliskiej i cmentarza na Pęksowym Brzyzku. To najstarsza część miasta z drewnianym kościółkiem Gąsieniców i karczmą „U Jana Wnuka”.",
+                    "6": "W drugiej części wyprawy zaglądamy pod Willę Koliba – jeden z najważniejszych przykładów stylu zakopiańskiego. Dalej odwiedzamy Sanktuarium Matki Bożej Fatimskiej na Krzeptówkach. To tu znajduje się największy drewniany ołtarz w Polsce oraz ołtarz papieski z Mszy Świętej odprawionej przez Jana Pawła II pod Wielką Krokwią w 1997 roku.",
+                    "7": "W drodze powrotnej zaglądamy do starej bacówki w Witowie, gdzie można nie tylko zakupić oryginalne oscypki, ale i spróbować świeżego bundzu. Następnie zatrzymujemy się w Chochołowie – unikalnej wiosce złożonej z ponad 30 oryginalnych drewnianych domów, która nazywana jest „żywym skansenem”.",
+                    "8": "Odwiedzimy tu również pracownię znanego rzeźbiarza Jana Ziędera, który chętnie dzieli się swoją pasją i twórczością z gośćmi. Wycieczkę kończymy przejazdem przez szczyt Gubałówki – z tej perspektywy widać całe Zakopane i majestatyczne Tatry. To idealne zakończenie dnia pełnego refleksji, pięknych widoków i wyjątkowych spotkań z historią i duchem Podhala. Szlak Papieski to nie tylko podróż autobusem – to podróż w głąb kultury, wspomnień i tradycji."
+                },
+                "table": {
+                    "header1": "Rodzaj Biletu",
+                    "header2": "Całkowity Koszt Wycieczki",
+                    "1": "Normalny",
+                    "2": "Ulgowy (dzieci do 10 lat)",
+                    "text": "Oferta obejmuje: • Transport, ubezpieczenie NNW, opiekę pilota Dodatkowo płatne: • ewentualny zakup Oscypków i pamiątek z pracowni Jana Ziętary"
                 },
                 "tripprogram": {
                     "header": "Czas trwania: ok.",
-                    "1": "Toporowa Cyrhla",
-                    "2": "Kamień Papieski JP2 – start Szlaku Papieskiego",
-                    "3": "Punkt widokowy: panorama Tatr, Giewont, Kasprowy Wierch",
-                    "4": "Kaplica na Jaszczurówce – zwiedzanie",
-                    "5": "Dolina Olczyska, kompleks narciarski Nosal",
-                    "6": "Skocznie narciarskie: Wielka Krokiew, Mała, Średnia",
-                    "7": "Jednostka TOPR/GOPR",
-                    "8": "Ulice Zakopanego: Piłsudski, Makuszyński, Przerwa-Tetmajer",
-                    "9": "Ulica Kościeliska: Cmentarz na Pęksowym Brzyzku, Kaplica Gąsieniców (1800), stary kościółek, karczma u Jana Wnuka",
-                    "10": "Willa Koliba, 200-letnie chałupy w stylu zakopiańskim",
-                    "11": "Sanktuarium na Krzeptówkach: drewniany ołtarz, relikwie JP2, ołtarz papieski (1997)",
-                    "12": "Gronik, bacówka w Witowie: bundz, oscypki",
-                    "13": "Skansen w Chochołowie: 33 chałupy góralskie",
-                    "14": "Pracownia rzeźbiarza Jana Ziędera – zwiedzanie",
-                    "15": "Powrót przez Gubałówkę: widok na Zakopane i Tatry"
+                    "1": "Wyjazd z Zakopanego około godziny 8.00",
+                    "2": "Przejazd Szlakiem Papieskim od Toporowej Cyrhli do Krzeptówek",
+                    "3": "Przerwa na zwiedzanie Sanktuarium",
+                    "4": "Przejazd do bacówki w Witowie na degustację Bundzu",
+                    "5": "Postój w pracowni Jana Ziędera",
+                    "6": "Powrót do Zakopanego z widokiem na Panoramę Tatr i Zakopanego."
                 },
                 "cta": {
                     "header": "Szlak Papieski – Objazdówka po Zakopanem i okolicy",
@@ -128,6 +125,12 @@
                 }
             },
             "tatry-i-zakopane": {
+                "cta": {
+                    "header": "Tatry i Zakopane – Wycieczka w Górach",
+                    "text1": "Zapraszamy na niezapomnianą przygodę w sercu Tatr! Nasze górskie wycieczki to idealna okazja, by odkryć majestatyczne szczyty, malownicze doliny i krystaliczne jeziora.",
+                    "text2": "Niezależnie czy wybierzesz spacer nad Morskie Oko, wejście na Kasprowy Wierch, czy relaks w Dolinie Chochołowskiej – każdy znajdzie coś dla siebie. Dołącz do nas i poznaj magię tatrzańskiej przyrody z przewodnikiem!",
+                    "cta": "Chcesz wiedzieć więcej?"
+                },
                 "alt": {
                     "1": "Fioletowe Krokusy na polanie",
                     "2": "Zwierzyna na skale",
@@ -250,6 +253,7 @@
                     "1": "Bilet normalny",
                     "2": "Bilet ulgowy (do 10 lat)",
                     "3": "Bilet ulgowy (do 3 lat)",
+                    "4": "Bilet ulgowy (do 1 roku życia)",
                     "text": "* Cena obejmuje: opiekę kierowcy podczas wycieczki oraz ubezpieczenie NNW"
                 },
                 "tripprogram": {
@@ -783,7 +787,7 @@
                     "7": "* fotogrowanie/kamera",
                     "8": "Wskazówki podróżnicze",
                     "text": "* Cena obejmuje: Przejazd komfortowym autokarem, opiekę wykwalifikowanego pilota, ubezpieczenie NNW, KL. **Ceny biletów wstępów mogą ulec zmianie",
-                    "a1": "dorośli 12€ , studenci/emeryci/renciści 11€ , dzieci w wieku 6-15 lat 6€**",
+                    "a1": "dorośli 14€ , studenci/emeryci/renciści 13€ , dzieci w wieku 6-15 lat 7€**, GRATIS - dzieci do lat 6.",
                     "a2": "dorośli 9€, studenci/emeryci/renciści/dzieci 4,5€, dzieci do lat 6 GRATIS**",
                     "a3": "3€ fotografowanie/5€ kamera**",
                     "additional": "Dodatkowo płatne"
@@ -1124,12 +1128,34 @@
         "header3": "Twój Sposób",
         "text2": "Dokładamy wszelkich starań aby każde zlecenie było wykonane należycie i spełniało oczekiwania naszych Klientów. Priorytetem pracy zespołu jest zadowolenie Klienta oraz wysoka jakość świadczonych usług. Nasi kierowcy to doświadczeni pracownicy, zapewniający pełen profesjonalizm oraz odpowiednie umiejętności. Dzięki wieloletniemu doświadczeniu w transporcie, organizowany przez nas przewóz osób to komfortowa i bezpieczna podróż. Obowiązkowo zapewniamy terminowość oraz atrakcyjne ceny. Każdy zlecający ma inne oczekiwania i potrzeby, dlatego zawsze dopasowujemy nasze usługi do indywidualnych wymagań. Nasze pojazdy posiadają wszelkie niezbędne zezwolenia oraz pełne wyposażenie umożliwiające bezproblemowe wyjazdy zagraniczne, co gwarantuje bezpieczeństwo i wygodę podróżnych podczas każdej trasy.",
         "button": "Mapa Przystanków",
+        "button2": "Morskie Oko",
         "alt": {
             "1": "Bus ze śladem przejechanej trasy",
             "2": "Granatowy bus na tle gór pokrytych śniegiem",
             "3": "Autobus na parkingu",
             "4": "Srebrny Autobus firmy Majer",
             "5": "Bus na parkingu, a w tle termy"
+        }
+    },
+    "transport-nad-morskie-oko": {
+        "header": "Transport Nad Morskie Oko z Miejsca Zakwaterowania",
+        "text": "Codzienny transport pod sam szlak nad Morskie Oko – bez stresu, bez kolejek i bez potrzeby szukania parkingu! Odbiór bezpośrednio z miejsca zakwaterowania – Zakopane i okolice Godzina wyjazdu: między 7:00 a 8:00 rano (dokładna godzina ustalana dzień wcześniej, zależnie od lokalizacji). Dojazd do Palenicy Białczańskiej – to najbliższy punkt, do którego można legalnie dojechać samochodem przed rozpoczęciem pieszej wędrówki. Transport organizowany codziennie, również w sezonie wysokim, Idealna opcja dla rodzin, grup, par i osób bez auta, Możliwość przewozu dzieci i bagaży, Przyjazna atmosfera i punktualność gwarantowana!",
+        "header2": "Co dalej?",
+        "text2": "9 km pieszo (ok. 2,5–3 godziny) po asfaltowej drodze, lub przejazd wozem konnym (ok. 7 km jazdy + 2 km spacerem) – cena ok. 100 zł w górę, 70 zł w dół (ceny mogą się różnić w zależności od sezonu i pory dnia).",
+        "button": "Mapa Przystanków",
+        "alt": {
+            "1": "Morskie Oko – widok znad Czarnego Stawu",
+            "2": "Widok znad Morskiego Oka",
+            "3": "Morskie Oko od strony schroniska",
+            "4": "Morskie Oko ze szlaku przez Świstówkę Roztocką do Doliny Pięciu Stawów Polskich"
+        },
+        "table": {
+            "header1": "Rodzaje Biletów",
+            "header2": "Całkowity koszt",
+            "1": "przy pełnej frekwencji (min. 8 osób)",
+            "2": "gdy grupa jest mniejsza niż 8 osób",
+            "header3": "*Cena obejmuje:",
+            "text": "Nie musisz martwić się o różnicę – poinformujemy Cię wcześniej o dokładnej cenie, w zależności od liczby zapisanych osób."
         }
     },
     "pickup": {
@@ -1297,6 +1323,36 @@
         "szlak-papieski": {
             "title": "Szlak Papieski w Zakopanem – Wycieczka Śladami Jana Pawła II | Trio Travel",
             "description": "Odkryj duchowe i historyczne miejsca Zakopanego śladami św. Jana Pawła II. Objazdowa wycieczka bez pieszych wędrówek – Morskie Oko, Krzeptówki, Chochołów. Komfortowy transport, lokalny przewodnik. Rezerwuj online z Trio Travel!"
+        },
+        "transport-nad-morskie-oko": {
+            "title": "Transport nad Morskie Oko z Zakopanego – Trio Travel",
+            "description": "Codzienny transport nad Morskie Oko z Zakopanego i okolic. Odbiór spod miejsca zakwaterowania, bez kolejek i stresu. Zarezerwuj miejsce już dziś online!"
         }
+    },
+    "triptime": {
+        "title": "Dni Wycieczki",
+        "days": [
+            "Pon",
+            "Wt",
+            "Śr",
+            "Czw",
+            "Pt",
+            "Sob",
+            "Nd"
+        ],
+        "fullDays": [
+            "Poniedziałek",
+            "Wtorek",
+            "Środa",
+            "Czwartek",
+            "Piątek",
+            "Sobota",
+            "Niedziela"
+        ],
+        "daily": "Wycieczka odbywa się codziennie.",
+        "specificDays": "Wycieczka odbywa się w: {days}.",
+        "noDays": "Brak dostępnych dni na wycieczkę.",
+        "call": "Rezerwacja wyłącznie telefonicznie! Z uwagi na duże zainteresowanie i konieczność potwierdzenia miejsc – nie ma możliwości rezerwacji online.",
+        "kasprowyDaily": "Bilety bez stania w kolejce — codziennie."
     }
 }

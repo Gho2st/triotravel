@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
-export default function SzlakPapieski() {
-  const t = useTranslations("offer.tripslist.szlak-papieski.cta");
+export default function TatryZakopane() {
+  const t = useTranslations("offer.tripslist.tatry-i-zakopane.cta");
   return (
     <div className="md:flex justify-between gap-24 xl:text-lg">
       <div>
@@ -12,7 +12,7 @@ export default function SzlakPapieski() {
         <p className="mb-8 xl:mb-16">{t("text2")}</p>
         <Link
           className="font-bold underline text-customBlue"
-          href={"/wycieczki/szlak-papieski"}
+          href={"/wycieczki/tatry-i-zakopane"}
         >
           {t("cta")}
         </Link>

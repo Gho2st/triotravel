@@ -13,6 +13,7 @@ import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import CtaLink from "@/app/UI/CtaLink";
 import Slovakia from "@/app/UI/Slovakia";
+import TripTime from "@/app/UI/TripTime";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -94,6 +95,7 @@ export default function Spacer() {
         <div className="mt-16">
           <BackgroundList title={t("header3")} items={customItems} />
           <TripProgram title={t("tripprogram.header")} items={tripItems} />
+          <TripTime />
           <p className="text-center mt-16 text-lg">{t("tripprogram.text")}</p>
           <ButtonComponent />
         </div>

@@ -6,6 +6,7 @@ import Gallery from "@/app/UI/Slider";
 import TripProgram from "@/app/UI/TripProgram";
 import BackgroundList from "@/app/UI/BackgroundList";
 import { useTranslations } from "next-intl";
+import TripTime from "@/app/UI/TripTime";
 
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
@@ -49,12 +50,12 @@ export default function Rafting() {
   // Przykładowe dane dla tabeli
   const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
-    [t("table.1"), "160 PLN*"],
-    [t("table.2"), "140 PLN*"],
+    [t("table.1"), "180 PLN*"],
+    [t("table.2"), "160 PLN*"],
     ["", t("table.additional")],
-    [t("table.3"), "25PLN/23PLN"],
-    [t("table.4"), "25PLN/23PLN"],
-    [t("table.5"), "12LN/10PLN"],
+    [t("table.3"), "35PLN/30PLN"],
+    [t("table.4"), "35PLN/25PLN"],
+    [t("table.5"), "32LN/22PLN"],
   ];
   return (
     <>
@@ -95,6 +96,9 @@ export default function Rafting() {
           <TripProgram
             title={t("tripprogram.header") + " ok. 9-10h"}
             items={tripItems}
+          />
+          <TripTime
+            showCallInfo={true}
           />
         </div>
       </section>

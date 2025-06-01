@@ -81,53 +81,54 @@
         "tripslist": {
             "szlak-papieski": {
                 "alt": {
-                    "1": "تمثال البابا يوحنا بولس الثاني في زومبي، بولندا، مع اقتباس منقوش عند القاعدة.",
-                    "2": "مجموعة من الأشخاص تجمعوا في غرفة مليئة بالتماثيل، تعرض قطعًا فنية متنوعة. المكان داخلي، يبرز السقف أعلاه والملابس المتنوعة التي يرتديها الحاضرون.",
-                    "3": "رجل يحمل تمثال رجل داخل متحف، محاطًا بأشخاص آخرين وعروض فنية. السقف مرئي أعلاه، مما يضيف إلى أجواء المكان."
+                    "1": "تمثال يوحنا بولس الثاني في زب، بولندا، مع نقش محفور في القاعدة.",
+                    "2": "مجموعة من الناس مجتمعين في غرفة مليئة بالتماثيل، تعرض أعمالًا فنية متنوعة. المشهد داخلي ويبرز السقف أعلاه وتنوع الملابس التي يرتديها الحاضرون.",
+                    "3": "رجل يحمل تمثالًا لرجل في متحف، محاط بأشخاص آخرين وعروض فنية. السقف مرئي أعلاه، مما يضفي جوًا على المكان."
                 },
-                "header": "Papal Trail – A Tour Around Zakopane and Its Surroundings",
-                "header2": "In the Footsteps of St. John Paul II and Zakopane’s History",
-                "header3": "Description of Attractions:",
-                "text": "We invite you to a unique, leisurely sightseeing tour following the footsteps of St. John Paul II and the most beautiful and historic places in Zakopane and its surroundings. This is an excellent option for those who want to explore the spiritual and cultural essence of Podhale without the need for long hikes. Transport: air-conditioned bus with a driver-guide. Pickup: from the stop closest to your accommodation. Tour type: scenic, sightseeing, without long walks.",
+                "header": "درب البابا – جولة سياحية في زاكوباني والمناطق المجاورة",
+                "header2": "في خطى القديس يوحنا بولس الثاني وتاريخ زاكوباني",
+                "header3": "وصف المعلم:",
+                "text": "ندعوكم إلى جولة فريدة وهادئة تجمع بين الروحانية والتاريخ وثقافة المرتفعات. يعتبر “درب البابا” خيارًا مثاليًا لمن يرغبون في اكتشاف زاكوباني ومحيطها دون الحاجة إلى التنزه الشاق. على مدار 4 إلى 5 ساعات، نسافر بحافلة مريحة مع دليل، لزيارة أهم وأثرى المواقع المرتبطة بالقديس يوحنا بولس الثاني وتاريخ المنطقة.",
                 "list": {
-                    "1": "Toporowa Cyrhla – the starting point of our journey at the Papal Stone, where the famous Papal Trail begins. A short break for photos and admiring the Tatra panorama: Giewont and Kasprowy Wierch.",
-                    "2": "Jaszczurówka Chapel – a gem of Zakopane architecture designed by Stanisław Witkiewicz. We enter to see the unique interior and feel the spirit of highlander faith.",
-                    "3": "Olcza Valley and Nosal – a drive at the foot of Nosal and through the entrance to Olcza Valley, places particularly close to Karol Wojtyła’s heart.",
-                    "4": "Wielka Krokiew and the ski jumping complex – we admire the famous ski jump and its smaller counterparts from the outside.",
-                    "5": "Streets of Zakopane’s creators – a drive through streets named after figures like Piłsudski, Makuszyński, and Tetmajer.",
-                    "6": "Kościeliska Street and Pęksowy Brzyzek – Zakopane’s oldest street, home to the first Zakopane cemetery, the historic Gąsienica Chapel from 1800, an old wooden church, and the oldest inn in Zakopane, 'U Jana Wnuka'.",
-                    "7": "Zakopane style and Willa Koliba – a drive past the villa and historic highlander cottages, some over 200 years old.",
-                    "8": "Sanctuary of Our Lady of Fatima in Krzeptówki – a longer stop for sightseeing. We will see Poland’s largest wooden altar, relics of St. John Paul II, and the papal altar from 1997, relocated from Wielka Krokiew.",
-                    "9": "Gronik and an old shepherd’s hut in Witów – a drive through the military base in Gronik and a stop at one of the region’s oldest shepherd huts. Opportunity to purchase authentic oscypek cheese and taste bundz.",
-                    "10": "Chochołów – a living open-air museum – a visit to a unique village made up of 33 authentic wooden highlander houses and a stop at the workshop of renowned sculptor Jan Zięder.",
-                    "11": "Return via Gubałówka peak – a scenic route with a panorama of Zakopane and the Tatras. The perfect end to a day full of experiences."
+                    "1": "نبدأ رحلتنا من توبوروفا تسرهليا، حيث يقع حجر البابا – البداية الرمزية لطريق البابا. مع إطلالة خلابة على جبال تاترا، وجيفونت، وكاسبروي فييرخ، يمكنك أن تشعر بأجواء هذه الرحلة الخاصة.",
+                    "2": "ثم نتوجه إلى كنيسة ياششوروفكا – جوهرة من عمارة زاكوباني صممها ستانيسواف فيتكيفيتش. ندخل لنتأمل في روح الإيمان الجبلي.",
+                    "3": "نمر بأماكن كانت عزيزة على قلب كارول فويتيلا: وادي أولتشيسكا وسفح جبل نوسال. نُعجب أيضًا بمنحدر القفز الشهير فيلكا كروكيو والمجمع الرياضي، رموز الروح الرياضية لزاكوباني.",
+                    "4": "نُشاهد من الخارج مجمع القفز ومنحدر فيلكا كروكيو الشهير وأشقائه الأصغر.",
+                    "5": "نمر بشوارع سُميت تكريمًا لشخصيات ثقافية بارزة، ثم نصل إلى شارع كوشتشيليسا ومقبرة بيكسوفي بريزك. إنها أقدم منطقة في المدينة وتضم كنيسة خشبية تقليدية ونُزل “U Jana Wnuka”.",
+                    "6": "في النصف الثاني من الجولة، نزور فيلا كوليبا – من أبرز الأمثلة على الطراز الزاكوباني. ثم ننتقل إلى مزار السيدة العذراء فاطمة في كشبتوفكي، حيث يوجد أكبر مذبح خشبي في بولندا ومذبح البابا من القداس الإلهي الذي ترأسه يوحنا بولس الثاني عام 1997.",
+                    "7": "في طريق العودة، نزور كوخ راعٍ تقليدي في فيتوف حيث يمكن شراء جبنة الأوسسيبك وتذوق جبنة البوندز الطازجة. ثم نتوقف في خوخوواف – قرية فريدة تضم أكثر من 30 منزلًا خشبيًا أصليًا، تُعرف بـ“المتحف الحي”.",
+                    "8": "نقوم بزيارة ورشة النحات الشهير يان زينديرا، الذي يشارك زواره شغفه وأعماله الفنية. تنتهي الرحلة بمرورنا عبر قمة جبل غوباووفكا – حيث يمكنك رؤية مدينة زاكوباني كاملة وجبال تاترا المهيبة. إنها نهاية مثالية ليوم مليء بالتأمل والمناظر الخلابة واللقاءات الاستثنائية مع التاريخ وروح بودهالي. درب البابا ليس مجرد جولة بالحافلة – بل هو رحلة إلى عمق الثقافة والذاكرة والتقاليد."
+                },
+                "table": {
+                    "header1": "نوع التذكرة",
+                    "header2": "السعر الكامل للجولة",
+                    "1": "عادية",
+                    "2": "مخفضة (للأطفال دون 10 سنوات)",
+                    "text": "العرض يشمل: • النقل، تأمين الحوادث، مرشد سياحي. بتكلفة إضافية: • شراء جبنة الأوسسيبك وتذكارات من ورشة يان زينديرا (اختياري)"
                 },
                 "tripprogram": {
-                    "header": "Duration: approx.",
-                    "1": "Toporowa Cyrhla",
-                    "2": "JP2 Papal Stone – start of the Papal Trail",
-                    "3": "Viewpoint: Tatra panorama, Giewont, Kasprowy Wierch",
-                    "4": "Jaszczurówka Chapel – sightseeing",
-                    "5": "Olcza Valley, Nosal ski complex",
-                    "6": "Ski jumps: Wielka Krokiew, Small, Medium",
-                    "7": "TOPR/GOPR unit",
-                    "8": "Zakopane streets: Piłsudski, Makuszyński, Przerwa-Tetmajer",
-                    "9": "Kościeliska Street: Pęksowy Brzyzek Cemetery, Gąsienica Chapel (1800), old church, U Jana Wnuka inn",
-                    "10": "Willa Koliba, 200-year-old Zakopane-style cottages",
-                    "11": "Krzeptówki Sanctuary: wooden altar, JP2 relics, papal altar (1997)",
-                    "12": "Gronik, Witów shepherd’s hut: bundz, oscypek",
-                    "13": "Chochołów open-air museum: 33 highlander cottages",
-                    "14": "Jan Zięder’s sculptor workshop – sightseeing",
-                    "15": "Return via Gubałówka: view of Zakopane and the Tatras"
+                    "header": "المدة التقريبية:",
+                    "1": "مغادرة من زاكوباني حوالي الساعة 8:00 صباحًا",
+                    "2": "الرحلة على درب البابا من توبوروفا تسرهليا إلى كشبتوفكي",
+                    "3": "استراحة لزيارة المزار",
+                    "4": "زيارة كوخ الراعي في فيتوف لتذوق جبنة البوندز",
+                    "5": "توقف في ورشة يان زينديرا",
+                    "6": "العودة إلى زاكوباني مع إطلالة بانورامية على جبال تاترا والمدينة"
                 },
                 "cta": {
-                    "header": "Papal Trail – A Tour Around Zakopane and Its Surroundings",
-                    "text1": "We invite you to a unique, leisurely sightseeing tour following the footsteps of St. John Paul II and the most beautiful and historic places in Zakopane and its surroundings.",
-                    "text2": "This is an excellent option for those who want to explore the spiritual and cultural essence of Podhale without the need for long hikes.",
-                    "cta": "Want to know more?"
+                    "header": "درب البابا – جولة سياحية في زاكوباني والمناطق المجاورة",
+                    "text1": "ندعوكم إلى جولة سياحية فريدة وهادئة تتبع خطوات القديس يوحنا بولس الثاني وأجمل وأعرق المواقع في زاكوباني والمناطق المجاورة.",
+                    "text2": "خيار مثالي لمن يرغبون في التعرف على البُعد الروحي والثقافي لبودهالي دون الحاجة إلى مسيرات طويلة.",
+                    "cta": "هل تريد معرفة المزيد؟"
                 }
             },
             "tatry-i-zakopane": {
+                "cta": {
+                    "header": "جبال تاترا وزاكوباني – مغامرة جبلية",
+                    "text1": "انضم إلينا في مغامرة لا تُنسى في قلب جبال تاترا! جولاتنا الجبلية هي الطريقة المثلى لاكتشاف القمم الشامخة، والوديان الخلابة، والبحيرات النقية.",
+                    "text2": "سواء اخترت نزهة إلى مورسكيه أوكو، أو تسلق قمة كاسبرُوفي فيرخ، أو الاسترخاء في وادي خوخوفسكا – هناك ما يناسب الجميع. استكشف سحر طبيعة تاترا مع دليل محلي!",
+                    "cta": "هل ترغب في معرفة المزيد؟"
+                },
                 "alt": {
                     "1": "زهرة الزعفران الأرجوانية في المرج",
                     "2": "الحياة البرية على الصخرة",
@@ -348,6 +349,7 @@
                     "1": "تذكرة عادية",
                     "2": "تذكرة مخفضة (حتى 10 سنوات)",
                     "3": "تذكرة مخفضة (حتى 3 سنوات)",
+                    "4": "تذكرة مخفضة (حتى عمر سنة واحدة)",
                     "text": "* السعر يشمل: مساعدة السائق خلال الرحلة والتأمين NNW"
                 },
                 "tripprogram": {
@@ -775,7 +777,7 @@
                     "7": "* التصوير / الكاميرا",
                     "8": "نصائح السفر",
                     "text": "* السعر يشمل: النقل بواسطة حافلة مريحة، رعاية قائد جولة مؤهل، تأمين الحوادث والطبي. ** قد تتغير أسعار التذاكر",
-                    "a1": "البالغين 12 يورو، الطلاب / كبار السن / المتقاعدين 11 يورو، الأطفال من 6 إلى 15 سنة 6 يورو **",
+                    "a1": "البالغون 14 يورو، الطلاب/المتقاعدون/أصحاب المعاشات 13 يورو، الأطفال من 6 إلى 15 سنة 7 يورو**، مجانًا – الأطفال دون سن 6.",
                     "a2": "البالغين 9 يورو، الطلاب / كبار السن / المتقاعدين / الأطفال 4.5 يورو، الأطفال دون 6 سنوات مجانًا **",
                     "a3": "3 يورو للتصوير / 5 يورو للكاميرا **",
                     "additional": "رسوم إضافية"
@@ -1116,12 +1118,34 @@
         "header3": "طريقتك",
         "text2": "نبذل كل الجهود لضمان تنفيذ كل طلب بشكل صحيح وتلبية توقعات عملائنا. أولوية عمل الفريق هي رضا العميل وجودة الخدمات المقدمة. سائقونا هم موظفون ذوو خبرة، يضمنون الاحترافية الكاملة والمهارات المناسبة. بفضل سنوات من الخبرة في النقل، فإن نقل الأشخاص الذي ننظمه هو رحلة مريحة وآمنة. نضمن بالضرورة الالتزام بالمواعيد والأسعار الجذابة. كل عميل لديه توقعات واحتياجات مختلفة، لذلك نحن دائمًا نكيف خدماتنا وفقًا للمتطلبات الفردية. تمتلك مركباتنا جميع التصاريح اللازمة والتجهيز الكامل الذي يتيح الرحلات الدولية دون مشاكل، مما يضمن الأمان والراحة للمسافرين خلال كل رحلة.",
         "button": "خريطة نقاط التوقف",
+        "button2": "مورسكِي أوكو",
         "alt": {
             "1": "حافلة مع أثر المسار المقطوع",
             "2": "حافلة زرقاء داكنة أمام خلفية جبال مغطاة بالثلوج",
             "3": "حافلة في موقف سيارات",
             "4": "حافلة فضية لشركة ماجير",
             "5": "حافلة في موقف سيارات مع منتجع حراري في الخلفية"
+        }
+    },
+    "transport-nad-morskie-oko": {
+        "header": "Transport ila Morskie Oko min makan al-iqama",
+        "text": "Naql yawmi ila awal al-masarat fi Morskie Oko – bila tawatur, bila sufur wa bila al-bahth ‘an mawqif! Al-istilam mubasharatan min makan al-iqama – Zakopane wa al-manatiq al-mujawira. Waqt al-mughadara: bayn al-sa‘a 7:00 wa 8:00 sabahan (yutahaddad al-waqt bialdabt yawm qabl, hasab al-mawqi‘). Al-intiqal ila Palenica Bialczanska – aqsa nuqta yumkin al-wusul ilayha bialsayara qabla bidayat al-mashi. Naql mutawafir kul yawm, hatta fi al-mawsim al-siyahi. Khiyar mumtaz lil-‘a’ilat, al-majama‘at, al-azwaj wa man la yamlik sayara. Yumkin naql al-atfal wa al-amti‘a. Jaww latif wa daqa fi al-mawa‘id madmuna!",
+        "header2": "Mada ba‘d dhalik?",
+        "text2": "9 km mashiyan (taqriban 2.5–3 sa‘at) ‘ala tariq mumnahaj, aw rukub ‘arabah bi khayl (taqriban 7 km rukuban + 2 km mashyan) – al-thaman taqriban 100 PLN sa‘idan, 70 PLN nazilan (qad tataghayyar al-as‘ar hasab al-mawsim wa waqt al-nahar).",
+        "button": "Khariyat al-mawaqif",
+        "alt": {
+            "1": "Morskie Oko – mandhar min Czarny Staw",
+            "2": "Mandhar min fawq Morskie Oko",
+            "3": "Morskie Oko min jihat al-mat‘am",
+            "4": "Morskie Oko min tariq Swistowka Roztocka ila Wadi al-Khamsat al-Buhayrat"
+        },
+        "table": {
+            "header1": "Anwa‘ al-tadhakir",
+            "header2": "Al-kulfa al-ijmaliyya",
+            "1": "ma‘ majmu‘ kamil (hadd adna 8 ashkhas)",
+            "2": "idhakana al-majmu‘ aqall min 8",
+            "header3": "*Al-sae‘r yashmal:",
+            "text": "La tahtaj li al-qalaq hawla al-farq – sana‘limuka bi al-sae‘r al-daqiq muqaddiman hasab ‘adad al-musajjilin."
         }
     },
     "pickup": {
@@ -1289,6 +1313,36 @@
         "szlak-papieski": {
             "title": "درب البابا في زاكوباني – جولة في آثار يوحنا بولس الثاني | Trio Travel",
             "description": "اكتشف المعالم الروحية والتاريخية في زاكوباني على خطى القديس يوحنا بولس الثاني. جولة مريحة بدون مشي طويل. زيارة مورسكه أوكو، كشيبتوفكي، وخوخوو. دليل محلي ونقل مريح مشمولان. احجز الآن عبر الإنترنت مع Trio Travel!"
+        },
+        "transport-nad-morskie-oko": {
+            "title": "النقل إلى مرسية أوكو من زاكوباني – Trio Travel",
+            "description": "نقل يومي إلى مرسية أوكو من زاكوباني والمناطق المجاورة. استلام مباشر من مكان الإقامة، بدون طوابير أو توتر. احجز مقعدك عبر الإنترنت اليوم!"
         }
+    },
+    "triptime": {
+        "title": "أيام الرحلة",
+        "days": [
+            "الإثنين",
+            "الثلاثاء",
+            "الأربعاء",
+            "الخميس",
+            "الجمعة",
+            "السبت",
+            "الأحد"
+        ],
+        "fullDays": [
+            "الإثنين",
+            "الثلاثاء",
+            "الأربعاء",
+            "الخميس",
+            "الجمعة",
+            "السبت",
+            "الأحد"
+        ],
+        "daily": "تُقام الرحلة يوميًا.",
+        "specificDays": "الرحلة متاحة في: {days}.",
+        "noDays": "لا توجد أيام متاحة للرحلة.",
+        "call": "الرحلة متاحة فقط بعد التواصل الهاتفي.",
+        "kasprowyDaily": "تذاكر بدون انتظار متوفرة يوميًا."
     }
 }

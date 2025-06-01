@@ -9,7 +9,6 @@ import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import CtaLink from "@/app/UI/CtaLink";
-import SzlakPapieski from "@/app/UI/SzlakPapieski";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -70,9 +69,6 @@ export default function Zakopane() {
 
         <div className="mt-16">
           <BackgroundList title={t("header3")} items={customItems} />
-        </div>
-        <div className=" py-16 md:py-20 2xl:py-24">
-          <SzlakPapieski />
         </div>
       </section>
       <div>

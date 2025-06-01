@@ -33,11 +33,11 @@ const gallery = [
     alt: "trips.16",
     link: "/wycieczki/biesiada-goralska",
   },
-  // {
-  //   url: "/wycieczki/splyw-dunajcem-krotszy/splyw.webp",
-  //   alt: "trips.5",
-  //   link: "/wycieczki/splyw-dunajcem-krotszy",
-  // },
+  {
+    url: "/wycieczki/splyw-dunajcem-krotszy/splyw.webp",
+    alt: "trips.5",
+    link: "/wycieczki/splyw-dunajcem-krotszy",
+  },
   {
     url: "/wycieczki/tajemnice-wieliczki/wieliczka.webp",
     alt: "trips.6",

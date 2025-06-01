@@ -56,11 +56,11 @@ export default function Atrakcje() {
       image: "/wycieczki/tajemnice-wieliczki/wieliczka.webp",
       link: "/wycieczki/tajemnice-wieliczki",
     },
-    // {
-    //   title: t("trips.5"),
-    //   image: "/wycieczki/splyw-dunajcem-krotszy/splyw.webp",
-    //   link: "/wycieczki/splyw-dunajcem-krotszy",
-    // },
+    {
+      title: t("trips.5"),
+      image: "/wycieczki/splyw-dunajcem-krotszy/splyw.webp",
+      link: "/wycieczki/splyw-dunajcem-krotszy",
+    },
     {
       title: t("trips.16"),
       image: "/wycieczki/biesiada-goralska/baner.webp",
@@ -77,9 +77,9 @@ export default function Atrakcje() {
       link: "/wycieczki/slowacki-raj",
     },
     {
-      title: t("trips.17"),
-      image: "/wycieczki/tatry-i-zakopane/tatry-i-zakopane.webp",
-      link: "/wycieczki/tatry-i-zakopane",
+      title: t("trips.18"),
+      image: "/wycieczki/szlak-papieski/szlak-papieski.webp",
+      link: "/wycieczki/szlak-papieski",
     },
     {
       title: t("trips.9"),

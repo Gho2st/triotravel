@@ -13,6 +13,7 @@ import WiedenButtons from "./WiedenButtons";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import CtaLink from "@/app/UI/CtaLink";
+import TripTime from "@/app/UI/TripTime";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -95,6 +96,9 @@ export default function Wieden() {
           <TripProgram
             title={<>{t("tripprogram.header")}</>}
             items={tripItems}
+          />
+          <TripTime
+            availableDays={["Śr"]} // Przykład: wybrane dni
           />
         </div>
         <WiedenButtons />

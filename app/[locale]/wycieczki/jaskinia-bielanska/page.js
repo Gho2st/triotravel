@@ -12,6 +12,7 @@ import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import CtaLink from "@/app/UI/CtaLink";
 import Slovakia from "@/app/UI/Slovakia";
+import TripTime from "@/app/UI/TripTime";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -85,7 +86,9 @@ export default function Jaskinia() {
         </div>
         <div className="mt-16">
           <TripProgram title={t("tripprogram.header")} items={tripItems} />
-
+          <TripTime
+            availableDays={["Wt", "Śr", "Czw", "Pt", "Sob", "Nd"]} // Przykład: wybrane dni
+          />
           <div className="mt-16">
             <BackgroundList title={t("header3")} items={customItems} />
           </div>

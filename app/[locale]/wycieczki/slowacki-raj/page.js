@@ -10,6 +10,7 @@ import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import CtaLink from "@/app/UI/CtaLink";
 import Slovakia from "@/app/UI/Slovakia";
+import TripTime from "@/app/UI/TripTime";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -51,7 +52,8 @@ export default function SlowackiRaj() {
   const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
     [t("table.1"), "120 PLN*"],
-    [t("table.2")],
+    [t("table.2"), "110 PLN*"],
+    ,
     ["", t("table.additional")],
     [t("table.3"), "4€"],
     [t("table.4"), "3€"],
@@ -86,6 +88,9 @@ export default function SlowackiRaj() {
           <TripProgram
             title={<> {t("tripprogram.header")}</>}
             items={tripItems}
+          />
+          <TripTime
+            availableDays={["Wt", "Pt"]} // Przykład: wybrane dni
           />
         </div>
         {/* buttons */}

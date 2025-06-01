@@ -5,6 +5,7 @@ import Image from "next/image";
 import Table from "@/app/UI/Table";
 import Gallery from "@/app/UI/Slider";
 import { useTranslations } from "next-intl";
+import TripTime from "@/app/UI/TripTime";
 
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
@@ -71,6 +72,7 @@ export default function Termy() {
         </div>
         <div className="mt-16">
           <Table headers={tableHeaders} rows={tableRows} />
+          <TripTime />
         </div>
       </section>
       <div>

@@ -81,53 +81,54 @@
         "tripslist": {
             "szlak-papieski": {
                 "alt": {
-                    "1": "II. János Pál pápa szobra Ząbiében, Lengyelországban, a talapzaton feliratos idézettel.",
-                    "2": "Egy csoport ember egy szobrokkal teli helyiségben gyűlt össze, különböző műalkotásokat bemutatva. A helyszín beltéri, kiemelve a mennyezetet és a jelenlévők sokféle öltözékét.",
-                    "3": "Egy férfi egy férfi szobrát tartja egy múzeumban, más emberek és művészeti kiállítások között. A mennyezet látható fölötte, hozzájárulva a tér hangulatához."
+                    "1": "II. János Pál pápa szobra Ząbban, Lengyelországban, a talapzatán idézettel.",
+                    "2": "Emberek egy szobrokkal teli teremben, különböző művészeti alkotásokat nézegetve. A beltéri jelenet hangsúlyozza a mennyezetet és a sokszínű öltözeteket.",
+                    "3": "Férfi egy férfiszobrot tart egy múzeumban, más emberek és művészeti installációk veszik körül. A mennyezet is látható, ami különleges hangulatot kölcsönöz a térnek."
                 },
-                "header": "Pápai Ösvény – Körutazás Zakopanéban és környékén",
-                "header2": "Szent II. János Pál és Zakopane történelmének nyomában",
-                "header3": "Látványosságok leírása:",
-                "text": "Meghívunk egy különleges, nyugodt körutazásra Szent II. János Pál nyomában, valamint Zakopane és környékének legszebb és legjelentősebb történelmi helyszíneire. Ez tökéletes választás azoknak, akik szeretnék megismerni Podhale spirituális és kulturális lényegét hosszú gyalogtúrák nélkül. Közlekedés: légkondicionált busz sofőr-idegenvezetővel. Felszállás: a szálláshelyhez legközelebbi megállóból. Túra típusa: panorámás, körutazás, hosszú séták nélkül.",
+                "header": "Pápai Útvonal – Buszos kirándulás Zakopanéban és környékén",
+                "header2": "Szent II. János Pál nyomában és Zakopane történetében",
+                "header3": "Látnivaló leírása:",
+                "text": "Különleges, nyugodt buszos kirándulásra hívjuk Önt, amely ötvözi a spiritualitást, a történelmet és a podhalei kultúrát. A „Pápai Útvonal” ideális választás azoknak, akik meg akarják ismerni Zakopane városát és környékét anélkül, hogy fárasztó túrákon vennének részt. 4–5 órán keresztül kényelmes busszal utazunk idegenvezető kíséretében, meglátogatva a legfontosabb és legmeghatóbb helyeket, amelyek II. János Pál pápa és a régió történetéhez kapcsolódnak.",
                 "list": {
-                    "1": "Toporowa Cyrhla – utunk kiindulópontja a Pápai Kőnél, ahol a híres Pápai Ösvény kezdődik. Rövid szünet fotózásra és a Tátra panorámájának megcsodálására: Giewont és Kasprowy Wierch.",
-                    "2": "Jaszczurówka Kápolna – Zakopane építészeti gyöngyszeme, Stanisław Witkiewicz tervezésében. Belépünk, hogy megnézzük az egyedi belső teret és átérezzük a hegyvidéki hit szellemét.",
-                    "3": "Olcza-völgy és Nosal – utazás a Nosal lábánál és az Olcza-völgy bejáratánál, amelyek különösen közel álltak Karol Wojtyła szívéhez.",
-                    "4": "Wielka Krokiew és a síugró komplexum – kívülről csodáljuk meg a híres síugrót és kisebb társait.",
-                    "5": "Zakopane alkotóinak utcái – utazás olyan utcákon keresztül, amelyeket többek között Piłsudski, Makuszyński és Tetmajer tiszteletére neveztek el.",
-                    "6": "Kościeliska utca és Pęksowy Brzyzek – Zakopane legrégebbi utcája, ahol található az első zakopanei temető, a történelmi Gąsienica Kápolna 1800-ból, egy régi fakeresztény templom és Zakopane legrégebbi fogadója, az 'U Jana Wnuka'.",
-                    "7": "Zakopanei stílus és a Koliba Villa – utazás a villa és a több mint 200 éves történelmi hegyvidéki házak mellett.",
-                    "8": "Fatimai Szűzanya Szentély Krzeptówkiban – hosszabb megálló a látogatásra. Megnézzük Lengyelország legnagyobb faoltárát, Szent II. János Pál ereklyéit és az 1997-es pápai oltárt, amelyet a Wielka Krokiew alól helyeztek át.",
-                    "9": "Gronik és egy régi pásztorkunyhó Witówban – utazás a groniki katonai bázison keresztül és megálló a régió egyik legrégebbi pásztorkunyhójánál. Lehetőség eredeti oscypek sajt vásárlására és bundz kóstolására.",
-                    "10": "Chochołów – élő skanzen – látogatás egy egyedülálló faluban, amely 33 eredeti fa hegyvidéki házból áll, valamint megálló Jan Zięder híres szobrász műhelyénél.",
-                    "11": "Visszatérés a Gubałówka csúcson keresztül – festői útvonal Zakopane és a Tátra panorámájával. Tökéletes befejezése egy élményekkel teli napnak."
+                    "1": "A túrát Toporowa Cyrhlán kezdjük, ahol a Pápai Kő található – a Pápai Útvonal szimbolikus kezdete. Már itt, a Giewont és a Kasprowy Wierch háttérben, érezhető a kirándulás különleges hangulata.",
+                    "2": "Ezután a Jaszczurówkai kápolnához megyünk – a zakopanei építészet gyöngyszeme, Stanisław Witkiewicz tervei alapján. Belépve megérezhetjük a hegyi vallásosság lelkületét.",
+                    "3": "Továbbhaladunk Karol Wojtyła számára különösen kedves helyeken: az Olczyska-völgyön és a Nosal lábánál. Megcsodáljuk a Wielka Krokiew síugrósáncot és a sportkomplexumot is – Zakopane sportos lelkületének jelképeit.",
+                    "4": "A Wielka Krokiew és a síugrósánc-komplexum – kívülről csodáljuk meg a híres sáncot és kisebb testvéreit.",
+                    "5": "Ezután híres zakopanei személyiségekről elnevezett utcákon keresztül haladunk a Kościeliska utcáig és a Pęksowy Brzyzek temetőig. Ez Zakopane legrégebbi része, fa templomával és az „U Jana Wnuka” vendéglővel.",
+                    "6": "A túra második részében megtekintjük a Koliba villát – a zakopanei stílus egyik legfontosabb példáját. Ezután ellátogatunk a Krzeptówki-i Fatimai Szűzanya szentélybe, ahol Lengyelország legnagyobb fából készült oltára és a pápa oltára található, amelyet II. János Pál celebrált 1997-ben a Wielka Krokiew alatt.",
+                    "7": "Hazafelé benézünk egy régi juhászházba Witówban, ahol eredeti oscypek sajt vásárolható, illetve friss bundz is kóstolható. Ezután megállunk Chochołówban – egyedülálló faluban, több mint 30 eredeti faházzal, amelyet élő skanzenként is emlegetnek.",
+                    "8": "Felkeressük Jan Ziędera híres szobrász műhelyét is, aki szívesen osztja meg szenvedélyét és alkotásait a látogatókkal. A túrát a Gubałówka tetején való áthaladással zárjuk – innen látható egész Zakopane és a Tártrák. Tökéletes befejezése egy elmélyült, csodás napnak, amely tele van történelemmel, kultúrával és lenyűgöző tájakkal. A Pápai Útvonal nem csupán buszos utazás – ez utazás a kultúra, az emlékek és a hagyomány mélyére."
+                },
+                "table": {
+                    "header1": "Jegytípus",
+                    "header2": "A kirándulás teljes ára",
+                    "1": "Normál",
+                    "2": "Kedvezményes (10 év alatti gyermekek)",
+                    "text": "Az ajánlat tartalmazza: • Szállítás, balesetbiztosítás, idegenvezető. További költség lehet: • Oscypek sajt vagy emléktárgyak vásárlása Jan Ziędera műhelyéből (opcionális)."
                 },
                 "tripprogram": {
-                    "header": "Időtartam: kb.",
-                    "1": "Toporowa Cyrhla",
-                    "2": "II. János Pál Pápai Kő – a Pápai Ösvény kezdete",
-                    "3": "Kilátópont: Tátra panoráma, Giewont, Kasprowy Wierch",
-                    "4": "Jaszczurówka Kápolna – látogatás",
-                    "5": "Olcza-völgy, Nosal síkomplexum",
-                    "6": "Siugrók: Wielka Krokiew, Kis, Közepes",
-                    "7": "TOPR/GOPR egység",
-                    "8": "Zakopane utcái: Piłsudski, Makuszyński, Przerwa-Tetmajer",
-                    "9": "Kościeliska utca: Pęksowy Brzyzek temető, Gąsienica Kápolna (1800), régi templom, U Jana Wnuka fogadó",
-                    "10": "Koliba Villa, 200 éves zakopanei stílusú házak",
-                    "11": "Krzeptówki Szentély: faoltár, II. János Pál ereklyék, pápai oltár (1997)",
-                    "12": "Gronik, Witów pásztorkunyhó: bundz, oscypek",
-                    "13": "Chochołów skanzen: 33 hegyvidéki ház",
-                    "14": "Jan Zięder szobrász műhelye – látogatás",
-                    "15": "Visszatérés Gubałówkán keresztül: kilátás Zakopané-ra és a Tátrára"
+                    "header": "Időtartam (kb.):",
+                    "1": "Indulás Zakopanéból kb. 8:00 órakor",
+                    "2": "Utazás a Pápai Útvonalon Toporowa Cyrhlától Krzeptówkig",
+                    "3": "Szünet a szentély megtekintésére",
+                    "4": "Látogatás a juhászháznál Witówban, bundz kóstoló",
+                    "5": "Megálló Jan Ziędera műhelyében",
+                    "6": "Visszatérés Zakopanéba panorámás kilátással a Tátrákra és a városra"
                 },
                 "cta": {
-                    "header": "Pápai Ösvény – Körutazás Zakopanéban és környékén",
-                    "text1": "Meghívunk egy különleges, nyugodt körutazásra Szent II. János Pál nyomában, valamint Zakopane és környékének legszebb és legjelentősebb történelmi helyszíneire.",
-                    "text2": "Ez tökéletes választás azoknak, akik szeretnék megismerni Podhale spirituális és kulturális lényegét hosszú gyalogtúrák nélkül.",
-                    "cta": "Szeretnél többet megtudni?"
+                    "header": "Pápai Útvonal – Buszos kirándulás Zakopanéban és környékén",
+                    "text1": "Különleges, nyugodt buszos kirándulásra hívjuk Önt, II. János Pál pápa nyomában és Zakopane legszebb, legemlékezetesebb helyeinek felfedezésére.",
+                    "text2": "Tökéletes választás azoknak, akik szeretnék felfedezni Podhale szellemi és kulturális világát hosszú gyaloglás nélkül.",
+                    "cta": "Szeretne többet megtudni?"
                 }
             },
             "tatry-i-zakopane": {
+                "cta": {
+                    "header": "Tátra és Zakopane – Hegyi kaland",
+                    "text1": "Csatlakozz hozzánk egy felejthetetlen kalandra a Tátra szívében! Hegyi kirándulásaink tökéletes lehetőséget kínálnak a fenséges csúcsok, festői völgyek és kristálytiszta tavak felfedezésére.",
+                    "text2": "Akár a Morskie Oko tóhoz sétálnál, megmásznád a Kasprowy Wierch csúcsát, vagy pihennél a Chochołowi-völgyben – mindenki talál kedvére valót. Fedezd fel a Tátra varázsát idegenvezetővel!",
+                    "cta": "Szeretnél többet megtudni?"
+                },
                 "alt": {
                     "1": "Lila krókuszok a réten",
                     "2": "Vadállatok a sziklán",
@@ -250,6 +251,7 @@
                     "1": "Normál jegy",
                     "2": "Kedvezményes jegy (10 évig)",
                     "3": "Kedvezményes jegy (3 évig)",
+                    "4": "Kedvezményes jegy (1 éves korig)",
                     "text": "* Az ár tartalmazza: a sofőr felügyeletét a kirándulás során és az NNW biztosítást."
                 },
                 "tripprogram": {
@@ -780,7 +782,7 @@
                     "7": "* fényképezés/kamera",
                     "8": "Utazási tippek",
                     "text": "* Az ár tartalmazza: kényelmes autóbuszos utazást, képzett kísérő felügyeletét, NNW és KL biztosítást. **A belépőjegyek árai változhatnak",
-                    "a1": "felnőttek 12€, diákok/nyugdíjasok/rokkantnyugdíjasok 11€, 6-15 év közötti gyermekek 6€**",
+                    "a1": "Felnőttek 14€, diákok/nyugdíjasok 13€, 6–15 éves gyerekek 7€**, INGYENES – 6 év alatti gyerekeknek.",
                     "a2": "felnőttek 9€, diákok/nyugdíjasok/rokkantnyugdíjasok/gyermekek 4,5€, 6 év alatti gyermekek INGYENES**",
                     "a3": "3€ fényképezés/5€ kamera**",
                     "additional": "Külön fizetendő"
@@ -1121,12 +1123,34 @@
         "header3": "A Te Módod",
         "text2": "Minden erőnkkel azon vagyunk, hogy minden megbízás megfelelően teljesüljön és megfeleljen ügyfeleink elvárásainak. Csapatunk munkájának prioritása az ügyfél elégedettsége és a nyújtott szolgáltatások magas minősége. Sofőrjeink tapasztalt munkatársak, akik teljes professzionalizmust és megfelelő készségeket biztosítanak. A szállításban szerzett sokéves tapasztalatunknak köszönhetően általunk szervezett személyszállítás kényelmes és biztonságos utazást jelent. Kötelezően biztosítjuk a pontosságot és vonzó árakat. Minden megbízónak más elvárásai és igényei vannak, ezért szolgáltatásainkat mindig az egyéni igényekhez igazítjuk. Járműveink minden szükséges engedéllyel és teljes felszereléssel rendelkeznek, amelyek lehetővé teszik a problémamentes külföldi utazásokat, garantálva az utasok biztonságát és kényelmét minden útvonalon.",
         "button": "Megállóhelyek Térképe",
+        "button2": "Morskie Oko",
         "alt": {
             "1": "Busz a megtett útvonal nyomával",
             "2": "Sötétkék busz havas hegyek hátterében",
             "3": "Autóbusz a parkolóban",
             "4": "A Majer cég ezüst autóbusza",
             "5": "Busz a parkolóban, háttérben termálfürdőkkel"
+        }
+    },
+    "transport-nad-morskie-oko": {
+        "header": "Szállítás a Morskie Oko-hoz a szálláshelyedről",
+        "text": "Napi szállítás közvetlenül a Morskie Oko túraösvényhez – stresszmentesen, sorban állás és parkolókeresés nélkül! Indulás közvetlenül a szállásodtól – Zakopane és környéke. Indulás ideje: reggel 7:00 és 8:00 között (a pontos időt előző nap egyeztetjük a helyszíntől függően). Eljutás a Palenica Białczańskáig – ez a legközelebbi pont, ahová autóval el lehet jutni a túra megkezdése előtt. Napi rendszerességgel, főszezonban is elérhető. Ideális családok, csoportok, párok és autó nélküli látogatók számára. Gyermekek és csomagok szállítása lehetséges. Barátságos hangulat és garantált pontosság!",
+        "header2": "Mi történik ezután?",
+        "text2": "9 km séta (kb. 2,5–3 óra) aszfaltos úton, vagy lovaskocsis utazás (kb. 7 km kocsival + 2 km gyalog) – ára kb. 100 PLN felfelé, 70 PLN lefelé (az árak az évszaktól és napszaktól függően változhatnak).",
+        "button": "Megállók térképe",
+        "alt": {
+            "1": "Morskie Oko – kilátás a Czarny Staw mellől",
+            "2": "Kilátás a Morskie Oko fölött",
+            "3": "Morskie Oko a menedékház felől nézve",
+            "4": "Morskie Oko az Öt-tó völgyébe vezető ösvényről"
+        },
+        "table": {
+            "header1": "Jegytípusok",
+            "header2": "Teljes ár",
+            "1": "teljes létszám esetén (min. 8 fő)",
+            "2": "ha kevesebb mint 8 fő",
+            "header3": "*Az ár tartalmazza:",
+            "text": "Nem kell aggódni az árkülönbség miatt – előre tájékoztatunk a pontos árról a jelentkezők számától függően."
         }
     },
     "pickup": {
@@ -1294,6 +1318,36 @@
         "szlak-papieski": {
             "title": "Pápai Ösvény Zakopanéban – II. János Pál nyomában | Trio Travel",
             "description": "Fedezze fel Zakopane spirituális és történelmi látnivalóit II. János Pál pápa nyomában! Kényelmes buszos kirándulás hosszú gyaloglás nélkül. Morskie Oko, Krzeptówki, Chochołów. Helyi idegenvezető és szállítás. Foglaljon online a Trio Travellel!"
+        },
+        "transport-nad-morskie-oko": {
+            "title": "Szállítás a Morskie Oko-hoz Zakopanéból – Trio Travel",
+            "description": "Napi szállítás a Morskie Oko-hoz Zakopanéból és környékéről. Közvetlen felszállás a szálláshelyedről, sorban állás és stressz nélkül. Foglalj helyet online még ma!"
         }
+    },
+    "triptime": {
+        "title": "Kirándulás napjai",
+        "days": [
+            "H",
+            "K",
+            "Sze",
+            "Cs",
+            "P",
+            "Szo",
+            "V"
+        ],
+        "fullDays": [
+            "Hétfő",
+            "Kedd",
+            "Szerda",
+            "Csütörtök",
+            "Péntek",
+            "Szombat",
+            "Vasárnap"
+        ],
+        "daily": "A kirándulás minden nap elérhető.",
+        "specificDays": "A kirándulás elérhető a következő napokon: {days}.",
+        "noDays": "Nincsenek elérhető napok a kiránduláshoz.",
+        "call": "A kirándulás csak telefonos egyeztetés után érhető el.",
+        "kasprowyDaily": "Sorban állás nélküli jegyek minden nap elérhetők."
     }
 }

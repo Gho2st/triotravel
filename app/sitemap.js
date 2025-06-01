@@ -300,13 +300,24 @@ export default function sitemap() {
       },
     },
     {
-      url: `${baseUrl}/wycieczki/tatry-i-zakopane/szlak-papieski`,
+      url: `${baseUrl}/wycieczki/szlak-papieski`,
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: `${baseUrl}/en/trips/tatras-and-zakopane/papal-trail`,
-          ar: `${baseUrl}/ar/rihlat/tatra-wa-zakopane/darb-al-baba`,
-          hu: `${baseUrl}/hu/kirándulások/tatra-es-zakopane/papai-osveny`,
+          en: `${baseUrl}/en/trips/papal-trail`,
+          ar: `${baseUrl}/ar/rihlat/darb-al-baba`,
+          hu: `${baseUrl}/hu/kirándulások/papai-osveny`,
+        },
+      },
+    },
+    {
+      url: `${baseUrl}/transport-nad-morskie-oko`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/transport-to-morskie-oko`,
+          ar: `${baseUrl}/ar/naql-ila-morskie-oko`,
+          hu: `${baseUrl}/hu/szallitas-morskie-okohoz`,
         },
       },
     },

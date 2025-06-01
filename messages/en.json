@@ -81,53 +81,54 @@
         "tripslist": {
             "szlak-papieski": {
                 "alt": {
-                    "1": "Statue of Pope John Paul II in Ząbie, Poland, with an inscribed quote at the base.",
-                    "2": "A group of people gathered in a room filled with statues, showcasing various art pieces. The setting is indoors, highlighting the ceiling above and the diverse clothing worn by the individuals present.",
-                    "3": "A man holding a statue of a man indoors at a museum, surrounded by other people and artistic displays. The ceiling is visible above, adding to the atmosphere of the space."
+                    "1": "Statue of John Paul II in Ząb, Poland, with an engraved quote at the base.",
+                    "2": "A group of people gathered in a room full of statues, presenting various works of art. The indoor scene emphasizes the ceiling above and the variety of clothing worn by those present.",
+                    "3": "A man holding a statue of a man in a museum, surrounded by other people and artistic displays. The ceiling is visible above, adding atmosphere to the space."
                 },
-                "header": "Papal Trail – A Tour Around Zakopane and Its Surroundings",
-                "header2": "In the Footsteps of St. John Paul II and Zakopane’s History",
-                "header3": "Description of Attractions:",
-                "text": "We invite you to a unique, leisurely sightseeing tour following the footsteps of St. John Paul II and the most beautiful and historic places in Zakopane and its surroundings. This is an excellent option for those who want to explore the spiritual and cultural essence of Podhale without the need for long hikes. Transport: air-conditioned bus with a driver-guide. Pickup: from the stop closest to your accommodation. Tour type: scenic, sightseeing, without long walks.",
+                "header": "Papal Trail – Sightseeing Tour of Zakopane and Surroundings",
+                "header2": "In the Footsteps of Saint John Paul II and Zakopane’s History",
+                "header3": "Attraction Description:",
+                "text": "Join us for a unique, peaceful sightseeing tour that combines spirituality, history, and Highlander culture. The “Papal Trail” is ideal for those who want to discover Zakopane and its surroundings without strenuous hikes. For 4–5 hours, we travel by comfortable minibus with a guide, visiting the most important and touching places associated with Saint John Paul II and the region’s history.",
                 "list": {
-                    "1": "Toporowa Cyrhla – the starting point of our journey at the Papal Stone, where the famous Papal Trail begins. A short break for photos and admiring the Tatra panorama: Giewont and Kasprowy Wierch.",
-                    "2": "Jaszczurówka Chapel – a gem of Zakopane architecture designed by Stanisław Witkiewicz. We enter to see the unique interior and feel the spirit of highlander faith.",
-                    "3": "Olcza Valley and Nosal – a drive at the foot of Nosal and through the entrance to Olcza Valley, places particularly close to Karol Wojtyła’s heart.",
-                    "4": "Wielka Krokiew and the ski jumping complex – we admire the famous ski jump and its smaller counterparts from the outside.",
-                    "5": "Streets of Zakopane’s creators – a drive through streets named after figures like Piłsudski, Makuszyński, and Tetmajer.",
-                    "6": "Kościeliska Street and Pęksowy Brzyzek – Zakopane’s oldest street, home to the first Zakopane cemetery, the historic Gąsienica Chapel from 1800, an old wooden church, and the oldest inn in Zakopane, 'U Jana Wnuka'.",
-                    "7": "Zakopane style and Willa Koliba – a drive past the villa and historic highlander cottages, some over 200 years old.",
-                    "8": "Sanctuary of Our Lady of Fatima in Krzeptówki – a longer stop for sightseeing. We will see Poland’s largest wooden altar, relics of St. John Paul II, and the papal altar from 1997, relocated from Wielka Krokiew.",
-                    "9": "Gronik and an old shepherd’s hut in Witów – a drive through the military base in Gronik and a stop at one of the region’s oldest shepherd huts. Opportunity to purchase authentic oscypek cheese and taste bundz.",
-                    "10": "Chochołów – a living open-air museum – a visit to a unique village made up of 33 authentic wooden highlander houses and a stop at the workshop of renowned sculptor Jan Zięder.",
-                    "11": "Return via Gubałówka peak – a scenic route with a panorama of Zakopane and the Tatras. The perfect end to a day full of experiences."
+                    "1": "We start our journey at Toporowa Cyrhla, where the Papal Stone is located – the symbolic beginning of the Papal Trail. With a stunning view of the Tatra Mountains, Giewont, and Kasprowy Wierch, you can already feel the special atmosphere of this trip.",
+                    "2": "Next, we head to the Chapel in Jaszczurówka – a gem of Zakopane architecture designed by Stanisław Witkiewicz. Inside, we take a quiet moment to feel the spirit of Highland faith.",
+                    "3": "We drive through areas dear to Karol Wojtyła’s heart: Olczyska Valley and the base of Nosal. We also admire Wielka Krokiew and the ski jump complex – symbols of Zakopane’s sporting spirit.",
+                    "4": "Wielka Krokiew and the ski jump complex – we admire the famous ski jump and its smaller counterparts from the outside.",
+                    "5": "Next, we pass streets named after prominent Zakopane cultural figures and arrive at Kościeliska Street and the cemetery at Pęksowy Brzyzek. This is the oldest part of the city, featuring the wooden Gąsienica Chapel and the “U Jana Wnuka” inn.",
+                    "6": "In the second part of the trip, we stop by Villa Koliba – one of the most important examples of the Zakopane style. Then we visit the Sanctuary of Our Lady of Fatima in Krzeptówki. It houses Poland’s largest wooden altar and the papal altar from the Holy Mass celebrated by John Paul II in 1997 under Wielka Krokiew.",
+                    "7": "On the way back, we visit a traditional shepherd’s hut in Witów where you can buy original oscypek cheese and taste fresh bundz. We also stop in Chochołów – a unique village of over 30 original wooden houses, known as a “living open-air museum.”",
+                    "8": "We’ll also visit the workshop of famous sculptor Jan Ziędera, who gladly shares his passion and works with visitors. The trip ends with a ride over the top of Gubałówka – from here you can see the whole of Zakopane and the majestic Tatra Mountains. The perfect end to a day full of reflection, beautiful views, and unique encounters with the history and spirit of Podhale. The Papal Trail is not just a bus tour – it's a journey into the heart of culture, memory, and tradition."
+                },
+                "table": {
+                    "header1": "Ticket Type",
+                    "header2": "Total Trip Cost",
+                    "1": "Regular",
+                    "2": "Discounted (children under 10)",
+                    "text": "Offer includes: • Transport, accident insurance, tour leader. Additional costs: • optional purchase of oscypek cheese and souvenirs from Jan Ziędera’s workshop"
                 },
                 "tripprogram": {
                     "header": "Duration: approx.",
-                    "1": "Toporowa Cyrhla",
-                    "2": "JP2 Papal Stone – start of the Papal Trail",
-                    "3": "Viewpoint: Tatra panorama, Giewont, Kasprowy Wierch",
-                    "4": "Jaszczurówka Chapel – sightseeing",
-                    "5": "Olcza Valley, Nosal ski complex",
-                    "6": "Ski jumps: Wielka Krokiew, Small, Medium",
-                    "7": "TOPR/GOPR unit",
-                    "8": "Zakopane streets: Piłsudski, Makuszyński, Przerwa-Tetmajer",
-                    "9": "Kościeliska Street: Pęksowy Brzyzek Cemetery, Gąsienica Chapel (1800), old church, U Jana Wnuka inn",
-                    "10": "Willa Koliba, 200-year-old Zakopane-style cottages",
-                    "11": "Krzeptówki Sanctuary: wooden altar, JP2 relics, papal altar (1997)",
-                    "12": "Gronik, Witów shepherd’s hut: bundz, oscypek",
-                    "13": "Chochołów open-air museum: 33 highlander cottages",
-                    "14": "Jan Zięder’s sculptor workshop – sightseeing",
-                    "15": "Return via Gubałówka: view of Zakopane and the Tatras"
+                    "1": "Departure from Zakopane around 8:00 AM",
+                    "2": "Travel along the Papal Trail from Toporowa Cyrhla to Krzeptówki",
+                    "3": "Break to visit the Sanctuary",
+                    "4": "Trip to the shepherd’s hut in Witów for bundz tasting",
+                    "5": "Stop at Jan Ziędera’s workshop",
+                    "6": "Return to Zakopane with a panoramic view of the Tatras and Zakopane"
                 },
                 "cta": {
-                    "header": "Papal Trail – A Tour Around Zakopane and Its Surroundings",
-                    "text1": "We invite you to a unique, leisurely sightseeing tour following the footsteps of St. John Paul II and the most beautiful and historic places in Zakopane and its surroundings.",
-                    "text2": "This is an excellent option for those who want to explore the spiritual and cultural essence of Podhale without the need for long hikes.",
+                    "header": "Papal Trail – Sightseeing Tour of Zakopane and Surroundings",
+                    "text1": "We invite you on a unique, peaceful sightseeing tour following the footsteps of Saint John Paul II and the most beautiful, historic places in and around Zakopane.",
+                    "text2": "It’s a perfect option for those who want to explore the spiritual and cultural side of Podhale without long walking trips.",
                     "cta": "Want to know more?"
                 }
             },
             "tatry-i-zakopane": {
+                "cta": {
+                    "header": "Tatra Mountains and Zakopane – Mountain Adventure",
+                    "text1": "Join us for an unforgettable adventure in the heart of the Tatra Mountains! Our mountain tours are the perfect way to discover majestic peaks, picturesque valleys, and crystal-clear lakes.",
+                    "text2": "Whether you choose a walk to Morskie Oko, a hike up Kasprowy Wierch, or a relaxing time in the Chochołowska Valley – there’s something for everyone. Explore the magic of the Tatra nature with a local guide!",
+                    "cta": "Want to know more?"
+                },
                 "alt": {
                     "1": "Purple crocuses in a meadow",
                     "2": "Wildlife on a rock",
@@ -250,6 +251,7 @@
                     "1": "Adult ticket",
                     "2": "Reduced ticket (up to 10 years)",
                     "3": "Reduced ticket (up to 3 years)",
+                    "4": "Reduced ticket (up to 1 year old)",
                     "text": "* Price includes: driver's assistance during the trip and NNW insurance."
                 },
                 "tripprogram": {
@@ -775,7 +777,7 @@
                     "7": "* photography/camera",
                     "8": "Travel Tips",
                     "text": "* Price includes: Transport by comfortable coach, care of a qualified tour leader, accident and medical insurance. **Ticket prices may change",
-                    "a1": "adults 12€, students/seniors/pensioners 11€, children aged 6-15 6€**",
+                    "a1": "Adults €14, students/pensioners/retirees €13, children aged 6–15 €7**, FREE – children under 6.",
                     "a2": "adults 9€, students/seniors/pensioners/children 4.5€, children under 6 FREE**",
                     "a3": "3€ photography/5€ camera**",
                     "additional": "Additional charges"
@@ -1116,12 +1118,34 @@
         "header3": "Your Way",
         "text2": "We make every effort to ensure that each order is carried out properly and meets the expectations of our clients. The team's priority is customer satisfaction and the high quality of services provided. Our drivers are experienced employees, ensuring full professionalism and appropriate skills. Thanks to many years of experience in transport, the passenger transport we organize is a comfortable and safe journey. We guarantee punctuality and attractive prices. Each client has different expectations and needs, so we always tailor our services to individual requirements. Our vehicles have all the necessary permits and full equipment enabling trouble-free international trips, ensuring the safety and comfort of passengers during each route.",
         "button": "Pickup Points Map",
+        "button2": "Morskie Oko",
         "alt": {
             "1": "Bus with a trace of the driven route",
             "2": "Navy blue bus against a backdrop of snow-covered mountains",
             "3": "Bus in a parking lot",
             "4": "Silver Bus by Majer company",
             "5": "Bus in a parking lot with a thermal spa in the background"
+        }
+    },
+    "transport-nad-morskie-oko": {
+        "header": "Transport to Morskie Oko from Your Accommodation",
+        "text": "Daily transport directly to the Morskie Oko trail – no stress, no queues, and no need to find parking! Pickup directly from your accommodation – Zakopane and surrounding areas. Departure time: between 7:00 and 8:00 AM (exact time confirmed the day before, depending on location). We take you to Palenica Białczańska – the furthest point accessible by car before the hike begins. Transport available daily, even during high season. Perfect for families, groups, couples, and those without a car. Possibility to carry children and luggage. Friendly atmosphere and guaranteed punctuality!",
+        "header2": "What’s next?",
+        "text2": "9 km walk (approx. 2.5–3 hours) along a paved road, or a horse carriage ride (approx. 7 km ride + 2 km walk) – price approx. 100 PLN uphill, 70 PLN downhill (prices may vary depending on season and time of day).",
+        "button": "Stop Map",
+        "alt": {
+            "1": "Morskie Oko – view from Czarny Staw",
+            "2": "Scenic view from above Morskie Oko",
+            "3": "Morskie Oko seen from the shelter side",
+            "4": "Morskie Oko from the trail to Five Polish Lakes Valley"
+        },
+        "table": {
+            "header1": "Ticket Types",
+            "header2": "Total Cost",
+            "1": "with full group (min. 8 people)",
+            "2": "when fewer than 8 people",
+            "header3": "*The price includes:",
+            "text": "No worries about the price difference – we’ll inform you in advance based on the number of people signed up."
         }
     },
     "pickup": {
@@ -1289,6 +1313,36 @@
         "szlak-papieski": {
             "title": "The Papal Trail in Zakopane – Tour in the Footsteps of John Paul II | Trio Travel",
             "description": "Discover the spiritual and historical landmarks of Zakopane in the footsteps of Saint John Paul II. Comfortable sightseeing tour – no long walks. Visit Morskie Oko, Krzeptówki, Chochołów. Local guide and transport included. Book online with Trio Travel!"
+        },
+        "transport-nad-morskie-oko": {
+            "title": "Transport to Morskie Oko from Zakopane – Trio Travel",
+            "description": "Daily transport to Morskie Oko from Zakopane and nearby areas. Pick-up directly from your accommodation, no queues or stress. Book your seat online today!"
         }
+    },
+    "triptime": {
+        "title": "Trip Days",
+        "days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
+        "fullDays": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+        ],
+        "daily": "The trip runs daily.",
+        "specificDays": "The trip is available on: {days}.",
+        "noDays": "No days available for the trip.",
+        "call": "The trip is available only after a phone inquiry.",
+        "kasprowyDaily": "Skip-the-line tickets available daily."
     }
 }

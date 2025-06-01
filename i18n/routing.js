@@ -173,11 +173,17 @@ export const routing = defineRouting({
       ar: "/rihlat/tatra-wa-zakopane",
       hu: "/kirándulások/tátra-és-zakopane",
     },
-    "/wycieczki/tatry-i-zakopane/szlak-papieski": {
-      pl: "/wycieczki/tatry-i-zakopane/szlak-papieski",
-      en: "/trips/tatras-and-zakopane/papal-trail",
-      ar: "/rihlat/tatra-wa-zakopane/darb-al-baba",
-      hu: "/kirandulasok/tatra-es-zakopane/papai-osveny",
+    "/wycieczki/szlak-papieski": {
+      pl: "/wycieczki/szlak-papieski",
+      en: "/trips/papal-trail",
+      ar: "/rihlat/darb-al-baba",
+      hu: "/kirandulasok/papai-osveny",
+    },
+    "/transport-nad-morskie-oko": {
+      pl: "/transport-nad-morskie-oko",
+      en: "/transport-to-morskie-oko",
+      ar: "/naql-ila-morskie-oko",
+      hu: "/szallitas-morskie-okohoz",
     },
   },
 });

@@ -4,12 +4,14 @@ import LineHeader from "@/app/UI/LineHeader";
 import Image from "next/image";
 import Gallery from "@/app/UI/Slider";
 import TripProgram from "@/app/UI/TripProgram";
+import Table from "@/app/UI/Table";
 
 import { useTranslations } from "next-intl";
 
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import CtaLink from "@/app/UI/CtaLink";
+import TatryZakopane from "@/app/UI/TatryZakopane";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -19,7 +21,8 @@ export async function generateMetadata({ params }) {
     namespace: "metadata.szlak-papieski",
   });
 
-  const path = routing.pathnames["/wycieczki/tatry-i-zakopane/szlak-papieski"][locale]; // Pobieramy ścieżkę dla języka
+  const path =
+    routing.pathnames["/wycieczki/szlak-papieski"][locale]; // Pobieramy ścieżkę dla języka
   // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
   const canonicalUrl =
     locale === "pl"
@@ -38,6 +41,13 @@ export async function generateMetadata({ params }) {
 export default function Szlak() {
   const t = useTranslations("offer.tripslist.szlak-papieski");
 
+  // Przykładowe dane dla tabeli
+  const tableHeaders = [t("table.header1"), t("table.header2")];
+  const tableRows = [
+    [t("table.1"), "80 PLN"],
+    [t("table.2"), "75 PLN"],
+  ];
+
   const tripItems = [
     t("tripprogram.1"),
     t("tripprogram.2"),
@@ -45,15 +55,6 @@ export default function Szlak() {
     t("tripprogram.4"),
     t("tripprogram.5"),
     t("tripprogram.6"),
-    t("tripprogram.7"),
-    t("tripprogram.8"),
-    t("tripprogram.9"),
-    t("tripprogram.10"),
-    t("tripprogram.11"),
-    t("tripprogram.12"),
-    t("tripprogram.13"),
-    t("tripprogram.14"),
-    t("tripprogram.15"),
   ];
 
   const customItems = [
@@ -65,9 +66,6 @@ export default function Szlak() {
     t("list.6"),
     t("list.7"),
     t("list.8"),
-    t("list.9"),
-    t("list.10"),
-    t("list.11"),
   ];
 
   return (
@@ -95,12 +93,23 @@ export default function Szlak() {
           <BackgroundList title={t("header3")} items={customItems} />
         </div>
         <div className="mt-16">
+          <Table
+            headers={tableHeaders}
+            rows={tableRows}
+            text={t("table.text")}
+          />
+        </div>
+        <div className="mt-16">
           <TripProgram
             title={t("tripprogram.header") + " 4-5h"}
             items={tripItems}
           />
+          <div className="mt-24">
+            <TatryZakopane />
+          </div>
         </div>
       </section>
+
       <div>
         <Gallery
           images={[
