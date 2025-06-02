@@ -1325,6 +1325,10 @@
         "transport-nad-morskie-oko": {
             "title": "Transport nad Morskie Oko z Zakopanego – Trio Travel",
             "description": "Codzienny transport nad Morskie Oko z Zakopanego i okolic. Odbiór spod miejsca zakwaterowania, bez kolejek i stresu. Zarezerwuj miejsce już dziś online!"
+        },
+        "ciekawostki-o-splywie-dunajcem": {
+            "title": "Ciekawostki o spływie Dunajcem – Fascynujące fakty i informacje",
+            "description": "Poznaj najciekawsze informacje i ciekawostki o spływie Dunajcem. Dowiedz się, co warto wiedzieć przed wyprawą oraz odkryj historie związane z tym unikalnym miejscem."
         }
     },
     "triptime": {

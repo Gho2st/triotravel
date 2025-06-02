@@ -185,6 +185,12 @@ export const routing = defineRouting({
       ar: "/naql-ila-morskie-oko",
       hu: "/szallitas-morskie-okohoz",
     },
+    "/ciekawostki-o-splywie-dunajcem": {
+      pl: "/ciekawostki-o-splywie-dunajcem",
+      en: "/fun-facts-about-dunajec-rafting",
+      ar: "/haqaeq-mumti3a-3an-rihlat-dunajec",
+      hu: "/erdekessegek-a-dunajeci-turarol",
+    },
   },
 });
 

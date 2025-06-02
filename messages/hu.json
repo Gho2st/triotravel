@@ -1321,6 +1321,10 @@
         "transport-nad-morskie-oko": {
             "title": "Szállítás a Morskie Oko-hoz Zakopanéból – Trio Travel",
             "description": "Napi szállítás a Morskie Oko-hoz Zakopanéból és környékéről. Közvetlen felszállás a szálláshelyedről, sorban állás és stressz nélkül. Foglalj helyet online még ma!"
+        },
+        "ciekawostki-o-splywie-dunajcem": {
+            "title": "Érdekességek a Dunajec túráról – Érdekes információk",
+            "description": "Fedezd fel a Dunajec folyón történő tutajozás legérdekesebb tényeket és történeteket. Tudj meg mindent, amit érdemes az útról."
         }
     },
     "triptime": {

@@ -1316,6 +1316,10 @@
         "transport-nad-morskie-oko": {
             "title": "Transport to Morskie Oko from Zakopane – Trio Travel",
             "description": "Daily transport to Morskie Oko from Zakopane and nearby areas. Pick-up directly from your accommodation, no queues or stress. Book your seat online today!"
+        },
+        "ciekawostki-o-splywie-dunajcem": {
+            "title": "Fun Facts About Dunajec Rafting – Interesting Information",
+            "description": "Discover the most fascinating facts about rafting on the Dunajec River. Learn what to expect and uncover stories about this unique adventure."
         }
     },
     "triptime": {

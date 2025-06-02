@@ -321,5 +321,16 @@ export default function sitemap() {
         },
       },
     },
+    {
+      url: `${baseUrl}/ciekawostki-o-splywie-dunajcem`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/fun-facts-about-dunajec-rafting`,
+          ar: `${baseUrl}/ar/haqaeq-mumti3a-3an-rihlat-dunajec`,
+          hu: `${baseUrl}/hu/erdekessegek-a-dunajeci-turarol`,
+        },
+      },
+    },
   ];
 }
