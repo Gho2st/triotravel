@@ -53,8 +53,8 @@ export default function Wieliczka() {
     [t("table.1"), "90 PLN"],
     [t("table.2"), "80 PLN"],
     ["", t("table.additional")],
-    [t("table.3"), "98 PLN**"],
-    [t("table.4"), "78 PLN**"],
+    [t("table.3"), "103 PLN**"],
+    [t("table.4"), "82 PLN**"],
   ];
   return (
     <>
