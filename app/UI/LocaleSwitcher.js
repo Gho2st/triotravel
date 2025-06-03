@@ -32,6 +32,7 @@ export default function LocaleSwitcher() {
     <div className="relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
+        aria-label={`Change language. Current language is ${locale.toUpperCase()}`}
         className="flex items-center border border-gray-300 p-1 xl:p-2 rounded-lg bg-white text-black hover:bg-gray-100 transition-colors"
       >
         <span className="flex items-center">
@@ -40,6 +41,8 @@ export default function LocaleSwitcher() {
             svg
             style={{ width: "1.5em", height: "1.5em", marginRight: "0.25em" }}
             title={locale.toUpperCase()}
+            aria-hidden="true"
+            role="img"
           />
           <span className="ml-1">{locale.toUpperCase()}</span>
         </span>

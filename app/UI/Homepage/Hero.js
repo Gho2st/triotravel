@@ -147,17 +147,23 @@ export default function Hero() {
         <a
           className="cursor-pointer"
           href="https://www.instagram.com/triotravell/"
+          aria-label="Instagram"
         >
-          <FaInstagram />
+          <FaInstagram aria-hidden="true" />
         </a>
         <a
+          aria-label="Instagram"
           className="cursor-pointer"
           href="https://www.facebook.com/TrioTravel"
         >
-          <FaFacebook />
+          <FaFacebook aria-hidden="true" />
         </a>
-        <a className="cursor-pointer" href="mailto:biuro@triotravel.eu">
-          <IoMail />
+        <a
+          className="cursor-pointer"
+          href="mailto:biuro@triotravel.eu"
+          aria-label="Mail"
+        >
+          <IoMail aria-hidden="true" />
         </a>
       </div>
     </section>
