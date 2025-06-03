@@ -1,15 +1,11 @@
 "use client";
 import { useState, useEffect, useMemo } from "react";
-import { motion } from "framer-motion";
-import Image from "next/image";
+import { motion, AnimatePresence } from "framer-motion";
 import HeroButton from "../Buttons/HeroButton";
-import {
-  FaInstagram,
-  FaFacebook,
-  FaArrowLeft,
-  FaArrowRight,
-} from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 
@@ -20,48 +16,45 @@ export default function Hero() {
     () => [
       {
         background: "/wycieczki/spacer-w-koronach-drzew/korony.webp",
-        translationKey: "headers.header7",
+        translationKey: "headers.header7", // "Spacer W Koronach Drzew"
         link: "/wycieczki/spacer-w-koronach-drzew",
       },
       {
         background: "/wycieczki/splyw-dunajcem-dluzszy/4.webp",
-        translationKey: "headers.header1",
+        translationKey: "headers.header1", // "Spływ Dunajcem?"
         link: "/wycieczki/splyw-dunajcem-dluzszy",
       },
+
       {
         background: "/baner/baner4.webp",
-        translationKey: "headers.header2",
+        translationKey: "headers.header2", // "Baseny Termalne?"
         link: "/wycieczki/chocholowskie-termy",
       },
+
       {
         background: "/wycieczki/tajemnice-wieliczki/6.webp",
-        translationKey: "headers.header8",
+        translationKey: "headers.header8", // "wieliczka?"
         link: "/wycieczki/tajemnice-wieliczki",
       },
       {
         background: "/wycieczki/jaskinia-bielanska/jaskinia.webp",
-        translationKey: "headers.header9",
+        translationKey: "headers.header9", // "jaskinia bielanska"
         link: "/wycieczki/jaskinia-bielanska",
       },
       {
         background: "/wycieczki/slowacki-raj/slowacki-raj.webp",
-        translationKey: "headers.header10",
+        translationKey: "headers.header10", // "jaskinia bielanska"
         link: "/wycieczki/slowacki-raj",
       },
       {
         background: "/wycieczki/biesiada-goralska/baner.webp",
-        translationKey: "headers.header5",
+        translationKey: "headers.header5", // "Biesiada Goralska?"
         link: "/wycieczki/biesiada-goralska",
       },
       {
         background: "/baner/baner6.webp",
-        translationKey: "headers.header4",
+        translationKey: "headers.header4", // "transport?"
         link: "/transport",
-      },
-      {
-        background: "/morskie-oko/morskie-oko.webp",
-        translationKey: "headers.header11",
-        link: "/transport-nad-morskie-oko",
       },
     ],
     []
@@ -71,101 +64,180 @@ export default function Hero() {
   const [isPaused, setIsPaused] = useState(false);
   const pathname = usePathname();
 
+  // Preload obrazów, aby uniknąć opóźnień
+  useEffect(() => {
+    slides.forEach((slide) => {
+      const img = new Image();
+      img.src = slide.background;
+    });
+  }, [slides]);
+
   useEffect(() => {
     if (pathname === "/") {
       setCurrentSlide(0);
     }
   }, [pathname]);
 
+  // Auto-slide z możliwością pauzowania
   useEffect(() => {
     if (isPaused) return;
+
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
     }, 7000);
+
     return () => clearInterval(interval);
   }, [currentSlide, slides, isPaused]);
 
-  const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % slides.length);
-  const prevSlide = () =>
+  const nextSlide = () => {
+    setCurrentSlide((prev) => (prev + 1) % slides.length);
+  };
+
+  const prevSlide = () => {
     setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+  };
+
+  // Nowa animacja tła z płynnym przejściem
+  const backgroundTransition = {
+    initial: { opacity: 0 },
+    animate: {
+      opacity: 1,
+      transition: { duration: 0.8, ease: "easeInOut" },
+    },
+    exit: {
+      opacity: 0,
+      transition: { duration: 0.8, ease: "easeInOut" },
+    },
+  };
+
+  const contentVariants = {
+    initial: { opacity: 0, y: 100, rotate: 10 },
+    animate: {
+      opacity: 1,
+      y: 0,
+      rotate: 0,
+      transition: {
+        duration: 0.7,
+        ease: "easeOut",
+        type: "spring",
+        bounce: 0.3,
+      },
+    },
+    exit: {
+      opacity: 0,
+      y: -100,
+      rotate: -10,
+      transition: { duration: 0.5, ease: "easeIn" },
+    },
+  };
+
+  const arrowVariants = {
+    initial: { scale: 1 },
+    hover: {
+      scale: 1.3,
+      rotate: 10,
+      transition: { yoyo: Infinity, duration: 0.5 },
+    },
+    tap: { scale: 0.9, rotate: -10 },
+  };
+
+  const socialVariants = {
+    initial: { opacity: 0, y: 50 },
+    animate: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.8, delay: 0.5, type: "spring", stiffness: 200 },
+    },
+  };
 
   return (
-    <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
-      {/* Background image with transition */}
-      <motion.div
-        key={slides[currentSlide].background}
-        className="absolute inset-0 z-0"
-        initial={{ opacity: 0.7 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
-      >
-        <Image
-          src={slides[currentSlide].background}
-          alt="Slide background"
-          fill
-          style={{ objectFit: "cover" }}
-          priority={currentSlide === 0}
-          quality={75}
+    <section className="flex justify-center items-center min-h-screen overflow-hidden relative">
+      {/* Animowane tło */}
+      <AnimatePresence>
+        <motion.div
+          key={slides[currentSlide].background}
+          className="absolute inset-0 z-0"
+          variants={backgroundTransition}
+          initial="initial"
+          animate="animate"
+          exit="exit"
+          style={{
+            backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url(${slides[currentSlide].background})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/30" />
-      </motion.div>
+      </AnimatePresence>
 
-      {/* Main content block */}
-      <div className="z-10 flex flex-col items-center gap-4">
+      {/* Kontener na treść i strzałki */}
+      <div className="flex flex-col items-center gap-4 z-10">
+        {/* Treść bez animacji */}
         <div
-          className="inline-flex rounded-2xl bg-white/90 shadow-2xl transition-all duration-300"
+          key={currentSlide}
+          className="bg-white/90 inline-flex rounded-2xl shadow-2xl transition-all duration-200 ease-in-out"
           onMouseEnter={() => setIsPaused(true)}
           onMouseLeave={() => setIsPaused(false)}
         >
-          <span className="flex min-h-24 w-54 items-center text-center justify-center p-3 text-2xl font-medium md:w-96 md:p-6 md:text-4xl lg:w-144">
+          <span className="text-2xl md:text-4xl font-medium p-3 md:p-6 w-52 min-h-24 md:w-96 lg:w-144 text-center flex justify-center items-center">
             {t(slides[currentSlide].translationKey)}
           </span>
           <HeroButton link={slides[currentSlide].link} />
         </div>
 
-        {/* Arrows */}
-        <div className="mt-10 flex items-center gap-8 md:mt-0 md:gap-0">
+        {/* Strzałki - bez animacji */}
+        <div className="flex items-center mt-10 md:mt-0 gap-8 md-gap-0">
           <button
             onClick={prevSlide}
-            className="cursor-pointer p-2 text-2xl text-white md:absolute md:left-4 md:text-4xl"
-            aria-label="Previous slide"
+            className="text-white text-2xl md:text-4xl p-2 cursor-pointer md:absolute md:left-4 transition-transform duration-150 ease-in-out hover:scale-110 active:scale-95"
+            aria-label="Poprzedni slajd"
           >
             <FaArrowLeft />
           </button>
           <button
             onClick={nextSlide}
-            className="cursor-pointer p-2 text-2xl text-white md:absolute md:right-4 md:text-4xl"
-            aria-label="Next slide"
+            className="text-white text-2xl md:text-4xl p-2 cursor-pointer md:absolute md:right-4 transition-transform duration-150 ease-in-out hover:scale-110 active:scale-95"
+            aria-label="Następny slajd"
           >
             <FaArrowRight />
           </button>
         </div>
       </div>
 
-      {/* Socials */}
-      <div className="absolute bottom-0 left-0 z-10 flex gap-6 p-6 text-3xl text-white md:text-4xl">
-        <a
+      {/* Ikony social media */}
+      <motion.div
+        className="absolute text-3xl md:text-4xl bottom-0 left-0 flex gap-6 p-6 text-white z-10"
+        variants={socialVariants}
+        initial="initial"
+        animate="animate"
+      >
+        <motion.a
           className="cursor-pointer"
           href="https://www.instagram.com/triotravell/"
-          aria-label="Instagram"
+          aria-label="Instagram TrioTravel"
+          whileHover={{
+            y: -10,
+            transition: { repeat: Infinity, duration: 0.4 },
+          }}
         >
-          <FaInstagram aria-hidden="true" />
-        </a>
-        <a
-          aria-label="Instagram"
+          <FaInstagram />
+        </motion.a>
+        <motion.a
+          aria-label="Facebook TrioTravel"
           className="cursor-pointer"
+          whileHover={{ y: -10, transition: { yoyo: Infinity, duration: 0.4 } }}
           href="https://www.facebook.com/TrioTravel"
         >
-          <FaFacebook aria-hidden="true" />
-        </a>
-        <a
+          <FaFacebook />
+        </motion.a>
+        <motion.a
+          aria-label="Wyślij email do TrioTravel"
           className="cursor-pointer"
+          whileHover={{ y: -10, transition: { yoyo: Infinity, duration: 0.4 } }}
           href="mailto:biuro@triotravel.eu"
-          aria-label="Mail"
         >
-          <IoMail aria-hidden="true" />
-        </a>
-      </div>
+          <IoMail />
+        </motion.a>
+      </motion.div>
     </section>
   );
 }
