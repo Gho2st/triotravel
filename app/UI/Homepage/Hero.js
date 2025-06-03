@@ -102,43 +102,12 @@ export default function Hero() {
     initial: { opacity: 0 },
     animate: {
       opacity: 1,
-      transition: { duration: 0.8, ease: "easeInOut" },
+      transition: { duration: 0.5, ease: "easeInOut" },
     },
     exit: {
       opacity: 0,
-      transition: { duration: 0.8, ease: "easeInOut" },
+      transition: { duration: 0.5, ease: "easeInOut" },
     },
-  };
-
-  const contentVariants = {
-    initial: { opacity: 0, y: 100, rotate: 10 },
-    animate: {
-      opacity: 1,
-      y: 0,
-      rotate: 0,
-      transition: {
-        duration: 0.7,
-        ease: "easeOut",
-        type: "spring",
-        bounce: 0.3,
-      },
-    },
-    exit: {
-      opacity: 0,
-      y: -100,
-      rotate: -10,
-      transition: { duration: 0.5, ease: "easeIn" },
-    },
-  };
-
-  const arrowVariants = {
-    initial: { scale: 1 },
-    hover: {
-      scale: 1.3,
-      rotate: 10,
-      transition: { yoyo: Infinity, duration: 0.5 },
-    },
-    tap: { scale: 0.9, rotate: -10 },
   };
 
   const socialVariants = {
@@ -158,7 +127,7 @@ export default function Hero() {
           key={slides[currentSlide].background}
           className="absolute inset-0 z-0"
           variants={backgroundTransition}
-          initial="initial"
+          initial={currentSlide === 0 ? false : "initial"} // brak animacji na pierwszym slajdzie
           animate="animate"
           exit="exit"
           style={{
