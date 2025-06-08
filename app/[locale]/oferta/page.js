@@ -14,14 +14,9 @@ const Pages = React.forwardRef(({ number, children, isCover }, ref) => {
   return (
     <div
       ref={ref}
-      className={`p-4 shadow-2xl ${isCover ? "bg-gray-800" : "bg-white"}`}
+      className={`shadow-2xl xl:p-4 ${isCover ? "bg-gray-800" : "bg-white"}`}
     >
       {children}
-      {isCover ? (
-        <p className="text-center text-lg mt-2 font-bold text-white">Okładka</p>
-      ) : (
-        <p className="text-center text-sm mt-2">Strona {number}</p>
-      )}
     </div>
   );
 });
@@ -30,8 +25,8 @@ Pages.displayName = "Pages";
 
 export default function Flipbook() {
   const [numPages, setNumPages] = useState(null);
-  const [bookSize, setBookSize] = useState({ width: 630, height: 870 });
-  const [pageSize, setPageSize] = useState({ width: 600 });
+  const [bookSize, setBookSize] = useState({ width: 630, height: 850 });
+  const [pageSize, setPageSize] = useState({ width: 610 });
   const flipBookRef = useRef(null);
 
   const onDocumentLoadSuccess = ({ numPages }) => {
@@ -43,17 +38,14 @@ export default function Flipbook() {
 
     // Dostosuj proporcjonalnie do szerokości ekranu
     if (screenWidth < 640) {
-      setBookSize({ width: 300, height: 420 }); // Mały ekran
-      setPageSize({ width: 270 }); // Mały ekran
-    } else if (screenWidth < 1024) {
-      setBookSize({ width: 450, height: 600 }); // Średni ekran
-      setPageSize({ width: 420 }); // Mały ekran
+      setBookSize({ width: 350, height: 500 }); // Mały ekran
+      setPageSize({ width: 350 }); // Mały ekran
     } else if (screenWidth < 1600) {
-      setBookSize({ width: 520, height: 700 }); // Średni ekran
-      setPageSize({ width: 470 }); // Mały ekran
+      setBookSize({ width: 550, height: 750 }); // Średni ekran
+      setPageSize({ width: 510 }); // Mały ekran
     } else {
-      setBookSize({ width: 630, height: 870 }); // Duży ekran
-      setPageSize({ width: 600 }); // Mały ekran
+      setBookSize({ width: 650, height: 900 }); // Duży ekran
+      setPageSize({ width: 610 });
     }
   };
 
