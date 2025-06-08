@@ -54,9 +54,14 @@ const gallery = [
     link: "/wycieczki/slowacki-raj",
   },
   {
-    url: "/wycieczki/zamek-orawski/zamek-orawski.webp",
+    url: "/wycieczki/krajobrazy-slowacji/krajobrazy-slowacji.webp",
     alt: "trips.11",
-    link: "/wycieczki/zamek-orawski",
+    link: "/wycieczki/krajobrazy-slowacji",
+  },
+  {
+    url: "/morskie-oko/morskie-oko.webp",
+    alt: "trips.19",
+    link: "/transport-nad-morskie-oko",
   },
   {
     url: "/wycieczki/wieden/wieden.webp",
@@ -83,6 +88,11 @@ const gallery = [
     url: "/wycieczki/rafting-po-dunajcu/rafting.webp",
     alt: "trips.15",
     link: "/wycieczki/rafting-po-dunajcu",
+  },
+  {
+    url: "/wycieczki/quady/quady.webp",
+    alt: "trips.20",
+    link: "/wycieczki/quady",
   },
 ];
 export default function Offer() {

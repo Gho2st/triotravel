@@ -82,6 +82,11 @@ export default function Atrakcje() {
       link: "/wycieczki/szlak-papieski",
     },
     {
+      title: t("trips.19"),
+      image: "/morskie-oko/morskie-oko.webp",
+      link: "/transport-nad-morskie-oko",
+    },
+    {
       title: t("trips.9"),
       image: "/wycieczki/wieden/wieden.webp",
       link: "/wycieczki/wieden",
@@ -93,8 +98,8 @@ export default function Atrakcje() {
     },
     {
       title: t("trips.11"),
-      image: "/wycieczki/zamek-orawski/zamek-orawski.webp",
-      link: "/wycieczki/zamek-orawski",
+      image: "/wycieczki/krajobrazy-slowacji/krajobrazy-slowacji.webp",
+      link: "/wycieczki/krajobrazy-slowacji",
     },
     // {
     //   title: t("trips.12"),
@@ -111,6 +116,11 @@ export default function Atrakcje() {
       title: t("trips.15"),
       image: "/wycieczki/rafting-po-dunajcu/rafting.webp",
       link: "/wycieczki/rafting-po-dunajcu",
+    },
+    {
+      title: t("trips.20"),
+      image: "/wycieczki/quady/quady.webp",
+      link: "/wycieczki/quady",
     },
   ];
   return (

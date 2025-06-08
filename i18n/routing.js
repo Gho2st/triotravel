@@ -137,11 +137,11 @@ export const routing = defineRouting({
       ar: "/rihlat/budapest",
       hu: "/kirándulások/budapest",
     },
-    "/wycieczki/zamek-orawski": {
-      pl: "/wycieczki/zamek-orawski",
-      en: "/trips/orava-castle",
-      ar: "/rihlat/qilat-orava",
-      hu: "/kirándulások/árva-vár",
+    "/wycieczki/krajobrazy-slowacji": {
+      pl: "/wycieczki/krajobrazy-slowacji",
+      en: "/trips/slovak-landscapes",
+      ar: "/rihlat-manazir-sulufakiya",
+      hu: "/kirandulasok-szlovak-tajak",
     },
     "/wycieczki/dookola-tatr": {
       pl: "/wycieczki/dookola-tatr",
@@ -190,6 +190,12 @@ export const routing = defineRouting({
       en: "/fun-facts-about-dunajec-rafting",
       ar: "/haqaeq-mumti3a-3an-rihlat-dunajec",
       hu: "/erdekessegek-a-dunajeci-turarol",
+    },
+    "/wycieczki/quady": {
+      pl: "/wycieczki-quady",
+      en: "/quad-bike-trips",
+      ar: "/rihlat-quads",
+      hu: "/quad-turak",
     },
   },
 });

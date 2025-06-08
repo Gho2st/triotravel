@@ -21,8 +21,7 @@ export async function generateMetadata({ params }) {
     namespace: "metadata.szlak-papieski",
   });
 
-  const path =
-    routing.pathnames["/wycieczki/szlak-papieski"][locale]; // Pobieramy ścieżkę dla języka
+  const path = routing.pathnames["/wycieczki/szlak-papieski"][locale]; // Pobieramy ścieżkę dla języka
   // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
   const canonicalUrl =
     locale === "pl"
@@ -96,7 +95,10 @@ export default function Szlak() {
           <Table
             headers={tableHeaders}
             rows={tableRows}
-            text={t("table.text")}
+            text={t.rich("table.text", {
+              strong: (chunks) => <strong>{chunks}</strong>,
+              br: () => <br />,
+            })}
           />
         </div>
         <div className="mt-16">

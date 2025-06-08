@@ -58,7 +58,7 @@
         "text2": "Thanks to our years of experience, we specialize in the comprehensive organization of diverse tourism projects – from school and corporate trips, through integration and thematic events, to transport and event logistics. Whether you dream of a mountain adventure, a relaxing weekend, or an active guided expedition, Trio Travel will take care of every detail."
     },
     "offer": {
-        "header": "Spring 2025 Offer",
+        "header": "Summer Offer 2025",
         "trips": {
             "header": "Trips",
             "1": "Dunajec River Rafting 2.5h",
@@ -71,13 +71,16 @@
             "8": "Slovak Paradise",
             "9": "Vienna",
             "10": "Budapest",
-            "11": "Orava Castle",
+            "11": "Landscapes of Slovakia",
             "12": "Ice Temple Hrebieniok",
             "13": "Krakow Tour",
             "14": "Around the Tatra Mountains",
             "15": "Dunajec Rafting",
             "16": "Highlander Feast",
-            "17": "Tatras and Zakopane"
+            "17": "Tatras and Zakopane",
+            "18": "Papal Trail",
+            "19": "Morskie Oko",
+            "20": "Quad bikes"
         },
         "tripslist": {
             "szlak-papieski": {
@@ -105,7 +108,7 @@
                     "header2": "Total Trip Cost",
                     "1": "Regular",
                     "2": "Discounted (children under 10)",
-                    "text": "Offer includes: • Transport, accident insurance, tour leader. Additional costs: • optional purchase of oscypek cheese and souvenirs from Jan Ziędera’s workshop"
+                    "text": "The offer includes: • Transport, accident insurance, tour guide supervision<br></br><strong>Additionally paid:</strong> • possible purchase of Oscypek cheese and souvenirs from Jan Ziętara's workshop"
                 },
                 "tripprogram": {
                     "header": "Duration: approx.",
@@ -147,7 +150,7 @@
                     "3": "Strążyska Valley - An ideal trail for beginners and families with children. The red trail (4 km round trip, approx. 1.5h) leads to the Siklawica Waterfall (23 m). Along the way, you pass Strążyska Glade with a buffet. The valley offers a beautiful view of Giewont. The trail is easy, partially gravel, and suitable for strollers.",
                     "4": "Kościeliska Valley - One of the most beautiful Tatra valleys. The green trail from Kiry to the Ornak Shelter (5.5 km, approx. 1.5h) is easy and offers views of limestone rock formations and caves (e.g., Mroźna Cave, additional fee). In spring, the valley is adorned with crocuses. The trail is wide, perfect for family walks.",
                     "5": "Chochołowska Valley - The largest valley in the Tatras, famous for crocuses and pastoral huts. The green trail from Siwa Polana to the PTTK Shelter (7.5 km, approx. 2h) is easy, partially paved, suitable for strollers and bikes. The valley features a chapel from the movie 'Janosik' and a plaque commemorating John Paul II’s visit.",
-                    "6": "Zakopane Sightseeing Tour - The tour includes visiting Krupówki, a ride to Gubałówka, a visit to the Krzeptówki Sanctuary, and a walk to the Old Church. The tour is tailored for groups of all ages, with a professional guide."
+                    "6": "Guided sightseeing tour of Zakopane - the Papal Trail. Route suitable for groups of all ages, with a professional guide."
                 }
             },
             "biesiada": {
@@ -191,7 +194,7 @@
                     "2": "Reduced one-way (up)",
                     "3": "Adult round-trip",
                     "4": "Reduced round-trip",
-                    "text": "* Ticket prices may vary depending on the time."
+                    "text": "* Ticket prices may vary depending on the time. Tickets are personalized and for a specific time slot. After phone contact, online booking is possible upon prior payment."
                 },
                 "list": {
                     "header": "Discover the majestic Kasprowy Wierch – one of the most beautiful peaks in the Tatra Mountains, attracting lovers of mountain views and unforgettable experiences.",
@@ -337,12 +340,13 @@
                 "header3": "Pieniny Trip: Rafting and Niedzica",
                 "text": "We have prepared a series of extremely interesting attractions that will undoubtedly make your leisure time highly engaging and unforgettable. Our proposed Dunajec rafting from Zakopane is an excellent way to fully enjoy the beautiful landscapes while also exploring many sights. The raftsmen will entertain you with fascinating stories and legends related to the river and its surroundings. Besides rafting on a wooden raft, where you can admire the surrounding Pieniny, the offer also includes visiting Niedzica Castle, the Dunajec Dam, or the Miniature Park of Podhale, Orava, and Spiš.",
                 "list": {
-                    "header": "During the Pieniny trip, besides the main attraction—rafting on wooden rafts—you will also visit Niedzica, where you can choose from many attractions:",
-                    "1": "Boat cruise on Lake Czorsztyn (During the cruise, you can admire the dam, the ruins of Czorsztyn Castle, Niedzica Castle, the Czorsztyn Open-Air Museum, and the beautiful mountain landscape. Such a cruise is an adventure that will stay in your memory for a long time!).",
-                    "2": "Niedzica Castle - where Janosik was imprisoned and tortured.",
-                    "3": "Czorsztyn Dam with a spectacular 3D mural.",
-                    "4": "Miniature Park of Podhale, Orava, and Spiš, rope park.",
-                    "5": "On the way back to Zakopane, we will stop in Dębno, where you can see a historic wooden church from the 15th century, listed as a UNESCO World Heritage Site—a 20-minute lecture with the curator."
+                    "header": "During the trip to the Pieniny Mountains, apart from the main attraction — a rafting adventure on wooden rafts — you will also visit Niedzica, where many attractions await you:",
+                    "1": "A boat cruise on Lake Czorsztyńskie (During the cruise, you will admire the dam, the ruins of Czorsztyn Castle, Niedzica Castle, the Czorsztyn open-air museum, and the stunning mountain landscape). This cruise is an adventure that will stay in your memory for a long time!",
+                    "2": "Niedzica Castle — where the legendary Janosik was imprisoned and tortured.",
+                    "3": "The Czorsztyn Dam with a spectacular 3D mural.",
+                    "4": "Miniature Park of Podhale, Orava, and Spiš, as well as a rope park.",
+                    "5": "The Dunajec section from the Red Monastery to Leśnica is a peaceful and picturesque route through the heart of the Pieniny National Park. Along the way, you’ll admire majestic limestone cliffs, green slopes, and the winding river. The views are unforgettable, offering full relaxation surrounded by nature — perfect for families with children and nature lovers.",
+                    "6": "A short break in Leśnica for rest and a walk through the charming village. It’s a great place for photos, souvenirs, or trying local flavors. Surrounded by mountains and silence, it has a unique atmosphere. Upon prior arrangement with the driver, on the way back we can also stop at a roadside shop with alcohol and souvenirs."
                 },
                 "info": "The rafting season runs from April 1 to October 31—Thursday, Friday, and Sunday. So, we invite you on the trip every day!",
                 "table": {
@@ -440,6 +444,7 @@
                 "table": {
                     "header1": "Ticket Type",
                     "header2": "HIT PACKAGE - 4-hour access (entry to the pool and therapeutic zone, free transport to/from accommodation)",
+                    "text": "* The price includes the entrance ticket to the thermal baths and transportation.",
                     "1": "Adult ticket",
                     "2": "Reduced ticket (children up to 10 years, students up to 26 years, seniors 65+)"
                 }
@@ -723,14 +728,14 @@
                     "4": "A valid passport or ID card is required for each participant, regardless of age."
                 }
             },
-            "zamek-orawski": {
+            "krajobrazy-slowacji": {
                 "alt": {
                     "1": "Orava Castle at sunset - drone view",
                     "2": "Castle overgrown with vegetation",
                     "3": "Orava Castle blending with natural rock formations",
                     "4": "Orava Castle surrounded by trees"
                 },
-                "header": "Orava Castle",
+                "header": "Landscapes of Slovakia",
                 "header2": "What We Offer?",
                 "header3": "Discover Budapest",
                 "text": "Triotravel is pleased to invite you on a one-day trip full of attractions. We offer you a unique journey that includes a visit to Orava Castle, the Open-Air Museum in Chochołów, and a tasting of oscypek cheese in the oldest shepherd's hut in the region. Orava Castle Located on a high rock, Orava Castle is a majestic fortress that impresses with its architecture and rich history. During the guided tour, you will learn fascinating stories about the life of the castle and its inhabitants. It is an unforgettable journey through time that will introduce you to the culture and traditions of the region. Open-Air Museum in Chochołów The Open-Air Museum in Chochołów is a unique place where you can feel the spirit of traditional highlander culture. Located in the picturesque village of Chochołów, the museum offers visitors the chance to see authentic wooden cottages that have retained their unique character for generations.",
@@ -812,9 +817,9 @@
                 "header2": "What We Offer?",
                 "header3": "What Will You See?",
                 "info": "The rafting season runs from April 1 to October 31—Thursday, Friday, and Sunday. So, we invite you on the trip every day! NOTE: Bring a change of clothes. Rafting is allowed in sandals, waterproof shoes, or barefoot. No high heels.",
-                "text": "Initially, rafting in the Dunajec Valley was organized only for special occasions. Only nobles, the wealthy, and important figures who met with the king at Czorsztyn and Niedzica castles could enjoy it. Today, you too can feel like a VIP and experience the thrill of adventure with adrenaline in the background...",
+                "text": "Extreme rafting on the Dunajec River is an unforgettable adventure for those craving adrenaline and a close connection with nature. The gorge offers strong currents, rocky sections, and spectacular views of steep cliffs that intensify the thrill. The rafting route can vary depending on water levels and weather conditions, making each trip unique. Fully equipped and under the supervision of experienced instructors, participants can safely face the power of nature. This activity combines sport, challenge, and fun, turning every moment on the water into an unforgettable experience. It’s the perfect option for active people who want to experience wild nature in safe conditions.",
                 "list": {
-                    "header": "During the Pieniny trip, besides the main attraction—a thrilling two-hour rafting on the Dunajec—you will also visit Niedzica, where you can choose one of the attractions:",
+                    "header": "Rafting as the perfect team-building adventure. Extreme rafting on the Dunajec River is an excellent option for organized groups, companies, or families seeking excitement and bonding in a unique setting. The rafting trip is combined with free time at the Niedzica Dam and the wooden church in Dębno, extending the adventure and allowing for relaxation after the intense experience. The organizers provide full logistical support and professional lifeguard supervision. This activity not only offers unforgettable thrills but also strengthens connections among participants and leaves lasting memories.",
                     "1": "Boat cruise on Lake Czorsztyn: During the cruise, you can admire the dam, the ruins of Czorsztyn Castle, Niedzica Castle, the Czorsztyn Open-Air Museum, and the beautiful mountain landscape. Such a cruise is an adventure that will stay in your memory for a long time!",
                     "2": "Niedzica Castle: It is here in the castle dungeons that you can see the torture chamber with stocks, where, according to legend, Janosik was shackled.",
                     "3": "Tour of the Dunajec Dam The main Czorsztyn-Niedzica Dam is the largest earth dam in Poland, 56 m high and 404 m long.",
@@ -833,7 +838,42 @@
                     "additional": "Additional charges"
                 },
                 "tripprogram": {
-                    "header": "Trip Duration:"
+                    "header": "Trip Program:",
+                    "1": "Departure from Zakopane around 8:00 AM (Pickup from accommodation*)",
+                    "2": "Transfer to meeting point, safety briefing and time to change clothes",
+                    "3": "Rafting on the Dunajec River (1.5–2h)",
+                    "4": "Transfer to the castle and dam in Niedzica (free time – 2h)",
+                    "5": "Transfer to Dębno – Visit to the historic wooden church",
+                    "6": "Return to Zakopane",
+                    "7": "The trip itinerary may be adjusted depending on the group's preferences."
+                }
+            },
+            "quady": {
+                "alt": {
+                    "1": "A person riding a quad bike on a forest dirt road, kicking up dust while navigating the terrain.",
+                    "2": "A man and woman riding a quad bike through a wooded area, surrounded by trees and grass. The vehicle is built for off-road driving, with large tires suitable for rough terrain.",
+                    "3": "Close-up of a vehicle's tire and wheel showing the tread and fender. The vehicle is parked on a forest floor, indicating an off-road context.",
+                    "4": "A row of quads parked in a grassy field under a partly cloudy sky, with trees in the background.",
+                    "5": "A black quad parked on a grassy area surrounded by trees."
+                },
+                "header": "Quads in the Tatra Mountains",
+                "header2": "Ride with an Instructor",
+                "header3": "What Will You See?",
+                "text": "A quad expedition through Podhale is a true adventure — full of excitement, stunning views, and mud! Riding through forest paths and mountain meadows is not only fun but also brings unforgettable memories. It’s the perfect way to explore the wild side of the Tatras at a faster pace.",
+                "table": {
+                    "header1": "Ticket Type",
+                    "header2": "Cost",
+                    "1": "1 two-seater quad",
+                    "2": "transport for up to 8 people",
+                    "text": "* Price includes: Transport, gloves, protective clothing, helmet, cold drinks, instructor, quick training, driver assistance, Tatra National Park entry and accident insurance (NNW)."
+                },
+                "tripprogram": {
+                    "header": "Trip Program:",
+                    "1": "Departure from Zakopane (pick-up from accommodation)",
+                    "2": "Drive to Witów — starting point",
+                    "3": "Short quad handling course and change into protective gear",
+                    "4": "Ride with Instructor along the Polish-Slovakian border route",
+                    "5": "Return to Zakopane"
                 }
             },
             "swiatynia-lodowa-hrebieniok": {
@@ -1112,7 +1152,7 @@
     },
     "transport": {
         "header": "Transport",
-        "text": "Trio Travel offers comprehensive and well-organized passenger transport. Zakopane is not the only area where we operate; we also deal with transport throughout the country and abroad. Our services include transfers to and from airports, local transport, as well as servicing conferences, weddings, and all other typical and atypical orders. ",
+        "text": "Trio Travel offers comprehensive and well-organized passenger transportation. Zakopane is not the only area we operate in; we also provide transport services throughout the country and abroad. Our services include transfers to and from airports, local transportation, as well as support for conferences, weddings, and various typical and atypical orders. For organized groups, we can provide transport and assistance with event planning upon telephone or email contact.",
         "header2": "for safe and comfortable travel. We invite you to contact us and share the miles!",
         "header3": "Your Way",
         "text2": "We make every effort to ensure that each order is carried out properly and meets the expectations of our clients. The team's priority is customer satisfaction and the high quality of services provided. Our drivers are experienced employees, ensuring full professionalism and appropriate skills. Thanks to many years of experience in transport, the passenger transport we organize is a comfortable and safe journey. We guarantee punctuality and attractive prices. Each client has different expectations and needs, so we always tailor our services to individual requirements. Our vehicles have all the necessary permits and full equipment enabling trouble-free international trips, ensuring the safety and comfort of passengers during each route.",
@@ -1289,7 +1329,7 @@
             "title": "Budapest - Trip to the Capital of Hungary, Heroes' Square, and Danube Cruise",
             "description": "Visit Budapest with Trio Travel! See Heroes' Square, Vajdahunyad Castle, Gellért Hill, Danube cruise, and other attractions of Hungary's capital. Full of history and the magic of the city by the Danube."
         },
-        "zamek-orawski": {
+        "krajobrazy-slowacji": {
             "title": "Orava Castle - Trip from Zakopane | Guided Tour",
             "description": "One-day trip to Orava Castle with Trio Travel - explore the majestic fortress, visit the Chochołów open-air museum, and taste oscypek cheese. Transport from Zakopane, tickets included. Check the program and prices!"
         },
@@ -1320,6 +1360,10 @@
         "ciekawostki-o-splywie-dunajcem": {
             "title": "Fun Facts About Dunajec Rafting – Interesting Information",
             "description": "Discover the most fascinating facts about rafting on the Dunajec River. Learn what to expect and uncover stories about this unique adventure."
+        },
+        "quady": {
+            "title": "Quad Tours in the Tatra Mountains – Off-Road Adventure from Zakopane",
+            "description": "Discover thrilling quad bike tours in the Tatras! Scenic forest routes, expert instructor, gear included. Perfect for nature lovers and adrenaline seekers."
         }
     },
     "triptime": {

@@ -56,6 +56,11 @@ export default function Hero() {
         translationKey: "headers.header4", // "transport?"
         link: "/transport",
       },
+      {
+        background: "/morskie-oko/morskie-oko.webp",
+        translationKey: "headers.header11", // "transport nad morskie oko?"
+        link: "/transport-nad-morskie-oko",
+      },
     ],
     []
   );

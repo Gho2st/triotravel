@@ -64,6 +64,14 @@ export default function Zakopane() {
         <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto xl:text-xl">
           {t.rich("text", {
             strong: (chunks) => <strong>{chunks}</strong>,
+            a: (chunks) => (
+              <a
+                href="/wycieczki/slowacki-raj"
+                className="text-blue-600 underline"
+              >
+                {chunks}
+              </a>
+            ),
           })}
         </p>
 

@@ -46,6 +46,7 @@ export default function SplywKrotszy() {
     t("list.3"),
     t("list.4"),
     t("list.5"),
+    t("list.6"),
   ];
 
   const tripItems = [

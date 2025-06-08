@@ -2,7 +2,6 @@ import Header from "@/app/UI/Header";
 import Image from "next/image";
 import Gallery from "@/app/UI/Slider";
 import { useTranslations } from "next-intl";
-import Button from "@/app/UI/Buttons/Button";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import Table from "@/app/UI/Table";
@@ -58,9 +57,6 @@ export default function TransportNadMorskie() {
         <p className="px-6 md:px-20 xl:px-32 2xl:px-44 pb-12  md:w-3/4 mx-auto  xl:text-xl text-center">
           {t("text")}
         </p>
-        <div className="flex justify-center mb-10 md:mb-20">
-          <Button link="/mapa-przystankow" text={t("button")} />
-        </div>
         <div className="my-16">
           <Table
             headers={tableHeaders}

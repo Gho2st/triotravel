@@ -45,7 +45,15 @@ export default function Rafting() {
     t("list.4"),
     t("list.5"),
   ];
-  const tripItems = [];
+  const tripItems = [
+    t("tripprogram.1"),
+    t("tripprogram.2"),
+    t("tripprogram.3"),
+    t("tripprogram.4"),
+    t("tripprogram.5"),
+    t("tripprogram.6"),
+    t("tripprogram.7"),
+  ];
 
   // Przykładowe dane dla tabeli
   const tableHeaders = [t("table.header1"), t("table.header2")];
@@ -93,13 +101,8 @@ export default function Rafting() {
           />
         </div>
         <div className="mt-16">
-          <TripProgram
-            title={t("tripprogram.header") + " ok. 9-10h"}
-            items={tripItems}
-          />
-          <TripTime
-            showCallInfo={true}
-          />
+          <TripProgram title={t("tripprogram.header")} items={tripItems} />
+          <TripTime showCallInfo={true} />
         </div>
       </section>
       <div>

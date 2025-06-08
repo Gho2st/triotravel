@@ -58,7 +58,7 @@
         "text2": "Több éves tapasztalatunkkal különféle turisztikai projektek teljes körű megszervezésére specializálódtunk – iskolai és céges kirándulásoktól kezdve, csapatépítő és tematikus rendezvényeken át, egészen a szállításig és eseménylogisztikáig. Legyen szó hegyi kalandról, pihentető hétvégéről vagy aktív túráról idegenvezetővel, a Trio Travel minden részletről gondoskodik."
     },
     "offer": {
-        "header": "2025 Tavaszi Ajánlat",
+        "header": "2025 Nyári Ajánlat",
         "trips": {
             "header": "Kirándulások",
             "1": "Tutajozás a Dunajecen 2,5 óra",
@@ -71,13 +71,16 @@
             "8": "Szlovák Paradicsom",
             "9": "Bécs",
             "10": "Budapest",
-            "11": "Árva vára",
+            "11": "Szlovák tájak",
             "12": "Jégtemplom a Hrebienokon",
             "13": "Krakkó felfedezése",
             "14": "A Tátra körül",
             "15": "Rafting a Dunajecen",
             "16": "Hegyi lakoma",
-            "17": "Tátra és Zakopane"
+            "17": "Tátra és Zakopane",
+            "18": "Pápai ösvény",
+            "19": "Morskie Oko",
+            "20": "Quadok"
         },
         "tripslist": {
             "szlak-papieski": {
@@ -105,7 +108,7 @@
                     "header2": "A kirándulás teljes ára",
                     "1": "Normál",
                     "2": "Kedvezményes (10 év alatti gyermekek)",
-                    "text": "Az ajánlat tartalmazza: • Szállítás, balesetbiztosítás, idegenvezető. További költség lehet: • Oscypek sajt vagy emléktárgyak vásárlása Jan Ziędera műhelyéből (opcionális)."
+                    "text": "Az ajánlat tartalmazza: • Szállítást, balesetbiztosítást, idegenvezetői felügyeletet<br></br><strong>További költségek:</strong> • esetleges vásárlás Oscypek sajtból és Jan Ziętara műhelyének ajándéktárgyaiból"
                 },
                 "tripprogram": {
                     "header": "Időtartam (kb.):",
@@ -147,7 +150,7 @@
                     "3": "Strążyska-völgy - Ideális útvonal kezdőknek és kisgyermekes családoknak. A piros jelzésű útvonal (4 km oda-vissza, kb. 1,5 óra) a Siklawica-vízeséshez (23 m) vezet. Útközben elhaladunk a Strążyska-réten, ahol büfé található. A völgyből gyönyörű kilátás nyílik a Giewontra. Az útvonal könnyű, részben kavicsos, és alkalmas babakocsik számára is.",
                     "4": "Kościeliska-völgy - A Tátra egyik legszebb völgye. A zöld jelzésű útvonal Kirytől az Ornak menedékházig (5,5 km, kb. 1,5 óra) könnyű, és mészkő sziklaformációkra valamint barlangokra (pl. Mroźna-barlang, külön díj ellenében) nyújt kilátást. Tavasszal a völgyet krókuszok díszítik. Az útvonal széles, tökéletes családi sétákhoz.",
                     "5": "Chochołowska-völgy - A Tátra legnagyobb völgye, híres krókuszairól és pásztorkunyhóiról. A zöld jelzésű útvonal Siwa Polanától a PTTK menedékházig (7,5 km, kb. 2 óra) könnyű, részben aszfaltozott, alkalmas babakocsik és kerékpárok számára. A völgyben található a „Janosik” című filmből ismert kápolna és egy II. János Pál pápa látogatását megörökítő tábla.",
-                    "6": "Zakopanei városnéző túra - A túra magában foglalja a Krupówki meglátogatását, felvonózást a Gubałówkára, látogatást a Krzeptówki-szentélyben és sétát a Régi Templomhoz. A túra minden korosztály számára alkalmas, profi idegenvezetővel."
+                    "6": "Zakopanei körutazás – a pápai útvonal. Útvonal minden korosztály számára alkalmas csoportoknak, profi idegenvezetővel."
                 }
             },
             "biesiada": {
@@ -191,7 +194,7 @@
                     "2": "Kedvezményes felfelé",
                     "3": "Normál oda-vissza",
                     "4": "Kedvezményes oda-vissza",
-                    "text": "* A jegyárak az időponttól függően változhatnak."
+                    "text": "* A jegyárak az időponttól függően változhatnak. A jegyek névre szólnak és meghatározott időpontra érvényesek. Telefonos egyeztetés után online foglalás is lehetséges előzetes fizetéssel."
                 },
                 "list": {
                     "header": "Fedezze fel a fenséges Kasprowy Wierchet – a Tátra egyik legszebb csúcsát, amely vonzza a hegyi panorámák és felejthetetlen élmények szerelmeseit.",
@@ -342,12 +345,13 @@
                 "header3": "Kirándulás a Pieninekbe: Tutajozás és Niedzica",
                 "text": "Számos rendkívül izgalmas attrakciót készítettünk elő, amelyek biztosan érdekessé és felejthetetlenné teszik a pihenés idejét. A Zakopanéból induló Dunajec tutajozás fantasztikus módja annak, hogy gyönyörködjön a gyönyörű tájakban, miközben rengeteget láthat. A tutajosok lenyűgöző történetekkel és a folyóval valamint környékével kapcsolatos legendákkal szórakoztatják Önt. A fa tutajokon való tutajozáson kívül, ahonnan a Pieninek lenyűgöző látványában gyönyörködhet, az ajánlat magában foglalja a Niedzicai vár, a Dunajec gát vagy a Podhale, Orawa és Szepesség Miniatűr Parkjának meglátogatását is.",
                 "list": {
-                    "header": "A Pieninekbe irányuló kirándulás során a fő attrakció, a fa tutajokon való tutajozás mellett Niedzicát is meglátogatja, ahol számos látnivaló közül választhat:",
-                    "1": "Hajókázás a Czorsztyni-tavon (A sétahajózás során megcsodálhatja a víztározót, a Czorsztyni vár romjait, a Niedzicai várat, a Czorsztyni skanzent és a gyönyörű hegyi tájat). Ez az utazás olyan kaland, amely sokáig emlékezetes marad!",
-                    "2": "Niedzicai vár – ahol Jánost fogva tartották és kínozták.",
-                    "3": "Czorsztyni gát 3D technikával készült látványos festménnyel.",
-                    "4": "Podhale, Orawa és Szepesség Miniatűr Parkja, kötélpálya.",
-                    "5": "Zakopanéba visszatérve megállunk Dębnóban, ahol a XV. századi, UNESCO-listán szereplő fa templom található – kb. 20 perces előadás a templom gondnokával."
+                    "header": "A Pieninekbe tett kirándulás során a fő attrakción – a tutajozáson – kívül ellátogatsz Niedzicába is, ahol számos látnivaló közül választhatsz:",
+                    "1": "Hajókirándulás a Czorsztyni-tavon (a sétahajózás során megcsodálhatod a víztározót, a czorsztyni vár romjait, a niedzicai várat, a Czorsztyn skanzent és a lenyűgöző hegyi tájat). Ez egy felejthetetlen kaland!",
+                    "2": "A niedzicai vár – ahol Janosikot fogva tartották és megkínozták.",
+                    "3": "A Czorsztyni víztározó látványos 3D-s falfestménnyel.",
+                    "4": "Miniatűrpark Podhale, Árva és Szepes régióról, valamint egy kalandpark.",
+                    "5": "A Dunajec folyó szakasza a Vörös Kolostortól Leśnicáig nyugodt és festői útvonal a Pieninek Nemzeti Park szívében. A tutajozás során lenyűgöző mészkősziklákat, zöld domboldalakat és kanyargó folyót láthatsz. A látvány felejthetetlen, ideális családoknak és természetkedvelőknek.",
+                    "6": "Leśnicában egy rövid pihenő vár rád a bájos faluban. Jó lehetőség fényképek készítésére, szuvenírvásárlásra vagy helyi ízek megkóstolására. A hegyek és a csend különleges hangulatot kölcsönöznek. Előzetes egyeztetéssel a sofőrrel visszafelé megállhatunk egy útszéli boltban italokért vagy emléktárgyakért."
                 },
                 "info": "A tutajos szezon április 1-től október 31-ig tart – hétköznap, péntek és vasárnap. Tehát minden nap várjuk a kirándulásra!",
                 "table": {
@@ -445,6 +449,7 @@
                 "table": {
                     "header1": "Jegy típusa",
                     "header2": "HIT CSOMAG 4 óra (belépés a medence- és gyógyzónába, ingyenes transzfer a szálláshelyről oda-vissza)",
+                    "text": "* Az ár tartalmazza a belépőjegyet a termálfürdőbe és a szállítást.",
                     "1": "Normál jegy",
                     "2": "Kedvezményes jegy (10 évig, 26 év alatti diákok, 65 év feletti nyugdíjasok)"
                 }
@@ -728,14 +733,14 @@
                     "4": "Minden résztvevőnek érvényes útlevéllel vagy személyi igazolvánnyal kell rendelkeznie, kortól függetlenül."
                 }
             },
-            "zamek-orawski": {
+            "krajobrazy-slowacji": {
                 "alt": {
                     "1": "Orawai Vár drónfelvételen naplementekor",
                     "2": "Növényzettel borított vár",
                     "3": "Az Orawai Vár, amely a természetes sziklákba illeszkedik",
                     "4": "Orawai Vár fák mellett"
                 },
-                "header": "Orawai Vár",
+                "header": "Szlovák tájak",
                 "header2": "Mit kínálunk?",
                 "header3": "Ismerje meg Budapestet",
                 "text": "A Triotravel örömmel invitálja Önt egy egynapos, látnivalókban gazdag kirándulásra. Egyedülálló utazást kínálunk, amely magában foglalja az Orawai Vár látogatását, a Chochołowi Skanzent, valamint oscypek kóstolót a régió legrégebbi pásztorkunyhójában. Orawai Vár A magas sziklán elhelyezkedő Orawai Vár fenséges erődítmény, amely építészetével és gazdag történelmével lenyűgöz. Az idegenvezetés során megismerhetik a vár életével és lakóival kapcsolatos lenyűgöző történeteket. Ez egy felejthetetlen időutazás, amely közelebb hozza a régió kultúráját és hagyományait. Chochołowi Skanzen A Chochołowi Skanzen egyedülálló hely, ahol átérezheti a hagyományos hegyi kultúra szellemét. A festői Chochołów faluban található skanzen lehetőséget nyújt a látogatóknak, hogy megtekintsék az autentikus fa házakat, amelyek generációk óta megőrzik egyedi jellegüket.",
@@ -817,9 +822,9 @@
                 "header2": "Mit kínálunk?",
                 "header3": "Mit láthatsz?",
                 "info": "A tutajozási szezon április 1-től október 31-ig tart – hétköznap, péntek és vasárnap. Tehát minden nap várjuk a kirándulásra! FIGYELEM: Hozz magaddal váltóruhát. A tutajozás szandálban, vízálló cipőben vagy mezítláb engedélyezett. Magassarkú cipő nem megengedett.",
-                "text": "Kezdetben a Dunajec-völgyi tutajozásokat kizárólag különleges alkalmakra szervezték. Csak a főurak, gazdagok és fontos személyiségek vehették igénybe, akik a czorsztyni és a niedzicai várban találkoztak a királlyal. Ma te is VIP-nek érezheted magad, és átélheted a kalandvágyat, adrenalintól fűtve…",
+                "text": "Az extrém rafting a Dunajec folyón felejthetetlen kaland azok számára, akik adrenalint és a természet közelségét keresik. A szurdok erős sodrásokat, köves szakaszokat és látványos sziklafalakat kínál, amelyek fokozzák az izgalmakat. A rafting útvonala a vízszinttől és az időjárási viszonyoktól függően változhat, így minden túra más élményt nyújt. Teljes felszerelésben és tapasztalt oktatók felügyelete mellett biztonságosan szembenézhetsz az elemekkel. Ez a tevékenység sportot, kihívást és szórakozást ötvöz, így minden pillanat a vízen felejthetetlen élménnyé válik. Tökéletes választás aktív emberek számára, akik biztonságos körülmények között szeretnék megtapasztalni a vad természet ízét.",
                 "list": {
-                    "header": "A Pieninekbe irányuló kirándulás során a fő attrakció, a kétórás, érzelmekkel teli tutajozás mellett, Niedzicát is meglátogatod, ahol választhatsz az alábbi látnivalók közül:",
+                    "header": "A rafting mint tökéletes csapatépítő kaland. A Dunajec folyón való extrém rafting kiváló választás szervezett csoportok, cégek vagy családok számára, akik izgalmat és összetartást keresnek egy különleges környezetben. A tutajozást szabadidő követi a niedzicai víztározónál és a dębnoi fatemplomnál, ami meghosszabbítja a kalandot és lehetőséget ad a pihenésre az intenzív élmények után. A szervezők teljes logisztikai támogatást és professzionális mentőszolgálatot biztosítanak. Ez az élmény nemcsak felejthetetlen izgalmakat kínál, hanem erősíti a résztvevők közötti kapcsolatokat is, és hosszú ideig emlékezetes marad.",
                     "1": "Hajókázás a Czorsztyni-tavon: A sétahajózás során megcsodálhatod a víztározót, a czorsztyni vár romjait, a niedzicai várat, a czorsztyni skanzent és a gyönyörű hegyi tájat. Ez egy olyan kaland, amely sokáig emlékezetes marad!",
                     "2": "Niedzicai vár: Itt, a vár pincéiben megtekintheted a kínzókamrát bilincsekkel, amelyekbe a legenda szerint Jánost is bezárták.",
                     "3": "A Dunajec gát megtekintése: A Czorsztyn-Niedzica fő gát Lengyelország legnagyobb, 56 méter magas és 404 méter hosszú földgátja.",
@@ -838,7 +843,42 @@
                     "additional": "Külön fizetendő"
                 },
                 "tripprogram": {
-                    "header": "A kirándulás időtartama:"
+                    "header": "Túraprogram:",
+                    "1": "Indulás Zakopanéból körülbelül 8:00-kor (szálláshelyről történő felvétel*)",
+                    "2": "Utazás a találkozási pontra, eligazítás és átöltözés",
+                    "3": "Tutajos evezés a Dunajec folyón (1,5–2 óra)",
+                    "4": "Utazás a niedzicai várhoz és gáthoz (szabadidő – 2 óra)",
+                    "5": "Utazás Dębno-ba – A fatemplom megtekintése",
+                    "6": "Visszatérés Zakopanéba",
+                    "7": "A túra programja módosítható a csoport igényei szerint."
+                }
+            },
+            "quady": {
+                "alt": {
+                    "1": "Személy quadon, erdei földúton haladva porfelhőt kelt a terepen való közlekedés közben.",
+                    "2": "Egy férfi és egy nő quadon haladnak erdős területen, fákkal és fűvel körülvéve. A jármű terepre készült, nagy kerekekkel, hogy megbirkózzon a nehéz terepviszonyokkal.",
+                    "3": "Közelkép egy jármű abroncsáról és kerekéről, a mintázat és a sárvédő jól látható. Az erdőben parkolva utal a terephasználatra.",
+                    "4": "Quadsor parkol a füves mezőn, részben felhős ég alatt, fákkal a háttérben.",
+                    "5": "Egy fekete quad parkol a füves területen, fákkal körülvéve."
+                },
+                "header": "Quad túrák a Tátrában",
+                "header2": "Túra oktatóval",
+                "header3": "Mit láthatsz?",
+                "text": "Quad túra Podhalén igazi kaland – tele izgalommal, gyönyörű kilátással és sárral! Az erdei ösvényeken és hegyi réteken való vezetés nemcsak szórakoztató, hanem felejthetetlen élményt nyújt. Tökéletes módja annak, hogy felfedezd a Tátra vad oldalát egy kicsit gyorsabb tempóban.",
+                "table": {
+                    "header1": "Jegytípus",
+                    "header2": "Költség",
+                    "1": "1 kétszemélyes quad",
+                    "2": "szállítás legfeljebb 8 fő részére",
+                    "text": "* Az ár tartalmazza: Szállítás, kesztyű, védőruha, bukósisak, hideg italok, oktató, rövid képzés, sofőr kísérete, belépő a TPN területére és balesetbiztosítás (NNW)."
+                },
+                "tripprogram": {
+                    "header": "Túraprogram:",
+                    "1": "Indulás Zakopanéból (szálláshelyről történő felvétel)",
+                    "2": "Utazás Witówba – a túra kezdőpontja",
+                    "3": "Rövid quadkezelési oktatás és védőruha felvétele",
+                    "4": "Túra oktatóval a lengyel–szlovák határ mentén",
+                    "5": "Visszatérés Zakopanéba"
                 }
             },
             "swiatynia-lodowa-hrebieniok": {
@@ -1117,7 +1157,7 @@
     },
     "transport": {
         "header": "Szállítás",
-        "text": "A Trio Travel átfogó és kiválóan megszervezett személyszállítást kínál. Zakopane nem az egyetlen terület, ahol működünk, foglalkozunk országos és külföldi szállítással is. Szolgáltatásaink magukban foglalják a reptéri transzfereket, helyi szállítást, valamint konferenciák, esküvők és egyéb tipikus és szokatlan megbízások kiszolgálását.",
+        "text": "A Trio Travel átfogó és jól szervezett személyszállítást kínál. Zakopane nem az egyetlen terület, ahol működünk; országosan és külföldön is vállalunk szállítást. Szolgáltatásaink közé tartoznak a repülőtéri transzferek, helyi fuvarok, valamint konferenciák, esküvők és különféle tipikus és nem tipikus megrendelések kiszolgálása. Szervezett csoportok számára telefonos vagy e-mailes egyeztetés után biztosítunk szállítást és segítséget rendezvények szervezéséhez.",
         "header2": "biztonságos és kényelmes utazáshoz. Hívj minket, és utazzunk együtt!",
         "header3": "A Te Módod",
         "text2": "Minden erőnkkel azon vagyunk, hogy minden megbízás megfelelően teljesüljön és megfeleljen ügyfeleink elvárásainak. Csapatunk munkájának prioritása az ügyfél elégedettsége és a nyújtott szolgáltatások magas minősége. Sofőrjeink tapasztalt munkatársak, akik teljes professzionalizmust és megfelelő készségeket biztosítanak. A szállításban szerzett sokéves tapasztalatunknak köszönhetően általunk szervezett személyszállítás kényelmes és biztonságos utazást jelent. Kötelezően biztosítjuk a pontosságot és vonzó árakat. Minden megbízónak más elvárásai és igényei vannak, ezért szolgáltatásainkat mindig az egyéni igényekhez igazítjuk. Járműveink minden szükséges engedéllyel és teljes felszereléssel rendelkeznek, amelyek lehetővé teszik a problémamentes külföldi utazásokat, garantálva az utasok biztonságát és kényelmét minden útvonalon.",
@@ -1294,7 +1334,7 @@
             "title": "Budapest - Kirándulás Magyarország Fővárosába, Hősök tere és Hajókázás a Dunán",
             "description": "Látogasd meg Budapestet a Trio Travellel! Nézd meg a Hősök terét, a Vajdahunyad várát, a Gellért-hegyet, hajókázz a Dunán és más látnivalókat Magyarország fővárosában. Történelemmel és varázslattal teli város a Duna partján."
         },
-        "zamek-orawski": {
+        "krajobrazy-slowacji": {
             "title": "Orawai Vár - Kirándulás Zakopanéból | Idegenvezetéses Látogatás",
             "description": "Egynapos kirándulás az Orawai Várhoz a Trio Travellel – a fenséges erődítmény látogatása, Chochołowi skanzen és oscypek kóstolás. Szállítás Zakopanéból, jegyek az árban. Nézd meg a programot és az árakat!"
         },
@@ -1325,6 +1365,10 @@
         "ciekawostki-o-splywie-dunajcem": {
             "title": "Érdekességek a Dunajec túráról – Érdekes információk",
             "description": "Fedezd fel a Dunajec folyón történő tutajozás legérdekesebb tényeket és történeteket. Tudj meg mindent, amit érdemes az útról."
+        },
+        "quady": {
+            "title": "Quad túrák a Tátrában – Terepkaland Zakopanéból",
+            "description": "Izgalmas quad túra Podhalén át! Erdős utak, hegyi panoráma, oktatóval és felszereléssel. Kalandvágyók és természetkedvelők számára ideális!"
         }
     },
     "triptime": {

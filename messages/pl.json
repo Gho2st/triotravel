@@ -58,7 +58,7 @@
         "text2": "Dzięki wieloletniemu doświadczeniu specjalizujemy się w kompleksowej organizacji różnorodnych projektów turystycznych – od wycieczek szkolnych i firmowych, przez imprezy integracyjne i tematyczne, aż po transport oraz logistykę wydarzeń. Niezależnie od tego, czy marzysz o górskiej przygodzie, relaksującym weekendzie, czy aktywnej wyprawie z przewodnikiem, Trio Travel zatroszczy się o każdy szczegół."
     },
     "offer": {
-        "header": "Oferta Wiosna 2025",
+        "header": "Oferta Lato 2025",
         "trips": {
             "header": "Wycieczki",
             "1": "Spływ Dunajcem 2.5h",
@@ -71,14 +71,16 @@
             "8": "Słowacki Raj",
             "9": "Wiedeń",
             "10": "Budapeszt",
-            "11": "Zamek Orawski",
+            "11": "Krajobrazy Słowacji",
             "12": "Świątynia Lodowa Hrebieniok",
             "13": "Zwiedzanie Krakowa",
             "14": "Dookoła Tatr",
             "15": "Rafting po Dunajcu",
             "16": "Biesiada Góralska",
             "17": "Tatry i Zakopane",
-            "18": "Szlak Papieski"
+            "18": "Szlak Papieski",
+            "19": "Morskie Oko",
+            "20": "Quady"
         },
         "tripslist": {
             "szlak-papieski": {
@@ -106,7 +108,7 @@
                     "header2": "Całkowity Koszt Wycieczki",
                     "1": "Normalny",
                     "2": "Ulgowy (dzieci do 10 lat)",
-                    "text": "Oferta obejmuje: • Transport, ubezpieczenie NNW, opiekę pilota Dodatkowo płatne: • ewentualny zakup Oscypków i pamiątek z pracowni Jana Ziętary"
+                    "text": "Oferta obejmuje: • Transport, ubezpieczenie NNW, opiekę pilota<br></br><strong>Dodatkowo płatne:</strong> • ewentualny zakup Oscypków i pamiątek z pracowni Jana Ziętary"
                 },
                 "tripprogram": {
                     "header": "Czas trwania: ok.",
@@ -141,14 +143,14 @@
                 "header": "Wycieczka w Górach",
                 "header2": "Tatry i Zakopane",
                 "header3": "Opis Atrakcji:",
-                "text": "Zapraszamy na niezapomnianą przygodę w sercu Tatr! Nasze wycieczki w góry to idealny sposób, by odkryć majestatyczne szczyty, malownicze doliny i krystaliczne jeziora. Od spacerów nad Morskim Okiem, przez wędrówki na Kasprowy Wierch, po relaks w Dolinie Chochołowskiej – każdy znajdzie coś dla siebie. Oferujemy zarówno łatwe trasy dla rodzin, jak i wyzwania dla miłośników adrenaliny, w tym emocjonującą wyprawę do Słowackiego Raju. Dołącz do nas, poznaj Zakopane z przewodnikiem i poczuj magię tatrzańskiej przyrody!",
+                "text": "Zapraszamy na niezapomnianą przygodę w sercu Tatr! Nasze wycieczki w góry to idealny sposób, by odkryć majestatyczne szczyty, malownicze doliny i krystaliczne jeziora. Od spacerów nad Morskim Okiem, przez wędrówki na Kasprowy Wierch, po relaks w Dolinie Chochołowskiej – każdy znajdzie coś dla siebie. Oferujemy zarówno łatwe trasy dla rodzin, jak i wyzwania dla miłośników adrenaliny, w tym emocjonującą wyprawę do <a>Słowackiego Raju</a>. Dołącz do nas, poznaj Zakopane z przewodnikiem i poczuj magię tatrzańskiej przyrody!",
                 "list": {
                     "1": "Kasprowy Wierch - Kasprowy Wierch (1987 m n.p.m.) to jeden z najpopularniejszych szczytów Tatr. Można na niego wjechać koleją linową z Kuźnic lub wejść pieszo. Najłatwiejszy szlak to zielony z Kuźnic przez Myślenickie Turnie (7 km, ok. 3,5h). Alternatywnie, szlak niebieski przez Halę Gąsienicową oferuje piękne widoki. Ze szczytu roztacza się panorama na Tatry Zachodnie, Wysokie i słowacką Dolinę Cichą. Na górze znajduje się Wysokogórskie Obserwatorium Meteorologiczne oraz restauracja.",
                     "2": "Morskie Oko - to największe jezioro w Tatrach, położone na wysokości 1395 m n.p.m. Trasa z Palenicy Białczańskiej (czerwony szlak, 9 km) zajmuje ok. 2,5h w jedną stronę. Po drodze mijamy Wodogrzmoty Mickiewicza. Szlak jest łatwy, idealny dla rodzin, choć w sezonie bywa zatłoczony. Przy jeziorze znajduje się schronisko PTTK, gdzie można odpocząć i spróbować lokalnych przysmaków.",
                     "3": "Dolina Strążyska - to idealna trasa dla początkujących i rodzin z dziećmi. Czerwony szlak (4 km w obie strony, ok. 1,5h) prowadzi do wodospadu Siklawica (23 m). Po drodze mijamy Polanę Strążyską z bufetem. Z doliny rozpościera się piękny widok na Giewont. Trasa jest łatwa, częściowo szutrowa, odpowiednia także dla wózków dziecięcych.",
                     "4": "Dolina Kościeliska -  to jedna z najpiękniejszych tatrzańskich dolin. Zielony szlak z Kir do schroniska Ornak (5,5 km, ok. 1,5h) jest łatwy i oferuje widoki na wapienne formacje skalne oraz jaskinie (np. Jaskinia Mroźna, dodatkowo płatna). Wiosną dolina zachwyca krokusami. Trasa jest szeroka, idealna na spacery rodzinne.",
                     "5": "Dolina Chochołowska -  Dolina Chochołowska, największa w Tatrach, słynie z krokusów i szałasów pasterskich. Zielony szlak z Siwej Polany do schroniska PTTK (7,5 km, ok. 2h) jest łatwy, częściowo asfaltowy, odpowiedni dla wózków i rowerów. W dolinie znajduje się kościółek z filmu „Janosik” oraz tablica upamiętniająca wizytę Jana Pawła II.",
-                    "6": "Wycieczka Objazdowa po Zakopanem - Wycieczka obejmuje zwiedzanie Krupówek, wjazd na Gubałówkę, wizytę w Sanktuarium na Krzeptówkach oraz spacer po Starym Kościółku. Trasa dostosowana do grup w każdym wieku, z profesjonalnym przewodnikiem. "
+                    "6": "Wycieczka Objazdowa po Zakopanem - szlak papieski. Trasa dostosowana do grup w każdym wieku, z profesjonalnym przewodnikiem. "
                 }
             },
             "biesiada": {
@@ -192,7 +194,7 @@
                     "2": "Ulgowy w górę",
                     "3": "Normalny w obie strony",
                     "4": "Ulgowy w obie strony",
-                    "text": "* Ceny biletów mogą ulec zmianie w zależności od godziny. "
+                    "text": "* Ceny biletów mogą ulec zmianie w zależności od godziny. Bilety są imienne i na określoną godzinę. Po kontakcie telefonicznym możliwość załatwienia online po wcześniejszym opłaceniu."
                 },
                 "list": {
                     "header": "Odkryj majestatyczny Kasprowy Wierch – jeden z najpiękniejszych szczytów Tatr, który przyciąga miłośników górskich widoków i niezapomnianych wrażeń.",
@@ -348,7 +350,8 @@
                     "2": "Zamek w Niedzicy -  gdzie więziono i torturowano Janosika.",
                     "3": "Zaporę Czorsztyńską wraz z spektakularnym malowidłem wykonanym w technice 3D",
                     "4": "Park Miniatur Podhala, Orawy i Spisza, park linowy.",
-                    "5": "Wracając do Zakopanego zatrzymamy się w Dębnie, gdzie znajduje się zabytkowy drewniany Kościół z XV w wpisany na listę UNESCO - prelekcja z Panią kustosz ok. 20 min."
+                    "5": "Odcinek Dunajca od Czerwonego Klasztoru do Leśnicy to spokojna i malownicza trasa, która biegnie przez serce Pienińskiego Parku Narodowego. Podczas spływu można podziwiać majestatyczne wapienne skały, zielone stoki i krętą rzekę wijącą się między górami. Widoki są niezapomniane, a cała trasa pozwala na pełny relaks w otoczeniu przyrody. To idealna propozycja dla rodzin z dziećmi oraz wszystkich, którzy cenią ciszę i piękno natury.",
+                    "6": " W Leśnicy czeka krótka przerwa na odpoczynek i spacer po urokliwej wiosce. To dobre miejsce na zdjęcia, kupno pamiątek lub spróbowania lokalnych smaków. Otoczenie gór i cisza dodają temu miejscu wyjątkowego klimatu. Po wcześniejszym uzgodnieniu z kierowcą podczas powrotu możemy zatrzymać się również w przydrożnym sklepiku z alkoholami i pamiątkami na zakupy."
                 },
                 "info": "Sezon flisacki trwa od 1 kwietnia do 31 października - świątek, piątek i niedziele. Zatem na wycieczkę zapraszamy codziennie!",
                 "table": {
@@ -446,6 +449,7 @@
                 "table": {
                     "header1": "Rodzaj biletu",
                     "header2": "HIT PAKIET czas 4 godziny (wstęp na strefę basenową i leczniczą, transport z miejsca zakwaterowania w obie strony GRATIS)",
+                    "text": "* Cena obejmuje bilet wejściowy na termy oraz transport.",
                     "1": "Bilet normalny",
                     "2": "Bilet ulgowy (do 10 lat, studencji do 26 roku życia, emeryci 65+) (do 10 lat)"
                 }
@@ -729,14 +733,14 @@
                     "4": "Wymagany ważny paszport lub dowód osobisty dla każdego uczestnika wycieczki bez względu na wiek."
                 }
             },
-            "zamek-orawski": {
+            "krajobrazy-slowacji": {
                 "alt": {
                     "1": "Zamek Orawski z drona przy zachodzie słońca",
                     "2": "Zamek porośnięty roślinnością",
                     "3": "Zamek Orawski wkomponowujący się w naturalne skały",
                     "4": "Zamek Orawski przy drzewach"
                 },
-                "header": "Zamek Orawski",
+                "header": "Krajobrazy Słowacji",
                 "header2": "Co oferujemy?",
                 "header3": "Poznaj Budapeszt",
                 "text": "Triotravel z przyjemnością zaprasza na pełną atrakcji jednodniową wycieczkę. Proponujemy Państwu wyjątkową podróż, która obejmuje zwiedzanie Zamku Orawskiego, Skansenu w Chochołowie oraz degustację oscypków w najstarszej bacówce w regionie. Zamek Orawski Położony na wysokiej skale, Zamek Orawski to majestatyczna twierdza, która zachwyca swoją architekturą i bogatą historią. Podczas zwiedzania z przewodnikiem poznają Państwo fascynujące opowieści o życiu zamku oraz jego mieszkańców. To niezapomniana podróż w czasie, która przybliży Państwu kulturę i tradycje regionu. Skansen w Chochołowie Skansen w Chochołowie to unikatowe miejsce, gdzie można poczuć ducha tradycyjnej kultury góralskiej. Położony w malowniczej wsi Chochołów, skansen oferuje zwiedzającym możliwość zobaczenia autentycznych, drewnianych chałup, które od pokoleń zachowują swój niepowtarzalny charakter.",
@@ -818,12 +822,12 @@
                     "8": "Grupa osób w kamizelkach ratunkowych siedzi w pontonie na rzece. Wspólnie wiosłują, z drzewami wzdłuż brzegu rzeki i czystym błękitnym niebem nad głową."
                 },
                 "header": "Rafting po Dunajcu",
-                "header2": "Co oferujemy?",
-                "header3": "Co zobaczysz?",
+                "header2": "Dawka adrenaliny",
+                "header3": "Umiejętność współpracy w praktyce",
                 "info": "Sezon spływowy trwa od 1 kwietnia do 31 października - świątek, piątek i niedziele. Zatem na wycieczkę zapraszamy codziennie! UWAGA: Weź ze sobą odzież na przebranie. Spływ dozwolony w sandałach, butach wodoodpornych lub na bosaka. Szpilki odpadają.",
-                "text": "Na początku spływy Doliną Dunajca organizowane były wyłącznie na wyjątkowe okazje. Korzystać z nich mogli jedynie możnowładcy, bogacze oraz ważne persony, którzy spotykali się z królem na zamku w Czorsztynie i Niedzicy. Dziś również ty możesz być jak VIP i poczuć władczą rządzę przygody z adrenaliną w tle…",
+                "text": "Ekstremalny rafting pontonami wzdłuż Dunajca to niezapomniana przygoda dla osób spragnionych adrenaliny i bliskości z naturą. Przełom oferuje silne nurty, kamieniste odcinki i spektakularne widoki skalnych ścian, które potęgują emocje. Trasa raftingu może się różnić w zależności od poziomu wody i warunków pogodowych, co sprawia, że każda wyprawa jest inna. W pełnym zabezpieczeniu i pod okiem doświadczonych instuktorów można bezpiecznie stawić czoła żywiołowi. Taka forma aktywności łączy sport, wyzwanie i zabawę w jednym, sprawiając, że każda chwila na wodzie staje się niezapomnianym przeżyciem. Przygoda ta to idealna propozycja dla osób aktywnych, które chcą poczuć smak dziekiej przyrody w bezpiecznych warunkach",
                 "list": {
-                    "header": "Podczas wycieczki w Pieniny, poza główną atrakcją, którą jest pełen emocji dwugodzinny spływ pontonami po Dunajcu, odwiedzisz również Niedzicę, w której do wyboru masz jedną z atrakcji:",
+                    "header": "Rafting jako idealna przygoda integracyjna. Ekstremalny rafting na Dunajcu to doskonała propozycja dla grup zorganizowanych, firm czy rodzin szukających emocji i integracji w wyjątkowym otoczeniu. Spływ łączymy z czasem wolnym nad Zaporą wodną w Niedzicy i Kościółkiem w Dębniem, co wydłuża przygodę i pozwala na odpoczynek po instensywnych emocjach. Organizatorzy Raftingu zapewniają pełne wsparcie logistyczne oraz profesjonalną opiekę ratowników. To forma aktywności, która nie tylko dostarcza niezapomnianych wrażeń, ale również zacieśnia więzi wsród uczestników i pozostaje w pamięci na długo",
                     "1": "Rejs statkiem po Jeziorze Czorsztyńskim: Podczas rejsu statkiem spacerowym będziesz mógł podziwiać zaporę wodną, ruiny zamku Czorsztyńskiego, zamek Niedzica, skansen Czorsztyński oraz przepiękny górski krajobraz. Taki rejs to przygoda, która na długo zostanie w twojej pamięci!",
                     "2": "Zamek w Niedzicy: To właśnie tu w zamkowych lochach można obejrzeć izbę tortur z dybami, w które wedle legendy miał być zakuty Janosik",
                     "3": "Zwiedzanie Zapory na Dunajcu Zapora główna Czorsztyn - Niedzica to największa w Polsce zapora ziemna o wysokości 56 m i długości 404 m.",
@@ -842,7 +846,42 @@
                     "additional": "Dodatkowo płatne"
                 },
                 "tripprogram": {
-                    "header": "Czas trwania wycieczki:"
+                    "header": "Program Wycieczki:",
+                    "1": "Wyjazd z Zakopanego około godziny 8:00 (Odbiór z miejsca zakwaterowania*)",
+                    "2": "Przejazd na miejsce zbiórki, szkolenie i czas na ubranie się",
+                    "3": "Spływ pontonami po Dunajcu (1.5-2h)",
+                    "4": "Przejazd pod zamek i zaporę w Niedzicy (czas wolny 2h)",
+                    "5": "Przejazd do Dębna - Zwiedzanie Kościółka",
+                    "6": "Powrót do Zakopanego",
+                    "7": "Plan wycieczki może być modyfikowany, zależnie od chęci grupy."
+                }
+            },
+            "quady": {
+                "alt": {
+                    "1": "Osoba jadąca czterokołowcem po leśnej, gruntowej drodze, wzbijając kurz podczas pokonywania terenu.",
+                    "2": "Mężczyzna i kobieta jadący czterokołowcem przez zalesiony teren, otoczeni drzewami i trawą. Pojazd jest przystosowany do jazdy terenowej, z dużymi oponami odpowiednimi do trudnych nawierzchni.",
+                    "3": "Zbliżenie na oponę i koło pojazdu, ukazujące bieżnik oraz nadkole. Pojazd zaparkowany jest na leśnym podłożu, co sugeruje kontekst jazdy terenowej.",
+                    "4": "Rząd quadów zaparkowanych na trawiastym polu pod częściowo zachmurzonym niebem, z drzewami w tle.",
+                    "5": "Czarny quad zaparkowany na trawiastym terenie otoczonym drzewami."
+                },
+                "header": "Quady w Tatrach",
+                "header2": "Przejażdka z instruktorem",
+                "header3": "Co zobaczysz?",
+                "text": "Wyprawa quadami po Podhalu to prawdziwa przygoda - pełna emocji, pięknych widoków i błota! Jazda przez leśne ścieżki i górskie polany daje nie tylko frajdę, ale i niezapomniane wspomnienia. To idealny sposób by odkry dziką stronę Tatr w nieco szybszym tempie.",
+                "table": {
+                    "header1": "Rodzaj biletu",
+                    "header2": "Koszt",
+                    "1": "1 quad 2-osobowy",
+                    "2": "transport do 8 os.",
+                    "text": "* Cena obejmuje: Transport, rękawiczki, ubranie ochronne, kask, zimne napoje, instuktora i szybkie szkolenie. Opiekę kierowcy, wstęp do PPN oraz ubezpieczenie NNW "
+                },
+                "tripprogram": {
+                    "header": "Program Wycieczki:",
+                    "1": "Wyjazd z Zakopanego (Odbiór z miejsca zakwaterowania)",
+                    "2": "Przejazd do Witowa na miejsce startu",
+                    "3": "Krótki kurs obsługi quada i przebranie się w kombinezon ochronny",
+                    "4": "Przejazd z Instruktorem trasą przy granicy Polsko-Słowackiej",
+                    "5": "Powrót do Zakopanego"
                 }
             },
             "swiatynia-lodowa-hrebieniok": {
@@ -1121,7 +1160,7 @@
     },
     "transport": {
         "header": "Transport",
-        "text": "Trio Travel oferuje kompleksowy i świetnie zorganizowany przewóz osób. Zakopane to nie tylko jedyny teren, na którym działamy, zajmujemy się również transportem na terenie całego kraju i zagranicy. Nasze usługi obejmują transfery z oraz na lotniska, przewozy lokalne, a także obsługę konferencji, wesel i innych wszelkich typowych jak i nietypowych zleceń. ",
+        "text": "Trio Travel oferuje kompleksowy i świetnie zorganizowany przewóz osób. Zakopane to nie tylko jedyny teren, na którym działamy, zajmujemy się również transportem na terenie całego kraju i zagranicy. Nasze usługi obejmują transfery z oraz na lotniska, przewozy lokalne, a także obsługę konferencji, wesel i innych wszelkich typowych jak i nietypowych zleceń. Dla grup zorganizowanych możemy zapewnić transport i pomoc w organizacji imprez po kontakcie telefonicznym lub mailowym.",
         "header2": "na bezpieczne i komfortowe podróżowanie. Zapraszamy do kontaktu i wspólnych kilometrów!",
         "header3": "Twój Sposób",
         "text2": "Dokładamy wszelkich starań aby każde zlecenie było wykonane należycie i spełniało oczekiwania naszych Klientów. Priorytetem pracy zespołu jest zadowolenie Klienta oraz wysoka jakość świadczonych usług. Nasi kierowcy to doświadczeni pracownicy, zapewniający pełen profesjonalizm oraz odpowiednie umiejętności. Dzięki wieloletniemu doświadczeniu w transporcie, organizowany przez nas przewóz osób to komfortowa i bezpieczna podróż. Obowiązkowo zapewniamy terminowość oraz atrakcyjne ceny. Każdy zlecający ma inne oczekiwania i potrzeby, dlatego zawsze dopasowujemy nasze usługi do indywidualnych wymagań. Nasze pojazdy posiadają wszelkie niezbędne zezwolenia oraz pełne wyposażenie umożliwiające bezproblemowe wyjazdy zagraniczne, co gwarantuje bezpieczeństwo i wygodę podróżnych podczas każdej trasy.",
@@ -1298,7 +1337,7 @@
             "title": "Budapeszt - Wycieczka do Stolicy Węgier, Plac Bohaterów i Rejs po Dunaju",
             "description": "Odwiedź Budapeszt z Trio Travel! Zobacz Plac Bohaterów, Zamek Vajdahunyad, Wzgórze Gellerta, Rejs po Dunaju i inne atrakcje stolicy Węgier. Pełna historia i magia miasta nad Dunajem."
         },
-        "zamek-orawski": {
+        "krajobrazy-slowacji": {
             "title": "Zamek Orawski - Wycieczka z Zakopanego | Zwiedzanie z przewodnikiem",
             "description": "Jednodniowa wycieczka na Zamek Orawski z Trio Travel - zwiedzanie majestatycznej twierdzy, skansen w Chochołowie i degustacja oscypków. Transport z Zakopanego, bilety w cenie. Sprawdź program i cennik!"
         },
@@ -1329,6 +1368,10 @@
         "ciekawostki-o-splywie-dunajcem": {
             "title": "Ciekawostki o spływie Dunajcem – Fascynujące fakty i informacje",
             "description": "Poznaj najciekawsze informacje i ciekawostki o spływie Dunajcem. Dowiedz się, co warto wiedzieć przed wyprawą oraz odkryj historie związane z tym unikalnym miejscem."
+        },
+        "quady": {
+            "title": "Quady w Tatrach - Ekstremalna Przygoda z Instruktorem | Zakopane i Podhale",
+            "description": "Przeżyj ekscytującą jazdę quadami po Podhalu! Malownicze trasy, profesjonalny instruktor, widoki Tatr i moc emocji. W cenie: transport, sprzęt i ubezpieczenie."
         }
     },
     "triptime": {

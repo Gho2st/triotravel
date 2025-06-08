@@ -64,7 +64,6 @@ export default function SplywDluzszy() {
   const tableRows = [
     [t("table.1"), "180 PLN*"],
     [t("table.2"), "160 PLN*"],
-    [t("table.3"), "80 PLN*"],
     [t("table.4"), "70 PLN*"],
   ];
   return (

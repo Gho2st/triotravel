@@ -71,7 +71,11 @@ export default function Termy() {
           <BackgroundList title={t("header3")} items={customItems} />
         </div>
         <div className="mt-16">
-          <Table headers={tableHeaders} rows={tableRows} />
+          <Table
+            headers={tableHeaders}
+            rows={tableRows}
+            text={t("table.text")}
+          />
           <TripTime />
         </div>
       </section>

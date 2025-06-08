@@ -101,6 +101,11 @@ const nextConfig = {
         destination: "/kuligi/wieczor-sylwestrowy",
         permanent: true,
       },
+      {
+        source: "/wycieczki/zamek-orawski",
+        destination: "/wycieczki/krajobrazy-slowacji",
+        permanent: true,
+      },
     ];
   },
   images: {

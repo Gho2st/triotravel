@@ -234,13 +234,13 @@ export default function sitemap() {
       },
     },
     {
-      url: `${baseUrl}/wycieczki/zamek-orawski`,
+      url: `${baseUrl}/wycieczki/krajobrazy-slowacji`,
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: `${baseUrl}/en/trips/orava-castle`,
-          ar: `${baseUrl}/ar/rihlat/qilat-orava`,
-          hu: `${baseUrl}/hu/kirándulások/árva-vár`,
+          en: `${baseUrl}/en/trips/slovak-landscapes`,
+          ar: `${baseUrl}/ar/rihlat-manazir-sulufakiya`,
+          hu: `${baseUrl}/hu/kirandulasok-szlovak-tajak`,
         },
       },
     },
@@ -329,6 +329,17 @@ export default function sitemap() {
           en: `${baseUrl}/en/fun-facts-about-dunajec-rafting`,
           ar: `${baseUrl}/ar/haqaeq-mumti3a-3an-rihlat-dunajec`,
           hu: `${baseUrl}/hu/erdekessegek-a-dunajeci-turarol`,
+        },
+      },
+    },
+    {
+      url: `${baseUrl}/wycieczki/quady`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/quad-bike-trips`,
+          ar: `${baseUrl}/ar/rihlat-quads`,
+          hu: `${baseUrl}/hu/quad-turak`,
         },
       },
     },
