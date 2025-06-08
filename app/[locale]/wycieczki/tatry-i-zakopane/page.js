@@ -9,6 +9,7 @@ import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import CtaLink from "@/app/UI/CtaLink";
+import Link from "next/link";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -65,12 +66,12 @@ export default function Zakopane() {
           {t.rich("text", {
             strong: (chunks) => <strong>{chunks}</strong>,
             a: (chunks) => (
-              <a
+              <Link
                 href="/wycieczki/slowacki-raj"
                 className="text-blue-600 underline"
               >
                 {chunks}
-              </a>
+              </Link>
             ),
           })}
         </p>
