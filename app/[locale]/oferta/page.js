@@ -6,7 +6,6 @@ import { Document, Page, pdfjs } from "react-pdf";
 import React from "react";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import Image from "next/image";
 
 // Ustaw lokalnego workera
 pdfjs.GlobalWorkerOptions.workerSrc = "/pdf.worker.min.js";
@@ -63,9 +62,8 @@ export default function Flipbook() {
         file="/oferta.pdf"
         onLoadSuccess={onDocumentLoadSuccess}
         loading={
-          <div className="text-white text-2xl text-center flex flex-col justify-center items-center">
+          <div className="text-2xl text-center flex  justify-center items-center">
             Wczytywanie książki z ofertą...
-            <Image className="mt-16" alt="logo TrioTravel" width={250} height={250} src={"logo/logo.webp"} />
           </div>
         }
       >
