@@ -6,6 +6,7 @@ import Why from "../UI/Homepage/Why";
 import Services from "../UI/Homepage/Services";
 import Reviews from "../UI/Reviews";
 import { getTranslations } from "next-intl/server";
+import FacebookPosts from "../UI/Homepage/FacebookPosts";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -33,6 +34,7 @@ export default function Home() {
       <Hero />
       <About />
       <Offer />
+      <FacebookPosts />
       <Why />
       <Services />
       <Reviews />

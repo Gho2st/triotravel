@@ -36,23 +36,32 @@ export default function Flipbook() {
   const updateSize = () => {
     const screenWidth = window.innerWidth;
 
-    // Dostosuj proporcjonalnie do szerokości ekranu
     if (screenWidth < 640) {
-      setBookSize({ width: 350, height: 500 }); // Mały ekran
-      setPageSize({ width: 350 }); // Mały ekran
+      setBookSize({ width: 350, height: 500 });
+      setPageSize({ width: 350 });
     } else if (screenWidth < 1600) {
-      setBookSize({ width: 550, height: 750 }); // Średni ekran
-      setPageSize({ width: 510 }); // Mały ekran
+      setBookSize({ width: 550, height: 750 });
+      setPageSize({ width: 510 });
     } else {
-      setBookSize({ width: 650, height: 900 }); // Duży ekran
+      setBookSize({ width: 650, height: 900 });
       setPageSize({ width: 610 });
     }
   };
 
   useEffect(() => {
     updateSize(); // Ustaw początkowy rozmiar
-    window.addEventListener("resize", updateSize);
-    return () => window.removeEventListener("resize", updateSize);
+
+    let resizeTimeout;
+    const handleResize = () => {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(updateSize, 200);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      clearTimeout(resizeTimeout);
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
   return (
@@ -62,13 +71,14 @@ export default function Flipbook() {
         file="/oferta.pdf"
         onLoadSuccess={onDocumentLoadSuccess}
         loading={
-          <div className="text-xl xl:text-2xl text-center flex  justify-center items-center">
+          <div className="text-xl xl:text-2xl text-center flex justify-center items-center">
             Wczytywanie książki z ofertą...
           </div>
         }
       >
         {numPages && (
           <HTMLFlipBook
+            key={`${bookSize.width}-${bookSize.height}`} // <=== to kluczowe!
             width={bookSize.width}
             height={bookSize.height}
             ref={flipBookRef}

@@ -6,7 +6,8 @@
             "link3": "Bilety Na Kasprowy",
             "link4": "Transport",
             "link5": "Partnerzy",
-            "link6": "Kontakt"
+            "link6": "Kontakt",
+            "link7": "Oferta"
         },
         "button": "Kup Online"
     },
@@ -19,6 +20,16 @@
         "contact": {
             "header": "Kontakt z Nami"
         }
+    },
+    "facebook": {
+        "header": "Najnowsze",
+        "span": "posty",
+        "header2": "z Facebooka",
+        "cta": "Odwiedź nasz profil",
+        "loading": "Wczytywanie postów...",
+        "error": "Brak dostępnych postów",
+        "error2": "Czytaj więcej na portalu...",
+        "cta2": "Zobacz całość na Facebooku"
     },
     "welcome": "Witaj na stronie!",
     "notfound": {
