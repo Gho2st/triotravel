@@ -62,7 +62,7 @@ export default function Flipbook() {
         file="/oferta.pdf"
         onLoadSuccess={onDocumentLoadSuccess}
         loading={
-          <div className="text-2xl text-center flex  justify-center items-center">
+          <div className="text-xl xl:text-2xl text-center flex  justify-center items-center">
             Wczytywanie książki z ofertą...
           </div>
         }
