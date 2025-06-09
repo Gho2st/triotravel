@@ -11,6 +11,16 @@
         },
         "button": "Vásárlás online"
     },
+    "facebook": {
+        "header": "Legfrissebb",
+        "span": "bejegyzések",
+        "header2": "a Facebookról",
+        "cta": "Látogass el a profilunkra",
+        "loading": "Bejegyzések betöltése...",
+        "error": "Nincs elérhető bejegyzés",
+        "error2": "Olvass tovább a portálon...",
+        "cta2": "Nézd meg az egészet a Facebookon"
+    },
     "footer": {
         "hours": {
             "header": "Nyitvatartási idő",
