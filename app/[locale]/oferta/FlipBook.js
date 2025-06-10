@@ -1,10 +1,11 @@
-'use client'
+"use client";
 import { useState, useRef, useEffect } from "react";
 import HTMLFlipBook from "react-pageflip";
 import { Document, Page, pdfjs } from "react-pdf";
 import React from "react";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import { useTranslations } from "next-intl";
 
 pdfjs.GlobalWorkerOptions.workerSrc = "/pdf.worker.min.js";
 
@@ -22,6 +23,8 @@ const Pages = React.forwardRef(({ number, children, isCover }, ref) => {
 Pages.displayName = "Pages";
 
 export default function FlipBook() {
+  const t = useTranslations("offer");
+
   const [numPages, setNumPages] = useState(null);
   const [bookSize, setBookSize] = useState({ width: 630, height: 850 });
   const [pageSize, setPageSize] = useState({ width: 610 });
@@ -86,7 +89,7 @@ export default function FlipBook() {
         onLoadSuccess={onDocumentLoadSuccess}
         loading={
           <div className="text-xl xl:text-2xl text-center flex justify-center items-center">
-            Wczytywanie książki z ofertą...
+            {t("text")}
           </div>
         }
       >
