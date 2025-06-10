@@ -1,5 +1,4 @@
-"use client";
-
+'use client'
 import { useState, useRef, useEffect } from "react";
 import HTMLFlipBook from "react-pageflip";
 import { Document, Page, pdfjs } from "react-pdf";
@@ -7,7 +6,6 @@ import React from "react";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
-// Ustaw lokalnego workera
 pdfjs.GlobalWorkerOptions.workerSrc = "/pdf.worker.min.js";
 
 const Pages = React.forwardRef(({ number, children, isCover }, ref) => {
@@ -27,16 +25,17 @@ export default function FlipBook() {
   const [numPages, setNumPages] = useState(null);
   const [bookSize, setBookSize] = useState({ width: 630, height: 850 });
   const [pageSize, setPageSize] = useState({ width: 610 });
-
+  const [currentPage, setCurrentPage] = useState(0); // Śledzenie aktualnej strony
+  const [visiblePages, setVisiblePages] = useState([]); // Strony do renderowania
   const flipBookRef = useRef(null);
 
   const onDocumentLoadSuccess = ({ numPages }) => {
     setNumPages(numPages);
+    setVisiblePages([1, 2, 3]); // Wczytaj początkowo tylko kilka stron
   };
 
   const updateSize = () => {
     const screenWidth = window.innerWidth;
-
     if (screenWidth < 640) {
       setBookSize({ width: 350, height: 500 });
       setPageSize({ width: 350 });
@@ -50,20 +49,34 @@ export default function FlipBook() {
   };
 
   useEffect(() => {
-    updateSize(); // Ustaw początkowy rozmiar
-
-    let resizeTimeout;
+    updateSize();
     const handleResize = () => {
       clearTimeout(resizeTimeout);
-      resizeTimeout = setTimeout(updateSize, 200);
+      const resizeTimeout = setTimeout(updateSize, 200);
     };
-
     window.addEventListener("resize", handleResize);
-    return () => {
-      clearTimeout(resizeTimeout);
-      window.removeEventListener("resize", handleResize);
-    };
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  // Funkcja do aktualizacji widocznych stron
+  const updateVisiblePages = (page) => {
+    const buffer = 4; // Wczytuj 2 strony przed i po aktualnej
+    const newVisiblePages = [];
+    for (
+      let i = Math.max(1, page - buffer);
+      i <= Math.min(numPages, page + buffer);
+      i++
+    ) {
+      newVisiblePages.push(i);
+    }
+    setVisiblePages([...new Set([...visiblePages, ...newVisiblePages])]); // Unikaj duplikatów
+  };
+
+  // Obsługa zmiany strony w HTMLFlipBook
+  const onPageFlip = (e) => {
+    setCurrentPage(e.data);
+    updateVisiblePages(e.data);
+  };
 
   return (
     <div className="">
@@ -79,22 +92,31 @@ export default function FlipBook() {
       >
         {numPages && (
           <HTMLFlipBook
-            key={`${bookSize.width}-${bookSize.height}`} // <=== to kluczowe!
+            key={`${bookSize.width}-${bookSize.height}`}
             width={bookSize.width}
             height={bookSize.height}
             ref={flipBookRef}
             startPage={0}
             showCover={true}
+            onFlip={onPageFlip} // Dodaj obsługę zmiany strony
           >
             <Pages isCover={true}>
               <Page pageNumber={1} width={pageSize.width} />
             </Pages>
 
-            {[...Array(numPages - 1).keys()].map((index) => (
-              <Pages key={index} number={index + 1}>
-                <Page pageNumber={index + 2} width={pageSize.width} />
-              </Pages>
-            ))}
+            {[...Array(numPages - 1).keys()].map((index) => {
+              const pageNumber = index + 2;
+              // Renderuj tylko strony z visiblePages
+              return visiblePages.includes(pageNumber) ? (
+                <Pages key={index} number={index + 1}>
+                  <Page pageNumber={pageNumber} width={pageSize.width} />
+                </Pages>
+              ) : (
+                <Pages key={index} number={index + 1}>
+                  <div className="text-center">Wczytywanie...</div>
+                </Pages>
+              );
+            })}
           </HTMLFlipBook>
         )}
       </Document>
