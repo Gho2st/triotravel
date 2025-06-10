@@ -197,6 +197,12 @@ export const routing = defineRouting({
       ar: "/rihlat-quads",
       hu: "/quad-turak",
     },
+    "/oferta": {
+      pl: "/oferta",
+      en: "/offer",
+      ar: "/alttaref",
+      hu: "/ajanlat",
+    },
   },
 });
 

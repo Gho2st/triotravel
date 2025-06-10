@@ -1383,6 +1383,10 @@
         "quady": {
             "title": "Quady w Tatrach - Ekstremalna Przygoda z Instruktorem | Zakopane i Podhale",
             "description": "Przeżyj ekscytującą jazdę quadami po Podhalu! Malownicze trasy, profesjonalny instruktor, widoki Tatr i moc emocji. W cenie: transport, sprzęt i ubezpieczenie."
+        },
+        "oferta": {
+            "title": "Wycieczki z Zakopanego - Oferta Biura Podróży Trio Travel",
+            "description": "Odkryj naszą ofertę wycieczek z Zakopanego! Spływ Dunajcem, zwiedzanie Krakowa, Wieliczki i inne jednodniowe wyprawy. Sprawdź flipbook i zaplanuj niezapomnianą przygodę z Trio Travel!"
         }
     },
     "triptime": {

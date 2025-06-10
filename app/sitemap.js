@@ -343,5 +343,16 @@ export default function sitemap() {
         },
       },
     },
+    {
+      url: `${baseUrl}/oferta`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/offer`,
+          ar: `${baseUrl}/ar/alttaref`,
+          hu: `${baseUrl}/hu/ajanlat`,
+        },
+      },
+    },
   ];
 }
