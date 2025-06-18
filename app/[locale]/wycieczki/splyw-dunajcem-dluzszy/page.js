@@ -62,8 +62,8 @@ export default function SplywDluzszy() {
   // Przykładowe dane dla tabeli
   const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
-    [t("table.1"), "180 PLN*"],
-    [t("table.2"), "160 PLN*"],
+    [t("table.1"), "190 PLN*"],
+    [t("table.2"), "170 PLN*"],
     [t("table.4"), "70 PLN*"],
   ];
   return (
