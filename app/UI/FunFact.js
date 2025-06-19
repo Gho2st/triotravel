@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 export default function FunFact() {
-  const t = useTranslations("offer.tripslist.splyw-dunajcem-dluzszy.funfact");
+  const t = useTranslations("offer.tripslist.splyw-dunajcem-zakopane.funfact");
   return (
     <div className="md:flex justify-between gap-24 xl:text-lg">
       <div>

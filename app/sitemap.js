@@ -14,13 +14,13 @@ export default function sitemap() {
       },
     },
     {
-      url: `${baseUrl}/wycieczki`,
+      url: `${baseUrl}/wycieczki-jednodniowe`,
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: `${baseUrl}/en/trips`,
-          ar: `${baseUrl}/ar/rihlat`,
-          hu: `${baseUrl}/hu/kirándulások`,
+          en: `${baseUrl}/en/day-trips`,
+          ar: `${baseUrl}/ar/rihlat-yawmiya`,
+          hu: `${baseUrl}/hu/egynapos-kirandulasok`,
         },
       },
     },
@@ -135,178 +135,179 @@ export default function sitemap() {
       },
     },
     {
-      url: `${baseUrl}/wycieczki/splyw-dunajcem-dluzszy`,
+      url: `${baseUrl}/wycieczki-jednodniowe/splyw-dunajcem-zakopane`,
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: `${baseUrl}/en/trips/dunajec-rafting-extended`,
-          ar: `${baseUrl}/ar/rihlat/tajdeef-dunajec-mutawwal`,
-          hu: `${baseUrl}/hu/kirándulások/dunajec-rafting-hosszabb`,
+          en: `${baseUrl}/en/day-trips/dunajec-rafting-zakopane`,
+          ar: `${baseUrl}/ar/rihlat-yawmiya/tajdeef-dunajec-zakopane`,
+          hu: `${baseUrl}/hu/egynapos-kirandulasok/dunajec-rafting-zakopane`,
+        },
+      },
+    },
+
+    {
+      url: `${baseUrl}/wycieczki-jednodniowe/chocholowskie-termy`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/day-trips/chocholowska-thermal-pools`,
+          ar: `${baseUrl}/ar/rihlat-yawmiya/hammamat-chocholowska-harrariya`,
+          hu: `${baseUrl}/hu/egynapos-kirandulasok/chocholowska-termálfürdők`,
         },
       },
     },
     {
-      url: `${baseUrl}/wycieczki/chocholowskie-termy`,
+      url: `${baseUrl}/wycieczki-jednodniowe/spacer-w-koronach-drzew`,
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: `${baseUrl}/en/trips/chocholowska-thermal-pools`,
-          ar: `${baseUrl}/ar/rihlat/hammamat-chocholowska-harrariya`,
-          hu: `${baseUrl}/hu/kirándulások/chocholowska-termálfürdők`,
+          en: `${baseUrl}/en/day-trips/tree-top-walk-bachledka`,
+          ar: `${baseUrl}/ar/rihlat-yawmiya/mashi-fawq-al-ashjar-bachledka`,
+          hu: `${baseUrl}/hu/egynapos-kirandulasok/fakorona-séta-bachledka`,
         },
       },
     },
     {
-      url: `${baseUrl}/wycieczki/spacer-w-koronach-drzew`,
+      url: `${baseUrl}/wycieczki-jednodniowe/jaskinia-bielanska`,
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: `${baseUrl}/en/trips/tree-top-walk-bachledka`,
-          ar: `${baseUrl}/ar/rihlat/mashi-fawq-al-ashjar-bachledka`,
-          hu: `${baseUrl}/hu/kirándulások/fakorona-séta-bachledka`,
+          en: `${baseUrl}/en/day-trips/belianska-cave-trip`,
+          ar: `${baseUrl}/ar/rihlat-yawmiya/rihlat-kahf-belianska`,
+          hu: `${baseUrl}/hu/egynapos-kirandulasok/belianska-barlangtúra`,
         },
       },
     },
     {
-      url: `${baseUrl}/wycieczki/jaskinia-bielanska`,
+      url: `${baseUrl}/wycieczki-jednodniowe/tajemnice-wieliczki`,
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: `${baseUrl}/en/trips/belianska-cave-trip`,
-          ar: `${baseUrl}/ar/rihlat/rihlat-kahf-belianska`,
-          hu: `${baseUrl}/hu/kirándulások/belianska-barlangtúra`,
+          en: `${baseUrl}/en/day-trips/wieliczka-salt-mine-tour`,
+          ar: `${baseUrl}/ar/rihlat-yawmiya/asrar-manjam-wieliczka`,
+          hu: `${baseUrl}/hu/egynapos-kirandulasok/wieliczka-sóbánya-túra`,
         },
       },
     },
     {
-      url: `${baseUrl}/wycieczki/tajemnice-wieliczki`,
+      url: `${baseUrl}/wycieczki-jednodniowe/biesiada-goralska`,
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: `${baseUrl}/en/trips/wieliczka-salt-mine-tour`,
-          ar: `${baseUrl}/ar/rihlat/asrar-manjam-wieliczka`,
-          hu: `${baseUrl}/hu/kirándulások/wieliczka-sóbánya-túra`,
+          en: `${baseUrl}/en/day-trips/goral-feast`,
+          ar: `${baseUrl}/ar/rihlat-yawmiya/madbat-al-jibal-goral`,
+          hu: `${baseUrl}/hu/egynapos-kirandulasok/hegyvidéki-lakoma`,
         },
       },
     },
     {
-      url: `${baseUrl}/wycieczki/biesiada-goralska`,
+      url: `${baseUrl}/wycieczki-jednodniowe/slowacki-raj`,
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: `${baseUrl}/en/trips/goral-feast`,
-          ar: `${baseUrl}/ar/rihlat/madbat-al-jibal-goral`,
-          hu: `${baseUrl}/hu/kirándulások/hegyvidéki-lakoma`,
+          en: `${baseUrl}/en/day-trips/slovak-raj`,
+          ar: `${baseUrl}/ar/rihlat-yawmiya/jannat-slovak`,
+          hu: `${baseUrl}/hu/egynapos-kirandulasok/szlovák-paradicsom`,
         },
       },
     },
     {
-      url: `${baseUrl}/wycieczki/slowacki-raj`,
+      url: `${baseUrl}/wycieczki-jednodniowe/wieden`,
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: `${baseUrl}/en/trips/slovak-raj`,
-          ar: `${baseUrl}/ar/rihlat/jannat-slovak`,
-          hu: `${baseUrl}/hu/kirándulások/szlovák-paradicsom`,
+          en: `${baseUrl}/en/day-trips/vienna`,
+          ar: `${baseUrl}/ar/rihlat-yawmiya/vienna`,
+          hu: `${baseUrl}/hu/egynapos-kirandulasok/bécs`,
         },
       },
     },
     {
-      url: `${baseUrl}/wycieczki/wieden`,
+      url: `${baseUrl}/wycieczki-jednodniowe/budapeszt`,
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: `${baseUrl}/en/trips/vienna`,
-          ar: `${baseUrl}/ar/rihlat/vienna`,
-          hu: `${baseUrl}/hu/kirándulások/bécs`,
+          en: `${baseUrl}/en/day-trips/budapest`,
+          ar: `${baseUrl}/ar/rihlat-yawmiya/budapest`,
+          hu: `${baseUrl}/hu/egynapos-kirandulasok/budapest`,
         },
       },
     },
     {
-      url: `${baseUrl}/wycieczki/budapeszt`,
+      url: `${baseUrl}/wycieczki-jednodniowe/krajobrazy-slowacji`,
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: `${baseUrl}/en/trips/b bioticapest`,
-          ar: `${baseUrl}/ar/rihlat/budapest`,
-          hu: `${baseUrl}/hu/kirándulások/budapest`,
+          en: `${baseUrl}/en/day-trips/slovak-landscapes`,
+          ar: `${baseUrl}/ar/rihlat-yawmiya/manazir-sulufakiya`,
+          hu: `${baseUrl}/hu/egynapos-kirandulasok/szlovak-tajak`,
         },
       },
     },
     {
-      url: `${baseUrl}/wycieczki/krajobrazy-slowacji`,
+      url: `${baseUrl}/wycieczki-jednodniowe/dookola-tatr`,
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: `${baseUrl}/en/trips/slovak-landscapes`,
-          ar: `${baseUrl}/ar/rihlat-manazir-sulufakiya`,
-          hu: `${baseUrl}/hu/kirandulasok-szlovak-tajak`,
+          en: `${baseUrl}/en/day-trips/around-tatras`,
+          ar: `${baseUrl}/ar/rihlat-yawmiya/hawl-tatra`,
+          hu: `${baseUrl}/hu/egynapos-kirandulasok/tátra-körül`,
         },
       },
     },
     {
-      url: `${baseUrl}/wycieczki/dookola-tatr`,
+      url: `${baseUrl}/wycieczki-jednodniowe/rafting-po-dunajcu`,
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: `${baseUrl}/en/trips/around-tatras`,
-          ar: `${baseUrl}/ar/rihlat/hawl-tatra`,
-          hu: `${baseUrl}/hu/kirándulások/tátra-körül`,
+          en: `${baseUrl}/en/day-trips/dunajec-river-rafting`,
+          ar: `${baseUrl}/ar/rihlat-yawmiya/tajdeef-nahr-dunajec`,
+          hu: `${baseUrl}/hu/egynapos-kirandulasok/dunajec-folyó-rafting`,
         },
       },
     },
     {
-      url: `${baseUrl}/wycieczki/rafting-po-dunajcu`,
+      url: `${baseUrl}/wycieczki-jednodniowe/swiatynia-lodowa-hrebieniok`,
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: `${baseUrl}/en/trips/dunajec-river-rafting`,
-          ar: `${baseUrl}/ar/rihlat/tajdeef-nahr-dunajec`,
-          hu: `${baseUrl}/hu/kirándulások/dunajec-folyó-rafting`,
+          en: `${baseUrl}/en/day-trips/ice-temple-hrebienok`,
+          ar: `${baseUrl}/ar/rihlat-yawmiya/mabad-thalj-hrebienok`,
+          hu: `${baseUrl}/hu/egynapos-kirandulasok/jégtemplom-hrebienok`,
         },
       },
     },
     {
-      url: `${baseUrl}/wycieczki/swiatynia-lodowa-hrebieniok`,
+      url: `${baseUrl}/wycieczki-jednodniowe/splyw-dunajcem-slowacja`,
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: `${baseUrl}/en/trips/ice-temple-hrebienok`,
-          ar: `${baseUrl}/ar/rihlat/mabad-thalj-hrebienok`,
-          hu: `${baseUrl}/hu/kirándulások/jégtemplom-hrebienok`,
+          en: `${baseUrl}/en/day-trips/dunajec-rafting-slovakia`,
+          ar: `${baseUrl}/ar/rihlat-yawmiya/tajdeef-dunajec-slowakia`,
+          hu: `${baseUrl}/hu/egynapos-kirandulasok/dunajec-rafting-szlovakia`,
         },
       },
     },
     {
-      url: `${baseUrl}/wycieczki/splyw-dunajcem-krotszy`,
+      url: `${baseUrl}/wycieczki-jednodniowe/tatry-i-zakopane`,
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: `${baseUrl}/en/trips/shorter-dunajec-river-rafting`,
-          ar: `${baseUrl}/ar/rihlat/rihlat-nahr-dunajec-qasira`,
-          hu: `${baseUrl}/hu/kirándulások/rövidebb-dunajec-folyó-rafting`,
+          en: `${baseUrl}/en/day-trips/tatras-and-zakopane`,
+          ar: `${baseUrl}/ar/rihlat-yawmiya/tatra-wa-zakopane`,
+          hu: `${baseUrl}/hu/egynapos-kirandulasok/tátra-és-zakopane`,
         },
       },
     },
     {
-      url: `${baseUrl}/wycieczki/tatry-i-zakopane`,
+      url: `${baseUrl}/wycieczki-jednodniowe/szlak-papieski`,
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: `${baseUrl}/en/trips/tatras-and-zakopane`,
-          ar: `${baseUrl}/ar/rihlat/tatra-wa-zakopane`,
-          hu: `${baseUrl}/hu/kirándulások/tatra-es-zakopane`,
-        },
-      },
-    },
-    {
-      url: `${baseUrl}/wycieczki/szlak-papieski`,
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          en: `${baseUrl}/en/trips/papal-trail`,
-          ar: `${baseUrl}/ar/rihlat/darb-al-baba`,
-          hu: `${baseUrl}/hu/kirándulások/papai-osveny`,
+          en: `${baseUrl}/en/day-trips/papal-trail`,
+          ar: `${baseUrl}/ar/rihlat-yawmiya/darb-al-baba`,
+          hu: `${baseUrl}/hu/egynapos-kirandulasok/papai-osveny`,
         },
       },
     },
@@ -333,13 +334,13 @@ export default function sitemap() {
       },
     },
     {
-      url: `${baseUrl}/wycieczki/quady`,
+      url: `${baseUrl}/wycieczki-jednodniowe/quady`,
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: `${baseUrl}/en/quad-bike-trips`,
-          ar: `${baseUrl}/ar/rihlat-quads`,
-          hu: `${baseUrl}/hu/quad-turak`,
+          en: `${baseUrl}/en/day-trips/quad-bike-trips`,
+          ar: `${baseUrl}/ar/rihlat-yawmiya/quads`,
+          hu: `${baseUrl}/hu/egynapos-kirandulasok/quad-turak`,
         },
       },
     },

@@ -12,7 +12,7 @@ export default function TatryZakopane() {
         <p className="mb-8 xl:mb-16">{t("text2")}</p>
         <Link
           className="font-bold underline text-customBlue"
-          href={"/wycieczki/tatry-i-zakopane"}
+          href={"/wycieczki-jednodniowe/tatry-i-zakopane"}
         >
           {t("cta")}
         </Link>

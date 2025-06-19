@@ -70,6 +70,7 @@
     },
     "offer": {
         "header": "2025 Nyári Ajánlat",
+        "text2": "Egy felejthetetlen egynapos kirándulást keresel Zakopanéból? A Trio Travel segítségével felfedezheted a Tátra, a Podhale régió, valamint Lengyelország és Szlovákia legszebb vidékeit – stressz és szervezés nélkül. Helyi utazási irodaként kényelmes szállítást, tapasztalt idegenvezetőt és bevált útvonalakat kínálunk. Egynapos kirándulásaink ideálisak családoknak, pároknak, időseknek és csoportoknak is. Fedezd fel egy nap alatt például a Dunajec tutajozást, az Árva várát, a Szlovák Paradicsomot vagy a Tatralandiát! Foglald le most, és élj át egy különleges napot!",
         "text": "Az ajánlati könyv betöltése...",
         "trips": {
             "header": "Kirándulások",
@@ -235,7 +236,7 @@
                     "text3": "4 év alatti gyermekek. Ingyenes utazás a kísérő jegye alapján, a gyermek életkorát érvényes dokumentummal kell igazolni. A babakocsiért nem kell külön díjat fizetni."
                 }
             },
-            "splyw-dunajcem-dluzszy": {
+            "splyw-dunajcem-zakopane": {
                 "alt": {
                     "1": "Egy csoport ember különböző csónakokban evez egy tavon, amelyet fák vesznek körül, szabadtéri rekreációt űzve.",
                     "2": "Egy csoport ember egy tutajon élvezi a tavat, amelyet fák és hegyek vesznek körül, felhős égbolt alatt.",
@@ -343,7 +344,7 @@
                     }
                 }
             },
-            "splyw-dunajcem-krotszy": {
+            "splyw-dunajcem-slowacja": {
                 "alt": {
                     "1": "Egy csoport ember mentőmellényben egy csónakban, együtt evezve egy fákkal körülvett folyón.",
                     "2": "Egy csónak egy sziklás parton pihen egy folyó mellett, fákkal és hegyekkel körülvéve, tiszta égbolt alatt.",
@@ -1263,8 +1264,8 @@
             "description": "A Trio Travel utazási iroda egynapos kirándulásokat, szánkózásokat, Dunajec tutajozást és személyszállítást kínál Zakopanéban. Szívélyesen meghívunk, hogy ismerkedj meg ajánlatunkkal."
         },
         "trips": {
-            "title": "Kirándulások a Trio Travellel - Zakopane, Dunajec Tutajozás, Kasprowy",
-            "description": "Fedezd fel Zakopanét a Trio Travellel! Egynapos kirándulások, Dunajec tutajozás, jegyek a Kasprowyra, szánkózások és még sok más. Foglalj online és élj át felejthetetlen kalandot!"
+            "title": "Egynapos kirándulások Zakopanéból – Szlovákia, Dunajec, Trio Travel",
+            "description": "Fedezd fel Zakopanét a Trio Travel-lel! Egynapos kirándulások, tutajozás a Dunajecen, Kasprowy-jegyek, lovasszán túrák és még sok más. Foglalj online, és élj át egy felejthetetlen kalandot!"
         },
         "kuligi": {
             "title": "Szánkózás Zakopanéban a Trio Travel Logóval - Hegyi Kaland",
@@ -1306,13 +1307,13 @@
             "title": "Online Vásárlás Kirándulások Zakopanéban - Trio Travel Foglalások",
             "description": "Foglalj kirándulásokat online a Trio Travellel Zakopanéban! Gyorsan és kényelmesen, legkésőbb 24 órával az indulás előtt. Nézd meg az ajánlatot és vásárolj jegyeket szánkózásra, Dunajec tutajozásra!"
         },
-        "splyw-dunajcem-dluzszy": {
-            "title": "Dunajec Tutajozás 2,5 óra Zakopanéból - Trio Travel",
-            "description": "Élj át felejthetetlen Dunajec tutajozást fa tutajokkal – 2,5 órás kaland tutajosokkal, a Pieninek kilátásával és a niedzicai vár látogatásával. Foglalj a Trio Travellel!"
+        "splyw-dunajcem-zakopane": {
+            "title": "Dunajec tutajozás Zakopanéból – 2,5 órás élmény | Trio Travel",
+            "description": "Dunajec tutajozás Zakopanéból (2,5 óra) hagyományos fahajókkal, Pieninek szurdok, Niedzica vára, festői kilátás. Foglalj online a Trio Travel-lel!"
         },
-        "splyw-dunajcem-krotszy": {
-            "title": "Dunajec Tutajozás 1,5 óra | Rövidebb Útvonal Idegenvezetővel | Trio Travel",
-            "description": "A Dunajec tutajozás rövidebb változata (1,5 óra) fa tutajokkal Szlovákiából. Látnivalók: niedzicai vár, gát és a dębnói templom (UNESCO). Nézd meg a programot és az árakat!"
+        "splyw-dunajcem-slowacja": {
+            "title": "Dunajec tutajozás Szlovákiából – 1,5 órás túra | Trio Travel",
+            "description": "Rövidebb tutajozás a Dunajecen Szlovákiából (1,5 óra) – fahajók, Niedzica vára, Czorsztyn gát, UNESCO templom Dębno-ban. Ideális félnapos program!"
         },
         "termy": {
             "title": "Chochołowi Termálfürdők Szállítással - Pihenés a Trio Travellel",

@@ -12,7 +12,7 @@ export default function SzlakPapieski() {
         <p className="mb-8 xl:mb-16">{t("text2")}</p>
         <Link
           className="font-bold underline text-customBlue"
-          href={"/wycieczki/szlak-papieski"}
+          href={"/wycieczki-jednodniowe/szlak-papieski"}
         >
           {t("cta")}
         </Link>

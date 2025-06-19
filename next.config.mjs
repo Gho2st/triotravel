@@ -11,74 +11,74 @@ const nextConfig = {
     return [
       {
         source: "/wycieczki-jednodniowe/92-spacer-w-koronach-drzew",
-        destination: "/wycieczki/spacer-w-koronach-drzew",
+        destination: "/wycieczki-jednodniowe/spacer-w-koronach-drzew",
         permanent: true,
       },
       {
         source: "/wycieczki-jednodniowe/32-tajemnice-wieliczki",
-        destination: "/wycieczki/tajemnice-wieliczki",
+        destination: "/wycieczki-jednodniowe/tajemnice-wieliczki",
         permanent: true,
       },
       {
         source: "/baseny-termalne/47-termy-chocholowskie",
-        destination: "/wycieczki/chocholowskie-termy",
+        destination: "/wycieczki-jednodniowe/chocholowskie-termy",
         permanent: true,
       },
       {
         source: "/wycieczki-jednodniowe/36-wycieczka-do-jaskini-bielanskiej",
-        destination: "/wycieczki/jaskinia-bielanska",
+        destination: "/wycieczki-jednodniowe/jaskinia-bielanska",
         permanent: true,
       },
       {
         source: "/splyw-dunajcem/splyw-dunajcem-zakopane",
-        destination: "/wycieczki/splyw-dunajcem-dluzszy",
+        destination: "/wycieczki-jednodniowe/splyw-dunajcem-zakopane",
         permanent: true,
       },
 
       {
         source: "/splyw-dunajcem",
-        destination: "/wycieczki/splyw-dunajcem-krotszy",
+        destination: "/wycieczki-jednodniowe/splyw-dunajcem-slowacja",
         permanent: true,
       },
       {
         source: "/wycieczki-jednodniowe/93-slowacki-raj",
-        destination: "/wycieczki/slowacki-raj",
+        destination: "/wycieczki-jednodniowe/slowacki-raj",
         permanent: true,
       },
       {
         source: "/wycieczki-jednodniowe/109-wieden",
-        destination: "/wycieczki/wieden",
+        destination: "/wycieczki-jednodniowe/wieden",
         permanent: true,
       },
       {
         source: "/wycieczki-jednodniowe/108-budapeszt",
-        destination: "/wycieczki/budapeszt",
+        destination: "/wycieczki-jednodniowe/budapeszt",
         permanent: true,
       },
       {
         source: "/wycieczki-jednodniowe/113zamek-orawski",
-        destination: "/wycieczki/zamek-orawski",
+        destination: "/wycieczki-jednodniowe/zamek-orawski",
         permanent: true,
       },
       {
         source: "/kuligi/106",
-        destination: "/wycieczki/swiatynia-lodowa-hrebieniok",
+        destination: "/wycieczki-jednodniowe/swiatynia-lodowa-hrebieniok",
         permanent: true,
       },
       {
         source: "/wycieczki-jednodniowe/110-dookola-tatr",
-        destination: "/wycieczki/dookola-tatr",
+        destination: "/wycieczki-jednodniowe/dookola-tatr",
         permanent: true,
       },
       {
         source:
           "/wycieczki-jednodniowe/34-rafting-czyli-splyw-pontonami-po-dunajcu",
-        destination: "/wycieczki/rafting-po-dunajcu",
+        destination: "/wycieczki-jednodniowe/rafting-po-dunajcu",
         permanent: true,
       },
       {
         source: "/kuligi/41-kuligi-w-sezonie-letnim",
-        destination: "/wycieczki/biesiada-goralska",
+        destination: "/wycieczki-jednodniowe/biesiada-goralska",
         permanent: true,
       },
       {
@@ -103,7 +103,28 @@ const nextConfig = {
       },
       {
         source: "/wycieczki/zamek-orawski",
-        destination: "/wycieczki/krajobrazy-slowacji",
+        destination: "/wycieczki-jednodniowe/krajobrazy-slowacji",
+        permanent: true,
+      },
+      {
+        source: "/wycieczki",
+        destination: "/wycieczki-jednodniowe",
+        permanent: true,
+      },
+      {
+        source: "/wycieczki/splyw-dunajcem-krotszy",
+        destination: "/wycieczki-jednodniowe/splyw-dunajcem-slowacja",
+        permanent: true,
+      },
+      {
+        source: "/wycieczki/splyw-dunajcem-dluzszy",
+        destination: "/wycieczki-jednodniowe/splyw-dunajcem-zakopane",
+        permanent: true,
+      },
+      {
+        source:
+          "/wycieczki/:slug((?!.*\\.(?:png|jpg|jpeg|webp|gif|svg|css|js|ico|json|map|woff2?)$).*)",
+        destination: "/wycieczki-jednodniowe/:slug",
         permanent: true,
       },
     ];

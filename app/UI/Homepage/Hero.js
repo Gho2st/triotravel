@@ -17,39 +17,39 @@ export default function Hero() {
       {
         background: "/wycieczki/spacer-w-koronach-drzew/korony.webp",
         translationKey: "headers.header7", // "Spacer W Koronach Drzew"
-        link: "/wycieczki/spacer-w-koronach-drzew",
+        link: "/wycieczki-jednodniowe/spacer-w-koronach-drzew",
       },
       {
-        background: "/wycieczki/splyw-dunajcem-dluzszy/4.webp",
+        background: "/wycieczki/splyw-dunajcem-zakopane/4.webp",
         translationKey: "headers.header1", // "Spływ Dunajcem?"
-        link: "/wycieczki/splyw-dunajcem-dluzszy",
+        link: "/wycieczki-jednodniowe/splyw-dunajcem-zakopane",
       },
 
       {
         background: "/baner/baner4.webp",
         translationKey: "headers.header2", // "Baseny Termalne?"
-        link: "/wycieczki/chocholowskie-termy",
+        link: "/wycieczki-jednodniowe/chocholowskie-termy",
       },
 
       {
         background: "/wycieczki/tajemnice-wieliczki/6.webp",
         translationKey: "headers.header8", // "wieliczka?"
-        link: "/wycieczki/tajemnice-wieliczki",
+        link: "/wycieczki-jednodniowe/tajemnice-wieliczki",
       },
       {
         background: "/wycieczki/jaskinia-bielanska/jaskinia.webp",
         translationKey: "headers.header9", // "jaskinia bielanska"
-        link: "/wycieczki/jaskinia-bielanska",
+        link: "/wycieczki-jednodniowe/jaskinia-bielanska",
       },
       {
         background: "/wycieczki/slowacki-raj/slowacki-raj.webp",
         translationKey: "headers.header10", // "jaskinia bielanska"
-        link: "/wycieczki/slowacki-raj",
+        link: "/wycieczki-jednodniowe/slowacki-raj",
       },
       {
         background: "/wycieczki/biesiada-goralska/baner.webp",
         translationKey: "headers.header5", // "Biesiada Goralska?"
-        link: "/wycieczki/biesiada-goralska",
+        link: "/wycieczki-jednodniowe/biesiada-goralska",
       },
       {
         background: "/baner/baner6.webp",

@@ -9,39 +9,39 @@ import { useEffect, useRef, useState } from "react";
 // Sample gallery data
 const gallery = [
   {
-    url: "/wycieczki/splyw-dunajcem-dluzszy/splyw.webp",
+    url: "/wycieczki/splyw-dunajcem-zakopane/splyw.webp",
     alt: "trips.1",
-    link: "/wycieczki/splyw-dunajcem-dluzszy",
+    link: "/wycieczki-jednodniowe/splyw-dunajcem-zakopane",
   },
   {
     url: "/wycieczki/termy/termy.webp",
     alt: "trips.2",
-    link: "/wycieczki/chocholowskie-termy",
+    link: "/wycieczki-jednodniowe/chocholowskie-termy",
   },
   {
     url: "/wycieczki/spacer-w-koronach-drzew/korony.webp",
     alt: "trips.3",
-    link: "/wycieczki/spacer-w-koronach-drzew",
+    link: "/wycieczki-jednodniowe/spacer-w-koronach-drzew",
   },
   {
     url: "/wycieczki/jaskinia-bielanska/jaskinia.webp",
     alt: "trips.4",
-    link: "/wycieczki/jaskinia-bielanska",
+    link: "/wycieczki-jednodniowe/jaskinia-bielanska",
   },
   {
     url: "/wycieczki/biesiada-goralska/baner.webp",
     alt: "trips.16",
-    link: "/wycieczki/biesiada-goralska",
+    link: "/wycieczki-jednodniowe/biesiada-goralska",
   },
   {
-    url: "/wycieczki/splyw-dunajcem-krotszy/splyw.webp",
+    url: "/wycieczki/splyw-dunajcem-slowacja/splyw.webp",
     alt: "trips.5",
-    link: "/wycieczki/splyw-dunajcem-krotszy",
+    link: "/wycieczki-jednodniowe/splyw-dunajcem-slowacja",
   },
   {
     url: "/wycieczki/tajemnice-wieliczki/wieliczka.webp",
     alt: "trips.6",
-    link: "/wycieczki/tajemnice-wieliczki",
+    link: "/wycieczki-jednodniowe/tajemnice-wieliczki",
   },
   {
     url: "/wycieczki//kasprowy-wierch/1.webp",
@@ -51,12 +51,12 @@ const gallery = [
   {
     url: "/wycieczki/slowacki-raj/slowacki-raj.webp",
     alt: "trips.8",
-    link: "/wycieczki/slowacki-raj",
+    link: "/wycieczki-jednodniowe/slowacki-raj",
   },
   {
     url: "/wycieczki/krajobrazy-slowacji/krajobrazy-slowacji.webp",
     alt: "trips.11",
-    link: "/wycieczki/krajobrazy-slowacji",
+    link: "/wycieczki-jednodniowe/krajobrazy-slowacji",
   },
   {
     url: "/morskie-oko/morskie-oko.webp",
@@ -66,33 +66,33 @@ const gallery = [
   {
     url: "/wycieczki/wieden/wieden.webp",
     alt: "trips.9",
-    link: "/wycieczki/wieden",
+    link: "/wycieczki-jednodniowe/wieden",
   },
   {
     url: "/wycieczki/budapeszt/budapeszt.webp",
     alt: "trips.10",
-    link: "/wycieczki/budapeszt",
+    link: "/wycieczki-jednodniowe/budapeszt",
   },
 
   // {
   //   url: "/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.webp",
   //   alt: "trips.12",
-  //   link: "/wycieczki/swiatynia-lodowa-hrebieniok",
+  //   link: "/wycieczki-jednodniowe/swiatynia-lodowa-hrebieniok",
   // },
   {
     url: "/wycieczki/dookola-tatr/tatry.webp",
     alt: "trips.14",
-    link: "/wycieczki/dookola-tatr",
+    link: "/wycieczki-jednodniowe/dookola-tatr",
   },
   {
     url: "/wycieczki/rafting-po-dunajcu/rafting.webp",
     alt: "trips.15",
-    link: "/wycieczki/rafting-po-dunajcu",
+    link: "/wycieczki-jednodniowe/rafting-po-dunajcu",
   },
   {
     url: "/wycieczki/quady/quady.webp",
     alt: "trips.20",
-    link: "/wycieczki/quady",
+    link: "/wycieczki-jednodniowe/quady",
   },
 ];
 export default function Offer() {

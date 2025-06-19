@@ -70,14 +70,15 @@
     },
     "offer": {
         "header": "Oferta Lato 2025",
+        "text2": "Szukasz pomysłu na niezapomniane wycieczki jednodniowe z Zakopanego? Z Trio Travel odkryjesz najpiękniejsze miejsca Podhala, Tatr i urokliwe zakątki Polski oraz Słowacji – bez stresu i planowania. Jako lokalne biuro podróży oferujemy komfortowy transport, opiekę doświadczonego pilota i sprawdzone trasy. Nasze wycieczki jednodniowe to idealna propozycja dla rodzin z dziećmi, par, seniorów i grup zorganizowanych. Z nami zwiedzisz m.in. Spływ Dunajcem, Orawski Zamek, Słowacki Raj czy Tatralandię – w jeden dzień! Zarezerwuj swoją wycieczkę już teraz i przeżyj dzień w wyjątkowy sposób.",
         "text": "Wczytywanie książki z ofertą...",
         "trips": {
-            "header": "Wycieczki",
-            "1": "Spływ Dunajcem 2.5h",
+            "header": "Wycieczki jednodniowe z Zakopanego",
+            "1": "Spływ Dunajcem Zakopane 2.5h",
             "2": "Chochołowskie Termy",
             "3": "Spacer w Koronach Drzew",
             "4": "Jaskinia Bielańska",
-            "5": "Spływ Dunajcem 1.5h",
+            "5": "Spływ Dunajcem Słowacja 1.5h",
             "6": "Tajemnice Wieliczki",
             "7": "Bilety na Kasprowy Wierch",
             "8": "Słowacki Raj",
@@ -235,7 +236,7 @@
                     "text3": "Dzieciom do 4 lat. Przejazd darmowy na podstawie biletu opiekuna, wiek dziecka należy potwierdzić ważnym dokumentem. Nie pobiera się dodatkowej opłaty za wózek dziecięcy."
                 }
             },
-            "splyw-dunajcem-dluzszy": {
+            "splyw-dunajcem-zakopane": {
                 "alt": {
                     "1": "Grupa ludzi w różnych łodziach wiosłujących na jeziorze otoczonym drzewami, uczestniczących w rekreacji na świeżym powietrzu.",
                     "2": "Grupa ludzi na tratwie ciesząca się jeziorem otoczonym drzewami i górami pod pochmurnym niebem.",
@@ -343,7 +344,7 @@
                     }
                 }
             },
-            "splyw-dunajcem-krotszy": {
+            "splyw-dunajcem-slowacja": {
                 "alt": {
                     "1": "Grupa ludzi w kamizelkach ratunkowych w łodzi, wiosłujących razem na rzece otoczonej drzewami.",
                     "2": "Łódź spoczywająca na skalistym brzegu obok rzeki, otoczona drzewami i górami pod bezchmurnym niebem.",
@@ -1263,10 +1264,10 @@
     "metadata": {
         "homepage": {
             "title": "Biuro Podróży Zakopane: Wycieczki, Kuligi, Spływ - Trio Travel",
-            "description": "Biuro podróży Trio Travel oferuje Państwu wycieczki jednodniowe, kuligi, spływ Dunajcem oraz przewóz osób w Zakopanem. Serdecznie zapraszamy do zapoznania się z naszą ofertą."
+            "description": "Wycieczki jednodniowe z Zakopanego do Słowacji i nie tylko! Spływ Dunajcem, Kasprowy, kuligi, zamki. Odkrywaj Tatry z Trio Travel - rezerwuj online."
         },
         "trips": {
-            "title": "Wycieczki z Trio Travel - Zakopane, Spływ Dunajcem, Kasprowy",
+            "title": "Wycieczki jednodniowe Zakopane - Słowacja, Dunajec, Trio Travel",
             "description": "Odkryj Zakopane z Trio Travel! Wycieczki jednodniowe, spływ Dunajcem, bilety na Kasprowy, kuligi i więcej. Zarezerwuj online i przeżyj niezapomnianą przygodę!"
         },
         "kuligi": {
@@ -1309,13 +1310,13 @@
             "title": "Kup Online Wycieczki Zakopane - Trio Travel Rezerwacje",
             "description": "Rezerwuj wycieczki online z Trio Travel w Zakopanem! Szybko i wygodnie, do 24h przed wyjazdem. Sprawdź ofertę i kup bilety na kuligi, spływ dunajcem!"
         },
-        "splyw-dunajcem-dluzszy": {
-            "title": "Spływ Dunajcem 2.5h z Zakopanego - Trio Travel",
-            "description": "Przeżyj niezapomniany spływ Dunajcem na drewnianych tratwach - 2,5-godzinna przygoda z flisakami, widokami Pienin oraz zwiedzaniem zamku w Niedzicy. Zarezerwuj z Trio Travel!"
+        "splyw-dunajcem-zakopane": {
+            "title": "Spływ Dunajcem z Zakopanego – 2,5h przygoda | Trio Travel",
+            "description": "Spływ Dunajcem z Zakopanego na drewnianych tratwach (2,5h) z flisakami. Przełom Pienin, zamek w Niedzicy i malownicze widoki. Rezerwuj online z Trio Travel!"
         },
-        "splyw-dunajcem-krotszy": {
-            "title": "Spływ Dunajcem 1.5h | Krótsza Trasa z Przewodnikiem | Trio Travel",
-            "description": "Krótsza wersja spływu Dunajcem (1.5h) drewnianymi tratwami ze Słowacji. Atrakcje: zamek w Niedzicy, zapora i kościół w Dębnie (UNESCO). Sprawdź program i ceny!"
+        "splyw-dunajcem-slowacja": {
+            "title": "Spływ Dunajcem ze Słowacji – 1,5h tratwami | Trio Travel",
+            "description": "Krótszy spływ Dunajcem ze Słowacji (1,5h) – tratwy, zamek w Niedzicy, zapora Czorsztyńska i kościół w Dębnie (UNESCO). Idealna opcja na pół dnia!"
         },
         "termy": {
             "title": "Termy Chochołowskie z Transportem - Relaks z Trio Travel",

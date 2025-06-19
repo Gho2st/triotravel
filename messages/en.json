@@ -70,6 +70,7 @@
     },
     "offer": {
         "header": "Summer Offer 2025",
+        "text2": "Looking for an idea for unforgettable day trips from Zakopane? With Trio Travel, you’ll discover the most beautiful spots of Podhale, the Tatra Mountains, and charming corners of Poland and Slovakia – all without stress or planning. As a local travel agency, we offer comfortable transport, experienced tour guides, and trusted routes. Our day trips are ideal for families with children, couples, seniors, and organized groups. Visit places like the Dunajec Rafting, Orava Castle, Slovak Paradise, or Tatralandia – all in one day! Book your trip now and enjoy a truly unique experience.",
         "text": "Loading the offer book...",
         "trips": {
             "header": "Trips",
@@ -235,7 +236,7 @@
                     "text3": "Children under 4. Free ride based on the guardian's ticket; the child's age must be confirmed with a valid document. No additional fee for baby strollers."
                 }
             },
-            "splyw-dunajcem-dluzszy": {
+            "splyw-dunajcem-zakopane": {
                 "alt": {
                     "1": "A group of people in various boats paddling on a lake surrounded by trees, engaging in outdoor recreation.",
                     "2": "A group of people on a raft enjoying a lake surrounded by trees and mountains under a cloudy sky.",
@@ -338,7 +339,7 @@
                     }
                 }
             },
-            "splyw-dunajcem-krotszy": {
+            "splyw-dunajcem-slowacja": {
                 "alt": {
                     "1": "A group of people wearing life jackets in a boat, paddling together on a river surrounded by trees.",
                     "2": "A boat resting on a rocky shore beside a river, surrounded by trees and mountains under a clear sky.",
@@ -1258,8 +1259,8 @@
             "description": "Trio Travel Agency offers one-day trips, sleigh rides, Dunajec River rafting, and passenger transport in Zakopane. We warmly invite you to explore our offer."
         },
         "trips": {
-            "title": "Trips with Trio Travel - Zakopane, Dunajec Rafting, Kasprowy",
-            "description": "Discover Zakopane with Trio Travel! One-day trips, Dunajec River rafting, Kasprowy Wierch tickets, sleigh rides, and more. Book online and experience an unforgettable adventure!"
+            "title": "Day Trips from Zakopane – Slovakia, Dunajec, Trio Travel",
+            "description": "Discover Zakopane with Trio Travel! Day trips, Dunajec rafting, Kasprowy tickets, sleigh rides and more. Book online and enjoy an unforgettable adventure!"
         },
         "kuligi": {
             "title": "Sleigh Rides in Zakopane with Trio Travel - Highland Adventure",
@@ -1301,13 +1302,13 @@
             "title": "Book Trips Online Zakopane - Trio Travel Reservations",
             "description": "Book trips online with Trio Travel in Zakopane! Quick and convenient, up to 24 hours before departure. Check the offer and buy tickets for sleigh rides, Dunajec rafting!"
         },
-        "splyw-dunajcem-dluzszy": {
-            "title": "2.5h Dunajec Rafting from Zakopane - Trio Travel",
-            "description": "Experience an unforgettable Dunajec River rafting on wooden rafts - a 2.5-hour adventure with raftsmen, Pieniny views, and a visit to Niedzica Castle. Book with Trio Travel!"
+        "splyw-dunajcem-zakopane": {
+            "title": "Dunajec Rafting from Zakopane – 2.5h Adventure | Trio Travel",
+            "description": "Dunajec River rafting from Zakopane (2.5h) on traditional wooden rafts. Scenic Pieniny Gorge, Niedzica Castle and local guides. Book online with Trio Travel!"
         },
-        "splyw-dunajcem-krotszy": {
-            "title": "1.5h Dunajec Rafting | Shorter Route with Guide | Trio Travel",
-            "description": "Shorter 1.5h Dunajec River rafting on wooden rafts from Slovakia. Attractions: Niedzica Castle, dam, and Dębno Church (UNESCO). Check the program and prices!"
+        "splyw-dunajcem-slowacja": {
+            "title": "Dunajec Rafting from Slovakia – 1.5h Scenic Tour | Trio Travel",
+            "description": "Shorter Dunajec rafting trip from Slovakia (1.5h) – wooden rafts, Niedzica Castle, Czorsztyn dam and UNESCO-listed church in Dębno. Perfect half-day tour!"
         },
         "termy": {
             "title": "Chochołowska Thermal Baths with Transport - Relaxation with Trio Travel",
