@@ -12,6 +12,18 @@ const font = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700"],
 });
 
+export const metadata = {
+  // Open Graph
+  openGraph: {
+    type: "website",
+    url: "https://triotravel.pl/",
+    title: "Biuro Podróży Zakopane - TrioTravel",
+    description:
+      "Wycieczki jednodniowe z Zakopanego do Słowacji i nie tylko! Spływ Dunajcem, Kasprowy, kuligi, zamki. Odkrywaj Tatry z Trio Travel - rezerwuj online.",
+    images: "https://triotravel.pl/opengraph-image.png",
+  },
+};
+
 export default async function LocaleLayout({ children, params }) {
   const locale = (await params).locale;
 
