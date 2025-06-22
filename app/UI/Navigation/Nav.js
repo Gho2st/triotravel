@@ -70,7 +70,7 @@ export default function Nav() {
             <li className="">
               <Link
                 className="px-3 hover:text-red-500 duration-300"
-                href={"/wycieczki"}
+                href={"/wycieczki-jednodniowe"}
               >
                 {t("links.link1")}
               </Link>
@@ -162,7 +162,7 @@ export default function Nav() {
               <ul className="pt-10 px-6 pb-8 flex flex-col text-base font-semibold min-h-screen gap-2">
                 <li>
                   <Link
-                    href="/wycieczki"
+                    href="/wycieczki-jednodniowe"
                     className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
