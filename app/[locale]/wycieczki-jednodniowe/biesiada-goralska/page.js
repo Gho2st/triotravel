@@ -19,7 +19,8 @@ export async function generateMetadata({ params }) {
     namespace: "metadata.biesiada-goralska",
   });
 
-  const path = routing.pathnames["/wycieczki-jednodniowe/biesiada-goralska"][locale]; // Pobieramy ścieżkę dla języka
+  const path =
+    routing.pathnames["/wycieczki-jednodniowe/biesiada-goralska"][locale]; // Pobieramy ścieżkę dla języka
   // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
   const canonicalUrl =
     locale === "pl"
@@ -37,34 +38,43 @@ export async function generateMetadata({ params }) {
 
 export default function Biesiada() {
   const t = useTranslations("offer.tripslist.biesiada");
-  const customItems = [t("list.1")];
+  const customItems = [
+    t("list.1"),
+    t("list.2"),
+    t("list.3"),
+    t("list.4"),
+    t("list.5"),
+    t("list.6"),
+    t("list.7"),
+    t("list.8"),
+  ];
 
   // Przykładowe dane dla tabeli
   const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
     [t("table.1"), , "170 PLN"],
     [t("table.2"), , "140 PLN"],
-    [t("table.3"), , "0 PLN"],
   ];
 
   const tripItems = [
-    "17:00 - " + t("tripprogram.1"),
+    "17:30 - " + t("tripprogram.1"),
     "18:00 - " + t("tripprogram.2"),
     "19:00 - " + t("tripprogram.3"),
-    "21:30 - " + t("tripprogram.4"),
+    "21:00/21:30 - " + t("tripprogram.4"),
   ];
   return (
     <>
       <Header text={t("header")} />
-      <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[700px] ">
-        <Image
-          src="/wycieczki/biesiada-goralska/baner.webp"
-          width={500}
-          height={500}
-          layout="responsive"
-          className="object-cover"
-          alt={t("alt.1")}
-        />
+      <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[700px]">
+        <iframe
+          width="100%"
+          height="100%"
+          src="https://www.youtube.com/embed/EWFP60iUYoc"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        ></iframe>
       </div>
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
         <LineHeader text={t("header2")} />
@@ -80,7 +90,7 @@ export default function Biesiada() {
         <div className="mt-16">
           <TripProgram title={t("tripprogram.header")} items={tripItems} />
           <TripTime
-            availableDays={["Wt", "Pt"]} // Przykład: wybrane dni
+            availableDays={["Czw"]} // Przykład: wybrane dni
           />
         </div>
       </section>

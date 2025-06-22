@@ -177,24 +177,31 @@
                 "header": "Biesiada Góralska",
                 "header2": "Śpasy Góralskie - Niezapomniana impreza w stylu Podhala",
                 "header3": "Opis Atrakcji:",
-                "text": "Zapraszamy na niezapomnianą Biesiadę Góralską! Przeżyj autentyczną przygodę w sercu gór, pełną folkloru, muzyki i wyśmienitej kuchni. Czekają na Ciebie tańce przy ognisku, opowieści górali i niepowtarzalna atmosfera pod gwiazdami. Dołącz do nas i poczuj magię górskiej kultury! Nie przegap!",
+                "text": "Zapraszamy na wyjątkową, pełną góralskiego folkloru i serdecznej atmosfery wieczorną przygodę, która pozostawi niezapomniane wspomnienia. Wieczór zaczyna się komfortowym odbiorem gości możliwie blisko miejsca zakwaterowania na terenie Zakopanego i Kościeliska.* Następnie zabierzemy Państwa na tradycyjny przejazd góralskimi powozami przez malownicze tereny u podnóża Doliny Kościeliskiej. Każdy uczestnik otrzyma, regionalny akcent – taki powitalny gest, który wprowadzi w prawdziwie góralski klimat i doda energii na dalszą część wieczoru. Po około godzinnej przejażdżce dotrzemy do góralskiego szałasu – miejsca stworzonego z myślą o tradycji, zabawie i prawdziwej góralskiej gościnności. Tutaj zacznie się pełna energii zabawa, która będzie trwać do późnych godzin. Czeka na Państwa muzyka na żywo lub DJ w regionalnym stylu , ognisko, gdzie można samodzielnie upiec kiełbaski  lub sięgnąć po wcześniej przygotowane, a także wiele tradycyjnych góralskich przysmaków. W menu nie zabraknie oscypków , ogórków kiszonych , chleba ze smalcem oraz napojów – piwa , herbaty oraz wina grzanego – wszystko podawane bez ograniczeń, aby każdy poczuł się jak u prawdziwych gospodarzy. Podczas zabawy organizujemy różnorodne konkursy, animacje i tańce, które sprawiają, że ten wieczór jest nie tylko kulinarną ucztą, ale też pełnym śmiechu i dobrej energii spotkaniem z kulturą Podhala. To idealna propozycja dla par, rodzin i grup przyjaciół – niezależnie od wieku i upodobań. Miejsce, położone u podnóża malowniczej Doliny Kościeliskiej, w otoczeniu gór i lasów, dodaje całemu wydarzeniu magii i sprawia, że wieczór staje się prawdziwie wyjątkowy i niezapomniany.",
                 "list": {
-                    "1": "Przejażdżka góralskimi powozami - Goście wsiadają do tradycyjnych powozów konnych i wyruszają w malowniczą trasę u podnóża Doliny Kościeliskiej. Po drodze planowane są krótkie przystanki w punktach widokowych, gdzie chętni mogą skosztować regionalnych trunków (opcjonalnie: cytrynówka, gruszkówka,śliwowica)."
+                    "1": "Komfortowy odbiór i powrót możliwie blisko miejsca zakwaterowania w Zakopanem i Kościelisku*",
+                    "2": "Malownicza przejażdżka góralskimi powozami przez urokliwe tereny Doliny Kościeliskiej",
+                    "3": "Regionalny akcent powitalny",
+                    "4": "Góralska zabawa w tradycyjnym szałasie z muzyką na żywo lub DJ-em, tańcami i konkursami",
+                    "5": "Ognisko z możliwością samodzielnego pieczenia kiełbasek lub wyborem gotowych",
+                    "6": "Regionalny poczęstunek: oscypki, ogórki kiszone, chleb ze smalcem",
+                    "7": "Napoje bez limitu: piwo, herbata (zwykła i góralska), soki naturalne",
+                    "8": "Tradycyjna góralska atmosfera i wyjątkowy klimat Doliny Kościeliskiej"
                 },
                 "table": {
                     "header1": "Rodzaj Biletu",
                     "header2": "Całkowity Koszt Wycieczki",
                     "header3": "Sezon niski",
                     "1": "Normalny",
-                    "2": "Ulgowy (dzieci do 14 lat)",
-                    "3": "Ulgowy (dzieci do 3 lat)"
+                    "2": "Ulgowy (dzieci do 14 lat)"
                 },
                 "tripprogram": {
                     "header": "Program Wycieczki:",
-                    "1": "Odbiór gości możliwie blisko  miejsca zakwaterowania i komfortowy przejazd na miejsce rozpoczęcia atrakcji.",
-                    "2": "Początek przygody! Przejażdżka góralskimi powozami przez malownicze tereny u podnóża Doliny Kościeliskiej z przystankami na punktach widokowych.",
+                    "1": "Odbiór gości możliwie blisko miejsca zakwaterowania w okolicach Zakopanego i Kościeliska*",
+                    "2": "Rozpoczęcie około godzinnej przejażdżki tradycyjnymi góralskimi powozami u podnóża Doliny Kościeliskiej. Każdy z uczestników otrzymuje regionalny akcent",
                     "3": "Przyjazd do góralskiego szałasu i rozpoczęcie biesiady pełnej muzyki, tańca i tradycyjnych zabaw wraz z poczęstunkiem bez limitu",
-                    "4": "Planowany powrót do miejsca odbioru  i zakończenie niezapomnianej góralskiej imprezy."
+                    "4": "Przyjazd do góralskiego szałasu i start góralskiej zabawy – muzyka na żywo lub DJ w regionalnym stylu, ognisko, konkursy, animacje i tańce oraz poczęstunek bez limitu: kiełbaski (do samodzielnego pieczenia lub gotowe ), oscypki , ogórki kiszone , chleb ze smalcem  oraz napoje: piwo, herbata, wino grzane – wszystko podawane bez ograniczeń",
+                    "5": "Planowany powrót do miejsca odbioru i zakończenie wydarzenia"
                 }
             },
             "kasprowy": {
@@ -1019,7 +1026,7 @@
         "title": "Nasi Partnerzy",
         "skocznia": {
             "header": "Domki pod Skocznią",
-            "text": "Domki są całe zbudowane  z drewna, co pozwala poznać i poczuć klimat gór.  Każdy domek jest ogrzewany centralnie, posiada w pełni wyposażony aneks kuchenny wraz z strefą do wypoczynku oraz dwie osobne sypialnie."
+            "text": "Domki są całe zbudowane  z drewna, co pozwala poznać i poczuć klimat gór. Każdy domek jest ogrzewany centralnie, posiada w pełni wyposażony aneks kuchenny wraz z strefą do wypoczynku oraz dwie osobne sypialnie."
         },
         "wierszyki": {
             "header": "Wierszyki Shelters",

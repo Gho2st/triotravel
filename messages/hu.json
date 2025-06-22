@@ -168,33 +168,40 @@
             },
             "biesiada": {
                 "alt": {
-                    "1": "Kilátás a festői Kościelisko-völgyi útvonalra",
-                    "2": "Sétálók az útvonalon",
+                    "1": "Kilátás a festői Kościeliska-völgyi túraútvonalra",
+                    "2": "Sétálók az ösvényen",
                     "3": "Patak az erdőben",
-                    "4": "Sziklák melletti ösvény",
+                    "4": "Ösvény sziklák mellett",
                     "5": "Kápolna a fák között"
                 },
-                "header": "Hegyi lakoma",
-                "header2": "Goral mulatságok – Felejthetetlen esemény Podhale stílusában",
-                "header3": "Programleírás:",
-                "text": "Meghívunk egy felejthetetlen hegyi lakomára! Éld át az autentikus kalandot a hegyek szívében – folklórral, zenével és finom ételekkel. Tánc a tábortűz körül, hegyi történetek és varázslatos hangulat vár rád. Csatlakozz hozzánk, és érezd meg a hegyi kultúra varázsát! Ne hagyd ki!",
+                "header": "Górál Lakoma",
+                "header2": "Góralskie Śpasy – Felejthetetlen podhale‑i stílusú mulatság",
+                "header3": "Látványosság leírása:",
+                "text": "Meghívjuk Önt egy különleges, górál folklórral és szívélyes hangulattal teli esti kalandra, amely felejthetetlen élményeket hagy maga után. Az este kényelmes vendégfelvétellel kezdődik, lehetőleg a szálláshelyük közelében Zakopanéban és Kościeliskóban.* Ezután hagyjuk, hogy tradicionális górál hintók szállítsák végig Önt a festői Kościeliska-völgy lábánál. Minden résztvevő regionalis köszöntő gesztust kap – ezzel valódi górál hangulatba kerül és energiát kap az este további részéhez. Körülbelül egyórás utazás után elérkezünk egy górál kunyhóhoz – egy olyan helyhez, amelyet a tradíció, a szórakozás és a valódi górál vendégszeretet ihletett. Itt kezdődik a vidám mulatság, amely késő esti órákig tart. Élő zene vagy régiós DJ, tábortűz, ahol saját magad sütözhetsz kolbászt, vagy választhatsz előre készítettet, és számos hagyományos górál ínyencség vár. A menü tartalmaz oscypek sajtot, kovászos uborkát, zsírkenyeret és italokat – sört, teát, forralt bort – korlátlan mennyiségben, hogy mindenki úgy érezze magát, mintha egy igazi vendéglátónál lenne. A mulatság során különböző versenyeket, animációkat és táncokat szervezünk, így ez az este nemcsak kulináris lakoma, hanem jókedvű, energikus találkozás is Podhale kultúrájával. Tökéletes ajánlat pároknak, családoknak és baráti társaságoknak – életkortól és preferenciáktól függetlenül. A helyszín a festői Kościeliska-völgy lábánál, hegyekkel és erdőkkel körülvéve varázslatot ad az eseménynek, és különlegessé, emlékezetessé teszi az estét.",
                 "list": {
-                    "1": "Gorál lovaskocsis kirándulás – A vendégek hagyományos lovaskocsikba szállnak be, és elindulnak egy festői útvonalon a Kościelisko-völgy lábánál. Útközben rövid megállók lesznek kilátópontokon, ahol regionális italokat lehet kóstolni (opcionálisan: citromos pálinka, körtepálinka, szilvapálinka)."
+                    "1": "Kényelmes felvétel és visszaút lehetőleg a zakopanei és kościeliski szállások közelében*",
+                    "2": "Festői utazás górál hintókon a Kościeliska-völgy bájos tájain át",
+                    "3": "Regionális üdvözlő gesztus",
+                    "4": "Górál mulatság hagyományos kunyhóban élő zenével vagy DJ‑vel, tánccal és vetélkedőkkel",
+                    "5": "Tábortűz, ahol saját magad süthetsz kolbászt, vagy választhatsz készételt",
+                    "6": "Regionális falatok: oscypek, kovászos uborka, zsírkenyér",
+                    "7": "Korlátlan italok: sör, tea (hagyományos és górál), természetes gyümölcslevek",
+                    "8": "Hagyományos górál hangulat és a Kościeliska‑völgy egyedülálló atmoszférája"
                 },
                 "table": {
                     "header1": "Jegytípus",
-                    "header2": "Kirándulás teljes ára",
-                    "header3": "Előszezon",
+                    "header2": "Teljes utazás költsége",
+                    "header3": "Alacsony szezon",
                     "1": "Normál",
-                    "2": "Kedvezményes (14 éves korig)",
-                    "3": "Kedvezményes (3 éves korig)"
+                    "2": "Kedvezményes (14 év alatti gyerekek)"
                 },
                 "tripprogram": {
                     "header": "Kirándulás programja:",
-                    "1": "Vendégfelvétel a lehető legközelebb a szálláshelyhez és kényelmes utazás az esemény helyszínére.",
-                    "2": "Kaland kezdete! Lovaskocsis túra festői tájakon a Kościelisko-völgy lábánál kilátópontokkal.",
-                    "3": "Érkezés a hegyi kunyhóhoz, ahol kezdődik a zene-, tánc- és hagyományos játékokkal teli lakoma korlátlan vendéglátással.",
-                    "4": "Visszatérés a kiindulóponthoz és a felejthetetlen hegyi mulatság befejezése."
+                    "1": "Vendégek felvétele lehetőleg a zakopanei és kościeliski szállások közelében*",
+                    "2": "Körülbelül egyórás utazás tradicionális górál hintókon a Kościeliska-völgy lábánál. Minden résztvevő regionális köszöntést kap",
+                    "3": "Érkezés a górál kunyhóhoz és a lakoma kezdete zenével, tánccal és hagyományos mókákkal korlátlan pogácsával",
+                    "4": "Górál mulatság kezdete – élő zene vagy régiós DJ, tábortűz, vetélkedők, animációk, táncok és korlátlan pogácsa: kolbász (sütéshez vagy kész), oscypek, kovászos uborka, zsírkenyér és italok: sör, tea, forralt bor – mind korlátlanul",
+                    "5": "Tervezett visszaérkezés a felvételi helyszínre és az esemény befejezése"
                 }
             },
             "kasprowy": {

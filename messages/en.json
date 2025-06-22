@@ -169,32 +169,39 @@
             "biesiada": {
                 "alt": {
                     "1": "View of the picturesque Kościeliska Valley trail",
-                    "2": "People walking along the trail",
-                    "3": "Forest stream",
-                    "4": "Trail running alongside rock formations",
-                    "5": "Wayside shrine among the trees"
+                    "2": "People strolling along the trail",
+                    "3": "A stream in the forest",
+                    "4": "Trail running beside rocks",
+                    "5": "A small chapel among the trees"
                 },
                 "header": "Highlander Feast",
-                "header2": "Highlander Fun - An Unforgettable Party in Podhale Style",
+                "header2": "Góralskie Śpasy – An Unforgettable Highlander Party in Podhale Style",
                 "header3": "Attraction Description:",
-                "text": "Join us for an unforgettable Highlander Feast! Experience an authentic adventure in the heart of the mountains, full of folklore, music, and delicious food. Enjoy dancing by the bonfire, tales from the highlanders, and a unique atmosphere under the stars. Join us and feel the magic of mountain culture! Don’t miss out!",
+                "text": "We invite you to an exceptional evening adventure full of Highlander folklore and warm atmosphere that will leave unforgettable memories. The evening starts with a comfortable pickup of guests as close as possible to their accommodation in Zakopane and Kościelisko.* Then we’ll take you on a traditional ride in Highlander carriages through picturesque areas at the foot of the Kościeliska Valley. Each participant receives a regional accent – a welcoming gesture to introduce you to the true Highlander spirit and energize you for the rest of the evening. After about an hour’s ride, we arrive at a Highlander hut – a place built for tradition, fun, and true Highlander hospitality. Here the lively party begins, lasting into the late hours. You can enjoy live music or a regional-style DJ, a bonfire where you can roast sausages yourself or choose pre-prepared ones, and many traditional Highlander delicacies. The menu includes oscypek cheese, pickled cucumbers, bread with lard, and drinks – beer, tea, and mulled wine – all served without limits, so everyone feels like a true host’s guest. During the event we organize various contests, animations, and dances, making this evening not only a culinary feast but also full of laughter and good energy, showcasing Podhale culture. It’s an ideal offer for couples, families, and groups of friends – regardless of age or preferences. The venue, located at the foot of the picturesque Kościeliska Valley, surrounded by mountains and forests, adds magic to the entire event and makes the evening truly special and unforgettable.",
                 "list": {
-                    "1": "Ride in highlander carriages - Guests board traditional horse-drawn carriages and embark on a scenic route at the foot of the Kościeliska Valley. Along the way, there are short stops at viewpoints where guests can taste regional spirits (optional: lemon vodka, pear vodka, plum brandy)."
+                    "1": "Comfortable pickup and return as close as possible to accommodations in Zakopane and Kościelisko*",
+                    "2": "Picturesque ride in Highlander carriages through the charming terrains of the Kościeliska Valley",
+                    "3": "Regional welcome accent",
+                    "4": "Highlander party in a traditional hut with live music or DJ, dances, and contests",
+                    "5": "Bonfire with the possibility to roast sausages yourself or choose ready-made ones",
+                    "6": "Regional refreshments: oscypek cheese, pickled cucumbers, bread with lard",
+                    "7": "Unlimited drinks: beer, tea (regular and Highlander), natural juices",
+                    "8": "Traditional Highlander atmosphere and the unique vibe of the Kościeliska Valley"
                 },
                 "table": {
                     "header1": "Ticket Type",
                     "header2": "Total Trip Cost",
-                    "header3": "Low season",
-                    "1": "Adult",
-                    "2": "Reduced (children up to 14 years)",
-                    "3": "Reduced (children up to 3 years)"
+                    "header3": "Low Season",
+                    "1": "Regular",
+                    "2": "Reduced (children up to 14 years)"
                 },
                 "tripprogram": {
                     "header": "Trip Program:",
-                    "1": "Pick-up of guests as close as possible to their accommodation and comfortable transfer to the attraction starting point.",
-                    "2": "The adventure begins! Ride in highlander carriages through scenic areas at the foot of the Kościeliska Valley with stops at viewpoints.",
-                    "3": "Arrival at a highlander hut and start of the feast full of music, dance, and traditional games with unlimited refreshments.",
-                    "4": "Planned return to the pick-up point and end of the unforgettable highlander party."
+                    "1": "Pickup of guests as close as possible to their accommodation in the Zakopane and Kościelisko area*",
+                    "2": "Start of about one‑hour ride in traditional Highlander carriages at the foot of the Kościeliska Valley. Each participant receives a regional welcome accent",
+                    "3": "Arrival at the Highlander hut and beginning of the feast full of music, dance, and traditional fun with unlimited refreshments",
+                    "4": "Start of the Highlander party – live music or regional‑style DJ, bonfire, contests, animations, dances, and unlimited refreshments: sausages (to roast yourself or ready), oscypek, pickled cucumbers, bread with lard and drinks: beer, tea, mulled wine – all without limits",
+                    "5": "Scheduled return to the pickup location and event end"
                 }
             },
             "kasprowy": {
