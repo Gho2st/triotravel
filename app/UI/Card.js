@@ -1,23 +1,24 @@
 import Image from "next/image";
 import Button from "@/app/UI/Buttons/Button";
 
-export default function Card({ article, index }) {
+export default function Card({ article }) {
   return (
-    <article className="flex flex-col 2xl:flex-row gap-6 p-6 rounded-2xl shadow-2xl w-full max-w-4xl transition-all duration-300 hover:shadow-3xl hover:scale-[1.02]">
+    <article className="flex flex-col 2xl:flex-row gap-6 p-6 rounded-2xl shadow-2xl w-full max-w-4xl transition-all duration-300 hover:shadow-3xl hover:scale-[1.02] h-full min-h-[450px]">
       <div className="w-full 2xl:w-2/3 aspect-[4/3]">
         <Image
           src={article.image}
           width={500}
-          height={375} // Matches 4:3 aspect ratio (500 * 3 / 4)
+          height={375}
           alt={article.title}
           className="rounded-2xl object-cover w-full h-full"
         />
       </div>
-      <div className="flex flex-col justify-between 2xl:justify-center 2xl:gap-10 2xl:w-2/3 p-2 text-center min-h-[200px]">
-        <h3 className="text-2xl sm:text-3xl font-semibold text-gray-800 mb-6">
+      <div className="flex flex-col justify-between 2xl:justify-center 2xl:gap-10 2xl:w-2/3 p-2 text-center h-full space-y-6">
+        <h3 className="text-2xl 2xl:text-3xl font-semibold text-gray-800">
           {article.title}
         </h3>
-        <div className="flex justify-center">
+        <p className="font-light">{article.p}</p>
+        <div className="flex justify-center mt-auto">
           <Button
             text="Wybierz"
             link={article.link}

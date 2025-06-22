@@ -70,30 +70,48 @@
     },
     "offer": {
         "header": "2025 Nyári Ajánlat",
-        "text2": "Egy felejthetetlen egynapos kirándulást keresel Zakopanéból? A Trio Travel segítségével felfedezheted a Tátra, a Podhale régió, valamint Lengyelország és Szlovákia legszebb vidékeit – stressz és szervezés nélkül. Helyi utazási irodaként kényelmes szállítást, tapasztalt idegenvezetőt és bevált útvonalakat kínálunk. Egynapos kirándulásaink ideálisak családoknak, pároknak, időseknek és csoportoknak is. Fedezd fel egy nap alatt például a Dunajec tutajozást, az Árva várát, a Szlovák Paradicsomot vagy a Tatralandiát! Foglald le most, és élj át egy különleges napot!",
-        "text": "Az ajánlati könyv betöltése...",
+        "text2": "A Trio Travel megbízható és kényelmes egynapos kirándulásokat kínál Zakopanéból – ideális családoknak, pároknak, időseknek és csoportoknak. Naponta szervezünk utakat népszerű látnivalókhoz: lombkorona séta, Dunajeci tutajozás, Morskie Oko, Bécs, Budapest, Chochołowi termálfürdők és még sok más. Az ár mindig tartalmazza a szállítást, idegenvezetőt és a szervezést. Láss többet egy nap alatt – stressz nélkül és szervezetten.",
+        "text": "Ajánlat betöltése folyamatban...",
         "trips": {
-            "header": "Kirándulások",
-            "1": "Tutajozás a Dunajecen 2,5 óra",
-            "2": "Chochołowi termálfürdők",
-            "3": "Séta a lombkoronák között",
-            "4": "Bélai-cseppkőbarlang",
-            "5": "Tutajozás a Dunajecen 1,5 óra",
-            "6": "Wieliczka titkai",
-            "7": "Jegyek a Kasprowy-csúcsra",
-            "8": "Szlovák Paradicsom",
-            "9": "Bécs",
-            "10": "Budapest",
-            "11": "Szlovák tájak",
-            "12": "Jégtemplom a Hrebienokon",
-            "13": "Krakkó felfedezése",
-            "14": "A Tátra körül",
-            "15": "Rafting a Dunajecen",
-            "16": "Hegyi lakoma",
-            "17": "Tátra és Zakopane",
-            "18": "Pápai ösvény",
-            "19": "Morskie Oko",
-            "20": "Quadok"
+            "header": "Egynapos kirándulások Zakopanéból",
+            "1": "Dunajeci tutajozás Szczawnica 2,5 óra",
+            "1p": "A régió egyik legnépszerűbb programja. A tutajozás a Pieninekben zajlik és kb. 2,5 órát tart. Családok számára ideális.",
+            "2": "Chochołowi termálfürdők – kikapcsolódás és meleg vizek",
+            "2p": "A Chochołowi termálfürdőkben való pihenés tökéletes módja a feltöltődésnek Zakopanéban. A meleg víz és a hegyi panoráma ideális kombináció.",
+            "3": "Lombkorona tanösvény – Bachledka",
+            "3p": "Lombkorona-séta Bachledkában, Szlovákiában – természeti látványosság, amely tökéletes egynapos kirándulás Zakopanéból.",
+            "4": "Bielańska-barlang – a Tátra szlovák kincse",
+            "4p": "A Bielańska-barlang Szlovákia természeti csodája, egynapos kirándulás keretében is elérhető Zakopanéból. Vezetett túra a föld alatti világban.",
+            "5": "Dunajeci tutajozás Szlovákia 1,5 óra",
+            "5p": "A klasszikus tutajozás rövidebb (1,5 órás), nyugodtabb változata Szlovákiában – gyors és kényelmes kirándulás Zakopanéból.",
+            "6": "Wieliczkai sóbánya titkai – UNESCO világörökség",
+            "6p": "A Wieliczkai sóbánya az UNESCO világörökség része. Egynapos túrát kínálunk Zakopanéból, a szállítás és a belépőjegy benne van.",
+            "7": "Kasprowy Wierch-jegyek – felvonó Zakopanéból",
+            "7p": "Foglalj jegyet Kasprowy Wierch-re sorban állás nélkül! A felvonó lenyűgöző kilátást nyújt a Tátrára.",
+            "8": "Szlovák Paradicsom – szurdokok és létrák ösvényei",
+            "8p": "A Szlovák Paradicsom aktív kikapcsolódást nyújt: festői szurdokok, létrák és hidak a nemzeti parkban – tökéletes egynapos program.",
+            "9": "Bécs – egynapos vezetett kirándulás",
+            "9p": "Egynapos kirándulás Zakopanéból Bécsbe, idegenvezetővel, szabadidővel és kényelmes utazással.",
+            "10": "Budapest – a Duna gyöngyszeme",
+            "10p": "Budapest tökéletes célpont egész napos utazáshoz. Történelmi látványosságok, termálfürdők és hangulatos utcák – Zakopanéból indulva.",
+            "11": "Szlovák tájak – panorámás autókirándulás",
+            "11p": "Panorámás túra Észak-Szlovákián keresztül – tájak, helyi építészet és pihentető egynapos program.",
+            "12": "Jégtemplom Hrebienok – varázslatos jégszobor",
+            "12p": "Téli attrakció Szlovákiában – a Hrebienokban található jégtemplom részletgazdag és kivilágított. Tökéletes téli program Zakopanéból.",
+            "14": "Tátra körút – panorámás látogatás",
+            "14p": "A 'Tátra körút' egy panorámás utazás Podhalén, Szepességen és Árva régióban – kilátásokkal, helyi konyhával és érdekes megállókkal.",
+            "15": "Tutajozás Dunajecen – aktív és biztonságos élmény",
+            "15p": "Az aktív programok kedvelőinek – Dunajecen történő evezés szórakoztató élmény. Tartalmazza az oktatót és a felszerelést.",
+            "16": "Górál lakoma – hagyományos est zenével",
+            "16p": "Esti program élő górál zenével, tábortűzzel és finom helyi ételekkel – kiváló kikapcsolódás a túrák után.",
+            "17": "Tátra és Zakopane – legszebb helyek egy nap alatt",
+            "17p": "Fedezd fel a legfontosabb látnivalókat egy nap alatt: Gubałówka, síugrósánc, Kościeliska-völgy – idegenvezetéssel és kényelmes utazással.",
+            "18": "Pápai út – II. János Pál nyomában",
+            "18p": "Lelki és természeti útvonal II. János Pál pápa nyomában – különleges zarándoklat Zakopanéból.",
+            "19": "Morskie Oko – a Tátra klasszikusa",
+            "19p": "A Morskie Oko a Tátra legismertebb tava. Sétálj a festői úton, és élvezd a felejthetetlen kilátást.",
+            "20": "Quad túra a Tátrában – adrenalin és szórakozás",
+            "20p": "A Tátrai quad túrák izgalmas élményt és csodás tájakat nyújtanak – pároknak és barátoknak is remek választás."
         },
         "tripslist": {
             "szlak-papieski": {
@@ -956,16 +974,16 @@
     "services": {
         "cards": {
             "1": {
-                "header": "Kirándulások és szállítás",
-                "text": "A Trio Travel egy utazási iroda, amely nagy tapasztalattal rendelkezik turisztikai projektek, tematikus rendezvények és szállítás szervezésében. Zakopanét úgy ismerjük, mint a tenyerünket, és számunkra nincs lehetetlen. Kezdetben főként belföldi és nemzetközi szállítással foglalkoztunk, később azonban turisztikai-szállítási vállalkozássá váltunk, számos izgalmas projektet szervezve, köztük fantasztikus egynapos kirándulásokat."
+                "header": "Egynapos kirándulások és szállítás Zakopanéból – Trio Travel teljes kínálata",
+                "text": "A Trio Travel egy helyi utazási iroda Zakopanéban, amely egynapos kirándulások, turisztikai események és professzionális személyszállítás szervezésére specializálódott. Évek óta működünk a piacon, és sikeresen lebonyolítottunk több száz utat Lengyelországban és külföldön egyaránt. Mint Podhale régió helyi lakosai, kiválóan ismerjük a Tátrát és környékét. Kirándulásaink nemcsak jól szervezettek, hanem gondosan megtervezettek az útvonal, látnivalók és időbeosztás szempontjából. Kínálatunkban szerepel például: Dunajeci tutajozás, Lombkorona tanösvény, Morskie Oko, Szlovák Paradicsom, Budapest, Bécs, Wieliczka, Chochołowi Termálfürdő és sok más látnivaló."
             },
             "2": {
-                "header": "Turisztikai Szervező",
-                "text": "Tevékenységünk a Kis-lengyelországi Vajdaság Marsalljának Turisztikai Szervezők és Közvetítők Nyilvántartásában szerepel a Z/54/2013 számon. AXA biztosítási garanciával rendelkezünk, ezért minden utazás irodánkkal nemcsak élményekkel teli, hanem a szükséges biztonságot is nyújtja. Ügyfeleink többek között azért értékelnek minket, mert képesek vagyunk alkalmazkodni az igényekhez és szükségletekhez, átfogó szolgáltatásokat kínálunk, és rugalmasak vagyunk."
+                "header": "Hivatalos utazásszervező",
+                "text": "Bejegyzett utazásszervezők vagyunk a Kis-lengyelországi Vajdaság elnökének nyilvántartásában (szám: Z/54/2013). Utazásainkat AXA utasbiztosítás fedezi, amely biztosítja az utasok biztonságát és kényelmét. Ügyfeleink értékelik: teljes körű szolgáltatás – a foglalástól a vezetésig, pontosság és kiváló logisztika, személyre szabott megközelítés, magas szintű szállítás (modern buszok, légkondicionálás, tapasztalt sofőrök)."
             },
             "3": {
-                "header": "Csapatunk",
-                "text": "Csapatunk kreatív és energikus emberekből áll, ami garantálja a legmagasabb szintű szervezést. Szánkózásokat szervezünk, köztük a legnagyobb izgalmakat nyújtó esti szánkózásokat. Egy másik kirándulásunk a Dunajec tutajozás, valamint számos további egynapos kirándulás. Zakopane rengeteg látnivalót kínál, amelyeket szeretnénk megmutatni Önöknek, így velünk senki sem fog unatkozni. A legjobban logisztikailag megszervezett személyszállítást is kínáljuk Zakopanéban és azon kívül."
+                "header": "Csapatunk – Szenvedéllyel teli emberek",
+                "text": "A Trio Travel csapata tapasztalt turisztikai szakemberekből áll, akik elsősorban a hegyek, a kultúra és a régió iránti szenvedélyükkel tűnnek ki. Ez lehetővé teszi számunkra, hogy ne csak standard utazásokat kínáljunk, hanem tematikus programokat is: lovas szános túrák tábortűzzel, goral esték, céges események, iskolai és nyugdíjas kirándulások. Téli időszakban különösen népszerűek az esti szános túrák, míg nyáron egynapos túrákat kínálunk a Tátrában és Szlovákiában. Helyi szállítást és repülőtéri transzfert is biztosítunk."
             }
         }
     },

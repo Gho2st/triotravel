@@ -69,31 +69,49 @@
         "text2": "Thanks to our years of experience, we specialize in the comprehensive organization of diverse tourism projects – from school and corporate trips, through integration and thematic events, to transport and event logistics. Whether you dream of a mountain adventure, a relaxing weekend, or an active guided expedition, Trio Travel will take care of every detail."
     },
     "offer": {
-        "header": "Summer Offer 2025",
-        "text2": "Looking for an idea for unforgettable day trips from Zakopane? With Trio Travel, you’ll discover the most beautiful spots of Podhale, the Tatra Mountains, and charming corners of Poland and Slovakia – all without stress or planning. As a local travel agency, we offer comfortable transport, experienced tour guides, and trusted routes. Our day trips are ideal for families with children, couples, seniors, and organized groups. Visit places like the Dunajec Rafting, Orava Castle, Slovak Paradise, or Tatralandia – all in one day! Book your trip now and enjoy a truly unique experience.",
+        "header": "Summer 2025 Offer",
+        "text2": "Trio Travel offers reliable and comfortable day trips from Zakopane – perfect for families, couples, seniors, and groups. We organize daily trips to popular attractions: Treetop Walk, Dunajec River Rafting, Morskie Oko, Vienna, Budapest, Chochołowskie Thermal Baths, and many more. The price always includes transport, a tour leader, and full organization. Discover more in one day – stress-free and well-planned.",
         "text": "Loading the offer book...",
         "trips": {
-            "header": "Trips",
-            "1": "Dunajec River Rafting 2.5h",
-            "2": "Chochołowskie Thermal Baths",
-            "3": "Treetop Walk",
-            "4": "Bielańska Cave",
-            "5": "Dunajec River Rafting 1.5h",
-            "6": "Secrets of Wieliczka",
-            "7": "Kasprowy Wierch Tickets",
-            "8": "Slovak Paradise",
-            "9": "Vienna",
-            "10": "Budapest",
-            "11": "Landscapes of Slovakia",
-            "12": "Ice Temple Hrebieniok",
-            "13": "Krakow Tour",
-            "14": "Around the Tatra Mountains",
-            "15": "Dunajec Rafting",
-            "16": "Highlander Feast",
-            "17": "Tatras and Zakopane",
-            "18": "Papal Trail",
-            "19": "Morskie Oko",
-            "20": "Quad bikes"
+            "header": "Day Trips from Zakopane",
+            "1": "Dunajec River Rafting Szczawnica 2.5h",
+            "1p": "One of the region's most popular attractions. The rafting trip takes place in the Pieniny Mountains and lasts 2.5 hours. Perfect for families.",
+            "2": "Chochołowskie Thermal Baths – relaxation and hot springs",
+            "2p": "Relaxing in the Chochołowskie Thermal Baths is a perfect way to recharge during your stay in Zakopane. Thermal water and mountain views – an ideal combination.",
+            "3": "Treetop Walk – Bachledka",
+            "3p": "A scenic treetop walk in Bachledka, Slovakia. A nature-based attraction perfect for a one-day trip from Zakopane.",
+            "4": "Bielańska Cave – Slovak jewel of the Tatras",
+            "4p": "Bielańska Cave is a natural attraction in Slovakia available as a day trip from Zakopane. Discover the underground world of the Tatras with a guide.",
+            "5": "Dunajec Rafting Slovakia 1.5h",
+            "5p": "A shorter (1.5h) and peaceful version of the classic Dunajec rafting. A convenient and quick getaway from Zakopane.",
+            "6": "Secrets of Wieliczka – UNESCO Salt Mine",
+            "6p": "Wieliczka Salt Mine is a UNESCO-listed site. We offer day trips from Zakopane with transport and entry ticket included.",
+            "7": "Kasprowy Wierch Tickets – cable car from Zakopane",
+            "7p": "Book tickets to Kasprowy Wierch without waiting in lines! A scenic ride offering the best view of the Tatra Mountains.",
+            "8": "Slovak Paradise – hiking through gorges and ladders",
+            "8p": "Slovak Paradise is perfect for an active day trip from Zakopane – scenic gorges, ladders, and bridges await in this national park.",
+            "9": "Vienna – one-day guided tour",
+            "9p": "A day trip from Zakopane to Vienna including a guided tour, free time, and comfortable transport.",
+            "10": "Budapest – Pearl of the Danube",
+            "10p": "Budapest is an ideal destination for a full-day trip. Explore historic sights, thermal baths, and charming streets. Departing from Zakopane.",
+            "11": "Slovak Landscapes – scenic drive tour",
+            "11p": "A panoramic tour across northern Slovakia – enjoy the views, architecture, and a relaxing full-day excursion.",
+            "12": "Ice Temple Hrebienok – magical ice sculpture",
+            "12p": "A winter attraction in Slovakia – the ice temple in Hrebienok stuns with intricate details and lights. Ideal for a seasonal trip from Zakopane.",
+            "14": "Around the Tatras – panoramic sightseeing tour",
+            "14p": "The 'Around the Tatras' trip is a panoramic drive through Podhale, Spiš, and Orava – views, local cuisine, and great stops along the way.",
+            "15": "Dunajec Rafting – active and safe adventure",
+            "15p": "Perfect for the adventurous – rafting down the Dunajec River is a fun water experience. Trip includes instructor and gear.",
+            "16": "Highlander Feast – traditional evening with music",
+            "16p": "A cultural evening with live highlander music, a bonfire, and regional food. A great post-tour attraction.",
+            "17": "Tatras and Zakopane – top sights in one day",
+            "17p": "See Zakopane’s and the Tatras’ highlights in one day: Gubałówka, the ski jump, Kościeliska Valley and more – with a guide and transport.",
+            "18": "Papal Trail – in the footsteps of John Paul II",
+            "18p": "A spiritual and scenic route following the legacy of Pope John Paul II – a unique pilgrimage trip from Zakopane.",
+            "19": "Morskie Oko – Tatra's classic gem",
+            "19p": "Morskie Oko is the most iconic lake in the Tatras. Enjoy a scenic walk and unforgettable views.",
+            "20": "Quad Biking in the Tatras – adrenaline and fun",
+            "20p": "Quad rides in the Tatras offer thrill, scenic landscapes, and great fun – perfect for couples or groups."
         },
         "tripslist": {
             "szlak-papieski": {
@@ -951,16 +969,16 @@
     "services": {
         "cards": {
             "1": {
-                "header": "Trips and Transport",
-                "text": "Trio Travel is a travel agency with extensive experience in organizing various tourist projects, themed events, and transportation. We know Zakopane like the back of our hand, and nothing is impossible for us. Initially, we mainly dealt with domestic and international transport, but later we became a tourism and transport company, organizing many interesting projects, including fantastic one-day trips."
+                "header": "Day Trips and Transport from Zakopane – Complete Offer from Trio Travel",
+                "text": "Trio Travel is a local travel agency based in Zakopane, specializing in organizing day trips, tourist events, and professional passenger transport. We have been operating for many years and have successfully carried out hundreds of trips – both in Poland and abroad. As locals from the Podhale region, we know every corner of the Tatra Mountains. That’s why our trips from Zakopane are not only well organized but also thoughtfully planned in terms of route, attractions, and timing. Our offer includes trips to: Dunajec River Rafting, Treetop Walk, Morskie Oko, Slovak Paradise, Budapest, Vienna, Wieliczka, Chochołowskie Thermal Baths, and many more."
             },
             "2": {
-                "header": "Tourism Organizer",
-                "text": "Our activity is registered in the Register of Tourism Organizers and Intermediaries of the Marshal of the Małopolska Region under number Z/54/2013. We have AXA insurance guarantee, so every trip with our agency is not only full of excitement but also provides necessary safety. Our clients appreciate us, among other things, for our ability to adapt to requirements and needs, the comprehensiveness of the services offered, and flexibility."
+                "header": "Licensed Tour Operator",
+                "text": "We are registered in the Register of Tour Operators and Tourist Agents of the Marshal of the Małopolska Region (No. Z/54/2013). Our trips are covered by AXA travel insurance, ensuring safety and comfort for all participants. Our clients appreciate us for: complete service – from booking to guide, punctuality and excellent logistics, personalized approach to every group’s needs, high standard of transport (modern buses, air conditioning, experienced drivers)."
             },
             "3": {
-                "header": "Our Team",
-                "text": "Our team consists of creative and energetic people, ensuring organization at the highest level. We organize sleigh rides, including the most exciting evening sleigh rides. Another of our trips is Dunajec rafting and many other one-day trips. Zakopane has many attractions we would like to show you, so with us, no one will be bored. We also offer the best logistically organized transport of people around Zakopane and beyond."
+                "header": "Our Team – People with Passion",
+                "text": "The Trio Travel team consists of people experienced in the tourism industry, but above all – passionate about mountains, culture, and the region. Thanks to this, we offer not only standard trips but also themed events: sleigh rides with bonfires, highlander evenings, corporate events, trips for schools and seniors. In winter, our evening sleigh rides are particularly popular, while in summer we organize day trips around the Tatras and to Slovakia. We also offer local transport and transfers – to airports and tourist attractions."
             }
         }
     },

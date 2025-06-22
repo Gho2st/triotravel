@@ -70,30 +70,48 @@
     },
     "offer": {
         "header": "Oferta Lato 2025",
-        "text2": "Szukasz pomysłu na niezapomniane wycieczki jednodniowe z Zakopanego? Z Trio Travel odkryjesz najpiękniejsze miejsca Podhala, Tatr i urokliwe zakątki Polski oraz Słowacji – bez stresu i planowania. Jako lokalne biuro podróży oferujemy komfortowy transport, opiekę doświadczonego pilota i sprawdzone trasy. Nasze wycieczki jednodniowe to idealna propozycja dla rodzin z dziećmi, par, seniorów i grup zorganizowanych. Z nami zwiedzisz m.in. Spływ Dunajcem, Orawski Zamek, Słowacki Raj czy Tatralandię – w jeden dzień! Zarezerwuj swoją wycieczkę już teraz i przeżyj dzień w wyjątkowy sposób.",
+        "text2": "Trio Travel oferuje sprawdzone i komfortowe wycieczki jednodniowe z Zakopanego – idealne dla rodzin, par, seniorów i grup. Codziennie organizujemy wyjazdy do popularnych atrakcji: Spacer w Koronach Drzew, Spływ Dunajcem, Morskie Oko, Wiedeń, Budapeszt, Termy Chochołowskie i wiele innych. W cenie zawsze masz transport, opiekę pilota i dobrą organizację. Zobacz więcej w jeden dzień – bez stresu i samodzielnego planowania.",
         "text": "Wczytywanie książki z ofertą...",
         "trips": {
             "header": "Wycieczki jednodniowe z Zakopanego",
-            "1": "Spływ Dunajcem Zakopane 2.5h",
-            "2": "Chochołowskie Termy",
-            "3": "Spacer w Koronach Drzew",
-            "4": "Jaskinia Bielańska",
+            "1": "Spływ Dunajcem Szczawnica 2.5h",
+            "1p": "Jedna z najpopularniejszych atrakcji regionu. Spływ odbywa się w Pieninach i trwa 2,5h. Idealny dla rodzin.",
+            "2": "Chochołowskie Termy - relaks i kąpiele termalne",
+            "2p": "Relaks w Chochołowskich Termach to idealny sposób na regenerację podczas pobytu w Zakopanem. Kąpiele termalne i widok na Tatry to połączenie idealne.",
+            "3": "Spacer w Koronach Drzew - Bachledka",
+            "3p": "Spacer w Koronach Drzew w Bachledce na Słowacji to wyjątkowa atrakcja przyrodnicza – trasa widokowa wśród górskich lasów idealna na jednodniowy wypad z Zakopanego.",
+            "4": "Jaskinia Bielańska - słowacka perła Tatr",
+            "4p": "Jaskinia Bielańska to naturalna atrakcja Słowacji, dostępna w ramach wycieczki jednodniowej z Zakopanego. Zobacz podziemny świat Tatr z przewodnikiem.",
             "5": "Spływ Dunajcem Słowacja 1.5h",
-            "6": "Tajemnice Wieliczki",
-            "7": "Bilety na Kasprowy Wierch",
-            "8": "Słowacki Raj",
-            "9": "Wiedeń",
-            "10": "Budapeszt",
-            "11": "Krajobrazy Słowacji",
-            "12": "Świątynia Lodowa Hrebieniok",
-            "13": "Zwiedzanie Krakowa",
-            "14": "Dookoła Tatr",
-            "15": "Rafting po Dunajcu",
-            "16": "Biesiada Góralska",
-            "17": "Tatry i Zakopane",
-            "18": "Szlak Papieski",
-            "19": "Morskie Oko",
-            "20": "Quady"
+            "5p": "Spływ Dunajcem po stronie słowackiej to krótsza (1,5h), spokojna wersja klasycznej atrakcji. Idealny na szybki i wygodny wypad z Zakopanego.",
+            "6": "Tajemnice Wieliczki - kopalnia soli UNESCO",
+            "6p": "Kopalnia Soli w Wieliczce to miejsce z listy UNESCO. Oferujemy wycieczki jednodniowe z Zakopanego z transportem i biletem wstępu w cenie.",
+            "7": "Bilety na Kasprowy Wierch - kolejką z Zakopanego",
+            "7p": "Zarezerwuj bilety na Kasprowy Wierch bez kolejek! Kolejka linowa z Zakopanego to wygodny sposób na zobaczenie Tatr z góry.",
+            "8": "Słowacki Raj - wędrówka przez wąwozy i drabinki",
+            "8p": "Słowacki Raj to idealne miejsce na aktywną wycieczkę z Zakopanego – malownicze wąwozy, drabinki i mostki w Parku Narodowym czekają na odkrycie.",
+            "9": "Wiedeń - jednodniowa wycieczka z przewodnikiem",
+            "9p": "Jednodniowa wycieczka z Zakopanego do Wiednia to zwiedzanie stolicy Austrii z przewodnikiem, czas wolny i komfortowy transport.",
+            "10": "Budapeszt - perła Dunaju",
+            "10p": "Budapeszt to idealny kierunek na całodniowy wyjazd. Stolica Węgier oferuje piękne zabytki, termy i klimatyczne uliczki. Wyjazd z Zakopanego.",
+            "11": "Krajobrazy Słowacji - objazd widokowy",
+            "11p": "Objazd krajobrazowy przez malownicze tereny północnej Słowacji - widoki, lokalna architektura i spokojna forma zwiedzania w jeden dzień.",
+            "12": "Świątynia Lodowa Hrebieniok - magiczna rzeźba z lodu",
+            "12p": "Zimowa atrakcja Słowacji – lodowa świątynia w Hrebienioku zachwyca detalami i podświetleniem. Wycieczka idealna w sezonie zimowym z Zakopanego.",
+            "14": "Dookoła Tatr - panoramiczna wycieczka krajoznawcza",
+            "14p": "Wycieczka 'Dookoła Tatr' to panoramiczny objazd przez Podhale, Spisz i Orawę – z widokami, lokalną kuchnią i przystankami w ciekawych punktach.",
+            "15": "Rafting po Dunajcu - aktywnie i bezpiecznie",
+            "15p": "Rafting po Dunajcu to propozycja dla aktywnych. Emocje, woda, przyroda – świetna zabawa dla grup i par. Wyjazd z Zakopanego z instruktorem.",
+            "16": "Biesiada Góralska - regionalna uczta z muzyką",
+            "16p": "Biesiada Góralska to wieczorna impreza regionalna z muzyką na żywo, ogniskiem i pyszną kuchnią podhalańską. Dodatkowa atrakcja po wycieczkach.",
+            "17": "Tatry i Zakopane - najpiękniejsze miejsca w jeden dzień",
+            "17p": "Najważniejsze atrakcje Zakopanego i Tatr w 1 dzień: Gubałówka, skocznia, Dolina Kościeliska i inne – z przewodnikiem i wygodnym transportem.",
+            "18": "Szlak Papieski - śladami Jana Pawła II",
+            "18p": "Szlak Papieski to wyjątkowa trasa pielgrzymkowa śladami Jana Pawła II – duchowość, natura i piękne widoki na jednej wycieczce z Zakopanego.",
+            "19": "Morskie Oko - tatrzański klasyk",
+            "19p": "Morskie Oko to klasyk wśród tatrzańskich wycieczek. Spacer malowniczą trasą i niezapomniany widok na największe jezioro Tatr.",
+            "20": "Quady w Tatrach - adrenalina i zabawa",
+            "20p": "Quady w Tatrach to adrenalina, górskie widoki i świetna zabawa na specjalnie przygotowanych trasach – idealne dla par i grup znajomych."
         },
         "tripslist": {
             "szlak-papieski": {
@@ -959,16 +977,16 @@
     "services": {
         "cards": {
             "1": {
-                "header": "Wycieczki i transport",
-                "text": "Trio Travel to biuro podróży posiadające duże doświadczenie w organizacji wszelkich projektów turystycznych, imprez tematycznych oraz transportu. Zakopane znamy jak własną kieszeń i nie ma dla nas rzeczy niemożliwych. Początkowo zajmowaliśmy się głównie transportem krajowym i międzynarodowym, później natomiast staliśmy się przedsiębiorstwem turystyczno-transportowym, organizującym sporo ciekawych realizacji, w tym fantastyczne wycieczki jednodniowe."
+                "header": "Wycieczki i transport z Zakopanego – kompleksowa oferta Trio Travel",
+                "text": "Trio Travel to lokalne biuro podróży z siedzibą w Zakopanem, specjalizujące się w organizacji wycieczek jednodniowych, imprez turystycznych oraz profesjonalnego transportu pasażerskiego. Działamy na rynku od wielu lat i zrealizowaliśmy setki udanych wyjazdów – zarówno na terenie Polski, jak i poza jej granicami. Jako mieszkańcy Podhala doskonale znamy każdy zakątek Tatr i okolic. Dlatego nasze wycieczki z Zakopanego są nie tylko dobrze zorganizowane, ale także przemyślane pod kątem trasy, atrakcji i czasu. W ofercie posiadamy m.in. wyjazdy do: Spływ Dunajcem, Spacer w Koronach Drzew, Morskie Oko, Słowacki Raj, Budapeszt, Wiedeń, Wieliczka, Termy Chochołowskie i wiele innych."
             },
             "2": {
                 "header": "Organizator Turystyki",
-                "text": "Nasza działalność jest zapisana w Rejestrze Organizatorów Turystyki i Pośredników Turystycznych Marszałka Województwa Małopolskiego pod numerem Z/54/2013. Posiadamy gwarancję ubezpieczeniową AXA, dlatego każda wyprawa z naszym biurem jest nie tylko pełna wrażeń, ale też zapewnia niezbędne bezpieczeństwo. Nasi Klienci doceniają nas, między innymi, za umiejętność dostosowania się do wymagań i potrzeb, kompleksowość oferowanych usług oraz elastyczność."
+                "text": "Jesteśmy wpisani do Rejestru Organizatorów Turystyki i Pośredników Turystycznych Marszałka Województwa Małopolskiego (nr Z/54/2013). Nasze wyjazdy są objęte ubezpieczeniem turystycznym AXA, co gwarantuje bezpieczeństwo i komfort podróży dla wszystkich uczestników. Nasi klienci cenią nas za: pełną obsługę – od rezerwacji po przewodnika punktualność i świetną logistykę indywidualne podejście do potrzeb każdej grupy wysoki standard transportu (nowoczesne busy, klimatyzacja, doświadczeni kierowcy)"
             },
             "3": {
-                "header": "Nasz Zespół",
-                "text": "Nasz zespół składa się z ludzi kreatywnych i pełnych energii, co gwarantuje organizację na najwyższym poziomie. Organizujemy kuligi, w tym te dostarczające największych emocji czyli kuligi wieczorne. Naszą kolejną wycieczką jest także spływ Dunajcem oraz wiele innnych wycieczek jednodniowych. Zakopane posiada mnóstwo atrakcji które chcieli byśmy Państwu pokazać, dlatego z nami na pewno nikt nie będzie się nudził. Oferujemy także najlepiej logistycznie zorganizowany przewóz osób po Zakopanem i nie tylko."
+                "header": "Nasz Zespół - ludzie z pasją",
+                "text": "Zespół Trio Travel tworzą osoby z doświadczeniem w branży turystycznej, ale przede wszystkim – z pasją do gór, kultury i regionu. Dzięki temu możemy oferować nie tylko standardowe wyjazdy, ale również wydarzenia tematyczne: kuligi z ogniskiem, wieczory góralskie, imprezy firmowe, wyprawy dla szkół i seniorów. W sezonie zimowym dużym powodzeniem cieszą się nasze kuligi wieczorne, natomiast latem – jednodniowe wycieczki po Tatrach i na Słowację. Dodatkowo oferujemy także transport lokalny i transfery – zarówno na lotniska, jak i do atrakcji turystycznych."
             }
         }
     },
