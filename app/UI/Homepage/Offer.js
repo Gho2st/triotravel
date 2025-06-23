@@ -29,9 +29,9 @@ const gallery = [
     link: "/wycieczki-jednodniowe/jaskinia-bielanska",
   },
   {
-    url: "/wycieczki/biesiada-goralska/baner.webp",
+    url: "/wycieczki/biesiada-goralska/5.webp",
     alt: "trips.16",
-    link: "/wycieczki-jednodniowe/biesiada-goralska",
+    link: "/wycieczki-jednodniowe/zabawa-goralska",
   },
   {
     url: "/wycieczki/splyw-dunajcem-slowacja/splyw.webp",

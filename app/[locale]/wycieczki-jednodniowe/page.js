@@ -72,8 +72,8 @@ export default function Atrakcje() {
       title: t("trips.16"),
       p: t("trips.16p"),
 
-      image: "/wycieczki/biesiada-goralska/baner.webp",
-      link: "/wycieczki-jednodniowe/biesiada-goralska",
+      image: "/wycieczki/biesiada-goralska/5.webp",
+      link: "/wycieczki-jednodniowe/zabawa-goralska",
     },
     {
       title: t("trips.7"),

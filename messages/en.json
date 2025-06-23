@@ -186,13 +186,14 @@
             },
             "biesiada": {
                 "alt": {
-                    "1": "View of the picturesque Kościeliska Valley trail",
-                    "2": "People strolling along the trail",
-                    "3": "A stream in the forest",
-                    "4": "Trail running beside rocks",
-                    "5": "A small chapel among the trees"
+                    "1": "A diverse group of people standing on grass outdoors, playing various musical instruments, including a violin. They are wearing different clothing styles and some have hats on.",
+                    "2": "A group of people gathered around a fire in an outdoor setting, sitting on the grass. They are dressed in various clothing and appear engaged in conversation, enjoying each other's company.",
+                    "3": "A person standing in a small wooden building surrounded by grass and trees under a cloudy sky in a rural area.",
+                    "4": "A variety of sausages grilling over an open fire, surrounded by green grass and trees under a clear sky.",
+                    "5": "A group of horses, including a mare and stallion, are harnessed to a wagon in an outdoor setting with grass and mountains in the background. The horses are equipped with horse supplies such as bridles and halters. The sky is clear above them as they pull the wagon across a field.",
+                    "6": "Two horses, one a mare and the other a stallion, are pulling a cart through an outdoor setting with grass and trees. The horses are equipped with bridles and halters, showcasing their manes and saddle gear. A person is nearby as the animals perform their task in a ranch-like environment with mountains in the background."
                 },
-                "header": "Highlander Feast",
+                "header": "Highlander Party",
                 "header2": "Góralskie Śpasy – An Unforgettable Highlander Party in Podhale Style",
                 "header3": "Attraction Description:",
                 "text": "We invite you to an exceptional evening adventure full of Highlander folklore and warm atmosphere that will leave unforgettable memories. The evening starts with a comfortable pickup of guests as close as possible to their accommodation in Zakopane and Kościelisko.* Then we’ll take you on a traditional ride in Highlander carriages through picturesque areas at the foot of the Kościeliska Valley. Each participant receives a regional accent – a welcoming gesture to introduce you to the true Highlander spirit and energize you for the rest of the evening. After about an hour’s ride, we arrive at a Highlander hut – a place built for tradition, fun, and true Highlander hospitality. Here the lively party begins, lasting into the late hours. You can enjoy live music or a regional-style DJ, a bonfire where you can roast sausages yourself or choose pre-prepared ones, and many traditional Highlander delicacies. The menu includes oscypek cheese, pickled cucumbers, bread with lard, and drinks – beer, tea, and mulled wine – all served without limits, so everyone feels like a true host’s guest. During the event we organize various contests, animations, and dances, making this evening not only a culinary feast but also full of laughter and good energy, showcasing Podhale culture. It’s an ideal offer for couples, families, and groups of friends – regardless of age or preferences. The venue, located at the foot of the picturesque Kościeliska Valley, surrounded by mountains and forests, adds magic to the entire event and makes the evening truly special and unforgettable.",
@@ -203,7 +204,7 @@
                     "4": "Highlander party in a traditional hut with live music or DJ, dances, and contests",
                     "5": "Bonfire with the possibility to roast sausages yourself or choose ready-made ones",
                     "6": "Regional refreshments: oscypek cheese, pickled cucumbers, bread with lard",
-                    "7": "Unlimited drinks: beer, tea (regular and Highlander), natural juices",
+                    "7": "Unlimited drinks: beer, tea (highlander-style), mulled wine",
                     "8": "Traditional Highlander atmosphere and the unique vibe of the Kościeliska Valley"
                 },
                 "table": {
@@ -1352,8 +1353,8 @@
             "description": "Discover the secrets of the Wieliczka Salt Mine - one of Poland's seven wonders. Explore salt chambers, lakes, and sculptures. An unforgettable adventure awaits!"
         },
         "biesiada-goralska": {
-            "title": "Highland Feast - Adventure with Dance, Music, and Tradition",
-            "description": "Experience an unforgettable Highland Feast! Dancing by the bonfire, rides in highland carriages, and authentic highland cuisine in the heart of Kościelisko Valley. Join us!"
+            "title": "Highlander Party – An Adventure of Dance, Music and Tradition",
+            "description": "Experience an unforgettable Highlander Party! Dance by the fire, ride traditional highlander wagons, and enjoy authentic highlander cuisine in the heart of the Kościeliska Valley. Join us!"
         },
         "slowacki-raj": {
             "title": "Slovak Paradise - Hike through Suchá Belá Gorge, Waterfalls, and Ladders",

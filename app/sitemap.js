@@ -191,16 +191,17 @@ export default function sitemap() {
       },
     },
     {
-      url: `${baseUrl}/wycieczki-jednodniowe/biesiada-goralska`,
+      url: `${baseUrl}/wycieczki-jednodniowe/zabawa-goralska`,
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: `${baseUrl}/en/day-trips/goral-feast`,
-          ar: `${baseUrl}/ar/rihlat-yawmiya/madbat-al-jibal-goral`,
-          hu: `${baseUrl}/hu/egynapos-kirandulasok/hegyvidéki-lakoma`,
+          en: `${baseUrl}/en/day-trips/highlander-party`,
+          ar: `${baseUrl}/ar/rihlat-yawmiya/haflat-jibaliya`,
+          hu: `${baseUrl}/hu/egynapos-kirandulasok/hegyvideki-mulatsag`,
         },
       },
     },
+
     {
       url: `${baseUrl}/wycieczki-jednodniowe/slowacki-raj`,
       lastModified: new Date(),

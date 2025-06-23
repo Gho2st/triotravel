@@ -186,13 +186,14 @@
             },
             "biesiada": {
                 "alt": {
-                    "1": "Kilátás a festői Kościeliska-völgyi túraútvonalra",
-                    "2": "Sétálók az ösvényen",
-                    "3": "Patak az erdőben",
-                    "4": "Ösvény sziklák mellett",
-                    "5": "Kápolna a fák között"
+                    "1": "Különféle emberekből álló csoport áll a fűben a szabadban, különféle hangszereken játszanak, köztük hegedűn is. Különböző ruhákat viselnek, néhányan kalapot hordanak.",
+                    "2": "Egy csoport ember ül a fűben a szabadban, tábortűz köré gyűlve. Különféle ruhákban vannak, beszélgetnek és élvezik egymás társaságát.",
+                    "3": "Egy ember áll egy kis faházban, amelyet fű és fák vesznek körül egy felhős ég alatt, vidéki környezetben.",
+                    "4": "Különféle kolbászok sülnek nyílt tűzön, körülöttük zöld fű és fák, tiszta égbolt alatt.",
+                    "5": "Egy csoport ló, köztük egy kanca és egy mén, szekérbe van fogva szabadtéri környezetben, háttérben fű és hegyek. A lovakon kantár és hám van, miközben tiszta ég alatt húzzák a szekeret a mezőn.",
+                    "6": "Két ló – egy kanca és egy mén – húz egy szekeret füves, fás területen. Kantár és hám van rajtuk, jól látszanak a sörényük és felszerelésük. Egy ember van a közelben, miközben a lovak dolgoznak egy tanyaszerű környezetben, háttérben hegyekkel."
                 },
-                "header": "Górál Lakoma",
+                "header": "Hegyi Mulatság",
                 "header2": "Góralskie Śpasy – Felejthetetlen podhale‑i stílusú mulatság",
                 "header3": "Látványosság leírása:",
                 "text": "Meghívjuk Önt egy különleges, górál folklórral és szívélyes hangulattal teli esti kalandra, amely felejthetetlen élményeket hagy maga után. Az este kényelmes vendégfelvétellel kezdődik, lehetőleg a szálláshelyük közelében Zakopanéban és Kościeliskóban.* Ezután hagyjuk, hogy tradicionális górál hintók szállítsák végig Önt a festői Kościeliska-völgy lábánál. Minden résztvevő regionalis köszöntő gesztust kap – ezzel valódi górál hangulatba kerül és energiát kap az este további részéhez. Körülbelül egyórás utazás után elérkezünk egy górál kunyhóhoz – egy olyan helyhez, amelyet a tradíció, a szórakozás és a valódi górál vendégszeretet ihletett. Itt kezdődik a vidám mulatság, amely késő esti órákig tart. Élő zene vagy régiós DJ, tábortűz, ahol saját magad sütözhetsz kolbászt, vagy választhatsz előre készítettet, és számos hagyományos górál ínyencség vár. A menü tartalmaz oscypek sajtot, kovászos uborkát, zsírkenyeret és italokat – sört, teát, forralt bort – korlátlan mennyiségben, hogy mindenki úgy érezze magát, mintha egy igazi vendéglátónál lenne. A mulatság során különböző versenyeket, animációkat és táncokat szervezünk, így ez az este nemcsak kulináris lakoma, hanem jókedvű, energikus találkozás is Podhale kultúrájával. Tökéletes ajánlat pároknak, családoknak és baráti társaságoknak – életkortól és preferenciáktól függetlenül. A helyszín a festői Kościeliska-völgy lábánál, hegyekkel és erdőkkel körülvéve varázslatot ad az eseménynek, és különlegessé, emlékezetessé teszi az estét.",
@@ -203,7 +204,7 @@
                     "4": "Górál mulatság hagyományos kunyhóban élő zenével vagy DJ‑vel, tánccal és vetélkedőkkel",
                     "5": "Tábortűz, ahol saját magad süthetsz kolbászt, vagy választhatsz készételt",
                     "6": "Regionális falatok: oscypek, kovászos uborka, zsírkenyér",
-                    "7": "Korlátlan italok: sör, tea (hagyományos és górál), természetes gyümölcslevek",
+                    "7": "Korlátlan italok: sör, tea (hegylakó), forralt bor",
                     "8": "Hagyományos górál hangulat és a Kościeliska‑völgy egyedülálló atmoszférája"
                 },
                 "table": {
@@ -1357,8 +1358,8 @@
             "description": "Ismerd meg a Wieliczkai Sóbánya titkait – Lengyelország hét csodájának egyikét. Fedezd fel a sós kamrákat, tavakat és szobrokat. Felejthetetlen kaland vár rád!"
         },
         "biesiada-goralska": {
-            "title": "Hegyi Lakoma - Kaland Tánccal, Zenével és Hagyományokkal",
-            "description": "Élj át felejthetetlen Hegyi Lakomát! Tánc tábortűz mellett, hegyi fogatokkal való utazások és autentikus hegyi konyha a Kościelisko-völgy szívében. Csatlakozz hozzánk!"
+            "title": "Hegyi Mulatság – Kaland tánccal, zenével és hagyománnyal",
+            "description": "Éld át a felejthetetlen Hegyi Mulatságot! Tánc a tábortűz mellett, utazás hagyományos hegyi szekereken, és autentikus hegyi konyha a Kościeliska-völgy szívében. Csatlakozz hozzánk!"
         },
         "slowacki-raj": {
             "title": "Szlovák Paradicsom - Túrázás a Sucha Bela Szurdokban, Vízesések és Létrák",

@@ -127,6 +127,11 @@ const nextConfig = {
         destination: "/wycieczki-jednodniowe/:slug",
         permanent: true,
       },
+      {
+        source: "/wycieczki-jednodniowe/biesiada-goralska",
+        destination: "/wycieczki-jednodniowe/zabawa-goralska",
+        permanent: true,
+      },
     ];
   },
   images: {

@@ -114,11 +114,11 @@ export const routing = defineRouting({
       ar: "/rihlat-yawmiya/asrar-manjam-wieliczka",
       hu: "/egynapos-kirandulasok/wieliczka-sóbánya-túra",
     },
-    "/wycieczki-jednodniowe/biesiada-goralska": {
-      pl: "/wycieczki-jednodniowe/biesiada-goralska",
-      en: "/day-trips/goral-feast",
-      ar: "/rihlat-yawmiya/madbat-al-jibal-goral",
-      hu: "/egynapos-kirandulasok/hegyvidéki-lakoma",
+    "/wycieczki-jednodniowe/zabawa-goralska": {
+      pl: "/wycieczki-jednodniowe/zabawa-goralska",
+      en: "/day-trips/highlander-party",
+      ar: "/rihlat-yawmiya/haflat-jibaliya",
+      hu: "/egynapos-kirandulasok/hegyvideki-mulatsag",
     },
     "/wycieczki-jednodniowe/slowacki-raj": {
       pl: "/wycieczki-jednodniowe/slowacki-raj",

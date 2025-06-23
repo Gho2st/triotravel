@@ -20,7 +20,7 @@ export async function generateMetadata({ params }) {
   });
 
   const path =
-    routing.pathnames["/wycieczki-jednodniowe/biesiada-goralska"][locale]; // Pobieramy ścieżkę dla języka
+    routing.pathnames["/wycieczki-jednodniowe/zabawa-goralska"][locale]; // Pobieramy ścieżkę dla języka
   // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
   const canonicalUrl =
     locale === "pl"
@@ -97,10 +97,12 @@ export default function Biesiada() {
       <div>
         <Gallery
           images={[
-            { url: "/wycieczki/biesiada-goralska/1.webp", alt: t("alt.2") },
-            { url: "/wycieczki/biesiada-goralska/2.webp", alt: t("alt.3") },
-            { url: "/wycieczki/biesiada-goralska/3.webp", alt: t("alt.4") },
-            { url: "/wycieczki/biesiada-goralska/4.webp", alt: t("alt.5") },
+            { url: "/wycieczki/biesiada-goralska/1.webp", alt: t("alt.1") },
+            { url: "/wycieczki/biesiada-goralska/2.webp", alt: t("alt.2") },
+            { url: "/wycieczki/biesiada-goralska/3.webp", alt: t("alt.3") },
+            { url: "/wycieczki/biesiada-goralska/4.webp", alt: t("alt.4") },
+            { url: "/wycieczki/biesiada-goralska/5.webp", alt: t("alt.5") },
+            { url: "/wycieczki/biesiada-goralska/6.webp", alt: t("alt.6") },
           ]}
         />
       </div>

@@ -102,8 +102,8 @@
             "14p": "Wycieczka 'Dookoła Tatr' to panoramiczny objazd przez Podhale, Spisz i Orawę – z widokami, lokalną kuchnią i przystankami w ciekawych punktach.",
             "15": "Rafting po Dunajcu - aktywnie i bezpiecznie",
             "15p": "Rafting po Dunajcu to propozycja dla aktywnych. Emocje, woda, przyroda – świetna zabawa dla grup i par. Wyjazd z Zakopanego z instruktorem.",
-            "16": "Biesiada Góralska - regionalna uczta z muzyką",
-            "16p": "Biesiada Góralska to wieczorna impreza regionalna z muzyką na żywo, ogniskiem i pyszną kuchnią podhalańską. Dodatkowa atrakcja po wycieczkach.",
+            "16": "Zabawa Góralska - regionalna uczta z muzyką",
+            "16p": "Zabawa Góralska to wieczorna impreza regionalna z muzyką na żywo, ogniskiem i pyszną kuchnią podhalańską. Dodatkowa atrakcja po wycieczkach.",
             "17": "Tatry i Zakopane - najpiękniejsze miejsca w jeden dzień",
             "17p": "Najważniejsze atrakcje Zakopanego i Tatr w 1 dzień: Gubałówka, skocznia, Dolina Kościeliska i inne – z przewodnikiem i wygodnym transportem.",
             "18": "Szlak Papieski - śladami Jana Pawła II",
@@ -186,13 +186,14 @@
             },
             "biesiada": {
                 "alt": {
-                    "1": "Widok na malowniczą trasę Doliny Kościeliskiej",
-                    "2": "Spacerujący ludzie na trasie",
-                    "3": "Strumyk w lesie",
-                    "4": "Trasa prowadząca obok skał",
-                    "5": "Kapliczka posród drzew"
+                    "1": "Zróżnicowana grupa ludzi stojąca na trawie na świeżym powietrzu, grająca na różnych instrumentach muzycznych, w tym na skrzypcach. Noszą różne style ubrań, niektórzy mają kapelusze.",
+                    "2": "Grupa osób zgromadzona wokół ogniska na świeżym powietrzu, siedząca na trawie. Są ubrani różnorodnie i wydają się prowadzić rozmowy, ciesząc się swoim towarzystwem.",
+                    "3": "Osoba stojąca w małym drewnianym budynku otoczonym trawą i drzewami pod pochmurnym niebem na obszarze wiejskim.",
+                    "4": "Różne kiełbasy grillowane nad otwartym ogniem, otoczone zieloną trawą i drzewami pod bezchmurnym niebem.",
+                    "5": "Grupa koni, w tym klacz i ogier, zaprzężona do wozu w plenerze z trawą i górami w tle. Konie mają na sobie uprząż, uzdy i kantary. Nad nimi rozciąga się bezchmurne niebo, gdy ciągną wóz przez pole.",
+                    "6": "Dwa konie — klacz i ogier — ciągną wóz przez teren z trawą i drzewami. Mają na sobie uzdy i kantary, widoczne są ich grzywy i uprząż. Obok znajduje się osoba, a zwierzęta pracują w środowisku przypominającym ranczo z górami w tle."
                 },
-                "header": "Biesiada Góralska",
+                "header": "Zabawa Góralska",
                 "header2": "Śpasy Góralskie - Niezapomniana impreza w stylu Podhala",
                 "header3": "Opis Atrakcji:",
                 "text": "Zapraszamy na wyjątkową, pełną góralskiego folkloru i serdecznej atmosfery wieczorną przygodę, która pozostawi niezapomniane wspomnienia. Wieczór zaczyna się komfortowym odbiorem gości możliwie blisko miejsca zakwaterowania na terenie Zakopanego i Kościeliska.* Następnie zabierzemy Państwa na tradycyjny przejazd góralskimi powozami przez malownicze tereny u podnóża Doliny Kościeliskiej. Każdy uczestnik otrzyma, regionalny akcent – taki powitalny gest, który wprowadzi w prawdziwie góralski klimat i doda energii na dalszą część wieczoru. Po około godzinnej przejażdżce dotrzemy do góralskiego szałasu – miejsca stworzonego z myślą o tradycji, zabawie i prawdziwej góralskiej gościnności. Tutaj zacznie się pełna energii zabawa, która będzie trwać do późnych godzin. Czeka na Państwa muzyka na żywo lub DJ w regionalnym stylu , ognisko, gdzie można samodzielnie upiec kiełbaski  lub sięgnąć po wcześniej przygotowane, a także wiele tradycyjnych góralskich przysmaków. W menu nie zabraknie oscypków , ogórków kiszonych , chleba ze smalcem oraz napojów – piwa , herbaty oraz wina grzanego – wszystko podawane bez ograniczeń, aby każdy poczuł się jak u prawdziwych gospodarzy. Podczas zabawy organizujemy różnorodne konkursy, animacje i tańce, które sprawiają, że ten wieczór jest nie tylko kulinarną ucztą, ale też pełnym śmiechu i dobrej energii spotkaniem z kulturą Podhala. To idealna propozycja dla par, rodzin i grup przyjaciół – niezależnie od wieku i upodobań. Miejsce, położone u podnóża malowniczej Doliny Kościeliskiej, w otoczeniu gór i lasów, dodaje całemu wydarzeniu magii i sprawia, że wieczór staje się prawdziwie wyjątkowy i niezapomniany.",
@@ -203,7 +204,7 @@
                     "4": "Góralska zabawa w tradycyjnym szałasie z muzyką na żywo lub DJ-em, tańcami i konkursami",
                     "5": "Ognisko z możliwością samodzielnego pieczenia kiełbasek lub wyborem gotowych",
                     "6": "Regionalny poczęstunek: oscypki, ogórki kiszone, chleb ze smalcem",
-                    "7": "Napoje bez limitu: piwo, herbata (zwykła i góralska), soki naturalne",
+                    "7": "Napoje bez limitu: piwo, herbata (góralska), grzane wino",
                     "8": "Tradycyjna góralska atmosfera i wyjątkowy klimat Doliny Kościeliskiej"
                 },
                 "table": {
@@ -1360,8 +1361,8 @@
             "description": "Poznaj tajemnice Kopalni Soli w Wieliczce - jeden z siedmiu cudów Polski. Eksploruj solne komory, jeziora i rzeźby. Niezapomniana przygoda czeka na Ciebie!"
         },
         "biesiada-goralska": {
-            "title": "Biesiada Góralska - Przygoda z Tańcami, Muzyką i Tradycją",
-            "description": "Przeżyj niezapomnianą Biesiadę Góralską! Tańce przy ognisku, przejażdżki góralskimi powozami i autentyczna góralska kuchnia w sercu Doliny Kościeliskiej. Dołącz do nas!"
+            "title": "Zabawa Góralska - Przygoda z Tańcami, Muzyką i Tradycją",
+            "description": "Przeżyj niezapomnianą Zabawę Góralską! Tańce przy ognisku, przejażdżki góralskimi powozami i autentyczna góralska kuchnia w sercu Doliny Kościeliskiej. Dołącz do nas!"
         },
         "slowacki-raj": {
             "title": "Słowacki Raj - Wędrówka po Wąwozie Sucha Bela, Wodospady i Drabinki",
