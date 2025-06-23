@@ -215,12 +215,11 @@
                     "2": "Kedvezményes (14 év alatti gyerekek)"
                 },
                 "tripprogram": {
-                    "header": "Kirándulás programja:",
-                    "1": "Vendégek felvétele lehetőleg a zakopanei és kościeliski szállások közelében*",
-                    "2": "Körülbelül egyórás utazás tradicionális górál hintókon a Kościeliska-völgy lábánál. Minden résztvevő regionális köszöntést kap",
-                    "3": "Érkezés a górál kunyhóhoz és a lakoma kezdete zenével, tánccal és hagyományos mókákkal korlátlan pogácsával",
-                    "4": "Górál mulatság kezdete – élő zene vagy régiós DJ, tábortűz, vetélkedők, animációk, táncok és korlátlan pogácsa: kolbász (sütéshez vagy kész), oscypek, kovászos uborka, zsírkenyér és italok: sör, tea, forralt bor – mind korlátlanul",
-                    "5": "Tervezett visszaérkezés a felvételi helyszínre és az esemény befejezése"
+                    "header": "Kirándulás Programja:",
+                    "1": "Vendégek felvétele a lehető legközelebb a szálláshelyükhöz a Zakopane és Kościelisko környékén*",
+                    "2": "Körülbelül egyórás utazás hagyományos hegyi szekerekkel a Kościeliska-völgy lábánál. Minden résztvevő kap egy helyi emléktárgyat",
+                    "3": "Érkezés egy hegyi menedékházhoz és a hegyi mulatság kezdete – élő zene vagy DJ regionális stílusban, tábortűz, versenyek, animációk és tánc. Korlátlan vendéglátás: kolbászok (saját sütésre vagy készen), oscypek sajt, savanyú uborka, zsíros kenyér, valamint italok: sör, tea, forralt bor – minden korlátlanul felszolgálva",
+                    "4": "Tervezett visszatérés a felvételi pontra és az esemény befejezése"
                 }
             },
             "kasprowy": {

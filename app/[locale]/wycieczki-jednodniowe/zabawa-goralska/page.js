@@ -60,7 +60,7 @@ export default function Biesiada() {
     "17:30 - " + t("tripprogram.1"),
     "18:00 - " + t("tripprogram.2"),
     "19:00 - " + t("tripprogram.3"),
-    "21:00/21:30 - " + t("tripprogram.4"),
+    "21:00/22:00 - " + t("tripprogram.4"),
   ];
   return (
     <>
