@@ -47,7 +47,7 @@ export default function Hero() {
         link: "/wycieczki-jednodniowe/slowacki-raj",
       },
       {
-        background: "/wycieczki/biesiada-goralska/baner.webp",
+        background: "/wycieczki/biesiada-goralska/5.webp",
         translationKey: "headers.header5", // "Biesiada Goralska?"
         link: "/wycieczki-jednodniowe/biesiada-goralska",
       },
