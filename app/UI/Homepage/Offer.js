@@ -144,11 +144,11 @@ export default function Offer() {
   return (
     <section className="relative bg-neutral-100 px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24 overflow-x-hidden">
       {/* Red Bookmark */}
-      <div className="hidden absolute top-4 md:top-10 right-0 md:right-12 xl:right-32 w-16 md:w-32 h-8 xl:h-12 bg-red-600 text-white lg:flex items-center justify-center rotate-90 shadow-lg">
+      <div className="hidden absolute xl:top-0 xl:right-32 w-16 xl:h-12 bg-red-600 text-white lg:flex items-center justify-center rotate-90 shadow-lg">
         <span className="transform -rotate-45 text-sm font-medium"></span>
       </div>
 
-      <h2 className="text-center pb-10 font-semibold text-4xl md:text-5xl 2xl:text-6xl">
+      <h2 className="text-center pb-10 font-semibold text-3xl md:text-4xl 2xl:text-5xl">
         {t("header")}
       </h2>
 
