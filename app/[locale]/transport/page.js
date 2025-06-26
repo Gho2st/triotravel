@@ -46,8 +46,8 @@ export default function Transport() {
           {t("text")}
         </p>
         <div className="flex gap-3 md:gap-6 justify-center mb-10 md:mb-20">
-          <Button link="/mapa-przystankow" text={t("button")} />
-          <Button link="/transport-nad-morskie-oko" text={t("button2")} />
+          <Button link="/transport/mapa-przystankow" text={t("button")} />
+          <Button link="/transport/nad-morskie-oko" text={t("button2")} />
         </div>
         <Gallery
           images={[

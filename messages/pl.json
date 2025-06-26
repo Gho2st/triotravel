@@ -69,12 +69,101 @@
         "text2": "Dzięki wieloletniemu doświadczeniu specjalizujemy się w kompleksowej organizacji różnorodnych projektów turystycznych – od wycieczek szkolnych i firmowych, przez imprezy integracyjne i tematyczne, aż po transport oraz logistykę wydarzeń. Niezależnie od tego, czy marzysz o górskiej przygodzie, relaksującym weekendzie, czy aktywnej wyprawie z przewodnikiem, Trio Travel zatroszczy się o każdy szczegół."
     },
     "offer": {
-        "header": "Oferta Lato 2025",
-        "text2": "Trio Travel oferuje sprawdzone i komfortowe wycieczki jednodniowe z Zakopanego – idealne dla rodzin, par, seniorów i grup. Codziennie organizujemy wyjazdy do popularnych atrakcji: Spacer w Koronach Drzew, Spływ Dunajcem, Morskie Oko, Wiedeń, Budapeszt, Termy Chochołowskie i wiele innych. W cenie zawsze masz transport, opiekę pilota i dobrą organizację. Zobacz więcej w jeden dzień – bez stresu i samodzielnego planowania.",
+        "header": "Najpopularniejsze wycieczki jednodniowe z Zakopanego",
+        "text2": "Trio Travel oferuje sprawdzone i komfortowe <strong>wycieczki jednodniowe z Zakopanego</strong> - idealne dla rodzin, par, seniorów i grup. Codziennie organizujemy wyjazdy do popularnych atrakcji: Spacer w Koronach Drzew, Spływ Dunajcem, Morskie Oko, Wiedeń, Budapeszt, Termy Chochołowskie i wiele innych. W cenie zawsze masz transport, opiekę pilota i dobrą organizację. Więcej wrażeń w jeden dzień - bez pośpiechu i bez konieczności planowania samodzielnie.",
         "text": "Wczytywanie książki z ofertą...",
+        "button": "Zarezerwuj teraz",
+        "cta": {
+            "header": "Gotowy na swoją wycieczkę z Zakopanego?",
+            "text": "Niezależnie od tego, czy wybierasz się na <strong>Spływ Dunajcem</strong>, do <strong>Term Chochołowskich</strong>, czy planujesz aktywny <strong>dzień w górach</strong> - u nas znajdziesz idealną ofertę. Zarezerwuj online lub skontaktuj się z nami!",
+            "button": "Zarezerwuj Teraz"
+        },
+        "whytrips": {
+            "header": "Co wyróżnia naszą ofertę jednodniowych wyjazdów?",
+            "text": "Szukasz najlepszych <strong>wycieczek jednodniowych z Zakopanego?</strong> Trio Travel to sprawdzony organizator turystyki, który oferuje komfort, bezpieczeństwo i niezapomniane wrażenia - codziennie, przez cały sezon. Zobacz, co nas wyróżnia!",
+            "cards": {
+                "1": {
+                    "header": "Doświadczenie i jakość",
+                    "text": "Od lat specjalizujemy się w turystyce jednodniowej z Zakopanego. Obsługujemy zarówno turystów indywidualnych, jak i grupy zorganizowane. Nasze wycieczki są dopracowane w każdym szczególe."
+                },
+                "2": {
+                    "header": "Bogata oferta",
+                    "text": "Ponad 15 wycieczek – od klasyków jak Morskie Oko, po atrakcje zagraniczne: Wiedeń, Budapeszt, Słowacki Raj. Idealne dla rodzin, par i seniorów."
+                },
+                "3": {
+                    "header": "Wszystko w cenie",
+                    "text": "Transport, bilety wstępu, pilot, ubezpieczenie – bez ukrytych kosztów. Jesteśmy transparentni i fair."
+                },
+                "4": {
+                    "header": "Komfortowy transport",
+                    "text": "Nowoczesne busy i autokary. Codzienne wyjazdy z centrum Zakopanego, pobliskich miejscowości lub spod hotelu. Bez stresu, bez stania w kolejkach.",
+                    "link": "/transport/mapa-przystankow",
+                    "linktext": "Zobacz mapę przystankow"
+                },
+                "5": {
+                    "header": "Bezpieczeństwo i opieka",
+                    "text": "Każdą wycieczkę prowadzi doświadczony pilot lub przewodnik. Dbamy o Twoje bezpieczeństwo i komfort na każdym etapie podróży."
+                },
+                "6": {
+                    "header": "Doskonałe opinie klientów",
+                    "text": "Turyści cenią nas za punktualność, organizację i atmosferę. Sprawdź opinie i przekonaj się, dlaczego warto podróżować z Trio Travel."
+                }
+            }
+        },
+        "faq": {
+            "header": "Najczęściej zadawane pytania (FAQ)",
+            "text": "Masz pytania o <strong>wycieczki jednodniowe z Zakopanego?</strong> Oto odpowiedzi na te, które słyszymy najczęściej.",
+            "list": {
+                "1": {
+                    "header": "Czy muszę rezerwować wycieczkę z wyprzedzeniem?",
+                    "text": "Zalecamy wcześniejszą rezerwację najpóźniej 24h przed, szczególnie w sezonie letnim i zimowym, ponieważ miejsca na najpopularniejsze wycieczki z Zakopanego szybko się wyczerpują."
+                },
+                "2": {
+                    "header": "Czy mogę dołączyć do wycieczki, jeśli nie nocuję w Zakopanem?",
+                    "text": "Tak, istnieje możliwość odbioru z pobliskich miejscowości - skontaktuj się z nami, by uzgodnić szczegóły transportu."
+                },
+                "3": {
+                    "header": "Czy wycieczki są odpowiednie dla dzieci i seniorów?",
+                    "text": "Tak! Nasze wycieczki jednodniowe są dostosowane do różnych grup wiekowych. Oferujemy zarówno spokojne trasy (np. termy, rejsy, spacery), jak i opcje aktywne."
+                },
+                "4": {
+                    "header": "Co zawiera cena wycieczki?",
+                    "text": "W cenie wycieczki zawsze zawierają się: transport, bilety wstępu, opieka pilota/przewodnika oraz ubezpieczenie NNW."
+                },
+                "5": {
+                    "header": "Czy organizujecie wycieczki zagraniczne?",
+                    "text": "Tak - codziennie oferujemy wyjazdy m.in. do Wiednia, Budapesztu, Słowackiego Raju, Bachledki i Jaskini Bielańskiej."
+                }
+            }
+        },
+        "howitworks": {
+            "header": "Jak to działa?",
+            "text": "Zorganizuj dzień pełen przygód w zaledwie czterech krokach. To naprawdę proste!",
+            "cards": {
+                "1": {
+                    "header": "Wybierz wycieczkę",
+                    "text": "Zapoznaj się z opisami i terminami. Znajdź idealną trasę dla siebie - Tatry, Słowacja, Węgry, termy... A może spacer w koronach drzew lub spływ dunajcem?"
+                },
+                "2": {
+                    "header": "Zarezerwuj wygodnie",
+                    "text": "Zarezerwuj online na stronie, telefonicznie lub stacjonarnie - szybko, wygodnie i bezpiecznie. Nie musisz martwić się o miejsca."
+                },
+                "3": {
+                    "header": "Spotkajmy się w Zakopanem lub okolicach",
+                    "text": "Odbierzemy Cię z centrum Zakopanego, okolic lub bezpośrednio spod Twojego hotelu - punktualnie i wygodnie."
+                },
+                "4": {
+                    "header": "Odpocznij - my zajmiemy się resztą!",
+                    "text": "Relaksuj się i zwiedzaj bez stresu. Nasz pilot lub przewodnik zadba o każdy szczegół Twojej wycieczki."
+                }
+            }
+        },
         "trips": {
-            "header": "Wycieczki jednodniowe z Zakopanego",
-            "1": "Spływ Dunajcem Szczawnica 2.5h",
+            "header": "Wycieczki jednodniowe z Zakopanego – Lato 2025 | Trio Travel",
+            "polandHeader": "Polskie atrakcje jednodniowe z Zakopanego",
+            "foreignHeader": "Wycieczki zagraniczne z Zakopanego",
+            "activeHeader": "Wycieczki aktywne i przygodowe",
+            "1": "Spływ Dunajcem z Zakopanego - Szczawnica 2.5h",
             "1p": "Jedna z najpopularniejszych atrakcji regionu. Spływ odbywa się w Pieninach i trwa 2,5h. Idealny dla rodzin.",
             "2": "Chochołowskie Termy - relaks i kąpiele termalne",
             "2p": "Relaks w Chochołowskich Termach to idealny sposób na regenerację podczas pobytu w Zakopanem. Kąpiele termalne i widok na Tatry to połączenie idealne.",
@@ -86,7 +175,7 @@
             "5p": "Spływ Dunajcem po stronie słowackiej to krótsza (1,5h), spokojna wersja klasycznej atrakcji. Idealny na szybki i wygodny wypad z Zakopanego.",
             "6": "Tajemnice Wieliczki - kopalnia soli UNESCO",
             "6p": "Kopalnia Soli w Wieliczce to miejsce z listy UNESCO. Oferujemy wycieczki jednodniowe z Zakopanego z transportem i biletem wstępu w cenie.",
-            "7": "Bilety na Kasprowy Wierch - kolejką z Zakopanego",
+            "7": "Kasprowy Wierch – bilety i dojazd z Zakopanego",
             "7p": "Zarezerwuj bilety na Kasprowy Wierch bez kolejek! Kolejka linowa z Zakopanego to wygodny sposób na zobaczenie Tatr z góry.",
             "8": "Słowacki Raj - wędrówka przez wąwozy i drabinki",
             "8p": "Słowacki Raj to idealne miejsce na aktywną wycieczkę z Zakopanego – malownicze wąwozy, drabinki i mostki w Parku Narodowym czekają na odkrycie.",
@@ -274,7 +363,7 @@
                     "9": "Zamek położony na wyspie, otoczony wodą z drzewami i bezchmurnym niebem w tle. Krajobraz obejmuje zbiornik wodny i góry, a także chmury nad głową. Zielona trawa porasta brzeg zbiornika wodnego.",
                     "10": "Zamek usytuowany na wzgórzu z widokiem na zbiornik wodny, otoczony drzewami i górami pod pochmurnym niebem. Most rozciąga się nad zbiornikiem, w pobliżu widoczny jest pociąg w krajobrazie."
                 },
-                "header": "Spływ Dunajcem 2.5h",
+                "header": "Spływ Dunajcem z Zakopanego - Szczawnica 2.5h",
                 "header2": "Co Oferujemy?",
                 "header3": "Wycieczka w Pieniny: Spływ i Niedzica",
                 "header4": "Podczas wycieczki w Pieniny, poza główną atrakcją, którą jest spływ na drewnianych tratwach (trasa spływu: Sromowce Wyżne - Szczawnica) odwiedzisz również Niedzicę, w której do wyboru masz wiele atrakcji:",

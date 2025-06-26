@@ -69,11 +69,100 @@
         "text2": "Több éves tapasztalatunkkal különféle turisztikai projektek teljes körű megszervezésére specializálódtunk – iskolai és céges kirándulásoktól kezdve, csapatépítő és tematikus rendezvényeken át, egészen a szállításig és eseménylogisztikáig. Legyen szó hegyi kalandról, pihentető hétvégéről vagy aktív túráról idegenvezetővel, a Trio Travel minden részletről gondoskodik."
     },
     "offer": {
-        "header": "2025 Nyári Ajánlat",
-        "text2": "A Trio Travel megbízható és kényelmes egynapos kirándulásokat kínál Zakopanéból – ideális családoknak, pároknak, időseknek és csoportoknak. Naponta szervezünk utakat népszerű látnivalókhoz: lombkorona séta, Dunajeci tutajozás, Morskie Oko, Bécs, Budapest, Chochołowi termálfürdők és még sok más. Az ár mindig tartalmazza a szállítást, idegenvezetőt és a szervezést. Láss többet egy nap alatt – stressz nélkül és szervezetten.",
-        "text": "Ajánlat betöltése folyamatban...",
+        "header": "Legnépszerűbb napkirándulások Zakopanéból",
+        "text2": "A Trio Travel kínál megbízható és kényelmes <strong>napkirándulásokat Zakopanéból</strong> – családoknak, pároknak, időseknek és csoportoknak. Napi indulások népszerű látnivalókhoz: Fák Koronájában Sétány, Dunajec folyó tutajozás, Morskie Oko, Bécs, Budapest, Chochołowskie Termálfürdő és még sok más. Az ár mindig tartalmazza a szállítást, a kalauz segítségét és a zökkenőmentes szervezést. Több élmény egy nap alatt – sietség és tervezés nélkül.",
+        "text": "Ajánlatkönyv betöltése...",
+        "button": "Foglalj most",
+        "cta": {
+            "header": "Készen áll a Zakopanéból induló utazásra?",
+            "text": "Akár a <strong>Dunajec tutajozásra</strong>, a <strong>Chochołowskie Termálfürdőbe</strong>, vagy egy aktív <strong>napra a hegyekben</strong> indul – nálunk megtalálja a tökéletes ajánlatot. Foglaljon online vagy lépjen velünk kapcsolatba!",
+            "button": "Foglalj most"
+        },
+        "whytrips": {
+            "header": "Miért különlegesek a napkirándulásaink?",
+            "text": "A legjobb <strong>napkirándulásokat keresi Zakopanéból?</strong> A Trio Travel egy megbízható utazási iroda, amely kényelmet, biztonságot és felejthetetlen élményeket kínál – naponta, egész szezonban. Nézze meg, mi tesz minket különlegessé!",
+            "cards": {
+                "1": {
+                    "header": "Tapasztalat és minőség",
+                    "text": "Évek óta szakértők vagyunk Zakopanéból induló napkirándulásokon. Egyéni utazókat és csoportokat egyaránt kiszolgálunk. Utazásaink minden részletre kiterjedően megtervezettek."
+                },
+                "2": {
+                    "header": "Széles választék",
+                    "text": "Több mint 15 kirándulás – klasszikusoktól (pl. Morskie Oko) nemzetközi látnivalókig: Bécs, Budapest, Szlovák Paradicsom. Tökéletes családoknak, pároknak és időseknek."
+                },
+                "3": {
+                    "header": "Mindent tartalmazó ár",
+                    "text": "Szállítás, belépőjegyek, kalauz, biztosítás – rejtett költségek nélkül. Átláthatóak és tisztességesek vagyunk."
+                },
+                "4": {
+                    "header": "Kényelmes közlekedés",
+                    "text": "Modern buszok. Napi indulások Zakopane központjából, közeli városokból vagy közvetlenül a szállodából. Stressz és sorban állás nélkül.",
+                    "link": "/transport/megallok-terkepe",
+                    "linktext": "Megállók térképe"
+                },
+                "5": {
+                    "header": "Biztonság és gondoskodás",
+                    "text": "Minden utat tapasztalt kalauz vezet. Biztonságod és kényelmed minden lépésnél előtérben áll."
+                },
+                "6": {
+                    "header": "Kiváló visszajelzések",
+                    "text": "Utasaink dicsérik pontosságunkat, szervezettségünket és hangulatunkat. Nézze meg véleményeket, és lássa, miért a Trio Travel a legjobb választás."
+                }
+            }
+        },
+        "faq": {
+            "header": "Gyakran Ismételt Kérdések (GYIK)",
+            "text": "Kérdése van a <strong>Zakopanéból induló napkirándulásokról?</strong> Itt a leggyakoribbak válaszai.",
+            "list": {
+                "1": {
+                    "header": "Előre kell foglalni?",
+                    "text": "Javasoljuk, legalább 24 órával korábban foglaljon, főleg a főszezonban, mert a népszerű kirándulások gyorsan betelnek."
+                },
+                "2": {
+                    "header": "Csatlakozhatok, ha nem Zakopanében szállok meg?",
+                    "text": "Igen! Közeli városokból is felvesszük – lépjen kapcsolatba a szállítás részleteiért."
+                },
+                "3": {
+                    "header": "Gyerekeknek és időseknek is megfelelőek a kirándulások?",
+                    "text": "Igen! Utazásaink minden korosztály számára alkalmasak, nyugodt útvonalakkal (pl. termálfürdők) és aktív programokkal egyaránt."
+                },
+                "4": {
+                    "header": "Mi szerepel az árban?",
+                    "text": "Mindig tartalmazza: szállítás, belépők, kalauz és balesetbiztosítás."
+                },
+                "5": {
+                    "header": "Szerveztek nemzetközi kirándulásokat?",
+                    "text": "Igen! Napi indulások Bécsbe, Budapestre, a Szlovák Paradicsomba, Bachledkára és a Bielańska-barlangba."
+                }
+            }
+        },
+        "howitworks": {
+            "header": "Hogyan működik?",
+            "text": "Tervezzen egy kalandos napot négy egyszerű lépésben!",
+            "cards": {
+                "1": {
+                    "header": "Válassza ki az utat",
+                    "text": "Böngésszen az ajánlatok között. Találja meg az ötlen útvonalat – Tátra-hegység, Szlovákia, Magyarország, termálfürdők... Vagy esetleg egy fák koronájában sétány vagy tutajozás?"
+                },
+                "2": {
+                    "header": "Kényelmes foglalás",
+                    "text": "Foglaljon online, telefonon vagy személyesen – gyorsan, biztonságosan. Ne aggódjon a helyek miatt."
+                },
+                "3": {
+                    "header": "Találkozó Zakopanében vagy közelében",
+                    "text": "Felvesszük Zakopane központjából, közeli városokból vagy a szállodától – pontosan és kényelmesen."
+                },
+                "4": {
+                    "header": "Pihenjen – mi intézzük a többit!",
+                    "text": "Élvezze a stresszmentes felfedezést. Kalauzunk minden részletre figyel."
+                }
+            }
+        },
         "trips": {
-            "header": "Egynapos kirándulások Zakopanéból",
+            "header": "Napkirándulások Zakopanéból – Nyár 2025 | Trio Travel",
+            "polandHeader": "Egynapos lengyel kirándulások Zakopanéból",
+            "foreignHeader": "Külföldi kirándulások Zakopanéból",
+            "activeHeader": "Aktív és kalandos kirándulások",
             "1": "Dunajeci tutajozás Szczawnica 2,5 óra",
             "1p": "A régió egyik legnépszerűbb programja. A tutajozás a Pieninekben zajlik és kb. 2,5 órát tart. Családok számára ideális.",
             "2": "Chochołowi termálfürdők – kikapcsolódás és meleg vizek",

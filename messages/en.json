@@ -69,11 +69,100 @@
         "text2": "Thanks to our years of experience, we specialize in the comprehensive organization of diverse tourism projects – from school and corporate trips, through integration and thematic events, to transport and event logistics. Whether you dream of a mountain adventure, a relaxing weekend, or an active guided expedition, Trio Travel will take care of every detail."
     },
     "offer": {
-        "header": "Summer 2025 Offer",
-        "text2": "Trio Travel offers reliable and comfortable day trips from Zakopane – perfect for families, couples, seniors, and groups. We organize daily trips to popular attractions: Treetop Walk, Dunajec River Rafting, Morskie Oko, Vienna, Budapest, Chochołowskie Thermal Baths, and many more. The price always includes transport, a tour leader, and full organization. Discover more in one day – stress-free and well-planned.",
-        "text": "Loading the offer book...",
+        "header": "Most Popular One‑Day Tours from Zakopane",
+        "text2": "Trio Travel offers reliable and comfortable <strong>one‑day tours from Zakopane</strong> – ideal for families, couples, seniors, and groups. Every day we organize trips to popular attractions: Treetop Walk, Dunajec Rafting, Morskie Oko, Vienna, Budapest, Chochołowskie Thermal Baths, and many others. The price always includes transport, a tour leader, and well‑organized arrangements. More experiences in one day – without rushing and without the need to plan everything yourself.",
+        "text": "Loading offer brochure…",
+        "button": "Book Now",
+        "cta": {
+            "header": "Ready for your trip from Zakopane?",
+            "text": "Whether you’re heading for a <strong>Dunajec Rafting</strong>, to the <strong>Chochołowskie Baths</strong>, or planning an active <strong>day in the mountains</strong> – you’ll find the perfect offer with us. Book online or get in touch!",
+            "button": "Book Now"
+        },
+        "whytrips": {
+            "header": "What makes our one‑day trips special?",
+            "text": "Looking for the best <strong>one‑day tours from Zakopane?</strong> Trio Travel is a trusted tour operator offering comfort, safety, and unforgettable experiences – every day, throughout the season. See what sets us apart!",
+            "cards": {
+                "1": {
+                    "header": "Experience & Quality",
+                    "text": "For years, we’ve specialized in one‑day tours from Zakopane. We serve both individual tourists and organized groups. Our tours are perfected down to every detail."
+                },
+                "2": {
+                    "header": "Wide Selection",
+                    "text": "Over 15 tours – from classics like Morskie Oko to international attractions: Vienna, Budapest, Slovak Paradise. Perfect for families, couples, and seniors."
+                },
+                "3": {
+                    "header": "All‑Inclusive Pricing",
+                    "text": "Transport, entry fees, tour leader, insurance – no hidden costs. We are transparent and fair."
+                },
+                "4": {
+                    "header": "Comfortable Transport",
+                    "text": "Modern minibuses and coaches. Daily departures from downtown Zakopane, nearby towns, or directly from your hotel. Stress‑free, no waiting in lines.",
+                    "link": "/transport/stop-map",
+                    "linktext": "See stop map"
+                },
+                "5": {
+                    "header": "Safety & Support",
+                    "text": "Every tour is led by an experienced guide or tour leader. We take care of your safety and comfort at every stage of the journey."
+                },
+                "6": {
+                    "header": "Excellent Customer Reviews",
+                    "text": "Tourists praise our punctuality, organization, and atmosphere. Check out the reviews and see why traveling with Trio Travel is worth it."
+                }
+            }
+        },
+        "faq": {
+            "header": "Frequently Asked Questions (FAQ)",
+            "text": "Have questions about <strong>one‑day tours from Zakopane?</strong> Here are answers to the ones we hear most often.",
+            "list": {
+                "1": {
+                    "header": "Do I need to book the tour in advance?",
+                    "text": "We recommend booking at least 24 h in advance, especially during the summer and winter seasons, because places on the most popular tours from Zakopane fill up quickly."
+                },
+                "2": {
+                    "header": "Can I join the tour if I’m not staying in Zakopane?",
+                    "text": "Yes, pickups are possible from nearby towns – please contact us to arrange the transport details."
+                },
+                "3": {
+                    "header": "Are the tours suitable for children and seniors?",
+                    "text": "Yes! Our one‑day tours are tailored for different age groups. We offer both relaxed routes (e.g. thermal baths, cruises, walks) and active options."
+                },
+                "4": {
+                    "header": "What is included in the tour price?",
+                    "text": "The tour price always includes: transport, entry tickets, tour leader/guide service, and accident insurance."
+                },
+                "5": {
+                    "header": "Do you organize foreign tours?",
+                    "text": "Yes – we offer daily trips to Vienna, Budapest, Slovak Paradise, Bachledka, and Bielańska Cave."
+                }
+            }
+        },
+        "howitworks": {
+            "header": "How does it work?",
+            "text": "Create a day full of adventures in just four steps. It’s really easy!",
+            "cards": {
+                "1": {
+                    "header": "Choose a Tour",
+                    "text": "Browse descriptions and dates. Find the perfect route for you – the Tatras, Slovakia, Hungary, thermal baths… or maybe a treetop walk or Dunajec rafting?"
+                },
+                "2": {
+                    "header": "Book Easily",
+                    "text": "Book online, by phone, or in person – quickly, conveniently, and safely. No need to worry about availability."
+                },
+                "3": {
+                    "header": "Meet in Zakopane or nearby",
+                    "text": "We’ll pick you up in central Zakopane, nearby towns, or right from your hotel – on time and convenience."
+                },
+                "4": {
+                    "header": "Relax – we take care of the rest!",
+                    "text": "Enjoy sightseeing stress‑free. Our guide or tour leader will handle every detail of your trip."
+                }
+            }
+        },
         "trips": {
-            "header": "Day Trips from Zakopane",
+            "header": "Day trips from Zakopane – Summer 2025 | Trio Travel",
+            "polandHeader": "Polish day attractions from Zakopane",
+            "foreignHeader": "International trips from Zakopane",
+            "activeHeader": "Active and adventure trips",
             "1": "Dunajec River Rafting Szczawnica 2.5h",
             "1p": "One of the region's most popular attractions. The rafting trip takes place in the Pieniny Mountains and lasts 2.5 hours. Perfect for families.",
             "2": "Chochołowskie Thermal Baths – relaxation and hot springs",

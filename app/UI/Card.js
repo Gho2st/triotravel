@@ -1,7 +1,10 @@
 import Image from "next/image";
 import Button from "@/app/UI/Buttons/Button";
+import { useTranslations } from "next-intl";
 
 export default function Card({ article }) {
+  const t = useTranslations("offer");
+
   return (
     <article className="flex flex-col 2xl:flex-row gap-6 p-6 rounded-2xl shadow-2xl w-full max-w-4xl transition-all duration-300 hover:shadow-3xl hover:scale-[1.02] h-full min-h-[450px]">
       <div className="w-full 2xl:w-2/3 aspect-[4/3]">
@@ -20,7 +23,7 @@ export default function Card({ article }) {
         <p className="font-light">{article.p}</p>
         <div className="flex justify-center mt-auto">
           <Button
-            text="Wybierz"
+            text={t("button")}
             link={article.link}
             bgColor="bg-customBlue"
             textColor="text-white"

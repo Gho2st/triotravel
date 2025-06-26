@@ -16,7 +16,7 @@ export async function generateMetadata({ params }) {
     namespace: "metadata.transport-nad-morskie-oko",
   });
 
-  const path = routing.pathnames["/transport-nad-morskie-oko"][locale]; // Pobieramy ścieżkę dla języka
+  const path = routing.pathnames["/transport/nad-morskie-oko"][locale]; // Pobieramy ścieżkę dla języka
   // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
   const canonicalUrl =
     locale === "pl"

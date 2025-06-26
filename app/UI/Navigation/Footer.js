@@ -110,9 +110,9 @@ export default function Footer() {
             </div>
           </div>
           <div className="text-lg md:text-xl xl:w-96 text-center xl:text-left pl-0 xl:pl-10 xl:border-l-2 border-l-gray-200 ">
-            <h3 className="text-2xl md:text-3xl mb-10 xl:mb-16">
+            <div className="text-2xl md:text-3xl mb-10 xl:mb-16">
               {t("contact.header")}
-            </h3>
+            </div>
             <ul className="flex flex-col gap-4">
               <li className="flex justify-center xl:justify-start gap-2 md:gap-4 items-center">
                 <FaPhoneAlt className="text-2xl" />

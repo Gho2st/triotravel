@@ -1,7 +1,6 @@
 import BackgroundList from "@/app/UI/BackgroundList";
 import Header from "@/app/UI/Header";
 import LineHeader from "@/app/UI/LineHeader";
-import Image from "next/image";
 import Table from "@/app/UI/Table";
 import Gallery from "@/app/UI/Slider";
 import { useTranslations } from "next-intl";

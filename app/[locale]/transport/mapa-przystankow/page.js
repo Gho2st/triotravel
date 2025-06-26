@@ -13,7 +13,7 @@ export async function generateMetadata({ params }) {
     namespace: "metadata.mapa-przystankow",
   });
 
-  const path = routing.pathnames["/mapa-przystankow"][locale]; // Pobieramy ścieżkę dla języka
+  const path = routing.pathnames["/transport/mapa-przystankow"][locale]; // Pobieramy ścieżkę dla języka
   // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
   const canonicalUrl =
     locale === "pl"

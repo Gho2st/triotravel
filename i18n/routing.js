@@ -59,11 +59,11 @@ export const routing = defineRouting({
       ar: "/naql",
       hu: "/közlekedés",
     },
-    "/mapa-przystankow": {
-      pl: "/mapa-przystankow",
-      en: "/map-of-stops",
-      ar: "/kharitat-al-mawaqif",
-      hu: "/megállók-térképe",
+    "/transport/mapa-przystankow": {
+      pl: "/transport/mapa-przystankow",
+      en: "/transport/map-of-stops",
+      ar: "/naql/kharitat-al-mawaqif",
+      hu: "/közlekedés/megállók-térképe",
     },
     "/partnerzy": {
       pl: "/partnerzy",
@@ -188,11 +188,11 @@ export const routing = defineRouting({
       ar: "/rihlat-yawmiya/quads",
       hu: "/egynapos-kirandulasok/quad-turak",
     },
-    "/transport-nad-morskie-oko": {
-      pl: "/transport-nad-morskie-oko",
-      en: "/transport-to-morskie-oko",
-      ar: "/naql-ila-morskie-oko",
-      hu: "/szallitas-morskie-okohoz",
+    "/transport/nad-morskie-oko": {
+      pl: "/transport/nad-morskie-oko",
+      en: "/transport/to-morskie-oko",
+      ar: "/naql/ila-morskie-oko",
+      hu: "/közlekedés/morskie-okohoz",
     },
     "/ciekawostki-o-splywie-dunajcem": {
       pl: "/ciekawostki-o-splywie-dunajcem",

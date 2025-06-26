@@ -91,13 +91,13 @@ export default function sitemap() {
       },
     },
     {
-      url: `${baseUrl}/mapa-przystankow`,
+      url: `${baseUrl}/transport/mapa-przystankow`,
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: `${baseUrl}/en/map-of-stops`,
-          ar: `${baseUrl}/ar/kharitat-al-mawaqif`,
-          hu: `${baseUrl}/hu/megállók-térképe`,
+          en: `${baseUrl}/en/transport/map-of-stops`,
+          ar: `${baseUrl}/ar/naql/kharitat-al-mawaqif`,
+          hu: `${baseUrl}/hu/közlekedés/megállók-térképe`,
         },
       },
     },
@@ -313,13 +313,13 @@ export default function sitemap() {
       },
     },
     {
-      url: `${baseUrl}/transport-nad-morskie-oko`,
+      url: `${baseUrl}/transport/nad-morskie-oko`,
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: `${baseUrl}/en/transport-to-morskie-oko`,
-          ar: `${baseUrl}/ar/naql-ila-morskie-oko`,
-          hu: `${baseUrl}/hu/szallitas-morskie-okohoz`,
+          en: `${baseUrl}/en/transport/to-morskie-oko`,
+          ar: `${baseUrl}/ar/naql/ila-morskie-oko`,
+          hu: `${baseUrl}/hu/közlekedés/morskie-okohoz`,
         },
       },
     },
