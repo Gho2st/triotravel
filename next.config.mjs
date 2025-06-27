@@ -121,6 +121,11 @@ const nextConfig = {
         destination: "/wycieczki-jednodniowe/splyw-dunajcem-zakopane",
         permanent: true,
       },
+{
+  source: "/transport-nad-morskie-oko",
+  destination: "/transport/nad-morskie-oko",
+  permanent: true,
+},
       {
         source:
           "/wycieczki/:slug((?!.*\\.(?:png|jpg|jpeg|webp|gif|svg|css|js|ico|json|map|woff2?)$).*)",
