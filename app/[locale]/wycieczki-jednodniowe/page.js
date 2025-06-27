@@ -178,7 +178,7 @@ export default function Atrakcje() {
       <Header text={t("trips.header")} />
       <section className="px-6 md:px-20 2xl:px-32 py-16 md:py-20 2xl:py-24">
         <HowItWorks />
-        <p className="mt-10 2xl:mt-16 mb-16 text-center text-xl">
+        <p className="mt-10 2xl:my-24 mb-16 text-center text-xl 2xl:max-w-3/4 2xl:mx-auto">
           {t.rich("text2", {
             strong: (chunks) => <strong>{chunks}</strong>,
           })}
