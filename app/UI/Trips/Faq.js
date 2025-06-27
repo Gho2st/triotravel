@@ -20,16 +20,16 @@ export default function FAQSection() {
 
   return (
     <section className="px-6 xl:px-24 py-20 bg-white border-t border-gray-200">
-      <h2 className="text-3xl font-extrabold text-center text-gray-900">
+      <h2 className="text-3xl 2xl:text-4xl font-extrabold text-center text-gray-900">
         {t("header")}
       </h2>
-      <p className="text-center mt-4 max-w-2xl mx-auto text-lg text-gray-700">
+      <p className="text-center mt-4 2xl:mt-8 max-w-2xl mx-auto text-lg text-gray-700">
         {t.rich("text", {
           strong: (chunks) => <strong>{chunks}</strong>,
         })}
       </p>
 
-      <div className="mt-12 max-w-4xl mx-auto space-y-4">
+      <div className="mt-12 2xl:mt-16 max-w-4xl mx-auto space-y-4">
         {cards.map((faq, index) => (
           <div
             key={index}

@@ -23,9 +23,11 @@ export default function WhyTrips() {
   });
 
   return (
-    <section className="px-6 xl:px-24 pb-16 xl:py-20 bg-gradient-to-b from-white to-gray-50">
+    <section className="px-6 xl:px-24 pb-16 xl:py-20 2xl:pt-0 bg-gradient-to-b from-white to-gray-50">
       <header className="text-center max-w-2xl mx-auto">
-        <h2 className="text-3xl font-extrabold text-gray-900">{t("header")}</h2>
+        <h2 className="text-3xl 2xl:text-4xl 2xl:leading-snug font-extrabold text-gray-900">
+          {t("header")}
+        </h2>
         <p className="mt-10 text-lg text-gray-700">
           {t.rich("text", {
             strong: (chunks) => <strong>{chunks}</strong>,
@@ -39,7 +41,7 @@ export default function WhyTrips() {
             key={index}
             className="bg-gradient-to-br from-blue-50 to-red-50 rounded-2xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300"
           >
-            <h3 className="text-xl font-semibold mb-4 text-gray-900">
+            <h3 className="text-xl 2xl:text-2xl font-semibold mb-4 text-gray-900">
               {card.title}
             </h3>
             <p className="text-gray-600 leading-relaxed">{card.text}</p>
@@ -57,9 +59,11 @@ export default function WhyTrips() {
         ))}
       </div>
 
-      <div className="mt-20 text-center max-w-3xl mx-auto">
-        <h3 className="text-2xl font-bold mb-4 text-gray-800">{c("header")}</h3>
-        <p className="text-gray-700 text-lg mb-6">
+      <div className="mt-20 2xl:mt-24 text-center max-w-3xl mx-auto">
+        <h3 className="text-2xl 2xl:text-4xl font-bold mb-4 2xl:mb-8 text-gray-800">
+          {c("header")}
+        </h3>
+        <p className="text-gray-700 text-lg mb-6 2xl:mb-8">
           {c.rich("text", {
             strong: (chunks) => <strong>{chunks}</strong>,
           })}

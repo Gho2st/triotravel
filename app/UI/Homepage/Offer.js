@@ -175,7 +175,7 @@ export default function Offer() {
           {gallery.map((image, index) => (
             <Link href={image.link} key={index} className="keen-slider__slide">
               <div className="bg-white text-center rounded-xl hover:cursor-pointer group h-[350px] md:h-[450px] flex flex-col">
-                <div className="relative w-full aspect-[4/3] overflow-hidden rounded-t-xl">
+                <div className="relative w-full h-[300px] 2xl:h-[350px] aspect-[4/3] overflow-hidden rounded-t-xl">
                   <Image
                     src={image.url}
                     alt={image.alt}
