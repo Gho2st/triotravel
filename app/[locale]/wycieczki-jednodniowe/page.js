@@ -39,6 +39,9 @@ export default function Atrakcje() {
       image: "/wycieczki/splyw-dunajcem-zakopane/splyw.webp",
       link: "/wycieczki-jednodniowe/splyw-dunajcem-zakopane",
       category: "poland",
+      popular: true,
+      popularTitle: t("trips.1h"),
+      popularDescription: t("trips.1popular"),
     },
     {
       title: t("trips.2"),
@@ -53,6 +56,9 @@ export default function Atrakcje() {
       image: "/wycieczki/spacer-w-koronach-drzew/korony.webp",
       link: "/wycieczki-jednodniowe/spacer-w-koronach-drzew",
       category: "foreign",
+      popular: true,
+      popularTitle: t("trips.3h"),
+      popularDescription: t("trips.3popular"),
     },
     {
       title: t("trips.4"),
@@ -67,6 +73,9 @@ export default function Atrakcje() {
       image: "/wycieczki/splyw-dunajcem-slowacja/splyw.webp",
       link: "/wycieczki-jednodniowe/splyw-dunajcem-slowacja",
       category: "foreign",
+      popular: true,
+      popularTitle: t("trips.5h"),
+      popularDescription: t("trips.5popular"),
     },
     {
       title: t("trips.6"),
@@ -130,6 +139,9 @@ export default function Atrakcje() {
       image: "/wycieczki/biesiada-goralska/5.webp",
       link: "/wycieczki-jednodniowe/zabawa-goralska",
       category: "poland",
+      popular: true,
+      popularTitle: t("trips.16h"),
+      popularDescription: t("trips.16popular"),
     },
     {
       title: t("trips.18"),
@@ -155,6 +167,7 @@ export default function Atrakcje() {
   ];
 
   const categories = [
+    { id: "popular", title: t("trips.popularHeader") },
     { id: "poland", title: t("trips.polandHeader") },
     { id: "foreign", title: t("trips.foreignHeader") },
     { id: "active", title: t("trips.activeHeader") },
@@ -176,9 +189,25 @@ export default function Atrakcje() {
             <LineHeader text={cat.title} />
             <div className="grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-2 gap-16 mt-10 justify-center items-center">
               {articles
-                .filter((a) => a.category === cat.id)
+                .filter((a) =>
+                  cat.id === "popular" ? a.popular : a.category === cat.id
+                )
                 .map((article, index) => (
-                  <Card key={index} article={article} index={index} />
+                  <Card
+                    key={index}
+                    article={{
+                      ...article,
+                      title:
+                        cat.id === "popular" && article.popularTitle
+                          ? article.popularTitle
+                          : article.title,
+                      p:
+                        cat.id === "popular" && article.popularDescription
+                          ? article.popularDescription
+                          : article.p,
+                    }}
+                    index={index}
+                  />
                 ))}
             </div>
           </div>

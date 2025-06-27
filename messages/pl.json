@@ -70,12 +70,12 @@
     },
     "offer": {
         "header": "Wycieczki jednodniowe z Zakopanego",
-        "text2": "Trio Travel oferuje sprawdzone i komfortowe <strong>wycieczki jednodniowe z Zakopanego</strong> - idealne dla rodzin, par, seniorów i grup. Codziennie organizujemy wyjazdy do popularnych atrakcji: Spacer w Koronach Drzew, Spływ Dunajcem, Morskie Oko, Wiedeń, Budapeszt, Termy Chochołowskie i wiele innych. W cenie zawsze masz transport, opiekę pilota i dobrą organizację. Więcej wrażeń w jeden dzień - bez pośpiechu i bez konieczności planowania samodzielnie.",
+        "text2": "Trio Travel oferuje sprawdzone i komfortowe <strong>wycieczki jednodniowe z Zakopanego</strong> - idealne dla rodzin, par, seniorów i grup. Codziennie organizujemy wyjazdy do popularnych atrakcji: Spacer w Koronach Drzew, Spływ Dunajcem, Morskie Oko, Wiedeń, Budapeszt, Słowacki Raj, Jaskinia Bielańska i wiele innych. W cenie zawsze masz transport, opiekę pilota i dobrą organizację. Więcej wrażeń w jeden dzień - bez pośpiechu i bez konieczności planowania samodzielnie.",
         "text": "Wczytywanie książki z ofertą...",
-        "button": "Zarezerwuj teraz",
+        "button": "Więcej o wycieczce",
         "cta": {
-            "header": "Gotowy na swoją wycieczkę z Zakopanego?",
-            "text": "Niezależnie od tego, czy wybierasz się na <strong>Spływ Dunajcem</strong>, do <strong>Term Chochołowskich</strong>, czy planujesz aktywny <strong>dzień w górach</strong> - u nas znajdziesz idealną ofertę. Zarezerwuj online lub skontaktuj się z nami!",
+            "header": "Zaplanuj swoją wycieczkę już teraz!",
+            "text": "Chcesz przeżyć <strong>coś wyjątkowego w Tatrach</strong> lub odkryć <strong>najciekawsze atrakcje Słowacji</strong>? Wybierz sprawdzone wycieczki z Trio Travel – szybko, wygodnie i bezpiecznie!",
             "button": "Zarezerwuj Teraz"
         },
         "whytrips": {
@@ -142,7 +142,7 @@
             "cards": {
                 "1": {
                     "header": "Wybierz wycieczkę",
-                    "text": "Zapoznaj się z opisami i terminami. Znajdź idealną trasę dla siebie - Tatry, Słowacja, Węgry, termy... A może spacer w koronach drzew lub spływ dunajcem?"
+                    "text": "Zapoznaj się z opisami i terminami. Znajdź idealną trasę dla siebie - Tatry, Słowacja, Węgry, Termy... A może Spacer w Koronach Drzew lub Spływ Dunajcem?"
                 },
                 "2": {
                     "header": "Zarezerwuj wygodnie",
@@ -163,15 +163,22 @@
             "polandHeader": "Polskie atrakcje jednodniowe z Zakopanego",
             "foreignHeader": "Wycieczki zagraniczne z Zakopanego",
             "activeHeader": "Wycieczki aktywne i przygodowe",
+            "popularHeader": "Top 5 jednodniowych wycieczek z Zakopanego",
             "1": "Spływ Dunajcem z Zakopanego - Szczawnica 2.5h",
+            "1h": "Spływ Dunajcem - klasyk z Szczawnicy",
+            "1popular": "Kultowa atrakcja sezonu! Spływ z flisakami przez Pieniny to obowiązkowy punkt każdej wizyty w Zakopanem – relaks, krajobrazy i tradycja w jednym.",
             "1p": "Jedna z najpopularniejszych atrakcji regionu. Spływ odbywa się w Pieninach i trwa 2,5h. Idealny dla rodzin.",
             "2": "Chochołowskie Termy - relaks i kąpiele termalne",
             "2p": "Relaks w Chochołowskich Termach to idealny sposób na regenerację podczas pobytu w Zakopanem. Kąpiele termalne i widok na Tatry to połączenie idealne.",
             "3": "Spacer w Koronach Drzew - Bachledka",
+            "3h": "Spacer w Koronach Drzew - widokowy hit",
+            "3popular": "Najczęściej wybierana wycieczka na Słowację. Panoramiczna ścieżka wśród górskich lasów, idealna dla rodzin, par i każdego, kto chce „chodzić w chmurach”.",
             "3p": "Spacer w Koronach Drzew w Bachledce na Słowacji to wyjątkowa atrakcja przyrodnicza – trasa widokowa wśród górskich lasów idealna na jednodniowy wypad z Zakopanego.",
             "4": "Jaskinia Bielańska - słowacka perła Tatr",
             "4p": "Jaskinia Bielańska to naturalna atrakcja Słowacji, dostępna w ramach wycieczki jednodniowej z Zakopanego. Zobacz podziemny świat Tatr z przewodnikiem.",
             "5": "Spływ Dunajcem Słowacja 1.5h",
+            "5h":"Słowacki Dunajec – natura bez pośpiechu",
+            "5popular": " Bestseller dla tych, którzy chcą wrażeń w krótszym czasie. Spokojny spływ po słowackiej stronie to szybka przygoda z pięknymi widokami bez wysiłku.",
             "5p": "Spływ Dunajcem po stronie słowackiej to krótsza (1,5h), spokojna wersja klasycznej atrakcji. Idealny na szybki i wygodny wypad z Zakopanego.",
             "6": "Tajemnice Wieliczki - kopalnia soli UNESCO",
             "6p": "Kopalnia Soli w Wieliczce to miejsce z listy UNESCO. Oferujemy wycieczki jednodniowe z Zakopanego z transportem i biletem wstępu w cenie.",
@@ -192,6 +199,8 @@
             "15": "Rafting po Dunajcu - aktywnie i bezpiecznie",
             "15p": "Rafting po Dunajcu to propozycja dla aktywnych. Emocje, woda, przyroda – świetna zabawa dla grup i par. Wyjazd z Zakopanego z instruktorem.",
             "16": "Zabawa Góralska - regionalna uczta z muzyką",
+            "16h": "Zabawa Góralska – wieczór z klimatem",
+            "16popular": "Numer 1 wśród wieczornych atrakcji! Góralska biesiada z muzyką, tańcami i ogniskiem – idealne zakończenie dnia pełnego wycieczek.",
             "16p": "Zabawa Góralska to wieczorna impreza regionalna z muzyką na żywo, ogniskiem i pyszną kuchnią podhalańską. Dodatkowa atrakcja po wycieczkach.",
             "17": "Tatry i Zakopane - najpiękniejsze miejsca w jeden dzień",
             "17p": "Najważniejsze atrakcje Zakopanego i Tatr w 1 dzień: Gubałówka, skocznia, Dolina Kościeliska i inne – z przewodnikiem i wygodnym transportem.",

@@ -37,7 +37,7 @@ export default function WhyTrips() {
         {cards.map((card, index) => (
           <article
             key={index}
-            className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300"
+            className="bg-gradient-to-br from-blue-50 to-red-50 rounded-2xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300"
           >
             <h3 className="text-xl font-semibold mb-4 text-gray-900">
               {card.title}

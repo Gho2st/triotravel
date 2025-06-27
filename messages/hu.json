@@ -163,6 +163,7 @@
             "polandHeader": "Egynapos lengyel kirándulások Zakopanéból",
             "foreignHeader": "Külföldi kirándulások Zakopanéból",
             "activeHeader": "Aktív és kalandos kirándulások",
+            "popularHeader": "Top 5 egynapos kirándulás Zakopanéból",
             "1": "Dunajeci tutajozás Szczawnica 2,5 óra",
             "1p": "A régió egyik legnépszerűbb programja. A tutajozás a Pieninekben zajlik és kb. 2,5 órát tart. Családok számára ideális.",
             "2": "Chochołowi termálfürdők – kikapcsolódás és meleg vizek",
@@ -200,7 +201,15 @@
             "19": "Morskie Oko – a Tátra klasszikusa",
             "19p": "A Morskie Oko a Tátra legismertebb tava. Sétálj a festői úton, és élvezd a felejthetetlen kilátást.",
             "20": "Quad túra a Tátrában – adrenalin és szórakozás",
-            "20p": "A Tátrai quad túrák izgalmas élményt és csodás tájakat nyújtanak – pároknak és barátoknak is remek választás."
+            "20p": "A Tátrai quad túrák izgalmas élményt és csodás tájakat nyújtanak – pároknak és barátoknak is remek választás.",
+            "1h": "Dunajeci tutajozás – a klasszikus Szczawnicából",
+            "1popular": "A szezon kihagyhatatlan attrakciója! Hagyományos tutajozás a Pieninekben – pihenés, tájak és hegyi hangulat egy csomagban Zakopanéból.",
+            "3h": "Fák koronái sétány – panorámás kedvenc",
+            "3popular": "A legnépszerűbb szlovákiai kirándulás. Látványos lombkoronaösvény az erdőn keresztül – ideális családoknak és pároknak.",
+            "5h": "Szlovák Dunajec – természet rohanás nélkül",
+            "5popular": "Tökéletes azoknak, akik gyors élményre vágynak. Nyugodt, rövid túra a szlovák oldalon – egyszerű és szemet gyönyörködtető.",
+            "16h": "Górál est – hangulatos élmény",
+            "16popular": "A legnépszerűbb esti program! Élőzene, tánc, tábortűz és helyi ízek – tökéletes lezárása a napnak Zakopanéban."
         },
         "tripslist": {
             "szlak-papieski": {

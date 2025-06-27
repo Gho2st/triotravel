@@ -163,6 +163,7 @@
             "polandHeader": "Polish day attractions from Zakopane",
             "foreignHeader": "International trips from Zakopane",
             "activeHeader": "Active and adventure trips",
+            "popularHeader": "Top 5 Day Trips from Zakopane",
             "1": "Dunajec River Rafting Szczawnica 2.5h",
             "1p": "One of the region's most popular attractions. The rafting trip takes place in the Pieniny Mountains and lasts 2.5 hours. Perfect for families.",
             "2": "Chochołowskie Thermal Baths – relaxation and hot springs",
@@ -200,7 +201,15 @@
             "19": "Morskie Oko – Tatra's classic gem",
             "19p": "Morskie Oko is the most iconic lake in the Tatras. Enjoy a scenic walk and unforgettable views.",
             "20": "Quad Biking in the Tatras – adrenaline and fun",
-            "20p": "Quad rides in the Tatras offer thrill, scenic landscapes, and great fun – perfect for couples or groups."
+            "20p": "Quad rides in the Tatras offer thrill, scenic landscapes, and great fun – perfect for couples or groups.",
+            "1h": "Dunajec Rafting – a classic from Szczawnica",
+            "1popular": "A true highlight of the season! A traditional rafting trip with highlander raftsmen through the Pieniny Mountains – a must-see during your stay in Zakopane.",
+            "3h": "Treetop Walk – panoramic favorite",
+            "3popular": "The most popular trip to Slovakia. A scenic treetop path through mountain forests – perfect for families, couples, and anyone who wants to ‘walk in the clouds’.",
+            "5h": "Slovak Dunajec – nature without the rush",
+            "5popular": "A bestseller for those seeking a shorter adventure. A calm, scenic rafting trip on the Slovak side – quick and effortless enjoyment.",
+            "16h": "Highlander Night – an evening with local flair",
+            "16popular": "Number 1 among evening attractions! A festive highlander night with live music, dancing, and a bonfire – the perfect way to end a full day of excursions."
         },
         "tripslist": {
             "szlak-papieski": {
