@@ -16,7 +16,7 @@ export default function Card({ article }) {
           className="rounded-2xl object-cover w-full h-full"
         />
       </div>
-      <div className="flex flex-col justify-between 2xl:justify-center 2xl:gap-10 2xl:w-2/3 p-2 text-center h-full space-y-6">
+      <div className="flex flex-col justify-between p-2 text-center h-full space-y-6">
         <h3 className="text-2xl 2xl:text-3xl font-semibold text-gray-800">
           {article.title}
         </h3>
