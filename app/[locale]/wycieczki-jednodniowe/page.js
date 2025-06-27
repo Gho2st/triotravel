@@ -154,7 +154,7 @@ export default function Atrakcje() {
       title: t("trips.19"),
       p: t("trips.19p"),
       image: "/morskie-oko/morskie-oko.webp",
-      link: "/transport-nad-morskie-oko",
+      link: "/transport/nad-morskie-oko",
       category: "poland",
     },
     {
