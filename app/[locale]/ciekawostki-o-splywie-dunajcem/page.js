@@ -42,7 +42,7 @@ const FunFactCard = ({ header, text }) => (
 
 export default function Ciekawostki() {
   const t = useTranslations(
-    "offer.tripslist.splyw-dunajcem-dluzszy.funfact.more"
+    "offer.tripslist.splyw-dunajcem-zakopane.funfact.more"
   );
 
   // Pobierz obiekt cards i przekształć go w tablicę
@@ -54,7 +54,7 @@ export default function Ciekawostki() {
       <Header text={t("header")} />
       <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[700px]">
         <Image
-          src="/wycieczki/splyw-dunajcem-dluzszy/1.webp"
+          src="/wycieczki/splyw-dunajcem-zakopane/1.webp"
           width={500}
           height={500}
           layout="responsive"
