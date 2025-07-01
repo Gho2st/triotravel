@@ -51,8 +51,8 @@ export default function SlowackiRaj() {
   // Przykładowe dane dla tabeli
   const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
-    [t("table.1"), "120 PLN*"],
-    [t("table.2"), "110 PLN*"],
+    [t("table.1"), "150 PLN*"],
+    [t("table.2"), "130 PLN*"],
     ,
     ["", t("table.additional")],
     [t("table.3"), "4€"],
@@ -90,7 +90,7 @@ export default function SlowackiRaj() {
             items={tripItems}
           />
           <TripTime
-            availableDays={["Wt", "Pt"]} // Przykład: wybrane dni
+            availableDays={["Śr"]} // Przykład: wybrane dni
           />
         </div>
         {/* buttons */}

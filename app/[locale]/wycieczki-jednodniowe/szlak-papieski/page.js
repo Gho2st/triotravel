@@ -5,6 +5,7 @@ import Image from "next/image";
 import Gallery from "@/app/UI/Slider";
 import TripProgram from "@/app/UI/TripProgram";
 import Table from "@/app/UI/Table";
+import TripTime from "@/app/UI/TripTime";
 
 import { useTranslations } from "next-intl";
 
@@ -21,7 +22,8 @@ export async function generateMetadata({ params }) {
     namespace: "metadata.szlak-papieski",
   });
 
-  const path = routing.pathnames["/wycieczki-jednodniowe/szlak-papieski"][locale]; // Pobieramy ścieżkę dla języka
+  const path =
+    routing.pathnames["/wycieczki-jednodniowe/szlak-papieski"][locale]; // Pobieramy ścieżkę dla języka
   // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
   const canonicalUrl =
     locale === "pl"
@@ -105,6 +107,9 @@ export default function Szlak() {
           <TripProgram
             title={t("tripprogram.header") + " 4-5h"}
             items={tripItems}
+          />
+          <TripTime
+            availableDays={["Czw"]} // Przykład: wybrane dni
           />
           <div className="mt-24">
             <TatryZakopane />

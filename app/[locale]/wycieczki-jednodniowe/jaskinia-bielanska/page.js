@@ -49,7 +49,7 @@ export default function Jaskinia() {
     "10:00 - " + t("tripprogram.3"),
     "12:00 - " + t("tripprogram.4"),
     "15:00 - " + t("tripprogram.5"),
-    "16:30 - " + t("tripprogram.6"),
+    "17:00 - " + t("tripprogram.6"),
   ];
 
   // Przykładowe dane dla tabeli

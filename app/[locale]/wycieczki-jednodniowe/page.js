@@ -49,6 +49,9 @@ export default function Atrakcje() {
       image: "/wycieczki/termy/termy.webp",
       link: "/wycieczki-jednodniowe/chocholowskie-termy",
       category: "poland",
+      popular: true,
+      popularTitle: t("trips.2h"),
+      popularDescription: t("trips.2popular"),
     },
     {
       title: t("trips.3"),
@@ -111,6 +114,9 @@ export default function Atrakcje() {
       image: "/wycieczki/budapeszt/budapeszt.webp",
       link: "/wycieczki-jednodniowe/budapeszt",
       category: "foreign",
+      popular: true,
+      popularTitle: t("trips.10h"),
+      popularDescription: t("trips.10popular"),
     },
     {
       title: t("trips.11"),
