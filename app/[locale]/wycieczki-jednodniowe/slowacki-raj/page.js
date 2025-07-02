@@ -45,7 +45,7 @@ export default function SlowackiRaj() {
     "12:00 - " + t("tripprogram.3"),
     "12:30 - " + t("tripprogram.4"),
     "15:00 - " + t("tripprogram.5"),
-    "17:00 - " + t("tripprogram.6"),
+    "17:00 / 18:00 - " + t("tripprogram.6"),
   ];
 
   // Przykładowe dane dla tabeli

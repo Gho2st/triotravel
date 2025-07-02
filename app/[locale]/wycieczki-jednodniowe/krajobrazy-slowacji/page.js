@@ -6,6 +6,8 @@ import Gallery from "@/app/UI/Slider";
 import TripProgram from "@/app/UI/TripProgram";
 import Majer from "@/app/UI/Majer";
 import { useTranslations } from "next-intl";
+import TripTime from "@/app/UI/TripTime";
+import BackgroundList from "@/app/UI/BackgroundList";
 
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
@@ -19,7 +21,8 @@ export async function generateMetadata({ params }) {
     namespace: "metadata.krajobrazy-slowacji",
   });
 
-  const path = routing.pathnames["/wycieczki-jednodniowe/krajobrazy-slowacji"][locale]; // Pobieramy ścieżkę dla języka
+  const path =
+    routing.pathnames["/wycieczki-jednodniowe/krajobrazy-slowacji"][locale]; // Pobieramy ścieżkę dla języka
   // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
   const canonicalUrl =
     locale === "pl"
@@ -38,23 +41,31 @@ export async function generateMetadata({ params }) {
 export default function KrajobrazySlowacji() {
   const t = useTranslations("offer.tripslist.krajobrazy-slowacji");
   const tripItems = [
-    t("tripprogram.1"),
-    t("tripprogram.2"),
-    t("tripprogram.3"),
-    t("tripprogram.4"),
-    t("tripprogram.5"),
-    t("tripprogram.6"),
+    "8:30 - " + t("tripprogram.1"),
+    "11:30 - " + t("tripprogram.2"),
+    "13:30 - " + t("tripprogram.3"),
+    "14:15 - " + t("tripprogram.4"),
+    "15:30 - " + t("tripprogram.5"),
+    "17:00 - " + t("tripprogram.6"),
+  ];
+
+  const customItems = [
+    t("list.1"),
+    t("list.2"),
+    t("list.3"),
+    t("list.4"),
+    t("list.5"),
+    t("list.6"),
   ];
 
   // Przykładowe dane dla tabeli
   const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
-    [t("table.1"), "90 PLN"],
-    [t("table.2"), "80 PLN"],
+    [t("table.1"), "100 PLN"],
     ["", t("table.additional")],
-    [t("table.3"), "9€"],
-    [t("table.4"), "4.5€"],
+    [t("table.2"), "10 EURO"],
   ];
+
   return (
     <>
       <Header text={t("header")} />
@@ -85,6 +96,11 @@ export default function KrajobrazySlowacji() {
             title={<>{t("tripprogram.header")}</>}
             items={tripItems}
           />
+
+          <div className="mt-16">
+            <BackgroundList title={t("header3")} items={customItems} />
+          </div>
+          <TripTime showCallInfo={true} />
         </div>
       </section>
       <Majer />
@@ -106,6 +122,10 @@ export default function KrajobrazySlowacji() {
             {
               url: "/wycieczki/krajobrazy-slowacji/4.webp",
               alt: t("alt.4"),
+            },
+            {
+              url: "/wycieczki/krajobrazy-slowacji/5.webp",
+              alt: t("alt.5"),
             },
           ]}
         />

@@ -746,13 +746,13 @@
                     "text": "* Az ár tartalmazza: a sofőr felügyeletét a kirándulás során, NNW biztosítást és transzfert Zakopanéból"
                 },
                 "tripprogram": {
-                    "header": "Kirándulás programja:",
-                    "1": "Indulás Zakopanéból",
-                    "2": "Túrázás a Sucha Bela útvonalon (létrák)",
-                    "3": "Az útvonal befejezése, szabadidő",
-                    "4": "Indulás Zakopanéba",
-                    "5": "Indulás Zakopanéba",
-                    "6": "Tervezett visszaérkezés"
+                    "header": "A kirándulás programja:",
+                    "1": "Indulás Zakopanéból (felszállás a szálláshelyről*)",
+                    "2": "Túra a Sucha Bela-patak mentén",
+                    "3": "Szabadidő a tisztáson",
+                    "4": "Túra a Hernád-áttörés útvonalán vagy egy könnyebb útvonalon",
+                    "5": "Szabad program",
+                    "6": "Visszatérés Zakopanéba"
                 },
                 "buttons": {
                     "header": "Részvételi feltételek",
@@ -877,33 +877,41 @@
             },
             "krajobrazy-slowacji": {
                 "alt": {
-                    "1": "Orawai Vár drónfelvételen naplementekor",
-                    "2": "Növényzettel borított vár",
-                    "3": "Az Orawai Vár, amely a természetes sziklákba illeszkedik",
-                    "4": "Orawai Vár fák mellett"
+                    "1": "Templom Ótátrafüreden",
+                    "2": "Elektricska – hegyi vasút a szlovák Tátrában",
+                    "3": "Fából készült csónakok a Csorba‑tavon, kilátással a Magas‑Tátrára egy napsütéses napon",
+                    "4": "A Magas‑Tátra és a Csorba‑tó panorámája, a part közelében ágak és levelek között",
+                    "5": "Békés tájkép a Csorba‑tóról, hegyi kilátással és jellegzetes szállodával a fák között, magas fűvel az előtérben"
                 },
                 "header": "Szlovák tájak",
                 "header2": "Mit kínálunk?",
-                "header3": "Ismerje meg Budapestet",
-                "text": "A Triotravel örömmel invitálja Önt egy egynapos, látnivalókban gazdag kirándulásra. Egyedülálló utazást kínálunk, amely magában foglalja az Orawai Vár látogatását, a Chochołowi Skanzent, valamint oscypek kóstolót a régió legrégebbi pásztorkunyhójában. Orawai Vár A magas sziklán elhelyezkedő Orawai Vár fenséges erődítmény, amely építészetével és gazdag történelmével lenyűgöz. Az idegenvezetés során megismerhetik a vár életével és lakóival kapcsolatos lenyűgöző történeteket. Ez egy felejthetetlen időutazás, amely közelebb hozza a régió kultúráját és hagyományait. Chochołowi Skanzen A Chochołowi Skanzen egyedülálló hely, ahol átérezheti a hagyományos hegyi kultúra szellemét. A festői Chochołów faluban található skanzen lehetőséget nyújt a látogatóknak, hogy megtekintsék az autentikus fa házakat, amelyek generációk óta megőrzik egyedi jellegüket.",
+                "header3": "Ismerd meg Szlovákiát",
+                "text": "Ez egy különleges, nyugodt körutazás Észak‑Szlovákiában, ideális mindenki számára – kortól és állóképességtől függetlenül. Kényelmes buszsal és a regionális Električka vonattal (Tatranská elektrická železnica) utazunk, túrázás nélkül. Gyönyörködünk a Magas‑Tátra legszebb látványaiban fotós és pihenő megállókkal.",
                 "table": {
-                    "header1": "Jegy típusa",
-                    "header2": "Orawai Vár",
-                    "1": "Normál jegy",
-                    "2": "Kedvezményes jegy (15 év alatti gyermekek, nyugdíjasok, fogyatékkal élők)",
-                    "3": "Normál jegy",
-                    "4": "Kedvezményes jegy",
-                    "text": "* Az ár tartalmazza: képzett idegenvezető és kísérő felügyeletét, kényelmes autóbuszos utazást, KL és NNW biztosítást, audio guide készletet",
-                    "additional": "Külön fizetendő (belépőjegyek az Orawai Várba)"
+                    "header1": "Jegytípus",
+                    "header2": "Ár",
+                    "1": "Belépőjegy",
+                    "2": "Električka vonatjegy",
+                    "text": "* Az ár tartalmazza: kényelmes buszos utazás (felszállás a szálláshoz közeli megállóknál Zakopanéban), kvalifikált idegenvezető, baleset- és utasbiztosítás. **A belépőjegy árak változhatnak",
+                    "additional": "További költségek"
+                },
+                "list": {
+                    "header": "GYAKORLATI TUDNIVALÓK",
+                    "1": "Hozd magaddal személyi igazolványod vagy útleveled (átlépjük a határt)",
+                    "2": "Érdemes vízflakont vinni – tölthetsz forrásvizet",
+                    "3": "Könnyűsúlyú kirándulás – buszutak és rövid séták murvás ösvényeken",
+                    "4": "Ideális családoknak gyerekekkel, nyugdíjasoknak és pihenésre vágyóknak a természetben",
+                    "5": "Telefonos foglalás kötelező – korlátozott férőhelyek. A szállásodhoz közeli megállóknál vesszük fel az utasokat",
+                    "6": "Szívélyes üdvözlettel, a TrioTravel csapata – a családi vállalkozásotok Zakopanéból. Hegyi kilátás mászás nélkül – fedezd fel a Tátra báját a szlovák oldalról!"
                 },
                 "tripprogram": {
-                    "header": "Kirándulás programja:",
-                    "1": "Indulás Zakopanéból",
-                    "2": "Az Orawai Vár látogatása",
-                    "3": "Utazás a Chochołowi Skanzenen keresztül",
-                    "4": "Megálló a határon – lehetőség szlovák bolt látogatására",
-                    "5": "Oscypek kóstolás a legrégebbi pásztorkunyhóban",
-                    "6": "Visszatérés Zakopanéba"
+                    "header": "Az utazás menetrendje:",
+                    "1": "indulás Zakopanéból, határátkelés Jurgóban • rövid panoráma megálló a Zdziar‑hágónál – a Béli Tátra és Magas‑Tátra panorámája • látványos út Tatranská Lomnica és Ótátrafüred érintésével",
+                    "2": "Csorba‑tó (Štrbské Pleso) – 2 órás megálló a festői tó mellett • szabadidő séta, kávé vagy fotózás céljából • a tó a Magas‑Tátrában található, mégis a parkolótól néhány lépésre van • rövid séta a kilátópontra, ahonnan Popradra és Štrbské kisvárosra nyílik kilátás • helyi boltban alkohol is vásárolható",
+                    "3": "séta az Električka vasútig • felszállás a híres szlovák hegyi vasútra, kb. 45 perces tájvonatút völgyeken és fürdővárosokon át",
+                    "4": "érkezés Ótátrafüredre • rövid séta a bájos városközpontban • látogatás egy természetes ásványvízforráshoz – saját palackodba is töltheted (enyhén savas, egészséges)",
+                    "5": "visszaindulás • élménydús visszaút Jurgón keresztül és megálló egy helyi pásztorkunyhónál (oscypek vásárlása lehetséges készpénzzel)",
+                    "6": "visszatérés Zakopanéba"
                 }
             },
             "dookola-tatr": {
@@ -1477,8 +1485,8 @@
             "description": "Látogasd meg Budapestet a Trio Travellel! Nézd meg a Hősök terét, a Vajdahunyad várát, a Gellért-hegyet, hajókázz a Dunán és más látnivalókat Magyarország fővárosában. Történelemmel és varázslattal teli város a Duna partján."
         },
         "krajobrazy-slowacji": {
-            "title": "Orawai Vár - Kirándulás Zakopanéból | Idegenvezetéses Látogatás",
-            "description": "Egynapos kirándulás az Orawai Várhoz a Trio Travellel – a fenséges erődítmény látogatása, Chochołowi skanzen és oscypek kóstolás. Szállítás Zakopanéból, jegyek az árban. Nézd meg a programot és az árakat!"
+            "title": "Szlovákiai kirándulás Zakopanéból – Tátra erőfeszítés nélkül | TrioTravel",
+            "description": "Nyugodt buszos kirándulás Észak-Szlovákiában – kényelmes autóbusz, Električka vasút, Magas-Tátra látványa, túrázás nélkül. Mindenkinek ajánlott!"
         },
         "dookola-tatr": {
             "title": "Kirándulás a Tátra Körül - Orawai Vár és Deménvölgyi Barlang",

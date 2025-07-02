@@ -194,7 +194,7 @@
             "10p": "Budapeszt to idealny kierunek na całodniowy wyjazd. Stolica Węgier oferuje piękne zabytki, termy i klimatyczne uliczki. Wyjazd z Zakopanego.",
             "10h": "Budapeszt – jednodniowa podróż do innego świata",
             "10popular": "Topowa zagraniczna wycieczka! Budapeszt zachwyca elegancją, gorącymi termami i klimatem wielkiego miasta. Jeden dzień wystarczy, by poczuć urok stolicy Węgier – z Zakopanego w komfortowym stylu.",
-            "11": "Krajobrazy Słowacji - objazd widokowy",
+            "11": "Krajobraz Słowacji - relaksująca wycieczka krajobrazowa - z pięknymi widokami!",
             "11p": "Objazd krajobrazowy przez malownicze tereny północnej Słowacji - widoki, lokalna architektura i spokojna forma zwiedzania w jeden dzień.",
             "12": "Świątynia Lodowa Hrebieniok - magiczna rzeźba z lodu",
             "12p": "Zimowa atrakcja Słowacji – lodowa świątynia w Hrebienioku zachwyca detalami i podświetleniem. Wycieczka idealna w sezonie zimowym z Zakopanego.",
@@ -743,16 +743,16 @@
                     "3": "Bilet normalny",
                     "4": "Bilet ulgowy (dzieci do 10 lat i seniorzy powyżej 62 lat)",
                     "additional": "Dodatkowo płatne (Wstęp do Słowackiego Parku Narodowego)",
-                    "text": "* Cena obejmuje: opiekę kierowcy podczas wycieczki, ubezpieczenie NNW oraz transport z Zakopanego"
+                    "text": "* Cena obejmuje: opiekę kierowcy i przewodnika podczas wycieczki, ubezpieczenie NNW oraz transport z Zakopanego"
                 },
                 "tripprogram": {
                     "header": "Program Wycieczki:",
-                    "1": "Wyjazd z Zakopanego",
-                    "2": "Wędrówka trasą - Sucha Bela (drabinki)",
-                    "3": "Zakończenie trasy, czas wolny.",
-                    "4": "Wyjazd do Zakopanego",
-                    "5": "Wyjazd do Zakopanego",
-                    "6": "Planowany powrót"
+                    "1": "Wyjazd z Zakopanego (odbiór z miejsca zakwaterowania*)",
+                    "2": "Wędrówka wzdłuż potoku Sucha Bela",
+                    "3": "Czas wolny na polanie",
+                    "4": "Przejście szlakiem przełomu hornadu lub łatwiejsza trasa",
+                    "5": "Czas wolny",
+                    "6": "Powrót do zakopanego"
                 },
                 "buttons": {
                     "header": "Warunki Uczestnictwa",
@@ -877,32 +877,40 @@
             },
             "krajobrazy-slowacji": {
                 "alt": {
-                    "1": "Zamek Orawski z drona przy zachodzie słońca",
-                    "2": "Zamek porośnięty roślinnością",
-                    "3": "Zamek Orawski wkomponowujący się w naturalne skały",
-                    "4": "Zamek Orawski przy drzewach"
+                    "1": "Kościół w Starym Smokowcu",
+                    "2": "Elektriczka – kolejka w Tatrach słowackich",
+                    "3": "Drewniane łódki na Jeziorze Szczyrbskim z widokiem na Tatry Wysokie w słoneczny dzień",
+                    "4": "Panorama Tatr Wysokich i Jeziora Szczyrbskiego uchwycona przez liście i gałęzie z brzegu",
+                    "5": "Spokojny krajobraz Jeziora Szczyrbskiego z widokiem na góry i charakterystyczny hotel pośród drzew, na pierwszym planie wysokie trawy"
                 },
-                "header": "Krajobrazy Słowacji",
+                "header": "Krajobraz Słowacji",
                 "header2": "Co oferujemy?",
-                "header3": "Poznaj Budapeszt",
-                "text": "Triotravel z przyjemnością zaprasza na pełną atrakcji jednodniową wycieczkę. Proponujemy Państwu wyjątkową podróż, która obejmuje zwiedzanie Zamku Orawskiego, Skansenu w Chochołowie oraz degustację oscypków w najstarszej bacówce w regionie. Zamek Orawski Położony na wysokiej skale, Zamek Orawski to majestatyczna twierdza, która zachwyca swoją architekturą i bogatą historią. Podczas zwiedzania z przewodnikiem poznają Państwo fascynujące opowieści o życiu zamku oraz jego mieszkańców. To niezapomniana podróż w czasie, która przybliży Państwu kulturę i tradycje regionu. Skansen w Chochołowie Skansen w Chochołowie to unikatowe miejsce, gdzie można poczuć ducha tradycyjnej kultury góralskiej. Położony w malowniczej wsi Chochołów, skansen oferuje zwiedzającym możliwość zobaczenia autentycznych, drewnianych chałup, które od pokoleń zachowują swój niepowtarzalny charakter.",
+                "header3": "Poznaj Słowację",
+                "text": "To wyjątkowa, spokojna wycieczka objazdowa po północnej Słowacji, idealna dla każdego – niezależnie od wieku i kondycji. Podróżujemy komfortowym autobusem i regionalną koleją Elektryczką (Tatranská elektrická železnica), bez pieszych wędrówek po górach. Podziwiamy najpiękniejsze widoki Tatr Wysokich z przystankami na zdjęcia i relaks.",
                 "table": {
                     "header1": "Rodzaj biletu",
-                    "header2": "Zamek Orawski",
-                    "1": "Bilet normalny",
-                    "2": "Bilet ulgowy (dziecko do lat 15, emeryt, niepełnosprawny)",
-                    "3": "Bilet normalny",
-                    "4": "Bilet ulgowy",
-                    "text": "*Cena obejmuje: Opiekę wykwalifikowanego pilota oraz przewodnika, transport komfortowym autokarem, ubezpieczenie KL i NNW, zestaw audio guide",
-                    "additional": "Dodatkowo płatne (bilety wstępu do Zamku Orawskiego)"
+                    "header2": "Cena wycieczki",
+                    "1": "Bilet wstępu",
+                    "2": "Bilet na kolejkę Elektryczka",
+                    "text": "* Cena obejmuje: Przejazd komfortowym autokarem (Odbiór z przystanków najbliżej miejsca zakwaterowania w Zakopanem), opiekę wykwalifikowanego pilota, ubezpieczenie NNW, KL. **Ceny biletów wstępów mogą ulec zmianie",
+                    "additional": "Dodatkowo płatne"
+                },
+                "list": {
+                    "header": "INFORMACJE PRAKTYCZNE",
+                    "1": "Zabierz ze sobą dowód osobisty lub paszport (przekraczamy granicę)",
+                    "2": "Warto mieć ze sobą butelkę na wodę – można zaczerpnąć ze źródła",
+                    "3": "Wycieczka bez wysiłku fizycznego – przejazdy i krótkie spacery po utwardzonych ścieżkach",
+                    "4": "Idealna dla rodzin z dziećmi, seniorów i osób chcących odpocząć w pięknych okolicznościach przyrody",
+                    "5": "Rezerwacja telefoniczna obowiązkowa – liczba miejsc ograniczona. Odbieramy klientów spod wskazanych przystanków najbliżej miejsca zakwaterowania",
+                    "6": "Z serdecznymi pozdrowieniami, Zespół TrioTravel – Twoja rodzinna firma z Zakopanego. Górskie widoki bez wspinania – poznaj urok Tatr ze słowackiej strony!"
                 },
                 "tripprogram": {
                     "header": "Program Wycieczki:",
-                    "1": "Wyjazd z Zakopanego",
-                    "2": "Zwiedzanie Zamku Orawskiego",
-                    "3": "Przejazd przez Skansen w Chochołowie",
-                    "4": "Postój na granicy - możliwość wizyty w sklepie Słowackim",
-                    "5": "Degustacja Oscypków w Najstarszej Bacówce",
+                    "1": "wyjazd z Zakopanego, przekroczenie granicy w Jurgowie Krótki postój widokowy na Przełęczy Zdziar - panorama Tatr Bielskich i Wysokich Przejazd widokową trasą przez Tatrzańską Łomnicę i Stary Smokowiec",
+                    "2": "Szczyrbskie Jezioro (Štrbské Pleso) 2-godzinny postój nad malowniczym jeziorem - czas wolny na spacer po deptaku, kawę z widokiem lub zdjęcia Jezioro znajduje się w Tatrach Wysokich, ale bez potrzeby wchodzenia na szlaki - wszystko w zasięgu kilku kroków od parkingu. Podejście na punkt Widokowy, skąd widać miejscowość Poprad, Świt. Możliwość zakupienia alkoholi w lokalnym sklepie.",
+                    "3": "przejście do kolejki „Elektryczka”. Wsiadamy do słynnej słowackiej kolejki i ruszamy w krajobrazową podróż - około 45 minut jazdy przez doliny i uzdrowiskowe miejscowości",
+                    "4": "dojazd do Starego Smokowca Krótki spacer po urokliwym centrum miasteczka Odwiedzimy naturalne źródło wody mineralnej - można nabrać wody do własnych butelek (lekko kwaśna, zdrowotna)",
+                    "5": "wyjazd w drogę powrotną Komfortowy powrót przez granicę w Jurgowie i postój w bacówce (możliwość zakupu oscypków za gotówkę)",
                     "6": "Powrót do Zakopanego"
                 }
             },
@@ -1480,8 +1488,8 @@
             "description": "Odwiedź Budapeszt z Trio Travel! Zobacz Plac Bohaterów, Zamek Vajdahunyad, Wzgórze Gellerta, Rejs po Dunaju i inne atrakcje stolicy Węgier. Pełna historia i magia miasta nad Dunajem."
         },
         "krajobrazy-slowacji": {
-            "title": "Zamek Orawski - Wycieczka z Zakopanego | Zwiedzanie z przewodnikiem",
-            "description": "Jednodniowa wycieczka na Zamek Orawski z Trio Travel - zwiedzanie majestatycznej twierdzy, skansen w Chochołowie i degustacja oscypków. Transport z Zakopanego, bilety w cenie. Sprawdź program i cennik!"
+            "title": "Wycieczka po Słowacji z Zakopanego – Tatry bez wysiłku | TrioTravel",
+            "description": "Spokojna wycieczka objazdowa po północnej Słowacji – komfortowy autokar, przejazd kolejką Elektryczką, widoki Tatr Wysokich, bez wędrówek. Idealna dla każdego!"
         },
         "dookola-tatr": {
             "title": "Wycieczka Dookoła Tatr - Zamek Orawski i Jaskinia Demianowska",

@@ -742,12 +742,12 @@
                 },
                 "tripprogram": {
                     "header": "Trip Program:",
-                    "1": "Departure from Zakopane",
-                    "2": "Hike along the Sucha Bela route (ladders)",
-                    "3": "End of the route, free time.",
-                    "4": "Return to Zakopane",
-                    "5": "Return to Zakopane",
-                    "6": "Planned return"
+                    "1": "Departure from Zakopane (pickup from accommodation*)",
+                    "2": "Hike along the Sucha Bela stream",
+                    "3": "Free time at the clearing",
+                    "4": "Walk along the Hornád Gorge trail or take an easier route",
+                    "5": "Free time",
+                    "6": "Return to Zakopane"
                 },
                 "buttons": {
                     "header": "Participation Conditions",
@@ -872,33 +872,41 @@
             },
             "krajobrazy-slowacji": {
                 "alt": {
-                    "1": "Orava Castle at sunset - drone view",
-                    "2": "Castle overgrown with vegetation",
-                    "3": "Orava Castle blending with natural rock formations",
-                    "4": "Orava Castle surrounded by trees"
+                    "1": "Church in Starý Smokovec",
+                    "2": "Električka – mountain railway in the Slovak Tatras",
+                    "3": "Wooden boats on Štrbské Pleso with a view of the High Tatras on a sunny day",
+                    "4": "Panorama of the High Tatras and Štrbské Pleso seen through leaves and branches from the shore",
+                    "5": "Peaceful landscape of Štrbské Pleso with a mountain view and a distinctive hotel among trees; tall grasses in the foreground"
                 },
-                "header": "Landscapes of Slovakia",
-                "header2": "What We Offer?",
-                "header3": "Discover Budapest",
-                "text": "Triotravel is pleased to invite you on a one-day trip full of attractions. We offer you a unique journey that includes a visit to Orava Castle, the Open-Air Museum in Chochołów, and a tasting of oscypek cheese in the oldest shepherd's hut in the region. Orava Castle Located on a high rock, Orava Castle is a majestic fortress that impresses with its architecture and rich history. During the guided tour, you will learn fascinating stories about the life of the castle and its inhabitants. It is an unforgettable journey through time that will introduce you to the culture and traditions of the region. Open-Air Museum in Chochołów The Open-Air Museum in Chochołów is a unique place where you can feel the spirit of traditional highlander culture. Located in the picturesque village of Chochołów, the museum offers visitors the chance to see authentic wooden cottages that have retained their unique character for generations.",
+                "header": "Slovak Landscapes",
+                "header2": "What We Offer",
+                "header3": "Discover Slovakia",
+                "text": "This is a unique, peaceful sightseeing tour of northern Slovakia, ideal for everyone—regardless of age or fitness. We travel by comfortable coach and the regional Električka train (Tatranská elektrická železnica), with no hiking. We admire the most beautiful views of the High Tatras with photo and relaxation stops.",
                 "table": {
                     "header1": "Ticket Type",
-                    "header2": "Orava Castle",
-                    "1": "Adult ticket",
-                    "2": "Reduced ticket (children up to 15 years, seniors, disabled)",
-                    "3": "Adult ticket",
-                    "4": "Reduced ticket",
-                    "text": "*Price includes: Care of a qualified guide and tour leader, transport by comfortable coach, accident and medical insurance, audio guide set",
-                    "additional": "Additional charges (entrance tickets to Orava Castle)"
+                    "header2": "Price",
+                    "1": "Entrance ticket",
+                    "2": "Električka train ticket",
+                    "text": "* Price includes: comfortable coach transport (pickup from stops near your accommodation in Zakopane), qualified guide, accident and travel insurance. **Entrance ticket prices may change",
+                    "additional": "Additional charges"
+                },
+                "list": {
+                    "header": "PRACTICAL INFORMATION",
+                    "1": "Bring your ID card or passport (we cross the border)",
+                    "2": "It’s worth having a water bottle – you can refill from a mineral spring",
+                    "3": "Effort‑free trip – coach rides and short strolls on paved paths",
+                    "4": "Ideal for families with children, seniors, and those who want to relax in beautiful nature",
+                    "5": "Phone reservation required – limited seats. We pick up clients at stops nearest their accommodation",
+                    "6": "With best regards, the TrioTravel Team – your family‑run company from Zakopane. Mountain views without climbing – discover the charm of the Tatras from the Slovak side!"
                 },
                 "tripprogram": {
-                    "header": "Trip Program:",
-                    "1": "Departure from Zakopane",
-                    "2": "Visit to Orava Castle",
-                    "3": "Transfer through the Open-Air Museum in Chochołów",
-                    "4": "Stop at the border - possibility to visit a Slovak store",
-                    "5": "Oscypek cheese tasting in the Oldest Shepherd's Hut",
-                    "6": "Return to Zakopane"
+                    "header": "Tour Program:",
+                    "1": "departure from Zakopane, border crossing at Jurgów • short scenic stop at Zdziar Pass – panorama of the Belianske and High Tatras • scenic drive through Tatranská Lomnica and Starý Smokovec",
+                    "2": "Štrbské Pleso (Szczyrbskie Lake) – 2‑hour stop by the picturesque lake • free time for a walk, coffee or photos • lake at High Tatras yet accessible from the parking lot • short climb to a viewpoint overlooking Poprad and Štrbské • local shop offers alcoholic drinks",
+                    "3": "walk to the Električka train • board the famous Slovak mountain railway for about 45‑minute scenic ride through valleys and spa towns",
+                    "4": "arrival at Starý Smokovec • short walk through the charming town centre • visit to a natural mineral spring – you can fill your own bottles (slightly acidic, health‑promoting)",
+                    "5": "return journey • comfortable return crossing at Jurgów and stop at a local shepherd’s hut (oscypek cheese available for cash)",
+                    "6": "return to Zakopane"
                 }
             },
             "dookola-tatr": {
@@ -1472,8 +1480,8 @@
             "description": "Visit Budapest with Trio Travel! See Heroes' Square, Vajdahunyad Castle, Gellért Hill, Danube cruise, and other attractions of Hungary's capital. Full of history and the magic of the city by the Danube."
         },
         "krajobrazy-slowacji": {
-            "title": "Orava Castle - Trip from Zakopane | Guided Tour",
-            "description": "One-day trip to Orava Castle with Trio Travel - explore the majestic fortress, visit the Chochołów open-air museum, and taste oscypek cheese. Transport from Zakopane, tickets included. Check the program and prices!"
+            "title": "Slovakia Tour from Zakopane – Effortless Tatras | TrioTravel",
+            "description": "A peaceful sightseeing tour of northern Slovakia – comfortable coach ride, scenic Električka train, views of the High Tatras, no hiking. Perfect for everyone!"
         },
         "dookola-tatr": {
             "title": "Around the Tatras Trip - Orava Castle and Demänovská Cave",
