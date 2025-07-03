@@ -64,7 +64,7 @@ export default function Biesiada() {
   return (
     <>
       <Header text={t("header")} />
-      <div className="aspect-video w-full md:w-3/4 mx-auto md:mt-16 max-h-[600px]">
+      <div className="aspect-video w-full md:w-3/4 mx-auto md:mt-16 max-h-[620px] xl:max-h-[650px] 2xl:max-h-[820px]">
         <iframe
           className="w-full h-full"
           src="https://www.youtube.com/embed/7rtQ4U82bTU"

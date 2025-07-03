@@ -61,9 +61,9 @@ export default function KrajobrazySlowacji() {
   // Przykładowe dane dla tabeli
   const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
-    [t("table.1"), "100 PLN"],
+    [t("table.1"), "110 PLN"],
     ["", t("table.additional")],
-    [t("table.2"), "10 EURO"],
+    [t("table.2"), "10 PLN"],
   ];
 
   return (
@@ -100,7 +100,7 @@ export default function KrajobrazySlowacji() {
           <div className="mt-16">
             <BackgroundList title={t("header3")} items={customItems} />
           </div>
-          <TripTime showCallInfo={true} />
+          <TripTime showCallInfo={true} availableDays={["Pon", "Śr", "Pt", "Nd"]} />
         </div>
       </section>
       <Majer />
