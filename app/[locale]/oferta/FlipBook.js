@@ -1,11 +1,12 @@
 "use client";
+
 import { useState, useRef, useEffect } from "react";
 import HTMLFlipBook from "react-pageflip";
 import { Document, Page, pdfjs } from "react-pdf";
 import React from "react";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 
 pdfjs.GlobalWorkerOptions.workerSrc = "/pdf.worker.min.js";
 
@@ -24,17 +25,23 @@ Pages.displayName = "Pages";
 
 export default function FlipBook() {
   const t = useTranslations("offer");
+  const locale = useLocale();
 
   const [numPages, setNumPages] = useState(null);
   const [bookSize, setBookSize] = useState({ width: 630, height: 850 });
   const [pageSize, setPageSize] = useState({ width: 610 });
-  const [currentPage, setCurrentPage] = useState(0); // Śledzenie aktualnej strony
-  const [visiblePages, setVisiblePages] = useState([]); // Strony do renderowania
+  const [currentPage, setCurrentPage] = useState(0);
+  const [visiblePages, setVisiblePages] = useState([]);
   const flipBookRef = useRef(null);
+
+  // 📄 Wybór pliku PDF w zależności od języka
+  const getPdfFile = () => {
+    return locale === "pl" ? "/oferta_pol.pdf" : "/oferta_eng.pdf";
+  };
 
   const onDocumentLoadSuccess = ({ numPages }) => {
     setNumPages(numPages);
-    setVisiblePages([1, 2, 3]); // Wczytaj początkowo tylko kilka stron
+    setVisiblePages([1, 2, 3]);
   };
 
   const updateSize = () => {
@@ -61,9 +68,8 @@ export default function FlipBook() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // Funkcja do aktualizacji widocznych stron
   const updateVisiblePages = (page) => {
-    const buffer = 4; // Wczytuj 2 strony przed i po aktualnej
+    const buffer = 4;
     const newVisiblePages = [];
     for (
       let i = Math.max(1, page - buffer);
@@ -72,10 +78,9 @@ export default function FlipBook() {
     ) {
       newVisiblePages.push(i);
     }
-    setVisiblePages([...new Set([...visiblePages, ...newVisiblePages])]); // Unikaj duplikatów
+    setVisiblePages([...new Set([...visiblePages, ...newVisiblePages])]);
   };
 
-  // Obsługa zmiany strony w HTMLFlipBook
   const onPageFlip = (e) => {
     setCurrentPage(e.data);
     updateVisiblePages(e.data);
@@ -85,7 +90,7 @@ export default function FlipBook() {
     <div className="">
       <Document
         className="flex justify-center items-center bg-slate-300 min-h-screen overflow-hidden"
-        file="/oferta.pdf"
+        file={getPdfFile()}
         onLoadSuccess={onDocumentLoadSuccess}
         loading={
           <div className="text-xl xl:text-2xl text-center flex justify-center items-center">
@@ -95,13 +100,13 @@ export default function FlipBook() {
       >
         {numPages && (
           <HTMLFlipBook
-            key={`${bookSize.width}-${bookSize.height}`}
+            key={`${bookSize.width}-${bookSize.height}-${locale}`}
             width={bookSize.width}
             height={bookSize.height}
             ref={flipBookRef}
             startPage={0}
             showCover={true}
-            onFlip={onPageFlip} // Dodaj obsługę zmiany strony
+            onFlip={onPageFlip}
           >
             <Pages isCover={true}>
               <Page pageNumber={1} width={pageSize.width} />
@@ -109,7 +114,6 @@ export default function FlipBook() {
 
             {[...Array(numPages - 1).keys()].map((index) => {
               const pageNumber = index + 2;
-              // Renderuj tylko strony z visiblePages
               return visiblePages.includes(pageNumber) ? (
                 <Pages key={index} number={index + 1}>
                   <Page pageNumber={pageNumber} width={pageSize.width} />
