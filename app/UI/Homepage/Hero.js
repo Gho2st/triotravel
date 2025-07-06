@@ -52,6 +52,11 @@ export default function Hero() {
         link: "/wycieczki-jednodniowe/biesiada-goralska",
       },
       {
+        background: "/wycieczki/krajobrazy-slowacji/krajobrazy-slowacji.webp",
+        translationKey: "headers.header12", // "Krajobraz slowacji"
+        link: "/wycieczki-jednodniowe/krajobrazy-slowacji",
+      },
+      {
         background: "/baner/baner6.webp",
         translationKey: "headers.header4", // "transport?"
         link: "/transport",

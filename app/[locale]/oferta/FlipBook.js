@@ -34,7 +34,6 @@ export default function FlipBook() {
   const [visiblePages, setVisiblePages] = useState([]);
   const flipBookRef = useRef(null);
 
-  // 📄 Wybór pliku PDF w zależności od języka
   const getPdfFile = () => {
     return locale === "pl" ? "/oferta_pol.pdf" : "/oferta_eng.pdf";
   };
@@ -78,12 +77,20 @@ export default function FlipBook() {
     ) {
       newVisiblePages.push(i);
     }
-    setVisiblePages([...new Set([...visiblePages, ...newVisiblePages])]);
+    setVisiblePages((prev) => [...new Set([...prev, ...newVisiblePages])]);
   };
 
   const onPageFlip = (e) => {
-    setCurrentPage(e.data);
-    updateVisiblePages(e.data);
+    const page = e.data;
+    setCurrentPage(page);
+    updateVisiblePages(page + 1); // bo Page numeruje od 1
+  };
+
+  const handleItemClick = ({ pageNumber }) => {
+    if (flipBookRef.current) {
+      flipBookRef.current.pageFlip().turnToPage(pageNumber - 1);
+      setVisiblePages((prev) => [...new Set([...prev, pageNumber])]);
+    }
   };
 
   return (
@@ -92,6 +99,7 @@ export default function FlipBook() {
         className="flex justify-center items-center bg-slate-300 min-h-screen overflow-hidden"
         file={getPdfFile()}
         onLoadSuccess={onDocumentLoadSuccess}
+        onItemClick={handleItemClick}
         loading={
           <div className="text-xl xl:text-2xl text-center flex justify-center items-center">
             {t("text")}
@@ -115,11 +123,11 @@ export default function FlipBook() {
             {[...Array(numPages - 1).keys()].map((index) => {
               const pageNumber = index + 2;
               return visiblePages.includes(pageNumber) ? (
-                <Pages key={index} number={index + 1}>
+                <Pages key={index} number={pageNumber}>
                   <Page pageNumber={pageNumber} width={pageSize.width} />
                 </Pages>
               ) : (
-                <Pages key={index} number={index + 1}>
+                <Pages key={index} number={pageNumber}>
                   <div className="text-center">Wczytywanie...</div>
                 </Pages>
               );

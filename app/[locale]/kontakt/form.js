@@ -160,7 +160,7 @@ export default function Form() {
                 }}
                 className="w-full h-40 mt-3 bg-neutral-100 placeholder:text-neutral-500 p-3 rounded-lg border border-gray-400"
               />
-              <div className="flex gap-8">
+              <div className="flex-col md:flex-row gap-8">
                 <ReCAPTCHA
                   className="mt-4"
                   ref={recaptchaRef}

@@ -1,5 +1,6 @@
 import { Link } from "@/i18n/routing";
 
+
 export default function Button({
   text,
   bgColor = "bg-customBlue", // Kolor tła
