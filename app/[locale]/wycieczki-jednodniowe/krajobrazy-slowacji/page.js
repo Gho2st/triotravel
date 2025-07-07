@@ -100,10 +100,12 @@ export default function KrajobrazySlowacji() {
           <div className="mt-16">
             <BackgroundList title={t("header3")} items={customItems} />
           </div>
-          <TripTime showCallInfo={true} availableDays={["Pon", "Śr", "Pt", "Nd"]} />
+          <TripTime
+            showCallInfo={true}
+            availableDays={["Pon", "Śr", "Pt", "Nd"]}
+          />
         </div>
       </section>
-      <Majer />
       <div>
         <Gallery
           images={[
