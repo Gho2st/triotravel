@@ -129,6 +129,10 @@ export default function KrajobrazySlowacji() {
               url: "/wycieczki/krajobrazy-slowacji/5.webp",
               alt: t("alt.5"),
             },
+            {
+              url: "/wycieczki/krajobrazy-slowacji/6.webp",
+              alt: t("alt.6"),
+            },
           ]}
         />
       </div>
