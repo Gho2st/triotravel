@@ -42,7 +42,7 @@ export default async function LocaleLayout({ children, params }) {
           <ClientBody fontClassName={font.className}>{children}</ClientBody>
         </NextIntlClientProvider>
         {/* Microsoft Clarity Script */}
-        <Script id="clarity" strategy="afterInteractive">
+        <Script id="microsoft-clarity-analytics" strategy="afterInteractive">
           {`
             (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
