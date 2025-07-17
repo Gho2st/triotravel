@@ -23,7 +23,8 @@ export async function generateMetadata({ params }) {
     namespace: "metadata.spacer-w-koronach-drzew",
   });
 
-  const path = routing.pathnames["/wycieczki-jednodniowe/spacer-w-koronach-drzew"][locale]; // Pobieramy ścieżkę dla języka
+  const path =
+    routing.pathnames["/wycieczki-jednodniowe/spacer-w-koronach-drzew"][locale]; // Pobieramy ścieżkę dla języka
   // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
   const canonicalUrl =
     locale === "pl"
@@ -41,8 +42,6 @@ export async function generateMetadata({ params }) {
 
 export default function Spacer() {
   const t = useTranslations("offer.tripslist.spacer-w-koronach-drzew");
-
-  const customItems = [t("list.1"), t("list.2")];
 
   const tripItems = [
     "8:00 - " + t("tripprogram.1"),
@@ -93,10 +92,16 @@ export default function Spacer() {
           />
         </div>
         <div className="mt-16">
-          <BackgroundList title={t("header3")} items={customItems} />
+          <BackgroundList
+            title={t("header3")}
+            items={Array.from({ length: 5 }, (_, i) =>
+              t.rich(`list.${i + 1}`, {
+                strong: (chunks) => <strong>{chunks}</strong>,
+              })
+            )}
+          />{" "}
           <TripProgram title={t("tripprogram.header")} items={tripItems} />
           <TripTime />
-          <p className="text-center mt-16 text-lg">{t("tripprogram.text")}</p>
           <ButtonComponent />
         </div>
       </section>

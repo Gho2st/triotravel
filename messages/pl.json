@@ -378,16 +378,19 @@
                     "10": "Zamek usytuowany na wzgórzu z widokiem na zbiornik wodny, otoczony drzewami i górami pod pochmurnym niebem. Most rozciąga się nad zbiornikiem, w pobliżu widoczny jest pociąg w krajobrazie."
                 },
                 "header": "Spływ Dunajcem z Zakopanego - Szczawnica 2.5h",
-                "header2": "Co Oferujemy?",
-                "header3": "Wycieczka w Pieniny: Spływ i Niedzica",
-                "header4": "Podczas wycieczki w Pieniny, poza główną atrakcją, którą jest spływ na drewnianych tratwach (trasa spływu: Sromowce Wyżne - Szczawnica) odwiedzisz również Niedzicę, w której do wyboru masz wiele atrakcji:",
-                "text": "Przygotowaliśmy dla Państwa szereg niezwykle ciekawych atrakcji, które z pewnością uczynią czas Państwa wypoczynku szalenie interesującym i niezapomnianym. Proponowany przez nas spływ Dunajcem z Zakopanego to rewelacyjny sposób na to, aby należycie nacieszyć się pięknymi krajobrazami, a zarazem wiele zwiedzić. Flisacy umilą go Państwu fascynującymi opowieściami i legendami związanymi z rzeką oraz jej okolicami. Poza spływem na drewnianej tratwie, skąd nacieszycie Państwo oczy widokiem otaczających Pienin, oferta obejmuje również możliwość zwiedzania zamku w Niedzicy, zapory na Dunajcu czy Parku Miniatur Podhala, Orawy i Spisza.",
+                "header2": "Co zawiera wycieczka?",
+                "header3": "Pieniny – Spływ na tratwach i Zwiedzanie Niedzicy",
+                "text": "Przygotowaliśmy dla Państwa zestaw niezapomnianych atrakcji, które uczynią ten dzień wyjątkowym. <strong>Spływ Dunajcem z Zakopanego</strong> to jedna z najpiękniejszych form aktywnego wypoczynku w regionie – idealne połączenie przyrody, historii i relaksu. Podczas rejsu <strong>na tradycyjnej drewnianej tratwie</strong>, otoczeni malowniczym krajobrazem <strong>Pienin</strong>, będą Państwo mogli wysłuchać barwnych opowieści flisaków o rzece, górach i legendarnych postaciach regionu. To nie wszystko! W programie znalazło się również <strong>zwiedzanie zamku w Niedzicy</strong>, wizyta przy zaporze na Dunajcu oraz <strong>Park Miniatur Podhala, Orawy i Spisza</strong>. Każdy z tych punktów to świetna okazja do poznania historii i kultury pogranicza polsko-słowackiego.",
                 "list": {
-                    "1": "Rejs statkiem po Jeziorze Czorsztyńskim (Podczas rejsu statkiem spacerowym będziesz mógł podziwiać zaporę wodną, ruiny zamku Czorsztyńskiego, zamek Niedzica, skansen Czorsztyński oraz przepiękny górski krajobraz). Taki rejs to przygoda, która na długo zostanie w twojej pamięci!",
-                    "2": "Zamek w Niedzicy -  gdzie więziono i torturowano Janosika.",
-                    "3": "Zaporę Czorsztyńską wraz z spektakularnym malowidłem wykonanym w technice 3D",
-                    "4": "Park Miniatur Podhala, Orawy i Spisza, park linowy.",
-                    "5": "Wracając do Zakopanego zatrzymamy się w Dębnie, gdzie znajduje się zabytkowy drewniany Kościół z XV w wpisany na listę UNESCO - prelekcja z Panią kustosz ok. 20 min."
+                    "1": "<strong>Rejs statkiem po Jeziorze Czorsztyńskim</strong> – podczas spokojnej podróży statkiem spacerowym podziwiać można <strong>zamek w Niedzicy</strong>, <strong>ruiny zamku Czorsztyn</strong>, <strong>zaporę wodną</strong> oraz górski krajobraz z wyjątkowej perspektywy. To doskonała okazja na zdjęcia i chwilę wyciszenia.",
+                    "2": "<strong>Zamek w Niedzicy</strong> – malowniczo położona twierdza z XIV wieku, znana z legend o Janosiku. To tu, według podań, więziono słynnego zbójnika. Zwiedzanie zamku to podróż w czasie i fascynujące spojrzenie na historię pogranicza.",
+                    "3": "<strong>Zapora Czorsztyńska</strong> – niezwykłe dzieło inżynierii, uzupełnione o <strong>wielkoformatowe malowidło 3D</strong> na koronie tamy. Widok zapierający dech w piersiach, zwłaszcza w słoneczne dni.",
+                    "4": "<strong>Park Miniatur Podhala, Orawy i Spisza</strong> – edukacyjna atrakcja dla całej rodziny. Zobacz w jednym miejscu zminiaturyzowane wersje najważniejszych budowli regionu. Obok dostępny <strong>park linowy</strong> dla dzieci i dorosłych.",
+                    "5": "<strong>Kościół w Dębnie – zabytek UNESCO</strong>. W drodze powrotnej odwiedzimy <strong>drewniany kościół z XV wieku</strong>, jeden z najpiękniejszych gotyckich obiektów sakralnych w Polsce. Zwiedzanie z prelekcją kustosza (ok. 20 minut) to duchowa i historyczna perełka regionu.",
+                    "6": "<strong>Regionalna kuchnia Podhala i Spisza</strong> – spróbuj oscypków, kwaśnicy i innych specjałów w tradycyjnych góralskich karczmach.",
+                    "7": "<strong>Lokalne pamiątki i rękodzieło</strong> – stoiska z produktami regionalnymi: sery, hafty, wyroby drewniane i naturalne kosmetyki.",
+                    "8": "<strong>Pieniński Park Narodowy</strong> – zobacz formacje skalne Trzy Korony i Sokolica, które stanowią symbol Pienin. Niezapomniane widoki i kontakt z naturą.",
+                    "9": "<strong>Odbiór z hotelu w Zakopanem + rezerwacja online</strong>. Zadbamy o logistykę: możliwy <strong>pickup spod wybranych hoteli</strong> i szybka <strong>rezerwacja miejsc na spływ Dunajcem</strong>. Gwarancja dostępności w sezonie."
                 },
                 "info": "Sezon flisacki trwa od 1 kwietnia do 31 października - świątek, piątek i niedziele. Zatem na wycieczkę zapraszamy codziennie!",
                 "table": {
@@ -607,12 +610,15 @@
                     "8": "Kolejka linowa przemieszczająca się przez ośnieżony krajobraz z widokiem na góry pod czystym niebem."
                 },
                 "header": "Spacer w Koronach Drzew",
-                "header2": "Odkryj Piękno Natury",
-                "header3": "Więcej informacji",
-                "text": "Ścieżka w Koronach Drzew Bachledka znajduje się w samym sercu gatunkowo zróżnicowanego lasu <strong>Pienińskiego Parku Narodowego.</strong> Zwiedzającym pokaże, dlaczego jest natura Magury Spiskiej wyjątkowa. Razem z nami zapoznajesz się z miejscowymi lasami. Stajesz się częścią życia leśnego oraz dowiesz się coś o różnych gatunków zwierząt i roślin występujących bardzo rzadko. Wyjazd wczesnym rankiem z Zakopanego w stronę Bachledowej Doliny. Tutaj zaprosimy Państwa na kolejkę gondolową przejazd w dwie strony (czas trwania przejazdu około 7 minut), która zawiezie państwa na Szczyt Magury Spiskiej.",
+                "header2": "Ścieżka w Koronach Drzew - Bachledka (Słowacja)",
+                "header3": "Szczegóły Wycieczki i Informacje Praktyczne",
+                "text": "Ścieżka w koronach drzew w Bachledovej Dolinie znajduje się w samym sercu malowniczej <strong>Magury Spiskiej</strong>, na pograniczu Tatrzańskiego Parku Narodowego, w pobliżu miejscowości Ždiar. To wyjątkowe miejsce pozwala zanurzyć się w świat tutejszych lasów i podziwiać przyrodę z zupełnie innej perspektywy – z wysokości koron drzew. Podczas spaceru po drewnianej kładce, o <strong>długości ponad 1200 metrów</strong>, można dowiedzieć się wielu ciekawostek o lokalnej florze i faunie, w tym o rzadko spotykanych gatunkach roślin i zwierząt. Ścieżka kończy się <strong>wieżą widokową o wysokości 32 metrów</strong>, z której roztacza się panoramiczny widok na Tatry, Pieniny i całą okolicę. Wycieczka rozpoczyna się wcześnie rano wyjazdem z Zakopanego w kierunku Bachledovej Doliny. Na miejscu czeka na Państwa <strong>kolejka gondolowa</strong>, którą w ciągu około 7 minut wjedziemy na szczyt Magury Spiskiej. Stamtąd już tylko krótki spacer dzieli nas od wejścia na ścieżkę. To idealna propozycja dla miłośników przyrody, rodzin z dziećmi oraz wszystkich, którzy chcą w aktywny sposób spędzić czas na świeżym powietrzu, ciesząc się <strong>spektakularnymi widokami.</strong>",
                 "list": {
-                    "1": "Podczas przechadzania się po ścieżce, skorzystać można z wielu tablic informacyjnych przeznaczonych bez przeszkód do przeczytania, znajdujących się na kilku przystankach w sekcji poziomej Ścieżki. Tablice zawierają interesujące informacje dotyczące fauny, flory oraz życia lasów miejscowych, jak i ich ochrony czy niszczącej siły pogody.",
-                    "2": "Trasa o długości ponad 600 m przeprowadzi zwiedzających przez gatunkowo zróżnicowany las, w którym znajduje się dużo różnych niespodzianek i ciekawostek."
+                    "1": "<strong>Ścieżka w koronach drzew Bachledka</strong> to atrakcja dostępna przez cały rok, również zimą. Drewniana kładka biegnie nad lasem Magury Spiskiej i pozwala podziwiać <strong>panoramiczne widoki na Tatry Bielskie i Pieniny</strong>.",
+                    "2": "Trasa została <strong>w pełni przystosowana do osób z ograniczoną mobilnością</strong> – można nią spacerować z wózkiem dziecięcym lub na wózku inwalidzkim. Na ścieżce znajdują się platformy edukacyjne, tarasy widokowe oraz <strong>zjeżdżalnia rurowa</strong> dla dzieci powyżej 120 cm wzrostu.",
+                    "3": "Spacer prowadzi przez <strong>obszar chroniony</strong>, co daje możliwość obserwacji rzadkich gatunków roślin i zwierząt w ich naturalnym środowisku. Ścieżka jest szczególnie malownicza zimą – pokryta śniegiem tworzy bajkowy klimat.",
+                    "4": "Po wizycie w Bachledce odwiedzamy <strong>Štrbské Pleso (Szczyrbskie Jezioro)</strong> – jedno z najpiękniejszych miejsc w Tatrach Wysokich. Krystaliczna woda, górskie panoramy i klimatyczne kawiarnie tworzą idealne miejsce na odpoczynek.",
+                    "5": "W czasie wolnym (ok. 2 godziny) można spacerować promenadą wokół jeziora, zrobić zdjęcia, napić się kawy z widokiem lub zakupić regionalne pamiątki. To świetna okazja, by nacieszyć się <strong>alpejską atmosferą Słowacji</strong>."
                 },
                 "table": {
                     "header1": "Rodzaj biletu",
@@ -632,7 +638,6 @@
                     "6": "Wyjazd do Zakopanego",
                     "7": "Wyjazd powrotny",
                     "8": "Planowany powrót",
-                    "text": "Po zakończeniu zwiedzania wracamy kolejka gondolową na parking z którego ruszamy przez Taty Wysokie (Tatrzańska Łomnica,Stary Smokowiec) do Szczyrbskiego Plesa. Tutaj zapraszamy Państwa na czas wolny. Dla chętnych spacer wokoło jeziora zajmie około 40 minut, Strbske Pleso - to po naszemu Szczyrbskie Jezioro. Położone na wysokości 1346 m n.p.m. Często porównywane do naszego Morskiego Oka. Jezioro jest otoczone lasem świerkowym, bardzo zniszczonym przez huraganowy wiatr w 2004.Osada ta ma status uzdrowiska klimatycznego jest także powszechnie znanym kurortem narciarskim. To przepiękne miejsce a mało brakowało, by po jeziorze zajmującym około 20 ha mogło nie być śladu, gdy w połowie XIX wieku mieszkańcy okolicy chcieli go odwodnić i zmienić na pastwisko. Po spacerze dookoła urokliwego jeziora powrót do Zakopanego. Trasa o długości ponad 600 m przeprowadzi zwiedzających przez gatunkowo zróżnicowany las, w którym znajduje się dużo różnych niespodzianek i ciekawostek.",
                     "button": "Warunki Uczestnictwa",
                     "text2": "Każdy uczestnik musi posiadać ważny paszport lub dowód osobisty. W przypadku złej pogody lub nieodpowiednich warunków na szlaku zastrzegamy sobie prawo do zmiany trasy wycieczki lub kolejności zwiedzania. Odwołanie imprezy z powodu braku odpowiedniej ilości uczestników, może nastąpić najpóźniej na 1 dzień przed rozpoczęciem imprezy do godziny 21.00. Wyjazd realizowany jest poza granicami RP. Należy spełnić wszelkie warunki sanitarno-epidemiologiczne obowiązujące w kraju docelowym - Słowacja."
                 }
@@ -695,10 +700,19 @@
                     "8": "Statua znajduje się w jaskini, otoczona skalnymi ścianami i naturalnymi elementami. Słabe oświetlenie podkreśla kontury statuy na tle surowej scenerii.",
                     "9": "Dekoracyjny żyrandol wisi z sufitu pomieszczenia z kamiennymi ścianami i kamienną podłogą. Przestrzeń jest umeblowana stołem, tworząc atmosferę wnętrza przypominającą kościół lub historyczny budynek."
                 },
-                "header": "Tajemnice Wieliczki",
-                "header2": "Co oferujemy?",
-                "header3": "Opis Wycieczki",
-                "text": "Kopalnia Soli w Wieliczce uznawana jest za jeden z siedmiu cudów Polski. Penetrując piękne podziemne komory, zaglądając do niesamowitych solnych jezior, podziwiając niezwykłe konstrukcje ciesielskie i unikalne solne rzeźby, poczujesz wyjątkowy klimat. W 2004 roku okazało się, że położona 104 metry pod ziemią solanka jest wspaniałym miejscem do uprawiania windsurfingu. Wypróbował ją sam Mateusz Kusznierewicz, którego w żeglowaniu wspomagała ogromna dmuchawa oraz duża ilość zagorzałych kibiców. Blisko 3-kilometrowy spacer po krętej trasie wraz z 800 schodami do pokonania, zaprowadzi Państwa na głębokość 135 metrów co będzie nie tylko niezapomniana przygoda, ale również „solna dawka” zdrowia!",
+                "header": "Tajemnice Kopalni Soli w Wieliczce",
+                "header2": "Dlaczego warto odwiedzić Wieliczkę?",
+                "header3": "Zwiedzanie Kopalni i Czas na Relaks",
+                "text": "Kopalnia Soli w Wieliczce to jedno z najstarszych na świecie przedsiębiorstw solnych, działające nieprzerwanie od średniowiecza. Wpisana na <strong>Listę Światowego Dziedzictwa UNESCO</strong>, stanowi prawdziwy skarb narodowy Polski. Podczas zwiedzania przemierzysz niezwykłe podziemne trasy, pełne legend, niesamowitych rzeźb i fascynujących historii o pracy górników. W trakcie ponad <strong>3-kilometrowego spaceru</strong> odwiedzisz podziemne jeziora, kaplice (w tym słynną Kaplicę św. Kingi), solne komory i misterne konstrukcje drewniane zabezpieczające korytarze. Trasa wiedzie <strong>135 metrów pod ziemię</strong> i obejmuje aż <strong>800 schodów</strong> – ale warto! To nie tylko podróż przez historię, ale i zdrowotny seans w mikroklimacie nasyconym solą.",
+                "list": {
+                    "1": "<strong>Zwiedzanie z przewodnikiem</strong> trwa około 3 godzin i obejmuje najpiękniejsze fragmenty trasy turystycznej. Przewodnik opowiada o dawnych metodach wydobycia soli, życiu górników i niezwykłych wydarzeniach związanych z kopalnią. Odkryjesz m.in. jak powstawały podziemne kaplice i co sprawia, że Wieliczka przyciąga turystów z całego świata.",
+                    "2": "Po zakończeniu zwiedzania zapraszamy do strefy relaksu przy <strong>tężniach solankowych</strong>, gdzie czeka na Ciebie godzina wolnego czasu. Spacer pośród solnego aerozolu ma pozytywny wpływ na układ oddechowy i samopoczucie. To świetna okazja na spokojny odpoczynek w zielonym otoczeniu, z dala od zgiełku miasta.",
+                    "3": "Wycieczka do Wieliczki to <strong>połączenie edukacji, historii, zdrowia i turystyki</strong>. To obowiązkowy punkt dla każdego, kto chce lepiej poznać dziedzictwo Polski i poczuć magię podziemnego świata wykutego w soli.",
+                    "4": "<strong>Uwaga!</strong> Trasa turystyczna nie jest wymagająca fizycznie, ale należy założyć wygodne buty. Temperatura pod ziemią utrzymuje się przez cały rok na poziomie ok. 17–18°C – warto zabrać lekką kurtkę lub bluzę.",
+                    "5": "<strong>Wieliczka z Zakopanego – wygodny dojazd i powrót</strong>. Zapewniamy komfortowy transport bezpośrednio z Zakopanego, dzięki czemu nie musisz martwić się logistyką. To idealna propozycja na jednodniową wycieczkę w czasie pobytu w Tatrach.",
+                    "6": "<strong>Idealna atrakcja w Małopolsce na każdą porę roku</strong>. Kopalnia Soli w Wieliczce to całoroczna atrakcja – niezależnie od pogody możesz cieszyć się zwiedzaniem w stałej temperaturze i magicznej scenerii podziemnych komór.",
+                    "7": "<strong>Dziedzictwo kulturowe i historia na wyciągnięcie ręki</strong>. Kopalnia w Wieliczce to nie tylko zabytek techniki, ale też miejsce, gdzie spotykają się legendy, religia i tradycja. Kaplica św. Kingi, podziemne ołtarze i rzeźby są świadectwem niezwykłej duchowości i pracowitości dawnych pokoleń."
+                },
                 "table": {
                     "header1": "Rodzaj biletu",
                     "header2": "Tajemnice Wieliczki",
@@ -903,8 +917,7 @@
                     "2": "Warto mieć ze sobą butelkę na wodę – można zaczerpnąć ze źródła",
                     "3": "Wycieczka bez wysiłku fizycznego – przejazdy i krótkie spacery po utwardzonych ścieżkach",
                     "4": "Idealna dla rodzin z dziećmi, seniorów i osób chcących odpocząć w pięknych okolicznościach przyrody",
-                    "5": "Rezerwacja telefoniczna obowiązkowa – liczba miejsc ograniczona. Odbieramy klientów spod wskazanych przystanków najbliżej miejsca zakwaterowania",
-                    "6": "Z serdecznymi pozdrowieniami, Zespół TrioTravel – Twoja rodzinna firma z Zakopanego. Górskie widoki bez wspinania – poznaj urok Tatr ze słowackiej strony!"
+                    "5": "Rezerwacja telefoniczna obowiązkowa – liczba miejsc ograniczona. Odbieramy klientów spod wskazanych przystanków najbliżej miejsca zakwaterowania"
                 },
                 "tripprogram": {
                     "header": "Program Wycieczki:",
@@ -1531,7 +1544,7 @@
         }
     },
     "triptime": {
-        "title": "Dni Wycieczki",
+        "title": "Dni organizacji wycieczki",
         "days": [
             "Pon",
             "Wt",

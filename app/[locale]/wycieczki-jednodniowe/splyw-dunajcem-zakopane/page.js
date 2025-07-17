@@ -21,7 +21,8 @@ export async function generateMetadata({ params }) {
     namespace: "metadata.splyw-dunajcem-zakopane",
   });
 
-  const path = routing.pathnames["/wycieczki-jednodniowe/splyw-dunajcem-zakopane"][locale]; // Pobieramy ścieżkę dla języka
+  const path =
+    routing.pathnames["/wycieczki-jednodniowe/splyw-dunajcem-zakopane"][locale]; // Pobieramy ścieżkę dla języka
   // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
   const canonicalUrl =
     locale === "pl"
@@ -39,14 +40,6 @@ export async function generateMetadata({ params }) {
 
 export default function Splywzakopane() {
   const t = useTranslations("offer.tripslist.splyw-dunajcem-zakopane");
-
-  const customItems = [
-    t("list.1"),
-    t("list.2"),
-    t("list.3"),
-    t("list.4"),
-    t("list.5"),
-  ];
 
   const tripItems = [
     "8:00 - " + t("tripprogram.1"),
@@ -82,13 +75,18 @@ export default function Splywzakopane() {
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
         <LineHeader text={t("header2")} />
         <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto xl:text-xl">
-          {t("text")}
+          {t.rich("text", {
+            strong: (chunks) => <strong>{chunks}</strong>,
+          })}
         </p>
         <div className="flex justify-center mt-16">
           <BackgroundList
             title={t("header3")}
-            text={t("header4")}
-            items={customItems}
+            items={Array.from({ length: 9 }, (_, i) =>
+              t.rich(`list.${i + 1}`, {
+                strong: (chunks) => <strong>{chunks}</strong>,
+              })
+            )}
           />
         </div>
         <p className="text-xl xl:text-2xl text-center mt-16 md:w-3/4 mx-auto font-medium">

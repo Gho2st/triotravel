@@ -6,7 +6,7 @@ import Gallery from "@/app/UI/Slider";
 import TripProgram from "@/app/UI/TripProgram";
 import { useTranslations } from "next-intl";
 import TripTime from "@/app/UI/TripTime";
-
+import BackgroundList from "@/app/UI/BackgroundList";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import CtaLink from "@/app/UI/CtaLink";
@@ -75,7 +75,9 @@ export default function Wieliczka() {
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
         <LineHeader text={t("header2")} />
         <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto xl:text-xl">
-          {t("text")}
+          {t.rich("text", {
+            strong: (chunks) => <strong>{chunks}</strong>,
+          })}
         </p>
         <div className="mt-16">
           <Table
@@ -85,6 +87,14 @@ export default function Wieliczka() {
           />
         </div>
         <div className="mt-16">
+          <BackgroundList
+            title={t("header3")}
+            items={Array.from({ length: 7 }, (_, i) =>
+              t.rich(`list.${i + 1}`, {
+                strong: (chunks) => <strong>{chunks}</strong>,
+              })
+            )}
+          />
           <TripProgram
             title={<>{t("tripprogram.header")}</>}
             items={tripItems}

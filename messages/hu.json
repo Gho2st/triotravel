@@ -377,17 +377,20 @@
                     "9": "Egy vár egy szigeten helyezkedik el, körülötte víz, fák és tiszta égbolt a háttérben. A táj magában foglal egy víztározót és hegyeket, valamint felhőket a felett. Zöld fű borítja a víztest partját.",
                     "10": "Egy vár egy dombon ül, áttekintve egy víztömeget, körülötte fák és hegyek felhős égbolt alatt. Egy híd ível át a víztározón, egy vonat látható a közelben a tájban."
                 },
-                "header": "Dunajec tutajozás 2,5 óra",
-                "header2": "Mit kínálunk?",
-                "header3": "Kirándulás a Pieninekbe: Tutajozás és Niedzica",
-                "header4": "A Pieninekbe tett kirándulás során a fő attrakción, a fahajós tutajozáson (útvonal: Sromowce Wyżne – Szczawnica) kívül ellátogatsz Niedzicába is, ahol számos látnivaló közül választhatsz:",
-                "text": "Számos rendkívül izgalmas attrakciót készítettünk elő, amelyek biztosan érdekessé és felejthetetlenné teszik a pihenés idejét. A Zakopanéból induló Dunajec tutajozás fantasztikus módja annak, hogy gyönyörködjön a gyönyörű tájakban, miközben rengeteget láthat. A tutajosok lenyűgöző történetekkel és a folyóval valamint környékével kapcsolatos legendákkal szórakoztatják Önt. A fa tutajokon való tutajozáson kívül, ahonnan a Pieninek lenyűgöző látványában gyönyörködhet, az ajánlat magában foglalja a Niedzicai vár, a Dunajec gát vagy a Podhale, Orawa és Szepesség Miniatűr Parkjának meglátogatását is.",
+                "header": "Tutajozás a Dunajecen Zakopanéból – Szczawnica 2,5 óra",
+                "header2": "Mit tartalmaz a program?",
+                "header3": "Pieninek – Tutajozás és Niedzica felfedezése",
+                "text": "Egy felejthetetlen napot állítottunk össze, amely különlegessé teszi kirándulását. A <strong>Dunajecen való tutajozás Zakopanéból</strong> az egyik legszebb módja annak, hogy élvezze a természetet, a történelmet és a pihenést Dél-Lengyelországban. A <strong>hagyományos fából készült tutajon</strong> történő utazás során, a festői <strong>Pieninek</strong> között, színes történeteket hallhat a tutajozóktól a folyóról és a régió legendáiról.<br /><br />És ez még nem minden! A program része a <strong>niedzicai vár</strong> megtekintése, a Dunajeci vízerőmű látogatása és a <strong>Podhale, Árva és Szepes makettparkja</strong> is – tökéletes lehetőség a lengyel–szlovák határvidék kultúrájának és történelmének megismerésére.",
                 "list": {
-                    "1": "Hajókázás a Czorsztyni-tavon (A sétahajózás során megcsodálhatja a víztározót, a Czorsztyni vár romjait, a Niedzicai várat, a Czorsztyni skanzent és a gyönyörű hegyi tájat). Ez az utazás olyan kaland, amely sokáig emlékezetes marad!",
-                    "2": "Niedzicai vár – ahol Jánost fogva tartották és kínozták.",
-                    "3": "Czorsztyni gát 3D technikával készült látványos festménnyel.",
-                    "4": "Podhale, Orawa és Szepesség Miniatűr Parkja, kötélpálya.",
-                    "5": "Zakopanéba visszatérve megállunk Dębnóban, ahol a XV. századi, UNESCO-listán szereplő fa templom található – kb. 20 perces előadás a templom gondnokával."
+                    "1": "<strong>Sétahajózás a Czorsztyni-tavon</strong> – csodálja meg <strong>a niedzicai várat</strong>, <strong>a czorsztyni romokat</strong>, <strong>a vízerőművet</strong> és a hegyi tájat egy pihentető hajóút során.",
+                    "2": "<strong>Niedzicai vár</strong> – egy 14. századi erőd, amely Janosik legendájához kapcsolódik. A történet szerint itt tartották fogva a híres betyárt. Időutazás a történelemben.",
+                    "3": "<strong>Czorsztyni víztározó és gát</strong> – lenyűgöző mérnöki alkotás, <strong>látványos 3D falfestménnyel</strong> díszítve. A kilátás különösen napos időben lenyűgöző.",
+                    "4": "<strong>Podhale, Árva és Szepes makettparkja</strong> – családbarát látványosság, amely a térség építészeti örökségét mutatja be. Mellette <strong>kötélpálya</strong> is található.",
+                    "5": "<strong>UNESCO világörökség: Dębno fatemploma</strong> – visszafelé megállunk a <strong>XV. századi gótikus fatemplomnál</strong>, amelyet egy 20 perces ismertető kísér.",
+                    "6": "<strong>Podhale és Szepes hagyományos konyhája</strong> – kóstolja meg az oscypek sajtot, a kwaśnica levest és más helyi finomságokat górál éttermekben.",
+                    "7": "<strong>Helyi szuvenírek és kézműves termékek</strong> – sajtok, hímzések, fa tárgyak, természetes kozmetikumok várják a kézműves piacokon.",
+                    "8": "<strong>Pieninek Nemzeti Park</strong> – látogassa meg a híres Trzy Korony és Sokolica sziklaképződményeket. Lélegzetelállító természetélmény.",
+                    "9": "<strong>Zakopanei szállodai felvétel + online foglalás</strong> – megszervezzük az utazást: <strong>szállodai pickup</strong> és <strong>gyors tutajozási foglalás</strong>. Kiemelt időszakban garantált hely!"
                 },
                 "info": "A tutajos szezon április 1-től október 31-ig tart – hétköznap, péntek és vasárnap. Tehát minden nap várjuk a kirándulásra!",
                 "table": {
@@ -606,13 +609,16 @@
                     "7": "Egy híd, amin több ember sétál, fákkal körülvéve, részben felhős ég alatt.",
                     "8": "Egy felvonó halad át egy havas tájban, hegyekkel a háttérben, tiszta ég alatt."
                 },
-                "header": "Séta a fák koronájában",
-                "header2": "Fedezze fel a természet szépségét",
-                "header3": "További információk",
-                "text": "A Bachledka Fák Koronája Sétaút a Pienini Nemzeti Park változatos erdejének szívében található. A látogatóknak megmutatja, miért különleges a Szepesi Magura természete. Velünk együtt megismerheti a helyi erdőket. Része lesz az erdei életnek, és megtudhat valamit a nagyon ritka állat- és növényfajokról. Kora reggeli indulás Zakopanéból a Bachledka-völgybe. Itt meghívjuk Önöket egy oda-vissza utazásra a gondolás felvonóval (az utazás időtartama körülbelül 7 perc), amely a Szepesi Magura csúcsára viszi Önöket.",
+                "header": "Séta a lombkoronák között",
+                "header2": "Lombkoronasétány – Bachledka (Szlovákia)",
+                "header3": "Kirándulás részletei és hasznos információk",
+                "text": "A lombkoronasétány a Bachledova-völgyben található, a festői <strong>Spiši Magura</strong> szívében, a Tátrai Nemzeti Park határán, Ždiar település közelében. Ez az egyedülálló hely lehetőséget kínál arra, hogy új nézőpontból ismerjük meg az erdőt – a fák lombkoronájának magasságából. Az <strong>1200 méter hosszú fahídon</strong> sétálva sok érdekességet tudhatunk meg a helyi növény- és állatvilágról, köztük ritka fajokról is. A séta <strong>32 méter magas kilátótoronnyal</strong> zárul, ahonnan panorámás kilátás nyílik a Tátrára, a Pieninekre és a környező vidékre. A kirándulás kora reggel indul Zakopanéból a Bachledova-völgybe. A helyszínen <strong>kabinos felvonó</strong> visz fel bennünket körülbelül 7 perc alatt a Spiši Magura csúcsára. Onnan csak egy rövid séta választ el a bejárattól. Ideális program természetkedvelők, családok és mindazok számára, akik aktívan szeretnék tölteni idejüket a friss levegőn, <strong>lenyűgöző kilátásokkal</strong> kiegészítve.",
                 "list": {
-                    "1": "A sétaút mentén számos információs tábla található, amelyeket akadálymentesen lehet elolvasni, és a sétaút vízszintes szakaszán több megállóhelyen helyezkednek el. A táblák érdekes információkat tartalmaznak a helyi fauna, flóra, erdők életéről, védelméről és az időjárás pusztító erejéről.",
-                    "2": "A több mint 600 méter hosszú útvonal változatos erdőn vezet keresztül, tele meglepetésekkel és érdekességekkel."
+                    "1": "A <strong>Bachledka lombkoronasétány</strong> egész évben látogatható, még télen is. A fák felett futó fahíd lenyűgöző <strong>panorámát nyújt a Bélai-Tátrára és a Pieninekre</strong>.",
+                    "2": "Az útvonal <strong>teljesen akadálymentesített</strong> – babakocsival és kerekesszékkel is könnyen bejárható. Oktató táblák, kilátópontok és egy <strong>csúszda</strong> is található a nagyobb gyerekek számára (120 cm felett).",
+                    "3": "A séta <strong>védett területen</strong> halad át, így ritka növényeket és állatokat is megfigyelhetünk természetes élőhelyükön. Télen különösen varázslatos a havas fák között.",
+                    "4": "A Bachledka után ellátogatunk <strong>Štrbské Pleso</strong>-hoz – a Magas-Tátra egyik legszebb helyéhez. A kristálytiszta tó, hegyvidéki kilátás és hangulatos kávézók tökéletes kikapcsolódást nyújtanak.",
+                    "5": "A szabadidő alatt (kb. 2 óra) sétálhatunk a tó körül, fényképezhetünk, kávézhatunk vagy szuveníreket vásárolhatunk. Kiváló alkalom arra, hogy élvezzük a <strong>szlovák Alpok hangulatát</strong>."
                 },
                 "table": {
                     "header1": "Jegy típusa",
@@ -695,10 +701,19 @@
                     "8": "Egy szobor egy barlangban található, sziklás falakkal és természetes elemekkel körülvéve. A gyenge megvilágítás kiemeli a szobor körvonalait a durva háttér előtt.",
                     "9": "Dekoratív csillár lóg egy kőfalakkal és kőpadlóval rendelkező szoba mennyezetéről. A tér egy asztallal van berendezve, olyan belső hangulatot teremtve, amely egy templomra vagy történelmi épületre emlékeztet."
                 },
-                "header": "Wieliczka titkai",
-                "header2": "Mit kínálunk?",
-                "header3": "Kirándulás leírása",
-                "text": "A Wieliczkai Sóbányát Lengyelország hét csodájának egyikének tartják. A gyönyörű földalatti kamrák felfedezése, a lenyűgöző sós tavak megtekintése, a különleges ácsmunkák és egyedi sós szobrok csodálata során különleges hangulatot érezhet. 2004-ben kiderült, hogy a 104 méter mélyen található sósvíz kiváló hely a szörfözéshez. Ezt maga Mateusz Kusznierewicz is kipróbálta, akit az vitorlázásban egy hatalmas ventilátor és számos lelkes szurkoló segített. A közel 3 kilométeres séta a kanyargós útvonalon, 800 lépcső megmászásával, 135 méter mélységbe vezet, ami nemcsak felejthetetlen kaland, hanem egy „sós adag” egészség is!",
+                "header": "A Wieliczkai Sóbánya Titkai",
+                "header2": "Miért érdemes ellátogatni Wieliczkába?",
+                "header3": "Bánya látogatás és pihenés",
+                "text": "A Wieliczkai Sóbánya a világ egyik legrégebbi sókitermelő helyszíne, amely a középkor óta folyamatosan működik. A <strong>UNESCO Világörökség</strong> részeként igazi nemzeti kincs Lengyelországban. A túra során lenyűgöző földalatti járatokon haladunk végig, ahol legendák, sóból készült szobrok és bányászati történetek elevenednek meg. A <strong>több mint 3 kilométer hosszú útvonalon</strong> meglátogatjuk a földalatti tavakat, kápolnákat (beleértve a híres Szent Kinga kápolnát), sókamrákat és bonyolult faerősítéseket. Az útvonal <strong>135 méter mélyre vezet</strong> és <strong>800 lépcsőfokot</strong> tartalmaz – de megéri! Ez nemcsak történelmi utazás, hanem egészségügyi élmény is a sóval dúsított mikroklímában.",
+                "list": {
+                    "1": "A <strong>vezetett túra</strong> körülbelül 3 órát vesz igénybe, és a legszebb részeket mutatja be. Az idegenvezető bemutatja a régi sókitermelési módszereket, a bányászok életét és érdekes történelmi eseményeket. Megtudhatod, hogyan készültek a földalatti kápolnák és miért olyan különleges Wieliczka.",
+                    "2": "A túra után egy órás szabadidő következik a <strong>sós tégla inhalációs parkban</strong>. A sós levegő jótékony hatással van a légutakra és az általános közérzetre. Ideális alkalom a pihenésre és feltöltődésre.",
+                    "3": "A wieliczkai kirándulás <strong>oktatás, történelem, egészség és turizmus ötvözete</strong>. Mindenkinek ajánlott, aki szeretné jobban megismerni Lengyelország kulturális örökségét.",
+                    "4": "<strong>Figyelem:</strong> Az útvonal nem megterhelő, de kényelmes cipőt érdemes viselni. A bánya hőmérséklete egész évben kb. 17–18°C – vigyél magaddal egy pulóvert.",
+                    "5": "<strong>Wieliczka Zakopanéból – kényelmes utazás</strong>. Közvetlen transzfert biztosítunk Zakopanéból, így nem kell a szervezéssel foglalkoznod. Tökéletes egynapos program a hegyvidéki tartózkodás idején.",
+                    "6": "<strong>Egész évben látogatható małopolski látványosság</strong>. A Wieliczkai Sóbánya bármilyen időjárás esetén látogatható – állandó hőmérséklettel és lenyűgöző földalatti látvánnyal vár.",
+                    "7": "<strong>Kulturális örökség kézzel fogható közelségben</strong>. A bánya nemcsak technikai emlék, hanem legendák, vallás és hagyományok találkozási pontja is. A Szent Kinga kápolna és a sóból készült szobrok a múlt generációk lelkületét tükrözik."
+                },
                 "table": {
                     "header1": "Jegy típusa",
                     "header2": "Wieliczka titkai",
@@ -903,8 +918,7 @@
                     "2": "Érdemes vízflakont vinni – tölthetsz forrásvizet",
                     "3": "Könnyűsúlyú kirándulás – buszutak és rövid séták murvás ösvényeken",
                     "4": "Ideális családoknak gyerekekkel, nyugdíjasoknak és pihenésre vágyóknak a természetben",
-                    "5": "Telefonos foglalás kötelező – korlátozott férőhelyek. A szállásodhoz közeli megállóknál vesszük fel az utasokat",
-                    "6": "Szívélyes üdvözlettel, a TrioTravel csapata – a családi vállalkozásotok Zakopanéból. Hegyi kilátás mászás nélkül – fedezd fel a Tátra báját a szlovák oldalról!"
+                    "5": "Telefonos foglalás kötelező – korlátozott férőhelyek. A szállásodhoz közeli megállóknál vesszük fel az utasokat"
                 },
                 "tripprogram": {
                     "header": "Az utazás menetrendje:",
