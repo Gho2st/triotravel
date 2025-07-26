@@ -1317,19 +1317,79 @@
         "button": "Pickup Points Map"
     },
     "transport": {
-        "header": "Transport",
-        "text": "Trio Travel offers comprehensive and well-organized passenger transportation. Zakopane is not the only area we operate in; we also provide transport services throughout the country and abroad. Our services include transfers to and from airports, local transportation, as well as support for conferences, weddings, and various typical and atypical orders. For organized groups, we can provide transport and assistance with event planning upon telephone or email contact.",
-        "header2": "for safe and comfortable travel. We invite you to contact us and share the miles!",
-        "header3": "Your Way",
-        "text2": "We make every effort to ensure that each order is carried out properly and meets the expectations of our clients. The team's priority is customer satisfaction and the high quality of services provided. Our drivers are experienced employees, ensuring full professionalism and appropriate skills. Thanks to many years of experience in transport, the passenger transport we organize is a comfortable and safe journey. We guarantee punctuality and attractive prices. Each client has different expectations and needs, so we always tailor our services to individual requirements. Our vehicles have all the necessary permits and full equipment enabling trouble-free international trips, ensuring the safety and comfort of passengers during each route.",
-        "button": "Pickup Points Map",
+        "header": "Professional Passenger Transport Zakopane – Local and International Transfers",
+        "text": "Trio Travel offers comprehensive and well-organized passenger transport services. Zakopane is not the only area we operate in – we also provide transportation across the entire country and abroad. Our services include airport transfers, local rides, and support for conferences, weddings, and all kinds of typical and unusual events. For organized groups, we can provide transport and help with event organization upon phone or email contact.",
+        "button": "Stop Map",
         "button2": "Morskie Oko",
+        "why": {
+            "header": "Why Choose Trio Travel – Zakopane Passenger Transport?",
+            "1": {
+                "title": "Modern Fleet of Vehicles",
+                "text": "Air-conditioned minibuses and coaches equipped with seat belts."
+            },
+            "2": {
+                "title": "Experienced Drivers",
+                "text": "Local professionals with extensive knowledge of the Podhale region and international routes."
+            },
+            "3": {
+                "title": "Punctuality and Flexibility",
+                "text": "We adapt to your travel plans."
+            },
+            "4": {
+                "title": "Attractive Prices",
+                "text": "Competitive offer with the possibility of individual pricing for groups."
+            }
+        },
+        "offer": {
+            "header": "Transport Services Zakopane – Airports, Poland, Abroad",
+            "1": {
+                "title": "Airport Transfers",
+                "text": "We offer fast and convenient transport from Zakopane to airports in Kraków (Balice), Katowice (Pyrzowice), Rzeszów, and upon request – other locations in Poland and abroad."
+            },
+            "2": {
+                "title": "Local Transport – Zakopane and Surroundings",
+                "text": "Transport to hiking trails (Morskie Oko, Kościeliska Valley, Kasprowy Wierch), Rides to sleigh rides, bonfires, and corporate events, Service for weddings, conferences, and events"
+            },
+            "3": {
+                "title": "Domestic and International Transport",
+                "text": "We organize group trips to other Polish cities (Kraków, Warsaw, Wrocław) as well as to European countries such as the Czech Republic, Slovakia, Austria, Germany, Hungary. Upon request – also other European destinations."
+            }
+        },
+        "cta": {
+            "header": "<strong>Passenger Transport Zakopane with Trio Travel</strong> – safe, comfortable, always on time.",
+            "text": "Looking for reliable transport in the mountains? Trio Travel offers safe and comfortable rides from Zakopane to any destination in Poland and abroad. We specialize in airport transfers (Kraków, Katowice, Rzeszów), local transport to sleigh rides, events, and hiking trails, as well as group transfers for conferences and corporate trips. Our modern fleet of minibuses and coaches meets all technical requirements and holds licenses for domestic and international transport. Every vehicle is air-conditioned and equipped with seat belts. The Trio Travel team consists of experienced drivers from the Podhale region who know both local and European routes inside out. We focus on punctuality, safety, and a personalized approach to each client – whether you’re booking a private or business trip. Book your transport now – contact us and check available dates!",
+            "text2": "Safety is our priority – on every route.",
+            "button": "Contact Us",
+            "1": {
+                "title": "Valid Licenses and Permits (Domestic + International)"
+            },
+            "2": {
+                "title": "Full Passenger Insurance"
+            },
+            "3": {
+                "title": "Regular Vehicle Inspections"
+            }
+        },
+        "business": {
+            "header": "For Organized Groups and Companies",
+            "text": "Planning a training, team-building, or incentive trip? Trio Travel will provide full service so you can focus on what matters most.",
+            "text2": "One contact is all it takes – we’ll handle the rest!",
+            "1": {
+                "title": "Comprehensive Transport"
+            },
+            "2": {
+                "title": "Event Logistics Support"
+            },
+            "3": {
+                "title": "Assistance with Booking Accommodation and Attractions"
+            }
+        },
         "alt": {
-            "1": "Bus with a trace of the driven route",
-            "2": "Navy blue bus against a backdrop of snow-covered mountains",
-            "3": "Bus in a parking lot",
-            "4": "Silver Bus by Majer company",
-            "5": "Bus in a parking lot with a thermal spa in the background"
+            "1": "Bus with a route trail behind it",
+            "2": "Dark blue bus against a snowy mountain backdrop",
+            "3": "Coach at a parking lot",
+            "4": "Silver Majer company bus",
+            "5": "Bus in a parking lot with thermal pools in the background"
         }
     },
     "transport-nad-morskie-oko": {
@@ -1436,8 +1496,8 @@
             "description": "Buy Kasprowy Wierch tickets with Trio Travel! Price list, discounts, quick booking. Discover the Tatras with a cable car and enjoy the views!"
         },
         "transport": {
-            "title": "Transport Zakopane and Nationwide - Trio Travel Passenger Services",
-            "description": "Trio Travel offers professional transport in Zakopane and abroad. Airport transfers, local transport, weddings. Book a comfortable journey!"
+            "title": "Passenger Transport Zakopane – Poland and Abroad",
+            "description": "Professional passenger transport from Zakopane in Poland and abroad. Airport transfers, local transport, group trips, weddings and events. Comfort, punctuality, and great prices – book with Trio Travel!"
         },
         "mapa-przystankow": {
             "title": "Zakopane Stops Map - Trio Travel Pickup Points",

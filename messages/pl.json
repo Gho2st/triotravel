@@ -1324,13 +1324,73 @@
         "button": "Mapa Przystanków"
     },
     "transport": {
-        "header": "Transport",
+        "header": "Profesjonalny przewóz osób Zakopane – transport lokalny i międzynarodowy",
         "text": "Trio Travel oferuje kompleksowy i świetnie zorganizowany przewóz osób. Zakopane to nie tylko jedyny teren, na którym działamy, zajmujemy się również transportem na terenie całego kraju i zagranicy. Nasze usługi obejmują transfery z oraz na lotniska, przewozy lokalne, a także obsługę konferencji, wesel i innych wszelkich typowych jak i nietypowych zleceń. Dla grup zorganizowanych możemy zapewnić transport i pomoc w organizacji imprez po kontakcie telefonicznym lub mailowym.",
-        "header2": "na bezpieczne i komfortowe podróżowanie. Zapraszamy do kontaktu i wspólnych kilometrów!",
-        "header3": "Twój Sposób",
-        "text2": "Dokładamy wszelkich starań aby każde zlecenie było wykonane należycie i spełniało oczekiwania naszych Klientów. Priorytetem pracy zespołu jest zadowolenie Klienta oraz wysoka jakość świadczonych usług. Nasi kierowcy to doświadczeni pracownicy, zapewniający pełen profesjonalizm oraz odpowiednie umiejętności. Dzięki wieloletniemu doświadczeniu w transporcie, organizowany przez nas przewóz osób to komfortowa i bezpieczna podróż. Obowiązkowo zapewniamy terminowość oraz atrakcyjne ceny. Każdy zlecający ma inne oczekiwania i potrzeby, dlatego zawsze dopasowujemy nasze usługi do indywidualnych wymagań. Nasze pojazdy posiadają wszelkie niezbędne zezwolenia oraz pełne wyposażenie umożliwiające bezproblemowe wyjazdy zagraniczne, co gwarantuje bezpieczeństwo i wygodę podróżnych podczas każdej trasy.",
         "button": "Mapa Przystanków",
         "button2": "Morskie Oko",
+        "why": {
+            "header": "Dlaczego warto wybrać Trio Travel – transport osób Zakopane?",
+            "1": {
+                "title": "Nowoczesna flota pojazdów",
+                "text": "klimatyzowane busy i autobusy wyposażone w pasy bezpieczeństwa."
+            },
+            "2": {
+                "title": "Doświadczeni kierowcy",
+                "text": " lokalni specjaliści z dużą znajomością topografii Podhala i tras międzynarodowych."
+            },
+            "3": {
+                "title": "Terminowość i elastyczność",
+                "text": "dopasowujemy się do Twojego planu podróży."
+            },
+            "4": {
+                "title": "Atrakcyjne ceny",
+                "text": "konkurencyjna oferta z możliwością indywidualnej wyceny dla grup."
+            }
+        },
+        "offer": {
+            "header": "Usługi transportowe Zakopane – lotniska, Polska, zagranica",
+            "1": {
+                "title": "Transfery z i na lotniska",
+                "text": "Oferujemy szybki i wygodny przewóz osób z Zakopanego na lotniska w Krakowie (Balice), Katowicach (Pyrzowice), Rzeszowie oraz na życzenie – inne lokalizacje w Polsce i za granicą."
+            },
+            "2": {
+                "title": "Transport lokalny – Zakopane i okolice",
+                "text": "Przewozy na szlaki turystyczne (Morskie Oko, Dolina Kościeliska, Kasprowy Wierch), Dojazd na kuligi, ogniska i imprezy firmowe, Obsługa wesel, konferencji i eventów"
+            },
+            "3": {
+                "title": "Transport krajowy i międzynarodowy",
+                "text": "Organizujemy wyjazdy grupowe do innych miast Polski (Kraków, Warszawa, Wrocław) oraz do krajów europejskich, m.in. Czech, Słowacji, Austrii, Niemiec, Węgier. Na życzenie – także inne kraje Europy"
+            }
+        },
+        "cta": {
+            "header": "<strong>Transport osób Zakopane z Trio Travel</strong> – bezpiecznie, komfortowo, zawsze na czas.",
+            "text": "Szukasz sprawdzonego transportu w górach? Trio Travel to bezpieczne i komfortowe przejazdy z Zakopanego do dowolnego miejsca w Polsce i za granicą. Specjalizujemy się w transferach z lotnisk (Kraków, Katowice, Rzeszów), transporcie lokalnym na kuligi, imprezy i szlaki turystyczne, a także przewozach grupowych na konferencje i wyjazdy firmowe. Nasza nowoczesna flota busów i autobusów spełnia wszystkie wymagania techniczne oraz posiada licencje na przewóz krajowy i międzynarodowy. Każdy pojazd jest klimatyzowany i wyposażony w pasy bezpieczeństwa. Zespół Trio Travel to doświadczeni kierowcy z Podhala, którzy znają lokalne i europejskie trasy jak własną kieszeń. Stawiamy na punktualność, bezpieczeństwo i indywidualne podejście do każdego klienta – bez względu na to, czy rezerwujesz wyjazd prywatny, czy firmowy. Zarezerwuj transport już teraz – skontaktuj się z nami i sprawdź dostępne terminy!",
+            "text2": "Stawiamy na bezpieczeństwo – to nasz priorytet w każdej trasie.",
+            "button": "Skontaktuj się z nami",
+            "1": {
+                "title": "Aktualne licencje i zezwolenia (PL + zagranica)"
+            },
+            "2": {
+                "title": "Pełne ubezpieczenie dla pasażerów"
+            },
+            "3": {
+                "title": "Regularne przeglądy techniczne pojazdów"
+            }
+        },
+        "business": {
+            "header": "Dla Grup Zorganizowanych i Firm",
+            "text": "Planujesz szkolenie, integrację lub wyjazd incentive? Trio Travel zapewni kompleksową obsługę, byś mógł skupić się na tym, co najważniejsze.",
+            "text2": "Wystarczy jeden kontakt – a my zajmiemy się resztą!",
+            "1": {
+                "title": "Kompleksowy transport"
+            },
+            "2": {
+                "title": "Obsługa logistyczna wydarzenia"
+            },
+            "3": {
+                "title": "Pomoc przy rezerwacjach noclegów i atrakcji"
+            }
+        },
         "alt": {
             "1": "Bus ze śladem przejechanej trasy",
             "2": "Granatowy bus na tle gór pokrytych śniegiem",
@@ -1443,8 +1503,8 @@
             "description": "Kup bilety na Kasprowy Wierch z Trio Travel! Cennik, ulgi, szybka rezerwacja. Odkryj Tatry z kolejką linową i ciesz się widokami!"
         },
         "transport": {
-            "title": "Transport Zakopane i Kraj - Trio Travel Przewóz Osób",
-            "description": "Trio Travel oferuje profesjonalny transport w Zakopanem i za granicą. Transfery lotniskowe, przewozy lokalne, wesela. Zarezerwuj komfortową podróż!"
+            "title": "Transport i Przewóz Osób Zakopane – Polska i Zagranica",
+            "description": "Profesjonalny przewóz osób z Zakopanego w Polsce i za granicą. Transfery lotniskowe, transport lokalny, wyjazdy grupowe, wesela i eventy. Komfort, punktualność i atrakcyjne ceny – zarezerwuj z Trio Travel!"
         },
         "mapa-przystankow": {
             "title": "Mapa Przystanków Zakopane - Trio Travel Punkty Odbioru",

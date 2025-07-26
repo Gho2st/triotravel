@@ -1322,19 +1322,79 @@
         "button": "Megállóhelyek Térképe"
     },
     "transport": {
-        "header": "Szállítás",
-        "text": "A Trio Travel átfogó és jól szervezett személyszállítást kínál. Zakopane nem az egyetlen terület, ahol működünk; országosan és külföldön is vállalunk szállítást. Szolgáltatásaink közé tartoznak a repülőtéri transzferek, helyi fuvarok, valamint konferenciák, esküvők és különféle tipikus és nem tipikus megrendelések kiszolgálása. Szervezett csoportok számára telefonos vagy e-mailes egyeztetés után biztosítunk szállítást és segítséget rendezvények szervezéséhez.",
-        "header2": "biztonságos és kényelmes utazáshoz. Hívj minket, és utazzunk együtt!",
-        "header3": "A Te Módod",
-        "text2": "Minden erőnkkel azon vagyunk, hogy minden megbízás megfelelően teljesüljön és megfeleljen ügyfeleink elvárásainak. Csapatunk munkájának prioritása az ügyfél elégedettsége és a nyújtott szolgáltatások magas minősége. Sofőrjeink tapasztalt munkatársak, akik teljes professzionalizmust és megfelelő készségeket biztosítanak. A szállításban szerzett sokéves tapasztalatunknak köszönhetően általunk szervezett személyszállítás kényelmes és biztonságos utazást jelent. Kötelezően biztosítjuk a pontosságot és vonzó árakat. Minden megbízónak más elvárásai és igényei vannak, ezért szolgáltatásainkat mindig az egyéni igényekhez igazítjuk. Járműveink minden szükséges engedéllyel és teljes felszereléssel rendelkeznek, amelyek lehetővé teszik a problémamentes külföldi utazásokat, garantálva az utasok biztonságát és kényelmét minden útvonalon.",
-        "button": "Megállóhelyek Térképe",
+        "header": "Professzionális személyszállítás Zakopanéból – helyi és nemzetközi transzfer",
+        "text": "A Trio Travel átfogó és kiválóan szervezett személyszállítást kínál. Tevékenységünk nem korlátozódik Zakopane területére – egész Lengyelországban és külföldön is vállalunk szállítást. Szolgáltatásaink közé tartoznak a repülőtéri transzferek, helyi fuvarozás, valamint konferenciák, esküvők és egyéb tipikus vagy egyedi események kiszolgálása. Szervezett csoportok számára szállítást és rendezvényszervezési segítséget is biztosítunk telefonos vagy e-mailes egyeztetés után.",
+        "button": "Megállótérkép",
         "button2": "Morskie Oko",
+        "why": {
+            "header": "Miért érdemes a Trio Travelt választani – személyszállítás Zakopanéból?",
+            "1": {
+                "title": "Modern járműflotta",
+                "text": "Légkondicionált kisbuszok és autóbuszok biztonsági övekkel felszerelve."
+            },
+            "2": {
+                "title": "Tapasztalt sofőrök",
+                "text": "Helyi szakemberek, akik jól ismerik a Podhale régió és a nemzetközi útvonalak topográfiáját."
+            },
+            "3": {
+                "title": "Pontosság és rugalmasság",
+                "text": "Alkalmazkodunk az utazási tervedhez."
+            },
+            "4": {
+                "title": "Kedvező árak",
+                "text": "Versenyképes ajánlat, csoportok számára egyedi árajánlattal."
+            }
+        },
+        "offer": {
+            "header": "Szállítási szolgáltatások Zakopanéban – repülőterek, Lengyelország, külföld",
+            "1": {
+                "title": "Repülőtéri transzferek",
+                "text": "Gyors és kényelmes utazást biztosítunk Zakopanéból a krakkói (Balice), katowicei (Pyrzowice), rzeszówi repülőtérre, valamint kérésre más lengyelországi vagy külföldi helyszínekre is."
+            },
+            "2": {
+                "title": "Helyi szállítás – Zakopane és környéke",
+                "text": "Kirándulások túraútvonalakhoz (Morskie Oko, Kościeliska-völgy, Kasprowy Wierch), utazás lovasszán-túrákra, tábortüzekre, céges rendezvényekre, esküvők, konferenciák és események kiszolgálása"
+            },
+            "3": {
+                "title": "Belföldi és nemzetközi szállítás",
+                "text": "Csoportos utakat szervezünk más lengyel városokba (Krakkó, Varsó, Wrocław), valamint európai országokba, például Csehországba, Szlovákiába, Ausztriába, Németországba, Magyarországra. Kérésre más európai országokba is."
+            }
+        },
+        "cta": {
+            "header": "<strong>Személyszállítás Zakopanéból a Trio Travellel</strong> – biztonságosan, kényelmesen, mindig időben.",
+            "text": "Megbízható közlekedést keresel a hegyekben? A Trio Travel biztonságos és kényelmes utazást kínál Zakopanéból Lengyelország vagy Európa bármely pontjára. Repülőtéri transzferekre (Krakkó, Katowice, Rzeszów), helyi utazásokra (lovasszán-túrák, események, túraútvonalak) és csoportos utazásokra (konferenciák, céges utak) specializálódtunk. Modern kisbusz- és autóbuszflottánk megfelel minden műszaki követelménynek, és rendelkezik hazai és nemzetközi személyszállítási engedéllyel. Minden jármű légkondicionált és biztonsági övekkel felszerelt. A Trio Travel csapata tapasztalt podhalei sofőrökből áll, akik jól ismerik a helyi és európai útvonalakat. Számunkra a pontosság, a biztonság és az ügyfél egyedi igényei a legfontosabbak – legyen szó magán- vagy céges foglalásról. Foglald le az utadat most – lépj velünk kapcsolatba és ellenőrizd a szabad időpontokat!",
+            "text2": "A biztonság az első – ez az alapelvünk minden utazás során.",
+            "button": "Lépj kapcsolatba velünk",
+            "1": {
+                "title": "Érvényes engedélyek és licenszek (PL + külföld)"
+            },
+            "2": {
+                "title": "Teljes körű utasbiztosítás"
+            },
+            "3": {
+                "title": "Rendszeres műszaki ellenőrzések"
+            }
+        },
+        "business": {
+            "header": "Szervezett csoportoknak és cégeknek",
+            "text": "Képzést, csapatépítést vagy incentive utat tervezel? A Trio Travel teljes körű szolgáltatást nyújt, hogy Te a lényegre koncentrálhass.",
+            "text2": "Egy kapcsolatfelvétel elég – a többit mi intézzük!",
+            "1": {
+                "title": "Komplex szállítás"
+            },
+            "2": {
+                "title": "Rendezvényszervezési logisztikai támogatás"
+            },
+            "3": {
+                "title": "Segítség szállás- és programfoglalásban"
+            }
+        },
         "alt": {
-            "1": "Busz a megtett útvonal nyomával",
-            "2": "Sötétkék busz havas hegyek hátterében",
-            "3": "Autóbusz a parkolóban",
-            "4": "A Majer cég ezüst autóbusza",
-            "5": "Busz a parkolóban, háttérben termálfürdőkkel"
+            "1": "Busz az útvonal nyomával",
+            "2": "Sötétkék busz havas hegyek háttérrel",
+            "3": "Autóbusz parkolóban",
+            "4": "Ezüst Majer cégbusz",
+            "5": "Busz parkolóban, háttérben termálfürdő"
         }
     },
     "transport-nad-morskie-oko": {
@@ -1441,8 +1501,8 @@
             "description": "Vásárolj jegyeket a Kasprowy Wierchre a Trio Travellel! Árlista, kedvezmények, gyors foglalás. Fedezd fel a Tátrát a felvonóval és élvezd a kilátást!"
         },
         "transport": {
-            "title": "Szállítás Zakopanéban és Országszerte - Trio Travel Személyszállítás",
-            "description": "A Trio Travel professzionális szállítást kínál Zakopanéban és külföldön. Reptéri transzferek, helyi szállítás, esküvők. Foglalj kényelmes utazást!"
+            "title": "Személyszállítás Zakopanéból – Lengyelország és külföld",
+            "description": "Professzionális személyszállítás Zakopanéból, Lengyelországban és külföldön. Repülőtéri transzferek, helyi fuvarozás, csoportos utazások, esküvők és rendezvények. Kényelem, pontosság és kedvező árak – foglalj a Trio Travellel!"
         },
         "mapa-przystankow": {
             "title": "Zakopanei Megállóhelyek Térképe - Trio Travel Felvételi Pontok",

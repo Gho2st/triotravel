@@ -5,6 +5,10 @@ import { useTranslations } from "next-intl";
 import Button from "@/app/UI/Buttons/Button";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import BusinessGroupsSection from "@/app/UI/transport/BusinessGroupSection";
+import WhyTransport from "@/app/UI/transport/WhyTransport";
+import TransportOffer from "@/app/UI/transport/TransportOffer";
+import TransportCta from "@/app/UI/transport/TransportCta";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -49,22 +53,19 @@ export default function Transport() {
           <Button link="/transport/mapa-przystankow" text={t("button")} />
           <Button link="/transport/nad-morskie-oko" text={t("button2")} />
         </div>
-        <Gallery
-          images={[
-            { url: "/transport/1.webp", alt: t("alt.2") },
-            { url: "/transport/2.webp", alt: t("alt.3") },
-            { url: "/transport/3.webp", alt: t("alt.4") },
-            { url: "/transport/4.webp", alt: t("alt.5") },
-          ]}
-        />
-        <div className="px-6 md:px-20 xl:px-32 2xl:px-44 pb-10 md:pb-24 md:w-3/4 mx-auto  xl:text-xl text-center">
-          <h2 className="text-xl  xl:text-3xl 2xl:text-4xl leading-snug mt-8 md:mt-16">
-            <span className="font-bold">Trio Travel </span> -{" "}
-            <span className="font-bold">{t("header3")} </span> {t("header2")}
-          </h2>
-          <p className="mt-10">{t("text2")}</p>
-        </div>
       </section>
+      <WhyTransport t={t} />
+      <TransportOffer t={t} />
+      <BusinessGroupsSection t={t} />
+      <Gallery
+        images={[
+          { url: "/transport/1.webp", alt: t("alt.2") },
+          { url: "/transport/2.webp", alt: t("alt.3") },
+          { url: "/transport/3.webp", alt: t("alt.4") },
+          { url: "/transport/4.webp", alt: t("alt.5") },
+        ]}
+      />
+      <TransportCta t={t} />
     </>
   );
 }
