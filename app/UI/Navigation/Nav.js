@@ -66,7 +66,7 @@ export default function Nav() {
         {/* Prawa strona: Nawigacja, LocaleSwitcher, Hamburger */}
         <div className="flex items-center gap-6">
           {/* Desktop Navigation */}
-          <ul className="font-medium hidden items-center text-lg  xl:flex xl:gap-6 ">
+          <ul className="font-medium hidden items-center text-lg  xl:flex xl:gap-2 2xl:gap-6 ">
             <li className="">
               <Link
                 className="px-3 hover:text-red-500 duration-300"
