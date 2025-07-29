@@ -4,7 +4,6 @@ import Image from "next/image";
 import Table from "@/app/UI/Table";
 import Gallery from "@/app/UI/Slider";
 import TripProgram from "@/app/UI/TripProgram";
-import Majer from "@/app/UI/Majer";
 import { useTranslations } from "next-intl";
 import TripTime from "@/app/UI/TripTime";
 import BackgroundList from "@/app/UI/BackgroundList";
@@ -55,7 +54,6 @@ export default function KrajobrazySlowacji() {
     t("list.3"),
     t("list.4"),
     t("list.5"),
-    t("list.6"),
   ];
 
   // Przykładowe dane dla tabeli
