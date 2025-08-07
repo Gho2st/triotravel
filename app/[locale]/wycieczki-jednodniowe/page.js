@@ -193,7 +193,7 @@ export default function Atrakcje() {
         {categories.map((cat) => (
           <div key={cat.id} className="mb-24">
             <LineHeader text={cat.title} />
-            <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-16 mt-10 justify-center items-center">
+            <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-10 2xl:gap-16 mt-10 justify-center items-center">
               {articles
                 .filter((a) =>
                   cat.id === "popular" ? a.popular : a.category === cat.id

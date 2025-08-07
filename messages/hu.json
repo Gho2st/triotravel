@@ -1205,15 +1205,46 @@
         }
     },
     "kuligi": {
-        "header": "Szánkózás",
+        "header": "Lovasszános túrák Zakopanéban – Hegyi kaland a Trio Travel-lel",
         "text": "egyedülálló szánkózásokat szervez. Zakopane számos rendkívül bájos hellyel rendelkezik, amelyek közül mindenképpen érdemes megemlíteni a Kościelisko-völgyet. A szánkózások során számos látnivaló vár, például egy igazi hegyi lakoma. A szánkózásokat egész évben szervezzük. Utazási irodánk biztosítja a buszos felvételt a szálláshelyedről, egy igazi hegyi stílusú vendéglátást. Az egész tartózkodást egy hegyi zenekar ritmusos zenéje teszi még kellemesebbé.",
         "header2": "Fedezd fel Zakopanét a legszebb oldaláról, és csatlakozz hozzánk egy felejthetetlen szánkózásra!",
         "header3": "Válaszd ki a sajátodat",
         "cards": {
-            "1": "Kościelisko Hegyi Szánkózás",
-            "2": "Chochołowska-völgyi Szánkózás",
-            "3": "Szilveszteri Esti Szánkózás",
-            "button": "Válassz"
+            "1": {
+                "header": "Górál Lovasszán – Kościeliska-völgy",
+                "text": "Felejthetetlen lovasszános kaland a Tátra egyik legszebb völgyében. Fáklyafény, ropogó hó és élő hegyi zene!"
+            },
+            "2": {
+                "header": "Lovasszán – Chochołowska-völgy",
+                "text": "Festői útvonal a téli erdő csendjében, varázslatos esti hangulattal."
+            },
+            "3": {
+                "header": "Szilveszteri Lovasszán Túra",
+                "text": "Ünnepeld az újévet stílusosan – éjszakai szánkózás, tábortűz, ünnepi vacsora és felejthetetlen élmények!"
+            }
+        },
+        "whysleighrides": {
+            "header": "Miért válaszd zakopanei lovasszános túráinkat?",
+            "text": "Egy <strong>igazi hegyi lovasszános kalandról</strong> álmodsz? A Trio Travel garantálja a felejthetetlen élményt a Tátra szívében – fáklyafény, élő zene és finom ételek társaságában. Nézd meg, mitől olyan különlegesek a mi túráink!",
+            "cards": {
+                "1": {
+                    "header": "Szánkózás hegyi hangulattal",
+                    "text": "Elviszünk a Tátra legszebb völgyeibe – Kościeliskába vagy Chochołowskába – ahol egy igazi éjszakai lovasszános túra vár rád, fáklyákkal és élő zenével."
+                },
+                "2": {
+                    "header": "Görög tábortűz és mulatság",
+                    "text": "A szánkózás után közös mulatság vár a tábortűznél – kolbásszal, forralt borral és hegyi zenekarral. Ez több mint egy túra – ez Podhale hagyománya, íze és hangulata."
+                },
+                "3": {
+                    "header": "Teljeskörű szervezés",
+                    "text": "Gondoskodunk a szállásodtól való szállításról, az esemény lebonyolításáról és a biztonságos szórakozásról. Te csak élvezd – mi intézünk mindent!"
+                }
+            }
+        },
+        "ctasleigh": {
+            "header": "Foglalj szánkótúrát még ma!",
+            "text": "Egy <strong>igazi téli kalandra vágysz Zakopanéban</strong>? Vegyél részt egy szánkózáson fáklyákkal, tábortűzzel és hegyi zenével. Válaszd a Trio Travelt, és éld át a Tátra varázsát úgy, ahogy még soha!",
+            "button": "Szánkózás foglalása"
         },
         "alt": {
             "1": "Hegyi szánkózás szánokkal a havas völgyben",

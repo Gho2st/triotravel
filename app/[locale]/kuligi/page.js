@@ -4,6 +4,7 @@ import LineHeader from "@/app/UI/LineHeader";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import SleighRides from "@/app/UI/Sleighs/WhySleighRides";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -29,42 +30,42 @@ export default function Kuligi() {
   const t = useTranslations("kuligi");
   const articles = [
     {
-      title: t("cards.1"),
+      title: t("cards.1.header"),
       image: "/kuligi/koscielisko.webp",
       link: "/kuligi/goralski-koscielisko",
+      p: t("cards.1.text"),
     },
     {
-      title: t("cards.2"),
+      title: t("cards.2.header"),
       image: "/kuligi/dolina.webp",
       link: "/kuligi/dolina-chocholowska",
+      p: t("cards.2.text"),
     },
     {
-      title: t("cards.3"),
+      title: t("cards.3.header"),
       image: "/kuligi/sylwestrowy.webp",
       link: "/kuligi/wieczor-sylwestrowy",
+      p: t("cards.3.text"),
     },
   ];
   return (
     <>
       <Header text={t("header")} />
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
-        <div className="md:w-3/4 mx-auto text-center">
+        {/* NAPIS Z LINIAMI PO BOKU */}
+        <LineHeader text={t("header2")} />
+        <div className="md:w-3/4 mx-auto text-center mt-16">
           <p className="xl:text-xl">
             <span className="font-bold">TrioTravel</span> {t("text")}
           </p>
-          <h2 className="text-xl xl:text-3xl font-medium my-20 leading-snug">
-            {t("header2")}
-          </h2>
         </div>
-        {/* NAPIS Z LINIAMI PO BOKU */}
-        <LineHeader text={t("header3")} />
-
-        <div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-2 gap-16 mt-20 justify-center items-center">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-2 gap-10 2xl:gap-16 mt-20 justify-center items-center">
           {articles.map((article, index) => (
             <Card key={index} article={article} index={index} />
           ))}
         </div>
       </section>
+      <SleighRides />
     </>
   );
 }

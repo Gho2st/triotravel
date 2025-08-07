@@ -1200,15 +1200,46 @@
         }
     },
     "kuligi": {
-        "header": "Sleigh Rides",
+        "header": "Sleigh Rides in Zakopane – A Highland Adventure with Trio Travel",
         "text": "organizes unique sleigh rides. Zakopane has many incredibly picturesque places, including the Kościeliska Valley. The sleigh rides include many attractions such as a real highlander feast. Sleigh rides are organized all year round. Our travel agency provides bus pick-up from your accommodation, refreshments in a true highlander style. The entire stay is enlivened by the rhythm of highlander band music.",
         "header2": "See Zakopane from its most beautiful side and join us for an unforgettable sleigh ride!",
         "header3": "Choose Your",
         "cards": {
-            "1": "Highlander Sleigh Ride Kościelisko",
-            "2": "Sleigh Ride Chochołowska Valley",
-            "3": "New Year's Eve Sleigh Ride",
-            "button": "Choose"
+            "1": {
+                "header": "Highlander Sleigh Ride – Kościeliska Valley",
+                "text": "Experience an unforgettable sleigh ride through one of the most beautiful valleys in the Tatra Mountains. Torchlight, crunching snow and a live Highlander band!"
+            },
+            "2": {
+                "header": "Sleigh Ride – Chochołowska Valley",
+                "text": "A scenic route through a picturesque valley, the silence of a winter forest and the magical atmosphere of an evening sleigh ride."
+            },
+            "3": {
+                "header": "New Year’s Eve Sleigh Ride",
+                "text": "Ring in the New Year in style – a night sleigh ride, bonfire, festive dinner and unforgettable memories!"
+            }
+        },
+        "whysleighrides": {
+            "header": "Why choose our sleigh rides in Zakopane?",
+            "text": "Dreaming of a <strong>real Highland sleigh ride</strong>? Trio Travel guarantees an unforgettable adventure in the heart of the Tatra Mountains – with torchlight, live music, and delicious food. See what makes our sleigh rides so special!",
+            "cards": {
+                "1": {
+                    "header": "Sleigh rides with mountain soul",
+                    "text": "We’ll take you through the most beautiful valleys of the Tatras – Kościeliska or Chochołowska – where, under the winter night sky, you'll enjoy a true sleigh ride with torches and live music."
+                },
+                "2": {
+                    "header": "Highlander bonfire feast",
+                    "text": "After the sleigh ride, enjoy a fun evening by the bonfire – with sausages, mulled wine, and a live Highlander band. It's more than just a ride – it's the taste, tradition, and atmosphere of Podhale."
+                },
+                "3": {
+                    "header": "Full-service organization",
+                    "text": "We provide pick-up from your accommodation, event coordination, and a safe, fun experience. You enjoy – we handle the rest!"
+                }
+            }
+        },
+        "ctasleigh": {
+            "header": "Book your sleigh ride today!",
+            "text": "Dreaming of a <strong>true winter adventure in Zakopane</strong>? Enjoy a sleigh ride with torches, a bonfire, and live Highlander music. Choose Trio Travel and experience the magic of the Tatra Mountains like never before!",
+            "button": "Book Sleigh Ride"
         },
         "alt": {
             "1": "Highland sleigh ride through a snow-covered valley",

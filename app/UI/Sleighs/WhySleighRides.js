@@ -2,11 +2,11 @@ import Link from "next/link";
 import Button from "../Buttons/Button";
 import { useTranslations } from "next-intl";
 
-export default function WhyTrips() {
-  const t = useTranslations("offer.whytrips");
-  const c = useTranslations("offer.cta");
+export default function WhySleighRides() {
+  const t = useTranslations("kuligi.whysleighrides");
+  const c = useTranslations("kuligi.ctasleigh");
 
-  const cardCount = 6; // lub dynamicznie jeśli znasz liczbę z backendu
+  const cardCount = 3; 
   const cards = Array.from({ length: cardCount }, (_, i) => {
     const index = i + 1;
     const card = {
@@ -23,7 +23,7 @@ export default function WhyTrips() {
   });
 
   return (
-    <section className="px-6 xl:px-24 pb-16 2xl:pt-0 bg-gradient-to-b from-white to-gray-50">
+    <section className="px-6 xl:px-24 pb-16 pt-6 2xl:pt-0 bg-gradient-to-b from-white to-gray-50">
       <header className="text-center max-w-2xl mx-auto">
         <h2 className="text-3xl 2xl:text-4xl 2xl:leading-snug font-extrabold text-gray-900">
           {t("header")}

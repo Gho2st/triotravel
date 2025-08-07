@@ -4,7 +4,7 @@ import Gallery from "@/app/UI/Slider";
 import LineHeader from "@/app/UI/LineHeader";
 import BackgroundList from "@/app/UI/BackgroundList";
 import { useTranslations } from "next-intl";
-
+import CheckList from "@/app/UI/CheckList";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import CtaLink from "@/app/UI/CtaLink";
@@ -55,6 +55,17 @@ export default function Dolina() {
     t("list.5"),
     t("list.6"),
   ];
+
+  const checkItems = [
+    t("table.list.1"),
+    t("table.list.2"),
+    t("table.list.3"),
+    t("table.list.4"),
+    t("table.list.5"),
+    t("table.list.6"),
+    t("table.list.7"),
+    t("table.list.8"),
+  ];
   return (
     <>
       <Header text={t("header")} />
@@ -90,20 +101,7 @@ export default function Dolina() {
           </h3>
           <h4 className=" mb-10 text-lg font-medium">{t("header4")}</h4>
           <Table headers={tableHeaders} rows={tableRows} />
-          <div className="mt-10">
-            <span className="text-lg font-bold">{t("table.header4")}</span>
-
-            <ul className="xl:text-lg flex md:w-3/4 mx-auto flex-col gap-2 mt-10">
-              <li>{t("table.list.1")}</li>
-              <li>{t("table.list.2")}</li>
-              <li>{t("table.list.3")}</li>
-              <li>{t("table.list.4")}</li>
-              <li>{t("table.list.5")}</li>
-              <li>{t("table.list.6")}</li>
-              <li>{t("table.list.7")}</li>
-              <li>{t("table.list.8")}</li>
-            </ul>
-          </div>
+          <CheckList title={t("table.header4")} items={checkItems} />
         </div>
       </section>
       <Gallery

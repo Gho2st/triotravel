@@ -4,7 +4,7 @@ import Gallery from "@/app/UI/Slider";
 import LineHeader from "@/app/UI/LineHeader";
 import BackgroundList from "@/app/UI/BackgroundList";
 import { useTranslations } from "next-intl";
-
+import CheckList from "@/app/UI/CheckList";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import CtaLink from "@/app/UI/CtaLink";
@@ -51,6 +51,14 @@ export default function Koscielisko() {
     t("list.5"),
   ];
 
+  const checkItems = [
+    t("table.list.1"),
+    t("table.list.2"),
+    t("table.list.3"),
+    t("table.list.4"),
+    t("table.list.5"),
+  ];
+
   return (
     <>
       <Header text={t("header")} />
@@ -93,16 +101,7 @@ export default function Koscielisko() {
 
           <Table headers={tableHeaders} rows={tableRows} />
 
-          <div className="mt-10">
-            <span className="text-lg font-bold">{t("table.header3")}</span>
-            <ul className="xl:text-lg flex flex-col gap-2 mt-10 text-left md:w-3/4 mx-auto">
-              <li>{t("table.list.1")}</li>
-              <li> {t("table.list.2")}</li>
-              <li> {t("table.list.3")}</li>
-              <li>{t("table.list.4")}</li>
-              <li>{t("table.list.5")}</li>
-            </ul>
-          </div>
+          <CheckList title={t("table.header3")} items={checkItems} />
         </div>
       </section>
 

@@ -5,7 +5,7 @@ import LineHeader from "@/app/UI/LineHeader";
 import BackgroundList from "@/app/UI/BackgroundList";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-
+import CheckList from "@/app/UI/CheckList";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import CtaLink from "@/app/UI/CtaLink";
@@ -57,6 +57,9 @@ export default function Sylwester() {
     t("list.9"),
     t("list.10"),
   ];
+
+  const checkItems = [t("list.1")];
+
   return (
     <>
       <Header text={t("header")} />
@@ -89,13 +92,7 @@ export default function Sylwester() {
           </h3>
           <h4 className=" mb-10 xl:text-lg font-medium">{t("header4")} </h4>
           <Table headers={tableHeaders} rows={tableRows} />
-          <div className="mt-10">
-            <span className="text-lg font-bold">{t("table.header4")}</span>
-
-            <ul className="xl:text-lg flex flex-col gap-2 mt-10">
-              <li>{t("table.list.1")}</li>
-            </ul>
-          </div>
+          <CheckList title={t("table.header4")} items={checkItems} />
         </div>
       </section>
       <Gallery

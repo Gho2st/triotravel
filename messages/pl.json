@@ -609,7 +609,7 @@
                     "7": "Most, po którym przechodzi kilka osób, otoczony drzewami pod częściowo zachmurzonym niebem.",
                     "8": "Kolejka linowa przemieszczająca się przez ośnieżony krajobraz z widokiem na góry pod czystym niebem."
                 },
-                "header": "Spacer w Koronach Drzew",
+                "header": "Spacer w Koronach Drzew – Wycieczka z Zakopanego do Bachledki",
                 "header2": "Ścieżka w Koronach Drzew - Bachledka (Słowacja)",
                 "header3": "Szczegóły Wycieczki i Informacje Praktyczne",
                 "text": "Ścieżka w koronach drzew w Bachledovej Dolinie znajduje się w samym sercu malowniczej <strong>Magury Spiskiej</strong>, na pograniczu Tatrzańskiego Parku Narodowego, w pobliżu miejscowości Ždiar. To wyjątkowe miejsce pozwala zanurzyć się w świat tutejszych lasów i podziwiać przyrodę z zupełnie innej perspektywy – z wysokości koron drzew. Podczas spaceru po drewnianej kładce, o <strong>długości ponad 1200 metrów</strong>, można dowiedzieć się wielu ciekawostek o lokalnej florze i faunie, w tym o rzadko spotykanych gatunkach roślin i zwierząt. Ścieżka kończy się <strong>wieżą widokową o wysokości 32 metrów</strong>, z której roztacza się panoramiczny widok na Tatry, Pieniny i całą okolicę. Wycieczka rozpoczyna się wcześnie rano wyjazdem z Zakopanego w kierunku Bachledovej Doliny. Na miejscu czeka na Państwa <strong>kolejka gondolowa</strong>, którą w ciągu około 7 minut wjedziemy na szczyt Magury Spiskiej. Stamtąd już tylko krótki spacer dzieli nas od wejścia na ścieżkę. To idealna propozycja dla miłośników przyrody, rodzin z dziećmi oraz wszystkich, którzy chcą w aktywny sposób spędzić czas na świeżym powietrzu, ciesząc się <strong>spektakularnymi widokami.</strong>",
@@ -1207,15 +1207,46 @@
         }
     },
     "kuligi": {
-        "header": "Kuligi",
+        "header": "Kuligi w Zakopanem – góralska przygoda z Trio Travel",
         "text": "organizuje jedyne w swoim rodzaju kuligi. Zakopane posiada wiele niezwykle urokliwych miejsc, do których z pewnością warto zaliczyć Dolinę Kościeliska. W ramach kuligów przewidzianych jest wiele atrakcji takich jak np.prawdziwa biesiada góralska. Kuligi organizowane są przez cały rok. Nasze biuro podróży zapewnia odbiór busem z miejsca, w którym jesteście zakwaterowani, poczęstunek w iście góralskim stylu. Cały pobyt jest umilany przez rytm muzyki kapeli góralskiej.",
         "header2": "Zobacz Zakopane z tej najpiękniejszej strony i udaj się z Nami na niezapomniany kulig!",
         "header3": "Wybierz Swój",
         "cards": {
-            "1": "Góralski Kulig Kościelisko",
-            "2": "Kulig Dolina Chochołowska",
-            "3": "Kulig w Wieczór Sylwestrowy",
-            "button": "Wybierz"
+            "1": {
+                "header": "Góralski Kulig – Dolina Kościeliska",
+                "text": "Przeżyj niezapomniany kulig saniami przez jedną z najpiękniejszych dolin Tatr. Blask pochodni, śnieg skrzypiący pod saniami i góralska kapela na żywo!"
+            },
+            "2": {
+                "header": "Kulig Dolina Chochołowska",
+                "text": "Trasa przez malowniczą dolinę, cisza zimowego lasu i magiczny klimat wieczornego kuligu."
+            },
+            "3": {
+                "header": "Kulig w Wieczór Sylwestrowy",
+                "text": "Powitaj Nowy Rok z przytupem – kulig nocą, ognisko, kolacja sylwestrowa i niezapomniane wspomnienia!"
+            }
+        },
+        "whysleighrides": {
+            "header": "Dlaczego warto wybrać nasze kuligi w Zakopanem?",
+            "text": "Marzysz o <strong>prawdziwym góralskim kuligu</strong>? Trio Travel to gwarancja niezapomnianej przygody w sercu Tatr – z pochodniami, muzyką i pysznym jedzeniem. Sprawdź, co czyni nasze kuligi wyjątkowymi!",
+            "cards": {
+                "1": {
+                    "header": "Kuligi z duszą gór",
+                    "text": "Zabieramy Cię w najpiękniejsze doliny Tatr – Kościeliską lub Chochołowską – gdzie pod osłoną zimowej nocy ruszysz w prawdziwy kulig z pochodniami i muzyką na żywo."
+                },
+                "2": {
+                    "header": "Góralska biesiada przy ognisku",
+                    "text": "Po kuligu czeka Cię wspólna zabawa przy ognisku – z kiełbaskami, grzańcem i góralską kapelą. To więcej niż przejażdżka – to tradycja, smak i atmosfera Podhala."
+                },
+                "3": {
+                    "header": "Organizacja od A do Z",
+                    "text": "Zapewniamy transport spod Twojego noclegu, opiekę organizatora i bezpieczny przebieg imprezy. Ty się bawisz – my zajmujemy się resztą!"
+                }
+            }
+        },
+        "ctasleigh": {
+            "header": "Zarezerwuj swój kulig już dziś!",
+            "text": "Marzysz o <strong>prawdziwej zimowej przygodzie w Zakopanem</strong>? Przeżyj kulig z pochodniami, ogniskiem i muzyką góralską. Wybierz Trio Travel i poczuj magię Tatr jak nigdy dotąd!",
+            "button": "Zarezerwuj Kulig"
         },
         "alt": {
             "1": "Góralski kulig w saniach przez zaśnieżoną dolinę",
