@@ -578,17 +578,30 @@
                     "5": "Przestronny kryty basen otoczony dużą kamienną podłogą, z oknami wpuszczającymi naturalne światło dzienne. Pomieszczenie ma wysokie sufity i ściany, które przyczyniają się do otwartej atmosfery.",
                     "6": "Grupa ludzi korzystających z basenu w nocy, otoczona atmosferą kurortu z budynkami i fontanną w tle pod czystym niebieskim niebem."
                 },
-                "header": "Termy Chochołowskie",
-                "header2": "Zrelaksuj się",
-                "header3": "W strefie basenowej znajdziecie:",
-                "text": "Termy Chochołowskie to największy kompleks termalny na Podhalu. Duże baseny wewnętrzne i zewnętrzne łączna powierzchnia lustra wody to 3000 m2. Kompleks posiada  plażę  trawiastą i piaszczystą gdzie, każdy znajdzie miejsce do upragnionego relaksu. W kompleksie znajdują się strefy basenowe jak i lecznicze.",
+                "header": "Termy Chochołowskie - Baseny Termalne w Tatrach z Transportem z Zakopanego",
+                "header2": "Największy kompleks termalny na Podhalu",
+                "header3": "Atrakcje Term Chochołowskich",
+                "text": "Odwiedź <strong>Termy Chochołowskie</strong> — największy kompleks basenów termalnych na Podhalu, o łącznej powierzchni lustra wody aż <strong>3000 m²</strong>. Znajdziesz tu zarówno <strong>strefy basenowe</strong>, jak i <strong>lecznicze</strong>, a latem dodatkowo plażę trawiastą i piaszczystą, idealną do wypoczynku.",
+                "text2": "Wybierąc wyjazd z <strong>Trio Travel</strong>, zyskujesz nie tylko <strong>bilet wstępu</strong>, ale także <strong>bezpłatny transport</strong> z miejsca zakwaterowania w Zakopanem lub okolicy. Nie musisz się martwić parkingiem czy organizacją - my zajmiemy się wszystkim.",
+                "button": "Mapa Przystanków",
+                "button2": "Kontakt",
                 "list": {
-                    "1": "8 basenów whirpool z wodą termalną",
-                    "2": "1 basen whirpool z wodą solankową,",
-                    "3": "2 baseny wewnętrzne termalne ze stanowiskami do masażu,",
-                    "4": "2 baseny zewnętrzne termalne z atrakcjami wodnymi (rwąca rzeka, dysze wodne, etc.),",
-                    "5": "3 zjeżdżalnie (w tym jedna z zapadnią),",
-                    "6": "basen pływacki o wymiarach 16x8 m z systemem monitoringu."
+                    "1": "Pobyt w największym kompleksie na Podhalu",
+                    "2": "36 basenów zewnętrznych i wewnętrznych",
+                    "3": "Strefy basenowe i lecznicze",
+                    "4": "Wody siarkowe i solankowe",
+                    "5": "8 basenów whirpool z wodą termalną",
+                    "6": "1 basen whirpool z wodą solankową,",
+                    "7": "2 baseny wewnętrzne termalne ze stanowiskami do masażu,",
+                    "8": "2 baseny zewnętrzne termalne z atrakcjami wodnymi (rwąca rzeka, dysze wodne, etc.),",
+                    "9": "3 zjeżdżalnie (w tym jedna z zapadnią),",
+                    "10": "basen pływacki o wymiarach 16x8m z systemem monitoringu."
+                },
+                "tripprogram": {
+                    "header": "Harmonogram i czas pobytu",
+                    "1": "Wyjazd codziennie - od poniedziałku do niedzieli",
+                    "2": "Czas pobytu: 4 godziny (18:00 - 20:00)",
+                    "3": "Transport w obie strony GRATIS z miejsca zakwaterowania w Zakopanem lub okolicy"
                 },
                 "table": {
                     "header1": "Rodzaj biletu",

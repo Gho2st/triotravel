@@ -6,17 +6,19 @@ import Table from "@/app/UI/Table";
 import Gallery from "@/app/UI/Slider";
 import { useTranslations } from "next-intl";
 import TripTime from "@/app/UI/TripTime";
-
+import TripProgram from "@/app/UI/TripProgram";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import CtaLink from "@/app/UI/CtaLink";
+import Button from "@/app/UI/Buttons/Button";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
   const { locale } = resolvedParams;
   const t = await getTranslations({ locale, namespace: "metadata.termy" });
 
-  const path = routing.pathnames["/wycieczki-jednodniowe/chocholowskie-termy"][locale]; // Pobieramy ścieżkę dla języka
+  const path =
+    routing.pathnames["/wycieczki-jednodniowe/chocholowskie-termy"][locale]; // Pobieramy ścieżkę dla języka
   // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
   const canonicalUrl =
     locale === "pl"
@@ -41,6 +43,16 @@ export default function Termy() {
     t("list.4"),
     t("list.5"),
     t("list.6"),
+    t("list.7"),
+    t("list.8"),
+    t("list.9"),
+    t("list.10"),
+  ];
+
+  const tripItems = [
+    t("tripprogram.1"),
+    t("tripprogram.2"),
+    t("tripprogram.3"),
   ];
 
   // Przykładowe dane dla tabeli
@@ -65,10 +77,22 @@ export default function Termy() {
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
         <LineHeader text={t("header2")} />
         <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto xl:text-xl">
-          {t("text")}
+          {t.rich("text", {
+            strong: (chunks) => <strong>{chunks}</strong>,
+          })}
         </p>
-        <div className="flex justify-center mt-16">
+        <p className="mt-8 text-center md:w-3/4 mx-auto xl:text-xl">
+          {t.rich("text2", {
+            strong: (chunks) => <strong>{chunks}</strong>,
+          })}
+        </p>
+        <div className="flex gap-4 justify-center mt-10">
+          <Button text={t("button")} link="/transport/mapa-przystankow" />
+          <Button text={t("button2")} link="/kontakt" />
+        </div>
+        <div className="flex flex-col justify-center mt-16">
           <BackgroundList title={t("header3")} items={customItems} />
+          <TripProgram title={t("tripprogram.header")} items={tripItems} />
         </div>
         <div className="mt-16">
           <Table

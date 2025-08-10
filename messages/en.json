@@ -573,17 +573,30 @@
                     "5": "A spacious indoor pool surrounded by a large stone floor, featuring windows that allow natural daylight to illuminate the area. The room has high ceilings and walls that contribute to its open atmosphere.",
                     "6": "A group of people enjoying a swimming pool at night, surrounded by a resort atmosphere with buildings and a fountain in the background under a clear blue sky."
                 },
-                "header": "Chochołowskie Thermal Baths",
-                "header2": "Relax",
-                "header3": "In the pool area, you will find:",
-                "text": "Chochołowskie Thermal Baths are the largest thermal complex in Podhale. Large indoor and outdoor pools cover a total water surface of 3000 m². The complex features a grassy and sandy beach where everyone can find a spot for relaxation. The complex includes both pool and therapeutic zones.",
+                "header": "Chochołowskie Thermal Baths - Thermal Pools in the Tatra Mountains with Transport from Zakopane",
+                "header2": "The Largest Thermal Complex in Podhale",
+                "header3": "Attractions of Chochołowskie Thermal Baths",
+                "text": "Visit <strong>Chochołowskie Thermal Baths</strong> — the largest thermal pool complex in Podhale, with a total water surface area of <strong>3000 m²</strong>. Here you will find both <strong>recreational pools</strong> and <strong>therapeutic zones</strong>, and in summer also grassy and sandy beaches, perfect for relaxation.",
+                "text2": "By choosing a trip with <strong>Trio Travel</strong>, you get not only an <strong>entry ticket</strong> but also <strong>free transport</strong> from your accommodation in Zakopane or nearby. No need to worry about parking or arrangements – we take care of everything.",
+                "button": "Stop Map",
+                "button2": "Contact",
                 "list": {
-                    "1": "8 whirlpool baths with thermal water",
-                    "2": "1 whirlpool bath with brine water",
-                    "3": "2 indoor thermal pools with massage stations",
-                    "4": "2 outdoor thermal pools with water attractions (rapid river, water jets, etc.)",
-                    "5": "3 slides (including one with a drop)",
-                    "6": "A swimming pool measuring 16x8 m with a monitoring system."
+                    "1": "Stay in the largest complex in Podhale",
+                    "2": "36 outdoor and indoor pools",
+                    "3": "Recreational and therapeutic zones",
+                    "4": "Sulphur and brine waters",
+                    "5": "8 whirlpools with thermal water",
+                    "6": "1 whirlpool with brine water,",
+                    "7": "2 indoor thermal pools with massage stations,",
+                    "8": "2 outdoor thermal pools with water attractions (wild river, water jets, etc.),",
+                    "9": "3 slides (including one with a trapdoor),",
+                    "10": "Swimming pool measuring 16×8 m with monitoring system."
+                },
+                "tripprogram": {
+                    "header": "Schedule and Duration of Stay",
+                    "1": "Departures daily - from Monday to Sunday",
+                    "2": "Duration of stay: 4 hours (18:00 - 20:00)",
+                    "3": "Free round-trip transport from accommodation in Zakopane or nearby"
                 },
                 "table": {
                     "header1": "Ticket Type",

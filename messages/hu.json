@@ -578,17 +578,30 @@
                     "5": "Tágas fedett medence nagy kőpadlóval körülvéve, ablakokkal, amelyek természetes nappali fényt engednek a területre. A helyiség magas mennyezettel és falakkal rendelkezik, amelyek hozzájárulnak a nyitott légköréhez.",
                     "6": "Egy csoport ember, akik éjszaka élvezik az úszómedencét, üdülőhelyi légkörben, épületekkel és szökőkúttal a háttérben, tiszta kék ég alatt."
                 },
-                "header": "Chochołowi Termálfürdő",
-                "header2": "Pihenjen",
-                "header3": "A medence zónában megtalálható:",
-                "text": "A Chochołowi Termálfürdő a legnagyobb termál komplexum Podhalén. Nagy belső és külső medencék, a vízfelület teljes területe 3000 m². A komplexum füves és homokos stranddal rendelkezik, ahol mindenki megtalálja a vágyott pihenés helyét. A komplexumban medence- és gyógyzónák találhatók.",
+                "header": "Chochołowskie Termy - Termálmedencék a Tátrában Zakopanéból szállítással",
+                "header2": "A legnagyobb termálkomplexum Podhalén",
+                "header3": "A Chochołowskie Termy látnivalói",
+                "text": "Látogasd meg a <strong>Chochołowskie Termy</strong>-t — a legnagyobb termálmedence-komplexumot Podhalén, összesen <strong>3000 m²</strong> vízfelülettel. Itt megtalálod a <strong>fürdőzési</strong> és a <strong>gyógyászati zónákat</strong>, nyáron pedig füves és homokos strand is vár, ideális a pihenéshez.",
+                "text2": "Ha a <strong>Trio Travel</strong>-lel utazol, nemcsak <strong>belépőjegyet</strong> kapsz, hanem <strong>ingyenes szállítást</strong> is a zakopanei vagy környékbeli szállásodról. Nem kell a parkolás vagy a szervezés miatt aggódnod – mindent mi intézünk.",
+                "button": "Megállótérkép",
+                "button2": "Kapcsolat",
                 "list": {
-                    "1": "8 termálvizes whirlpool medence",
-                    "2": "1 sós vizes whirlpool medence",
-                    "3": "2 belső termálmedence masszázspontokkal",
-                    "4": "2 külső termálmedence vízi attrakciókkal (vad folyó, vízsugarak stb.)",
-                    "5": "3 csúszda (ebből egy csapóajtóval)",
-                    "6": "16x8 m-es úszómedence megfigyelő rendszerrel"
+                    "1": "Tartózkodás a legnagyobb komplexumban Podhalén",
+                    "2": "36 kültéri és beltéri medence",
+                    "3": "Fürdőzési és gyógyászati zónák",
+                    "4": "Kénes és sós vizek",
+                    "5": "8 termálvizes pezsgőfürdő",
+                    "6": "1 sós vizes pezsgőfürdő,",
+                    "7": "2 beltéri termálmedence masszázsállomásokkal,",
+                    "8": "2 kültéri termálmedence vízi attrakciókkal (vad folyó, vízsugarak, stb.),",
+                    "9": "3 csúszda (köztük egy csapóajtós),",
+                    "10": "Úszómedence 16×8 m mérettel és megfigyelőrendszerrel."
+                },
+                "tripprogram": {
+                    "header": "Menetrend és tartózkodási idő",
+                    "1": "Indulás naponta - hétfőtől vasárnapig",
+                    "2": "Tartózkodás ideje: 4 óra (18:00 - 20:00)",
+                    "3": "Ingyenes oda-vissza szállítás a zakopanei vagy környékbeli szállásról"
                 },
                 "table": {
                     "header1": "Jegy típusa",
