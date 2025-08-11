@@ -66,7 +66,6 @@ export default function Budapeszt() {
     [t("table.5"), t("table.a1")],
     [t("table.6"), t("table.a2")],
     [t("table.7"), t("table.a3")],
-    [t("table.8"), t("table.a4")],
   ];
   return (
     <>
