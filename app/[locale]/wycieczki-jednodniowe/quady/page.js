@@ -79,7 +79,7 @@ export default function Quady() {
         </div>
         <div className="mt-16">
           <TripProgram
-            title={t("tripprogram.header") + " ok. 9-10h"}
+            title={t("tripprogram.header") + " ok. 3-5h"}
             items={tripItems}
           />
           <TripTime showCallInfo={true} />
