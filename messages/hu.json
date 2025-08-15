@@ -613,47 +613,82 @@
             },
             "spacer-w-koronach-drzew": {
                 "alt": {
-                    "1": "Egy torony egy hegyvidéki tájban, emberekkel a szerkezetén. A jelenet zöld füvet, fákat és tiszta eget tartalmaz, bemutatva a természet szépségét egy magaslati pontból.",
-                    "2": "Egy nő és egy lány áll egy fából készült tábla mellett egy nyúllal, kint kék ég alatt, fákkal és kerítéssel körülvéve. Mindketten szabadtéri tevékenységhez megfelelő ruházatot viselnek, látható cipő is.",
-                    "3": "Két függőkocsi lebeg a buja zöld erdő felett, hegyekkel a háttérben.",
-                    "4": "Egy csoport ember sétál egy fákkal körülvett platformon, teherautóval és más járművekkel a háttérben. Napos nyári nap van, mindenki laza ruházatot és cipőt visel.",
-                    "5": "Egy csoport ember ül egy füves területen, fákkal körülvéve, felhős ég alatt, játszótérrel és épülettel a háttérben.",
-                    "6": "Egy ember ül egy függőkocsiban, hegyekkel és fákkal körülvéve, tiszta égbolttal és felhőkkel a háttérben. A függőkocsi egy síszelep rendszer része egy hegyi állomáson.",
-                    "7": "Egy híd, amin több ember sétál, fákkal körülvéve, részben felhős ég alatt.",
-                    "8": "Egy felvonó halad át egy havas tájban, hegyekkel a háttérben, tiszta ég alatt."
+                    "1": "Torony hegyvidéki tájban, emberekkel, akik a szerkezetén sétálnak. A jelenet zöld füvet, fákat és tiszta eget mutat, bemutatva a természet szépségét egy magas kilátópontról.",
+                    "2": "Egy nő és egy kislány egy nyúllal díszített fa táblánál állnak, a szabadban, kék ég alatt, fákkal és kerítéssel körülvéve. Mindketten szabadtéri tevékenységre alkalmas ruhát viselnek, a lábbeli is látható.",
+                    "3": "Két kabinos felvonó lebeg a levegőben, buja zöld erdő felett, háttérben hegyekkel.",
+                    "4": "Emberek egy csoportja egy fák által körülvett platformon sétál, háttérben teherautóval és más járművekkel. Napos nyári nap van, mindenki hétköznapi ruhát és lábbelit visel.",
+                    "5": "Emberek egy csoportja füves mezőn ül, fákkal körülvéve, felhős ég alatt, háttérben játszótérrel és épülettel.",
+                    "6": "Egy ember egy kabinos felvonóban ül, hegyekkel és fákkal körülvéve, tiszta égbolttal és felhőkkel a háttérben. A kabin egy hegyi sífelvonó része.",
+                    "7": "Híd, amin néhány ember sétál, fákkal körülvéve, részben felhős ég alatt.",
+                    "8": "Drótkötélpálya havas tájon halad át, kilátással a hegyekre, tiszta ég alatt.",
+                    "9": "Két evezős csónak a Csorba-tavon, háttérben a Magas-Tátra és a Patria Szálló.",
+                    "10": "Kilátás a Csorba-tóra, amelyet erdő és hegyek vesznek körül, részben bokorágak takarják.",
+                    "11": "A Csorba-tó fű és fenyő mögül nézve, a Magas-Tátra panorámájával és a Patria Szállóval a háttérben."
                 },
-                "header": "Séta a lombkoronák között",
-                "header2": "Lombkoronasétány – Bachledka (Szlovákia)",
+                "header": "Séta a lombkoronában – kirándulás Zakopanéból Bachledkába",
+                "header2": "Mit láthatsz az utazás során",
                 "header3": "Kirándulás részletei és hasznos információk",
-                "text": "A lombkoronasétány a Bachledova-völgyben található, a festői <strong>Spiši Magura</strong> szívében, a Tátrai Nemzeti Park határán, Ždiar település közelében. Ez az egyedülálló hely lehetőséget kínál arra, hogy új nézőpontból ismerjük meg az erdőt – a fák lombkoronájának magasságából. Az <strong>1200 méter hosszú fahídon</strong> sétálva sok érdekességet tudhatunk meg a helyi növény- és állatvilágról, köztük ritka fajokról is. A séta <strong>32 méter magas kilátótoronnyal</strong> zárul, ahonnan panorámás kilátás nyílik a Tátrára, a Pieninekre és a környező vidékre. A kirándulás kora reggel indul Zakopanéból a Bachledova-völgybe. A helyszínen <strong>kabinos felvonó</strong> visz fel bennünket körülbelül 7 perc alatt a Spiši Magura csúcsára. Onnan csak egy rövid séta választ el a bejárattól. Ideális program természetkedvelők, családok és mindazok számára, akik aktívan szeretnék tölteni idejüket a friss levegőn, <strong>lenyűgöző kilátásokkal</strong> kiegészítve.",
+                "text": "Fedezd fel Szlovákiát teljesen új szemszögből. Ez az egynapos kirándulás Zakopanéból két különleges helyet ötvöz: a Bachledkai Lombkorona-ösvényt, ahonnan panorámás kilátás nyílik a Tátrára, a Pieninekre és a Szepesi-Magurára, valamint a Csorba-tavat, a Magas-Tátra gyöngyszemét alpesi hangulattal. Egy nap alatt megcsodálhatod a legszebb tájakat, érdekességeket hallhatsz a helyi természetről, és pihenhetsz a hegyek különleges környezetében.",
+                "offer": {
+                    "1": {
+                        "header": "Lombkorona-ösvény – Bachledka",
+                        "text": "A Bachledova-völgyi Lombkorona-ösvény a festői Szepesi-Magura szívében található, a Tátrai Nemzeti Park határán. A több mint 1200 m hosszú, fából készült sétány akár 24 m magasan halad, és egy 32 m magas kilátótoronyban végződik, ahonnan lenyűgöző kilátás nyílik a Bélai-Tátrára, a Pieninekre és a Sądeci-Beszkidekre. Útközben oktató platformokat találsz a helyi növény- és állatvilágról. A bejárathoz gyalog vagy kényelmesen, kb. 7 perces kabinos felvonóval lehet feljutni.",
+                        "header2": "Mi vár rád az ösvényen?",
+                        "list": {
+                            "1": "Kilátás a Bélai-Tátrára",
+                            "2": "Séta a Szepesi-Magura erdeje felett",
+                            "3": "Kilátóteraszok",
+                            "4": "Ismeretterjesztő táblák a flóráról és faunáról"
+                        },
+                        "button1": "Foglalj online",
+                        "button2": "Galéria"
+                    },
+                    "2": {
+                        "header": "Csorba-tó – a Magas-Tátra gyöngyszeme",
+                        "text": "1346 m tengerszint feletti magasságban fekvő Štrbské Pleso a második legnagyobb tó a Tátra szlovák oldalán. Kristálytiszta vize visszatükrözi a hegycsúcsokat, a körülötte húzódó, kb. 2,5 km-es sétány pedig tökéletes a kellemes sétához. Nyáron csónak vagy kajak bérelhető, ősszel aranyló lombok övezik, télen pedig gyakran befagy, festői jégtájat alkotva. A környéken hangulatos kávézók, kilátópontok és ajándékboltok találhatók.",
+                        "header2": "Szezonális látnivalók",
+                        "list": {
+                            "1": "Csónak- és kajakbérlés nyáron",
+                            "2": "Őszi színek és nyugalom",
+                            "3": "Befagyott víztükör télen",
+                            "4": "Kávézók kilátással"
+                        },
+                        "button1": "Kirándulás részletei",
+                        "button2": "Kapcsolat"
+                    }
+                },
+                "why": {
+                    "header": "Miért érdemes ezt a kirándulást választani?",
+                    "1": "Két top szlovákiai látnivaló egy nap alatt – Bachledka + Csorba-tó",
+                    "2": "Kényelmes utazás és tapasztalt idegenvezető.",
+                    "3": "A sétaút babakocsival és mozgáskorlátozottak számára is alkalmas.",
+                    "4": "Egész éves program: mesés tél, üde zöld nyár, arany ősz"
+                },
                 "list": {
-                    "1": "A <strong>Bachledka lombkoronasétány</strong> egész évben látogatható, még télen is. A fák felett futó fahíd lenyűgöző <strong>panorámát nyújt a Bélai-Tátrára és a Pieninekre</strong>.",
-                    "2": "Az útvonal <strong>teljesen akadálymentesített</strong> – babakocsival és kerekesszékkel is könnyen bejárható. Oktató táblák, kilátópontok és egy <strong>csúszda</strong> is található a nagyobb gyerekek számára (120 cm felett).",
-                    "3": "A séta <strong>védett területen</strong> halad át, így ritka növényeket és állatokat is megfigyelhetünk természetes élőhelyükön. Télen különösen varázslatos a havas fák között.",
-                    "4": "A Bachledka után ellátogatunk <strong>Štrbské Pleso</strong>-hoz – a Magas-Tátra egyik legszebb helyéhez. A kristálytiszta tó, hegyvidéki kilátás és hangulatos kávézók tökéletes kikapcsolódást nyújtanak.",
-                    "5": "A szabadidő alatt (kb. 2 óra) sétálhatunk a tó körül, fényképezhetünk, kávézhatunk vagy szuveníreket vásárolhatunk. Kiváló alkalom arra, hogy élvezzük a <strong>szlovák Alpok hangulatát</strong>."
+                    "1": "A napot Zakopanéban kezdjük, ahonnan kényelmes járművel indulunk a Bachledova-völgybe. Itt a kabinos felvonó 7 perc alatt felvisz minket a Szepesi-Magura csúcsára.",
+                    "2": "A Lombkorona-ösvény több mint egy kilométer hosszú fából készült sétány, amely akár 24 méterrel a föld felett vezet, végén egy 32 méteres kilátótoronnyal. Az ösvény egész évben látogatható, és teljesen alkalmas családoknak és mozgáskorlátozottaknak. Útközben kilátóteraszok, oktató táblák a tátrai természetről, valamint egy csőcsúszda várja a nagyobb gyerekeket.",
+                    "3": "A Bachledkai látogatás után a Csorba-tóhoz indulunk – a Magas-Tátra egyik legfestőibb helyére. Kb. 2 óra szabadidő áll rendelkezésre, hogy nyugodtan körbesétáld a sétányt, kávézz egy hangulatos kávézóban, vagy vásárolj helyi szuvenírt. Évszaktól függetlenül a hegyek látványa a tó tükrében lenyűgöző."
                 },
                 "table": {
-                    "header1": "Jegy típusa",
-                    "header2": "Séta a fák koronájában",
+                    "header1": "Jegytípus",
+                    "header2": "Lombkorona-ösvény",
                     "1": "Normál jegy",
-                    "2": "Kedvezményes jegy (14 évig, 65 év feletti nyugdíjasok)",
-                    "additional": "Külön fizetendő (jegy a gondolás felvonóra oda-vissza + a fák koronája sétaútra)",
-                    "text": "* Az ár tartalmazza: a sofőr felügyeletét a kirándulás során, NNW biztosítást és transzfert Zakopanéból."
+                    "2": "Kedvezményes jegy (14 év alatt, 65+ nyugdíjasok)",
+                    "additional": "Külön díj (oda-vissza kabinos felvonó + lombkorona-ösvény belépő)",
+                    "text": "* Az ár tartalmazza: sofőr kíséretét a kirándulás során, balesetbiztosítást és utazást Zakopanéból"
                 },
                 "tripprogram": {
-                    "header": "Kirándulás programja (kb. 8-9 óra):",
+                    "header": "Kirándulás programja (kb. 8–9 óra):",
                     "1": "Transzfer Zakopanéból",
-                    "2": "Utazás a Bachledka gondolás felvonóval a Szepesi Magura csúcsára",
-                    "3": "Séta a fák koronája sétaúton",
-                    "4": "Lefelé utazás a felvonóval",
-                    "5": "Utazás Szczyrbskie Pleso-hoz (2 óra szabadidő) ** téli szezonban nem elérhető **",
-                    "6": "Indulás Zakopanéba",
-                    "7": "Visszautazás",
-                    "8": "Tervezett visszaérkezés",
-                    "text": "A látogatás befejezése után a gondolás felvonóval visszatérünk a parkolóba, ahonnan a Magas-Tátrán keresztül (Tatranská Lomnica, Ótátrafüred) Szczyrbskie Pleso-hoz utazunk. Itt szabadidőt kínálunk. Azok számára, akik szeretnének, a tó körüli séta körülbelül 40 percet vesz igénybe. Szczyrbskie Pleso – magyarul Szczyrbskie-tó. 1346 méter tengerszint feletti magasságban található. Gyakran hasonlítják a mi Morskie Oko-hoz. A tavat lucfenyőerdő veszi körül, amelyet 2004-ben egy hurrikán súlyosan megrongált. A település klimatikus gyógyhely státusszal rendelkezik, és jól ismert síközpont. Ez egy gyönyörű hely, és majdnem elveszett, mert a XIX. század közepén a környék lakói le akarták csapolni a körülbelül 20 hektáros tavat, hogy legelővé alakítsák. A bájos tó körüli séta után visszautazás Zakopanéba. A több mint 600 méter hosszú útvonal változatos erdőn vezet keresztül, tele meglepetésekkel és érdekességekkel.",
+                    "2": "Bachledkai kabinos felvonó a Szepesi-Magura csúcsára",
+                    "3": "Séta a Lombkorona-ösvényen",
+                    "4": "Visszaút a felvonóval",
+                    "5": "Utazás a Csorba-tóhoz (2 óra szabadidő) ** téli szezonban nem elérhető **",
+                    "6": "Utazás vissza Zakopanéba",
+                    "7": "Visszaút",
+                    "8": "Tervezett érkezés",
                     "button": "Részvételi feltételek",
-                    "text2": "Minden résztvevőnek érvényes útlevéllel vagy személyi igazolvánnyal kell rendelkeznie. Rossz időjárás vagy nem megfelelő ösvényviszonyok esetén fenntartjuk a jogot az útvonal vagy a látnivalók sorrendjének megváltoztatására. Az esemény törlésére a megfelelő számú résztvevő hiánya miatt legkésőbb az esemény kezdete előtt 1 nappal, 21:00-ig kerülhet sor. A kirándulás a Lengyel Köztársaság határain kívül valósul meg. Meg kell felelni a célországban – Szlovákiában – érvényes összes egészségügyi és járványügyi követelménynek."
+                    "text2": "Minden résztvevőnek érvényes útlevéllel vagy személyi igazolvánnyal kell rendelkeznie. Rossz időjárás vagy nem megfelelő útviszonyok esetén fenntartjuk a jogot az útvonal vagy a program sorrendjének módosítására. Az utazás a minimális létszám hiánya miatt legkésőbb az indulás előtti napon 21:00-ig törölhető. Az utazás Lengyelország határain kívül történik. A célországban – Szlovákia – érvényes egészségügyi és járványügyi előírásokat be kell tartani."
                 }
             },
             "jaskinia-bielanska": {

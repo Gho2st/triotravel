@@ -43,7 +43,7 @@ export default function Gallery({ images }) {
   const pauseAutoplay = () => setIsPaused(true);
 
   return (
-    <section className="relative bg-neutral-100 px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24 overflow-x-hidden">
+    <section id="galeria" className="relative bg-neutral-100 px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24 overflow-x-hidden">
       <div className="relative mt-10">
         <button
           onClick={() => {

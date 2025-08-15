@@ -5,15 +5,16 @@ import Image from "next/image";
 import Table from "@/app/UI/Table";
 import Gallery from "@/app/UI/Slider";
 import TripProgram from "@/app/UI/TripProgram";
-
 import { useTranslations } from "next-intl";
 import ButtonComponent from "./ButtonComponent";
-
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import CtaLink from "@/app/UI/CtaLink";
 import Slovakia from "@/app/UI/Slovakia";
 import TripTime from "@/app/UI/TripTime";
+import WhySpacer from "@/app/[locale]/wycieczki-jednodniowe/spacer-w-koronach-drzew/Why";
+import SzcybrskieJezioroSection from "@/app/[locale]/wycieczki-jednodniowe/spacer-w-koronach-drzew/Szczyrbskie";
+import SciezkaWBachledce from "@/app/[locale]/wycieczki-jednodniowe/spacer-w-koronach-drzew/SciezkaWBachledce";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -83,7 +84,10 @@ export default function Spacer() {
             strong: (chunks) => <strong>{chunks}</strong>,
           })}
         </p>
+        <SciezkaWBachledce t={t} />
+        <SzcybrskieJezioroSection t={t} />
         <Slovakia />
+        <WhySpacer t={t} />
         <div className="mt-16">
           <Table
             headers={tableHeaders}
@@ -91,20 +95,21 @@ export default function Spacer() {
             text={t("table.text")}
           />
         </div>
-        <div className="mt-16">
+        <div id="szczegoly-wycieczki" className="mt-16">
           <BackgroundList
             title={t("header3")}
-            items={Array.from({ length: 5 }, (_, i) =>
+            items={Array.from({ length: 3 }, (_, i) =>
               t.rich(`list.${i + 1}`, {
                 strong: (chunks) => <strong>{chunks}</strong>,
               })
             )}
-          />{" "}
+          />
           <TripProgram title={t("tripprogram.header")} items={tripItems} />
           <TripTime />
           <ButtonComponent />
         </div>
       </section>
+
       <Gallery
         images={[
           {
@@ -134,6 +139,18 @@ export default function Spacer() {
           {
             url: "/wycieczki/spacer-w-koronach-drzew/7.webp",
             alt: t("alt.8"),
+          },
+          {
+            url: "/wycieczki/spacer-w-koronach-drzew/8.webp",
+            alt: t("alt.9"),
+          },
+          {
+            url: "/wycieczki/spacer-w-koronach-drzew/9.webp",
+            alt: t("alt.10"),
+          },
+          {
+            url: "/wycieczki/spacer-w-koronach-drzew/10.webp",
+            alt: t("alt.11"),
           },
         ]}
       />

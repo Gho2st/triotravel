@@ -608,47 +608,82 @@
             },
             "spacer-w-koronach-drzew": {
                 "alt": {
-                    "1": "A tower situated in a mountainous landscape, with people walking on its structure. The scene includes green grass, trees, and a clear sky, showcasing the beauty of nature from a high vantage point.",
-                    "2": "A woman and a girl standing next to a wooden board with a rabbit, outdoors under a blue sky surrounded by trees and a fence. Both are wearing clothing suitable for outdoor activity, and there is visible footwear.",
+                    "1": "A tower located in a mountainous landscape, with people walking along its structure. The scene includes green grass, trees, and a clear sky, showcasing the beauty of nature from a high vantage point.",
+                    "2": "A woman and a girl standing by a wooden board with a rabbit on it, outdoors under a blue sky, surrounded by trees and a fence. Both are wearing clothing suitable for outdoor activities, with footwear also visible.",
                     "3": "Two gondolas suspended in the air above a lush green forest, with mountains in the background.",
-                    "4": "A group of people walking on a platform surrounded by trees, with a truck and other vehicles in the background. It's a sunny day during summer, and everyone is dressed in casual clothing and footwear.",
-                    "5": "A group of people sitting on a grassy field, surrounded by trees under a cloudy sky, with a playground and building in the background.",
-                    "6": "A person sitting in a gondola, surrounded by mountains and trees, with a clear sky and clouds in the background. The gondola is part of a ski tow transport system at a hill station.",
-                    "7": "A bridge with several people walking across it, surrounded by trees and under a partly cloudy sky.",
-                    "8": "A cable car traveling through a snowy landscape with a view of mountains under a clear sky."
+                    "4": "A group of people walking on a platform surrounded by trees, with a truck and other vehicles in the background. It’s a sunny summer day, and everyone is dressed in casual clothes and footwear.",
+                    "5": "A group of people sitting on a grassy field, surrounded by trees under a cloudy sky, with a playground and a building in the background.",
+                    "6": "A person sitting inside a gondola, surrounded by mountains and trees, with a clear sky and clouds in the background. The gondola is part of a ski lift at a mountain resort.",
+                    "7": "A bridge with several people walking on it, surrounded by trees under a partly cloudy sky.",
+                    "8": "A cable car traveling through a snowy landscape with a view of mountains under a clear sky.",
+                    "9": "Two rowboats on Štrbské Pleso Lake, with a view of the High Tatras and the Patria Hotel in the background.",
+                    "10": "A view of Štrbské Pleso Lake surrounded by forest and mountains, partially obscured by shrub branches.",
+                    "11": "Štrbské Pleso Lake seen through grass and a pine tree, with a panorama of the High Tatras and the Patria Hotel in the background."
                 },
-                "header": "Walk in the Treetops",
-                "header2": "Treetop Walk – Bachledka (Slovakia)",
-                "header3": "Tour Details and Practical Information",
-                "text": "The treetop walk in the Bachledova Valley is located in the heart of the picturesque <strong>Spis Magura</strong>, on the border of the Tatra National Park, near the village of Ždiar. This unique attraction lets you immerse yourself in the local forest and admire nature from a completely new perspective – from the height of the treetops. While walking the <strong>wooden path over 1200 meters long</strong>, you’ll discover many fascinating facts about local flora and fauna, including rare species of plants and animals. The trail ends with a <strong>32-meter-high observation tower</strong> offering panoramic views of the Tatra Mountains, the Pieniny range, and the surrounding area. The trip starts early in the morning from Zakopane toward the Bachledova Valley. At the site, a <strong>gondola lift</strong> awaits, taking you up to the top of Spis Magura in about 7 minutes. From there, it’s just a short walk to the entrance. This is an ideal option for nature lovers, families with children, and all who wish to spend time actively outdoors enjoying <strong>spectacular views</strong>.",
+                "header": "Walk in the Treetops – Trip from Zakopane to Bachledka",
+                "header2": "What You Will See During the Trip",
+                "header3": "Trip Details and Practical Information",
+                "text": "Discover Slovakia from a completely new perspective. This one-day trip from Zakopane combines two unique places: the Treetop Walk in Bachledka, where you can admire panoramic views of the Tatras, Pieniny, and Spišská Magura, and Štrbské Pleso, the jewel of the High Tatras with an alpine atmosphere. In just one day, you will see the most beautiful landscapes, hear fascinating facts about the local nature, and relax in the unique mountain surroundings.",
+                "offer": {
+                    "1": {
+                        "header": "Treetop Walk – Bachledka",
+                        "text": "The Treetop Walk in Bachledova Valley is located in the heart of picturesque Spišská Magura, on the border of the Tatra National Park. This wooden walkway, over 1200 m long, rises up to 24 m above the ground and ends with a 32 m observation tower offering panoramic views of the Belianske Tatras, Pieniny, and Beskid Sądecki. Along the way, you’ll pass educational platforms with information about the local flora and fauna. The entrance to the route can be reached on foot or conveniently by gondola lift (about 7 minutes).",
+                        "header2": "What Awaits You on the Route?",
+                        "list": {
+                            "1": "View of the Belianske Tatras",
+                            "2": "Walk above the forest of Spišská Magura",
+                            "3": "Observation terraces",
+                            "4": "Educational boards about fauna and flora"
+                        },
+                        "button1": "Book Online",
+                        "button2": "Gallery"
+                    },
+                    "2": {
+                        "header": "Štrbské Pleso – Jewel of the High Tatras",
+                        "text": "Located at 1,346 m above sea level, Štrbské Pleso is the second largest lake on the Slovak side of the Tatras. Its crystal-clear surface reflects the mountain peaks, and the surrounding promenade (about 2.5 km) provides perfect conditions for a walk. In summer, you can rent a boat or kayak; in autumn, the lake is surrounded by golden foliage; and in winter, it often freezes, creating picturesque icy landscapes. The area offers charming cafés, viewpoints, and souvenir shops.",
+                        "header2": "Seasonal Attractions",
+                        "list": {
+                            "1": "Boats and kayaks in summer",
+                            "2": "Autumn colors and tranquility",
+                            "3": "Frozen surface in winter",
+                            "4": "Cafés with a view"
+                        },
+                        "button1": "Trip Details",
+                        "button2": "Contact"
+                    }
+                },
+                "why": {
+                    "header": "Why Choose This Trip?",
+                    "1": "Two top attractions of Slovakia in one day – Bachledka + Štrbské Pleso",
+                    "2": "Comfortable transport and guidance from an experienced tour leader.",
+                    "3": "Route adapted for strollers and people with limited mobility.",
+                    "4": "Year-round attraction: fairy-tale winter, lush green summer, golden autumn"
+                },
                 "list": {
-                    "1": "<strong>The Bachledka Treetop Walk</strong> is open all year round, including in winter. The wooden path leads above the forest of Spis Magura, offering <strong>panoramic views of the Belianske Tatras and Pieniny Mountains</strong>.",
-                    "2": "The trail is <strong>fully adapted for people with limited mobility</strong> – it is suitable for baby strollers and wheelchairs. Along the way, there are educational stations, viewing platforms, and a <strong>tube slide</strong> for children over 120 cm tall.",
-                    "3": "The walk passes through a <strong>protected nature area</strong>, allowing visitors to observe rare plants and animals in their natural habitat. In winter, the path becomes especially magical, surrounded by snow-covered treetops.",
-                    "4": "After visiting Bachledka, we head to <strong>Štrbské Pleso</strong> – one of the most beautiful places in the High Tatras. The crystal-clear lake, mountain views, and cozy cafés create the perfect setting for relaxation.",
-                    "5": "During your free time (approx. 2 hours), you can stroll around the lake promenade, take scenic photos, enjoy coffee with a view, or browse local souvenir shops. It’s a great moment to soak in the <strong>Alpine atmosphere of Slovakia</strong>."
+                    "1": "You will start your day in Zakopane, from where we travel comfortably to Bachledova Valley. There, a gondola lift will take us to the top of Spišská Magura in 7 minutes.",
+                    "2": "The Treetop Walk is over a kilometer of wooden walkway rising up to 24 meters above the ground, ending with a 32-meter observation tower. The route is accessible all year round and fully adapted for families with children and people with limited mobility. Along the walk, you’ll find viewing platforms, educational boards about Tatra nature, and a tube slide for older children.",
+                    "3": "After visiting Bachledka, we head to Štrbské Pleso – one of the most picturesque places in the High Tatras. Around 2 hours of free time will allow you to take a leisurely walk along the promenade, enjoy coffee in a charming café, or buy local souvenirs. No matter the season, the sight of mountains reflected in the lake’s surface is breathtaking."
                 },
                 "table": {
                     "header1": "Ticket Type",
                     "header2": "Treetop Walk",
-                    "1": "Adult ticket",
-                    "2": "Reduced ticket (children up to 14 years, seniors 65+)",
-                    "additional": "Additional charges (gondola lift round-trip ticket + treetop walk)",
-                    "text": "* Price includes: driver's assistance during the trip, NNW insurance, and transport from Zakopane."
+                    "1": "Standard ticket",
+                    "2": "Reduced ticket (up to 14 years, seniors 65+)",
+                    "additional": "Extra charge (two-way gondola lift ticket + treetop walk ticket)",
+                    "text": "* Price includes: driver assistance during the trip, accident insurance, and transport from Zakopane"
                 },
                 "tripprogram": {
-                    "header": "Trip Program (approx. 8-9h):",
+                    "header": "Trip Program (approx. 8–9h):",
                     "1": "Transfer from Zakopane",
-                    "2": "Gondola ride to the summit of Spišská Magura",
-                    "3": "Treetop Walk",
-                    "4": "Gondola descent",
-                    "5": "Transfer to Štrbské Pleso (Free time 2 hours) ** Not available in winter season **",
-                    "6": "Return to Zakopane",
+                    "2": "Gondola lift ride to the top of Spišská Magura",
+                    "3": "Walk along the Treetop Walk",
+                    "4": "Descent by gondola",
+                    "5": "Transfer to Štrbské Pleso (2 hours free time) ** unavailable in the winter season **",
+                    "6": "Departure to Zakopane",
                     "7": "Return trip",
-                    "8": "Planned return",
-                    "text": "After the tour, we return by gondola to the parking lot, from where we head through the High Tatras (Tatranská Lomnica, Starý Smokovec) to Štrbské Pleso. Here, we invite you for free time. For those interested, a walk around the lake takes about 40 minutes. Štrbské Pleso—or Szczyrbskie Jezioro in Polish—is located at an altitude of 1346 m above sea level. Often compared to our Morskie Oko, the lake is surrounded by spruce forests, heavily damaged by a hurricane in 2004. This settlement has the status of a climatic health resort and is also a well-known ski resort. This beautiful place almost disappeared in the mid-19th century when locals wanted to drain it and turn it into pasture. After a walk around the picturesque lake, return to Zakopane. The over 600-meter-long route will take visitors through a species-diverse forest with many surprises and curiosities.",
-                    "button": "Participation Conditions",
-                    "text2": "Each participant must have a valid passport or ID card. In case of bad weather or unsuitable trail conditions, we reserve the right to change the trip route or sightseeing order. Cancellation due to insufficient participants may occur no later than 1 day before the trip by 9:00 PM. The trip takes place outside Poland. All sanitary-epidemiological conditions applicable in the destination country—Slovakia—must be met."
+                    "8": "Planned arrival",
+                    "button": "Terms of Participation",
+                    "text2": "Each participant must have a valid passport or ID card. In case of bad weather or unsuitable trail conditions, we reserve the right to change the trip route or sightseeing order. The trip may be canceled due to insufficient participants, no later than 1 day before departure by 9:00 PM. The trip takes place outside the borders of Poland. All sanitary and epidemiological requirements applicable in the destination country – Slovakia – must be met."
                 }
             },
             "jaskinia-bielanska": {
