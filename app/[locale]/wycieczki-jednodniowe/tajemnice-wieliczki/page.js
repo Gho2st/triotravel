@@ -43,7 +43,7 @@ export default function Wieliczka() {
     "6:00 - " + t("tripprogram.1"),
     "8:00 - " + t("tripprogram.2"),
     "11:30 - " + t("tripprogram.3"),
-    "11:30 - " + t("tripprogram.4"),
+    t("tripprogram.4"),
     "12:00 - 13:00 " + t("tripprogram.5"),
     "15:00 - " + t("tripprogram.6"),
   ];
@@ -99,6 +99,7 @@ export default function Wieliczka() {
             title={<>{t("tripprogram.header")}</>}
             items={tripItems}
           />
+          <p className="text-center mt-10 2xl:text-lg">{t("ad")}</p>
           <TripTime
             availableDays={["Śr", "Pt"]} // Przykład: wybrane dni
           />

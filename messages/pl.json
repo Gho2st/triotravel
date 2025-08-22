@@ -738,6 +738,7 @@
                 }
             },
             "wieliczka": {
+                "ad": "Odbiór z Zakopanego, Olczy, Kościeliska oraz innych lokalizacji – po kontakcie telefonicznym",
                 "alt": {
                     "1": "Drewniana konstrukcja z widocznymi belkami, z osobą stojącą w tle.",
                     "2": "Kamienna statua mężczyzny znajduje się w jaskini, otoczona skalnymi ścianami i nierównym gruntem.",
@@ -779,7 +780,7 @@
                     "1": "Wyjazd z Zakopanego",
                     "2": "Piesze zwiedzanie z Przewodnikiem Kopalni Soli (około 3 godziny)",
                     "3": "Zakończenie zwiedzania",
-                    "4": "Czas wolny (1h)",
+                    "4": "Czas wolny (około 1h - w zależności, może być przed lub po zwiedzaniu)",
                     "5": "Wyjazd do Zakopanego",
                     "6": "Planowany powrót"
                 }

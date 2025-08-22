@@ -738,6 +738,7 @@
                 }
             },
             "wieliczka": {
+                "ad": "Felvétel Zakopanéból, Olczából, Kościeliskóból és más helyszínekről – telefonos egyeztetés után",
                 "alt": {
                     "1": "Fából készült szerkezet látható gerendákkal, egy ember áll a háttérben.",
                     "2": "Egy kőszobor, amely egy férfit ábrázol, egy barlangban található, sziklás falakkal körülvéve és egyenetlen talajjal alatta.",
@@ -779,7 +780,7 @@
                     "1": "Indulás Zakopanéból",
                     "2": "Gyalogos látogatás idegenvezetővel a Sóbányában (kb. 3 óra)",
                     "3": "A látogatás befejezése",
-                    "4": "Szabadidő (1 óra)",
+                    "4": "Szabadidő (kb. 1 óra – a szervezéstől függően a túra előtt vagy után)",
                     "5": "Indulás Zakopanéba",
                     "6": "Tervezett visszaérkezés"
                 }

@@ -733,6 +733,7 @@
                 }
             },
             "wieliczka": {
+                "ad": "Pickup from Zakopane, Olcza, Kościelisko, and other locations – upon phone contact",
                 "alt": {
                     "1": "A wooden structure with visible beams, featuring a person standing in the background.",
                     "2": "A stone statue of a man is situated in a cave, with rocky walls surrounding it and the ground uneven beneath.",
@@ -774,7 +775,7 @@
                     "1": "Departure from Zakopane",
                     "2": "Guided tour of the Salt Mine (approx. 3 hours)",
                     "3": "End of the tour",
-                    "4": "Free time (1h)",
+                    "4": "Free time (about 1h – depending, may be before or after the tour)",
                     "5": "Return to Zakopane",
                     "6": "Planned return"
                 }
