@@ -99,6 +99,7 @@ export default function Budapeszt() {
           />
           <TripTime
             availableDays={["Pt"]} // Przykład: wybrane dni
+            details={t("details")}
           />
         </div>
         <BudapesztButtons />

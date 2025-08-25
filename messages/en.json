@@ -822,6 +822,7 @@
                 }
             },
             "wieden": {
+                "details": "Trips take place until September 15",
                 "alt": {
                     "1": "A horse-drawn carriage filled with people is in the foreground, with the Hofburg palace visible in the background. The scene takes place outdoors, showcasing a clear sky and city atmosphere.",
                     "2": "A fountain in front of a building, surrounded by grass and trees, under a cloudy sky.",
@@ -878,6 +879,7 @@
                 }
             },
             "budapeszt": {
+                "details": "Trips take place until September 15",
                 "alt": {
                     "1": "A cityscape view of Budapest with the Chain Bridge over the Danube River, a boat on the water, and St. Stephen's Basilica prominent in the background under a blue sky.",
                     "2": "A river reflecting the city lights at night, with a bridge spanning across it. The scene captures a blend of urban buildings and natural elements under a darkening sky.",

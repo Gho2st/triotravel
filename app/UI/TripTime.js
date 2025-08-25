@@ -5,6 +5,7 @@ export default function TripTime({
   availableDays = ["Pon", "Wt", "Śr", "Czw", "Pt", "Sob", "Nd"], // Domyślne dni w polskim formacie
   showCallInfo = false,
   isKasprowy = false,
+  details = false,
 }) {
   const t = useTranslations("triptime");
 
@@ -126,6 +127,8 @@ export default function TripTime({
       {showCallInfo && (
         <p className="text-gray-500 italic mt-10">{t("call")}</p>
       )}
+
+      {details && <p className="text-gray-500 italic mt-6">{details}</p>}
     </section>
   );
 }

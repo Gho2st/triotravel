@@ -99,6 +99,7 @@ export default function Wieden() {
           />
           <TripTime
             availableDays={["Śr"]} // Przykład: wybrane dni
+            details={t("details")}
           />
         </div>
         <WiedenButtons />

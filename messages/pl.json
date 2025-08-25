@@ -827,6 +827,7 @@
                 }
             },
             "wieden": {
+                "details": "Wyjazdy odbywają się do 15 września",
                 "alt": {
                     "1": "Bryczka konna pełna ludzi na pierwszym planie, z pałacem Hofburg widocznym w tle. Scena rozgrywa się na zewnątrz, prezentując czyste niebo i miejską atmosferę.",
                     "2": "Fontanna przed budynkiem, otoczona trawą i drzewami, pod pochmurnym niebem.",
@@ -883,6 +884,7 @@
                 }
             },
             "budapeszt": {
+                "details": "Wyjazdy odbywają się do 15 września",
                 "alt": {
                     "1": "Widok miejski Budapesztu z Mostem Łańcuchowym nad Dunajem, łódką na wodzie i bazyliką św. Stefana widoczną na tle błękitnego nieba.",
                     "2": "Rzeka odbijająca światła miasta nocą, z mostem rozciągającym się nad nią. Scena przedstawia połączenie miejskich budynków i naturalnych elementów pod ciemniejącym niebem.",

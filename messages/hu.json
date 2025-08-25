@@ -827,6 +827,7 @@
                 }
             },
             "wieden": {
+                "details": "Az utazások szeptember 15-ig zajlanak",
                 "alt": {
                     "1": "Egy emberekkel teli lovas kocsi az előtérben, a háttérben a Hofburg palotával. A jelenet szabadtéren zajlik, tiszta égboltot és városi hangulatot mutatva.",
                     "2": "Egy szökőkút egy épület előtt, füves terület és fák veszik körül, felhős égbolt alatt.",
@@ -883,6 +884,7 @@
                 }
             },
             "budapeszt": {
+                "details": "Az utazások szeptember 15-ig zajlanak",
                 "alt": {
                     "1": "Budapest városképének kilátása a Lánchíddal a Duna felett, egy hajóval a vízen és a Szent István-bazilikával, amely kiemelkedik a kék ég alatt.",
                     "2": "Egy folyó, amely a város fényeit tükrözi éjszaka, egy híddal, amely átível rajta. A jelenet városi épületeket és természeti elemeket ötvöz a sötétedő ég alatt.",
