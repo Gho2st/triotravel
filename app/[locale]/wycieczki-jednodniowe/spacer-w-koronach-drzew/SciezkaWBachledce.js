@@ -15,9 +15,9 @@ export default function SciezkaWBachledce({ t }) {
           <h3 className="text-xl font-medium mt-6 mb-3">
             {t("offer.1.header2")}
           </h3>
-          <ul className="grid grid-cols-2 gap-4 text-gray-800">
+          <ul className="grid grid-cols-2 gap-2 sm:gap-4 text-sm sm:text-base text-gray-800">
             <li className="flex items-center gap-2">
-              <Mountain className="text-indigo-500 w-5 h-5" />{" "}
+              <Mountain className="text-indigo-500 w-5 h-5" />
               {t("offer.1.list.1")}
             </li>
             <li className="flex items-center gap-2">
