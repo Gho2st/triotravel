@@ -1,8 +1,8 @@
 import Header from "@/app/UI/Header";
-
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import Link from "next/link";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -12,8 +12,7 @@ export async function generateMetadata({ params }) {
     namespace: "metadata.polityka-cookies",
   });
 
-  const path = routing.pathnames["/polityka-cookies"][locale]; // Pobieramy ścieżkę dla języka
-  // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
+  const path = routing.pathnames["/polityka-cookies"][locale];
   const canonicalUrl =
     locale === "pl"
       ? `https://triotravel.pl${path}`
@@ -30,6 +29,18 @@ export async function generateMetadata({ params }) {
 
 export default function PolitykaCookies() {
   const t = useTranslations("polityka-cookies");
+  const tWhich = useTranslations("polityka-cookies.which.list");
+  const tAnalytics = useTranslations(
+    "polityka-cookies.which.list.analytics.items"
+  );
+  const tAdvertising = useTranslations(
+    "polityka-cookies.which.list.advertising.items"
+  );
+  const tHow = useTranslations("polityka-cookies.how.list");
+  const tBrowsers = useTranslations("polityka-cookies.how.browsers.links");
+  const tHowLong = useTranslations("polityka-cookies.howlong.list");
+  const tTransfer = useTranslations("polityka-cookies.transfer.links");
+  const tContact = useTranslations("polityka-cookies.contact.details");
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -41,13 +52,24 @@ export default function PolitykaCookies() {
           <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
             {t("which.header")}
           </h2>
-          <ul className="list-decimal pl-6 space-y-4 text-gray-700">
-            <li>{t("which.list.1")}</li>
+          <ul className="list-disc pl-6 space-y-4 text-gray-700">
             <li>
-              {t("which.list.header")}:
+              <strong>{tWhich("essential.header")}</strong>:{" "}
+              {tWhich("essential.text")}
+            </li>
+            <li>
+              <strong>{tWhich("analytics.header")}</strong>:{" "}
+              {tWhich("analytics.text")}
               <ul className="list-disc pl-6 mt-2 space-y-2">
-                <li>{t("which.list.2")}</li>
-                <li>{t("which.list.3")}</li>
+                <li>{tAnalytics("ga4")}</li>
+                <li>{tAnalytics("clarity")}</li>
+              </ul>
+            </li>
+            <li>
+              <strong>{tWhich("advertising.header")}</strong>:{" "}
+              {tWhich("advertising.text")}
+              <ul className="list-disc pl-6 mt-2 space-y-2">
+                <li>{tAdvertising("googleAds")}</li>
               </ul>
             </li>
           </ul>
@@ -62,55 +84,56 @@ export default function PolitykaCookies() {
           <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
             {t("how.header")}
           </h2>
-          <p className="text-gray-700 leading-relaxed mb-4"> {t("how.text")}</p>
+          <p className="text-gray-700 leading-relaxed mb-4">{t("how.text")}</p>
           <ul className="list-disc pl-6 space-y-2 text-gray-700">
-            <li>{t("how.list.1")}</li>
-            <li>{t("how.list.2")}</li>
-            <li>{t("how.list.3")}</li>
+            <li>{tHow("acceptAll")}</li>
+            <li>{tHow("rejectNonEssential")}</li>
+            <li>{tHow("customize")}</li>
+            <li>{tHow("manage")}</li>
           </ul>
           <p className="text-gray-700 leading-relaxed mt-4">
-            {t("how.list.text")}
+            {t("how.browsers.text")}
           </p>
           <ul className="list-disc pl-6 space-y-2 text-gray-700 mt-2">
             <li>
-              <a
-                href="https://support.google.com/chrome/answer/95647"
+              <Link
+                href={tBrowsers("chrome").match(/\((.*?)\)/)[1]}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
               >
                 Google Chrome
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="https://support.mozilla.org/pl/kb/usuwanie-ciasteczek-i-danych-stron"
+              <Link
+                href={tBrowsers("firefox").match(/\((.*?)\)/)[1]}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
               >
                 Firefox
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="https://support.apple.com/pl-pl/guide/safari/sfri11471/mac"
+              <Link
+                href={tBrowsers("safari").match(/\((.*?)\)/)[1]}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
               >
                 Safari
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="https://support.microsoft.com/pl-pl/help/17442/windows-internet-explorer-delete-manage-cookies"
+              <Link
+                href={tBrowsers("edge").match(/\((.*?)\)/)[1]}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
               >
                 Microsoft Edge
-              </a>
+              </Link>
             </li>
           </ul>
 
@@ -121,19 +144,72 @@ export default function PolitykaCookies() {
             {t("howlong.text")}
           </p>
           <ul className="list-disc pl-6 space-y-2 text-gray-700">
-            <li>{t("howlong.list.1")}</li>
-            <li>{t("howlong.list.2")}</li>
+            <li>{tHowLong("essential")}</li>
+            <li>{tHowLong("analytics")}</li>
+            <li>{tHowLong("advertising")}</li>
           </ul>
 
-          <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4"></h2>
-          <p className="text-gray-700 leading-relaxed">
-            <a
-              href="mailto:biuro@triotravel.eu"
-              className="text-blue-600 hover:underline"
-            >
-              biuro@triotravel.eu
-            </a>
+          <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
+            {t("transfer.header")}
+          </h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            {t("transfer.text")}
           </p>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li>
+              <Link
+                href={tTransfer("google").match(/\((.*?)\)/)[1]}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                Polityka prywatności Google
+              </Link>
+            </li>
+            <li>
+              <Link
+                href={tTransfer("microsoft").match(/\((.*?)\)/)[1]}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                Polityka prywatności Microsoft
+              </Link>
+            </li>
+          </ul>
+
+          <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
+            {t("change.header")}
+          </h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            {t("change.text")}
+          </p>
+
+          <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
+            {t("contact.header")}
+          </h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            {t("contact.text")}
+          </p>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li>
+              <Link
+                href={tContact("email").match(/\((.*?)\)/)[1]}
+                className="text-blue-600 hover:underline"
+              >
+                {tContact("email").replace(/\[|\]/g, "")}
+              </Link>
+            </li>
+            <li>
+              <Link
+                href={tContact("phone").match(/\((.*?)\)/)[1]}
+                className="text-blue-600 hover:underline"
+              >
+                {tContact("phone").replace(/\[|\]/g, "")}
+              </Link>
+            </li>
+            <li>{tContact("address")}</li>
+          </ul>
         </section>
       </div>
     </div>

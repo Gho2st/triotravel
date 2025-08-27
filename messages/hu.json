@@ -1680,7 +1680,7 @@
             "title": "Kirándulások Zakopanéból - Trio Travel Utazási Iroda Ajánlata",
             "description": "Fedezd fel zakopanei kirándulásaink ajánlatát! Dunajec-rafting, Krakkó és Wieliczka látogatása, valamint más egynapos túrák. Nézd meg a flipbookot, és tervezz felejthetetlen kalandot a Trio Travellel!"
         },
-        "suti-szabalyzat": {
+        "polityka-cookies": {
             "title": "Süti szabályzatunk",
             "description": "Tudd meg, hogyan használunk sütiket a triotravel.pl oldalon, hogy a legjobb élményt nyújtsuk, személyre szabjuk a tartalmat és elemezzük a weboldal forgalmát. Nézd meg, hogyan kezelheted a süti beállításokat!"
         }
@@ -1712,61 +1712,112 @@
         "kasprowyDaily": "Sorban állás nélküli jegyek minden nap elérhetők."
     },
     "polityka-cookies": {
-        "header": "Süti szabályzat",
-        "text": "A triotravel.pl weboldalon sütiket használunk, hogy a legjobb felhasználói élményt nyújtsuk, támogassuk a weboldal működését és elemezzük a forgalmat. Az alábbiakban elmagyarázzuk, milyen sütiket használunk, milyen célból, és hogyan kezelheted őket.",
+        "header": "Sütikre vonatkozó irányelvek",
+        "text": "A triotravel.pl weboldalon sütiket használunk a legjobb felhasználói élmény biztosítása, a weboldal funkcionalitásának támogatása, a forgalom elemzése és személyre szabott hirdetések megjelenítése érdekében. Az alábbiakban elmagyarázzuk, milyen sütiket használunk, milyen célból, és hogyan kezelheted őket.",
         "which": {
             "header": "Milyen sütiket használunk?",
             "list": {
-                "header": "Analitikai sütik",
-                "1": "Alapvető sütik: Ezek teszik lehetővé a weboldal működését, például megjegyzik a nyelvi beállításaidat (a Next-Intl segítségével) vagy lehetővé teszik az online foglalási funkciók használatát. Ezek a sütik elengedhetetlenek, és nem igényelnek hozzájárulást.",
-                "2": "Google Analytics 4 (Google Tag Manageren keresztül): Ezeket a weboldal forgalmának elemzésére használjuk, például a látogatások számának, az oldalon töltött időnek vagy a forgalom forrásainak elemzésére. Az adatokat a Google-nak (USA) továbbítjuk az oldal optimalizálása érdekében.",
-                "3": "Microsoft Clarity: Hőtérképek készítésére és anonim munkamenet-felvételekhez használjuk, hogy megértsük, hogyan használják a felhasználók az oldalt, és javítsuk annak használhatóságát. Az adatok anonimizáltak és a Microsoftnak (USA) kerülnek továbbításra."
+                "essential": {
+                    "header": "Alapvető sütik",
+                    "text": "Ezek lehetővé teszik a weboldal működését, például megjegyzik a nyelvi beállításaidat (a Next-Intl segítségével) vagy lehetővé teszik az online foglalási funkciók használatát. Ezek a sütik elengedhetetlenek, és nem igényelnek hozzájárulást."
+                },
+                "analytics": {
+                    "header": "Analitikai sütik",
+                    "text": "Ezek a sütik csak az Ön hozzájárulásával aktiválódnak a süti banner segítségével.",
+                    "items": {
+                        "ga4": "Google Analytics 4 (Google Tag Manageren keresztül): A weboldal forgalmának elemzésére használjuk, például a látogatások száma, az oldalon töltött idő vagy a látogatások forrásai alapján. Az adatok a Google-hoz (USA) kerülnek továbbításra a weboldal optimalizálása és használhatóságának javítása érdekében.",
+                        "clarity": "Microsoft Clarity: Hőtérképek készítésére és anonim munkamenet-felvételekre használjuk, hogy megértsük, hogyan használják a felhasználók a weboldalt, és javítsuk annak funkcionalitását. Az adatok anonimizáltak és a Microsofthoz (USA) kerülnek továbbításra."
+                    }
+                },
+                "advertising": {
+                    "header": "Hirdetési sütik",
+                    "text": "Ezek a sütik csak az Ön hozzájárulásával aktiválódnak a süti banner segítségével.",
+                    "items": {
+                        "googleAds": "Google Ads (Google Tag Manageren keresztül): Személyre szabott hirdetések megjelenítésére használjuk, például remarketingre, az Ön weboldalon végzett viselkedése alapján. Az adatok a Google-hoz (USA) kerülnek továbbításra a hirdetési kampányok optimalizálása érdekében."
+                    }
+                }
             }
         },
         "additional": {
             "header": "További eszközök",
-            "text": "A Google Search Console-t is használjuk, amely nem használ sütiket, de segít figyelemmel kísérni a weboldal teljesítményét a Google keresési eredményekben, például kulcsszavak elemzésével és az SEO javításával."
+            "text": "A Google Search Console-t használjuk, amely nem használ sütiket, de segít figyelemmel kísérni a weboldal teljesítményét a Google keresési eredményekben, például kulcsszavak elemzésével és SEO javításával."
         },
         "how": {
             "header": "Hogyan kezelheted a sütiket?",
-            "text": "Az első látogatásod során a weboldalunkon megjelenítünk egy süti bannert, amely lehetővé teszi, hogy:",
+            "text": "Az első látogatáskor a weboldalunkon megjelenítünk egy süti bannert, amely lehetővé teszi számodra, hogy:",
             "list": {
-                "1": "Elfogadd az összes sütit.",
-                "2": "Elutasítsd az analitikai sütiket.",
-                "3": "Testreszabd a beállításokat, kiválasztva, hogy mely süti kategóriákhoz adsz hozzájárulást.",
-                "text": "A sütiket a böngésződ beállításaiban is kezelheted. Íme útmutatók a népszerű böngészőkhöz:"
+                "acceptAll": "Elfogadja az összes sütit, beleértve az analitikai (Google Analytics 4, Microsoft Clarity) és hirdetési (Google Ads) sütiket.",
+                "rejectNonEssential": "Elutasítja az analitikai és hirdetési sütiket, ami azt jelenti, hogy nem használjuk a Google Analytics 4, Microsoft Clarity vagy Google Ads szolgáltatásokat az Ön tevékenységének nyomon követésére.",
+                "customize": "Testreszabhatja a beállításokat, kiválasztva, hogy mely sütikategóriákhoz járul hozzá (például csak hirdetési vagy csak analitikai sütik).",
+                "manage": "Az Ön preferenciái a böngésző memóriájában (`localStorage`) kerülnek tárolásra, és a későbbi látogatások során alkalmazásra kerülnek. Bármikor módosíthatja a beállításokat a weboldal láblécében található 'Hozzájárulás kezelése' gombra kattintva, vagy törölheti a sütiket a böngésző beállításaiban."
+            },
+            "browsers": {
+                "text": "A sütiket a böngésző beállításaiban is kezelheti. Íme az útmutatók a népszerű böngészőkhöz:",
+                "links": {
+                    "chrome": "[Google Chrome](https://support.google.com/chrome/answer/95647)",
+                    "firefox": "[Firefox](https://support.mozilla.org/hu/kb/sutik-torlese-weboldalak-adatai)",
+                    "safari": "[Safari](https://support.apple.com/hu-hu/guide/safari/sfri11471/mac)",
+                    "edge": "[Microsoft Edge](https://support.microsoft.com/hu-hu/microsoft-edge/s%C3%BCtik-t%C3%B6rl%C3%A9se-a-microsoft-edge-ben-63947406-40ac-c3b8-57b9-2a946a29ae09)"
+                }
             }
         },
         "howlong": {
             "header": "Meddig tároljuk a sütiket?",
             "text": "A sütik tárolási ideje a típusuktól függ:",
             "list": {
-                "1": "Alapvető sütik: Ezek általában a munkamenet végeztével vagy rövid időn belül (például néhány nap) lejárnak.",
-                "2": "Analitikai sütik: Akár 2 évig is tárolhatók (például Google Analytics 4)."
+                "essential": "Alapvető sütik: Általában a munkamenet végén lejárnak vagy rövid időn belül (például néhány nap).",
+                "analytics": "Analitikai sütik: Akár 2 évig is tárolhatók (például Google Analytics 4, Microsoft Clarity).",
+                "advertising": "Hirdetési sütik: Akár 2 évig is tárolhatók (például Google Ads)."
             }
+        },
+        "transfer": {
+            "header": "Adattovábbítás harmadik országokba",
+            "text": "A Google Analytics 4, Google Ads (Google Tag Manageren keresztül) és Microsoft Clarity által gyűjtött adatok az USA-ba kerülnek továbbításra. Az adattovábbítás megfelel a GDPR követelményeinek, az adatvédelmi standard szerződési feltételek (SCC) vagy más jóváhagyott adatvédelmi mechanizmusok alapján. További információkért lásd az adatvédelmi irányelveket:",
+            "links": {
+                "google": "[Google Adatvédelmi Irányelvek](https://policies.google.com/privacy)",
+                "microsoft": "[Microsoft Adatvédelmi Nyilatkozat](https://privacy.microsoft.com/hu-hu/privacystatement)"
+            }
+        },
+        "change": {
+            "header": "Hogyan változtathatod meg a hozzájárulási beállításokat?",
+            "text": "Ha meg szeretnéd változtatni a süti preferenciáidat, töröld a sütiket a böngésző beállításaiban, ami a következő látogatáskor újra megjeleníti a süti bannert."
         },
         "contact": {
             "header": "Kapcsolat",
-            "text": "Ha kérdéseid vannak a süti szabályzatunkkal vagy az adatfeldolgozással kapcsolatban, kérjük, vedd fel velünk a kapcsolatot:"
+            "text": "Ha kérdéseid vannak a sütikre vonatkozó irányelveinkkel vagy az adatkezeléssel kapcsolatban, kérjük, lépj kapcsolatba velünk:",
+            "details": {
+                "email": "[biuro@triotravel.eu](mailto:biuro@triotravel.eu)",
+                "phone": "[+48 881 201 205](tel:+48881201205)",
+                "address": "ul. Kościuszki 23A, 34-500 Zakopane"
+            }
         },
-        "baner": {
-            "text": "Szia! Sütiket használunk (például Google Analytics, Microsoft Clarity), hogy a triotravel.pl oldalon tett látogatásod még jobb legyen – a személyre szabástól a forgalom elemzéséig. Teljes ellenőrzésed van a beállítások felett!",
+        "banner": {
+            "header": "Hozzájárulás a sütikhez",
+            "text": "Szia! Sütiket használunk (például Google Analytics, Microsoft Clarity, Google Ads), hogy a triotravel.pl látogatása még jobb legyen – a személyre szabástól a forgalom elemzéséig. Teljes kontrollod van a beállítások felett!",
             "link": "Tudj meg többet",
             "buttons": {
-                "1": "Mindent elfogad",
-                "2": "Testreszabás",
-                "3": "Elutasít"
+                "acceptAll": "Mindent elfogad",
+                "customize": "Testreszabás",
+                "rejectAll": "Elutasít"
             },
             "settings": {
                 "header": "Süti beállítások",
-                "text": "Kiválaszthatod, mely sütiket szeretnéd elfogadni. Az alapvető sütik mindig engedélyezve vannak, hogy a weboldal megfelelően működjön.",
-                "1": "Alapvető sütik (mindig aktívak)",
-                "2": "Lehetővé teszik a weboldal működését, például a nyelvi beállítások megjegyzését.",
-                "3": "Analitikai sütik",
-                "text2": "Segítenek a forgalom elemzésében és a felhasználói élmény javításában (például Google Analytics, Microsoft Clarity).",
+                "text": "Kiválaszthatod, mely sütiket szeretnéd elfogadni. Az alapvető sütik mindig aktívak, hogy a weboldal megfelelően működjön.",
+                "essential": {
+                    "label": "Alapvető sütik (mindig aktívak)",
+                    "description": "Biztosítják a weboldal működését, például a nyelvi beállítások megjegyzését."
+                },
+                "analytics": {
+                    "label": "Analitikai sütik",
+                    "description": "Segítenek a forgalom elemzésében és az UX javításában (például Google Analytics, Microsoft Clarity)."
+                },
+                "advertising": {
+                    "label": "Hirdetési sütik",
+                    "description": "Lehetővé teszik a személyre szabott hirdetéseket (például Google Ads)."
+                },
                 "buttons": {
-                    "1": "Beállítások mentése",
-                    "2": "Mégse"
+                    "save": "Beállítások mentése",
+                    "cancel": "Mégse"
                 }
             }
         }
