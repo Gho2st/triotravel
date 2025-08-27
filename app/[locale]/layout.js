@@ -5,8 +5,8 @@ import "../globals.css";
 import { notFound } from "next/navigation";
 import { getMessages } from "next-intl/server";
 import ClientBody from "../UI/ClientBody";
-import { GoogleTagManager } from "@next/third-parties/google";
-import Script from "next/script";
+import CookieBanner from "@/app/UI/CookieBanner";
+import Analytics from "@/app/UI/Analytics";
 
 const font = Poppins({
   subsets: ["latin"],
@@ -14,7 +14,6 @@ const font = Poppins({
 });
 
 export const metadata = {
-  // Open Graph
   openGraph: {
     type: "website",
     url: "https://triotravel.pl/",
@@ -36,21 +35,14 @@ export default async function LocaleLayout({ children, params }) {
 
   return (
     <html lang={locale}>
-      <GoogleTagManager gtmId="GTM-M8ZVL5X6" />
       <body>
         <NextIntlClientProvider messages={messages}>
-          <ClientBody fontClassName={font.className}>{children}</ClientBody>
+          <ClientBody fontClassName={font.className}>
+            <CookieBanner />
+            <Analytics />
+            {children}
+          </ClientBody>
         </NextIntlClientProvider>
-        {/* Microsoft Clarity Script */}
-        <Script id="microsoft-clarity-analytics" strategy="afterInteractive">
-          {`
-            (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "se6dbhfcmd");
-          `}
-        </Script>
       </body>
     </html>
   );
