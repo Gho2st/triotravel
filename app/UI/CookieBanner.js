@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 export default function CookieBanner() {
   const [consent, setConsent] = useState(null);
@@ -76,12 +77,12 @@ export default function CookieBanner() {
         Cześć! Używamy cookies (np. Google Analytics, Microsoft Clarity), aby
         Twoja wizyta na <strong>triotravel.pl</strong> była jeszcze lepsza – od
         personalizacji po analizę ruchu. Masz pełną kontrolę nad ustawieniami!{" "}
-        <a
+        <Link
           href="/polityka-cookies"
           className="underline hover:text-blue-400 transition-colors"
         >
           Dowiedz się więcej
-        </a>
+        </Link>
         .
       </p>
       <div className="flex gap-2">
