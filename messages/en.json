@@ -1674,6 +1674,10 @@
         "oferta": {
             "title": "Tours from Zakopane - Trio Travel Agency Offer",
             "description": "Discover our tour offer from Zakopane! Dunajec rafting, visits to Krakow, Wieliczka, and other day trips. Check the flipbook and plan an unforgettable adventure with Trio Travel!"
+        },
+        "cookie-policy": {
+            "title": "Our Cookie Policy",
+            "description": "Learn how we use cookies on triotravel.pl to provide you with the best experience, personalize content, and analyze website traffic. Check how you can manage your cookie settings!"
         }
     },
     "triptime": {
@@ -1701,5 +1705,65 @@
         "noDays": "No days available for the trip.",
         "call": "The trip is available only after a phone inquiry.",
         "kasprowyDaily": "Skip-the-line tickets available daily."
+    },
+    "polityka-cookies": {
+        "header": "Cookie Policy",
+        "text": "On the triotravel.pl website, we use cookies to provide the best user experience, support website functionality, and analyze traffic. Below, we explain what cookies we use, for what purpose, and how you can manage them.",
+        "which": {
+            "header": "What cookies do we use?",
+            "list": {
+                "header": "Analytical cookies",
+                "1": "Essential cookies: These enable the website to function, e.g., by remembering your language settings (via Next-Intl) or enabling online booking features. These cookies are essential and do not require your consent.",
+                "2": "Google Analytics 4 (via Google Tag Manager): We use these to analyze website traffic, e.g., the number of visits, time spent on the site, or traffic sources. Data is sent to Google (USA) to optimize the website.",
+                "3": "Microsoft Clarity: We use this to create heatmaps and anonymous session recordings, which help us understand how users interact with the site and improve its usability. Data is anonymized and sent to Microsoft (USA)."
+            }
+        },
+        "additional": {
+            "header": "Additional tools",
+            "text": "We also use Google Search Console, which does not use cookies but helps us monitor the website's performance in Google search results, e.g., by analyzing keywords and improving SEO."
+        },
+        "how": {
+            "header": "How to manage cookies?",
+            "text": "During your first visit to our website, we display a cookie banner that allows you to:",
+            "list": {
+                "1": "Accept all cookies.",
+                "2": "Reject analytical cookies.",
+                "3": "Customize settings by selecting which cookie categories you consent to.",
+                "text": "You can also manage cookies in your browser settings. Here are instructions for popular browsers:"
+            }
+        },
+        "howlong": {
+            "header": "How long do we store cookies?",
+            "text": "The storage duration of cookies depends on their type:",
+            "list": {
+                "1": "Essential cookies: These typically expire after the session ends or within a short period (e.g., a few days).",
+                "2": "Analytical cookies: These may be stored for up to 2 years (e.g., Google Analytics 4)."
+            }
+        },
+        "contact": {
+            "header": "Contact",
+            "text": "If you have any questions about our cookie policy or data processing, please contact us:"
+        },
+        "baner": {
+            "text": "Hello! We use cookies (e.g., Google Analytics, Microsoft Clarity) to make your visit to triotravel.pl even better – from personalization to traffic analysis. You have full control over your settings!",
+            "link": "Learn more",
+            "buttons": {
+                "1": "Accept All",
+                "2": "Customize",
+                "3": "Reject"
+            },
+            "settings": {
+                "header": "Cookie Settings",
+                "text": "You can choose which cookies you want to accept. Essential cookies are always enabled to ensure the website functions properly.",
+                "1": "Essential Cookies (always active)",
+                "2": "Enable website functionality, e.g., remembering language settings.",
+                "3": "Analytical Cookies",
+                "text2": "Help us analyze traffic and improve UX (e.g., Google Analytics, Microsoft Clarity).",
+                "buttons": {
+                    "1": "Save Settings",
+                    "2": "Cancel"
+                }
+            }
+        }
     }
 }

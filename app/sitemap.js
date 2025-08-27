@@ -356,5 +356,16 @@ export default function sitemap() {
         },
       },
     },
+    {
+      url: `${baseUrl}/polityka-cookies`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/cookie-policy`,
+          ar: `${baseUrl}/ar/siyasat-cookies`,
+          hu: `${baseUrl}/hu/suti-szabalyzat`,
+        },
+      },
+    },
   ];
 }

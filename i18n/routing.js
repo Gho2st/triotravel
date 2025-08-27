@@ -200,12 +200,17 @@ export const routing = defineRouting({
       ar: "/haqaeq-mumti3a-3an-rihlat-dunajec",
       hu: "/erdekessegek-a-dunajeci-turarol",
     },
-
     "/oferta": {
       pl: "/oferta",
       en: "/offer",
       ar: "/alttaref",
       hu: "/ajanlat",
+    },
+    "/polityka-cookies": {
+      pl: "/polityka-cookies",
+      en: "/cookie-policy",
+      ar: "/siyasat-cookies",
+      hu: "/suti-szabalyzat",
     },
   },
 });

@@ -1,76 +1,75 @@
 import Header from "@/app/UI/Header";
 
+import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
+import { routing } from "@/i18n/routing";
+
+export async function generateMetadata({ params }) {
+  const resolvedParams = await params;
+  const { locale } = resolvedParams;
+  const t = await getTranslations({
+    locale,
+    namespace: "metadata.polityka-cookies",
+  });
+
+  const path = routing.pathnames["/polityka-cookies"][locale]; // Pobieramy ścieżkę dla języka
+  // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
+  const canonicalUrl =
+    locale === "pl"
+      ? `https://triotravel.pl${path}`
+      : `https://triotravel.pl/${locale}${path}`;
+
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: canonicalUrl,
+    },
+  };
+}
+
 export default function PolitykaCookies() {
+  const t = useTranslations("polityka-cookies");
+
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header text="Polityka Cookies" />
+      <Header text={t("header")} />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <section className="bg-white rounded-lg shadow-md p-8 mb-8">
-          <p className="text-gray-700 leading-relaxed mb-6">
-            Na stronie <strong>triotravel.pl</strong> stosujemy pliki cookies,
-            aby zapewnić najlepsze doświadczenie użytkownika, wspierać
-            funkcjonalność strony oraz analizować ruch. Poniżej wyjaśniamy,
-            jakie cookies stosujemy, w jakim celu i jak możesz nimi zarządzać.
-          </p>
+          <p className="text-gray-700 leading-relaxed mb-6">{t("text")}</p>
 
           <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-            Jakie cookies stosujemy?
+            {t("which.header")}
           </h2>
           <ul className="list-decimal pl-6 space-y-4 text-gray-700">
+            <li>{t("which.list.1")}</li>
             <li>
-              <strong>Niezbędne cookies</strong>: Umożliwiają działanie strony,
-              np. zapamiętują Twoje ustawienia językowe (poprzez Next-Intl) lub
-              umożliwiają korzystanie z funkcji rezerwacji online. Te cookies są
-              niezbędne i nie wymagają Twojej zgody.
-            </li>
-            <li>
-              <strong>Analityczne cookies</strong>:
+              {t("which.list.header")}:
               <ul className="list-disc pl-6 mt-2 space-y-2">
-                <li>
-                  <strong>Google Analytics 4 (via Google Tag Manager)</strong>:
-                  Używamy do analizy ruchu na stronie, np. liczby odwiedzin,
-                  czasu spędzonego na stronie czy źródeł odwiedzin. Dane są
-                  przekazywane do Google (USA) w celu optymalizacji strony.
-                </li>
-                <li>
-                  <strong>Microsoft Clarity</strong>: Używamy do tworzenia map
-                  ciepła i anonimowych nagrań sesji, co pomaga nam zrozumieć,
-                  jak użytkownicy korzystają ze strony, i poprawić jej
-                  użyteczność. Dane są anonimizowane i przekazywane do Microsoft
-                  (USA).
-                </li>
+                <li>{t("which.list.2")}</li>
+                <li>{t("which.list.3")}</li>
               </ul>
             </li>
           </ul>
 
           <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-            Dodatkowe narzędzia
+            {t("additional.header")}
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Korzystamy również z <strong>Google Search Console</strong>, które
-            nie używa cookies, ale pomaga nam monitorować wydajność strony w
-            wynikach wyszukiwania Google, np. analizować słowa kluczowe i
-            poprawiać SEO.
+            {t("additional.text")}
           </p>
 
           <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-            Jak zarządzać cookies?
+            {t("how.header")}
           </h2>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            Przy pierwszej wizycie na naszej stronie wyświetlamy baner cookies,
-            który pozwala Ci:
-          </p>
+          <p className="text-gray-700 leading-relaxed mb-4"> {t("how.text")}</p>
           <ul className="list-disc pl-6 space-y-2 text-gray-700">
-            <li>Zaakceptować wszystkie cookies.</li>
-            <li>Odrzucić cookies analityczne.</li>
-            <li>
-              Dostosować ustawienia, wybierając, na które kategorie cookies
-              wyrażasz zgodę.
-            </li>
+            <li>{t("how.list.1")}</li>
+            <li>{t("how.list.2")}</li>
+            <li>{t("how.list.3")}</li>
           </ul>
           <p className="text-gray-700 leading-relaxed mt-4">
-            Możesz także zarządzać cookies w ustawieniach swojej przeglądarki.
-            Oto instrukcje dla popularnych przeglądarek:
+            {t("how.list.text")}
           </p>
           <ul className="list-disc pl-6 space-y-2 text-gray-700 mt-2">
             <li>
@@ -90,7 +89,7 @@ export default function PolitykaCookies() {
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
               >
-                Mozilla Firefox
+                Firefox
               </a>
             </li>
             <li>
@@ -116,35 +115,24 @@ export default function PolitykaCookies() {
           </ul>
 
           <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-            Jak długo przechowujemy cookies?
+            {t("howlong.header")}
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Czas przechowywania cookies zależy od ich rodzaju:
+            {t("howlong.text")}
           </p>
           <ul className="list-disc pl-6 space-y-2 text-gray-700">
-            <li>
-              <strong>Niezbędne cookies</strong>: Zazwyczaj wygasają po
-              zakończeniu sesji lub w krótkim czasie (np. kilka dni).
-            </li>
-            <li>
-              <strong>Analityczne cookies</strong>: Mogą być przechowywane do 2
-              lat (np. Google Analytics 4).
-            </li>
+            <li>{t("howlong.list.1")}</li>
+            <li>{t("howlong.list.2")}</li>
           </ul>
 
-          <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-            Kontakt
-          </h2>
+          <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4"></h2>
           <p className="text-gray-700 leading-relaxed">
-            Jeśli masz pytania dotyczące naszej polityki cookies lub
-            przetwarzania danych, skontaktuj się z nami:{" "}
             <a
               href="mailto:biuro@triotravel.eu"
               className="text-blue-600 hover:underline"
             >
               biuro@triotravel.eu
             </a>
-            .
           </p>
         </section>
       </div>

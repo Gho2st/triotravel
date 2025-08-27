@@ -1682,6 +1682,10 @@
         "oferta": {
             "title": "Wycieczki z Zakopanego - Oferta Biura Podróży Trio Travel",
             "description": "Odkryj naszą ofertę wycieczek z Zakopanego! Spływ Dunajcem, zwiedzanie Krakowa, Wieliczki i inne jednodniowe wyprawy. Sprawdź flipbook i zaplanuj niezapomnianą przygodę z Trio Travel!"
+        },
+        "polityka-cookies": {
+            "title": "Nasza Polityka Cookies",
+            "description": "Dowiedz się, jak używamy plików cookies na triotravel.pl, aby zapewnić Ci najlepsze doświadczenie, personalizować treści i analizować ruch na stronie. Sprawdź, jak możesz zarządzać ustawieniami cookies!"
         }
     },
     "triptime": {
@@ -1709,5 +1713,65 @@
         "noDays": "Brak dostępnych dni na wycieczkę.",
         "call": "Rezerwacja wyłącznie telefonicznie! Z uwagi na duże zainteresowanie i konieczność potwierdzenia miejsc – nie ma możliwości rezerwacji online.",
         "kasprowyDaily": "Bilety bez stania w kolejce — codziennie."
+    },
+    "polityka-cookies": {
+        "header": "Polityka Cookies",
+        "text": "Na stronie triotravel.pl stosujemy pliki cookies, aby zapewnić najlepsze doświadczenie użytkownika, wspierać funkcjonalność strony oraz analizować ruch. Poniżej wyjaśniamy, jakie cookies stosujemy, w jakim celu i jak możesz nimi zarządzać.",
+        "which": {
+            "header": "Jakie cookies stosujemy?",
+            "list": {
+                "header": "Analityczne cookies",
+                "1": "Niezbędne cookies: Umożliwiają działanie strony, np. zapamiętują Twoje ustawienia językowe (poprzez Next-Intl) lub umożliwiają korzystanie z funkcji rezerwacji online. Te cookies są niezbędne i nie wymagają Twojej zgody.",
+                "2": "Google Analytics 4 (via Google Tag Manager): Używamy do analizy ruchu na stronie, np. liczby odwiedzin, czasu spędzonego na stronie czy źródeł odwiedzin. Dane są przekazywane do Google (USA) w celu optymalizacji strony.",
+                "3": "Microsoft Clarity: Używamy do tworzenia map ciepła i anonimowych nagrań sesji, co pomaga nam zrozumieć, jak użytkownicy korzystają ze strony, i poprawić jej użyteczność. Dane są anonimizowane i przekazywane do Microsoft (USA)."
+            }
+        },
+        "additional": {
+            "header": "Dodatkowe narzędzia",
+            "text": "Korzystamy również z Google Search Console, które nie używa cookies, ale pomaga nam monitorować wydajność strony w wynikach wyszukiwania Google, np. analizować słowa kluczowe i poprawiać SEO."
+        },
+        "how": {
+            "header": "Jak zarządzać cookies?",
+            "text": "Przy pierwszej wizycie na naszej stronie wyświetlamy baner cookies, który pozwala Ci:",
+            "list": {
+                "1": "Zaakceptować wszystkie cookies.",
+                "2": "Odrzucić cookies analityczne.",
+                "3": "Dostosować ustawienia, wybierając, na które kategorie cookies wyrażasz zgodę.",
+                "text": "Możesz także zarządzać cookies w ustawieniach swojej przeglądarki. Oto instrukcje dla popularnych przeglądarek:"
+            }
+        },
+        "howlong": {
+            "header": "Jak długo przechowujemy cookies?",
+            "text": "Czas przechowywania cookies zależy od ich rodzaju:",
+            "list": {
+                "1": "Niezbędne cookies: Zazwyczaj wygasają po zakończeniu sesji lub w krótkim czasie (np. kilka dni).",
+                "2": "Analityczne cookies: Mogą być przechowywane do 2 lat (np. Google Analytics 4)."
+            }
+        },
+        "contact": {
+            "header": "Kontakt",
+            "text": "Jeśli masz pytania dotyczące naszej polityki cookies lub przetwarzania danych, skontaktuj się z nami:"
+        },
+        "baner": {
+            "text": "Cześć! Używamy cookies (np. Google Analytics, Microsoft Clarity), aby Twoja wizyta na triotravel.pl była jeszcze lepsza – od personalizacji po analizę ruchu. Masz pełną kontrolę nad ustawieniami!",
+            "link": "Dowiedz się więcej",
+            "buttons": {
+                "1": "Akceptuj wszystko",
+                "2": "Dostosuj",
+                "3": "Odrzuć"
+            },
+            "settings": {
+                "header": "Ustawienia cookies",
+                "text": "Możesz wybrać, które cookies chcesz zaakceptować. Niezbędne cookies są zawsze włączone, aby strona działała prawidłowo.",
+                "1": "Niezbędne cookies (zawsze aktywne)",
+                "2": "Zapewniają działanie strony, np. zapamiętywanie języka.",
+                "3": "Analityczne cookies",
+                "text2": "Pomagają nam analizować ruch i poprawiać UX (np. Google Analytics, Microsoft Clarity).",
+                "buttons": {
+                    "1": "Zapisz ustawienia",
+                    "2": "Anuluj"
+                }
+            }
+        }
     }
 }

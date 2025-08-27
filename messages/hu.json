@@ -1679,6 +1679,10 @@
         "oferta": {
             "title": "Kirándulások Zakopanéból - Trio Travel Utazási Iroda Ajánlata",
             "description": "Fedezd fel zakopanei kirándulásaink ajánlatát! Dunajec-rafting, Krakkó és Wieliczka látogatása, valamint más egynapos túrák. Nézd meg a flipbookot, és tervezz felejthetetlen kalandot a Trio Travellel!"
+        },
+        "suti-szabalyzat": {
+            "title": "Süti szabályzatunk",
+            "description": "Tudd meg, hogyan használunk sütiket a triotravel.pl oldalon, hogy a legjobb élményt nyújtsuk, személyre szabjuk a tartalmat és elemezzük a weboldal forgalmát. Nézd meg, hogyan kezelheted a süti beállításokat!"
         }
     },
     "triptime": {
@@ -1706,5 +1710,65 @@
         "noDays": "Nincsenek elérhető napok a kiránduláshoz.",
         "call": "A kirándulás csak telefonos egyeztetés után érhető el.",
         "kasprowyDaily": "Sorban állás nélküli jegyek minden nap elérhetők."
+    },
+    "polityka-cookies": {
+        "header": "Süti szabályzat",
+        "text": "A triotravel.pl weboldalon sütiket használunk, hogy a legjobb felhasználói élményt nyújtsuk, támogassuk a weboldal működését és elemezzük a forgalmat. Az alábbiakban elmagyarázzuk, milyen sütiket használunk, milyen célból, és hogyan kezelheted őket.",
+        "which": {
+            "header": "Milyen sütiket használunk?",
+            "list": {
+                "header": "Analitikai sütik",
+                "1": "Alapvető sütik: Ezek teszik lehetővé a weboldal működését, például megjegyzik a nyelvi beállításaidat (a Next-Intl segítségével) vagy lehetővé teszik az online foglalási funkciók használatát. Ezek a sütik elengedhetetlenek, és nem igényelnek hozzájárulást.",
+                "2": "Google Analytics 4 (Google Tag Manageren keresztül): Ezeket a weboldal forgalmának elemzésére használjuk, például a látogatások számának, az oldalon töltött időnek vagy a forgalom forrásainak elemzésére. Az adatokat a Google-nak (USA) továbbítjuk az oldal optimalizálása érdekében.",
+                "3": "Microsoft Clarity: Hőtérképek készítésére és anonim munkamenet-felvételekhez használjuk, hogy megértsük, hogyan használják a felhasználók az oldalt, és javítsuk annak használhatóságát. Az adatok anonimizáltak és a Microsoftnak (USA) kerülnek továbbításra."
+            }
+        },
+        "additional": {
+            "header": "További eszközök",
+            "text": "A Google Search Console-t is használjuk, amely nem használ sütiket, de segít figyelemmel kísérni a weboldal teljesítményét a Google keresési eredményekben, például kulcsszavak elemzésével és az SEO javításával."
+        },
+        "how": {
+            "header": "Hogyan kezelheted a sütiket?",
+            "text": "Az első látogatásod során a weboldalunkon megjelenítünk egy süti bannert, amely lehetővé teszi, hogy:",
+            "list": {
+                "1": "Elfogadd az összes sütit.",
+                "2": "Elutasítsd az analitikai sütiket.",
+                "3": "Testreszabd a beállításokat, kiválasztva, hogy mely süti kategóriákhoz adsz hozzájárulást.",
+                "text": "A sütiket a böngésződ beállításaiban is kezelheted. Íme útmutatók a népszerű böngészőkhöz:"
+            }
+        },
+        "howlong": {
+            "header": "Meddig tároljuk a sütiket?",
+            "text": "A sütik tárolási ideje a típusuktól függ:",
+            "list": {
+                "1": "Alapvető sütik: Ezek általában a munkamenet végeztével vagy rövid időn belül (például néhány nap) lejárnak.",
+                "2": "Analitikai sütik: Akár 2 évig is tárolhatók (például Google Analytics 4)."
+            }
+        },
+        "contact": {
+            "header": "Kapcsolat",
+            "text": "Ha kérdéseid vannak a süti szabályzatunkkal vagy az adatfeldolgozással kapcsolatban, kérjük, vedd fel velünk a kapcsolatot:"
+        },
+        "baner": {
+            "text": "Szia! Sütiket használunk (például Google Analytics, Microsoft Clarity), hogy a triotravel.pl oldalon tett látogatásod még jobb legyen – a személyre szabástól a forgalom elemzéséig. Teljes ellenőrzésed van a beállítások felett!",
+            "link": "Tudj meg többet",
+            "buttons": {
+                "1": "Mindent elfogad",
+                "2": "Testreszabás",
+                "3": "Elutasít"
+            },
+            "settings": {
+                "header": "Süti beállítások",
+                "text": "Kiválaszthatod, mely sütiket szeretnéd elfogadni. Az alapvető sütik mindig engedélyezve vannak, hogy a weboldal megfelelően működjön.",
+                "1": "Alapvető sütik (mindig aktívak)",
+                "2": "Lehetővé teszik a weboldal működését, például a nyelvi beállítások megjegyzését.",
+                "3": "Analitikai sütik",
+                "text2": "Segítenek a forgalom elemzésében és a felhasználói élmény javításában (például Google Analytics, Microsoft Clarity).",
+                "buttons": {
+                    "1": "Beállítások mentése",
+                    "2": "Mégse"
+                }
+            }
+        }
     }
 }
