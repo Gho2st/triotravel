@@ -169,89 +169,98 @@ const CookieConsent = () => {
 
   console.log("CookieConsent: Rendering banner");
   return (
-    <div className="fixed bottom-0 left-0 right-0  bg-white dark:bg-gray-900 text-gray-900 dark:text-white p-6   shadow-xl z-50 transition-all duration-300 ease-in-out">
+    <div className="fixed bottom-0 left-0 right-0 md:bottom-4 md:mx-4 bg-white dark:bg-gray-900 text-gray-900 dark:text-white p-4 md:p-6 rounded-t-lg md:rounded-lg shadow-xl z-50 transition-all duration-300 ease-in-out">
       <div className="max-w-7xl mx-auto text-center">
-        {/* Header with a clean, bold style */}
-        <h2 className="text-2xl font-bold mb-4 tracking-tight">
+        {/* Header with compact styling on mobile */}
+        <h2 className="text-xl md:text-2xl font-bold mb-2 md:mb-4 tracking-tight">
           {t("header")}
         </h2>
-        {/* Description text with better readability */}
-        <p className="mb-6 text-sm leading-relaxed text-gray-600 dark:text-gray-300">
+        {/* Description text with tighter spacing */}
+        <p className="mb-3 md:mb-4 text-xs md:text-sm leading-relaxed text-gray-600 dark:text-gray-300">
           {t("text")}
         </p>
-        {/* Policy link styled as a subtle underline */}
+        {/* Policy link with smaller font on mobile */}
         <Link
           href="/polityka-cookies"
-          className="text-blue-500 dark:text-blue-400 hover:underline text-sm"
+          className="text-blue-500 dark:text-blue-400 hover:underline text-xs md:text-sm inline-block mb-3 md:mb-4"
         >
           {t("link")}
         </Link>
 
-        {/* Settings section with smooth toggle animation */}
+        {/* Settings section with compact layout */}
         {showSettings && (
-          <div className="mt-6 flex flex-col gap-4 bg-gray-100 dark:bg-gray-800 p-4 rounded-md transition-all duration-300">
-            <h3 className="text-lg font-semibold tracking-tight">
+          <div className="mt-3 md:mt-4 flex flex-col gap-2 md:gap-3 bg-gray-100 dark:bg-gray-800 p-3 md:p-4 rounded-md transition-all duration-300">
+            <h3 className="text-base md:text-lg font-semibold tracking-tight">
               {t("settings.header")}
             </h3>
-            <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">
+            <p className="text-xs md:text-sm text-gray-600 dark:text-gray-300 mb-2 md:mb-3">
               {t("settings.text")}
             </p>
-            {/* Checkbox inputs with modern styling */}
-            <label className="flex items-center gap-3 cursor-pointer">
+            {/* Checkboxes with smaller size on mobile */}
+            <label className="flex items-center gap-2 md:gap-3 cursor-pointer">
               <input
                 type="checkbox"
                 checked={consent.analytics_Storage === "granted"}
                 onChange={() => toggleConsent("analytics_Storage")}
-                className="h-5 w-5 accent-blue-500 rounded focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400"
+                className="h-4 w-4 md:h-5 md:w-5 accent-blue-500 rounded focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400"
               />
-              <span className="text-sm">{t("settings.analytics.label")}</span>
+              <span className="text-xs md:text-sm">
+                {t("settings.analytics.label")}
+              </span>
             </label>
-            <label className="flex items-center gap-3 cursor-pointer">
+            <label className="flex items-center gap-2 md:gap-3 cursor-pointer">
               <input
                 type="checkbox"
                 checked={consent.ad_Storage === "granted"}
                 onChange={() => toggleConsent("ad_Storage")}
-                className="h-5 w-5 accent-blue-500 rounded focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400"
+                className="h-4 w-4 md:h-5 md:w-5 accent-blue-500 rounded focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400"
               />
-              <span className="text-sm">{t("settings.advertising.label")}</span>
+              <span className="text-xs md:text-sm">
+                {t("settings.advertising.label")}
+              </span>
             </label>
-            {/* Settings buttons with consistent spacing */}
-            <div className="flex justify-center gap-4 mt-4">
+            {/* Settings buttons with enhanced styling */}
+            <div className="flex justify-center gap-2 md:gap-4 mt-2 md:mt-3">
               <button
                 onClick={handleSaveSettings}
-                className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 dark:hover:bg-blue-500 transition-colors duration-200 text-sm font-medium"
+                className="relative bg-blue-600 text-white px-3 md:px-4 py-1.5 md:py-2 rounded-full hover:bg-blue-700 dark:hover:bg-blue-500 transition-all duration-200 text-xs md:text-sm font-semibold shadow-md hover:shadow-lg transform hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400"
               >
                 {t("settings.buttons.save")}
+                <span className="absolute inset-0 rounded-full opacity-0 hover:opacity-20 bg-white dark:bg-gray-300 transition-opacity duration-200" />
               </button>
               <button
                 onClick={() => setShowSettings(false)}
-                className="bg-gray-300 dark:bg-gray-700 text-gray-900 dark:text-white px-4 py-2 rounded-md hover:bg-gray-400 dark:hover:bg-gray-600 transition-colors duration-200 text-sm font-medium"
+                className="relative bg-gray-300 dark:bg-gray-700 text-gray-900 dark:text-white px-3 md:px-4 py-1.5 md:py-2 rounded-full hover:bg-gray-400 dark:hover:bg-gray-600 transition-all duration-200 text-xs md:text-sm font-semibold shadow-md hover:shadow-lg transform hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-gray-400 dark:focus:ring-gray-500"
               >
                 {t("settings.buttons.cancel")}
+                <span className="absolute inset-0 rounded-full opacity-0 hover:opacity-20 bg-white dark:bg-gray-300 transition-opacity duration-200" />
               </button>
             </div>
           </div>
         )}
 
-        {/* Main action buttons with modern styling */}
-        <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
+        {/* Main action buttons with enhanced styling */}
+        <div className="flex flex-col sm:flex-row justify-center gap-2 md:gap-4 mt-3 md:mt-4">
           <button
             onClick={handleAcceptAll}
-            className="bg-green-600 text-white px-6 py-2 rounded-md hover:bg-green-700 dark:hover:bg-green-500 transition-colors duration-200 text-sm font-medium"
+            className="relative bg-green-600 text-white px-4 md:px-6 py-1.5 md:py-2 rounded-full hover:bg-green-700 dark:hover:bg-green-500 transition-all duration-200 text-xs md:text-sm font-semibold shadow-md hover:shadow-lg transform hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-green-500 dark:focus:ring-green-400"
           >
             {t("buttons.acceptAll")}
+            <span className="absolute inset-0 rounded-full opacity-0 hover:opacity-20 bg-white dark:bg-gray-300 transition-opacity duration-200" />
           </button>
           <button
             onClick={handleRejectAll}
-            className="bg-red-600 text-white px-6 py-2 rounded-md hover:bg-red-700 dark:hover:bg-red-500 transition-colors duration-200 text-sm font-medium"
+            className="relative bg-red-600 text-white px-4 md:px-6 py-1.5 md:py-2 rounded-full hover:bg-red-700 dark:hover:bg-red-500 transition-all duration-200 text-xs md:text-sm font-semibold shadow-md hover:shadow-lg transform hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-red-500 dark:focus:ring-red-400"
           >
             {t("buttons.rejectAll")}
+            <span className="absolute inset-0 rounded-full opacity-0 hover:opacity-20 bg-white dark:bg-gray-300 transition-opacity duration-200" />
           </button>
           <button
             onClick={() => setShowSettings(!showSettings)}
-            className="bg-gray-300 dark:bg-gray-700 text-gray-900 dark:text-white px-6 py-2 rounded-md hover:bg-gray-400 dark:hover:bg-gray-600 transition-colors duration-200 text-sm font-medium"
+            className="relative bg-gray-300 dark:bg-gray-700 text-gray-900 dark:text-white px-4 md:px-6 py-1.5 md:py-2 rounded-full hover:bg-gray-400 dark:hover:bg-gray-600 transition-all duration-200 text-xs md:text-sm font-semibold shadow-md hover:shadow-lg transform hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-gray-400 dark:focus:ring-gray-500"
           >
             {t("buttons.customize")}
+            <span className="absolute inset-0 rounded-full opacity-0 hover:opacity-20 bg-white dark:bg-gray-300 transition-opacity duration-200" />
           </button>
         </div>
       </div>
