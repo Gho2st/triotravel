@@ -214,9 +214,38 @@
             "5h": "Szlovák Dunajec – természet rohanás nélkül",
             "5popular": "Tökéletes azoknak, akik gyors élményre vágynak. Nyugodt, rövid túra a szlovák oldalon – egyszerű és szemet gyönyörködtető.",
             "16h": "Górál est – hangulatos élmény",
-            "16popular": "A legnépszerűbb esti program! Élőzene, tánc, tábortűz és helyi ízek – tökéletes lezárása a napnak Zakopanéban."
+            "16popular": "A legnépszerűbb esti program! Élőzene, tánc, tábortűz és helyi ízek – tökéletes lezárása a napnak Zakopanéban.",
+            "21": "Elektromos kerékpárok történetekkel a háttérben",
+            "21p": "Éld át Zakopanét elektromos kerékpárral! A túra festői útvonalakat és lenyűgöző történeteket kínál a túravezetőtől."
         },
         "tripslist": {
+            "rowery-elektryczne": {
+                "header": "Elektromos kerékpártúrák történetekkel a háttérben",
+                "header2": "Fedezd fel Zakopane legszebb zugait aktív módon",
+                "header3": "Aktivitás és összetartás a természet szívében",
+                "header4": "Miért érdemes elektromos kerékpárt és vezetett túrát választani?",
+                "info": "FIGYELEM: Hozz kényelmes ruházatot és sportcipőt.",
+                "text": "Az elektromos kerékpártúrák felejthetetlen kalandot nyújtanak az aktivitás, a természet és az ökológia szerelmeseinek. Az Ebike Story-val festői útvonalakat járhatsz be, élvezve az e-bike-ok támogatását, amelyek minden útvonalat elérhetővé tesznek, függetlenül a fizikai állóképességtől. A nyugodt síkvidéki kirándulásoktól a kihívást jelentő hegyi ösvényekig minden útvonal gyönyörű kilátást és izgalmas élményeket kínál. Tapasztalt túravezetők irányításával biztonságos és kényelmes módon fedezheted fel Lengyelország rejtett kincseit. Ez a tökéletes választás azok számára, akik szeretnék ötvözni a sportot, a pihenést és a természet közelségét egyben!",
+                "list": {
+                    "1": "Először is, szuper társaságod van! De komolyan, a túravezető elkerüli az illegális ösvényeket, nem kell aggódnod a tartalék felszerelés miatt, és az útvonal a te kedvedhez és képességeidhez igazodik! Közben a túravezető olyan érdekességekkel szolgál, amelyeket máshol nem tudnál meg! A biztonság és a kényelem fontos.",
+                    "2": "Kerékpártúrák, mint tökéletes csapatépítő kaland. E-bike útvonalaink kiváló választás szervezett csoportok, cégek vagy családok számára, akik aktivitást és közös élményeket keresnek gyönyörű környezetben. A kerékpározást további attrakciókkal kombináljuk, például helyi nevezetességek meglátogatásával, ami teljesebb kikapcsolódást és összetartást tesz lehetővé. Az Ebike Story szervezői professzionális támogatást, kiváló minőségű elektromos kerékpárokat és túravezetői felügyeletet biztosítanak, garantálva a felejthetetlen élményeket és a résztvevők közötti kapcsolatok erősítését.",
+                    "3": "<strong>Könnyű útvonal:</strong> Nyugodt tekerés festői síkságokon, tökéletes kezdőknek. Csodáld meg a mezőket, erdőket és helyi falvakat, miközben pihensz és gyönyörködsz a szép kilátásban.",
+                    "4": "<strong>Közepes útvonal:</strong> Közepesen nehéz útvonal enyhe emelkedőkkel, ideális azoknak, akik több izgalmat szeretnének érezni, anélkül, hogy lemondanának az e-bike kényelméről.",
+                    "5": "<strong>Óriás útvonal:</strong> Kihívás tapasztalt kerékpárosoknak! Hegyi ösvények, meredek emelkedők és lélegzetelállító kilátás – garantált adrenalin!",
+                    "6": "Helyi nevezetességek látogatása: A túra során bájos helyeket láthatsz, például történelmi templomokat, kastélyokat vagy regionális skanzeneket, amelyek elmesélik a régió történetét."
+                },
+                "alt": {
+                    "logo": "Az EbikeStory márka logója, kerékpár és hegyek illusztrációjával a háttérben.",
+                    "1": "Elektromos kerékpár a füvön, a távolban hegyekkel, naplementekor.",
+                    "2": "Az elektromos kerékpár első kerekének és villájának közeli képe, látható tárcsafékkel.",
+                    "3": "Látható 'Butcher' felirat a gumin.",
+                    "4": "Az elektromos kerékpár kormányának közeli képe, látható kijelzővel.",
+                    "5": "Két ember elektromos kerékpárral egy dombon áll, hegyekkel és erdőkkel a háttérben."
+                },
+                "insta": {
+                    "text": "Fedezz fel többet az Instagramon!"
+                }
+            },
             "szlak-papieski": {
                 "alt": {
                     "1": "II. János Pál pápa szobra Ząbban, Lengyelországban, a talapzatán idézettel.",
@@ -1683,6 +1712,10 @@
         "polityka-cookies": {
             "title": "Süti szabályzatunk",
             "description": "Tudd meg, hogyan használunk sütiket a triotravel.pl oldalon, hogy a legjobb élményt nyújtsuk, személyre szabjuk a tartalmat és elemezzük a weboldal forgalmát. Nézd meg, hogyan kezelheted a süti beállításokat!"
+        },
+        "rowery-elektryczne": {
+            "title": "Vezetett Elektromos Kerékpártúra Zakopanében - ebike.story",
+            "description": "Fedezd fel Zakopanét prémium elektromos kerékpárokkal, történetekkel a háttérben! Egy egynapos túra a Trio Travellel, a Tátra látványával és a túravezető történeteivel. Foglalj most!"
         }
     },
     "triptime": {

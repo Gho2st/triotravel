@@ -346,6 +346,17 @@ export default function sitemap() {
       },
     },
     {
+      url: `${baseUrl}/wycieczki-jednodniowe/rowery-elektryczne`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/day-trips/electric-bikes`,
+          ar: `${baseUrl}/ar/rihlat-yawmiya/ad-darajat-al-kahrabaiyya`,
+          hu: `${baseUrl}/hu/egynapos-kirandulasok/elektromos-kerékpárok`,
+        },
+      },
+    },
+    {
       url: `${baseUrl}/oferta`,
       lastModified: new Date(),
       alternates: {

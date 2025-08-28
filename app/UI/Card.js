@@ -7,13 +7,13 @@ export default function Card({ article }) {
 
   return (
     <article className="flex flex-col gap-6 p-6 rounded-2xl shadow-2xl w-full max-w-4xl transition-all duration-300 hover:shadow-3xl hover:scale-[1.02] h-full min-h-[450px]">
-      <div className="w-full aspect-[4/3]">
+      <div className="relative w-full aspect-[4/3]">
         <Image
           src={article.image}
-          width={500}
-          height={375}
           alt={article.title}
-          className="rounded-2xl object-cover w-full h-full"
+          layout="fill"
+          objectFit="cover"
+          className="rounded-2xl"
         />
       </div>
       <div className="flex flex-col justify-between p-2 text-center h-full space-y-6">

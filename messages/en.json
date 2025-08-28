@@ -214,9 +214,38 @@
             "5h": "Slovak Dunajec – nature without the rush",
             "5popular": "A bestseller for those seeking a shorter adventure. A calm, scenic rafting trip on the Slovak side – quick and effortless enjoyment.",
             "16h": "Highlander Night – an evening with local flair",
-            "16popular": "Number 1 among evening attractions! A festive highlander night with live music, dancing, and a bonfire – the perfect way to end a full day of excursions."
+            "16popular": "Number 1 among evening attractions! A festive highlander night with live music, dancing, and a bonfire – the perfect way to end a full day of excursions.",
+            "21": "Electric Bikes with Stories in the Background",
+            "21p": "Experience Zakopane on an electric bike! The tour offers picturesque routes and fascinating stories from the guide."
         },
         "tripslist": {
+            "rowery-elektryczne": {
+                "header": "Electric Bike Tours with Stories in the Background",
+                "header2": "Discover the Most Beautiful Corners of Zakopane in an Active Way",
+                "header3": "Activity and Bonding in the Heart of Nature",
+                "header4": "Why Choose an Electric Bike and a Guided Tour?",
+                "info": "NOTE: Bring comfortable clothing and sports shoes.",
+                "text": "Electric bike tours are an unforgettable adventure for enthusiasts of activity, nature, and ecology. With Ebike Story, you’ll explore picturesque routes, enjoying the support of e-bikes that make every trail accessible regardless of fitness level. From leisurely rides on flat terrain to challenging mountain trails, each route offers stunning views and a dose of excitement. Under the guidance of experienced guides, you’ll discover Poland’s hidden gems in a safe and comfortable way. This is the perfect option for those who want to combine sport, relaxation, and closeness to nature in one!",
+                "list": {
+                    "1": "First of all, you have great company! But seriously, the guide avoids illegal trails, you don’t have to worry about spare equipment, and the route is tailored to your preferences and abilities! Along the way, the guide shares fascinating facts you won’t learn elsewhere! Safety and comfort are key.",
+                    "2": "Bike tours as the perfect bonding adventure. Our e-bike routes are an excellent choice for organized groups, companies, or families looking for activity and shared excitement in beautiful surroundings. We combine cycling with additional attractions, such as visiting local landmarks, which allows for richer relaxation and bonding. Ebike Story organizers provide professional support, high-quality electric bikes, and guide supervision, ensuring unforgettable experiences and stronger connections among participants.",
+                    "3": "<strong>Easy Route:</strong> A leisurely ride through picturesque plains, perfect for beginners. Admire fields, forests, and local villages while enjoying relaxation and beautiful views.",
+                    "4": "<strong>Moderate Route:</strong> A moderately challenging route with gentle inclines, ideal for those who want to feel more excitement without sacrificing the comfort of an e-bike.",
+                    "5": "<strong>Giant Route:</strong> A challenge for experienced cyclists! Mountain trails, steep climbs, and breathtaking views – adrenaline guaranteed!",
+                    "6": "Visiting local landmarks: During the tour, you’ll see charming places like historic churches, castles, or regional open-air museums that tell the story of the region."
+                },
+                "alt": {
+                    "logo": "EbikeStory brand logo with an illustration of a bike and mountains in the background.",
+                    "1": "Electric bike standing on grass with mountains in the distance during sunset.",
+                    "2": "Close-up view of the front wheel and fork of an electric bike with a visible disc brake.",
+                    "3": "Visible 'Butcher' inscription on the tire.",
+                    "4": "Close-up view of the electric bike’s handlebar with a visible display.",
+                    "5": "Two people with electric bikes standing on a hill with a view of mountains and forests in the background."
+                },
+                "insta": {
+                    "text": "Discover more on Instagram!"
+                }
+            },
             "szlak-papieski": {
                 "alt": {
                     "1": "Statue of John Paul II in Ząb, Poland, with an engraved quote at the base.",
@@ -1678,6 +1707,10 @@
         "polityka-cookies": {
             "title": "Our Cookie Policy",
             "description": "Learn how we use cookies on triotravel.pl to provide you with the best experience, personalize content, and analyze website traffic. Check how you can manage your cookie settings!"
+        },
+        "rowery-elektryczne": {
+            "title": "Guided Electric Bike Tour in Zakopane - ebike.story",
+            "description": "Discover Zakopane on premium electric bikes with stories in the background! A one-day tour with Trio Travel offers Tatra views and guide's stories. Book now!"
         }
     },
     "triptime": {

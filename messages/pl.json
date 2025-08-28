@@ -214,9 +214,38 @@
             "19": "Morskie Oko - tatrzański klasyk",
             "19p": "Morskie Oko to klasyk wśród tatrzańskich wycieczek. Spacer malowniczą trasą i niezapomniany widok na największe jezioro Tatr.",
             "20": "Quady w Tatrach - adrenalina i zabawa",
-            "20p": "Quady w Tatrach to adrenalina, górskie widoki i świetna zabawa na specjalnie przygotowanych trasach – idealne dla par i grup znajomych."
+            "20p": "Quady w Tatrach to adrenalina, górskie widoki i świetna zabawa na specjalnie przygotowanych trasach – idealne dla par i grup znajomych.",
+            "21": "Rowery elektryczne z historiami w tle",
+            "21p": "Przeżyj Zakopane na rowerze elektrycznym! Wycieczka to malownicze trasy i fascynujące opowieści przewodnika."
         },
         "tripslist": {
+            "rowery-elektryczne": {
+                "header": "Wycieczki rowerami elektrycznymi z historiami w tle",
+                "header2": "Odkryj najpiękniejsze zakątki Zakopanego w aktywny sposób",
+                "header3": "Aktywność i integracja w sercu natury",
+                "header4": "Dlaczego warto wybrać rower elektryczny i wycieczkę z przewodnikiem?",
+                "info": "UWAGA: Weź ze sobą wygodne ubranie i obuwie sportowe.",
+                "text": "Wycieczki rowerami elektrycznymi to niezapomniana przygoda dla miłośników aktywności, natury i ekologii. Z Ebike Story przemierzysz malownicze trasy, ciesząc się wsparciem e-bike’ów, które sprawiają, że każda trasa jest dostępna niezależnie od kondycji. Od spokojnych przejażdżek po równinach po wymagające górskie szlaki – każda trasa oferuje piękne widoki i dawkę emocji. Pod okiem doświadczonych przewodników odkryjesz ukryte perełki Polski w bezpieczny i komfortowy sposób. To idealna propozycja dla tych, którzy chcą połączyć sport, relaks i bliskość z naturą w jednym!",
+                "list": {
+                    "1": "Przede wszystkim masz super towarzystwo! A tak na serio, przewodnik unika nielegalnych tras, nie martwisz się o zapasowe wyposażenie i trasa jest dopasowana do Twoich chęci i możliwości! Przy okazji przewodnik rzuca ciekawostkami, których nie poznasz w inny sposób! Bezpieczeństwo i komfort, to ważne.",
+                    "2": "Wycieczki rowerowe jako idealna przygoda integracyjna. Nasze trasy na e-bike’ach to doskonała propozycja dla grup zorganizowanych, firm czy rodzin szukających aktywności i wspólnych emocji w pięknym otoczeniu. Łączymy jazdę z dodatkowymi atrakcjami, takimi jak zwiedzanie lokalnych zabytków, co pozwala na pełniejszy wypoczynek i integrację. Organizatorzy Ebike Story zapewniają profesjonalne wsparcie, wysokiej klasy rowery elektryczne i opiekę przewodników, co gwarantuje niezapomniane wrażenia i zacieśnianie więzi wśród uczestników.",
+                    "3": "<strong>Trasa Łatwa:</strong> Spokojna przejażdżka po malowniczych równinach, idealna dla początkujących. Podziwiaj pola, lasy i lokalne wsie, ciesząc się relaksem i pięknymi widokami.",
+                    "4": "<strong>Trasa Mocniejsza:</strong> Średnio wymagająca trasa z lekkimi wzniesieniami, idealna dla tych, którzy chcą poczuć więcej emocji, nie rezygnując z komfortu e-bike’a.",
+                    "5": "<strong>Trasa Gigant:</strong> Wyzwanie dla doświadczonych rowerzystów! Górskie szlaki, strome podjazdy i zapierające dech widoki – adrenalina gwarantowana!",
+                    "6": "Zwiedzanie lokalnych zabytków: W trakcie wycieczki zobaczysz urokliwe miejsca, takie jak zabytkowe kościółki, zamki czy regionalne skanseny, które opowiedzą historię regionu."
+                },
+                "alt": {
+                    "logo": "Logo marki EbikeStory z ilustracją roweru i gór w tle.",
+                    "1": "Rower elektryczny stojący na trawie z górami w oddali podczas zachodu słońca.",
+                    "2": "Bliski widok przedniego koła i widelca roweru elektrycznego z widocznym hamulcem tarczowym.",
+                    "3": "Widoczny napis 'Butcher' na oponie.",
+                    "4": "Bliski widok kierownicy roweru elektrycznego z widocznym wyświetlaczem.",
+                    "5": "Dwie osoby z rowerami elektrycznymi stojące na wzgórzu z widokiem na góry i lasy w tle."
+                },
+                "insta": {
+                    "text": "Odkryj więcej na instagramie!"
+                }
+            },
             "szlak-papieski": {
                 "alt": {
                     "1": "Pomnik Jana Pawła II w Ząbiu, Polska, z wyrytym cytatem u podstawy.",
@@ -1672,7 +1701,7 @@
             "description": "Codzienny transport nad Morskie Oko z Zakopanego i okolic. Odbiór spod miejsca zakwaterowania, bez kolejek i stresu. Zarezerwuj miejsce już dziś online!"
         },
         "ciekawostki-o-splywie-dunajcem": {
-            "title": "Ciekawostki o spływie Dunajcem – Fascynujące fakty i informacje",
+            "title": "Ciekawostki o spływie Dunajcem - Fascynujące fakty i informacje",
             "description": "Poznaj najciekawsze informacje i ciekawostki o spływie Dunajcem. Dowiedz się, co warto wiedzieć przed wyprawą oraz odkryj historie związane z tym unikalnym miejscem."
         },
         "quady": {
@@ -1686,6 +1715,10 @@
         "polityka-cookies": {
             "title": "Nasza Polityka Cookies",
             "description": "Dowiedz się, jak używamy plików cookies na triotravel.pl, aby zapewnić Ci najlepsze doświadczenie, personalizować treści i analizować ruch na stronie. Sprawdź, jak możesz zarządzać ustawieniami cookies!"
+        },
+        "rowery-elektryczne": {
+            "title": "Wycieczka Rowerami Elektrycznymi z Przewodnikiem Zakopane - ebike.story",
+            "description": "Odkryj Zakopane na rowerach elektrycznych premium z historiami w tle! Wycieczka jednodniowa z Trio Travel to widoki Tatr i opowieści przewodnika. Rezerwuj!"
         }
     },
     "triptime": {

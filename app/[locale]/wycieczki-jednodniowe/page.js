@@ -130,7 +130,7 @@ export default function Atrakcje() {
       p: t("trips.14p"),
       image: "/wycieczki/dookola-tatr/tatry.webp",
       link: "/wycieczki-jednodniowe/dookola-tatr",
-      category: "active",
+      category: "foreign",
     },
     {
       title: t("trips.15"),
@@ -170,6 +170,13 @@ export default function Atrakcje() {
       link: "/wycieczki-jednodniowe/quady",
       category: "active",
     },
+    {
+      title: t("trips.21"),
+      p: t("trips.21p"),
+      image: "/wycieczki/rowery-elektryczne/rowery-elektryczne.webp",
+      link: "/wycieczki-jednodniowe/rowery-elektryczne",
+      category: "active",
+    },
   ];
 
   const categories = [
@@ -193,7 +200,7 @@ export default function Atrakcje() {
         {categories.map((cat) => (
           <div key={cat.id} className="mb-24">
             <LineHeader text={cat.title} />
-            <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-10 2xl:gap-16 mt-10 justify-center items-center">
+            <div className="grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10 2xl:gap-12 mt-10 justify-center items-center">
               {articles
                 .filter((a) =>
                   cat.id === "popular" ? a.popular : a.category === cat.id

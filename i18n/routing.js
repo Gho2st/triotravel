@@ -188,6 +188,13 @@ export const routing = defineRouting({
       ar: "/rihlat-yawmiya/quads",
       hu: "/egynapos-kirandulasok/quad-turak",
     },
+
+    "/wycieczki-jednodniowe/rowery-elektryczne": {
+      pl: "/wycieczki-jednodniowe/rowery-elektryczne",
+      en: "/day-trips/electric-bikes",
+      ar: "/rihlat-yawmiya/ad-darajat-al-kahrabaiyya",
+      hu: "/egynapos-kirandulasok/elektromos-kerékpárok",
+    },
     "/transport/nad-morskie-oko": {
       pl: "/transport/nad-morskie-oko",
       en: "/transport/to-morskie-oko",
