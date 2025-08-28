@@ -40,7 +40,6 @@ export default function PolitykaCookies() {
   const tBrowsers = useTranslations("polityka-cookies.how.browsers.links");
   const tHowLong = useTranslations("polityka-cookies.howlong.list");
   const tTransfer = useTranslations("polityka-cookies.transfer.links");
-  const tContact = useTranslations("polityka-cookies.contact.details");
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -163,7 +162,7 @@ export default function PolitykaCookies() {
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
               >
-                Polityka prywatności Google
+                Google
               </Link>
             </li>
             <li>
@@ -173,7 +172,7 @@ export default function PolitykaCookies() {
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
               >
-                Polityka prywatności Microsoft
+                Microsoft
               </Link>
             </li>
           </ul>
@@ -194,21 +193,21 @@ export default function PolitykaCookies() {
           <ul className="list-disc pl-6 space-y-2 text-gray-700">
             <li>
               <Link
-                href={tContact("email").match(/\((.*?)\)/)[1]}
+                href="mailto:biuro@triotravel.eu"
                 className="text-blue-600 hover:underline"
               >
-                {tContact("email").replace(/\[|\]/g, "")}
+                biuro@triotravel.eu
               </Link>
             </li>
             <li>
               <Link
-                href={tContact("phone").match(/\((.*?)\)/)[1]}
+                href="tel:+48881201205"
                 className="text-blue-600 hover:underline"
               >
-                {tContact("phone").replace(/\[|\]/g, "")}
+                +48 881 201 205
               </Link>
             </li>
-            <li>{tContact("address")}</li>
+            <li>ul. Kościuszki 23A, 34-500 Zakopane</li>
           </ul>
         </section>
       </div>

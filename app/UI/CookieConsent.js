@@ -1,5 +1,6 @@
 "use client";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 import { useState, useEffect } from "react";
 
 const CookieConsent = () => {
@@ -168,64 +169,87 @@ const CookieConsent = () => {
 
   console.log("CookieConsent: Rendering banner");
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-gray-800 text-white p-6 z-50 shadow-lg">
-      <div className="max-w-2xl mx-auto text-center">
-        <h2 className="text-xl font-semibold mb-4">{t("header")}</h2>
-        <p className="mb-6 text-sm">{t("text")}</p>
+    <div className="fixed bottom-0 left-0 right-0  bg-white dark:bg-gray-900 text-gray-900 dark:text-white p-6   shadow-xl z-50 transition-all duration-300 ease-in-out">
+      <div className="max-w-7xl mx-auto text-center">
+        {/* Header with a clean, bold style */}
+        <h2 className="text-2xl font-bold mb-4 tracking-tight">
+          {t("header")}
+        </h2>
+        {/* Description text with better readability */}
+        <p className="mb-6 text-sm leading-relaxed text-gray-600 dark:text-gray-300">
+          {t("text")}
+        </p>
+        {/* Policy link styled as a subtle underline */}
+        <Link
+          href="/polityka-cookies"
+          className="text-blue-500 dark:text-blue-400 hover:underline text-sm"
+        >
+          {t("link")}
+        </Link>
+
+        {/* Settings section with smooth toggle animation */}
         {showSettings && (
-          <div className="mb-6 flex flex-col gap-4">
-            <h3 className="text-lg font-medium">{t("settings.header")}</h3>
-            <p className="text-sm mb-4">{t("settings.text")}</p>
-            <label className="flex items-center gap-2">
+          <div className="mt-6 flex flex-col gap-4 bg-gray-100 dark:bg-gray-800 p-4 rounded-md transition-all duration-300">
+            <h3 className="text-lg font-semibold tracking-tight">
+              {t("settings.header")}
+            </h3>
+            <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">
+              {t("settings.text")}
+            </p>
+            {/* Checkbox inputs with modern styling */}
+            <label className="flex items-center gap-3 cursor-pointer">
               <input
                 type="checkbox"
                 checked={consent.analytics_Storage === "granted"}
                 onChange={() => toggleConsent("analytics_Storage")}
-                className="h-5 w-5"
+                className="h-5 w-5 accent-blue-500 rounded focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400"
               />
-              {t("settings.analytics.label")}
+              <span className="text-sm">{t("settings.analytics.label")}</span>
             </label>
-            <label className="flex items-center gap-2">
+            <label className="flex items-center gap-3 cursor-pointer">
               <input
                 type="checkbox"
                 checked={consent.ad_Storage === "granted"}
                 onChange={() => toggleConsent("ad_Storage")}
-                className="h-5 w-5"
+                className="h-5 w-5 accent-blue-500 rounded focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400"
               />
-              {t("settings.advertising.label")}
+              <span className="text-sm">{t("settings.advertising.label")}</span>
             </label>
-            <div className="flex justify-center gap-4">
+            {/* Settings buttons with consistent spacing */}
+            <div className="flex justify-center gap-4 mt-4">
               <button
                 onClick={handleSaveSettings}
-                className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
+                className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 dark:hover:bg-blue-500 transition-colors duration-200 text-sm font-medium"
               >
                 {t("settings.buttons.save")}
               </button>
               <button
                 onClick={() => setShowSettings(false)}
-                className="bg-gray-500 text-white px-4 py-2 rounded-md hover:bg-gray-600"
+                className="bg-gray-300 dark:bg-gray-700 text-gray-900 dark:text-white px-4 py-2 rounded-md hover:bg-gray-400 dark:hover:bg-gray-600 transition-colors duration-200 text-sm font-medium"
               >
                 {t("settings.buttons.cancel")}
               </button>
             </div>
           </div>
         )}
-        <div className="flex justify-center gap-4">
+
+        {/* Main action buttons with modern styling */}
+        <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
           <button
             onClick={handleAcceptAll}
-            className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600"
+            className="bg-green-600 text-white px-6 py-2 rounded-md hover:bg-green-700 dark:hover:bg-green-500 transition-colors duration-200 text-sm font-medium"
           >
             {t("buttons.acceptAll")}
           </button>
           <button
             onClick={handleRejectAll}
-            className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600"
+            className="bg-red-600 text-white px-6 py-2 rounded-md hover:bg-red-700 dark:hover:bg-red-500 transition-colors duration-200 text-sm font-medium"
           >
             {t("buttons.rejectAll")}
           </button>
           <button
             onClick={() => setShowSettings(!showSettings)}
-            className="bg-gray-500 text-white px-4 py-2 rounded-md hover:bg-gray-600"
+            className="bg-gray-300 dark:bg-gray-700 text-gray-900 dark:text-white px-6 py-2 rounded-md hover:bg-gray-400 dark:hover:bg-gray-600 transition-colors duration-200 text-sm font-medium"
           >
             {t("buttons.customize")}
           </button>

@@ -1784,12 +1784,7 @@
         },
         "contact": {
             "header": "Kapcsolat",
-            "text": "Ha kérdéseid vannak a sütikre vonatkozó irányelveinkkel vagy az adatkezeléssel kapcsolatban, kérjük, lépj kapcsolatba velünk:",
-            "details": {
-                "email": "[biuro@triotravel.eu](mailto:biuro@triotravel.eu)",
-                "phone": "[+48 881 201 205](tel:+48881201205)",
-                "address": "ul. Kościuszki 23A, 34-500 Zakopane"
-            }
+            "text": "Ha kérdéseid vannak a sütikre vonatkozó irányelveinkkel vagy az adatkezeléssel kapcsolatban, kérjük, lépj kapcsolatba velünk:"
         },
         "banner": {
             "header": "Hozzájárulás a sütikhez",
