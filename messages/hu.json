@@ -1749,7 +1749,7 @@
                 "acceptAll": "Elfogadja az összes sütit, beleértve az analitikai (Google Analytics 4, Microsoft Clarity) és hirdetési (Google Ads) sütiket.",
                 "rejectNonEssential": "Elutasítja az analitikai és hirdetési sütiket, ami azt jelenti, hogy nem használjuk a Google Analytics 4, Microsoft Clarity vagy Google Ads szolgáltatásokat az Ön tevékenységének nyomon követésére.",
                 "customize": "Testreszabhatja a beállításokat, kiválasztva, hogy mely sütikategóriákhoz járul hozzá (például csak hirdetési vagy csak analitikai sütik).",
-                "manage": "Az Ön preferenciái a böngésző memóriájában (`localStorage`) kerülnek tárolásra, és a későbbi látogatások során alkalmazásra kerülnek. Bármikor módosíthatja a beállításokat a weboldal láblécében található 'Hozzájárulás kezelése' gombra kattintva, vagy törölheti a sütiket a böngésző beállításaiban."
+                "manage": "A beállításaid a böngésző memóriájában (`localStorage`) kerülnek mentésre, és a későbbi látogatások során kerülnek alkalmazásra. A beállításokat bármikor módosíthatod a böngésző beállításaiban a cookie-adatok törlésével."
             },
             "browsers": {
                 "text": "A sütiket a böngésző beállításaiban is kezelheti. Íme az útmutatók a népszerű böngészőkhöz:",

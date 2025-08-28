@@ -1752,7 +1752,7 @@
                 "acceptAll": "Zaakceptować wszystkie cookies, włączając cookies analityczne (Google Analytics 4, Microsoft Clarity) i reklamowe (Google Ads).",
                 "rejectNonEssential": "Odrzucić cookies analityczne i reklamowe, co oznacza, że nie będziemy używać Google Analytics 4, Microsoft Clarity ani Google Ads do śledzenia Twojej aktywności.",
                 "customize": "Dostosować ustawienia, wybierając, na które kategorie cookies wyrażasz zgodę (np. tylko reklamowe lub tylko analityczne).",
-                "manage": "Twoje preferencje są zapisywane w pamięci przeglądarki (`localStorage`) i stosowane przy kolejnych wizytach. Możesz zmienić swoje ustawienia w dowolnym momencie, klikając przycisk „Zarządzaj zgodą” w stopce strony lub usuwając dane cookies w ustawieniach przeglądarki."
+                "manage": "Twoje preferencje są zapisywane w pamięci przeglądarki (`localStorage`) i stosowane przy kolejnych wizytach. Możesz zmienić swoje ustawienia w dowolnym momencie, usuwając dane cookies w ustawieniach przeglądarki."
             },
             "browsers": {
                 "text": "Możesz także zarządzać cookies w ustawieniach swojej przeglądarki. Oto instrukcje dla popularnych przeglądarek:",

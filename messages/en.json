@@ -1744,7 +1744,7 @@
                 "acceptAll": "Accept all cookies, including analytics (Google Analytics 4, Microsoft Clarity) and advertising (Google Ads) cookies.",
                 "rejectNonEssential": "Reject analytics and advertising cookies, meaning we will not use Google Analytics 4, Microsoft Clarity, or Google Ads to track your activity.",
                 "customize": "Customize settings by selecting which cookie categories you consent to (e.g., only advertising or only analytics).",
-                "manage": "Your preferences are stored in the browser’s memory (`localStorage`) and applied during subsequent visits. You can change your settings at any time by clicking the 'Manage consent' button in the website footer or by deleting cookies in your browser settings."
+                "manage": "Your preferences are saved in the browser's memory (`localStorage`) and applied during subsequent visits. You can change your settings at any time by deleting cookie data in your browser settings."
             },
             "browsers": {
                 "text": "You can also manage cookies in your browser settings. Here are instructions for popular browsers:",
