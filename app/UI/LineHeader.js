@@ -2,7 +2,7 @@ export default function LineHeader({ text }) {
   return (
     <div className="flex items-center justify-center gap-6 md:gap-10">
       <div className="h-1 bg-customBlue w-full"></div>
-      <h2 className="uppercase text-customBlue text-3xl md:text-4xl text-center font-bold ">
+      <h2 className="uppercase text-customBlue text-2xl md:text-4xl text-center font-bold ">
         {text}
       </h2>
       <div className="h-1 bg-customBlue w-full"></div>

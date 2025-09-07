@@ -64,15 +64,16 @@ export default function Biesiada() {
   return (
     <>
       <Header text={t("header")} />
-      <div className="aspect-video w-full md:w-3/4 mx-auto md:mt-16 max-h-[620px] xl:max-h-[650px] 2xl:max-h-[820px]">
-        <iframe
-          className="w-full h-full"
-          src="https://www.youtube.com/embed/7rtQ4U82bTU"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-        ></iframe>
+      <div className="flex md:w-3/4 mx-auto justify-center md:mt-16">
+        <div className="relative w-full aspect-[16/9]">
+          <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            src="https://www.youtube.com/embed/7rtQ4U82bTU"
+            allowFullScreen
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          ></iframe>
+        </div>
       </div>
 
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
