@@ -69,14 +69,16 @@ export default function Dolina() {
   return (
     <>
       <Header text={t("header")} />
-      <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 ">
-        <iframe
-          width="100%"
-          height="700"
-          src="https://www.youtube.com/embed/EadvVWXUk1I?si=S_Q_c6BIrSuW22K"
-          allowFullScreen
-          title="YouTube video player"
-        ></iframe>
+      <div className="flex md:w-3/4 mx-auto justify-center md:mt-16">
+        <div className="relative w-full aspect-[16/9]">
+          <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            src="https://www.youtube.com/embed/EadvVWXUk1I?si=S_Q_c6BIrSuW22K&rel=0"
+            allowFullScreen
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          ></iframe>
+        </div>
       </div>
       <section className=" px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
         {/* NAPIS Z LINIAMI PO BOKU */}
