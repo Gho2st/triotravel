@@ -55,7 +55,8 @@
             "header9": "Bielańska Cave?",
             "header10": "Slovak Paradise?",
             "header11": "Transport to Morskie Oko?",
-            "header12": "Landscape of Slovakia?"
+            "header12": "Landscape of Slovakia?",
+            "header13": "First Minute for Winter Sleigh Rides!"
         },
         "button": "View",
         "button2": "More"
@@ -1844,5 +1845,12 @@
                 }
             }
         }
+    },
+    "promoModal": {
+        "header": "First Minute for Winter Sleigh Rides!",
+        "text": "Book winter sleigh rides early and travel cheaper!",
+        "text2": "Now the best prices for a winter adventure!",
+        "alt": "Horses with people and sleighs during a sleigh ride in Zakopane in a snowy winter setting",
+        "button": "Check the offer!"
     }
 }

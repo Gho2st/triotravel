@@ -7,6 +7,7 @@ import { getMessages } from "next-intl/server";
 import ClientBody from "../UI/ClientBody";
 import CookieConsent from "@/app/UI/CookieConsent";
 import Script from "next/script";
+import PromoModal from "../UI/PromoModal";
 
 const font = Poppins({
   subsets: ["latin"],
@@ -49,6 +50,7 @@ export default async function LocaleLayout({ children, params }) {
           <ClientBody fontClassName={font.className}>
             <CookieConsent />
             {children}
+            <PromoModal />
           </ClientBody>
         </NextIntlClientProvider>
       </body>

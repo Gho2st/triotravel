@@ -55,7 +55,8 @@
             "header9": "Jaskinia Bielańska?",
             "header10": "Słowacki Raj?",
             "header11": "Transport nad Morskie Oko?",
-            "header12": "Krajobraz Słowacji?"
+            "header12": "Krajobraz Słowacji?",
+            "header13": "First Minute na Zimowe Kuligi!"
         },
         "button": "Zobacz",
         "button2": "Więcej"
@@ -1852,5 +1853,12 @@
                 }
             }
         }
+    },
+    "promoModal": {
+        "header": "First Minute na Zimowe Kuligi!",
+        "text": "Rezerwuj kuligi zimowe wcześniej i jedź taniej!",
+        "text2": "Teraz najlepsze ceny na zimowa przygodę!",
+        "alt": "Konie z ludźmi i bryczkami podczas kuligu w Zakopanem przy zimowej aurze pełnej śniegu",
+        "button": "Sprawdź ofertę!"
     }
 }

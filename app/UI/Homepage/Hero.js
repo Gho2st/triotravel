@@ -26,6 +26,12 @@ export default function Hero() {
       },
 
       {
+        background: "/kuligi/photos/1.webp",
+        translationKey: "headers.header13", // kuligi zimowe
+        link: "/kuligi",
+      },
+
+      {
         background: "/baner/baner4.webp",
         translationKey: "headers.header2", // "Baseny Termalne?"
         link: "/wycieczki-jednodniowe/chocholowskie-termy",

@@ -55,7 +55,8 @@
             "header9": "Bielai-barlang?",
             "header10": "Szlovák Paradicsom?",
             "header11": "Szállítás a Morskie Oko-hoz?",
-            "header12": "Szlovákia tájképe?"
+            "header12": "Szlovákia tájképe?",
+            "header13": "First Minute a Téli Szánkózásra!"
         },
         "button": "Megnézem",
         "button2": "Több"
@@ -1849,5 +1850,12 @@
                 }
             }
         }
+    },
+    "promoModal": {
+        "header": "First Minute a Téli Szánkózásra!",
+        "text": "Foglalj téli szánkózást korábban és utazz olcsóbban!",
+        "text2": "Most a legjobb árak egy téli kalandra!",
+        "alt": "Lovak emberekkel és szánokkal egy szánkózás során Zakopanéban, havas téli környezetben",
+        "button": "Nézd meg az ajánlatot!"
     }
 }
