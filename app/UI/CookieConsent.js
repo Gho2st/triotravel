@@ -1,7 +1,7 @@
 "use client";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 const CookieConsent = () => {
   const t = useTranslations("polityka-cookies.banner");
@@ -11,36 +11,29 @@ const CookieConsent = () => {
     ad_Storage: "denied",
     analytics_Storage: "denied",
   });
+  const clarityLoaded = useRef(false); // Ref do śledzenia, czy Clarity już załadowano
 
-  // Sprawdzenie istniejącej zgody i inicjalizacja Clarity oraz GTM
-  useEffect(() => {
-    console.log("CookieConsent: Checking localStorage for clarityConsent");
-    const storedConsent = localStorage.getItem("clarityConsent");
-    if (storedConsent) {
-      console.log("CookieConsent: Found stored consent:", storedConsent);
-      const parsedConsent = JSON.parse(storedConsent);
-      setConsent(parsedConsent);
-      sendClarityConsent(parsedConsent);
-      handleGTMConsent(parsedConsent);
-      setShowBanner(false);
-    } else {
-      console.log("CookieConsent: No stored consent, showing banner");
-      setShowBanner(true);
+  // Funkcja do dynamicznego ładowania Clarity
+  const loadClarityScript = () => {
+    if (clarityLoaded.current) {
+      console.log("CookieConsent: Clarity script already loaded");
+      return;
     }
 
-    // Debugowanie ładowania Clarity
-    const checkClarity = setInterval(() => {
-      if (typeof window !== "undefined" && window.clarity) {
-        console.log("CookieConsent: Clarity script loaded");
-        clearInterval(checkClarity);
-        if (storedConsent) {
-          sendClarityConsent(JSON.parse(storedConsent));
-        }
-      }
-    }, 1000);
-
-    return () => clearInterval(checkClarity);
-  }, []);
+    console.log("CookieConsent: Loading Clarity script");
+    const script = document.createElement("script");
+    script.id = "microsoft-clarity-analytics";
+    script.async = true;
+    script.innerHTML = `
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "se6dbhfcmd");
+    `;
+    document.head.appendChild(script);
+    clarityLoaded.current = true;
+  };
 
   // Funkcja wysyłająca zgodę do Clarity
   const sendClarityConsent = (consentState) => {
@@ -84,19 +77,16 @@ const CookieConsent = () => {
     if (typeof window !== "undefined") {
       if (consentState.analytics_Storage === "granted") {
         console.log("CookieConsent: Loading GTM script");
-        // Usuń istniejący skrypt GTM, jeśli istnieje
         const existingScript = document.getElementById("gtm-script");
         if (existingScript) {
           existingScript.remove();
         }
-        // Dodaj skrypt GTM
         const script = document.createElement("script");
         script.id = "gtm-script";
         script.async = true;
         script.src = `https://www.googletagmanager.com/gtm.js?id=GTM-M8ZVL5X6`;
         document.head.appendChild(script);
 
-        // Inicjalizacja GTM
         window.dataLayer = window.dataLayer || [];
         window.dataLayer.push({
           "gtm.start": new Date().getTime(),
@@ -107,12 +97,10 @@ const CookieConsent = () => {
         console.log(
           "CookieConsent: Analytics consent denied, removing GTM script"
         );
-        // Usuń skrypt GTM, jeśli istnieje
         const existingScript = document.getElementById("gtm-script");
         if (existingScript) {
           existingScript.remove();
         }
-        // Wyczyść dataLayer, jeśli istnieje
         if (window.dataLayer) {
           window.dataLayer = [];
         }
@@ -120,12 +108,50 @@ const CookieConsent = () => {
     }
   };
 
+  // Sprawdzenie istniejącej zgody
+  useEffect(() => {
+    console.log("CookieConsent: Checking localStorage for clarityConsent");
+    const storedConsent = localStorage.getItem("clarityConsent");
+    if (storedConsent) {
+      console.log("CookieConsent: Found stored consent:", storedConsent);
+      const parsedConsent = JSON.parse(storedConsent);
+      setConsent(parsedConsent);
+      if (parsedConsent.analytics_Storage === "granted") {
+        loadClarityScript();
+        setTimeout(() => sendClarityConsent(parsedConsent), 1000); // Opóźnienie, aby Clarity się załadowało
+      }
+      handleGTMConsent(parsedConsent);
+      setShowBanner(false);
+    } else {
+      console.log("CookieConsent: No stored consent, showing banner");
+      setShowBanner(true);
+    }
+
+    // Sprawdzanie, czy Clarity jest załadowane
+    const checkClarity = setInterval(() => {
+      if (typeof window !== "undefined" && window.clarity) {
+        console.log("CookieConsent: Clarity script loaded");
+        clearInterval(checkClarity);
+        if (storedConsent) {
+          sendClarityConsent(JSON.parse(storedConsent));
+        }
+      }
+    }, 1000);
+
+    return () => clearInterval(checkClarity);
+  }, []);
+
   // Zapis zgody i aktualizacja Clarity oraz GTM
   const saveConsent = (newConsent) => {
     console.log("CookieConsent: Saving consent:", newConsent);
     setConsent(newConsent);
     localStorage.setItem("clarityConsent", JSON.stringify(newConsent));
-    sendClarityConsent(newConsent);
+    if (newConsent.analytics_Storage === "granted") {
+      loadClarityScript();
+      setTimeout(() => sendClarityConsent(newConsent), 1000); // Opóźnienie dla pewności załadowania
+    } else {
+      sendClarityConsent(newConsent); // Wysłanie zgody nawet przy braku skryptu (dla spójności)
+    }
     handleGTMConsent(newConsent);
     setShowBanner(false);
     setShowSettings(false);
@@ -171,15 +197,12 @@ const CookieConsent = () => {
   return (
     <div className="fixed bottom-0 left-0 right-0 md:bottom-4 md:mx-4 bg-gray-900 text-white p-4 md:p-6 rounded-t-lg md:rounded-lg shadow-xl z-50 transition-all duration-300 ease-in-out">
       <div className="max-w-7xl mx-auto text-center">
-        {/* Header with compact styling on mobile */}
         <h2 className="text-xl md:text-2xl font-bold mb-2 md:mb-4 tracking-tight">
           {t("header")}
         </h2>
-        {/* Description text with tighter spacing */}
         <p className="mb-3 md:mb-4 text-xs md:text-sm leading-relaxed text-gray-300">
           {t("text")}
         </p>
-        {/* Policy link with smaller font on mobile */}
         <Link
           href="/polityka-cookies"
           className="text-blue-400 hover:underline text-xs md:text-sm inline-block mb-3 md:mb-4"
@@ -187,7 +210,6 @@ const CookieConsent = () => {
           {t("link")}
         </Link>
 
-        {/* Settings section with compact layout */}
         {showSettings && (
           <div className="mt-3 md:mt-4 flex flex-col gap-2 md:gap-3 bg-gray-800 p-3 md:p-4 rounded-md transition-all duration-300">
             <h3 className="text-base md:text-lg font-semibold tracking-tight">
@@ -196,7 +218,6 @@ const CookieConsent = () => {
             <p className="text-xs md:text-sm text-gray-300 mb-2 md:mb-3">
               {t("settings.text")}
             </p>
-            {/* Checkboxes with smaller size on mobile */}
             <label className="flex items-center gap-2 md:gap-3 cursor-pointer">
               <input
                 type="checkbox"
@@ -219,7 +240,6 @@ const CookieConsent = () => {
                 {t("settings.advertising.label")}
               </span>
             </label>
-            {/* Settings buttons with enhanced styling */}
             <div className="flex justify-center gap-2 md:gap-4 mt-2 md:mt-3">
               <button
                 onClick={handleSaveSettings}
@@ -239,7 +259,6 @@ const CookieConsent = () => {
           </div>
         )}
 
-        {/* Main action buttons with enhanced styling */}
         <div className="flex flex-col sm:flex-row justify-center gap-2 md:gap-4 mt-3 md:mt-4">
           <button
             onClick={handleAcceptAll}
