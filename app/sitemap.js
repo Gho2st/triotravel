@@ -378,5 +378,148 @@ export default function sitemap() {
         },
       },
     },
+    {
+      url: `${baseUrl}/blog`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/blog`,
+          ar: `${baseUrl}/ar/blog`,
+          hu: `${baseUrl}/hu/blog`,
+        },
+      },
+    },
+    {
+      url: `${baseUrl}/blog/miasto-u-stop-tatr`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/blog/mountain-town-adventure`,
+          ar: `${baseUrl}/ar/blog/madinat-tatra`,
+          hu: `${baseUrl}/hu/blog/hegyi-varos-kaland`,
+        },
+      },
+    },
+    {
+      url: `${baseUrl}/blog/rodzinne-wakacje-w-gorach`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/blog/family-vacations-mountains`,
+          ar: `${baseUrl}/ar/blog/utla-ailiya-jabal`,
+          hu: `${baseUrl}/hu/blog/csaladi-vakaciok-hegyekben`,
+        },
+      },
+    },
+    {
+      url: `${baseUrl}/blog/gorska-adrenalina`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/blog/mountain-adrenaline`,
+          ar: `${baseUrl}/ar/blog/ithara-jabaliya`,
+          hu: `${baseUrl}/hu/blog/hegyi-adrenalin`,
+        },
+      },
+    },
+    {
+      url: `${baseUrl}/blog/gorska-kultura`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/blog/highland-culture`,
+          ar: `${baseUrl}/ar/blog/thaqafa-jabaliya`,
+          hu: `${baseUrl}/hu/blog/hegyi-kultura`,
+        },
+      },
+    },
+    {
+      url: `${baseUrl}/blog/relaks-w-tatrach`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/blog/relaxation-tatras`,
+          ar: `${baseUrl}/ar/blog/istiraha-tatra`,
+          hu: `${baseUrl}/hu/blog/pihenes-tatraban`,
+        },
+      },
+    },
+    {
+      url: `${baseUrl}/blog/najlepsze-trasy-z-zakopanego`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/blog/best-trails-from-zakopane`,
+          ar: `${baseUrl}/ar/blog/afdal-almasarat-min-zakubani`,
+          hu: `${baseUrl}/hu/blog/legjobb-osvenyek-zakopanebol`,
+        },
+      },
+    },
+    {
+      url: `${baseUrl}/blog/najpiekniejsze-widoki-tatry`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/blog/most-beautiful-tatra-views`,
+          ar: `${baseUrl}/ar/blog/afdal-almanazir-tatra`,
+          hu: `${baseUrl}/hu/blog/legszerubb-tatra-kilatasok`,
+        },
+      },
+    },
+    {
+      url: `${baseUrl}/blog/weekend-w-zakopanem`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/blog/weekend-in-zakopane`,
+          ar: `${baseUrl}/ar/blog/nahiyat-alnihaya-fi-zakubani`,
+          hu: `${baseUrl}/hu/blog/hetvege-zakopaneben`,
+        },
+      },
+    },
+    {
+      url: `${baseUrl}/blog/przyroda-tatr`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/blog/tatra-nature`,
+          ar: `${baseUrl}/ar/blog/tabi3at-tatra`,
+          hu: `${baseUrl}/hu/blog/tatra-termeszet`,
+        },
+      },
+    },
+    {
+      url: `${baseUrl}/blog/adrenalina-tatry`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/blog/adrenaline-tatras`,
+          ar: `${baseUrl}/ar/blog/adrenaline-tatra`,
+          hu: `${baseUrl}/hu/blog/adrenalin-tatraban`,
+        },
+      },
+    },
+    {
+      url: `${baseUrl}/blog/romantyczny-zakopane`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/blog/romantic-zakopane`,
+          ar: `${baseUrl}/ar/blog/zakubani-alromansiya`,
+          hu: `${baseUrl}/hu/blog/romantikus-zakopane`,
+        },
+      },
+    },
+    {
+      url: `${baseUrl}/blog/fotografia-tatry`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/blog/photography-tatras`,
+          ar: `${baseUrl}/ar/blog/taswir-tatra`,
+          hu: `${baseUrl}/hu/blog/fotografalas-tatraban`,
+        },
+      },
+    },
   ];
 }

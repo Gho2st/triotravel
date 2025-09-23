@@ -219,6 +219,86 @@ export const routing = defineRouting({
       ar: "/siyasat-cookies",
       hu: "/suti-szabalyzat",
     },
+
+    // BLOG POSTY
+    "/blog": {
+      pl: "/blog",
+      en: "/blog",
+      ar: "/blog",
+      hu: "/blog",
+    },
+    "/blog/miasto-u-stop-tatr": {
+      pl: "/blog/miasto-u-stop-tatr",
+      en: "/blog/mountain-town-adventure",
+      ar: "/blog/madinat-tatra",
+      hu: "/blog/hegyi-varos-kaland",
+    },
+    "/blog/rodzinne-wakacje-w-gorach": {
+      pl: "/blog/rodzinne-wakacje-w-gorach",
+      en: "/blog/family-vacations-mountains",
+      ar: "/blog/utla-ailiya-jabal",
+      hu: "/blog/csaladi-vakaciok-hegyekben",
+    },
+    "/blog/gorska-adrenalina": {
+      pl: "/blog/gorska-adrenalina",
+      en: "/blog/mountain-adrenaline",
+      ar: "/blog/ithara-jabaliya",
+      hu: "/blog/hegyi-adrenalin",
+    },
+    "/blog/gorska-kultura": {
+      pl: "/blog/gorska-kultura",
+      en: "/blog/highland-culture",
+      ar: "/blog/thaqafa-jabaliya",
+      hu: "/blog/hegyi-kultura",
+    },
+    "/blog/relaks-w-tatrach": {
+      pl: "/blog/relaks-w-tatrach",
+      en: "/blog/relaxation-tatras",
+      ar: "/blog/istiraha-tatra",
+      hu: "/blog/pihenes-tatraban",
+    },
+    "/blog/najlepsze-trasy-z-zakopanego": {
+      pl: "/blog/najlepsze-trasy-z-zakopanego",
+      en: "/blog/best-trails-from-zakopane",
+      ar: "/blog/afdal-almasarat-min-zakubani",
+      hu: "/blog/legjobb-osvenyek-zakopanebol",
+    },
+    "/blog/najpiekniejsze-widoki-tatry": {
+      pl: "/blog/najpiekniejsze-widoki-tatry",
+      en: "/blog/most-beautiful-tatra-views",
+      ar: "/blog/afdal-almanazir-tatra",
+      hu: "/blog/legszerubb-tatra-kilatasok",
+    },
+    "/blog/weekend-w-zakopanem": {
+      pl: "/blog/weekend-w-zakopanem",
+      en: "/blog/weekend-in-zakopane",
+      ar: "/blog/nahiyat-alnihaya-fi-zakubani",
+      hu: "/blog/hetvege-zakopaneben",
+    },
+    "/blog/przyroda-tatr": {
+      pl: "/blog/przyroda-tatr",
+      en: "/blog/tatra-nature",
+      ar: "/blog/tabi3at-tatra",
+      hu: "/blog/tatra-termeszet",
+    },
+    "/blog/adrenalina-tatry": {
+      pl: "/blog/adrenalina-tatry",
+      en: "/blog/adrenaline-tatras",
+      ar: "/blog/adrenaline-tatra",
+      hu: "/blog/adrenalin-tatraban",
+    },
+    "/blog/romantyczny-zakopane": {
+      pl: "/blog/romantyczny-zakopane",
+      en: "/blog/romantic-zakopane",
+      ar: "/blog/zakubani-alromansiya",
+      hu: "/blog/romantikus-zakopane",
+    },
+    "/blog/fotografia-tatry": {
+      pl: "/blog/fotografia-tatry",
+      en: "/blog/photography-tatras",
+      ar: "/blog/taswir-tatra",
+      hu: "/blog/fotografalas-tatraban",
+    },
   },
 });
 

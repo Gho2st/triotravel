@@ -7,7 +7,8 @@
             "link4": "Szállítás",
             "link5": "Partnerek",
             "link6": "Kapcsolat",
-            "link7": "Ajánlat"
+            "link7": "Ajánlat",
+            "link8": "Blog"
         },
         "button": "Vásárlás online"
     },
@@ -1717,6 +1718,10 @@
         "rowery-elektryczne": {
             "title": "Vezetett Elektromos Kerékpártúra Zakopanében - ebike.story",
             "description": "Fedezd fel Zakopanét prémium elektromos kerékpárokkal, történetekkel a háttérben! Egy egynapos túra a Trio Travellel, a Tátra látványával és a túravezető történeteivel. Foglalj most!"
+        },
+        "blog": {
+            "title": "Utazási Blog - Inspirációk és Tippek | TrioTravel",
+            "description": "Fedezd fel inspiráló történeteket, praktikus utazási tippeket és érdekességeket a világ minden tájáról a TrioTravel blogon. Tervezd meg kalandjaidat velünk!"
         }
     },
     "triptime": {
@@ -1857,5 +1862,195 @@
         "text2": "Most a legjobb árak egy téli kalandra!",
         "alt": "Lovak emberekkel és szánokkal egy szánkózás során Zakopanéban, havas téli környezetben",
         "button": "Nézd meg az ajánlatot!"
+    },
+    "blog": {
+        "header": "Blogunk",
+        "description": "Fedezze fel a legfrissebb tippeket, cikkeket és inspirációkat kisgyermekes szülők számára. Tudjon meg többet az alkalmazkodásról, a beszédfejlődésről, oktatási tevékenységekről és más, óvodával kapcsolatos témákról.",
+        "searchPlaceholder": "Cikkek keresése...",
+        "articlesHeader": "Cikkeink",
+        "noArticlesFound": "Nem található a keresésnek megfelelő cikk.",
+        "previousButton": "Előző",
+        "nextButton": "Következő",
+        "readMoreButton": "Olvass tovább",
+        "recentPosts": {
+            "header": "Legutóbbi bejegyzések",
+            "button": "Olvass tovább...",
+            "error": "Nincsenek elérhető cikkek"
+        },
+        "favourites": {
+            "header": "Kiemelt",
+            "button": "Olvass tovább...",
+            "error": "Nincsenek elérhető cikkek"
+        },
+        "blogPosts": {
+            "1": {
+                "title": "Város a Tátra lábánál, amely ötvözi a hegyi kalandokat és a téli izgalmakat",
+                "metaTitle": "Város a Tátra Lábánál – Kalandok és Téli Látnivalók | Triotravel",
+                "subtitle": "Ismerd meg a várost, ahol a fenséges Tátra találkozik a téli hangulattal és az egész évben elérhető turisztikai látnivalókkal.",
+                "subtitle2": "Bájos természet és felejthetetlen ösvények",
+                "contentPart1": "A város egyedülálló keverékével vonzza a turistákat: hegyi természet, kultúra és vendégszeretet. Nyáron érdemes túrázni a festői völgyekben, mint például a Kościeliska vagy a Chochołowska völgy. Az ösvények különböző nehézségi szinteket kínálnak – a nyugodt sétáktól a Giewont, Kasprowy Wierch vagy Rysy kihívást jelentő mászásaiig. A kirándulások során megcsodálhatod a hegyi patakokat, vízeséseket és a Tátra egyedülálló növényvilágát. Azok számára, akik szeretik a fizikai aktivitást, kerékpárutak, sziklamászás és számos lélegzetelállító kilátópont is elérhető.",
+                "contentPart2": "Télen a város a lengyel síelés igazi fővárosává válik. A sípályák, mint a Polana Szymoszkowa, Nosal vagy Kasprowy Wierch, kezdőknek és haladóknak egyaránt kínálnak pályákat. A téli hangulatot hagyományos hegyvidéki kocsmák, népzene és regionális finomságok gazdagítják. A Krupówki sétányon tett séta lehetővé teszi, hogy átéld a város egyedi hangulatát, az esti fények és hegyvidéki fesztiválok pedig felejthetetlenné teszik a látogatást.",
+                "cta": {
+                    "link": "/egynapos-kirandulasok",
+                    "button": "Foglalj kirándulást",
+                    "header": "A Tátra vár rád",
+                    "text": "Fedezd fel a város minden látnivalóját a Triotravel-lel – személyre szabott, átfogó kirándulások az igényeidhez igazítva."
+                }
+            },
+            "2": {
+                "title": "Tökéletes hely családi nyaraláshoz gyerekekkel a lengyel hegyek szívében",
+                "metaTitle": "Családi Nyaralás a Tátrában – Zakopane Gyerekekkel | Triotravel",
+                "subtitle": "Egy régió, ahol a családok aktívan tölthetik az időt, ötvözve a szabadtéri kalandokat oktatási és kulturális látnivalókkal.",
+                "subtitle2": "Tevékenységek kicsiknek és nagyoknak",
+                "contentPart1": "A gyerekes családok számos látnivalót találnak a régióban – a szelíd völgyi sétáktól a kötélparkokon át a fáklyás szánkózásokig télen. Nyáron a gyerekek kerékpárkölcsönzőket, kisállatkerteket vagy közeli játszótereket vehetnek igénybe. Az idősebb gyerekek számára kevésbé járt ösvényeken túrázási és kerékpáros kirándulások elérhetők, amelyek fejlesztik a fizikai állóképességet, megtanítanak tájékozódni, és megismertetik a helyi növény- és állatvilágot.",
+                "contentPart2": "A régió múzeumok és oktatási helyszínek gazdagságát kínálja. A Természeti Oktatási Központ és a Tátra Múzeum lehetővé teszi a gyerekek és felnőttek számára, hogy megismerjék a hegyek történelmét, faunáját, flóráját és helyi hagyományait. Az szezonban interaktív kézműves műhelyek, fafaragási órák és hegyvidéki zenei találkozók zajlanak, amelyek örömtelivé teszik a tanulást.",
+                "cta": {
+                    "link": "/egynapos-kirandulasok",
+                    "button": "Foglalj nyaralást",
+                    "header": "Családi kaland a hegyekben",
+                    "text": "Használd ki a Triotravel turisztikai csomagjait, amelyek az egész család igényeit figyelembe veszik."
+                }
+            },
+            "3": {
+                "title": "Hegyi adrenalin a legmagasabb szinten – hegymászás, kerékpározás, siklóernyőzés és téli kihívások",
+                "metaTitle": "Adrenalin a Tátrában – Hegymászás és Extrém Sportok | Triotravel",
+                "subtitle": "Az izgalmakat keresők számára a régió extrém kalandokat kínál egész évben, a hegymászástól a freeride-ig.",
+                "subtitle2": "Tátra a bátraknak",
+                "contentPart1": "Az adrenalin kedvelői széles tevékenységválasztékot találnak: sziklamászás különböző nehézségű utakon, kerékpárutak hegyi hágókon keresztül, valamint siklóernyőzés, amely madártávlatból mutatja meg a Tátrát. A régióban számos ösvény található terepfutáshoz, akadálypályák és kötélparkok, amelyek tökéletesek az aktív kikapcsolódáshoz. Érdemes felkeresni a Nosal vagy a Kasprowy Wierch környékét, ahol a vezetők túlélési és hegymászási technikákat tartalmazó túrákat vezetnek.",
+                "contentPart2": "Télen a bátrak kínálata nem csökken – freeride érintetlen tátrai területeken, jégmászás fagyott vízeséseken, ejtőernyős ugrások az Öt Lengyel Tó Völgye közelében és motoros szán túrák vonzzák az extrém élményeket keresőket. A téli sportok rajongóinak professzionális sí- és snowboardtanfolyamok állnak rendelkezésre, amelyek ötvözik a biztonságot a maximális izgalommal. A régió téli túlélőtáborokat és vezetett expedíciókat is kínál, amelyek tájékozódási és túlélési készségeket tanítanak hegyi körülmények között.",
+                "cta": {
+                    "link": "/egynapos-kirandulasok",
+                    "button": "Foglalj kalandot",
+                    "header": "Adrenalin a Tátrában",
+                    "text": "Tapasztald meg a Tátra extrém oldalát a Triotravel-lel – professzionális támogatás és teljes biztonság a kalandjaid során."
+                }
+            },
+            "4": {
+                "title": "Hegylakó kultúra, építészet és fesztiválok – hogyan fedezd fel a Podhale hagyományait minden látogatás során",
+                "metaTitle": "Hegylakó Kultúra és Podhale Hagyományok – Zakopane | Triotravel",
+                "subtitle": "Egy régió, ahol a zene, a művészet, a fesztiválok és az építészet egyedi hangulatot teremtenek, tökéletes a kultúra és történelem iránt érdeklődő turisták számára.",
+                "subtitle2": "Hegylakó örökség",
+                "contentPart1": "A természet mellett a régió a gazdag Podhale kultúrájáról híres. A zakopanei építészeti stílus, a kézművesség, a zene és a hagyományos ruhák egyedi hangulatot teremtenek. A városban tett séta lehetővé teszi a fából készült villák és művészeti galériák megcsodálását, a helyi kézművesekkel való találkozások pedig betekintést nyújtanak a hagyományos mesterségekbe. A környező falvakban kézműves bemutatókon, fazekas műhelyeken és hegyvidéki táncórákon is részt vehetsz.",
+                "contentPart2": "Az év során számos folklórfesztivál, klasszikus és jazz zenei koncertek, művészeti műhelyek és kiállítások zajlanak. A kulturális eseményeken való részvétel lehetővé teszi, hogy teljes mértékben átéld a régió jellegét és felfedezd élő örökségét, amely minden turista számára elérhető. Érdemes felkeresni például a Nemzetközi Hegyi Népek Folklórfesztiválját, amely a világ minden tájáról vonzza a csapatokat, bemutatva a helyi zenét, táncot és kulináris hagyományokat.",
+                "cta": {
+                    "link": "/egynapos-kirandulasok",
+                    "button": "Foglalj kulturális kirándulást",
+                    "header": "Podhale hagyomány és kultúra",
+                    "text": "Fedezd fel a hegyvidéki örökség szépségét a Triotravel-lel – tematikus kirándulások a kultúra szerelmeseinek."
+                }
+            },
+            "5": {
+                "title": "Pihenés, egészség és kapcsolat a természettel – termálfürdők, völgyek és csendes helyek a Tátra szívében",
+                "metaTitle": "Pihenés a Tátrában – Termálfürdők és Természet Zakopaneben | Triotravel",
+                "subtitle": "Egyedi hely a test és lélek megújulására, tökéletes azok számára, akik pihenést, csendet és kapcsolatot keresnek a természettel.",
+                "subtitle2": "Termálfürdők és megújulás",
+                "contentPart1": "Egy hegyi ösvényeken töltött nap után érdemes felkeresni a geotermikus medencéket. A termálfürdők segítenek ellazítani a testet, regenerálni az izmokat és javítani a vérkeringést, miközben lenyűgöző hegyi kilátásban gyönyörködhetsz. Azok számára, akik a luxust értékelik, spa kezelések, masszázsok és relaxációs terápiák is elérhetők. A termálüdülők gyakran kínálnak jóga- és meditációs foglalkozásokat a hegyek között, amelyek teljes nyugalmat biztosítanak.",
+                "contentPart2": "Csendes zugok, mint a Mała Łąka völgy, menekülést kínálnak a városi forgatag és a mindennapi élet elől. Tökéletes meditációhoz, természetfotózáshoz vagy egyszerű pihenéshez. A hegyek, erdők és patakok közelsége lehetővé teszi, hogy mélyen lélegezz és harmóniában érezd magad a természettel. Nyáron kevésbé járt ösvényeken oktatási túrák, vadállat-megfigyelés és fotóműhelyek is elérhetők.",
+                "cta": {
+                    "link": "/egynapos-kirandulasok",
+                    "button": "Foglalj pihentető tartózkodást",
+                    "header": "Pihenés a Tátrában",
+                    "text": "Töltődj fel a Triotravel-lel – személyre szabott tartózkodások a Tátra szívében a teljes kikapcsolódásért."
+                }
+            },
+            "6": {
+                "title": "Kalandok a Tátra ösvényein – fedezd fel a legjobb útvonalakat Zakopanéból",
+                "metaTitle": "Legjobb Tátra Ösvények – Túrák Zakopanéból | Triotravel",
+                "subtitle": "Tökéletes a túrázás szerelmeseinek, felejthetetlen kilátásokat és kihívásokat kínál minden készségszint számára.",
+                "subtitle2": "Népszerű ösvények és látnivalók",
+                "contentPart1": "A Tátra a túrázók paradicsoma. Az olyan ösvények, mint a Giewont vagy a Kościeliska völgy, évente turisták ezreit vonzzák. Kezdőknek könnyű útvonalakat ajánlunk gyönyörű zakopanei kilátással, míg a haladó túrázók a Rysy kihívást jelentő mászásait választhatják. A tátrai kirándulások nemcsak fizikai aktivitást nyújtanak, hanem lehetőséget adnak a vadon élő állatok megfigyelésére és lenyűgöző fotók készítésére is.",
+                "contentPart2": "Tavasszal és nyáron az ösvények alpesi virágokkal virítanak, ősszel színes lombozattal kápráztatnak el, télen pedig sífutást kínálnak. A Zakopane Triotravel.pl utazási iroda egynapos vezetett túrákat szervez, biztosítva a biztonságot és a régió történelméről szóló ismereteket. Keress olyan kulcsszavakra, mint „Tátra túrák” vagy „Zakopane ösvények”, és tervezd meg kalandodat.",
+                "cta": {
+                    "link": "/egynapos-kirandulasok",
+                    "button": "Foglalj ösvénytúrát",
+                    "header": "Kaland a Tátrában",
+                    "text": "Fedezd fel a Tátrát a Triotravel-lel – professzionális vezetés és személyre szabott útvonalak mindenkinek."
+                }
+            },
+            "7": {
+                "title": "Legszebb kilátások a Tátrában – kilátópontok és ösvények Zakopanéból",
+                "metaTitle": "Tátra Kilátópontok – Legszebb Kilátások Zakopaneben | Triotravel",
+                "subtitle": "Fedezd fel a lélegzetelállító tátrai panorámákat, tökéletes a fotózás szerelmeseinek és a nyugodt sétákhoz.",
+                "subtitle2": "Legjobb kilátópontok",
+                "contentPart1": "A Tátra Lengyelország legszebb tájait kínálja. Az olyan kilátópontok, mint a Gubałówka vagy a Nosal, a Tátra és Zakopane panorámáját nyújtják. A kilátópontokra tett kirándulások ideálisak a pihenést és fotózási inspirációt keresők számára. A népszerű ösvények, mint a Rusinowa Polana, könnyű megközelítéseket ötvöznek a Magas-Tátra lenyűgöző kilátásaival.",
+                "contentPart2": "A Triotravel.pl által szervezett vezetett túrák lehetővé teszik a kevésbé ismert helyek, például a Sarnia Skała vagy a Kopieniec felfedezését. Keress olyan kifejezésekre, mint „Zakopane kilátások” vagy „Tátra kilátópontok”, hogy megtervezd a tökéletes útvonalat. Csomagjaink tartalmazzák a szállítást, térképeket és a régió történelméről szóló történeteket, hogy gazdagítsák élményedet.",
+                "cta": {
+                    "link": "/kilato-tura",
+                    "button": "Foglalj kilátótúrát",
+                    "header": "Tátrai panorámák",
+                    "text": "Csodáld meg a Tátra szépségét a Triotravel-lel – kirándulások a legszebb kilátópontokra."
+                }
+            },
+            "8": {
+                "title": "Hétvége Zakopaneben – hogyan tervezd meg a tökéletes tátrai kiruccanást",
+                "metaTitle": "Hétvége Zakopaneben – Terv egy Tátrai Kiruccanáshoz | Triotravel",
+                "subtitle": "Rövid kirándulás tele élményekkel, ideális azok számára, akik maximálisan ki akarják használni az időt a hegyekben.",
+                "subtitle2": "Hétvégi terv",
+                "contentPart1": "Egy hétvége Zakopaneben nagyszerű módja a mindennapi életből való kiszakadásnak. Kezdd egy sétával a Krupówkin, kóstolj regionális ételeket, és látogasd meg a termálfürdőket a kikapcsolódásért. A második napon indulj egy ösvényre, például az Öt Lengyel Tó Völgyébe, amely tavakkal és hegyekkel kápráztat el. A Triotravel.pl kész hétvégi terveket kínál szállással és szállítással.",
+                "contentPart2": "Az estéket töltsd hegyvidéki zenés kocsmákban vagy szánkózáson. Keress olyan kifejezésekre, mint „hétvége Zakopane” vagy „rövid tátrai kiruccanás” inspirációért. Csomagjaink belépőjegyeket és rugalmas menetrendeket tartalmaznak, hogy minden pillanatot élvezhess a Tátrában.",
+                "cta": {
+                    "link": "/hetvegi-kirandulasok",
+                    "button": "Foglalj hétvégét a Tátrában",
+                    "header": "Hétvége a hegyekben",
+                    "text": "Tervezd meg a tökéletes hétvégét a Triotravel-lel – izgalmas kiruccanások Zakopanéba."
+                }
+            },
+            "9": {
+                "title": "Tátra Természet – Oktató Túrák és Vadállat-Megfigyelés Zakopanéból",
+                "metaTitle": "Tátra Természet – Oktató Túrák Zakopaneben | Triotravel",
+                "subtitle": "Fedezd fel a Tátra vad természetét, tökéletes az ökológia szerelmeseinek és gyerekes családoknak.",
+                "subtitle2": "Tátra növény- és állatvilága",
+                "contentPart1": "A Tátra egyedülálló vadállatok otthona, mint például zergék, mormoták és medvék. A Triotravel.pl által vezetett oktató túrák, amelyeket természettudósok vezetnek, lehetővé teszik az állatok megfigyelését természetes élőhelyükön. Az olyan ösvények, mint a Chochołowska völgy, tavasszal sáfrány szőnyegekkel kápráztatnak el, nyáron pedig ritka alpesi növényekkel.",
+                "contentPart2": "A gyerekeknek szóló túrák ökológiai műhelyeket és természet kvízeket tartalmaznak. Keress olyan kifejezésekre, mint „Zakopane természet” vagy „Tátra vadállatok” inspirációért. Csomagjaink biztosítják a biztonságot és a Tátra természetvédelméről szóló ismereteket, ideálisak minden természetkedvelő számára.",
+                "cta": {
+                    "link": "/termeszet-tura",
+                    "button": "Foglalj természet túrát",
+                    "header": "Tátra Természet",
+                    "text": "Fedezd fel a vad természetet a Triotravel-lel – oktató túrák a Tátra szívében."
+                }
+            },
+            "10": {
+                "title": "Adrenalin a Tátrában – Hegymászás, Rafting és Egyéb Extrém Sportok",
+                "metaTitle": "Extrém Sportok a Tátrában – Hegymászás és Rafting | Triotravel",
+                "subtitle": "Az izgalmakat keresők számára, hegymászó útvonalakkal és adrenalint pumpáló tevékenységekkel.",
+                "subtitle2": "Extrém sportok a Tátrában",
+                "contentPart1": "A Tátra ideális hely az adrenalin rajongóinak. A Mnich vagy Zakopane környéki sziklákon való mászás profikat és amatőröket egyaránt vonz. A Dunajec folyón való rafting izgalmakat nyújt a zúgó vizek között, míg a kötélparkok és drótkötélpályák további izgalmat adnak. A Triotravel.pl felszerelést és oktatókat biztosít.",
+                "contentPart2": "Télen próbáld ki a síalpinizmust vagy a snowboardozást nehéz terepen. Keress olyan kifejezésekre, mint „Zakopane adrenalin” vagy „Tátra extrém sportok” a legjobb ajánlatokért. Túráink biztonságosak, tapasztalt vezetők igazítják a nehézségi szintet a képességeidhez.",
+                "cta": {
+                    "link": "/extrem-kirandulasok",
+                    "button": "Foglalj extrém kalandot",
+                    "header": "Adrenalin a Tátrában",
+                    "text": "Érezd az izgalmat a Triotravel-lel – extrém kalandok Zakopaneben."
+                }
+            },
+            "11": {
+                "title": "Romantikus kirándulás Zakopanéba – Tökéletes helyek pároknak a Tátrában",
+                "metaTitle": "Romantikus Kirándulás Zakopanéba – Pároknak | Triotravel",
+                "subtitle": "Teremts felejthetetlen pillanatokat szerelmeddel a hegyi tájak és hangulatos kocsmák között.",
+                "subtitle2": "Romantikus látnivalók",
+                "contentPart1": "Zakopane tökéletes hely egy romantikus kiruccanáshoz. Egy naplemente séta a Kościeliska völgyben vagy vacsora egy Giewont kilátással rendelkező kocsmában varázslatos hangulatot teremt. A termálfürdők szaunákkal és páros masszázsokkal nagyszerű módja a kikapcsolódásnak. A Triotravel.pl pároknak szóló csomagokat kínál bájos panziókban való tartózkodással.",
+                "contentPart2": "Télen menj fáklyás szánkózásra, nyáron pedig csónakázz a Morskie Oko-n. Keress olyan kifejezésekre, mint „romantikus Zakopane” vagy „Tátra páros kirándulások” inspirációért. Személyre szabott terveink biztosítják, hogy kirándulásod felejthetetlen legyen.",
+                "cta": {
+                    "link": "/romantikus-kirandulasok",
+                    "button": "Foglalj romantikus kiruccanást",
+                    "header": "Romantika a Tátrában",
+                    "text": "Éld át a varázslatos pillanatokat a Triotravel-lel – romantikus kiruccanások Zakopanéba."
+                }
+            },
+            "12": {
+                "title": "Fényképezés a Tátrában – Műhelyek és a legjobb helyek fotózáshoz Zakopanéból",
+                "metaTitle": "Fényképezés a Tátrában – Műhelyek és Fotók Zakopaneben | Triotravel",
+                "subtitle": "A fotózás szerelmeseinek, tippeket és útvonalakat kínál a Tátra szépségének megörökítéséhez.",
+                "subtitle2": "Tátrai fotózási gyöngyszemek",
+                "contentPart1": "A Tátra a fotósok paradicsoma. Az olyan helyek, mint a Czarny Staw Gąsienicowy vagy a Hala Gąsienicowa, tökéletes hátteret nyújtanak tájképekhez. A Triotravel.pl fotós túrái, amelyeket profik vezetnek, megtanítják, hogyan örökítsd meg a Tátra fényeit és színeit. A műhelyek nappali és éjszakai fotózást is magukban foglalnak, például csillagos égbolt fotózását.",
+                "contentPart2": "Az olyan ösvények, mint a Mała Łąka völgy vagy a Chochołowska Polana, ideálisak kezdőknek és haladóknak. Keress olyan kifejezésekre, mint „Zakopane fotózás” vagy „Tátra fotóműhelyek” inspirációért. Csomagjaink felszerelést, szállítást és tippeket tartalmaznak a tökéletes felvétel elkészítéséhez.",
+                "cta": {
+                    "link": "/fotozas-kirandulasok",
+                    "button": "Foglalj fotóműhelyt",
+                    "header": "Fényképezés a Tátrában",
+                    "text": "Örökítsd meg a Tátra szépségét a Triotravel-lel – professzionális fotóműhelyek."
+                }
+            }
+        }
     }
 }

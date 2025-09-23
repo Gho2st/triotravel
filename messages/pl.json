@@ -7,7 +7,8 @@
             "link4": "Transport",
             "link5": "Partnerzy",
             "link6": "Kontakt",
-            "link7": "Oferta"
+            "link7": "Oferta",
+            "link8": "Blog"
         },
         "button": "Kup Online"
     },
@@ -1720,6 +1721,10 @@
         "rowery-elektryczne": {
             "title": "Wycieczka Rowerami Elektrycznymi z Przewodnikiem Zakopane - ebike.story",
             "description": "Odkryj Zakopane na rowerach elektrycznych premium z historiami w tle! Wycieczka jednodniowa z Trio Travel to widoki Tatr i opowieści przewodnika. Rezerwuj!"
+        },
+        "blog": {
+            "title": "Blog Podróżniczy - Inspiracje i Porady | TrioTravel",
+            "description": "Odkrywaj inspirujące opowieści, praktyczne porady podróżnicze i ciekawostki z całego świata na blogu TrioTravel. Planuj swoje przygody z nami!"
         }
     },
     "triptime": {
@@ -1860,5 +1865,195 @@
         "text2": "Teraz najlepsze ceny na zimowa przygodę!",
         "alt": "Konie z ludźmi i bryczkami podczas kuligu w Zakopanem przy zimowej aurze pełnej śniegu",
         "button": "Sprawdź ofertę!"
+    },
+    "blog": {
+        "header": "Nasz Blog",
+        "description": "Odkryj najnowsze porady, artykuły i inspiracje dla rodziców małych dzieci. Dowiedz się więcej o adaptacji, rozwoju mowy, zajęciach edukacyjnych i innych tematach związanych ze żłobkiem.",
+        "searchPlaceholder": "Szukaj artykułów...",
+        "articlesHeader": "Nasze Artykuły",
+        "noArticlesFound": "Nie znaleziono artykułów pasujących do wyszukiwania.",
+        "previousButton": "Poprzednia",
+        "nextButton": "Następna",
+        "readMoreButton": "Czytaj więcej",
+        "recentPosts": {
+            "header": "Ostatnie Wpisy",
+            "button": "Czytaj więcej...",
+            "error": "Brak dostępnych artykułów"
+        },
+        "favourites": {
+            "header": "Wyróżnione",
+            "button": "Czytaj więcej...",
+            "error": "Brak dostępnych artykułów"
+        },
+        "blogPosts": {
+            "1": {
+                "title": "Miasto u stóp Tatr, które łączy górskie przygody i zimowe szaleństwo",
+                "metaTitle": "Miasto u stóp Tatr – Przygody i Zimowe Atrakcje | Triotravel",
+                "subtitle": "Poznaj miasto, w którym majestatyczne Tatry spotykają się z zimowym klimatem i licznymi atrakcjami turystycznymi przez cały rok.",
+                "subtitle2": "Urokliwa przyroda i niezapomniane szlaki",
+                "contentPart1": "Miasto przyciąga turystów swoim unikalnym połączeniem górskiej przyrody, kultury i gościnności. Latem warto wybrać się na piesze wędrówki po malowniczych dolinach, takich jak Dolina Kościeliska czy Chochołowska. Szlaki oferują różne poziomy trudności – od spokojnych spacerów do ambitnych wspinaczek na Giewont, Kasprowy Wierch czy Rysy. Podczas wycieczek można podziwiać górskie potoki, wodospady i unikalną roślinność tatrzańską. Dla osób lubiących aktywność fizyczną dostępne są również trasy rowerowe, wspinaczki skałkowe oraz liczne punkty widokowe, które zapierają dech w piersiach.",
+                "contentPart2": "Zimą miasto zmienia się w prawdziwą stolicę polskiego narciarstwa. Stoki narciarskie, takie jak Polana Szymoszkowa, Nosal czy Kasprowy Wierch, oferują trasy zarówno dla początkujących, jak i zaawansowanych narciarzy. Atmosfera zimowa wzbogacona jest o tradycyjne góralskie karczmy, muzykę ludową i regionalne przysmaki. Spacer Krupówkami pozwala poczuć wyjątkowy klimat miasta, a wieczorne iluminacje i góralskie festyny sprawiają, że wizyta staje się niezapomnianym przeżyciem.",
+                "cta": {
+                    "link": "/wycieczki-jednodniowe",
+                    "button": "Zarezerwuj wycieczkę",
+                    "header": "Tatry czekają na Ciebie",
+                    "text": "Odkryj wszystkie atrakcje miasta z Triotravel – kompleksowe wyjazdy dostosowane do Twoich potrzeb."
+                }
+            },
+            "2": {
+                "title": "Idealne miejsce na rodzinne wakacje z dziećmi w sercu polskich gór",
+                "metaTitle": "Rodzinne Wakacje w Tatrach – Zakopane z Dziećmi | Triotravel",
+                "subtitle": "Region, w którym rodziny mogą aktywnie spędzać czas, łącząc przygodę na świeżym powietrzu z edukacyjnymi i kulturalnymi atrakcjami.",
+                "subtitle2": "Aktywności dla dużych i małych",
+                "contentPart1": "Rodziny z dziećmi znajdą w regionie mnóstwo atrakcji – od łagodnych spacerów dolinami, przez parki linowe, po kuligi zimowe z pochodniami. Latem dzieci mogą korzystać z wypożyczalni rowerów, mini zoo czy placów zabaw w okolicy. Na starsze dzieci czekają wyprawy piesze i rowerowe po mniej uczęszczanych szlakach, które rozwijają kondycję, uczą orientacji w terenie i pozwalają poznać lokalną florę i faunę.",
+                "contentPart2": "Region oferuje bogactwo muzeów i miejsc edukacyjnych. Centrum Edukacji Przyrodniczej oraz Muzeum Tatrzańskie pozwalają dzieciom i dorosłym poznać historię, faunę i florę gór, a także lokalne tradycje. W sezonie odbywają się interaktywne warsztaty rękodzielnicze, lekcje rzeźby w drewnie i spotkania z muzyką góralską, które sprawiają, że nauka staje się przyjemnością.",
+                "cta": {
+                    "link": "/wycieczki-jednodniowe",
+                    "button": "Zarezerwuj wakacje",
+                    "header": "Rodzinna przygoda w górach",
+                    "text": "Skorzystaj z pakietów turystycznych Triotravel, które uwzględniają potrzeby całej rodziny."
+                }
+            },
+            "3": {
+                "title": "Górska adrenalina na najwyższym poziomie – wspinaczka, rowery, paralotnie i zimowe wyzwania",
+                "metaTitle": "Adrenalina w Tatrach – Wspinaczka i Sporty Ekstremalne | Triotravel",
+                "subtitle": "Dla poszukiwaczy mocnych wrażeń region oferuje ekstremalne przygody zarówno latem, jak i zimą, od wspinaczki po freeride.",
+                "subtitle2": "Tatry dla odważnych",
+                "contentPart1": "Miłośnicy adrenaliny znajdą tu szeroki wybór aktywności: wspinaczka skałkowa na drogach o różnym stopniu trudności, trasy rowerowe wiodące przez górskie przełęcze, a także paralotniarstwo, umożliwiające podziwianie Tatr z lotu ptaka. W regionie znajdują się też liczne ścieżki do biegania w trudnym terenie, tory przeszkód i parki linowe, które doskonale sprawdzają się podczas aktywnego wypoczynku. Warto odwiedzić np. rejon Nosala lub Kasprowego Wierchu, gdzie przewodnicy prowadzą wycieczki z elementami survivalu i technik wspinaczkowych.",
+                "contentPart2": "Zimą oferta dla odważnych nie maleje – freeride w dziewiczych rejonach Tatr, ice climbing na zamarzniętych wodospadach, skoki spadochronowe w okolicach Doliny Pięciu Stawów oraz przejażdżki skuterami śnieżnymi przyciągają osoby szukające ekstremalnych wrażeń. Dla fanów sportów zimowych dostępne są profesjonalne kursy narciarstwa i snowboardu, które łączą bezpieczeństwo z maksymalną dawką emocji. Region oferuje również zimowe obozy survivalowe i wyprawy z przewodnikiem, które uczą orientacji w terenie i technik przetrwania w warunkach górskich.",
+                "cta": {
+                    "link": "/wycieczki-jednodniowe",
+                    "button": "Zarezerwuj przygodę",
+                    "header": "Adrenalina w Tatrach",
+                    "text": "Poznaj ekstremalne oblicze Tatr z Triotravel – profesjonalne wsparcie i pełne bezpieczeństwo podczas Twoich przygód."
+                }
+            },
+            "4": {
+                "title": "Góralska kultura, architektura i festiwale – jak odkryć tradycję Podhala podczas każdej wizyty",
+                "metaTitle": "Góralska Kultura i Tradycje Podhala – Zakopane | Triotravel",
+                "subtitle": "Region, w którym muzyka, sztuka, festiwale i architektura tworzą niepowtarzalny klimat, idealny dla turystów zainteresowanych kulturą i historią.",
+                "subtitle2": "Góralskie dziedzictwo",
+                "contentPart1": "Oprócz przyrody, region słynie z bogatej kultury Podhala. Styl zakopiański w architekturze, rękodzieło, muzyka i tradycyjne stroje tworzą wyjątkową atmosferę. Spacer po mieście pozwala podziwiać drewniane wille i galerie sztuki, a spotkania z lokalnymi twórcami dają wgląd w tradycyjne rzemiosło. Dodatkowo w okolicznych wioskach można uczestniczyć w pokazach rzemiosła, warsztatach garncarskich, czy lekcjach tańca góralskiego.",
+                "contentPart2": "W ciągu roku odbywają się liczne festiwale folkloru, koncerty muzyki klasycznej i jazzowej, warsztaty artystyczne i wystawy. Uczestnictwo w wydarzeniach kulturalnych pozwala w pełni poczuć charakter regionu i odkryć jego dziedzictwo, które jest żywe i dostępne dla każdego turysty. Warto odwiedzić np. Międzynarodowy Festiwal Folkloru Ziem Górskich, który przyciąga zespoły z całego świata, prezentując lokalną muzykę, taniec i tradycje kulinarne.",
+                "cta": {
+                    "link": "/wycieczki-jednodniowe",
+                    "button": "Zarezerwuj wycieczkę kulturalną",
+                    "header": "Tradycja i kultura Podhala",
+                    "text": "Odkryj piękno góralskiego dziedzictwa z Triotravel – tematyczne wyjazdy dla miłośników kultury."
+                }
+            },
+            "5": {
+                "title": "Relaks, zdrowie i kontakt z naturą – termy, doliny i spokojne miejsca w sercu Tatr",
+                "metaTitle": "Relaks w Tatrach – Termy i Natura w Zakopanem | Triotravel",
+                "subtitle": "Wyjątkowe miejsce na regenerację ciała i ducha, idealne dla osób szukających odpoczynku, ciszy i kontaktu z naturą.",
+                "subtitle2": "Termy i odnowa biologiczna",
+                "contentPart1": "Po dniu spędzonym na górskich szlakach warto odwiedzić kompleksy basenowe z wodą geotermalną. Termy pozwalają odprężyć ciało, zregenerować mięśnie i poprawić krążenie, a przy tym cieszyć się pięknymi widokami górskimi. Dla osób ceniących luksus dostępne są również spa, masaże i zabiegi relaksacyjne. Ośrodki termalne często oferują również zajęcia jogi i medytacji w otoczeniu gór, co pomaga w pełnym wyciszeniu.",
+                "contentPart2": "Spokojne zakątki, takie jak Dolina Małej Łąki, oferują ucieczkę od zgiełku miasta i codzienności. Idealne na medytację, fotografowanie przyrody lub zwykły relaks. Bliskość gór, lasów i strumieni pozwala odetchnąć pełną piersią i poczuć harmonię z naturą. Latem dostępne są też wycieczki edukacyjne po mniej uczęszczanych szlakach, obserwacja zwierząt i warsztaty fotograficzne.",
+                "cta": {
+                    "link": "/wycieczki-jednodniowe",
+                    "button": "Zarezerwuj pobyt relaksacyjny",
+                    "header": "Odpoczynek w Tatrach",
+                    "text": "Zregeneruj siły z Triotravel – spersonalizowane pobyty w sercu Tatr dla pełnego relaksu."
+                }
+            },
+            "6": {
+                "title": "Przygody na szlakach Tatr – odkryj najlepsze trasy z Zakopanego",
+                "metaTitle": "Najlepsze Szlaki Tatr – Wycieczki z Zakopanego | Triotravel",
+                "subtitle": "Idealne dla miłośników górskich wędrówek, oferujące niezapomniane widoki i wyzwania dla każdego poziomu zaawansowania.",
+                "subtitle2": "Popularne szlaki i atrakcje",
+                "contentPart1": "Tatry to raj dla turystów pieszych. Szlaki takie jak droga na Giewont czy Dolina Kościeliska przyciągają tysiące odwiedzających rocznie. Dla początkujących polecamy łatwe trasy z pięknymi widokami na Zakopane, a dla zaawansowanych – wymagające wspinaczki na Rysy. Wycieczki w Tatry to nie tylko wysiłek fizyczny, ale też szansa na spotkanie dzikiej przyrody i zrobienie niesamowitych zdjęć.",
+                "contentPart2": "Wiosną i latem szlaki kwitną kwiatami alpejskimi, jesienią zachwycają kolorami liści, a zimą oferują narciarstwo biegowe. Biuro podróży Zakopane Triotravel.pl organizuje przewodnickie wycieczki jednodniowe, zapewniając bezpieczeństwo i wiedzę o historii regionu. Szukaj słów kluczowych jak 'wycieczki Tatry' czy 'szlaki Zakopane' i zaplanuj swoją przygodę.",
+                "cta": {
+                    "link": "/wycieczki-jednodniowe",
+                    "button": "Zarezerwuj wycieczkę szlakową",
+                    "header": "Przygoda w Tatrach",
+                    "text": "Odkryj Tatry z Triotravel – profesjonalne przewodnictwo i spersonalizowane trasy dla każdego."
+                }
+            },
+            "7": {
+                "title": "Najpiękniejsze widoki w Tatrach – punkty widokowe i trasy z Zakopanego",
+                "metaTitle": "Punkty Widokowe Tatr – Najpiękniejsze Widoki Zakopane | Triotravel",
+                "subtitle": "Odkryj zapierające dech w piersiach panoramy Tatr, idealne dla miłośników fotografii i spokojnych spacerów.",
+                "subtitle2": "Najlepsze punkty widokowe",
+                "contentPart1": "Tatry oferują jedne z najpiękniejszych krajobrazów w Polsce. Punkty widokowe, takie jak Gubałówka czy Nosal, zapewniają widoki na panoramę Tatr i Zakopane. Wycieczki na punkty widokowe są idealne dla osób szukających relaksu i inspiracji do fotografii. Popularne trasy, jak szlak na Rusinową Polanę, łączą łatwe podejścia z niesamowitymi widokami na Tatry Wysokie.",
+                "contentPart2": "Wycieczki z przewodnikiem organizowane przez Triotravel.pl pozwalają odkryć mniej znane miejsca, takie jak Sarnia Skała czy Kopieniec. Szukaj fraz jak 'widoki Zakopane' czy 'punkty widokowe Tatry', aby zaplanować idealną trasę. W pakiecie oferujemy transport, mapy i opowieści o historii regionu, które wzbogacą Twoje doświadczenie.",
+                "cta": {
+                    "link": "/wycieczki-widokowe",
+                    "button": "Zarezerwuj wycieczkę widokową",
+                    "header": "Panoramy Tatr",
+                    "text": "Podziwiaj piękno Tatr z Triotravel – wycieczki na najpiękniejsze punkty widokowe."
+                }
+            },
+            "8": {
+                "title": "Weekend w Zakopanem – jak zaplanować idealny wypad w Tatry",
+                "metaTitle": "Weekend w Zakopanem – Plan na Wypad w Tatry | Triotravel",
+                "subtitle": "Krótki wyjazd pełen wrażeń, idealny dla osób chcących maksymalnie wykorzystać czas w górach.",
+                "subtitle2": "Plan na weekend",
+                "contentPart1": "Weekend w Zakopanem to doskonały sposób na oderwanie się od codzienności. Rozpocznij od spaceru po Krupówkach, spróbuj regionalnych potraw i odwiedź termy na relaks. W drugi dzień wybierz się na szlak, np. do Doliny Pięciu Stawów Polskich, która zachwyca jeziorami i górami. Biuro podróży Triotravel.pl oferuje gotowe plany weekendowe z noclegami i transportem.",
+                "contentPart2": "Wieczory spędź w karczmach z góralską muzyką lub na kuligu. Szukaj 'weekend Zakopane' czy 'krótki wypad Tatry' dla inspiracji. Nasze pakiety obejmują bilety wstępu i elastyczne harmonogramy, byś mógł cieszyć się każdą chwilą w Tatrach.",
+                "cta": {
+                    "link": "/wycieczki-weekendowe",
+                    "button": "Zarezerwuj weekend w Tatrach",
+                    "header": "Weekend w górach",
+                    "text": "Zaplanuj idealny weekend z Triotravel – pełne wrażeń wypady do Zakopanego."
+                }
+            },
+            "9": {
+                "title": "Przyroda Tatr – wycieczki edukacyjne i obserwacja zwierząt z Zakopanego",
+                "metaTitle": "Przyroda Tatr – Wycieczki Edukacyjne Zakopane | Triotravel",
+                "subtitle": "Poznaj dziką przyrodę Tatr, idealne dla miłośników ekologii i rodzin z dziećmi.",
+                "subtitle2": "Flora i fauna Tatr",
+                "contentPart1": "Tatry to dom dla unikalnych gatunków zwierząt, takich jak kozice, świstaki czy niedźwiedzie. Wycieczki edukacyjne z Triotravel.pl prowadzone przez przyrodników pozwalają obserwować zwierzęta w ich naturalnym środowisku. Szlaki jak Dolina Chochołowska wiosną zachwycają dywanami krokusów, a latem – rzadkimi roślinami alpejskimi.",
+                "contentPart2": "Wycieczki dla dzieci включаją warsztaty o ekologii i quizy przyrodnicze. Szukaj fraz 'przyroda Zakopane' czy 'zwierzęta Tatry', by znaleźć inspiracje. Nasze pakiety zapewniają bezpieczeństwo i wiedzę o ochronie tatrzańskiej przyrody, idealne dla każdego miłośnika natury.",
+                "cta": {
+                    "link": "/wycieczki-przyrodnicze",
+                    "button": "Zarezerwuj wycieczkę przyrodniczą",
+                    "header": "Przyroda Tatr",
+                    "text": "Odkryj dziką naturę z Triotravel – edukacyjne wycieczki w sercu Tatr."
+                }
+            },
+            "10": {
+                "title": "Adrenalina w Tatrach – wspinaczka, rafting i inne sporty ekstremalne",
+                "metaTitle": "Sporty Ekstremalne w Tatrach – Wspinaczka i Rafting | Triotravel",
+                "subtitle": "Dla poszukiwaczy mocnych wrażeń, z trasami wspinaczkowymi i aktywnościami pełnymi adrenaliny.",
+                "subtitle2": "Sporty ekstremalne w Tatrach",
+                "contentPart1": "Tatry to idealne miejsce dla fanów adrenaliny. Wspinaczka na Mnicha czy skałkach w okolicach Zakopanego przyciąga profesjonalistów i amatorów. Rafting na Dunajcu oferuje emocje wśród rwących rzek, a parki linowe i zjazdy na tyrolkach dodają dreszczyku. Biuro podróży Triotravel.pl zapewnia sprzęt i instruktorów.",
+                "contentPart2": "Zimą spróbuj skitouringu lub snowboardu w trudnym terenie. Szukaj 'adrenalina Zakopane' czy 'sporty ekstremalne Tatry' dla najlepszych ofert. Nasze wycieczki są bezpieczne, a doświadczeni przewodnicy dostosują poziom trudności do Twoich umiejętności.",
+                "cta": {
+                    "link": "/wycieczki-ekstremalne",
+                    "button": "Zarezerwuj przygodę ekstremalną",
+                    "header": "Adrenalina w Tatrach",
+                    "text": "Poczuj dreszcz emocji z Triotravel – ekstremalne przygody w Zakopanem."
+                }
+            },
+            "11": {
+                "title": "Romantyczny wyjazd do Zakopanego – idealne miejsca dla par w Tatrach",
+                "metaTitle": "Romantyczny Wyjazd do Zakopanego – Dla Par | Triotravel",
+                "subtitle": "Stwórz niezapomniane chwile z ukochaną osobą wśród górskich krajobrazów i przytulnych karczm.",
+                "subtitle2": "Romantyczne atrakcje",
+                "contentPart1": "Zakopane to idealne miejsce na romantyczny wypad. Spacer po Dolinie Kościeliskiej o zachodzie słońca czy kolacja w karczmie z widokiem na Giewont tworzą magiczną atmosferę. Termy z saunami i masażami dla dwojga to doskonały sposób na relaks. Triotravel.pl oferuje pakiety dla par z noclegami w urokliwych pensjonatach.",
+                "contentPart2": "Zimą wybierz się na kulig z pochodniami, a latem na rejs po Morskim Oku. Szukaj 'romantyczne Zakopane' czy 'wycieczki dla par Tatry' dla inspiracji. Nasze spersonalizowane plany sprawią, że Twój wyjazd będzie niezapomniany.",
+                "cta": {
+                    "link": "/wycieczki-romantyczne",
+                    "button": "Zarezerwuj romantyczny wyjazd",
+                    "header": "Romantyzm w Tatrach",
+                    "text": "Przeżyj magiczne chwile z Triotravel – romantyczne wypady do Zakopanego."
+                }
+            },
+            "12": {
+                "title": "Fotografia w Tatrach – warsztaty i najlepsze miejsca na zdjęcia z Zakopanego",
+                "metaTitle": "Fotografia w Tatrach – Warsztaty i Zdjęcia Zakopane | Triotravel",
+                "subtitle": "Dla pasjonatów fotografii, oferujące wskazówki i trasy do uchwycenia piękna Tatr.",
+                "subtitle2": "Fotograficzne perełki Tatr",
+                "contentPart1": "Tatry to raj dla fotografów. Miejsca jak Czarny Staw Gąsienicowy czy Hala Gąsienicowa oferują idealne tło dla zdjęć krajobrazowych. Wycieczki fotograficzne z Triotravel.pl prowadzone są przez profesjonalistów, którzy uczą, jak uchwycić światło i kolory Tatr. Warsztaty obejmują zarówno fotografię dzienną, jak i nocną, np. gwieździstego nieba.",
+                "contentPart2": "Szlaki jak Dolina Małej Łąki czy Polana Chochołowska są idealne dla początkujących i zaawansowanych. Szukaj 'fotografia Zakopane' czy 'warsztaty fotograficzne Tatry' dla inspiracji. Nasze pakiety включаją sprzęt, transport i porady, jak stworzyć idealne ujęcie.",
+                "cta": {
+                    "link": "/wycieczki-fotograficzne",
+                    "button": "Zarezerwuj warsztat fotograficzny",
+                    "header": "Fotografia w Tatrach",
+                    "text": "Uchwyć piękno Tatr z Triotravel – profesjonalne warsztaty fotograficzne."
+                }
+            }
+        }
     }
 }

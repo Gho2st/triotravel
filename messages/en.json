@@ -7,7 +7,8 @@
             "link4": "Transport",
             "link5": "Partners",
             "link6": "Contact",
-            "link7": "Offer"
+            "link7": "Offer",
+            "link8": "Blog"
         },
         "button": "Buy Online"
     },
@@ -1712,6 +1713,10 @@
         "rowery-elektryczne": {
             "title": "Guided Electric Bike Tour in Zakopane - ebike.story",
             "description": "Discover Zakopane on premium electric bikes with stories in the background! A one-day tour with Trio Travel offers Tatra views and guide's stories. Book now!"
+        },
+        "blog": {
+            "title": "Travel Blog - Inspiration and Tips | TrioTravel",
+            "description": "Discover inspiring stories, practical travel tips, and fascinating facts from around the world on the TrioTravel blog. Plan your adventures with us!"
         }
     },
     "triptime": {
@@ -1852,5 +1857,195 @@
         "text2": "Now the best prices for a winter adventure!",
         "alt": "Horses with people and sleighs during a sleigh ride in Zakopane in a snowy winter setting",
         "button": "Check the offer!"
+    },
+    "blog": {
+        "header": "Our Blog",
+        "description": "Discover the latest tips, articles, and inspirations for parents of young children. Learn more about adaptation, speech development, educational activities, and other nursery-related topics.",
+        "searchPlaceholder": "Search articles...",
+        "articlesHeader": "Our Articles",
+        "noArticlesFound": "No articles found matching the search.",
+        "previousButton": "Previous",
+        "nextButton": "Next",
+        "readMoreButton": "Read more",
+        "recentPosts": {
+            "header": "Recent Posts",
+            "button": "Read more...",
+            "error": "No articles available"
+        },
+        "favourites": {
+            "header": "Featured",
+            "button": "Read more...",
+            "error": "No articles available"
+        },
+        "blogPosts": {
+            "1": {
+                "title": "City at the Foot of the Tatras, Combining Mountain Adventures and Winter Thrills",
+                "metaTitle": "City at the Foot of the Tatras – Adventures and Winter Attractions | Triotravel",
+                "subtitle": "Discover a city where majestic Tatras meet winter vibes and year-round tourist attractions.",
+                "subtitle2": "Charming Nature and Unforgettable Trails",
+                "contentPart1": "The city attracts tourists with its unique blend of mountain nature, culture, and hospitality. In summer, it’s worth going on hikes through picturesque valleys like Kościeliska or Chochołowska. Trails offer various difficulty levels—from leisurely walks to challenging climbs up Giewont, Kasprowy Wierch, or Rysy. During excursions, you can admire mountain streams, waterfalls, and unique Tatra flora. For those who enjoy physical activity, cycling routes, rock climbing, and numerous viewpoints that take your breath away are also available.",
+                "contentPart2": "In winter, the city transforms into the true capital of Polish skiing. Ski slopes like Polana Szymoszkowa, Nosal, or Kasprowy Wierch offer runs for both beginners and advanced skiers. The winter atmosphere is enhanced by traditional highlander taverns, folk music, and regional delicacies. A stroll along Krupówki lets you feel the city’s unique vibe, while evening illuminations and highlander festivals make the visit an unforgettable experience.",
+                "cta": {
+                    "link": "/wycieczki-jednodniowe",
+                    "button": "Book a Trip",
+                    "header": "The Tatras Await You",
+                    "text": "Discover all the city’s attractions with Triotravel – comprehensive trips tailored to your needs."
+                }
+            },
+            "2": {
+                "title": "Perfect Place for Family Holidays with Kids in the Heart of Polish Mountains",
+                "metaTitle": "Family Holidays in the Tatras – Zakopane with Kids | Triotravel",
+                "subtitle": "A region where families can actively spend time, combining outdoor adventures with educational and cultural attractions.",
+                "subtitle2": "Activities for Young and Old",
+                "contentPart1": "Families with children will find plenty of attractions in the region—from gentle valley walks to rope parks and winter sleigh rides with torches. In summer, kids can enjoy bike rentals, mini zoos, or nearby playgrounds. Older children can join hiking or cycling trips on less-traveled trails, which build fitness, teach navigation, and introduce local flora and fauna.",
+                "contentPart2": "The region offers a wealth of museums and educational sites. The Nature Education Center and the Tatra Museum allow kids and adults to learn about the history, fauna, and flora of the mountains, as well as local traditions. During the season, interactive craft workshops, woodcarving lessons, and encounters with highlander music make learning a joy.",
+                "cta": {
+                    "link": "/wycieczki-jednodniowe",
+                    "button": "Book a Holiday",
+                    "header": "Family Adventure in the Mountains",
+                    "text": "Take advantage of Triotravel’s tourist packages designed for the whole family."
+                }
+            },
+            "3": {
+                "title": "Mountain Adrenaline at Its Best – Climbing, Cycling, Paragliding, and Winter Challenges",
+                "metaTitle": "Adrenaline in the Tatras – Climbing and Extreme Sports | Triotravel",
+                "subtitle": "For thrill-seekers, the region offers extreme adventures year-round, from climbing to freeride.",
+                "subtitle2": "Tatras for the Brave",
+                "contentPart1": "Adrenaline enthusiasts will find a wide range of activities: rock climbing on routes of varying difficulty, cycling trails through mountain passes, and paragliding for bird’s-eye views of the Tatras. The region also features numerous trails for trail running, obstacle courses, and rope parks, perfect for active recreation. It’s worth visiting areas like Nosal or Kasprowy Wierch, where guides lead trips with survival and climbing techniques.",
+                "contentPart2": "In winter, the offer for thrill-seekers doesn’t diminish—freeride in untouched Tatra areas, ice climbing on frozen waterfalls, skydiving near the Valley of Five Polish Ponds, and snowmobile rides attract those seeking extreme experiences. For winter sports fans, professional skiing and snowboarding courses combine safety with maximum excitement. The region also offers winter survival camps and guided expeditions teaching navigation and survival skills in mountain conditions.",
+                "cta": {
+                    "link": "/wycieczki-jednodniowe",
+                    "button": "Book an Adventure",
+                    "header": "Adrenaline in the Tatras",
+                    "text": "Experience the extreme side of the Tatras with Triotravel – professional support and full safety during your adventures."
+                }
+            },
+            "4": {
+                "title": "Highlander Culture, Architecture, and Festivals – How to Discover Podhale Traditions on Every Visit",
+                "metaTitle": "Highlander Culture and Podhale Traditions – Zakopane | Triotravel",
+                "subtitle": "A region where music, art, festivals, and architecture create a unique atmosphere, perfect for tourists interested in culture and history.",
+                "subtitle2": "Highlander Heritage",
+                "contentPart1": "Beyond nature, the region is renowned for its rich Podhale culture. The Zakopane architectural style, crafts, music, and traditional costumes create a unique atmosphere. Strolling through the city lets you admire wooden villas and art galleries, while meetings with local artisans offer insight into traditional crafts. Nearby villages also host craft demonstrations, pottery workshops, and highlander dance lessons.",
+                "contentPart2": "Throughout the year, numerous folklore festivals, classical and jazz music concerts, art workshops, and exhibitions take place. Participating in cultural events lets you fully experience the region’s character and discover its living heritage, accessible to every tourist. It’s worth visiting the International Festival of Mountain Folklore, which attracts teams from around the world, showcasing local music, dance, and culinary traditions.",
+                "cta": {
+                    "link": "/wycieczki-jednodniowe",
+                    "button": "Book a Cultural Trip",
+                    "header": "Podhale Tradition and Culture",
+                    "text": "Discover the beauty of highlander heritage with Triotravel – themed trips for culture enthusiasts."
+                }
+            },
+            "5": {
+                "title": "Relaxation, Wellness, and Nature – Thermal Baths, Valleys, and Tranquil Spots in the Heart of the Tatras",
+                "metaTitle": "Relaxation in the Tatras – Thermal Baths and Nature in Zakopane | Triotravel",
+                "subtitle": "A unique place for body and soul rejuvenation, perfect for those seeking rest, peace, and connection with nature.",
+                "subtitle2": "Thermal Baths and Wellness",
+                "contentPart1": "After a day on mountain trails, it’s worth visiting geothermal pool complexes. Thermal baths help relax the body, regenerate muscles, and improve circulation while enjoying stunning mountain views. For those who value luxury, spa treatments, massages, and relaxation therapies are available. Thermal resorts often offer yoga and meditation sessions amidst the mountains, promoting complete tranquility.",
+                "contentPart2": "Quiet corners like the Mała Łąka Valley offer an escape from city hustle and daily life. Perfect for meditation, nature photography, or simple relaxation. Proximity to mountains, forests, and streams lets you breathe deeply and feel harmony with nature. In summer, educational hikes on less-traveled trails, wildlife observation, and photography workshops are also available.",
+                "cta": {
+                    "link": "/wycieczki-jednodniowe",
+                    "button": "Book a Relaxing Stay",
+                    "header": "Rest in the Tatras",
+                    "text": "Recharge with Triotravel – personalized stays in the heart of the Tatras for complete relaxation."
+                }
+            },
+            "6": {
+                "title": "Adventures on Tatra Trails – Discover the Best Routes from Zakopane",
+                "metaTitle": "Best Tatra Trails – Tours from Zakopane | Triotravel",
+                "subtitle": "Perfect for hiking enthusiasts, offering unforgettable views and challenges for all skill levels.",
+                "subtitle2": "Popular Trails and Attractions",
+                "contentPart1": "The Tatras are a paradise for hikers. Trails like the route to Giewont or Kościeliska Valley attract thousands of visitors yearly. For beginners, we recommend easy trails with beautiful Zakopane views, while advanced hikers can tackle challenging climbs to Rysy. Tatra excursions offer not only physical activity but also chances to encounter wildlife and take stunning photos.",
+                "contentPart2": "In spring and summer, trails bloom with alpine flowers, in autumn they dazzle with colorful foliage, and in winter, they offer cross-country skiing. The Zakopane Triotravel.pl travel agency organizes guided day trips, ensuring safety and knowledge about the region’s history. Search for keywords like ‘Tatra tours’ or ‘Zakopane trails’ to plan your adventure.",
+                "cta": {
+                    "link": "/wycieczki-jednodniowe",
+                    "button": "Book a Trail Tour",
+                    "header": "Adventure in the Tatras",
+                    "text": "Discover the Tatras with Triotravel – professional guidance and personalized routes for everyone."
+                }
+            },
+            "7": {
+                "title": "Most Beautiful Views in the Tatras – Viewpoints and Trails from Zakopane",
+                "metaTitle": "Tatra Viewpoints – Most Beautiful Views in Zakopane | Triotravel",
+                "subtitle": "Discover breathtaking Tatra panoramas, perfect for photography lovers and leisurely walks.",
+                "subtitle2": "Top Viewpoints",
+                "contentPart1": "The Tatras offer some of Poland’s most stunning landscapes. Viewpoints like Gubałówka or Nosal provide vistas of the Tatra and Zakopane panoramas. Trips to viewpoints are ideal for those seeking relaxation and photography inspiration. Popular trails, like the one to Rusinowa Polana, combine easy ascents with incredible views of the High Tatras.",
+                "contentPart2": "Guided tours organized by Triotravel.pl let you explore lesser-known spots like Sarnia Skała or Kopieniec. Search for phrases like ‘Zakopane views’ or ‘Tatra viewpoints’ to plan the perfect route. Our packages include transportation, maps, and stories about the region’s history to enrich your experience.",
+                "cta": {
+                    "link": "/wycieczki-jednodniowe",
+                    "button": "Book a Scenic Tour",
+                    "header": "Tatra Panoramas",
+                    "text": "Admire the beauty of the Tatras with Triotravel – trips to the most stunning viewpoints."
+                }
+            },
+            "8": {
+                "title": "Weekend in Zakopane – How to Plan the Perfect Tatra Getaway",
+                "metaTitle": "Weekend in Zakopane – Plan for a Tatra Getaway | Triotravel",
+                "subtitle": "A short trip full of experiences, ideal for those wanting to make the most of their time in the mountains.",
+                "subtitle2": "Weekend Plan",
+                "contentPart1": "A weekend in Zakopane is a great way to escape daily life. Start with a stroll along Krupówki, try regional dishes, and visit thermal baths for relaxation. On the second day, head to a trail, like the Valley of Five Polish Ponds, which captivates with its lakes and mountains. Triotravel.pl offers ready-made weekend plans with accommodation and transportation.",
+                "contentPart2": "Spend evenings in taverns with highlander music or on a sleigh ride. Search for ‘weekend Zakopane’ or ‘short Tatra getaway’ for inspiration. Our packages include entry tickets and flexible schedules to let you enjoy every moment in the Tatras.",
+                "cta": {
+                    "link": "/wycieczki-jednodniowe",
+                    "button": "Book a Weekend in the Tatras",
+                    "header": "Weekend in the Mountains",
+                    "text": "Plan the perfect weekend with Triotravel – exciting getaways to Zakopane."
+                }
+            },
+            "9": {
+                "title": "Tatra Nature – Educational Tours and Wildlife Observation from Zakopane",
+                "metaTitle": "Tatra Nature – Educational Tours in Zakopane | Triotravel",
+                "subtitle": "Explore the wild nature of the Tatras, perfect for ecology enthusiasts and families with kids.",
+                "subtitle2": "Tatra Flora and Fauna",
+                "contentPart1": "The Tatras are home to unique wildlife, including chamois, marmots, and bears. Educational tours by Triotravel.pl, led by naturalists, allow you to observe animals in their natural habitat. Trails like Chochołowska Valley dazzle with carpets of crocuses in spring and rare alpine plants in summer.",
+                "contentPart2": "Tours for kids include ecology workshops and nature quizzes. Search for ‘Zakopane nature’ or ‘Tatra wildlife’ for inspiration. Our packages ensure safety and knowledge about protecting Tatra nature, ideal for every nature lover.",
+                "cta": {
+                    "link": "/wycieczki-jednodniowe",
+                    "button": "Book a Nature Tour",
+                    "header": "Tatra Nature",
+                    "text": "Discover wild nature with Triotravel – educational tours in the heart of the Tatras."
+                }
+            },
+            "10": {
+                "title": "Adrenaline in the Tatras – Climbing, Rafting, and Other Extreme Sports",
+                "metaTitle": "Extreme Sports in the Tatras – Climbing and Rafting | Triotravel",
+                "subtitle": "For thrill-seekers, with climbing routes and adrenaline-pumping activities.",
+                "subtitle2": "Extreme Sports in the Tatras",
+                "contentPart1": "The Tatras are ideal for adrenaline fans. Climbing on Mnich or rocks around Zakopane attracts pros and amateurs alike. Rafting on the Dunajec River offers thrills amidst rushing waters, while rope parks and ziplines add excitement. Triotravel.pl provides equipment and instructors.",
+                "contentPart2": "In winter, try skitouring or snowboarding in challenging terrain. Search for ‘Zakopane adrenaline’ or ‘Tatra extreme sports’ for the best offers. Our tours are safe, with experienced guides adjusting difficulty to your skills.",
+                "cta": {
+                    "link": "/wycieczki-jednodniowe",
+                    "button": "Book an Extreme Adventure",
+                    "header": "Adrenaline in the Tatras",
+                    "text": "Feel the thrill with Triotravel – extreme adventures in Zakopane."
+                }
+            },
+            "11": {
+                "title": "Romantic Trip to Zakopane – Perfect Places for Couples in the Tatras",
+                "metaTitle": "Romantic Trip to Zakopane – For Couples | Triotravel",
+                "subtitle": "Create unforgettable moments with your loved one amidst mountain landscapes and cozy taverns.",
+                "subtitle2": "Romantic Attractions",
+                "contentPart1": "Zakopane is perfect for a romantic getaway. A sunset walk in Kościeliska Valley or dinner in a tavern with a Giewont view creates a magical atmosphere. Thermal baths with saunas and couples’ massages are a great way to relax. Triotravel.pl offers packages for couples with stays in charming guesthouses.",
+                "contentPart2": "In winter, go on a torchlit sleigh ride; in summer, take a boat ride on Morskie Oko. Search for ‘romantic Zakopane’ or ‘Tatra couples’ trips’ for inspiration. Our personalized plans ensure your trip is unforgettable.",
+                "cta": {
+                    "link": "/wycieczki-jednodniowe",
+                    "button": "Book a Romantic Getaway",
+                    "header": "Romance in the Tatras",
+                    "text": "Experience magical moments with Triotravel – romantic getaways to Zakopane."
+                }
+            },
+            "12": {
+                "title": "Photography in the Tatras – Workshops and Best Spots for Photos from Zakopane",
+                "metaTitle": "Photography in the Tatras – Workshops and Photos in Zakopane | Triotravel",
+                "subtitle": "For photography enthusiasts, offering tips and routes to capture the beauty of the Tatras.",
+                "subtitle2": "Tatra Photography Gems",
+                "contentPart1": "The Tatras are a photographer’s paradise. Places like Czarny Staw Gąsienicowy or Hala Gąsienicowa provide perfect backdrops for landscape photos. Triotravel.pl’s photography tours, led by professionals, teach how to capture the Tatras’ light and colors. Workshops cover both daytime and nighttime photography, like starry skies.",
+                "contentPart2": "Trails like Mała Łąka Valley or Chochołowska Polana are ideal for beginners and advanced photographers. Search for ‘Zakopane photography’ or ‘Tatra photography workshops’ for inspiration. Our packages include equipment, transportation, and tips for the perfect shot.",
+                "cta": {
+                    "link": "/wycieczki-jednodniowe",
+                    "button": "Book a Photography Workshop",
+                    "header": "Photography in the Tatras",
+                    "text": "Capture the Tatras’ beauty with Triotravel – professional photography workshops."
+                }
+            }
+        }
     }
 }

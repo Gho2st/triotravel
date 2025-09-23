@@ -110,6 +110,14 @@ export default function Nav() {
             <li>
               <Link
                 className="px-3 hover:text-red-500 duration-300"
+                href={"/blog"}
+              >
+                {t("links.link8")}
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="px-3 hover:text-red-500 duration-300"
                 href={"/oferta"}
               >
                 {t("links.link7")}
@@ -203,6 +211,15 @@ export default function Nav() {
                     onClick={handleMenuToggle}
                   >
                     {t("links.link5")}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/blog"
+                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
+                    onClick={handleMenuToggle}
+                  >
+                    {t("links.link8")}
                   </Link>
                 </li>
                 <li>

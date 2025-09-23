@@ -16,11 +16,11 @@ const CookieConsent = () => {
   // Funkcja do dynamicznego ładowania Clarity
   const loadClarityScript = () => {
     if (clarityLoaded.current) {
-      console.log("CookieConsent: Clarity script already loaded");
+      // console.log("CookieConsent: Clarity script already loaded");
       return;
     }
 
-    console.log("CookieConsent: Loading Clarity script");
+    // console.log("CookieConsent: Loading Clarity script");
     const script = document.createElement("script");
     script.id = "microsoft-clarity-analytics";
     script.async = true;
@@ -38,7 +38,7 @@ const CookieConsent = () => {
   // Funkcja wysyłająca zgodę do Clarity
   const sendClarityConsent = (consentState) => {
     if (typeof window !== "undefined" && window.clarity) {
-      console.log("CookieConsent: Sending consent to Clarity:", consentState);
+      // console.log("CookieConsent: Sending consent to Clarity:", consentState);
       window.clarity("consentv2", {
         ad_Storage: consentState.ad_Storage,
         analytics_Storage: consentState.analytics_Storage,
@@ -47,9 +47,9 @@ const CookieConsent = () => {
         consentState.ad_Storage === "denied" &&
         consentState.analytics_Storage === "denied"
       ) {
-        console.log(
-          "CookieConsent: Both consents denied, erasing Clarity cookies"
-        );
+        // console.log(
+        //   "CookieConsent: Both consents denied, erasing Clarity cookies"
+        // );
         window.clarity("consent", false);
       }
       // Sprawdź status zgody Clarity po krótkim opóźnieniu
@@ -57,10 +57,10 @@ const CookieConsent = () => {
         window.clarity(
           "metadata",
           (d, upgrade, consent) => {
-            console.log(
-              "CookieConsent: Clarity consent status after send:",
-              consent
-            );
+            // console.log(
+            //   "CookieConsent: Clarity consent status after send:",
+            //   consent
+            // );
           },
           false,
           true,
@@ -68,7 +68,7 @@ const CookieConsent = () => {
         );
       }, 500);
     } else {
-      console.log("CookieConsent: Clarity not loaded or window undefined");
+      // console.log("CookieConsent: Clarity not loaded or window undefined");
     }
   };
 
@@ -76,7 +76,7 @@ const CookieConsent = () => {
   const handleGTMConsent = (consentState) => {
     if (typeof window !== "undefined") {
       if (consentState.analytics_Storage === "granted") {
-        console.log("CookieConsent: Loading GTM script");
+        // console.log("CookieConsent: Loading GTM script");
         const existingScript = document.getElementById("gtm-script");
         if (existingScript) {
           existingScript.remove();
@@ -92,11 +92,11 @@ const CookieConsent = () => {
           "gtm.start": new Date().getTime(),
           event: "gtm.js",
         });
-        console.log("CookieConsent: GTM initialized");
+        // console.log("CookieConsent: GTM initialized");
       } else {
-        console.log(
-          "CookieConsent: Analytics consent denied, removing GTM script"
-        );
+        // console.log(
+        //   "CookieConsent: Analytics consent denied, removing GTM script"
+        // );
         const existingScript = document.getElementById("gtm-script");
         if (existingScript) {
           existingScript.remove();
@@ -110,10 +110,10 @@ const CookieConsent = () => {
 
   // Sprawdzenie istniejącej zgody
   useEffect(() => {
-    console.log("CookieConsent: Checking localStorage for clarityConsent");
+    // console.log("CookieConsent: Checking localStorage for clarityConsent");
     const storedConsent = localStorage.getItem("clarityConsent");
     if (storedConsent) {
-      console.log("CookieConsent: Found stored consent:", storedConsent);
+      // console.log("CookieConsent: Found stored consent:", storedConsent);
       const parsedConsent = JSON.parse(storedConsent);
       setConsent(parsedConsent);
       if (parsedConsent.analytics_Storage === "granted") {
@@ -123,14 +123,14 @@ const CookieConsent = () => {
       handleGTMConsent(parsedConsent);
       setShowBanner(false);
     } else {
-      console.log("CookieConsent: No stored consent, showing banner");
+      // console.log("CookieConsent: No stored consent, showing banner");
       setShowBanner(true);
     }
 
     // Sprawdzanie, czy Clarity jest załadowane
     const checkClarity = setInterval(() => {
       if (typeof window !== "undefined" && window.clarity) {
-        console.log("CookieConsent: Clarity script loaded");
+        // console.log("CookieConsent: Clarity script loaded");
         clearInterval(checkClarity);
         if (storedConsent) {
           sendClarityConsent(JSON.parse(storedConsent));
@@ -143,7 +143,7 @@ const CookieConsent = () => {
 
   // Zapis zgody i aktualizacja Clarity oraz GTM
   const saveConsent = (newConsent) => {
-    console.log("CookieConsent: Saving consent:", newConsent);
+    // console.log("CookieConsent: Saving consent:", newConsent);
     setConsent(newConsent);
     localStorage.setItem("clarityConsent", JSON.stringify(newConsent));
     if (newConsent.analytics_Storage === "granted") {
@@ -189,11 +189,11 @@ const CookieConsent = () => {
   };
 
   if (!showBanner) {
-    console.log("CookieConsent: Banner hidden due to showBanner being false");
+    // console.log("CookieConsent: Banner hidden due to showBanner being false");
     return null;
   }
 
-  console.log("CookieConsent: Rendering banner");
+  // console.log("CookieConsent: Rendering banner");
   return (
     <div className="fixed bottom-0 left-0 right-0 md:bottom-4 md:mx-4 bg-gray-900 text-white p-4 md:p-6 rounded-t-lg md:rounded-lg shadow-xl z-50 transition-all duration-300 ease-in-out">
       <div className="max-w-7xl mx-auto text-center">
