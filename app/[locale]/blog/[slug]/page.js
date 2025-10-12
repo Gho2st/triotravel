@@ -83,7 +83,7 @@ export default async function BlogPostPage({ params }) {
         </div>
 
         <CtaLink
-          link={data.cta.link}
+          link="/wycieczki-jednodniowe"
           button={data.cta.button}
           header={data.cta.header}
           text={data.cta.text}
