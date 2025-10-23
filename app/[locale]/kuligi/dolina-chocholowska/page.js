@@ -43,8 +43,8 @@ export default function Dolina() {
     t("table.header3"),
   ];
   const tableRows = [
-    [t("table.3"), "199 PLN", "219 PLN"],
-    [t("table.4"), "179 PLN", "199PLN"],
+    [t("table.3"), "220 PLN", "230 PLN"],
+    [t("table.4"), "200 PLN", "210 PLN"],
   ];
 
   const customItems = [

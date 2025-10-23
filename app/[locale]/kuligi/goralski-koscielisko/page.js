@@ -39,8 +39,8 @@ export default function Koscielisko() {
   const tableHeaders = [t("table.header1"), t("table.header2")];
 
   const tableRows = [
-    [t("table.3"), "150 PLN*"],
-    [t("table.4"), "130 PLN*"],
+    [t("table.3"), "160 PLN*"],
+    [t("table.4"), "140 PLN*"],
   ];
 
   const customItems = [

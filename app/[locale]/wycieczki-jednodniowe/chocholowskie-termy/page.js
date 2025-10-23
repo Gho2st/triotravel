@@ -58,8 +58,8 @@ export default function Termy() {
   // Przykładowe dane dla tabeli
   const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
-    [t("table.1"), , "120 PLN"],
-    [t("table.2"), , "110 PLN"],
+    [t("table.1"), , "130 PLN"],
+    [t("table.2"), , "120 PLN"],
   ];
   return (
     <>
