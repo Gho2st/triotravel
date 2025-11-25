@@ -162,7 +162,7 @@ export default function Atrakcje() {
           {/* 3 kafelki – bardzo czyste */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-14">
             {/* Wycieczki */}
-            <a
+            <Link
               href="/wycieczki"
               className="group bg-white rounded-2xl p-10 text-center shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-blue-200"
             >
@@ -178,10 +178,10 @@ export default function Atrakcje() {
               <span className="inline-block mt-5 text-blue-500 font-medium group-hover:text-blue-700">
                 {t("offer.cards.1.link")} →
               </span>
-            </a>
+            </Link>
 
             {/* Kuligi */}
-            <a
+            <Link
               href="/kuligi"
               className="group bg-white rounded-2xl p-10 text-center shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-blue-200"
             >
@@ -197,10 +197,10 @@ export default function Atrakcje() {
               <span className="inline-block mt-5 text-blue-600 font-medium group-hover:text-blue-700">
                 {t("offer.cards.2.link")} →
               </span>
-            </a>
+            </Link>
 
             {/* Transport */}
-            <a
+            <Link
               href="/transport"
               className="group bg-white rounded-2xl p-10 text-center shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-blue-200"
             >
@@ -216,7 +216,7 @@ export default function Atrakcje() {
               <span className="inline-block mt-5 text-blue-600 font-medium group-hover:text-blue-700">
                 {t("offer.cards.3.link")} →
               </span>
-            </a>
+            </Link>
           </div>
 
           {/* CTA na dole – bardzo delikatny i ciepły */}
