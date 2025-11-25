@@ -1706,6 +1706,10 @@
             "title": "Tours from Zakopane - Trio Travel Agency Offer",
             "description": "Discover our tour offer from Zakopane! Dunajec rafting, visits to Krakow, Wieliczka, and other day trips. Check the flipbook and plan an unforgettable adventure with Trio Travel!"
         },
+        "atrakcje-zakopane": {
+            "title": "Zakopane Attractions - Best Places to See on a Day Trip",
+            "description": "Top Zakopane sights in just one day: Morskie Oko, Krupówki, Gubałówka, Kasprowy Wierch, and Chochołów Thermal Baths. We provide daily tours with door-to-door transport from Krakow. Check the program!"
+        },
         "polityka-cookies": {
             "title": "Our Cookie Policy",
             "description": "Learn how we use cookies on triotravel.pl to provide you with the best experience, personalize content, and analyze website traffic. Check how you can manage your cookie settings!"
@@ -1848,6 +1852,72 @@
                     "save": "Save settings",
                     "cancel": "Cancel"
                 }
+            }
+        }
+    },
+    "atrakcje-zakopane": {
+        "header": "Zakopane Attractions",
+        "hero": {
+            "header": "Zakopane & Tatra Mountains – our proven ideas for an unforgettable time",
+            "text": "We know where to find the most beautiful views without the crowds, where to eat authentic oscypek cheese straight from the shepherd’s hut, and how to plan your day so you return delighted and rested.",
+            "text2": "In Zakopane and the surrounding area there’s never a dull moment – neither in summer nor winter, neither in sunshine nor rain. We offer short attractions and full-day adventures – with hotel pick-up, always with insurance and always with true highlander hospitality."
+        },
+        "what": {
+            "header": "What can you experience with us?",
+            "text": "No hidden fees, flexible hours and an individual approach.",
+            "cards": {
+                "1": {
+                    "header": "Breathtaking views",
+                    "text": "cable cars • viewing platforms • Tatra valleys"
+                },
+                "2": {
+                    "header": "Highlander culture live",
+                    "text": "music • feast • authentic oscypki and stories"
+                },
+                "3": {
+                    "header": "Adrenaline and excitement",
+                    "text": "quads • snowmobiles • downhill rides • off-road"
+                },
+                "4": {
+                    "header": "Total relaxation",
+                    "text": "the largest thermal baths in Podhale • pools • jacuzzis • saunas"
+                },
+                "5": {
+                    "header": "Winter magic",
+                    "text": "torch-lit sleigh rides • bonfire • highlander band"
+                },
+                "6": {
+                    "header": "Something for everyone",
+                    "text": "children • couples • seniors • large groups and companies"
+                }
+            }
+        },
+        "offer": {
+            "header": "Check out our full offer",
+            "cards": {
+                "1": {
+                    "header": "Day trips",
+                    "text": "Morskie Oko, valleys, thermal baths and hidden gems",
+                    "link": "See all"
+                },
+                "2": {
+                    "header": "Winter sleigh rides",
+                    "text": "Torches, live band, bonfire – real magic",
+                    "link": "Book a sleigh ride"
+                },
+                "3": {
+                    "header": "Transport",
+                    "text": "Door-to-door, exactly when you want",
+                    "link": "Order transfer"
+                }
+            }
+        },
+        "cta": {
+            "header": "Not sure where to start?",
+            "text": "Call or write – tell us how much time you have and who you’re with, and we’ll create a plan tailored perfectly to you.",
+            "buttons": {
+                "1": "Call now",
+                "2": "Write to us"
             }
         }
     },

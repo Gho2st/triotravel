@@ -220,6 +220,13 @@ export const routing = defineRouting({
       hu: "/suti-szabalyzat",
     },
 
+    "/atrakcje-zakopane": {
+      pl: "/atrakcje-zakopane",
+      en: "/zakopane-attractions",
+      ar: "/amaken-siyahiya-zakopane",
+      hu: "/zakopane-latnivalok",
+    },
+
     // BLOG POSTY
     "/blog": {
       pl: "/blog",

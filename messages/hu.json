@@ -1711,6 +1711,10 @@
             "title": "Kirándulások Zakopanéból - Trio Travel Utazási Iroda Ajánlata",
             "description": "Fedezd fel zakopanei kirándulásaink ajánlatát! Dunajec-rafting, Krakkó és Wieliczka látogatása, valamint más egynapos túrák. Nézd meg a flipbookot, és tervezz felejthetetlen kalandot a Trio Travellel!"
         },
+        "atrakcje-zakopane": {
+            "title": "Zakopane látnivalók - Ezt érdemes megnézni egynapos kiránduláson",
+            "description": "A legjobb zakopanei nevezetességek egy nap alatt: Morskie Oko, Krupówki, Gubałówka, Kasprowy Wierch és a chochołowi termák. Napi egynapos túrák Krakkóból, ajtótól ajtóig transzferrel. Nézd meg a programot!"
+        },
         "polityka-cookies": {
             "title": "Süti szabályzatunk",
             "description": "Tudd meg, hogyan használunk sütiket a triotravel.pl oldalon, hogy a legjobb élményt nyújtsuk, személyre szabjuk a tartalmat és elemezzük a weboldal forgalmát. Nézd meg, hogyan kezelheted a süti beállításokat!"
@@ -1853,6 +1857,72 @@
                     "save": "Beállítások mentése",
                     "cancel": "Mégse"
                 }
+            }
+        }
+    },
+    "atrakcje-zakopane": {
+        "header": "Zakopane látnivalók",
+        "hero": {
+            "header": "Zakopane és a Tátra – bevált ötleteink a felejthetetlen időtöltéshez",
+            "text": "Tudjuk, hol találhatók a legszebb kilátások tömeg nélkül, hol lehet igazi oscypok sajtot enni közvetlenül a juhászkunyhóból, és hogyan szervezzük meg a napot úgy, hogy boldogan és kipihenten térjetek haza.",
+            "text2": "Zakopanéban és környékén soha nincs unalom – sem nyáron, sem télen, sem napsütésben, sem esőben. Rövid programokat és egész napos kalandokat kínálunk – szállodai transzferrel, mindig biztosítással és mindig igazi hegyvidéki vendégszeretettel."
+        },
+        "what": {
+            "header": "Mit élhetsz át nálunk?",
+            "text": "Rejtett költségek nélkül, rugalmas időpontokkal és egyéni hozzáállással.",
+            "cards": {
+                "1": {
+                    "header": "Lélegzetelállító kilátások",
+                    "text": "felvonók • kilátóteraszok • tátrai völgyek"
+                },
+                "2": {
+                    "header": "Élő hegyvidéki kultúra",
+                    "text": "zene • lakoma • valódi oscypok sajt és történetek"
+                },
+                "3": {
+                    "header": "Adrenalin és izgalom",
+                    "text": "quadok • hómobilok • lesiklás • off-road"
+                },
+                "4": {
+                    "header": "Teljes kikapcsolódás",
+                    "text": "Podhale legnagyobb termálfürdői • medencék • jacuzzik • szaunák"
+                },
+                "5": {
+                    "header": "Téli varázslat",
+                    "text": "fáklyás szánkózás • máglyatűz • hegyvidéki zenekar"
+                },
+                "6": {
+                    "header": "Valami mindenkinek",
+                    "text": "gyerekek • párok • idősek • nagy csoportok és cégek"
+                }
+            }
+        },
+        "offer": {
+            "header": "Nézd meg teljes kínálatunkat",
+            "cards": {
+                "1": {
+                    "header": "Egynapos kirándulások",
+                    "text": "Morskie Oko, völgyek, termálfürdők és rejtett kincsek",
+                    "link": "Összes megtekintése"
+                },
+                "2": {
+                    "header": "Téli szánkózások",
+                    "text": "Fáklyák, élő zenekar, máglyatűz – igazi varázslat",
+                    "link": "Foglalj szánkózást"
+                },
+                "3": {
+                    "header": "Transzfer",
+                    "text": "Házhozszállítás, pontosan akkor, amikor szeretnéd",
+                    "link": "Rendeld meg a transzfert"
+                }
+            }
+        },
+        "cta": {
+            "header": "Nem tudod, hol kezdjétek?",
+            "text": "Hívj vagy írj nekünk – mondd el, mennyi időtök van és kivel vagytok, mi pedig tökéletesen rátok szabott programot állítunk össze.",
+            "buttons": {
+                "1": "Hívj most",
+                "2": "Írj nekünk"
             }
         }
     },

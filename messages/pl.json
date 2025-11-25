@@ -1718,6 +1718,10 @@
             "title": "Nasza Polityka Cookies",
             "description": "Dowiedz się, jak używamy plików cookies na triotravel.pl, aby zapewnić Ci najlepsze doświadczenie, personalizować treści i analizować ruch na stronie. Sprawdź, jak możesz zarządzać ustawieniami cookies!"
         },
+        "atrakcje-zakopane": {
+            "title": "Atrakcje Zakopane - Co warto zobaczyć na wycieczce jednodniowej",
+            "description": "Najlepsze atrakcje Zakopanego w jeden dzień: Morskie Oko, Krupówki, Gubałówka, Kasprowy Wierch, termy Chochołowskie. Organizujemy transport door-to-door i wycieczki codziennie. Sprawdź program!"
+        },
         "rowery-elektryczne": {
             "title": "Wycieczka Rowerami Elektrycznymi z Przewodnikiem Zakopane - ebike.story",
             "description": "Odkryj Zakopane na rowerach elektrycznych premium z historiami w tle! Wycieczka jednodniowa z Trio Travel to widoki Tatr i opowieści przewodnika. Rezerwuj!"
@@ -1856,6 +1860,72 @@
                     "save": "Zapisz ustawienia",
                     "cancel": "Anuluj"
                 }
+            }
+        }
+    },
+    "atrakcje-zakopane": {
+        "header": "Atrakcje Zakopane",
+        "hero": {
+            "header": "Zakopane i Tatry – nasze sprawdzone pomysły na niezapomniany czas",
+            "text": "Wiemy, gdzie znaleźć najpiękniejsze widoki bez tłumów, gdzie zjeść prawdziwe oscypki prosto od bacówki i jak zorganizować dzień tak, żebyście wrócili zachwyceni i wypoczęci.",
+            "text2": "W Zakopanem i okolicach nigdy nie ma nudy – ani latem, ani zimą, ani w słońcu, ani w deszczu. Oferujemy krótkie atrakcje i całodniowe przygody – z odbiorem spod hotelu, zawsze z ubezpieczeniem i zawsze z prawdziwą góralską gościnnością."
+        },
+        "what": {
+            "header": "Co możesz u nas przeżyć?",
+            "text": "Bez ukrytych dopłat, z elastycznymi godzinami i indywidualnym podejściem.",
+            "cards": {
+                "1": {
+                    "header": "Widoki zapierające dech w piersiach",
+                    "text": "kolejki • platformy widokowe • doliny Tatr"
+                },
+                "2": {
+                    "header": "Góralską kulturę na żywo",
+                    "text": "muzyka • biesiada • prawdziwe oscypki i opowieści"
+                },
+                "3": {
+                    "header": "Adrenalinę i emocje",
+                    "text": "quady • skutery śnieżne • zjazdy • off-road"
+                },
+                "4": {
+                    "header": "Totalny relaks",
+                    "text": "największe termy Podhala • baseny • jacuzzi • sauny"
+                },
+                "5": {
+                    "header": "Zimową magię",
+                    "text": "kuligi z pochodniami • ognisko • góralska kapela"
+                },
+                "6": {
+                    "header": "Coś dla każdego",
+                    "text": "dzieci • pary • seniorzy • duże grupy i firmy"
+                }
+            }
+        },
+        "offer": {
+            "header": "Sprawdź naszą pełną ofertę",
+            "cards": {
+                "1": {
+                    "header": "Wycieczki jednodniowe",
+                    "text": "Morskie Oko, doliny, termy i ukryte perełki",
+                    "link": "Zobacz wszystkie"
+                },
+                "2": {
+                    "header": "Kuligi zimowe",
+                    "text": "Pochodnie, kapela, ognisko - prawdziwa magia",
+                    "link": "Rezerwuj kulig"
+                },
+                "3": {
+                    "header": "Transport",
+                    "text": "Door-to-door, dokładnie wtedy, kiedy chcesz",
+                    "link": "Zamów transfer"
+                }
+            }
+        },
+        "cta": {
+            "header": "Nie wiesz, od czego zacząć?",
+            "text": "Zadzwoń lub napisz – powiedz nam, ile macie czasu i z kim jesteście, a my stworzymy plan idealnie pod Was.",
+            "buttons": {
+                "1": "Zadzwoń teraz",
+                "2": "Napisz do nas"
             }
         }
     },

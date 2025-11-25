@@ -379,6 +379,20 @@ export default function sitemap() {
       },
     },
     {
+      url: `${baseUrl}/atrakcje-zakopane`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/zakopane-attractions`,
+          ar: `${baseUrl}/ar/amaken-siyahiya-zakopane`,
+          hu: `${baseUrl}/hu/zakopane-latnivalok`,
+        },
+      },
+    },
+
+    // BLOG POSTS
+
+    {
       url: `${baseUrl}/blog`,
       lastModified: new Date(),
       alternates: {
