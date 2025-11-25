@@ -3,6 +3,7 @@ import { routing } from "@/i18n/routing";
 import Header from "@/app/UI/Header";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -228,18 +229,18 @@ export default function Atrakcje() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
+              <Link
                 href="tel:+48881201205"
                 className="inline-flex items-center justify-center gap-2 bg-blue-500 text-white font-medium px-8 py-4 rounded-full hover:bg-blue-600 transition text-lg shadow-md hover:shadow-lg"
               >
                 ☎ {t("cta.buttons.1")}
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/kontakt"
                 className="inline-flex items-center justify-center gap-2 bg-white text-gray-800 font-medium px-8 py-4 rounded-full border-2 border-gray-300 hover:border-blue-500 hover:text-blue-600 transition text-lg"
               >
                 ✉ {t("cta.buttons.2")}
-              </a>
+              </Link>
             </div>
           </div>
         </div>
