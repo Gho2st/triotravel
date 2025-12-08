@@ -59,9 +59,9 @@ export default function Kuligi() {
             <span className="font-bold">TrioTravel</span> {t("text")}
           </p>
         </div>
-        <div className="grid md:grid-cols-2 xl:grid-cols-3  gap-10 2xl:gap-16 mt-20 justify-center items-center">
+        <div className="grid md:grid-cols-2 gap-10 lg:gap-12 mt-20 max-w-7xl mx-auto px-4">
           {articles.map((article, index) => (
-            <Card key={index} article={article} index={index} />
+            <Card key={index} article={article} />
           ))}
         </div>
       </section>

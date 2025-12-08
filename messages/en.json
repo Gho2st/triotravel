@@ -57,7 +57,8 @@
             "header10": "Slovak Paradise?",
             "header11": "Transport to Morskie Oko?",
             "header12": "Landscape of Slovakia?",
-            "header13": "First Minute for Winter Sleigh Rides!"
+            "header13": "First Minute for Winter Sleigh Rides!",
+            "header14": "Hrebienok Ice Temple"
         },
         "button": "View",
         "button2": "More"
@@ -1187,8 +1188,7 @@
                     "2": "Arrival in Starý Smokovec",
                     "3": "Funicular ride to Hrebienok",
                     "4": "Visit to the Ice Temple",
-                    "5": "Free time",
-                    "6": "Return to Zakopane",
+                    "5": "Return to Zakopane",
                     "button": "Terms & Conditions",
                     "text2": "Every participant must have a valid passport or ID card. In case of bad weather or unsuitable trail conditions, we reserve the right to change the route or order of visiting. Cancellation due to insufficient number of participants may occur no later than 1 day before the trip by 21:00. The trip takes place outside Poland. All current sanitary and epidemiological requirements of the destination country (Slovakia) must be met."
                 },

@@ -19,6 +19,11 @@ export default function Hero() {
         translationKey: "headers.header7", // "Spacer W Koronach Drzew"
         link: "/wycieczki-jednodniowe/spacer-w-koronach-drzew",
       },
+      {
+        background: "/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.webp",
+        translationKey: "headers.header14", // "Hrebieniok"
+        link: "/wycieczki-jednodniowe/swiatynia-lodowa-hrebieniok",
+      },
       // {
       //   background: "/wycieczki/splyw-dunajcem-zakopane/4.webp",
       //   translationKey: "headers.header1", // "Spływ Dunajcem?"

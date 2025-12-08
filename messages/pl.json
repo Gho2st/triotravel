@@ -57,7 +57,8 @@
             "header10": "Słowacki Raj?",
             "header11": "Transport nad Morskie Oko?",
             "header12": "Krajobraz Słowacji?",
-            "header13": "Zimowe Kuligi!"
+            "header13": "Zimowe Kuligi!",
+            "header14": "Świątynia Lodowa Hrebieniok"
         },
         "button": "Zobacz",
         "button2": "Więcej"
@@ -1195,8 +1196,7 @@
                     "2": "Przyjazd do Starego Smokowca",
                     "3": "Wyjazd kolejką na Hrebieniok",
                     "4": "Zwiedzanie Świątyni Lodowej",
-                    "5": "Czas wolny",
-                    "6": "Powrót do Zakopanego",
+                    "5": "Powrót do Zakopanego",
                     "button": "Warunki Uczestnictwa",
                     "text2": "Każdy uczestnik musi posiadać ważny paszport lub dowód osobisty. W przypadku złej pogody lub nieodpowiednich warunków na szlaku zastrzegamy sobie prawo do zmiany trasy wycieczki lub kolejności zwiedzania. Odwołanie imprezy z powodu braku odpowiedniej ilości uczestników, może nastąpić najpóźniej na 1 dzień przed rozpoczęciem imprezy do godziny 21.00. Wyjazd realizowany jest poza granicami RP. Należy spełnić wszelkie warunki sanitarno-epidemiologiczne obowiązujące w kraju docelowym - Słowacja."
                 },

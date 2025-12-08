@@ -57,7 +57,8 @@
             "header10": "Szlovák Paradicsom?",
             "header11": "Szállítás a Morskie Oko-hoz?",
             "header12": "Szlovákia tájképe?",
-            "header13": "First Minute a Téli Szánkózásra!"
+            "header13": "First Minute a Téli Szánkózásra!",
+            "header14": "Hrebienok Jégtemplom"
         },
         "button": "Megnézem",
         "button2": "Több"
@@ -1192,8 +1193,7 @@
                     "2": "Érkezés Ótátrafüredre",
                     "3": "Felvonózás Hrebienokra",
                     "4": "A Jégtemplom templom megtekintése",
-                    "5": "Szabadidő",
-                    "6": "Visszaérkezés Zakopanéba",
+                    "5": "Visszaérkezés Zakopanéba",
                     "button": "Részvételi feltételek",
                     "text2": "Minden résztvevőnek érvényes útlevéllel vagy személyi igazolvánnyal kell rendelkeznie. Rossz időjárás vagy járhatatlan ösvény esetén fenntartjuk a jogot az útvonal vagy a program sorrendjének megváltoztatására. Elégtelen létszám esetén a program legkésőbb az indulás előtti napon 21:00-ig lemondható. A kirándulás Lengyelország határain kívül zajlik – be kell tartani Szlovákia aktuális egészségügyi és járványügyi előírásait."
                 },
