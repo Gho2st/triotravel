@@ -136,10 +136,13 @@ a {
 .snowflake {
   position: absolute;
   top: -10px;
-  /* Jasny, lodowy błękit zamiast białego */
+
+  /* Kolor ten sam, ale dodajemy przezroczystość do całego elementu */
   color: #a5d8ff;
-  /* Lekki cień w ciemniejszym błękicie dla podbicia kontrastu */
-  text-shadow: 0 0 4px rgba(50, 100, 200, 0.3);
+  opacity: 0.6; /* 0.6 to 60% widoczności - zmniejsz tę liczbę, by były jeszcze mniej widoczne */
+
+  /* Zmniejszamy cień: mniejszy promień (2px) i mniejsza widoczność cienia (0.15) */
+  text-shadow: 0 0 2px rgba(50, 100, 200, 0.15);
 
   user-select: none;
   pointer-events: none;
