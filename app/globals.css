@@ -136,12 +136,16 @@ a {
 .snowflake {
   position: absolute;
   top: -10px;
-  font-size: 1.2rem; /* możesz zmienić na 0.8rem–1.5rem */
-  color: rgb(232, 232, 232);
-  animation: snow linear infinite;
-  user-select: pointer-events-none;
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+  /* Jasny, lodowy błękit zamiast białego */
+  color: #a5d8ff;
+  /* Lekki cień w ciemniejszym błękicie dla podbicia kontrastu */
+  text-shadow: 0 0 4px rgba(50, 100, 200, 0.3);
+
+  user-select: none;
+  pointer-events: none;
   will-change: transform;
+  animation: snow linear infinite;
+  z-index: 9999;
 }
 
 /* Opcjonalnie: różne rozmiary płatków */

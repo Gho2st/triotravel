@@ -1,31 +1,47 @@
-// app/UI/SnowEffect.tsx  (nowy komponent klientowski)
 "use client";
 
 import { useEffect } from "react";
 
 export default function SnowEffect() {
   useEffect(() => {
-    // Tworzymy 50–80 płatków śniegu (wystarczy, wygląda gęsto, a jest super lekkie)
     const snowContainer = document.createElement("div");
-    snowContainer.className = "fixed inset-0 pointer-events-none z-50";
+    snowContainer.className =
+      "fixed inset-0 pointer-events-none z-50 overflow-hidden"; // Dodano overflow-hidden, żeby nie robić scrollbara
 
-    const snowCount = window.innerWidth < 768 ? 40 : 70; // mniej na mobile
+    const snowCount = window.innerWidth < 768 ? 40 : 80;
 
     for (let i = 0; i < snowCount; i++) {
       const snowflake = document.createElement("div");
+
+      // Losujemy czas trwania animacji (np. 10s - 20s)
+      const duration = Math.random() * 10 + 10;
+
+      // KLUCZOWA ZMIANA:
+      // Ustawiamy delay wyłącznie na ujemny, bazując na długości trwania animacji.
+      // Dzięki temu płatek startuje w losowym punkcie swojej trasy (góra, środek, dół).
+      const delay = Math.random() * -duration;
+
       snowflake.className = "snowflake";
       snowflake.style.left = `${Math.random() * 100}vw`;
-      snowflake.style.animationDelay = `${Math.random() * 10}s`;
-      snowflake.style.opacity = Math.random() * 0.7 + 0.3;
-      snowflake.style.animationDuration = `${Math.random() * 10 + 10}s`; // 10–20s
-      snowflake.innerHTML = "❄"; // albo '•' albo '✻' albo mały SVG
+      snowflake.style.animationDuration = `${duration}s`;
+      snowflake.style.animationDelay = `${delay}s`;
+      snowflake.style.opacity = `${Math.random() * 0.7 + 0.3}`;
+
+      // Opcjonalnie: losowa wielkość dla lepszego efektu głębi
+      const size = Math.random() * 10 + 10; // px
+      snowflake.style.fontSize = `${size}px`;
+
+      snowflake.innerHTML = "❄";
       snowContainer.appendChild(snowflake);
     }
 
     document.body.appendChild(snowContainer);
 
     return () => {
-      document.body.removeChild(snowContainer);
+      // Bezpieczne usuwanie (sprawdzenie czy body nadal zawiera ten element)
+      if (document.body.contains(snowContainer)) {
+        document.body.removeChild(snowContainer);
+      }
     };
   }, []);
 
