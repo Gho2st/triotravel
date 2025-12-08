@@ -48,7 +48,7 @@ export default function Rezerwacje() {
             >
               <FaPhoneAlt /> +48 881 201 205
             </Link>
-            <div className="mt-16">
+            <div className="mt-16 flex items-center justify-center">
               <Button link="/mapa-przystankow" text={t("button")} />
             </div>
           </div>

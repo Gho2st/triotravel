@@ -162,7 +162,9 @@
             }
         },
         "trips": {
-            "header": "Day trips from Zakopane – Summer 2025 | Trio Travel",
+            "header": "Day trips from Zakopane – Summer",
+            "winterHeader": "TrioTravel Winter Offer",
+            "winterText": "Thermal baths, Ice Temple, Kasprowy Wierch, Treetop Walk and more – only in winter!",
             "polandHeader": "Polish day attractions from Zakopane",
             "foreignHeader": "International trips from Zakopane",
             "activeHeader": "Active and adventure trips",
@@ -1124,32 +1126,101 @@
             },
             "swiatynia-lodowa-hrebieniok": {
                 "alt": {
-                    "1": "Hrebienok Ice Temple illuminated in red and blue lights",
-                    "2": "Close-up view of the ice temple",
-                    "3": "Close-up of Hrebienok Ice Temple",
-                    "4": "Interior of the ice temple"
+                    "1": "Precisely carved ice altar and Gothic arches inside the Tatra Ice Temple at Hrebienok.",
+                    "2": "Close-up of ice towers and architectural details of the Westminster Abbey sculpture, illuminated with cold blue light.",
+                    "3": "Monumental ice sculpture depicting the façade of Westminster Abbey in the Tatra Ice Temple, lit in blue.",
+                    "4": "Interior of the dome at Hrebienok with an ice replica of the temple illuminated by red and blue spotlights.",
+                    "5": "Red-and-blue funicular railway climbing to Hrebienok on a sunny winter day against the backdrop of Tatra pines.",
+                    "6": "Winter landscape of the High Tatras with a tourist trail leading to Hrebienok and a view of the snow-covered Lomnický štít peak.",
+                    "7": "Ice-carved basilica façade artistically illuminated with purple and pink light during the Tatra Ice Master exhibition."
                 },
-                "header": "Ice Temple Hrebieniok",
-                "header2": "What We Offer?",
-                "text": "We invite you on a trip to Slovakia, during which you will see Starý Smokovec. Take the cog railway to Hrebieniok (High Tatras, 1310 m above sea level), where the Ice Temple is located at the summit, this year inspired by Wawel Cathedral.",
+                "header": "Ice Temple Hrebienok",
+                "header2": "What you will see during the trip",
+                "header3": "Trip Details and Practical Information",
+                "text": "Discover the magical winter Slovakia from a completely new perspective! This unique one-day trip from Zakopane will take you to the heart of the High Tatras – Starý Smokovec. From there, after a comfortable ride on the funicular railway to Hrebienok (1285 m a.s.l.), you will visit Slovakia’s greatest winter attraction: the Tatra Ice Temple. This monumental structure, newly carved every year, is inspired this season by the Basilica of St. John Lateran in Rome and is a tribute to two popes. In just one day you will experience incredible ice art, admire breathtaking mountain panoramas and relax in a fairy-tale setting of ice and snow.",
+                "offer": {
+                    "1": {
+                        "header": "Starý Smokovec and Funicular Railway Ride",
+                        "text": "Our winter journey begins in Starý Smokovec (1010 m a.s.l.) – a charming and historic tourist centre at the foot of the High Tatras. This is where the lower station of the funicular is located – our gateway to the ice kingdom above. We will reach Hrebienok on a comfortable and modern ground cable car (Slovak: pozemná lanovka). The ride in the wagon takes just a few minutes and is a quick, effortless way to reach 1285 m a.s.l. while enjoying picturesque views from the very first minute of the trip.",
+                        "header2": "What awaits you on the route?",
+                        "list": {
+                            "1": "Panoramic Views: Admire the winter panoramas of the Poprad Basin already from the wagon.",
+                            "2": "Express Transport: Fast and stress-free 7-minute ride straight to the top.",
+                            "3": "Comfort and Relaxation: Fully glazed wagons provide warm and safe transport for everyone.",
+                            "4": "Easy Access: Direct arrival at Hrebienok (1285 m a.s.l.) – the starting point for winter attractions."
+                        },
+                        "button1": "Book online",
+                        "button2": "Gallery"
+                    },
+                    "2": {
+                        "header": "Hrebienok – Kingdom of Ice and Panoramas",
+                        "text": "Hrebienok (1285 m a.s.l.) – Masterpiece of Art and Adventure After a quick funicular ride we arrive at the heart of winter tourism – Hrebienok (Smokovec Saddle). It is a must-see spot in the Tatras offering a wide panorama of the Poprad Basin. The main attraction is the Tatra Ice Temple – the only installation of its kind in the Tatras! This year (2025/2026 season) the monumental structure, carved from hundreds of tons of ice, is inspired by the architecture of the Basilica of St. John Lateran in Rome. The temple’s interiors, full of intricate details, come alive thanks to spectacular coloured lighting, creating a magical atmosphere. The entire installation is covered, ensuring comfortable visiting conditions. During free time you can visit mountain huts and restaurants such as Bilíkova Chata or Rainerova Chata – perfect for a warm meal or drink. Hrebienok is also an excellent starting point for short walks. It is worth knowing that an easy 15–20 minute walk leads to the picturesque Studenovodské vodopády (Cold Water Waterfalls), which in winter often turn into beautiful frozen cascades. Note: if you decide to take this short trail, we recommend bringing crampons/microspikes due to possible icing.",
+                        "header2": "Relax and Explore the Area",
+                        "list": {
+                            "1": "Monumental Architecture: Visit the ice replica of the Basilica of St. John Lateran (this year’s theme).",
+                            "2": "Magical Lighting: Admire the intricate ice sculptures surrounded by colourful illumination.",
+                            "3": "Ice Cascades: Proximity to the Cold Water Waterfalls as an additional attraction and tourist highlight of Hrebienok.",
+                            "4": "Warm-up Break: Rest and drinks at Bilíkova Chata or Rainerova Chata."
+                        },
+                        "button1": "Trip details",
+                        "button2": "Contact"
+                    }
+                },
+                "why": {
+                    "header": "Why choose this trip?",
+                    "1": "The unique Tatra Ice Temple – a different monumental ice structure every year",
+                    "2": "The most beautiful winter attraction on the Slovak side of the Tatras – available only a few months each year",
+                    "3": "Suitable for everyone – ideal for families with children, seniors and people with reduced mobility (funicular and temple fully accessible)",
+                    "4": "Spectacular views already during the ride – panoramic wagon windows and breathtaking views of the Poprad Basin"
+                },
                 "table": {
-                    "header1": "Ticket Type",
-                    "header2": "Ice Temple Hrebieniok",
+                    "header1": "Ticket type",
+                    "header2": "Price",
                     "1": "Adult ticket",
-                    "2": "Reduced ticket (children up to 10 years)",
-                    "3": "Adult ticket",
-                    "4": "Reduced ticket (children up to 10 years)",
-                    "text": "*Price includes: Care of a qualified guide and tour leader, transport by comfortable coach, accident and medical insurance, audio guide set",
-                    "additional": "Additional charges (cog railway ride to Hrebieniok)"
+                    "2": "Reduced ticket (up to 14 years)",
+                    "additional": "Additionally payable (funicular ticket)",
+                    "text": "* The price includes: driver/guide assistance during the trip, NNW insurance and transport from Zakopane"
                 },
                 "tripprogram": {
-                    "header": "Trip Program:",
+                    "header": "Trip Programme",
                     "1": "Departure from Zakopane",
                     "2": "Arrival in Starý Smokovec",
-                    "3": "Cog railway ride to Hrebieniok",
+                    "3": "Funicular ride to Hrebienok",
                     "4": "Visit to the Ice Temple",
                     "5": "Free time",
-                    "6": "Return to Zakopane"
+                    "6": "Return to Zakopane",
+                    "button": "Terms & Conditions",
+                    "text2": "Every participant must have a valid passport or ID card. In case of bad weather or unsuitable trail conditions, we reserve the right to change the route or order of visiting. Cancellation due to insufficient number of participants may occur no later than 1 day before the trip by 21:00. The trip takes place outside Poland. All current sanitary and epidemiological requirements of the destination country (Slovakia) must be met."
+                },
+                "faq": {
+                    "header": "Frequently Asked Questions (FAQ)",
+                    "text": "Do you have questions about <strong>one-day trips from Zakopane?</strong> Here are the answers to the ones we hear most often.",
+                    "list": {
+                        "1": {
+                            "header": "Is the trip tiring?",
+                            "text": "Not at all! Thanks to the funicular, we cover the altitude difference in 7 minutes, saving energy. The route at the top (to the Temple) is a short and easy walk."
+                        },
+                        "2": {
+                            "header": "What can I expect during the funicular ride?",
+                            "text": "Ticket and View in One: The funicular ticket price includes 7 minutes of spectacular panoramic ride straight to Smokovec Saddle.\nComfort and Relaxation: Glazed wagons allow you to enjoy the winter landscape in warm and safe conditions.\nPerfect for Families: A great alternative to demanding trails, providing easy and safe access to mountain attractions for everyone.\nLuxury of Accessibility: Quickly overcome 275 m of elevation gain – save your energy for exploring the ice masterpiece above!"
+                        },
+                        "3": {
+                            "header": "Is the Hrebienok funicular safe and comfortable?",
+                            "text": "Yes. The modern glazed wagons of the ground cable car provide a spectacular panoramic ride in warm and safe conditions – ideal for everyone, including families and seniors."
+                        },
+                        "4": {
+                            "header": "Do I need any special equipment?",
+                            "text": "Warm winter clothing is sufficient for visiting the Ice Temple. If you plan to walk to the Cold Water Waterfalls, we recommend bringing tourist crampons/microspikes due to possible icy conditions."
+                        },
+                        "5": {
+                            "header": "Is there anywhere to eat or warm up at Hrebienok?",
+                            "text": "Yes. Right next to the upper funicular station is Bilíkova Chata, and nearby the famous Rainerova Chata, where you can buy hot drinks and meals."
+                        },
+                        "6": {
+                            "header": "What temperatures are inside the Ice Temple?",
+                            "text": "The temple is located under a covered dome where a constant temperature of -6°C to -10°C is maintained (to prevent the ice from melting). Warm clothing is required!"
+                        }
+                    }
                 }
             }
         }
@@ -1355,6 +1426,60 @@
                     "4": "menu during sleigh rides: sausage, bread, ketchup, mustard, regular tea, and highlander tea (unlimited)",
                     "5": "* in case of insufficient snow or lack thereof, sleigh rides take place on wagons/carriages"
                 }
+            },
+            "faq": {
+                "header": "Frequently Asked Questions (FAQ)",
+                "text": "Do you have questions about <strong>one-day/evening trips from Zakopane?</strong> Here are the answers to the ones we hear most often.",
+                "list": {
+                    "1": {
+                        "header": "How long does the entire event last and what does it consist of?",
+                        "text": "The whole TrioTravel experience lasts approximately 2.5 to 3.5 hours. This time consists of three main parts: about 1 hour of scenic torch-lit sleigh ride, about 1 hour of traditional highlander feast by the bonfire with food, drinks and live górale music band, and the remaining 30–60 minutes are for organisation and return transport to your accommodation."
+                    },
+                    "2": {
+                        "header": "What time does the TrioTravel sleigh ride start?",
+                        "text": "Sleigh rides are scheduled at 16:00, 17:00, 18:00 and 19:00. If you use our transport, pick-up from agreed locations takes place about 40 minutes earlier. After phone contact, it is possible to arrange a different time if available."
+                    },
+                    "3": {
+                        "header": "Can children participate?",
+                        "text": "Of course! The sleigh ride is a fantastic family attraction. Children up to 3 years old travel free on a parent’s lap. For comfort and safety, children aged 3–10 must have a reduced-price ticket which guarantees them their own seat in the sleigh."
+                    },
+                    "4": {
+                        "header": "What is included in the bonfire feast menu?",
+                        "text": "We serve authentic regional specialties – all unlimited: highlander bigos (hunter’s stew), sausage to grill yourself over the fire (or pre-grilled), grilled oscypek cheese, thick slice of bread with homemade lard, pickled cucumbers, bread and condiments (ketchup, mustard). Drinks: regular tea, highlander tea and mulled wine – everything unlimited."
+                    },
+                    "5": {
+                        "header": "Can we drink alcohol during the feast and is it available on site?",
+                        "text": "We offer mulled wine and highlander tea (with alcohol). You are also allowed to bring and consume your own alcohol during the bonfire feast. For safety reasons, the organiser reserves the right to exclude participants whose level of intoxication poses a risk to themselves or others."
+                    },
+                    "6": {
+                        "header": "What happens if the weather is bad and there is no snow?",
+                        "text": "We are prepared for any weather! If there is not enough snow, the sleighs are replaced with traditional horse-drawn wagons or carriages. The program and its duration remain unchanged."
+                    },
+                    "7": {
+                        "header": "How should we dress for the sleigh ride?",
+                        "text": "Both the ride and the feast take place outdoors. During the sleigh ride we provide warm sheepskin blankets. The feast is held in a covered area by the fire (much warmer than outside), but we still strongly recommend very warm layered clothing – hat, gloves, warm jacket, insulated trousers and thick socks are essential."
+                    },
+                    "8": {
+                        "header": "Does TrioTravel provide transport to the sleigh ride location?",
+                        "text": "Yes, return transport (pick-up and drop-off) is included in the ticket price for everyone staying in Zakopane and the Kościelisko municipality. For other locations, please contact us in advance to arrange details. (881 201 205)"
+                    },
+                    "9": {
+                        "header": "Do guests who arrange their own transport need to arrive earlier?",
+                        "text": "Yes. Guests coming on their own are asked to arrive at least 15 minutes before the start time (e.g. 16:00, 17:00, 18:00 or 19:00). After booking, we will send you all the necessary information, including the exact Google Maps pin and meeting point."
+                    },
+                    "10": {
+                        "header": "How many people fit in one sleigh?",
+                        "text": "Our sleighs are larger and seat 8 to 12 people, ensuring comfort and plenty of space during the ride."
+                    },
+                    "11": {
+                        "header": "Can we organise a sleigh ride for a larger group?",
+                        "text": "Absolutely! TrioTravel sleigh ride is a fantastic idea for group integration or company events. Please contact us to discuss booking details."
+                    },
+                    "12": {
+                        "header": "How can I contact TrioTravel if I have more questions?",
+                        "text": "For any questions or concerns, please contact us directly: Phone: 881 201 205 | E-mail: biuro@triotravel.eu | In person at our offices: ul. Kościuszki 23a, ul. Zamoyskiego 8 or ul. Piłsudskiego 69a."
+                    }
+                }
             }
         },
         "dolina": {
@@ -1388,6 +1513,68 @@
                     "6": "menu during sleigh rides: bigos, oscypek, bread with highlander lard, mulled wine, sausage, bread, ketchup, pickles, mustard, regular tea, and highlander tea (unlimited)",
                     "7": "* For groups of 3 (or 7, etc.), a fee for an empty seat in the sleigh applies: 70 PLN",
                     "8": "  * in case of insufficient snow or lack thereof, sleigh rides take place on wagons/carriages"
+                }
+            },
+            "faq": {
+                "header": "Frequently Asked Questions (FAQ)",
+                "text": "Do you have questions about <strong>one-day trips / evening events from Zakopane?</strong> Here are the answers to the ones we hear most often.",
+                "list": {
+                    "1": {
+                        "header": "How long does the entire event last and what does it consist of?",
+                        "text": "The whole TrioTravel experience lasts approximately 2.5 to 3.5 hours. This time consists of three main parts: about 1 hour of magical torch-lit sleigh ride, about 1 hour of mountain feast by the bonfire (Watra) with food and live highlander music, and the remaining 30–60 minutes are for organisation and transport."
+                    },
+                    "2": {
+                        "header": "What time does the TrioTravel sleigh ride start?",
+                        "text": "Sleigh rides are scheduled at 17:00 and 19:00. If you use our transport, pick-up from agreed locations takes place about 40 minutes earlier. * After phone contact, it is possible to arrange a different time if available."
+                    },
+                    "3": {
+                        "header": "Can children participate?",
+                        "text": "Of course! The sleigh ride is a wonderful family attraction. Children up to 3 years old travel free on a parent's lap. For comfort and safety, children aged 3–10 must have a reduced-price ticket which guarantees them their own seat in the sleigh."
+                    },
+                    "4": {
+                        "header": "What is included in the bonfire feast menu?",
+                        "text": "We serve authentic regional specialties: highlander bigos (hunter’s stew), sausage to grill yourself over the fire (or pre-grilled), grilled oscypek cheese, thick slice of bread with homemade lard, pickled cucumbers, bread, and condiments (ketchup, mustard). Unlimited hot drinks: regular tea, highlander tea and mulled wine. (Everything unlimited)"
+                    },
+                    "5": {
+                        "header": "Can we drink alcohol during the feast and is it available on site?",
+                        "text": "We serve mulled wine and highlander tea (with alcohol). You are also allowed to bring and consume your own alcohol during the bonfire feast. For safety reasons, the organiser reserves the right to exclude participants whose level of intoxication poses a risk to themselves or others."
+                    },
+                    "6": {
+                        "header": "Can we buy additional food or drinks on site?",
+                        "text": "Yes, at the feast location (Watra) you can purchase extra items. In addition to the included food, you can buy other hot dishes (e.g. żurek sour rye soup) and additional drinks."
+                    },
+                    "7": {
+                        "header": "What happens if the weather is bad and there is no snow?",
+                        "text": "We are prepared for any weather! If there is not enough snow, the sleighs are replaced with traditional horse-drawn wagons or carriages. The program and duration remain unchanged."
+                    },
+                    "8": {
+                        "header": "How should we dress for the sleigh ride?",
+                        "text": "Both the sleigh ride and the feast take place outdoors. During the ride we provide warm sheepskin blankets. The feast is held in a covered area by the fire (much warmer than outside), but we still strongly recommend dressing very warmly in layers – hat, gloves, warm jacket, insulated trousers and thick socks are essential."
+                    },
+                    "9": {
+                        "header": "Does TrioTravel provide transport to the sleigh ride location?",
+                        "text": "Yes, return transport (pick-up and drop-off) is included in the ticket price for everyone staying in Zakopane and the Kościelisko municipality. For other locations, please contact us in advance to arrange details. (881 201 205)"
+                    },
+                    "10": {
+                        "header": "Do guests who arrange their own transport need to arrive earlier?",
+                        "text": "Yes. Guests coming on their own are asked to arrive at least 15 minutes before the start time (17:00 or 19:00). After booking, we will send you all the necessary information, including the exact Google Maps pin and meeting point."
+                    },
+                    "11": {
+                        "header": "How many people fit in one sleigh?",
+                        "text": "All our sleighs seat 4 people, which guarantees comfort and plenty of space during the ride."
+                    },
+                    "12": {
+                        "header": "We are booking for an odd number of people (e.g. 3, 7 or 11). Is there an extra charge?",
+                        "text": "Yes, if your group leaves an empty seat in a 4-person sleigh (e.g. 3 people), a supplement of 70 PLN for the empty seat applies. This ensures comfort for everyone and smooth organisation."
+                    },
+                    "13": {
+                        "header": "Can we organise a sleigh ride for a larger group?",
+                        "text": "Absolutely! TrioTravel sleigh ride is a fantastic team-building or group event. Please contact us to discuss booking details."
+                    },
+                    "14": {
+                        "header": "How can I contact TrioTravel if I have more questions?",
+                        "text": "For any questions or concerns, please contact us directly: phone 881 201 205, via the contact form on our website, email: biuro@triotravel.eu or in person at one of our offices (Kościuszki 23a, Zamoyskiego 8 or Piłsudskiego 69a)."
+                    }
                 }
             }
         },

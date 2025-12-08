@@ -1,30 +1,20 @@
-import {
-  MapPin,
-  Coffee,
-  Camera,
-  Sailboat,
-  Snowflake,
-  Leaf,
-} from "lucide-react";
+import { Church, Coffee, Snowflake, Sparkles } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function SzcybrskieJezioroSection({ t }) {
+export default function Hrebieniok({ t }) {
   return (
     <div className="py-4 md:py-10 my-16 bg-gray-50">
       <div className="mx-auto px-4 md:px-10 grid lg:grid-cols-2 gap-10 items-center">
         {/* Zdjęcie */}
         <div className="relative rounded-2xl overflow-hidden shadow-lg">
           <Image
-            src="/wycieczki/spacer-w-koronach-drzew/zima/2.webp"
-            alt={t("alt.10")}
+            src="/wycieczki/swiatynia-lodowa-hrebieniok/5.webp"
+            alt={t("alt.6")}
             className="w-full h-full object-cover"
             width={100}
             height={100}
           />
-          <span className="absolute bottom-4 left-4 bg-black/60 text-white px-3 py-1 rounded-lg text-sm flex items-center gap-2">
-            <MapPin className="w-4 h-4" /> Tatry Wysokie, Słowacja
-          </span>
         </div>
 
         {/* Treść */}
@@ -37,11 +27,11 @@ export default function SzcybrskieJezioroSection({ t }) {
           </h3>
           <ul className="grid grid-cols-2 gap-2 sm:gap-4 text-sm sm:text-base text-gray-800">
             <li className="flex items-center gap-2">
-              <Sailboat className="text-blue-500 w-5 h-5" />
+              <Church className="text-blue-500 w-5 h-5" />
               {t("offer.2.list.1")}
             </li>
             <li className="flex items-center gap-2">
-              <Leaf className="text-green-600 w-5 h-5" /> {t("offer.2.list.2")}
+              <Sparkles className="text-green-600 w-5 h-5" /> {t("offer.2.list.2")}
             </li>
             <li className="flex items-center gap-2">
               <Snowflake className="text-cyan-500 w-5 h-5" />

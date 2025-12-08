@@ -69,7 +69,7 @@ export default function Spacer() {
       <Header text={t("header")} />
       <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[700px] ">
         <Image
-          src="/wycieczki/spacer-w-koronach-drzew/korony.webp"
+          src="/wycieczki/spacer-w-koronach-drzew/zima/korony.webp"
           width={500}
           height={500}
           layout="responsive"
@@ -113,44 +113,28 @@ export default function Spacer() {
       <Gallery
         images={[
           {
-            url: "/wycieczki/spacer-w-koronach-drzew/1.webp",
+            url: "/wycieczki/spacer-w-koronach-drzew/zima/1.webp",
             alt: t("alt.2"),
           },
           {
-            url: "/wycieczki/spacer-w-koronach-drzew/2.webp",
+            url: "/wycieczki/spacer-w-koronach-drzew/zima/2.webp",
             alt: t("alt.3"),
           },
           {
-            url: "/wycieczki/spacer-w-koronach-drzew/3.webp",
+            url: "/wycieczki/spacer-w-koronach-drzew/zima/3.webp",
             alt: t("alt.4"),
           },
           {
-            url: "/wycieczki/spacer-w-koronach-drzew/4.webp",
+            url: "/wycieczki/spacer-w-koronach-drzew/zima/4.webp",
             alt: t("alt.5"),
           },
           {
-            url: "/wycieczki/spacer-w-koronach-drzew/5.webp",
+            url: "/wycieczki/spacer-w-koronach-drzew/zima/5.webp",
             alt: t("alt.6"),
           },
           {
-            url: "/wycieczki/spacer-w-koronach-drzew/6.webp",
+            url: "/wycieczki/spacer-w-koronach-drzew/zima/6.webp",
             alt: t("alt.7"),
-          },
-          {
-            url: "/wycieczki/spacer-w-koronach-drzew/7.webp",
-            alt: t("alt.8"),
-          },
-          {
-            url: "/wycieczki/spacer-w-koronach-drzew/8.webp",
-            alt: t("alt.9"),
-          },
-          {
-            url: "/wycieczki/spacer-w-koronach-drzew/9.webp",
-            alt: t("alt.10"),
-          },
-          {
-            url: "/wycieczki/spacer-w-koronach-drzew/10.webp",
-            alt: t("alt.11"),
           },
         ]}
       />

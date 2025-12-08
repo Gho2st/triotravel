@@ -15,15 +15,15 @@ export default function Hero() {
   const slides = useMemo(
     () => [
       {
-        background: "/wycieczki/spacer-w-koronach-drzew/korony.webp",
+        background: "/wycieczki/spacer-w-koronach-drzew/zima/korony.webp",
         translationKey: "headers.header7", // "Spacer W Koronach Drzew"
         link: "/wycieczki-jednodniowe/spacer-w-koronach-drzew",
       },
-      {
-        background: "/wycieczki/splyw-dunajcem-zakopane/4.webp",
-        translationKey: "headers.header1", // "Spływ Dunajcem?"
-        link: "/wycieczki-jednodniowe/splyw-dunajcem-zakopane",
-      },
+      // {
+      //   background: "/wycieczki/splyw-dunajcem-zakopane/4.webp",
+      //   translationKey: "headers.header1", // "Spływ Dunajcem?"
+      //   link: "/wycieczki-jednodniowe/splyw-dunajcem-zakopane",
+      // },
 
       {
         background: "/kuligi/photos/1.webp",
@@ -42,26 +42,26 @@ export default function Hero() {
         translationKey: "headers.header8", // "wieliczka?"
         link: "/wycieczki-jednodniowe/tajemnice-wieliczki",
       },
-      {
-        background: "/wycieczki/jaskinia-bielanska/jaskinia.webp",
-        translationKey: "headers.header9", // "jaskinia bielanska"
-        link: "/wycieczki-jednodniowe/jaskinia-bielanska",
-      },
-      {
-        background: "/wycieczki/slowacki-raj/slowacki-raj.webp",
-        translationKey: "headers.header10", // "jaskinia bielanska"
-        link: "/wycieczki-jednodniowe/slowacki-raj",
-      },
-      {
-        background: "/wycieczki/biesiada-goralska/5.webp",
-        translationKey: "headers.header5", // "Biesiada Goralska?"
-        link: "/wycieczki-jednodniowe/biesiada-goralska",
-      },
-      {
-        background: "/wycieczki/krajobrazy-slowacji/krajobrazy-slowacji.webp",
-        translationKey: "headers.header12", // "Krajobraz slowacji"
-        link: "/wycieczki-jednodniowe/krajobrazy-slowacji",
-      },
+      // {
+      //   background: "/wycieczki/jaskinia-bielanska/jaskinia.webp",
+      //   translationKey: "headers.header9", // "jaskinia bielanska"
+      //   link: "/wycieczki-jednodniowe/jaskinia-bielanska",
+      // },
+      // {
+      //   background: "/wycieczki/slowacki-raj/slowacki-raj.webp",
+      //   translationKey: "headers.header10", // "slowacki raj"
+      //   link: "/wycieczki-jednodniowe/slowacki-raj",
+      // },
+      // {
+      //   background: "/wycieczki/biesiada-goralska/5.webp",
+      //   translationKey: "headers.header5", // "Biesiada Goralska?"
+      //   link: "/wycieczki-jednodniowe/biesiada-goralska",
+      // },
+      // {
+      //   background: "/wycieczki/krajobrazy-slowacji/krajobrazy-slowacji.webp",
+      //   translationKey: "headers.header12", // "Krajobraz slowacji"
+      //   link: "/wycieczki-jednodniowe/krajobrazy-slowacji",
+      // },
       {
         background: "/baner/baner6.webp",
         translationKey: "headers.header4", // "transport?"

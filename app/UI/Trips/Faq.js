@@ -1,46 +1,43 @@
 "use client";
+
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { useTranslations } from "next-intl";
 
-export default function FAQSection() {
+export default function FAQSection({ faq }) {
   const [openIndex, setOpenIndex] = useState(null);
-  const t = useTranslations("offer.faq");
 
-  const cardCount = 5; // lub dynamicznie jeśli znasz liczbę z backendu
-  const cards = Array.from({ length: cardCount }, (_, i) => {
-    const index = i + 1;
-    const card = {
-      question: t(`list.${index}.header`),
-      answer: t(`list.${index}.text`),
-    };
-
-    return card;
-  });
+  // faq.list to już gotowy obiekt z backendu
+  const faqs = Object.keys(faq.list)
+    .sort((a, b) => Number(a) - Number(b))
+    .map((key) => ({
+      question: faq.list[key].header,
+      answer: faq.list[key].text,
+    }));
 
   return (
     <section className="px-6 xl:px-24 py-20 bg-white border-t border-gray-200">
       <h2 className="text-3xl 2xl:text-4xl font-extrabold text-center text-gray-900">
-        {t("header")}
+        {faq.header}
       </h2>
+
       <p className="text-center mt-4 2xl:mt-8 max-w-2xl mx-auto text-lg text-gray-700">
-        {t.rich("text", {
-          strong: (chunks) => <strong>{chunks}</strong>,
-        })}
+        {/* Jeśli w tekście masz <strong>, możesz użyć dangerousSetInnerHTML albo lepiej – zrobić to po server-side */}
+        <span dangerouslySetInnerHTML={{ __html: faq.text }} />
+        {/* Albo jeśli chcesz bezpieczniej – przekaż już przetworzony HTML z serwera */}
       </p>
 
       <div className="mt-12 2xl:mt-16 max-w-4xl mx-auto space-y-4">
-        {cards.map((faq, index) => (
+        {faqs.map((item, index) => (
           <div
             key={index}
-            className="border border-gray-200 rounded-xl p-4 md:p-6 transition-all duration-300"
+            className="border border-gray-200 rounded-xl p-4 md:p-6 bg-white hover:border-gray-300 transition"
           >
             <button
               onClick={() => setOpenIndex(openIndex === index ? null : index)}
-              className="w-full text-left text-lg font-medium text-gray-800 flex justify-between items-center"
+              className="w-full text-left flex justify-between items-center text-lg font-medium text-gray-800 hover:text-gray-900"
             >
-              {faq.question}
-              <span className="text-2xl">
+              <span>{item.question}</span>
+              <span className="text-3xl ml-4 flex-shrink-0">
                 {openIndex === index ? "−" : "+"}
               </span>
             </button>
@@ -48,15 +45,14 @@ export default function FAQSection() {
             <AnimatePresence initial={false}>
               {openIndex === index && (
                 <motion.div
-                  key="answer"
                   initial={{ height: 0, opacity: 0 }}
                   animate={{ height: "auto", opacity: 1 }}
                   exit={{ height: 0, opacity: 0 }}
-                  transition={{ duration: 0.25, ease: "easeInOut" }}
+                  transition={{ duration: 0.3, ease: "easeInOut" }}
                   className="overflow-hidden"
                 >
-                  <div className="pt-4 text-gray-600">
-                    <p>{faq.answer}</p>
+                  <div className="pt-4 text-gray-600 leading-relaxed text-left">
+                    <p>{item.answer}</p>
                   </div>
                 </motion.div>
               )}

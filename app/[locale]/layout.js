@@ -6,12 +6,20 @@ import { notFound } from "next/navigation";
 import { getMessages } from "next-intl/server";
 import ClientBody from "../UI/ClientBody";
 import CookieConsent from "@/app/UI/CookieConsent";
-import PromoModal from "../UI/PromoModal";
+import SnowEffect from "../UI/SnowEffect";
+// import PromoModal from "../UI/PromoModal";
 
 const font = Poppins({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700"],
 });
+
+const isWinterSeason = () => {
+  const now = new Date();
+  const month = now.getMonth() + 1; //  // styczeń = 1
+  const day = now.getDate();
+  return (month === 12 && day >= 1) || month <= 2 || (month === 3 && day <= 20);
+};
 
 export const metadata = {
   openGraph: {
@@ -39,8 +47,9 @@ export default async function LocaleLayout({ children, params }) {
         <NextIntlClientProvider messages={messages}>
           <ClientBody fontClassName={font.className}>
             <CookieConsent />
+            <SnowEffect />
             {children}
-            <PromoModal />
+            {/* <PromoModal /> */}
           </ClientBody>
         </NextIntlClientProvider>
       </body>

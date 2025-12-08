@@ -1,7 +1,6 @@
 import Header from "@/app/UI/Header";
 import LineHeader from "@/app/UI/LineHeader";
 import Card from "@/app/UI/Card";
-import Services from "@/app/UI/Homepage/Services";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
@@ -10,8 +9,7 @@ import HowItWorks from "@/app/UI/Trips/HowItWorks";
 import FAQSection from "@/app/UI/Trips/Faq";
 
 export async function generateMetadata({ params }) {
-  const resolvedParams = await params;
-  const { locale } = resolvedParams;
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "metadata.trips" });
 
   const path = routing.pathnames["/wycieczki-jednodniowe"][locale];
@@ -31,18 +29,19 @@ export async function generateMetadata({ params }) {
 
 export default function Atrakcje() {
   const t = useTranslations("offer");
+  const k = useTranslations("kuligi");
+  const f = useTranslations("offer.faq");
 
-  const articles = [
-    {
-      title: t("trips.1"),
-      p: t("trips.1p"),
-      image: "/wycieczki/splyw-dunajcem-zakopane/splyw.webp",
-      link: "/wycieczki-jednodniowe/splyw-dunajcem-zakopane",
-      category: "poland",
-      popular: true,
-      popularTitle: t("trips.1h"),
-      popularDescription: t("trips.1popular"),
-    },
+  const faqData = {
+    header: f("header"),
+    text: f.raw("text"), // raw działa też po server-side
+    list: f.raw("list"), // cały obiekt { "1": { header, text }, "2": ... }
+  };
+
+  const isWinter = true;
+
+  // LATO
+  const standardArticles = [
     {
       title: t("trips.2"),
       p: t("trips.2p"),
@@ -71,16 +70,6 @@ export default function Atrakcje() {
       category: "foreign",
     },
     {
-      title: t("trips.5"),
-      p: t("trips.5p"),
-      image: "/wycieczki/splyw-dunajcem-slowacja/splyw.webp",
-      link: "/wycieczki-jednodniowe/splyw-dunajcem-slowacja",
-      category: "foreign",
-      popular: true,
-      popularTitle: t("trips.5h"),
-      popularDescription: t("trips.5popular"),
-    },
-    {
       title: t("trips.6"),
       p: t("trips.6p"),
       image: "/wycieczki/tajemnice-wieliczki/wieliczka.webp",
@@ -102,6 +91,48 @@ export default function Atrakcje() {
       category: "foreign",
     },
     {
+      title: t("trips.11"),
+      p: t("trips.11p"),
+      image: "/wycieczki/krajobrazy-slowacji/krajobrazy-slowacji.webp",
+      link: "/wycieczki-jednodniowe/krajobrazy-slowacji",
+      category: "foreign",
+    },
+
+    {
+      title: t("trips.18"),
+      p: t("trips.18p"),
+      image: "/wycieczki/szlak-papieski/szlak-papieski.webp",
+      link: "/wycieczki-jednodniowe/szlak-papieski",
+      category: "poland",
+    },
+    {
+      title: t("trips.19"),
+      p: t("trips.19p"),
+      image: "/morskie-oko/morskie-oko.webp",
+      link: "/transport/nad-morskie-oko",
+      category: "poland",
+    },
+    {
+      title: t("trips.1"),
+      p: t("trips.1p"),
+      image: "/wycieczki/splyw-dunajcem-zakopane/splyw.webp",
+      link: "/wycieczki-jednodniowe/splyw-dunajcem-zakopane",
+      category: "poland",
+      popular: true,
+      popularTitle: t("trips.1h"),
+      popularDescription: t("trips.1popular"),
+    },
+    {
+      title: t("trips.5"),
+      p: t("trips.5p"),
+      image: "/wycieczki/splyw-dunajcem-slowacja/splyw.webp",
+      link: "/wycieczki-jednodniowe/splyw-dunajcem-slowacja",
+      category: "foreign",
+      popular: true,
+      popularTitle: t("trips.5h"),
+      popularDescription: t("trips.5popular"),
+    },
+    {
       title: t("trips.9"),
       p: t("trips.9p"),
       image: "/wycieczki/wieden/wieden.webp",
@@ -117,13 +148,6 @@ export default function Atrakcje() {
       popular: true,
       popularTitle: t("trips.10h"),
       popularDescription: t("trips.10popular"),
-    },
-    {
-      title: t("trips.11"),
-      p: t("trips.11p"),
-      image: "/wycieczki/krajobrazy-slowacji/krajobrazy-slowacji.webp",
-      link: "/wycieczki-jednodniowe/krajobrazy-slowacji",
-      category: "foreign",
     },
     {
       title: t("trips.14"),
@@ -150,20 +174,6 @@ export default function Atrakcje() {
       popularDescription: t("trips.16popular"),
     },
     {
-      title: t("trips.18"),
-      p: t("trips.18p"),
-      image: "/wycieczki/szlak-papieski/szlak-papieski.webp",
-      link: "/wycieczki-jednodniowe/szlak-papieski",
-      category: "poland",
-    },
-    {
-      title: t("trips.19"),
-      p: t("trips.19p"),
-      image: "/morskie-oko/morskie-oko.webp",
-      link: "/transport/nad-morskie-oko",
-      category: "poland",
-    },
-    {
       title: t("trips.20"),
       p: t("trips.20p"),
       image: "/wycieczki/quady/quady.webp",
@@ -179,55 +189,151 @@ export default function Atrakcje() {
     },
   ];
 
-  const categories = [
-    { id: "popular", title: t("trips.popularHeader") },
-    { id: "poland", title: t("trips.polandHeader") },
-    { id: "foreign", title: t("trips.foreignHeader") },
-    { id: "active", title: t("trips.activeHeader") },
+  // ZIMA
+  const winterArticles = [
+    {
+      title: t("trips.2"),
+      p: t("trips.2p"),
+      image: "/wycieczki/termy/termy.webp",
+      link: "/wycieczki-jednodniowe/chocholowskie-termy",
+      popular: true,
+      popularTitle: t("trips.2h"),
+      popularDescription: t("trips.2popular"),
+    },
+    {
+      title: t("trips.12"),
+      p: t("trips.12p"),
+      image: "/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.webp",
+      link: "/wycieczki-jednodniowe/swiatynia-lodowa-hrebieniok",
+    },
+    {
+      title: t("trips.3"),
+      p: t("trips.3p"),
+      image: "/wycieczki/spacer-w-koronach-drzew/zima/korony.webp",
+      link: "/wycieczki-jednodniowe/spacer-w-koronach-drzew",
+      category: "foreign",
+      popular: true,
+      popularTitle: t("trips.3h"),
+      popularDescription: t("trips.3popular"),
+    },
+    {
+      title: t("trips.7"),
+      p: t("trips.7p"),
+      image: "/wycieczki/kasprowy-wierch/4.webp",
+      link: "/bilety-na-kasprowy-wierch",
+    },
+    {
+      title: t("trips.6"),
+      p: t("trips.6p"),
+      image: "/wycieczki/tajemnice-wieliczki/wieliczka.webp",
+      link: "/wycieczki-jednodniowe/tajemnice-wieliczki",
+    },
+    {
+      title: t("trips.19"),
+      p: t("trips.19p"),
+      image: "/morskie-oko/morskie-oko.webp",
+      link: "/transport/nad-morskie-oko",
+    },
+    {
+      title: k("cards.1.header"),
+      p: k("cards.1.text"),
+      image: "/kuligi/koscielisko.webp",
+      link: "/kuligi/goralski-koscielisko",
+    },
+    {
+      title: k("cards.2.header"),
+      p: k("cards.2.text"),
+      image: "/kuligi/dolina.webp",
+      link: "/transport/nad-morskie-oko",
+    },
   ];
+
+  const articles = isWinter ? winterArticles : standardArticles;
 
   return (
     <>
-      <Header text={t("trips.header")} />
+      {isWinter ? (
+        <div className="px-6 bg-gradient-to-r from-blue-900 via-blue-700 to-cyan-600 text-white py-20 text-center">
+          <h1 className="text-4xl md:text-5xl 2xl:text-6xl font-bold">
+            {t("trips.winterHeader")}
+          </h1>
+          <p className="text-xl md:text-2xl mt-4 opacity-90">
+            {t("trips.winterText")}
+          </p>
+        </div>
+      ) : (
+        <Header text={t("trips.header")} />
+      )}
+
       <section className="px-6 md:px-20 2xl:px-32 py-16 md:py-20 2xl:py-24">
         <HowItWorks />
+
         <p className="mt-10 2xl:my-24 mb-16 text-center text-xl 2xl:max-w-3/4 2xl:mx-auto">
           {t.rich("text2", {
             strong: (chunks) => <strong>{chunks}</strong>,
           })}
         </p>
 
-        {categories.map((cat) => (
-          <div key={cat.id} className="mb-24">
-            <LineHeader text={cat.title} />
-            <div className="grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10 2xl:gap-12 mt-10 justify-center items-center">
-              {articles
-                .filter((a) =>
-                  cat.id === "popular" ? a.popular : a.category === cat.id
-                )
-                .map((article, index) => (
-                  <Card
-                    key={index}
-                    article={{
-                      ...article,
-                      title:
-                        cat.id === "popular" && article.popularTitle
-                          ? article.popularTitle
-                          : article.title,
-                      p:
-                        cat.id === "popular" && article.popularDescription
-                          ? article.popularDescription
-                          : article.p,
-                    }}
-                    index={index}
-                  />
-                ))}
+        {/* ZIMA = jedna wielka sekcja bez kategorii */}
+        {isWinter ? (
+          <div className="mb-24">
+            <LineHeader text="Zimowe wycieczki i atrakcje" />
+            <div className="grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10 2xl:gap-12 mt-10 justify-center">
+              {articles.map((article, index) => (
+                <Card
+                  key={index}
+                  article={{
+                    ...article,
+                    title: article.popularTitle || article.title,
+                    p: article.popularDescription || article.p,
+                  }}
+                  index={index}
+                />
+              ))}
             </div>
           </div>
-        ))}
+        ) : (
+          /* POZA ZIMĄ = normalny układ z kategoriami */
+          <>
+            {[
+              { id: "popular", title: t("trips.popularHeader") },
+              { id: "poland", title: t("trips.polandHeader") },
+              { id: "foreign", title: t("trips.foreignHeader") },
+              { id: "active", title: t("trips.activeHeader") },
+            ].map((cat) => (
+              <div key={cat.id} className="mb-24">
+                <LineHeader text={cat.title} />
+                <div className="grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10 2xl:gap-12 mt-10 justify-center">
+                  {articles
+                    .filter((a) =>
+                      cat.id === "popular" ? a.popular : a.category === cat.id
+                    )
+                    .map((article, index) => (
+                      <Card
+                        key={index}
+                        article={{
+                          ...article,
+                          title:
+                            cat.id === "popular" && article.popularTitle
+                              ? article.popularTitle
+                              : article.title,
+                          p:
+                            cat.id === "popular" && article.popularDescription
+                              ? article.popularDescription
+                              : article.p,
+                        }}
+                        index={index}
+                      />
+                    ))}
+                </div>
+              </div>
+            ))}
+          </>
+        )}
       </section>
+
       <WhyTrips />
-      <FAQSection />
+      <FAQSection faq={faqData} />
     </>
   );
 }

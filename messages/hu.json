@@ -162,7 +162,9 @@
             }
         },
         "trips": {
-            "header": "Napkirándulások Zakopanéból – Nyár 2025 | Trio Travel",
+            "header": "Napkirándulások Zakopanéból – Nyár",
+            "winterHeader": "TrioTravel téli ajánlat",
+            "winterText": "Termálfürdők, Jégtemplom, Kasprowy-csúcs, Lombkorona-sétány és még sok más – csak télen!",
             "polandHeader": "Egynapos lengyel kirándulások Zakopanéból",
             "foreignHeader": "Külföldi kirándulások Zakopanéból",
             "activeHeader": "Aktív és kalandos kirándulások",
@@ -1129,32 +1131,101 @@
             },
             "swiatynia-lodowa-hrebieniok": {
                 "alt": {
-                    "1": "A Hrebieniok Jégtemplom piros-kék megvilágításban",
-                    "2": "Jégtemplom közelről",
-                    "3": "Hrebieniok Jégtemplom közelről",
-                    "4": "A jégtemplom belseje"
+                    "1": "Precízen faragott jégoltár és gótikus jégívek a Tátrai Jégtemplom belsejében Hrebienokon.",
+                    "2": "Közeli kép a westminsteri apátság jégszobrának tornyairól és építészeti részleteiről, hideg kék fénnyel megvilágítva.",
+                    "3": "Hatalmas jégszobor, amely a westminsteri apátság homlokzatát ábrázolja a Tátrai Jégtemplomban, kék fénnyel megvilágítva.",
+                    "4": "A hrebienoki kupola belseje a templom jégmásolatával, piros és kék reflektorfényekkel megvilágítva.",
+                    "5": "Piros-kék fogaskerekű felvonó megy fel Hrebienokra egy napos téli napon a tátrai fenyők háttere előtt.",
+                    "6": "A Magas-Tátra téli tája turistautakkal Hrebienok felé és havas Lomnický-csúcs kilátással.",
+                    "7": "Jégbe faragott bazilika homlokzata, művészi lila és rózsaszín megvilágítással a Tatra Ice Master kiállítás során."
                 },
-                "header": "Hrebieniok Jégtemplom",
-                "header2": "Mit kínálunk?",
-                "text": "Meghívjuk Önt egy szlovákiai kirándulásra, amelynek során meglátogathatja Ótátrafüredet. Felszállhat a Hrebieniokra (Magas-Tátra, 1310 m tengerszint feletti magasság) vezető fogaskerekű vasútra, ahol a csúcson található a Jégtemplom, amelyet ebben az évben a Waweli Katedrális inspirált.",
+                "header": "Jégtemplom Hrebienok",
+                "header2": "Mit fogsz látni az út során",
+                "header3": "Kirándulás részletei és gyakorlati információk",
+                "text": "Fedezd fel a varázslatos téli Szlovákiát teljesen új perspektívából! Ez az egyedülálló egynapos kirándulás Zakopanéból a Magas-Tátra szívébe, Ótátrafüredre (Starý Smokovec) visz. Onnan kényelmes fogaskerekű felvonóval jutunk fel Hrebienokra (1285 m), ahol Szlovákia legnagyobb téli attrakciójához: a Tátrai Jégtemplomhoz. A minden évben újjáépített monumentális jégépítmény az idei (2025/2026) szezonban a római Lateráni Szent János-bazilika ihlette, és két pápa előtti tisztelgésként. Egyetlen nap alatt csodálatos jégművészetet, lélegzetelállító hegyi panorámát és mesebeli jég- és hókörnyezetet élvezhetsz.",
+                "offer": {
+                    "1": {
+                        "header": "Ótátrafüred és a fogaskerekű felvonó",
+                        "text": "Téli utunkat Ótátrafüreden (1010 m) kezdjük – a Magas-Tátra lábánál fekvő bájos, történelmi üdülőhelyen. Itt található a felvonó alsó állomása, amely a jégbirodalom kapuja. Hrebienokra modern és kényelmes földkábeles felvonóval (szlovákul: pozemná lanovka) jutunk fel. A kocsikban ülve pár perc alatt elérjük az 1285 m-es magasságot, miközben már az első perctől gyönyörű kilátásban gyönyörködhetünk.",
+                        "header2": "Mi vár rád az úton?",
+                        "list": {
+                            "1": "Páratlan panoráma: Már a felvonóból élvezheted a Poprád-medence téli látképét.",
+                            "2": "Villámgyors közlekedés: Stresszmentes, mindössze 7 perces utazás egyenesen a csúcsra.",
+                            "3": "Kényelem és meleg: Teljesen üvegezett kocsik biztosítják a meleg és biztonságos utazást mindenki számára.",
+                            "4": "Könnyű megközelítés: Közvetlenül érkezünk Hrebienokra (1285 m) – a téli látnivalók kiindulópontra."
+                        },
+                        "button1": "Foglalás online",
+                        "button2": "Galéria"
+                    },
+                    "2": {
+                        "header": "Hrebienok – A jég és a panoráma birodalma",
+                        "text": "Hrebienok (1285 m) – Művészet és kaland remekműve A gyors felvonózás után érkezünk a téli turizmus szívébe, Hrebienokra (Ótátrafüredi-nyereg). Kötelező látnivaló a Tátrában, ahonnan páratlan kilátás nyílik a Poprád-medencére. A fő attrakció a Tátrai Jégtemplom – az egyetlen ilyen a Tátrában! Az idei szezonban több száz tonna jégből faragott óriási építmény a Lateráni Szent János-bazilika másolata. A templom belső tere tele van aprólékos részletekkel, amelyeket színes világítás kelt életre, varázslatos hangulatot teremtve. Az egész installáció fedett, így kényelmesen látogatható. Szabadidőben érdemes betérni a Bilíkova chata vagy a Rainerova chata vendéglőkbe egy meleg italra vagy ételre. Hrebienok kiváló kiindulópont rövid sétákhoz is – pl. 15–20 perc könnyű séta a Studenovodské-vízesésekhez, amelyek télen gyakran gyönyörű jégkaskádokká fagynak. Tipp: ha ezt a rövid utat választod, érdemes túracipőre húzható csúszásgátlót (hókampót) vinni a jeges részek miatt.",
+                        "header2": "Pihenj és fedezd fel a környéket",
+                        "list": {
+                            "1": "Monumentális építészet: A Lateráni Szent János-bazilika jégmásolatának megtekintése (az idei téma).",
+                            "2": "Varázslatos megvilágítás: A részletgazdag jégszobrok színes fényekkel.",
+                            "3": "Jégvízesések: A Studenovodské-vízesések közelsége mint extra látnivaló.",
+                            "4": "Melegedő: Pihenő és italok a Bilíkova vagy Rainerova chatában."
+                        },
+                        "button1": "Kirándulás részletei",
+                        "button2": "Kapcsolat"
+                    }
+                },
+                "why": {
+                    "header": "Miért érdemes ezt a kirándulást választani?",
+                    "1": "Egyedülálló Tátrai Jégtemplom – minden évben más, monumentális jégépítmény",
+                    "2": "A legszebb téli attrakció a szlovák oldalon – csak pár hónapig látogatható",
+                    "3": "Mindenki számára ideális – tökéletes családoknak, időseknek és csökkent mozgásképességűeknek is (felvonó és templom teljesen akadálymentes)",
+                    "4": "Már az utazás során lenyűgöző kilátás – panorámaablakokkal a Poprád-medencére"
+                },
                 "table": {
                     "header1": "Jegy típusa",
-                    "header2": "Hrebieniok Jégtemplom",
+                    "header2": "Ár",
                     "1": "Normál jegy",
-                    "2": "Kedvezményes jegy (10 év alatti gyermekek)",
-                    "3": "Normál jegy",
-                    "4": "Kedvezményes jegy (10 év alatti gyermekek)",
-                    "text": "* Az ár tartalmazza: képzett kísérő és idegenvezető felügyeletét, kényelmes autóbuszos utazást, KL és NNW biztosítást, audio guide készletet",
-                    "additional": "Külön fizetendő (felvonójegy a Hrebieniokra)"
+                    "2": "Kedvezményes jegy (14 éves korig)",
+                    "additional": "Külön fizetendő (fogaskerekű jegy)",
+                    "text": "* Az ár tartalmazza: sofőr/kísérő jelenlétét, NNW biztosítást és a zakopanei transzfert"
                 },
                 "tripprogram": {
-                    "header": "Kirándulás programja:",
+                    "header": "A kirándulás programja",
                     "1": "Indulás Zakopanéból",
                     "2": "Érkezés Ótátrafüredre",
-                    "3": "Utazás a Hrebieniokra fogaskerekű vasúttal",
-                    "4": "A Jégtemplom megtekintése",
+                    "3": "Felvonózás Hrebienokra",
+                    "4": "A Jégtemplom templom megtekintése",
                     "5": "Szabadidő",
-                    "6": "Visszatérés Zakopanéba"
+                    "6": "Visszaérkezés Zakopanéba",
+                    "button": "Részvételi feltételek",
+                    "text2": "Minden résztvevőnek érvényes útlevéllel vagy személyi igazolvánnyal kell rendelkeznie. Rossz időjárás vagy járhatatlan ösvény esetén fenntartjuk a jogot az útvonal vagy a program sorrendjének megváltoztatására. Elégtelen létszám esetén a program legkésőbb az indulás előtti napon 21:00-ig lemondható. A kirándulás Lengyelország határain kívül zajlik – be kell tartani Szlovákia aktuális egészségügyi és járványügyi előírásait."
+                },
+                "faq": {
+                    "header": "Gyakran ismételt kérdések (GYIK)",
+                    "text": "Kérdésed van a <strong>zakopanei egynapos kirándulásokkal</strong> kapcsolatban? Íme a leggyakrabban feltett kérdések válaszai.",
+                    "list": {
+                        "1": {
+                            "header": "Fárasztó a kirándulás?",
+                            "text": "Egyáltalán nem! A felvonóval 7 perc alatt tesszük meg a magasságkülönbséget, így energiatakarékos. A templomhoz vezető út fent is rövid és könnyű séta."
+                        },
+                        "2": {
+                            "header": "Mit nyújt a felvonós utazás?",
+                            "text": "Jegy + kilátás egyben: A felvonójegy árában 7 perc lenyűgöző panorámaút a Ótátrafüredi-nyeregig.\nKényelem és meleg: Üvegezett kocsikban, melegben és biztonságban csodálhatod a téli tájat.\nCsaládbarát: Kiváló alternatíva a megerőltető túrák helyett, mindenki számára könnyű és biztonságos.\nGyors magasságnyerés: 275 m szintkülönbség pillanatok alatt – spórolj az erőddel a jégműremek felfedezéséhez!"
+                        },
+                        "3": {
+                            "header": "Biztonságos és kényelmes a hrebienoki felvonó?",
+                            "text": "Igen. A modern, teljesen üvegezett földkábeles felvonó meleg, biztonságos és páratlan panorámát nyújt – tökéletes családoknak és időseknek is."
+                        },
+                        "4": {
+                            "header": "Kell kell különleges felszerelés?",
+                            "text": "A Jégtemplom megtekintéséhez elég a meleg téli ruha. Ha a Studenovodské-vízesésekhez szeretnél elsétálni, javasoljuk a túracipőre húzható csúszásgátlókat (hókampókat) a jeges szakaszok miatt."
+                        },
+                        "5": {
+                            "header": "Van lehetőség enni vagy felmelegedni Hrebienokon?",
+                            "text": "Igen. Közvetlenül a felső állomás mellett található a Bilíkova chata, kissé arrébb pedig a híres Rainerova chata, ahol meleg italokat és ételt lehet kapni."
+                        },
+                        "6": {
+                            "header": "Milyen hőmérséklet van a Jégtemplomban?",
+                            "text": "A templom fedett kupola alatt van, ahol állandó -6 és -10 °C közötti hőmérsékletet tartanak (hogy a jég ne olvadjon el). Meleg öltözet kötelező!"
+                        }
+                    }
                 }
             }
         }
@@ -1360,6 +1431,60 @@
                     "4": "menü a szánkózások során: kolbász, kenyér, ketchup, mustár, hagyományos és hegyi tea (korlátlanul)",
                     "5": "* ha nincs elegendő hó vagy teljesen hiányzik, a szánkózások szekereken / fogatokon zajlanak"
                 }
+            },
+            "faq": {
+                "header": "Gyakran ismételt kérdések (GYIK)",
+                "text": "Kérdésed van a <strong>zakopanei egynapos vagy esti programokról?</strong> Íme a leggyakrabban feltett kérdések válaszai.",
+                "list": {
+                    "1": {
+                        "header": "Mennyi ideig tart az egész program, és miből áll?",
+                        "text": "A teljes TrioTravel-élmény kb. 2,5–3,5 órát vesz igénybe. Ez három fő részből áll: körülbelül 1 óra festői fáklyafényes szánkózás, kb. 1 óra hegyi lakoma máglyatűznél élő górál zenekarral és bőséges étel-ital kínálattal, a fennmaradó 30–60 perc pedig a szervezésre és a szállásra való visszaszállításra szolgál."
+                    },
+                    "2": {
+                        "header": "Mikor indul a TrioTravel kulig?",
+                        "text": "A szánkózások 16:00, 17:00, 18:00 és 19:00 órakor indulnak. Ha igénybe veszitek a saját transzferünket, az előre egyeztetett helyszínekről kb. 40 perccel korábban indulunk. Telefonos egyeztetés után más időpont is lehetséges, ha van rá kapacitás."
+                    },
+                    "3": {
+                        "header": "Részt vehetnek a gyerekek is?",
+                        "text": "Természetesen! A kulig remek családi program. 3 éves korig a gyerekek ingyen utazhatnak a szülő ölében. A kényelem és biztonság miatt a 3–10 éves gyerekeknek kedvezményes jegyet kell váltani, ami saját ülőhelyet biztosít a szánban."
+                    },
+                    "4": {
+                        "header": "Mi szerepel a máglyatűzi lakoma menüjében?",
+                        "text": "Valódi helyi finomságokat kínálunk korlátlanul: górál bigos (káposztás-húsos egytálétel), saját sütögetős kolbász a tűzön (vagy előre megsütve), grillezett oscypek sajt, vastag kenyérszelet házi zsírral, kovászos uborka, kenyér, ketchup és mustár. Italok: sima tea, górál tea és forralt bor – minden korlátlan mennyiségben."
+                    },
+                    "5": {
+                        "header": "Lehet alkoholt fogyasztani a lakoma alatt, és van-e helyben?",
+                        "text": "Kínálunk forralt bort és alkoholos górál teát. Emellett saját alkoholt is lehet hozni és fogyasztani a máglyatűznél. A biztonság érdekében a szervező fenntartja a jogot, hogy kizárja azokat, akik ittassága saját vagy mások biztonságát veszélyezteti."
+                    },
+                    "6": {
+                        "header": "Mi történik, ha nincs hó vagy rossz az idő?",
+                        "text": "Minden időjárásra felkészültünk! Ha nincs elég hó, a szánt hagyományos lovas szekérre vagy hintóra cseréljük. A program és az időtartam változatlan marad."
+                    },
+                    "7": {
+                        "header": "Hogyan kell felöltözni a kuligra?",
+                        "text": "A szánkózás és a lakoma is a szabadban zajlik. A szánban meleg birkabőr takarókat biztosítunk. A lakoma fedett helyen, tűz mellett van (sokkal melegebb), de így is nagyon meleg, réteges öltözéket ajánlunk: sapka, kesztyű, vastag kabát, bélelt nadrág és vastag zoknival."
+                    },
+                    "8": {
+                        "header": "Biztosít a TrioTravel transzfert a kulig helyszínére?",
+                        "text": "Igen, a jegyár tartalmazza az oda-vissza transzfert (elhozunk és visszaviszünk) mindenkinek, aki Zakopanéban vagy Kościelisko községben szállt meg. Más helyszínekről kérjük, előre jelezzétek (881 201 205)."
+                    },
+                    "9": {
+                        "header": "Akik saját autóval jönnek, korábban kell érkezniük?",
+                        "text": "Igen. Aki saját maga oldja meg a közlekedést, kérjük legalább 15 perccel a kezdés előtt érkezzen (16:00, 17:00, 18:00 vagy 19:00). Foglalás után elküldjük a pontos Google Maps tűt és a találkozási pontot."
+                    },
+                    "10": {
+                        "header": "Hányan férnek egy szánba?",
+                        "text": "A mi szánjaink nagyobbak: 8–12 fősek, így kényelmes és tágas a hely mindenki számára."
+                    },
+                    "11": {
+                        "header": "Lehet nagyobb csoportnak kuligot szervezni?",
+                        "text": "Természetesen! A TrioTravel kulig kiváló csapatépítő vagy céges program. Kérjük, vegyétek fel velünk fel a kapcsolatot a részletek egyeztetése miatt."
+                    },
+                    "12": {
+                        "header": "Hogyan lehet elérni a TrioTravelt további kérdésekkel?",
+                        "text": "Bármilyen kérdés esetén: Telefon: 881 201 205 | E-mail: biuro@triotravel.eu | Személyesen: ul. Kościuszki 23a, ul. Zamoyskiego 8 vagy ul. Piłsudskiego 69a, Zakopane."
+                    }
+                }
             }
         },
         "dolina": {
@@ -1393,6 +1518,68 @@
                     "6": "menü a szánkózások során: káposztás étel, oscypek, kenyérszelet gazda szalonnával, forralt bor, kolbász, kenyér, ketchup, uborka, mustár, hagyományos és hegyi tea (korlátlanul)",
                     "7": "* 3 fős (vagy 7 stb.) csoport esetén felár fizetendő az üres helyért a szánon: 70 PLN",
                     "8": "* ha nincs elegendő hó vagy teljesen hiányzik, a szánkózások szekereken / fogatokon zajlanak"
+                }
+            },
+            "faq": {
+                "header": "Gyakran ismételt kérdések (GYIK)",
+                "text": "Kérdésed van a <strong>zakopanei esti programokról / kuligokról</strong>? Íme a leggyakrabban feltett kérdések válaszai.",
+                "list": {
+                    "1": {
+                        "header": "Mennyi ideig tart az egész program, és miből áll?",
+                        "text": "A teljes TrioTravel-élmény kb. 2,5–3,5 órát vesz igénybe. Ez három fő részből áll: körülbelül 1 óra varázslatos fáklyafényes szánkózás, kb. 1 óra hegyi lakoma máglyatűznél (Watra) élő hegedűs zenével és bőséges étel-ital kínálattal, a fennmaradó 30–60 perc pedig a szervezésre és transzferre megy el."
+                    },
+                    "2": {
+                        "header": "Mikor indul a TrioTravel kulig?",
+                        "text": "A szánkózások 17:00-kor és 19:00-kor indulnak. Ha igénybe veszitek a saját transzferünket, az előre egyeztetett helyszínekről kb. 40 perccel korábban indulunk. * Telefonos egyeztetés után egyedi időpont is megoldható, ha van szabad kapacitás."
+                    },
+                    "3": {
+                        "header": "A gyerekek is részt vehetnek?",
+                        "text": "Természetesen! A kulig fantasztikus családi program. 3 éves korig a gyerekek ingyen utazhatnak a szülő ölében. A kényelem és biztonság miatt a 3–10 éves gyerekeknek kedvezményes jegyet kell váltani, ami saját ülőhelyet biztosít a szánban."
+                    },
+                    "4": {
+                        "header": "Mi van a máglyatűzi lakoma menüjében?",
+                        "text": "Hagyományos górál finomságokat kínálunk korlátlanul: górál bigos (káposztás-húsos egytálétel), saját magad sütögethető kolbász a tűzön (vagy előre megsütve), füstölt oscypek sajt, vastag kenyer szelet házi zsírral, kovászos uborka, kenyér, ketchup és mustár. Italból: sima tea, górál tea (alkoholos) és forralt bor – minden korlátlan mennyiségben."
+                    },
+                    "5": {
+                        "header": "Lehet alkoholt fogyasztani a lakoma alatt, és van helyszínen?",
+                        "text": "Kínálunk forralt bort és alkoholos górál teát. Emellett saját alkoholt is lehet fogyasztani a máglyatűznél. A biztonság érdekében a szervező fenntartja a jogot, hogy kizárja azokat, akik ittassága saját vagy mások biztonságát veszélyezteti."
+                    },
+                    "6": {
+                        "header": "Lehet plusz ételt-italt venni a helyszínen?",
+                        "text": "Igen, a lakoma helyszínén (Watra) további ételek és italok is vásárolhatók. A kínált ételsoron felül pl. žurek levest vagy extra italokat is lehet rendelni."
+                    },
+                    "7": {
+                        "header": "Mi történik, ha nincs hó vagy rossz az idő?",
+                        "text": "Minden időjárásra felkészültünk! Ha nincs elég hó, a szánt hagyományos lovas szekérre vagy hintóra cseréljük. A program és az időtartam változatlan marad."
+                    },
+                    "8": {
+                        "header": "Hogyan kell felöltözni a kuligra?",
+                        "text": "A szánkózás és a lakoma is a szabadban zajlik. A szánban meleg birkabőr takarókat biztosítunk. A lakoma fedett helyen, tűz mellett van (sokkal melegebb, mint kint), de így is erősen ajánljuk a réteges, nagyon meleg öltözéket: sapka, kesztyű, vastag kabát, bélelt nadrág, vastag zokni kötelező."
+                    },
+                    "9": {
+                        "header": "A TrioTravel biztosít transzfert a kulig helyszínére?",
+                        "text": "Igen, a jegyár tartalmazza az oda-vissza transzfert mindenki számára, aki Zakopanéban vagy Kościelisko községben szállt meg. Más helyszínekről kérjük, előre egyeztessetek velünk (881 201 205)."
+                    },
+                    "10": {
+                        "header": "Akik saját autóval jönnek, korábban kell érkezniük?",
+                        "text": "Igen. Aki saját maga oldja meg a közlekedést, kérjük, legalább 15 perccel a kezdés előtt (17:00 vagy 19:00) érkezzen meg. Foglalás után minden szükséges információt (pontos Google Maps tű, találkozási pont) elküldünk."
+                    },
+                    "11": {
+                        "header": "Hányan férnek egy szánba?",
+                        "text": "Minden szánkánk 4 személyes, így kényelmes és tágas a hely mindenki számára."
+                    },
+                    "12": {
+                        "header": "Páratlan létszámmal foglalunk (pl. 3, 7 vagy 11 fő). Kell felárat fizetni?",
+                        "text": "Igen, ha egy 4 fős szánban üres hely marad (pl. 3 fő), akkor 70 zł felárat számítunk fel az üres helyre. Ez a kényelem és a zavartalan szervezés miatt szükséges."
+                    },
+                    "13": {
+                        "header": "Lehet nagyobb csoportnak kuligot szervezni?",
+                        "text": "Természetesen! A TrioTravel kulig remek csapatépítő vagy csoportos program. Kérjük, vegyétek fel velünk a kapcsolatot a részletek egyeztetése miatt."
+                    },
+                    "14": {
+                        "header": "Hogyan lehet elérni a TrioTravelt további kérdésekkel?",
+                        "text": "Bármilyen kérdés esetén keressetek bennünket: telefonon +48 881 201 205, a honlap űrlapján, e-mailben: biuro@triotravel.eu vagy személyesen irodáinkban (Kościuszki 23a, Zamoyskiego 8 vagy Piłsudskiego 69a)."
+                    }
                 }
             }
         },

@@ -57,7 +57,7 @@
             "header10": "Słowacki Raj?",
             "header11": "Transport nad Morskie Oko?",
             "header12": "Krajobraz Słowacji?",
-            "header13": "First Minute na Zimowe Kuligi!"
+            "header13": "Zimowe Kuligi!"
         },
         "button": "Zobacz",
         "button2": "Więcej"
@@ -162,7 +162,9 @@
             }
         },
         "trips": {
-            "header": "Wycieczki jednodniowe z Zakopanego - Lato 2025",
+            "header": "Wycieczki jednodniowe z Zakopanego - Lato",
+            "winterHeader": "Zimowa oferta TrioTravel",
+            "winterText": "Termy, Lodowe Świątynia, Kasprowy Wierch, Spacer w Koronach Drzew i więcej – tylko zimą!",
             "polandHeader": "Polskie atrakcje jednodniowe z Zakopanego",
             "foreignHeader": "Wycieczki zagraniczne z Zakopanego",
             "activeHeader": "Wycieczki aktywne i przygodowe",
@@ -1132,32 +1134,101 @@
             },
             "swiatynia-lodowa-hrebieniok": {
                 "alt": {
-                    "1": "Światynia Lodowa Hrebieniok podświetlona na czerwono-niebiesko",
-                    "2": "Świątynia lodowa z bliska",
-                    "3": "Świątynia lodowa Hrebieniok z bliska",
-                    "4": "Wnętrze świątyni lodowej"
+                    "1": "Precyzyjnie wyrzeźbiony ołtarz i gotyckie łuki z lodu we wnętrzu Tatrzańskiej Świątyni Lodowej na Hrebienoku.",
+                    "2": "Zbliżenie na lodowe wieże i detale architektoniczne rzeźby Opactwa Westminsterskiego, oświetlone zimnym, niebieskim światłem.",
+                    "3": "Monumentalna rzeźba lodowa przedstawiająca fasadę Opactwa Westminsterskiego w Tatrzańskiej Świątyni Lodowej, podświetlona na niebiesko.",
+                    "4": "Wnętrze kopuły na Hrebienoku z lodową repliką świątyni oświetloną czerwonym i niebieskim światłem reflektorów.",
+                    "5": "Czerwono-niebieska kolejka linowo-terenowa wjeżdżająca na Hrebienok w słoneczny, zimowy dzień na tle tatrzańskich sosen.",
+                    "6": "Zimowy krajobraz Tatr Wysokich ze szlakiem turystycznym prowadzącym na Hrebienok i widokiem na ośnieżony Szczyt Łomnicki.",
+                    "7": "Fasada bazyliki wyrzeźbiona w lodzie, artystycznie oświetlona fioletowym i różowym światłem podczas wystawy Tatry Ice Master."
                 },
                 "header": "Świątynia Lodowa Hrebieniok",
-                "header2": "Co oferujemy?",
-                "text": "Zapraszamy na wycieczkę na Słowację podczas, której zobaczą Państwo Stary Smokowiec. Przejadą się kolejką szynową na Hrebieniok (Tatry Wysokie, 1310m n.p.m.), gdzie na szczycie zlokalizowana jest Lodowa Świątynia, która w tym roku inspirowana jest Katedrą na Wawelu.",
+                "header2": "Co zobaczysz w trakcie wyjazdu",
+                "header3": "Szczegóły Wycieczki i Informacje Praktyczne",
+                "text": "Poznaj magiczną, zimową Słowację z zupełnie nowej perspektywy! Ta wyjątkowa, jednodniowa wyprawa z Zakopanego zaprowadzi Cię do serca Tatr Wysokich – Starego Smokowca. Stąd, po komfortowym wjeździe kolejką szynową na Hrebienok (1285 m n.p.m.), czeka na Państwa największa zimowa atrakcja Słowacji: Tatrzańska Świątynia Lodowa. Monumentalna budowla, która co roku jest rzeźbiona na nowo, inspirowana jest w tym sezonie Bazyliką św. Jana na Lateranie w Rzymie i jest hołdem dla dwóch papieży. W jeden dzień doświadczysz niesamowitej sztuki, podziwiania pięknej górskiej panoramy i zrelaksujesz się w wyjątkowym, bajkowym otoczeniu lodu i śniegu.",
+                "offer": {
+                    "1": {
+                        "header": "Starý Smokovec i Wjazd Kolejką Szynową",
+                        "text": "Naszą zimową podróż rozpoczynamy w Starým Smokovcu (1010 m n.p.m.) – urokliwym i historycznym centrum turystycznym u podnóża Tatr Wysokich. To tutaj znajduje się dolna stacja kolejki, która jest naszą bramą do lodowego królestwa na szczycie. Na Hrebienok wjedziemy wygodną i nowoczesną kolejką szynowo-terenową (słow. pozemná lanovka). Podróż wagonikiem to szybki i komfortowy sposób, by bez wysiłku osiągnąć wysokość 1285 m n.p.m. i rozkoszować się malowniczymi widokami od pierwszej minuty wycieczki.",
+                        "header2": "Co czeka na trasie?",
+                        "list": {
+                            "1": "Panoramiczne Widoki: Podziwianie zimowych panoram Kotliny Popradzkiej już z wagonika.",
+                            "2": "Ekspresowy Transport: Błyskawiczne i bezstresowe 7 minut jazdy prosto na górę.",
+                            "3": "Wygoda i Relaks: Przeszklone wagoniki zapewniają ciepły i bezpieczny transport dla każdego",
+                            "4": "Łatwy Dostęp: Wjazd prosto na Hrebienok (1285 m n.p.m.) – punkt startowy zimowych atrakcji."
+                        },
+                        "button1": "Zarezerwuj online",
+                        "button2": "Galeria"
+                    },
+                    "2": {
+                        "header": "Hrebienok – Królestwo Lodu i Panoramy",
+                        "text": "Hrebienok (1285 m n.p.m.) – Arcydzieło Sztuki i Przygoda Po ekspresowym wjeździe kolejką docieramy do serca zimowej turystyki, na Hrebienok (Smokowieckie Siodełko). To obowiązkowy punkt na mapie Tatr, z którego rozpościera się szeroka panorama na Kotlinę Popradzką. Głównym celem jest Tatrzańska Świątynia Lodowa. To jedyna taka instalacja w Tatrach! W tym roku (2025/2026) monumentalna budowla, rzeźbiona z setek ton lodu, jest inspirowana architekturą Bazyliki św. Jana na Lateranie w Rzymie. Wnętrza Świątyni, pełne misternych detali, ożywają dzięki spektakularnemu kolorowemu podświetleniu, tworząc magiczną atmosferę. Cała instalacja znajduje się pod zadaszeniem, gwarantując komfort zwiedzania. W czasie wolnym można skorzystać z oferty schronisk i restauracji, takich jak Bilíkova Chata czy Rainerowa Chata, idealnych na ciepły posiłek lub napój. Hrebienok to również doskonały punkt wypadowy. Warto wiedzieć, że stąd prowadzi łatwy spacer (ok. 15-20 minut) do malowniczych Wodospadów Zimnej Wody, które w zimie często zamieniają się w piękne, skute lodem kaskady. Pamiętaj: jeśli zdecydujesz się na ten krótki szlak, zalecamy raczki turystyczne ze względu na możliwe oblodzenia.",
+                        "header2": "Zrelaksuj się i Odkrywaj Okolicę",
+                        "list": {
+                            "1": "Monumentalna Architektura: Zwiedzanie repliki Bazyliki św. Jana na Lateranie (tegoroczny motyw).",
+                            "2": "Magiczne Podświetlenie: Podziwianie misternych rzeźb w otoczeniu kolorowego oświetlenia.",
+                            "3": "Lodowe Kaskady: Bliskość Wodospadów Zimnej Wody jako dodatkowa atrakcja i ciekawostka turystyczna Hrebienoka.",
+                            "4": "Chwila na Ogrzanie: Odpoczynek i napoje w Bilíkovej Chacie lub Rainerowej Chacie"
+                        },
+                        "button1": "Szczegóły wycieczki",
+                        "button2": "Kontakt"
+                    }
+                },
+                "why": {
+                    "header": "Dlaczego warto wybrać tę wycieczkę?",
+                    "1": "Jedyna w swoim rodzaju Tatrzańska Świątynia Lodowa – co roku inna, monumentalna budowla z lodu",
+                    "2": "Najpiękniejsza zimowa atrakcja po słowackiej stronie Tatr – dostępna tylko przez kilka miesięcy w roku",
+                    "3": "Atrakcja dla każdego – idealna dla rodzin z dziećmi, seniorów i osób o ograniczonej mobilności (kolejka i świątynia w pełni dostępne)",
+                    "4": "Spektakularne widoki już podczas jazdy – panoramiczne okna wagonika i zapierające dech w piersiach widoki na Kotlinę Popradzką"
+                },
                 "table": {
                     "header1": "Rodzaj biletu",
-                    "header2": "Świątynia Lodowa Hrebieniok",
+                    "header2": "Cena",
                     "1": "Bilet normalny",
-                    "2": "Bilet ulgowy (dzieci do 10 lat)",
-                    "3": "Bilet normalny",
-                    "4": "Bilet ulogwy (dzieci do 10 lat)",
-                    "text": "*Cena obejmuje: Opiekę wykwalifikowanego pilota oraz przewodnika, transport komfortowym autokarem, ubezpieczenie KL i NNW, zestaw audio guide",
-                    "additional": "Dodatkowo płatne (wjazd kolejką na Hrebieniok)"
+                    "2": "Bilet ulgowy (do 14 lat)",
+                    "additional": "Dodatkowo płatne (bilet na kolejkę gondolową)",
+                    "text": "* Cena obejmuje: opiekę kierowcy podczas wycieczki, ubezpieczenie NNW oraz transport z Zakopanego"
                 },
                 "tripprogram": {
-                    "header": "Program Wycieczki:",
+                    "header": "Program Wycieczki",
                     "1": "Wyjazd z Zakopanego",
                     "2": "Przyjazd do Starego Smokowca",
                     "3": "Wyjazd kolejką na Hrebieniok",
                     "4": "Zwiedzanie Świątyni Lodowej",
                     "5": "Czas wolny",
-                    "6": "Powrót do Zakopanego"
+                    "6": "Powrót do Zakopanego",
+                    "button": "Warunki Uczestnictwa",
+                    "text2": "Każdy uczestnik musi posiadać ważny paszport lub dowód osobisty. W przypadku złej pogody lub nieodpowiednich warunków na szlaku zastrzegamy sobie prawo do zmiany trasy wycieczki lub kolejności zwiedzania. Odwołanie imprezy z powodu braku odpowiedniej ilości uczestników, może nastąpić najpóźniej na 1 dzień przed rozpoczęciem imprezy do godziny 21.00. Wyjazd realizowany jest poza granicami RP. Należy spełnić wszelkie warunki sanitarno-epidemiologiczne obowiązujące w kraju docelowym - Słowacja."
+                },
+                "faq": {
+                    "header": "Najczęściej zadawane pytania (FAQ)",
+                    "text": "Masz pytania o <strong>wycieczki jednodniowe z Zakopanego?</strong> Oto odpowiedzi na te, które słyszymy najczęściej.",
+                    "list": {
+                        "1": {
+                            "header": "Czy wycieczka jest męcząca?",
+                            "text": "Absolutnie nie! Dzięki wjazdowi kolejką szynową pokonujemy różnicę wysokości w 7 minut, oszczędzając energię. Trasa na górze (do Świątyni) to krótki, łatwy spacer."
+                        },
+                        "2": {
+                            "header": "Co czeka podczas wjazdu kolejką?",
+                            "text": "Bilet i Widok w Jednym: W cenie biletu na kolejkę otrzymujesz 7 minut spektakularnej, panoramicznej jazdy prosto na Smokowieckie Siodełko.Komfort i Relaks: Przeszklone wagoniki umożliwiają podziwianie zimowego krajobrazu w ciepłych i bezpiecznych warunkach.Idealny dla Rodzin: Doskonała alternatywa dla wymagających szlaków, zapewniająca łatwy i bezpieczny dostęp do górskich atrakcji dla wszystkich.Luksus Dostępności: Błyskawiczne pokonanie 275 metrów różnicy wysokości – oszczędź energię na zwiedzanie lodowego arcydzieła na górze!"
+                        },
+                        "3": {
+                            "header": "Czy kolejka na Hrebienok jest bezpieczna i wygodna?",
+                            "text": "Tak. Przeszklone wagoniki kolejki szynowo-terenowej są nowoczesne i zapewniają spektakularną, panoramiczną jazdę w ciepłych i bezpiecznych warunkach, idealnych dla każdego, w tym rodzin i osób starszych."
+                        },
+                        "4": {
+                            "header": "Czy muszę mieć specjalny sprzęt?",
+                            "text": "Do zwiedzania Lodowej Świątyni wystarczy ciepłe, zimowe ubranie. Jeśli planujesz spacer do Wodospadów Zimnej Wody, zalecamy posiadanie raczków turystycznych ze względu na możliwe oblodzenie szlaków."
+                        },
+                        "5": {
+                            "header": "Czy na Hrebienoku jest gdzie zjeść lub się ogrzać?",
+                            "text": "Tak. Tuż przy górnej stacji kolejki znajduje się Bilíkova Chata, a w pobliżu również słynna Rainerowa Chata, gdzie można kupić ciepłe napoje i posiłek"
+                        },
+                        "6": {
+                            "header": "Jakie temperatury panują w Lodowej Świątyni?",
+                            "text": "Świątynia znajduje się pod zadaszoną kopułą, w której panuje stała temperatura utrzymywana na poziomie od -6°C do -10°C (aby lód się nie roztapiał). Wymagane jest ciepłe ubranie!"
+                        }
+                    }
                 }
             }
         }
@@ -1363,6 +1434,60 @@
                     "4": "menu podczas kuligów: kiełbasa, chleb, ketchup, musztarda, herbata zwykła i herbata góralska (bez limitu)",
                     "5": "* w przypadku niewystarczającej ilości śniegu lub jego braku kuligi odbywają się na wozach / dorożkami"
                 }
+            },
+            "faq": {
+                "header": "Najczęściej zadawane pytania (FAQ)",
+                "text": "Masz pytania o <strong>wycieczki jednodniowe z Zakopanego?</strong> Oto odpowiedzi na te, które słyszymy najczęściej.",
+                "list": {
+                    "1": {
+                        "header": "Jaki jest całkowity czas trwania całego wydarzenia i z czego się składa?",
+                        "text": "Całe doświadczenie z TrioTravel trwa od około 2,5 do 3,5 godziny. Czas ten jest sumą trzech głównych elementów: około jednej godziny zajmuje malownicza przejażdżka saniami z pochodniami, około jednej godziny trwa górska biesiada przy ognisku z poczęstunkiem i kapelą góralską, a pozostały czas, około 30-60 minut, przeznaczony jest na organizację i transport powrotny do miejsca zakwaterowania"
+                    },
+                    "2": {
+                        "header": "O której godzinie rozpoczyna się kulig TrioTravel?",
+                        "text": "Start kuligów zaplanowany jest na godziny 16:00, 17:00, 18:00 oraz 19:00. Jeśli korzystają Państwo z naszego transportu, wyjazd z umówionych miejsc następuje około 40 minut wcześniej. Po kontakcie telefonicznym jest możliwość odbycia kuligu w innej godzinie, jeżeli będzie taka możliwość."
+                    },
+                    "3": {
+                        "header": "Czy dzieci mogą uczestniczyć w zabawie?",
+                        "text": "Oczywiście! Kulig to wspaniała atrakcja rodzinna. Dzieci do 3. roku życia mogą jechać bezpłatnie na kolanach rodzica. Ze względu na komfort i bezpieczeństwo wszystkich uczestników, dla dzieci od 3. do 10. roku życia konieczne jest wykupienie biletu ulgowego, który zapewnia im własne miejsce siedzące w saniach."
+                    },
+                    "4": {
+                        "header": "Co wchodzi w skład menu biesiady przy ognisku?",
+                        "text": "Nasza oferta zawiera prawdziwe regionalne przysmaki: Bigos góralski, kiełbasa do samodzielnego pieczenia na ognisku (lub juz wczesniej przygotowana), oscypek, pajda chleba z gazdowskim smalcem, ogórki kiszone, pieczywo oraz dodatki (ketchup, musztarda). Do picia serwujemy herbatę zwykłą i góralską oraz grzane wino. (Wszystko bez limitu)  "
+                    },
+                    "5": {
+                        "header": "Czy podczas biesiady można spożywać alkohol i czy jest dostępny na miejscu?",
+                        "text": "Oferujemy grzane wino i herbatę góralską (z alkoholem). Ponadto, w trakcie biesiady przy ognisku jest możliwość spożywania własnego alkoholu. Organizator, ze względów bezpieczeństwa, zastrzega sobie prawo do wykluczenia z dalszego udziału osób, których stan upojenia zagraża im samym lub innym uczestnikom."
+                    },
+                    "6": {
+                        "header": "Co jeśli aura nie dopisze i zabraknie śniegu?",
+                        "text": "Jesteśmy przygotowani na każdą pogodę! W przypadku niedostatecznej ilości śniegu, sanie zostaną zastąpione tradycyjnymi wozami lub dorożkami. Program i jego czas trwania pozostają bez zmian."
+                    },
+                    "7": {
+                        "header": "W jaki sposób najlepiej ubrać się na kulig?",
+                        "text": "Kulig i biesiada odbywają się na świeżym powietrzu. Podczas przejazdu saniami zapewniamy ciepłe skóry do okrycia. Biesiada odbywa się w zadaszonym miejscu przy ogniu, gdzie jest znacznie cieplej niż na zewnątrz, jednak wciąż rekomendujemy bardzo ciepły ubiór „na cebulkę” – najlepiej z czapką, rękawicami, ciepłą kurtką, ocieplanymi spodniami i ciepłymi skarpetami."
+                    },
+                    "8": {
+                        "header": "Czy TrioTravel zapewnia transport na miejsce kuligu?",
+                        "text": "Tak, w cenie biletu zapewniamy transport w dwie strony (odbiór i powrót) dla osób zakwaterowanych na terenie Zakopanego i gminy Kościelisko. W przypadku innych lokalizacji prosimy o wcześniejszy kontakt w celu uzgodnienia szczegółów. (881 201 205) "
+                    },
+                    "9": {
+                        "header": "Czy goście, którzy nie korzystają z Państwa transportu, powinni stawić się wcześniej?",
+                        "text": "Tak. Uczestników, którzy udają się na miejsce kuligu we własnym zakresie, prosimy o przybycie minimum 15 minut przed godziną rozpoczęcia (np. 16:00, 17:00, 18:00 lub 19:00). Po dokonaniu rezerwacji, w kontakcie z Państwem, przekażemy wszystkie niezbędne informacje, w tym dokładną pinezkę dojazdu i miejsce zbiórki."
+                    },
+                    "10": {
+                        "header": "Ilu uczestników mieści się w jednych saniach?",
+                        "text": "Nasze sanie mają większą pojemność: od 8 do 12 osób, co gwarantuje komfort i przestronność podczas przejażdżki"
+                    },
+                    "11": {
+                        "header": "Czy możemy zorganizować kulig dla większej grupy?",
+                        "text": "Zdecydowanie tak, kulig TrioTravel to fantastyczny pomysł na integrację grup! Prosimy o kontakt w celu omówienia szczegółów rezerwacji."
+                    },
+                    "12": {
+                        "header": "Jak skontaktować się z TrioTravel w razie dodatkowych pytań?",
+                        "text": "Wszelkie pytania lub wątpliwości prosimy kierować bezpośrednio do nas: Telefon: 881 201 205 E-mail: biuro@triotravel.eu Punkty Stacjonarne: ul. Kościuszki 23a, ul. Zamoyskiego 8 lub ul. Piłsudskiego 69a."
+                    }
+                }
             }
         },
         "dolina": {
@@ -1396,6 +1521,68 @@
                     "6": "menu podczas kuligów: bigos, oscypek, pajda chleba z gazdowskim smalcem, wino grzane, kiełbasa, chleb, ketchup, ogórki, musztarda, herbata zwykła i góralska (bez limitu)",
                     "7": "* W przypadku grupy 3 - osobowej (lub 7 itd.) obowiązuje dopłata do pustego miejsca w saniach: 70zł",
                     "8": "  * w przypadku niewystarczającej ilości śniegu lub jego braku kuligi odbywają się na wozach / dorożkami"
+                }
+            },
+            "faq": {
+                "header": "Najczęściej zadawane pytania (FAQ)",
+                "text": "Masz pytania o <strong>wycieczki jednodniowe z Zakopanego?</strong> Oto odpowiedzi na te, które słyszymy najczęściej.",
+                "list": {
+                    "1": {
+                        "header": "Jaki jest całkowity czas trwania całego wydarzenia i z czego się składa?",
+                        "text": "Całe doświadczenie z TrioTravel trwa od około 2,5 do 3,5 godziny. Czas ten jest sumą trzech głównych elementów: około jednej godziny zajmuje magiczna przejażdżka saniami z pochodniami, około jednej godziny trwa górska biesiada przy ognisku (Watra) z poczęstunkiem i kapelą góralską, a pozostały czas, około 30-60 minut, przeznaczony jest na organizację i transport"
+                    },
+                    "2": {
+                        "header": "O której godzinie rozpoczyna się kulig TrioTravel?",
+                        "text": "Start kuligów zaplanowany jest na godziny 17:00 i 19:00. Jeśli korzystają Państwo z naszego transportu, wyjazd z umówionych miejsc  odbywaja się około 40 minut wcześniej. * po kontakcie telefonicznym jest możliwość odbycia kuligu w innej godzinie jeżeli będzie taka możliwość"
+                    },
+                    "3": {
+                        "header": "Czy dzieci mogą uczestniczyć w zabawie?",
+                        "text": "Oczywiście! Kulig to wspaniała atrakcja rodzinna. Dzieci do 3. roku życia mogą jechać bezpłatnie na kolanach rodzica. Ze względu na komfort i bezpieczeństwo wszystkich uczestników, dla dzieci od 3. do 10. roku życia konieczne jest wykupienie biletu ulgowego, który zapewnia im własne miejsce siedzące w saniach."
+                    },
+                    "4": {
+                        "header": "Co wchodzi w skład menu biesiady przy ognisku?",
+                        "text": "Nasza oferta zawiera prawdziwe regionalne przysmaki: Bigos góralski, kiełbasa do samodzielnego pieczenia na ognisku (lub juz wczesniej przygotowana), oscypek, pajda chleba z gazdowskim smalcem, ogórki kiszone, pieczywo oraz dodatki (ketchup, musztarda). Do picia serwujemy herbatę zwykłą i góralską oraz grzane wino. (Wszystko bez limitu)  "
+                    },
+                    "5": {
+                        "header": "Czy podczas biesiady można spożywać alkohol i czy jest dostępny na miejscu?",
+                        "text": "Oferujemy grzane wino i herbatę góralską (z alkoholem). Ponadto, w trakcie biesiady przy ognisku jest możliwość spożywania własnego alkoholu. Organizator, ze względów bezpieczeństwa, zastrzega sobie prawo do wykluczenia z dalszego udziału osób, których stan upojenia zagraża im samym lub innym uczestnikom."
+                    },
+                    "6": {
+                        "header": "Czy na miejscu można dokupić dodatkowe jedzenie lub picie?",
+                        "text": "Tak, na miejscu biesiady (Watry) jest możliwość zakupu dodatkowych produktów. Oprócz serwowanego poczęstunku, można nabyć inne ciepłe dania, takie jak np. żurek, a także dodatkowe napoje."
+                    },
+                    "7": {
+                        "header": "Co się stanie, jeśli aura nie dopisze i zabraknie śniegu?",
+                        "text": "Jesteśmy przygotowani na każdą pogodę! W przypadku niedostatecznej ilości śniegu,  sanie zostaną zastąpione tradycyjnymi wozami lub dorożkami. Program i jego czas trwania pozostają bez zmian."
+                    },
+                    "8": {
+                        "header": "W jaki sposób najlepiej ubrać się na kulig?",
+                        "text": "Kulig i biesiada odbywają się na świeżym powietrzu. Podczas przejazdu saniami zapewniamy ciepłe skóry do okrycia. Biesiada odbywa się w zadaszonym miejscu przy ogniu, gdzie jest znacznie cieplej niż na zewnątrz, jednak wciąż rekomendujemy bardzo ciepły ubiór „na cebulkę” – najlepiej z czapką, rękawicami, ciepłą kurtką, ocieplanymi spodniami i ciepłymi skarpetami."
+                    },
+                    "9": {
+                        "header": "Czy TrioTravel zapewnia transport na miejsce kuligu?",
+                        "text": "Tak, w cenie biletu zapewniamy transport w dwie strony (odbiór i powrót) dla osób zakwaterowanych na terenie Zakopanego i gminy Kościelisko. W przypadku innych lokalizacji prosimy o wcześniejszy kontakt w celu uzgodnienia szczegółów. (881 201 205) "
+                    },
+                    "10": {
+                        "header": "Czy goście, którzy nie korzystają z Państwa transportu, powinni stawić się wcześniej?",
+                        "text": "Tak. Uczestników, którzy udają się na miejsce kuligu we własnym zakresie, prosimy o przybycie minimum 15 minut przed godziną rozpoczęcia (17:00 lub 19:00). Po dokonaniu rezerwacji, w kontakcie z Państwem, przekażemy wszystkie niezbędne informacje, w tym dokładną pinezkę dojazdu i miejsce zbiórki."
+                    },
+                    "11": {
+                        "header": "Ilu uczestników mieści się w jednych saniach?",
+                        "text": "Wszystkie nasze sanie są 4-osobowe, co gwarantuje komfort i przestronność podczas przejażdżki"
+                    },
+                    "12": {
+                        "header": "Rezerwujemy miejsca dla nieparzystej liczby osób (np. 3, 7 lub 11 osób). Czy potrzebna jest dopłata?",
+                        "text": "W przypadku grupy, która pozostawia puste miejsce w 4-osobowych saniach (np. 3 osoby), obowiązuje dopłata do pustego miejsca w wysokości 70 zł. Jest to konieczne, aby zapewnić wygodę wszystkim uczestnikom i usprawnić organizację."
+                    },
+                    "13": {
+                        "header": "Czy możemy zorganizować kulig dla większej grupy?",
+                        "text": "Zdecydowanie tak, kulig TrioTravel to fantastyczny pomysł na integrację grup! Prosimy o kontakt w celu omówienia szczegółów rezerwacji."
+                    },
+                    "14": {
+                        "header": "Jak skontaktować się z TrioTravel w razie dodatkowych pytań?",
+                        "text": "Wszelkie pytania lub wątpliwości prosimy kierować bezpośrednio do nas: pod numerem telefonu 881 201 205 lub przez formularz na stronie, maila: biuro@triotravel.eu lub osobiście w jednym z naszych punktów (ul kosciuszki 23a, zamoyskiego 8 lub pilsudskiego 69a)"
+                    }
                 }
             }
         },

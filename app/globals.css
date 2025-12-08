@@ -123,3 +123,35 @@ body {
 a {
   cursor: pointer;
 }
+
+@keyframes snow {
+  0% {
+    transform: translateY(-100vh) rotate(0deg);
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+  }
+}
+
+.snowflake {
+  position: absolute;
+  top: -10px;
+  font-size: 1.2rem; /* możesz zmienić na 0.8rem–1.5rem */
+  color: rgb(232, 232, 232);
+  animation: snow linear infinite;
+  user-select: pointer-events-none;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+  will-change: transform;
+}
+
+/* Opcjonalnie: różne rozmiary płatków */
+.snowflake:nth-child(3n) {
+  font-size: 0.8rem;
+}
+.snowflake:nth-child(3n + 1) {
+  font-size: 1.1rem;
+}
+.snowflake:nth-child(7n) {
+  font-size: 1.5rem;
+  animation-duration: 25s;
+}

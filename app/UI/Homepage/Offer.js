@@ -1,231 +1,291 @@
 "use client";
+
 import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 
-// Sample gallery data
-const gallery = [
-  {
-    url: "/wycieczki/splyw-dunajcem-zakopane/splyw.webp",
-    alt: "trips.1",
-    link: "/wycieczki-jednodniowe/splyw-dunajcem-zakopane",
-  },
-  {
-    url: "/wycieczki/termy/termy.webp",
-    alt: "trips.2",
-    link: "/wycieczki-jednodniowe/chocholowskie-termy",
-  },
-  {
-    url: "/wycieczki/spacer-w-koronach-drzew/korony.webp",
-    alt: "trips.3",
-    link: "/wycieczki-jednodniowe/spacer-w-koronach-drzew",
-  },
-  {
-    url: "/wycieczki/jaskinia-bielanska/jaskinia.webp",
-    alt: "trips.4",
-    link: "/wycieczki-jednodniowe/jaskinia-bielanska",
-  },
-  {
-    url: "/wycieczki/biesiada-goralska/5.webp",
-    alt: "trips.16",
-    link: "/wycieczki-jednodniowe/zabawa-goralska",
-  },
-  {
-    url: "/wycieczki/splyw-dunajcem-slowacja/splyw.webp",
-    alt: "trips.5",
-    link: "/wycieczki-jednodniowe/splyw-dunajcem-slowacja",
-  },
-  {
-    url: "/wycieczki/tajemnice-wieliczki/wieliczka.webp",
-    alt: "trips.6",
-    link: "/wycieczki-jednodniowe/tajemnice-wieliczki",
-  },
-  {
-    url: "/wycieczki//kasprowy-wierch/1.webp",
-    alt: "trips.7",
-    link: "/bilety-na-kasprowy-wierch",
-  },
-  {
-    url: "/wycieczki/slowacki-raj/slowacki-raj.webp",
-    alt: "trips.8",
-    link: "/wycieczki-jednodniowe/slowacki-raj",
-  },
-  {
-    url: "/wycieczki/krajobrazy-slowacji/krajobrazy-slowacji.webp",
-    alt: "trips.11",
-    link: "/wycieczki-jednodniowe/krajobrazy-slowacji",
-  },
-  {
-    url: "/morskie-oko/morskie-oko.webp",
-    alt: "trips.19",
-    link: "/transport-nad-morskie-oko",
-  },
-  {
-    url: "/wycieczki/wieden/wieden.webp",
-    alt: "trips.9",
-    link: "/wycieczki-jednodniowe/wieden",
-  },
-  {
-    url: "/wycieczki/budapeszt/budapeszt.webp",
-    alt: "trips.10",
-    link: "/wycieczki-jednodniowe/budapeszt",
-  },
-
-  // {
-  //   url: "/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.webp",
-  //   alt: "trips.12",
-  //   link: "/wycieczki-jednodniowe/swiatynia-lodowa-hrebieniok",
-  // },
-  {
-    url: "/wycieczki/dookola-tatr/tatry.webp",
-    alt: "trips.14",
-    link: "/wycieczki-jednodniowe/dookola-tatr",
-  },
-  {
-    url: "/wycieczki/rafting-po-dunajcu/rafting.webp",
-    alt: "trips.15",
-    link: "/wycieczki-jednodniowe/rafting-po-dunajcu",
-  },
-  {
-    url: "/wycieczki/quady/quady.webp",
-    alt: "trips.20",
-    link: "/wycieczki-jednodniowe/quady",
-  },
-  {
-    url: "/wycieczki/rowery-elektryczne/rowery-elektryczne.webp",
-    alt: "trips.21",
-    link: "/wycieczki-jednodniowe/rowery-elektryczne",
-  },
-];
 export default function Offer() {
   const t = useTranslations("offer");
+  const k = useTranslations("kuligi"); // na wypadek kuligów w zimie
+
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [slideCount, setSlideCount] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
+
+  // Czy jesteśmy w sezonie zimowym? Możesz to później zastąpić logiką z datą
+  const isWinter = true;
+
+  const standardGallery = [
+    {
+      url: "/wycieczki/termy/termy.webp",
+      title: t("trips.2"),
+      link: "/wycieczki-jednodniowe/chocholowskie-termy",
+    },
+    {
+      url: "/wycieczki/spacer-w-koronach-drzew/korony.webp",
+      title: t("trips.3"),
+      link: "/wycieczki-jednodniowe/spacer-w-koronach-drzew",
+    },
+    {
+      url: "/wycieczki/jaskinia-bielanska/jaskinia.webp",
+      title: t("trips.4"),
+      link: "/wycieczki-jednodniowe/jaskinia-bielanska",
+    },
+    {
+      url: "/wycieczki/tajemnice-wieliczki/wieliczka.webp",
+      title: t("trips.6"),
+      link: "/wycieczki-jednodniowe/tajemnice-wieliczki",
+    },
+    {
+      url: "/wycieczki/kasprowy-wierch/4.webp",
+      title: t("trips.7"),
+      link: "/bilety-na-kasprowy-wierch",
+    },
+    {
+      url: "/wycieczki/slowacki-raj/slowacki-raj.webp",
+      title: t("trips.8"),
+      link: "/wycieczki-jednodniowe/slowacki-raj",
+    },
+    {
+      url: "/wycieczki/krajobrazy-slowacji/krajobrazy-slowacji.webp",
+      title: t("trips.11"),
+      link: "/wycieczki-jednodniowe/krajobrazy-slowacji",
+    },
+    {
+      url: "/morskie-oko/morskie-oko.webp",
+      title: t("trips.19"),
+      link: "/transport/nad-morskie-oko",
+    },
+    {
+      url: "/wycieczki/splyw-dunajcem-zakopane/splyw.webp",
+      title: t("trips.1"),
+      link: "/wycieczki-jednodniowe/splyw-dunajcem-zakopane",
+    },
+    {
+      url: "/wycieczki/splyw-dunajcem-slowacja/splyw.webp",
+      title: t("trips.5"),
+      link: "/wycieczki-jednodniowe/splyw-dunajcem-slowacja",
+    },
+    {
+      url: "/wycieczki/wieden/wieden.webp",
+      title: t("trips.9"),
+      link: "/wycieczki-jednodniowe/wieden",
+    },
+    {
+      url: "/wycieczki/budapeszt/budapeszt.webp",
+      title: t("trips.10"),
+      link: "/wycieczki-jednodniowe/budapeszt",
+    },
+    {
+      url: "/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.webp",
+      title: t("trips.12"),
+      link: "/wycieczki-jednodniowe/swiatynia-lodowa-hrebieniok",
+    },
+  ];
+
+  const winterGallery = [
+    {
+      url: "/wycieczki/termy/termy.webp",
+      title: t("trips.2"),
+      link: "/wycieczki-jednodniowe/chocholowskie-termy",
+    },
+    {
+      url: "/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.webp",
+      title: t("trips.12"),
+      link: "/wycieczki-jednodniowe/swiatynia-lodowa-hrebieniok",
+    },
+    {
+      url: "/wycieczki/spacer-w-koronach-drzew/zima/korony.webp",
+      title: t("trips.3"),
+      link: "/wycieczki-jednodniowe/spacer-w-koronach-drzew",
+    },
+    {
+      url: "/wycieczki/kasprowy-wierch/4.webp",
+      title: t("trips.7"),
+      link: "/bilety-na-kasprowy-wierch",
+    },
+    {
+      url: "/wycieczki/tajemnice-wieliczki/wieliczka.webp",
+      title: t("trips.6"),
+      link: "/wycieczki-jednodniowe/tajemnice-wieliczki",
+    },
+    {
+      url: "/morskie-oko/morskie-oko.webp",
+      title: t("trips.19"),
+      link: "/transport/nad-morskie-oko",
+    },
+    {
+      url: "/kuligi/koscielisko.webp",
+      title: k("cards.1.header"),
+      link: "/kuligi/goralski-koscielisko",
+    },
+    {
+      url: "/kuligi/dolina.webp",
+      title: k("cards.2.header"),
+      link: "/kuligi/dolina-chocholowska",
+    },
+  ];
+
+  const gallery = isWinter ? winterGallery : standardGallery;
 
   const [sliderRef, slider] = useKeenSlider({
     loop: true,
     mode: "snap",
     slides: {
       perView: 3,
-      spacing: 16,
+      spacing: 20,
     },
     breakpoints: {
-      "(max-width: 1334px)": { slides: { perView: 3, spacing: 16 } },
+      "(max-width: 1334px)": { slides: { perView: 3, spacing: 20 } },
       "(max-width: 1150px)": { slides: { perView: 2, spacing: 16 } },
       "(max-width: 800px)": { slides: { perView: 1, spacing: 12 } },
     },
-    created(slider) {
-      setCurrentSlide(slider.track.details.rel);
-      setSlideCount(slider.track.details.slides.length);
+    created(s) {
+      setCurrentSlide(s.track.details.rel);
     },
-    slideChanged(slider) {
-      setCurrentSlide(slider.track.details.rel);
+    slideChanged(s) {
+      setCurrentSlide(s.track.details.rel);
     },
     renderMode: "performance",
     drag: true,
     defaultAnimation: { duration: 800 },
   });
 
+  // Autoplay
   useEffect(() => {
-    if (!slider) return;
+    if (!slider.current) return;
 
     const interval = setInterval(() => {
       if (!isPaused) {
         slider.current?.next();
       }
-    }, 3000);
+    }, 3500);
 
     return () => clearInterval(interval);
   }, [slider, isPaused]);
 
-  const pauseAutoplay = () => {
-    setIsPaused(true);
-  };
+  const pauseAutoplay = () => setIsPaused(true);
+  const resumeAutoplay = () => setIsPaused(false);
 
   return (
-    <section className="relative bg-neutral-100 px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24 overflow-x-hidden">
-      {/* Red Bookmark */}
-      <div className="hidden absolute xl:top-0 xl:right-32 w-16 xl:h-12 bg-red-600 text-white lg:flex items-center justify-center rotate-90 shadow-lg">
-        <span className="transform -rotate-45 text-sm font-medium"></span>
-      </div>
-
-      <h2 className="text-center pb-10 font-semibold text-3xl md:text-4xl 2xl:text-5xl">
+    <section className="relative bg-neutral-100 px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24 overflow-hidden">
+      <h2 className="text-center pb-12 font-semibold text-3xl md:text-4xl 2xl:text-5xl">
         {t("header")}
       </h2>
 
-      {/* STRZAŁKI */}
       <div className="relative mt-10">
-        {/* Left Arrow */}
+        {/* Lewa strzałka */}
         <button
           onClick={() => {
             slider.current?.prev();
             pauseAutoplay();
           }}
-          className="hidden cursor-pointer md:flex absolute top-1/2 -translate-y-1/2 -left-4 md:-left-14 z-10 p-2 px-3 rounded-full bg-red-500 hover:bg-red-600 text-white shadow-lg transition"
+          className="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 z-10 p-3 rounded-full bg-red-600 hover:bg-red-700 text-white shadow-xl transition-all"
+          aria-label="Poprzedni slajd"
         >
-          ◀
+          <svg
+            className="w-8 h-8"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M15 19l-7-7 7-7"
+            />
+          </svg>
         </button>
 
-        {/* SLIDER */}
+        {/* Slider */}
         <div
           ref={sliderRef}
-          className="keen-slider mx-auto"
-          onMouseDown={pauseAutoplay}
+          className="keen-slider"
+          onMouseEnter={pauseAutoplay}
+          onMouseLeave={resumeAutoplay}
           onTouchStart={pauseAutoplay}
         >
-          {gallery.map((image, index) => (
-            <Link href={image.link} key={index} className="keen-slider__slide">
-              <div className="bg-white text-center rounded-xl hover:cursor-pointer group h-[350px] md:h-[450px] 2xl:h-[500px] flex flex-col">
-                <div className="relative w-full h-[300px] 2xl:h-[400px] aspect-[4/3] overflow-hidden rounded-t-xl">
+          {gallery.map((item, idx) => (
+            <Link
+              href={item.link}
+              key={idx}
+              className="keen-slider__slide"
+              onClick={pauseAutoplay}
+            >
+              <div className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 h-[380px] md:h-[480px] 2xl:h-[520px] flex flex-col">
+                {/* Obrazek */}
+                <div className="relative w-full h-[300px] md:h-[380px] 2xl:h-[420px] overflow-hidden">
                   <Image
-                    src={image.url}
-                    alt={image.alt}
+                    src={item.url}
+                    alt={item.alt}
                     fill
-                    priority={index < 2}
-                    className="rounded-t-xl object-cover transition-transform duration-300 group-hover:scale-110 group-hover:-translate-y-2"
+                    priority={idx < 3}
+                    className="object-cover transition-transform duration-700 group-hover:scale-110"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
+                  {/* Nakładka przy hover */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 </div>
-                <div className="flex-1 flex items-center justify-center px-2">
-                  <span className="text-xl py-8 sm:py-0 2xl:py-10 font-semibold md:text-2xl transition-colors duration-300 group-hover:text-customBlue">
-                    {t(image.alt)}
-                  </span>
+
+                {/* Tytuł */}
+                <div className="flex-1 flex items-center justify-center px-4 py-6">
+                  <h3 className="text-xl md:text-2xl 2xl:text-3xl font-semibold text-center text-gray-800 group-hover:text-customBlue transition-colors duration-300">
+                    {item.title}
+                  </h3>
                 </div>
               </div>
             </Link>
           ))}
         </div>
 
-        {/* Right Arrow */}
+        {/* Prawa strzałka */}
         <button
           onClick={() => {
             slider.current?.next();
             pauseAutoplay();
           }}
-          className="hidden cursor-pointer md:flex absolute top-1/2 -translate-y-1/2 -right-4 md:-right-14 z-10 p-2 px-3 rounded-full bg-red-500 hover:bg-red-600 text-white shadow-lg transition"
+          className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 z-10 p-3 rounded-full bg-red-600 hover:bg-red-700 text-white shadow-xl transition-all"
+          aria-label="Następny slajd"
         >
-          ▶
+          <svg
+            className="w-8 h-8"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
         </button>
       </div>
 
-      {/* DOTS */}
-      <div className="flex justify-center mt-12 gap-2">
-        {Array.from({ length: slideCount }).map((_, idx) => (
-          <button
-            key={idx}
-            onClick={() => {
-              slider.current?.moveToIdx(idx);
-              pauseAutoplay();
-            }}
-            className={`w-3 h-3 rounded-full ${
-              currentSlide === idx ? "bg-red-500 scale-125" : "bg-gray-300"
-            } transition-all`}
-          />
-        ))}
+      {/* Kropki */}
+      <div className="flex justify-center mt-12 gap- gap-3">
+        {slider.current &&
+          Array.from({
+            length: slider.current.track.details.slides.length,
+          }).map((_, idx) => (
+            <button
+              key={idx}
+              onClick={() => {
+                slider.current?.moveToIdx(idx);
+                pauseAutoplay();
+              }}
+              className={`transition-all duration-300 rounded-full ${
+                currentSlide === idx
+                  ? "w-10 h-3 bg-red-600"
+                  : "w-3 h-3 bg-gray-300 hover:bg-gray-500"
+              }`}
+              aria-label={`Przejdź do slajdu ${idx + 1}`}
+            />
+          ))}
       </div>
     </section>
   );

@@ -5,10 +5,16 @@ import Table from "@/app/UI/Table";
 import Gallery from "@/app/UI/Slider";
 import TripProgram from "@/app/UI/TripProgram";
 import { useTranslations } from "next-intl";
-
+import ButtonComponent from "./ButtonComponent";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import CtaLink from "@/app/UI/CtaLink";
+import Slovakia from "@/app/UI/Slovakia";
+import TripTime from "@/app/UI/TripTime";
+import WhySpacer from "@/app/[locale]/wycieczki-jednodniowe/spacer-w-koronach-drzew/Why";
+import StarySmokovec from "./StarySmokovec";
+import Hrebieniok from "./Hrebieniok";
+import FAQSection from "@/app/UI/Trips/Faq";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -19,7 +25,9 @@ export async function generateMetadata({ params }) {
   });
 
   const path =
-    routing.pathnames["/wycieczki-jednodniowe/swiatynia-lodowa-hrebieniok"][locale]; // Pobieramy ścieżkę dla języka
+    routing.pathnames["/wycieczki-jednodniowe/swiatynia-lodowa-hrebieniok"][
+      locale
+    ]; // Pobieramy ścieżkę dla języka
   // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
   const canonicalUrl =
     locale === "pl"
@@ -35,30 +43,37 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function Hrebieniok() {
+export default function Spacer() {
   const t = useTranslations("offer.tripslist.swiatynia-lodowa-hrebieniok");
+  const f = useTranslations("offer.tripslist.swiatynia-lodowa-hrebieniok.faq");
+
+  const faqData = {
+    header: f("header"),
+    text: f.raw("text"), // raw działa też po server-side
+    list: f.raw("list"), // cały obiekt { "1": { header, text }, "2": ... }
+  };
+
   const tripItems = [
     "8:00 - " + t("tripprogram.1"),
     "9:00 - " + t("tripprogram.2"),
-    "9:30 - " + t("tripprogram.3"),
-    "10:00 - 12:00 " + t("tripprogram.4"),
-    "12:00 - 13:00 " + t("tripprogram.5"),
-    "15:00 - " + t("tripprogram.6"),
+    "10:00 - 12:30 - " + t("tripprogram.3"),
+    "12:30 - 13:30 - " + t("tripprogram.4"),
+    "15:00/15:30 - " + t("tripprogram.5"),
   ];
 
   // Przykładowe dane dla tabeli
   const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
-    [t("table.1"), "80 PLN"],
-    [t("table.2"), "75 PLN"],
+    [t("table.1"), "90 PLN*"],
+    [t("table.2"), "80 PLN*"],
     ["", t("table.additional")],
-    [t("table.3"), "16 €"],
-    [t("table.4"), "14 €"],
+    [t("table.1"), "16€"],
+    [t("table.2"), "14€"],
   ];
   return (
     <>
       <Header text={t("header")} />
-      <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[700px] ">
+      <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[900px] ">
         <Image
           src="/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.webp"
           width={500}
@@ -71,8 +86,14 @@ export default function Hrebieniok() {
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
         <LineHeader text={t("header2")} />
         <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto xl:text-xl">
-          {t("text")}
+          {t.rich("text", {
+            strong: (chunks) => <strong>{chunks}</strong>,
+          })}
         </p>
+        <StarySmokovec t={t} />
+        <Hrebieniok t={t} />
+        <Slovakia />
+        <WhySpacer t={t} />
         <div className="mt-16">
           <Table
             headers={tableHeaders}
@@ -80,32 +101,43 @@ export default function Hrebieniok() {
             text={t("table.text")}
           />
         </div>
-        <div className="mt-16">
+        <div id="szczegoly-wycieczki" className="mt-16">
           <TripProgram title={t("tripprogram.header")} items={tripItems} />
+          <ButtonComponent />
+
+          <TripTime />
+          <FAQSection faq={faqData} />
         </div>
       </section>
-      <div>
-        <Gallery
-          images={[
-            {
-              url: "/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.webp",
-              alt: t("alt.1"),
-            },
-            {
-              url: "/wycieczki/swiatynia-lodowa-hrebieniok/1.webp",
-              alt: t("alt.2"),
-            },
-            {
-              url: "/wycieczki/swiatynia-lodowa-hrebieniok/2.webp",
-              alt: t("alt.3"),
-            },
-            {
-              url: "/wycieczki/swiatynia-lodowa-hrebieniok/3.webp",
-              alt: t("alt.4"),
-            },
-          ]}
-        />
-      </div>
+
+      <Gallery
+        images={[
+          {
+            url: "/wycieczki/swiatynia-lodowa-hrebieniok/1.webp",
+            alt: t("alt.2"),
+          },
+          {
+            url: "/wycieczki/swiatynia-lodowa-hrebieniok/2.webp",
+            alt: t("alt.3"),
+          },
+          {
+            url: "/wycieczki/swiatynia-lodowa-hrebieniok/3.webp",
+            alt: t("alt.4"),
+          },
+          {
+            url: "/wycieczki/swiatynia-lodowa-hrebieniok/4.webp",
+            alt: t("alt.5"),
+          },
+          {
+            url: "/wycieczki/swiatynia-lodowa-hrebieniok/5.webp",
+            alt: t("alt.6"),
+          },
+          {
+            url: "/wycieczki/swiatynia-lodowa-hrebieniok/6.webp",
+            alt: t("alt.7"),
+          },
+        ]}
+      />
       <CtaLink />
     </>
   );

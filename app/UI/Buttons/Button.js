@@ -8,8 +8,26 @@ export default function Button({
   onClick,
   type = "button", // domyślny typ przycisku
 }) {
-  const classes = `${textColor} md:text-lg rounded-2xl font-medium whitespace-nowrap flex justify-center items-center gap-2 p-4 clip-custom hover:clip-reverse ${bgColor} 
-    transition-all duration-300 transform hover:scale-105 hover:shadow-lg`;
+  const classes = `
+  ${textColor} 
+  md:text-lg 
+  rounded-2xl 
+  font-medium 
+  whitespace-nowrap 
+  inline-flex                /* ← KLUCZOWA ZMIANA */
+  justify-center 
+  items-center 
+  gap-2 
+  px-6 py-4                   /* lepiej używić px-/py- niż samego p-4 przy inline-flex */
+  clip-custom 
+  hover:clip-reverse 
+  ${bgColor} 
+  transition-all 
+  duration-300 
+  transform 
+  hover:scale-105 
+  hover:shadow-lg
+`;
 
   // 👉 jeśli jest link, renderujemy Link
   if (link) {

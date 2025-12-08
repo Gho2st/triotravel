@@ -71,13 +71,13 @@ export default function Map() {
           </div>
         </div>
       </section>
-      <div className="">
+      {/* <div className="">
         <iframe
           src="https://www.google.com/maps/d/u/0/embed?mid=10xF1NK7XYLSKAPftKi0IQ6fYeM3jtdVR"
           width="100%"
           height="600"
         ></iframe>
-      </div>
+      </div> */}
     </>
   );
 }

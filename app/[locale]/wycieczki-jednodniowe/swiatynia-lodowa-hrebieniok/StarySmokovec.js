@@ -1,8 +1,8 @@
-import { Mountain, Trees, Info, Eye, MapPin } from "lucide-react";
+import { Mountain, Timer, Bed, Check } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function SciezkaWBachledce({ t }) {
+export default function StarySmokovec({ t }) {
   return (
     <div className="py-4 md:py-10 my-16 bg-gray-50">
       <div className=" mx-auto px-4 md:px-10 grid lg:grid-cols-2 gap-10 items-center">
@@ -21,13 +21,13 @@ export default function SciezkaWBachledce({ t }) {
               {t("offer.1.list.1")}
             </li>
             <li className="flex items-center gap-2">
-              <Trees className="text-green-600 w-5 h-5" /> {t("offer.1.list.2")}
+              <Timer className="text-green-600 w-5 h-5" /> {t("offer.1.list.2")}
             </li>
             <li className="flex items-center gap-2">
-              <Eye className="text-yellow-500 w-5 h-5" /> {t("offer.1.list.3")}
+              <Bed className="text-yellow-500 w-5 h-5" /> {t("offer.1.list.3")}
             </li>
             <li className="flex items-center gap-2">
-              <Info className="text-blue-500 w-5 h-5" /> {t("offer.1.list.4")}
+              <Check className="text-blue-500 w-5 h-5" /> {t("offer.1.list.4")}
             </li>
           </ul>
 
@@ -51,15 +51,12 @@ export default function SciezkaWBachledce({ t }) {
         {/* Zdjęcie */}
         <div className="relative order-1 lg:order-2 rounded-2xl overflow-hidden shadow-lg">
           <Image
-            src="/wycieczki/spacer-w-koronach-drzew/zima/6.webp"
-            alt={t("alt.6")}
+            src="/wycieczki/swiatynia-lodowa-hrebieniok/4.webp"
+            alt={t("alt.5")}
             className="w-full h-full object-cover"
             width={100}
             height={100}
           />
-          <span className="absolute bottom-4 left-4 bg-black/60 text-white px-3 py-1 rounded-lg text-sm flex items-center gap-2">
-            <MapPin className="w-4 h-4" /> Bachledova Dolina, Słowacja
-          </span>
         </div>
       </div>
     </div>

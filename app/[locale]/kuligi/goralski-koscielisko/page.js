@@ -8,6 +8,7 @@ import CheckList from "@/app/UI/CheckList";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import CtaLink from "@/app/UI/CtaLink";
+import FAQSection from "@/app/UI/Trips/Faq";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -36,6 +37,14 @@ export async function generateMetadata({ params }) {
 export default function Koscielisko() {
   const t = useTranslations("kuligi.koscielisko");
   const a = useTranslations("kuligi.alt");
+  const f = useTranslations("kuligi.koscielisko.faq");
+
+  const faqData = {
+    header: f("header"),
+    text: f.raw("text"),
+    list: f.raw("list"),
+  };
+
   const tableHeaders = [t("table.header1"), t("table.header2")];
 
   const tableRows = [
@@ -98,12 +107,15 @@ export default function Koscielisko() {
           </h3>
 
           <h4 className="mb-10 text-lg font-medium">
-            {t("header4")} 2024/2025
+            {t("header4")} 2025/2026
           </h4>
 
           <Table headers={tableHeaders} rows={tableRows} />
 
           <CheckList title={t("table.header3")} items={checkItems} />
+          <div className="mt-10">
+            <FAQSection faq={faqData} />
+          </div>
         </div>
       </section>
 
