@@ -29,7 +29,7 @@ export default function About() {
       <div className="flex flex-col-reverse lg:flex-row gap-10 xl:gap-20 mt-16 md:mt-20">
         <div className="lg:w-1/2">
           <Image
-            src={"/kuligi/photos/4.webp"}
+            src={"/kuligi/koscielisko/4.webp"}
             width={100}
             height={100}
             layout="responsive"
