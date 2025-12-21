@@ -244,7 +244,7 @@ export default function Atrakcje() {
       title: k("cards.2.header"),
       p: k("cards.2.text"),
       image: "/kuligi/dolina.webp",
-      link: "/transport/nad-morskie-oko",
+      link: "/kuligi/dolina-chocholowska",
     },
   ];
 
