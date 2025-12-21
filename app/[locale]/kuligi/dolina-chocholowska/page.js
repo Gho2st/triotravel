@@ -120,11 +120,12 @@ export default function Dolina() {
       </section>
       <Gallery
         images={[
-          { url: "/kuligi/photos/1.webp", alt: a("1") },
-          { url: "/kuligi/photos/2.webp", alt: a("2") },
-          { url: "/kuligi/photos/3.webp", alt: a("3") },
-          { url: "/kuligi/photos/4.webp", alt: a("4") },
-          { url: "/kuligi/photos/5.webp", alt: a("5") },
+          { url: "/kuligi/dolina-chocholowska/1.webp", alt: a("1") },
+          { url: "/kuligi/dolina-chocholowska/2.webp", alt: a("2") },
+          { url: "/kuligi/dolina-chocholowska/3.webp", alt: a("3") },
+          { url: "/kuligi/dolina-chocholowska/4.webp", alt: a("4") },
+          { url: "/kuligi/dolina-chocholowska/5.webp", alt: a("5") },
+          { url: "/kuligi/dolina-chocholowska/6.webp", alt: a("5") },
         ]}
       />
       <CtaLink />

@@ -121,11 +121,11 @@ export default function Koscielisko() {
 
       <Gallery
         images={[
-          { url: "/kuligi/photos/1.webp", alt: a("1") },
-          { url: "/kuligi/photos/2.webp", alt: a("2") },
-          { url: "/kuligi/photos/3.webp", alt: a("3") },
-          { url: "/kuligi/photos/4.webp", alt: a("4") },
-          { url: "/kuligi/photos/5.webp", alt: a("5") },
+          { url: "/kuligi/koscielisko/1.webp", alt: a("1") },
+          { url: "/kuligi/koscielisko/2.webp", alt: a("2") },
+          { url: "/kuligi/koscielisko/3.webp", alt: a("3") },
+          { url: "/kuligi/koscielisko/4.webp", alt: a("4") },
+          { url: "/kuligi/koscielisko/5.webp", alt: a("5") },
         ]}
       />
       <CtaLink />
