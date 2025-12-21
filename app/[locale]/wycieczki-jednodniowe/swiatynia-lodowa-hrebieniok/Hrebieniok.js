@@ -9,8 +9,8 @@ export default function Hrebieniok({ t }) {
         {/* Zdjęcie */}
         <div className="relative rounded-2xl overflow-hidden shadow-lg">
           <Image
-            src="/wycieczki/swiatynia-lodowa-hrebieniok/5.webp"
-            alt={t("alt.6")}
+            src="/wycieczki/swiatynia-lodowa-hrebieniok/6.webp"
+            alt={t("alt.7")}
             className="w-full h-full object-cover"
             width={100}
             height={100}

@@ -52,7 +52,7 @@ export default function Spacer() {
     "13:00 - " + t("tripprogram.5"),
     "15:30 - " + t("tripprogram.6"),
     "16:00 - " + t("tripprogram.7"),
-    "17:00 - " + t("tripprogram.8"),
+    "16:30 - " + t("tripprogram.8"),
   ];
 
   // Przykładowe dane dla tabeli

@@ -51,7 +51,7 @@ export default function SciezkaWBachledce({ t }) {
         {/* Zdjęcie */}
         <div className="relative order-1 lg:order-2 rounded-2xl overflow-hidden shadow-lg">
           <Image
-            src="/wycieczki/spacer-w-koronach-drzew/zima/6.webp"
+            src="/wycieczki/spacer-w-koronach-drzew/zima/2.webp"
             alt={t("alt.6")}
             className="w-full h-full object-cover"
             width={100}
