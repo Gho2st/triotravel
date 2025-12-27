@@ -104,7 +104,11 @@ export default function Spacer() {
               })
             )}
           />
-          <TripProgram title={t("tripprogram.header")} items={tripItems} />
+          <TripProgram
+            title={t("tripprogram.header")}
+            items={tripItems}
+            info={t("tripprogram.info")}
+          />
           <TripTime />
           <ButtonComponent />
         </div>

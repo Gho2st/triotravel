@@ -1,6 +1,6 @@
 import { FaCheck } from "react-icons/fa";
 
-export default function TripProgram({ items, title }) {
+export default function TripProgram({ items, title, info }) {
   return (
     <div>
       <h3 className="text-2xl xl:text-3xl text-center text-customBlue font-bold mt-16 mb-10 ">
@@ -13,6 +13,7 @@ export default function TripProgram({ items, title }) {
             <span>{item}</span>
           </li>
         ))}
+        {info && <li className="text-sm text-gray-500">{info}</li>}
       </ul>
     </div>
   );

@@ -220,7 +220,7 @@ export default function Offer() {
                 <div className="relative w-full h-[300px] md:h-[380px] 2xl:h-[420px] overflow-hidden">
                   <Image
                     src={item.url}
-                    alt={item.alt}
+                    alt={item.alt || "triotravel"}
                     fill
                     priority={idx < 3}
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
