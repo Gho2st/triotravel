@@ -1411,7 +1411,7 @@
             "header3": "Szánkózásunk programjában kínáljuk",
             "header4": "Árak a téli szezonban",
             "list": {
-                "1": "Felvétel a szálláshelyről Zakopane város és Kościelisko község területén (egyéb helyszínek egyeztetés alapján)",
+                "1": "Átvétel a lakóhelyről a Nędzy Kubińca utca mentén Kościelisko falu és Zakopane város területén (egyéb helyszínek egyeztetés szerint)",
                 "2": "Fáklyás szánkózás Kościeliskóban.",
                 "3": "A szánkózás után finom vendéglátásra invitálunk, beleértve: sült kolbászt és hagyományos vagy hegyi teát",
                 "4": "A lakoma tábortűz mellett, gyönyörű hegyi környezetben kerül megrendezésre.",
@@ -1724,7 +1724,7 @@
         "header": "Megállóhelyek Térképe",
         "header2": "Találkozási Helyek - Felvételi pontok Zakopane és környékén",
         "header3": "Miért érdemes választani a felvételi pontjainkat?",
-        "text": "A Trio Travelnél törődünk a kényelmeddel, ezért kényelmes felvételi pontokat kínálunk Zakopane és környéke területén. Megállóhelyeink térképe magában foglalja Zakopane központját és a közeli településeket, mint például Kościelisko, Białka Tatrzańska, Bukowina vagy Poronin.",
+        "text": "A Trio Travelnél fontos számunkra a kényelmed, ezért kényelmes átvételi pontokat kínálunk Zakopane területén és környékén. Megállóink térképe magában foglalja Zakopane központját és Kościelisko községet (egyéb helyszínek egyeztetés szerint).",
         "text2": "Nézd meg térképünket, és válassz egy felvételi pontot a szálláshelyed közelében – a népszerű zakopanei helyszínektől a Tátrai Nemzeti Park bájos környékén át a régió festői falvaiig.",
         "list": {
             "1": "Széles lefedettség: Számos helyről felvesszük Zakopane és környékén.",
@@ -1805,7 +1805,7 @@
         },
         "mapa-przystankow": {
             "title": "Zakopanei Megállóhelyek Térképe - Trio Travel Felvételi Pontok",
-            "description": "Nézd meg a Trio Travel megállóhelyeinek térképét Zakopanéban és környékén! Kényelmes felvételi pontok a központban, Kościeliskóban, Białka Tatrzańskában. Foglalj szállítást!"
+            "description": "Nézd meg a Trio Travel megállóinak térképét Zakopanéban és környékén! Kényelmes átvételi pontok a város központjában és Kościelisko községben. Foglalj szállítást!"
         },
         "partners": {
             "title": "Partnereink Zakopanéban - Trio Travel Együttműködés",

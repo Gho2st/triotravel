@@ -1414,7 +1414,7 @@
             "header3": "W programie naszego kuligu oferujemy",
             "header4": "Ceny w sezonie zimowym",
             "list": {
-                "1": "Odbiór z miejsca zamieszkania na terenie miasta Zakopane i gminy Kościelisko (pozostałe lokalizacje do uzgodnienia)",
+                "1": "Odbiór z miejsca zamieszkania wzdluż ul. Nędzy Kubińca na terenie Wsi Kościelisko i Miasta Zakopane (pozostałe lokalizacje do uzgodnienia)",
                 "2": "Kulig z pochodniami w Kościelisku.",
                 "3": "Po kuligu zapraszamy na smaczny poczęstunek, w tym: pieczoną kiełbasę oraz herbatę zwykłą bądź góralską",
                 "4": "Biesiada wraz z ogniskiem przygotowana będzie w pięknej górskiej scenerii.",
@@ -1808,7 +1808,7 @@
         },
         "mapa-przystankow": {
             "title": "Mapa Przystanków Zakopane - Trio Travel Punkty Odbioru",
-            "description": "Sprawdź mapę przystanków Trio Travel w Zakopanem i okolicach! Wygodne punkty odbioru w centrum, Kościelisku, Białce Tatrzańskiej. Zarezerwuj transport!"
+            "description": "Sprawdź mapę przystanków Trio Travel w Zakopanem i okolicach! Wygodne punkty odbioru w centrum miasta i gminie Kościelisko. Zarezerwuj transport!"
         },
         "partners": {
             "title": "Nasi Partnerzy Zakopane - Trio Travel Współpraca",
