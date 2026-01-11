@@ -31,7 +31,7 @@ export default function Hero() {
       // },
 
       {
-        background: "/kuligi/photos/1.webp",
+        background: "/kuligi/sylwestrowy2.webp",
         translationKey: "headers.header13", // kuligi zimowe
         link: "/kuligi",
       },

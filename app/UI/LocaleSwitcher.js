@@ -5,7 +5,6 @@ import dynamic from "next/dynamic";
 import { routing, usePathname, useRouter } from "@/i18n/routing";
 import { useLocale } from "next-intl";
 
-// Dynamic import - SSR off to prevent hydration mismatch
 const ReactCountryFlag = dynamic(() => import("react-country-flag"), {
   ssr: false,
 });
@@ -26,6 +25,8 @@ export default function LocaleSwitcher() {
     en: "GB",
     ar: "SA",
     hu: "HU",
+    es: "ES",
+    de: "DE",
   };
 
   return (
