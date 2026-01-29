@@ -13,10 +13,10 @@ export default function KasprowyComponent() {
     t("table.header3"),
   ];
   const tableRows = [
-    [t("table.1"), "140 PLN", "120 PLN"],
-    [t("table.2"), "130 PLN", "100 PLN"],
-    [t("table.3"), "160 PLN", "140 PLN"],
-    [t("table.4"), "140 PLN", "120 PLN"],
+    [t("table.1"), "140 PLN", "150 PLN"],
+    [t("table.2"), "130 PLN", "130 PLN"],
+    [t("table.3"), "160 PLN", "170 PLN"],
+    [t("table.4"), "140 PLN", "150 PLN"],
   ];
 
   // Stany dla sekcji
