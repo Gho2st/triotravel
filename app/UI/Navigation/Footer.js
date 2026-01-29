@@ -116,7 +116,7 @@ export default function Footer() {
             <ul className="flex flex-col gap-4">
               <li className="flex justify-center xl:justify-start gap-2 md:gap-4 items-center">
                 <FaPhoneAlt className="text-2xl" />
-                <Link className="underline" href={"tel:48881201205"}>
+                <Link className="underline" href={"tel:+48881201205"}>
                   +48 881 201 205{" "}
                 </Link>
               </li>
