@@ -71,7 +71,7 @@ export default function PromoModal() {
               width={500}
               height={400}
               priority
-              className="w-full h-auto max-h-[30vh] sm:max-h-none object-cover rounded-2xl shadow-inner border-2 border-rose-100"
+              className="w-full h-auto max-h-[30vh] object-cover rounded-2xl shadow-inner border-2 border-rose-100"
             />
           </div>
 

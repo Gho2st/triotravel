@@ -64,7 +64,7 @@ export default function Kuligi() {
             <span className="font-bold">TrioTravel</span> {t("text")}
           </p>
         </div>
-        <div className="grid md:grid-cols-3 gap-10 lg:gap-12 mt-20  mx-auto px-4">
+        <div className="grid md:grid-cols-3 gap-10 lg:gap-12 mt-10 xl:mt-20  mx-auto">
           {articles.map((article, index) => (
             <Card key={index} article={article} />
           ))}
