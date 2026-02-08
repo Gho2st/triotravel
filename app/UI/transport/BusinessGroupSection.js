@@ -8,7 +8,7 @@ export default function BusinessGroupsSection({ t }) {
         <h2 className="text-3xl  xl:text-4xl 2xl:text-5xl leading-snug font-semibold mb-10 text-gray-900">
           {t("business.header")}
         </h2>
-        <p className="text-gray-600 max-w-2xl text-xl mt-6 mx-auto">
+        <p className="text-gray-600 max-w-2xl xl:text-xl mt-6 mx-auto">
           {t("business.text")}
         </p>
       </div>

@@ -27,7 +27,7 @@ export default function ButtonComponent() {
       </div>
       {activeSection === "warunki" && (
         <div className="text-center mt-10 md:w-3/4 mx-auto">
-          <p className="text-lg mt-10">{t("tripprogram.text2")}</p>
+          <p className="xl:text-lg mt-10">{t("tripprogram.text2")}</p>
         </div>
       )}
     </>

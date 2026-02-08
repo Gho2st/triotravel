@@ -34,8 +34,8 @@ export default function Atrakcje() {
 
   const faqData = {
     header: f("header"),
-    text: f.raw("text"), // raw działa też po server-side
-    list: f.raw("list"), // cały obiekt { "1": { header, text }, "2": ... }
+    text: f.raw("text"),
+    list: f.raw("list"),
   };
 
   const isWinter = true;
@@ -253,11 +253,11 @@ export default function Atrakcje() {
   return (
     <>
       {isWinter ? (
-        <div className="px-6 bg-gradient-to-r from-blue-900 via-blue-700 to-cyan-600 text-white py-20 text-center">
-          <h1 className="text-4xl md:text-5xl 2xl:text-6xl font-bold">
+        <div className="px-6 bg-gradient-to-r from-blue-900 via-blue-700 to-cyan-600 text-white py-10 xl:py-20 text-center">
+          <h1 className="text-3xl md:text-5xl 2xl:text-6xl font-bold">
             {t("trips.winterHeader")}
           </h1>
-          <p className="text-xl md:text-2xl mt-4 opacity-90">
+          <p className="text-lg md:text-2xl mt-4 opacity-90">
             {t("trips.winterText")}
           </p>
         </div>
@@ -268,7 +268,7 @@ export default function Atrakcje() {
       <section className="px-6 md:px-20 2xl:px-32 py-16 md:py-20 2xl:py-24">
         <HowItWorks />
 
-        <p className="mt-10 2xl:my-24 mb-16 text-center text-xl 2xl:max-w-3/4 2xl:mx-auto">
+        <p className="2xl:my-24 mb-16 text-center xl:text-xl 2xl:max-w-3/4 2xl:mx-auto">
           {t.rich("text2", {
             strong: (chunks) => <strong>{chunks}</strong>,
           })}

@@ -164,14 +164,14 @@ export default function Nav() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: "-100%" }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="fixed inset-0 z-20 bg-gradient-to-b from-white to-gray-50 text-black overflow-y-auto mt-24 shadow-xl"
+            className="fixed inset-0 z-20 bg-gradient-to-b from-white to-gray-50 text-black overflow-y-auto mt-20 shadow-xl"
           >
             <div className="container mx-auto">
               <ul className="pt-10 px-6 pb-8 flex flex-col text-base font-semibold min-h-screen gap-2">
                 <li>
                   <Link
                     href="/wycieczki-jednodniowe"
-                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
+                    className="block border-b border-gray-200 py-2 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
                     {t("links.link1")}
@@ -180,7 +180,7 @@ export default function Nav() {
                 <li>
                   <Link
                     href="/kuligi"
-                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
+                    className="block border-b border-gray-200 py-2 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
                     {t("links.link2")}
@@ -189,7 +189,7 @@ export default function Nav() {
                 <li>
                   <Link
                     href="/bilety-na-kasprowy-wierch"
-                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
+                    className="block border-b border-gray-200 py-2 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
                     {t("links.link3")}
@@ -198,7 +198,7 @@ export default function Nav() {
                 <li>
                   <Link
                     href="/transport"
-                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
+                    className="block border-b border-gray-200 py-2 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
                     {t("links.link4")}
@@ -207,7 +207,7 @@ export default function Nav() {
                 <li>
                   <Link
                     href="/partnerzy"
-                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
+                    className="block border-b border-gray-200 py-2 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
                     {t("links.link5")}
@@ -216,7 +216,7 @@ export default function Nav() {
                 <li>
                   <Link
                     href="/blog"
-                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
+                    className="block border-b border-gray-200 py-2 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
                     {t("links.link8")}
@@ -225,7 +225,7 @@ export default function Nav() {
                 <li>
                   <Link
                     href="/oferta"
-                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
+                    className="block border-b border-gray-200 py-2 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
                     {t("links.link7")}
@@ -234,13 +234,13 @@ export default function Nav() {
                 <li>
                   <Link
                     href="/kontakt"
-                    className="block border-b border-gray-200 py-4 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
+                    className="block border-b border-gray-200 py-2 px-4 rounded-lg hover:bg-customBlue hover:text-red-500 transition-colors duration-200"
                     onClick={handleMenuToggle}
                   >
                     {t("links.link6")}
                   </Link>
                 </li>
-                <li className="mt-6">
+                <li className="mt-4">
                   <Button
                     onClick={handleMenuToggle}
                     text={t("button")}

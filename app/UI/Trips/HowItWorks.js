@@ -12,7 +12,7 @@ export default function HowItWorks() {
         {t("text")}
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8 my-16 mb-20 xl:mb-24 text-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8 my-8 xl:my-16 mb-20 xl:mb-24 text-center">
         <div className="bg-white shadow-xl p-8 rounded-2xl">
           <div className="text-4xl mb-4">1️⃣</div>
           <h3 className="text-xl 2xl:text-2xl font-semibold mb-3">{t("cards.1.header")}</h3>

@@ -2,7 +2,7 @@
 import { useTranslations } from "next-intl";
 
 export default function TripTime({
-  availableDays = ["Pon", "Wt", "Śr", "Czw", "Pt", "Sob", "Nd"], // Domyślne dni w polskim formacie
+  availableDays = ["Pon", "Wt", "Śr", "Czw", "Pt", "Sob", "Nd"],
   showCallInfo = false,
   isKasprowy = false,
   details = false,
@@ -12,7 +12,6 @@ export default function TripTime({
   const shortDays = t.raw("days");
   const fullDays = t.raw("fullDays");
 
-  // Mapowania dni między językami (polski jako punkt odniesienia)
   const dayTranslations = {
     pl: {
       Pon: "Pon",
@@ -31,6 +30,24 @@ export default function TripTime({
       Pt: "Fri",
       Sob: "Sat",
       Nd: "Sun",
+    },
+    de: {
+      Pon: "Mo",
+      Wt: "Di",
+      Śr: "Mi",
+      Czw: "Do",
+      Pt: "Fr",
+      Sob: "Sa",
+      Nd: "So",
+    },
+    es: {
+      Pon: "Lun",
+      Wt: "Mar",
+      Śr: "Mié",
+      Czw: "Jue",
+      Pt: "Vie",
+      Sob: "Sáb",
+      Nd: "Dom",
     },
     ar: {
       Pon: "الإثنين",
@@ -52,83 +69,87 @@ export default function TripTime({
     },
   };
 
-  // Określ język na podstawie shortDays
   const currentLocale = shortDays.includes("Mon")
     ? "en"
-    : shortDays.includes("الإثنين")
-    ? "ar"
-    : shortDays.includes("H")
-    ? "hu"
-    : "pl";
+    : shortDays.includes("Mo")
+      ? "de"
+      : shortDays.includes("Lun")
+        ? "es"
+        : shortDays.includes("الإثنين")
+          ? "ar"
+          : shortDays.includes("H")
+            ? "hu"
+            : "pl";
 
-  // Normalizuj availableDays do bieżącego języka
   const normalizedAvailableDays = availableDays.map((day) => {
     const polishDays = Object.keys(dayTranslations.pl);
     if (polishDays.includes(day)) {
       return dayTranslations[currentLocale][day] || day;
     }
-    // Jeśli dzień nie jest w polskim formacie, spróbuj odwrotnego mapowania
-    const reverseMap = Object.entries(dayTranslations[currentLocale]).find(
-      ([, value]) => value === day
-    );
-    return reverseMap ? reverseMap[1] : day;
+    return day;
   });
 
-  // Mapowanie skróconych dni na pełne
   const mappedAvailableDays = normalizedAvailableDays.map((short) => {
     const index = shortDays.indexOf(short);
     return index !== -1 ? fullDays[index] : short;
   });
 
   const getDescription = () => {
-    if (isKasprowy) {
-      return t("kasprowyDaily");
-    } else if (normalizedAvailableDays.length === 7) {
-      return t("daily");
-    } else if (normalizedAvailableDays.length > 0) {
-      return t("specificDays", { days: mappedAvailableDays.join(", ") });
-    } else {
-      return t("noDays");
-    }
+    if (isKasprowy) return t("kasprowyDaily");
+    if (normalizedAvailableDays.length === 7) return t("daily");
+    return normalizedAvailableDays.length > 0
+      ? t("specificDays", { days: mappedAvailableDays.join(", ") })
+      : t("noDays");
   };
-
-  // Ustaw kierunek tekstu dla arabskiego (RTL)
-  const isRTL = currentLocale === "ar";
 
   return (
     <section
-      className="py-12 px-2 sm:px-6 lg:px-8 text-center bg-gray-50 rounded-lg mt-16"
-      dir={isRTL ? "rtl" : "ltr"}
+      className="py-10 md:py-16 px-4 text-center bg-gray-50 rounded-3xl mt-12 md:mt-16"
+      dir={currentLocale === "ar" ? "rtl" : "ltr"}
     >
-      <h2 className="text-3xl font-bold text-customBlue mb-6 sm:mb-8">
+      <h2 className="text-xl md:text-3xl font-bold text-customBlue mb-8">
         {t("title")}
       </h2>
 
-      <div className="flex justify-center gap-1 sm:gap-4 mb-6">
-        {shortDays.map((day, i) => (
-          <div
-            key={day}
-            className={`w-12 h-12 flex items-center justify-center rounded-full text-sm sm:text-lg font-semibold transition-colors duration-200 ${
-              normalizedAvailableDays.includes(day)
-                ? "bg-customBlue text-white"
-                : "bg-gray-200 text-gray-500"
-            }`}
-            title={fullDays[i]}
-          >
-            {day}
-          </div>
-        ))}
+      {/* Poprawiony kontener: elastyczny flex, który nie wymusza sztywnego gridu */}
+      <div className="flex flex-wrap justify-center gap-2 md:gap-4 mb-10 max-w-full mx-auto">
+        {shortDays.map((day, i) => {
+          const isActive = normalizedAvailableDays.includes(day);
+          return (
+            <div
+              key={day}
+              className={`
+                /* Dynamiczna wielkość: od 38px na bardzo małych do 48px na desktopie */
+                w-[38px] h-[38px] xs:w-[42px] xs:h-[42px] sm:w-12 sm:h-12 
+                flex items-center justify-center 
+                rounded-xl sm:rounded-full /* Bardziej nowoczesny look z lekkim zaokrągleniem na mobile */
+                text-[10px] xs:text-[11px] sm:text-base font-bold 
+                transition-all duration-300 border-2
+                ${
+                  isActive
+                    ? "bg-customBlue border-customBlue text-white shadow-lg scale-110"
+                    : "bg-white border-gray-100 text-gray-300"
+                }
+              `}
+              title={fullDays[i]}
+            >
+              {day}
+            </div>
+          );
+        })}
       </div>
 
-      <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed mt-6">
-        {getDescription()}
-      </p>
+      <div className="max-w-2xl mx-auto px-2">
+        <p className="text-base md:text-xl text-gray-700 font-medium leading-relaxed">
+          {getDescription()}
+        </p>
 
-      {showCallInfo && (
-        <p className="text-gray-500 italic mt-10">{t("call")}</p>
-      )}
-
-      {details && <p className="text-gray-500 italic mt-6">{details}</p>}
+        {showCallInfo && (
+          <p className="text-xs md:text-base text-gray-400 italic mt-8 border-t border-gray-100 pt-6">
+            {t("call")}
+          </p>
+        )}
+      </div>
     </section>
   );
 }
