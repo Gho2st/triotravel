@@ -66,10 +66,10 @@ export default function Nav() {
         {/* Prawa strona: Nawigacja, LocaleSwitcher, Hamburger */}
         <div className="flex items-center gap-6">
           {/* Desktop Navigation */}
-          <ul className="font-medium hidden items-center text-lg  xl:flex xl:gap-2 2xl:gap-6 ">
+          <ul className="font-medium hidden items-center xl:text-lg xl:flex xl:gap-2 2xl:gap-6 ">
             <li className="">
               <Link
-                className="px-3 hover:text-red-500 duration-300"
+                className="px-2 hover:text-red-500 duration-300"
                 href={"/wycieczki-jednodniowe"}
               >
                 {t("links.link1")}
@@ -77,7 +77,7 @@ export default function Nav() {
             </li>
             <li>
               <Link
-                className="px-3 hover:text-red-500 duration-300"
+                className="px-2 hover:text-red-500 duration-300"
                 href={"/kuligi"}
               >
                 {t("links.link2")}
@@ -85,7 +85,7 @@ export default function Nav() {
             </li>
             <li>
               <Link
-                className="px-3 hover:text-red-500 duration-300"
+                className="px-2 hover:text-red-500 duration-300"
                 href={"/bilety-na-kasprowy-wierch"}
               >
                 {t("links.link3")}
@@ -93,7 +93,7 @@ export default function Nav() {
             </li>
             <li>
               <Link
-                className="px-3 hover:text-red-500 duration-300"
+                className="px-2 hover:text-red-500 duration-300"
                 href={"/transport"}
               >
                 {t("links.link4")}
@@ -101,7 +101,7 @@ export default function Nav() {
             </li>
             <li>
               <Link
-                className="px-3 hover:text-red-500 duration-300"
+                className="px-2 hover:text-red-500 duration-300"
                 href={"/partnerzy"}
               >
                 {t("links.link5")}
@@ -109,7 +109,7 @@ export default function Nav() {
             </li>
             <li>
               <Link
-                className="px-3 hover:text-red-500 duration-300"
+                className="px-2 hover:text-red-500 duration-300"
                 href={"/blog"}
               >
                 {t("links.link8")}
@@ -117,7 +117,7 @@ export default function Nav() {
             </li>
             <li>
               <Link
-                className="px-3 hover:text-red-500 duration-300"
+                className="px-2 hover:text-red-500 duration-300"
                 href={"/oferta"}
               >
                 {t("links.link7")}
@@ -125,7 +125,7 @@ export default function Nav() {
             </li>
             <li>
               <Link
-                className="px-3 hover:text-red-500 duration-300"
+                className="px-2 hover:text-red-500 duration-300"
                 href={"/kontakt"}
               >
                 {t("links.link6")}
