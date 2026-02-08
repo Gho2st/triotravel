@@ -36,7 +36,7 @@ export default function Blog({ locale }) {
   const filteredPosts = mergedPosts.filter(
     (post) =>
       post.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      post.subtitle.toLowerCase().includes(searchTerm.toLowerCase())
+      post.subtitle.toLowerCase().includes(searchTerm.toLowerCase()),
   );
 
   // 🔹 Paginacja
@@ -45,7 +45,17 @@ export default function Blog({ locale }) {
   const currentPosts = filteredPosts.slice(indexOfFirstPost, indexOfLastPost);
   const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
 
+  // Dodaj ten ref na górze obok innych refów
+  const isFirstRender = useRef(true);
+
   useEffect(() => {
+    // Jeśli to pierwsze wejście na stronę, nie przewijaj
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
+
+    // Przewijaj tylko przy zmianie strony (np. kliknięcie paginacji)
     if (articlesRef.current) {
       articlesRef.current.scrollIntoView({ behavior: "smooth" });
     }

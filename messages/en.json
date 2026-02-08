@@ -165,6 +165,7 @@
         "trips": {
             "header": "Day trips from Zakopane – Summer",
             "winterHeader": "TrioTravel Winter Offer",
+            "winterHeader2": "Winter trips and attractions",
             "winterText": "Thermal baths, Ice Temple, Kasprowy Wierch, Treetop Walk and more – only in winter!",
             "polandHeader": "Polish day attractions from Zakopane",
             "foreignHeader": "International trips from Zakopane",
@@ -694,9 +695,10 @@
                     "4": "Year-round attraction: fairy-tale winter, lush green summer, golden autumn"
                 },
                 "list": {
-                    "1": "You will start your day in Zakopane, from where we travel comfortably to Bachledova Valley. There, a gondola lift will take us to the top of Spišská Magura in 7 minutes.",
-                    "2": "The Treetop Walk is over a kilometer of wooden walkway rising up to 24 meters above the ground, ending with a 32-meter observation tower. The route is accessible all year round and fully adapted for families with children and people with limited mobility. Along the walk, you’ll find viewing platforms, educational boards about Tatra nature, and a tube slide for older children.",
-                    "3": "After visiting Bachledka, we head to Štrbské Pleso – one of the most picturesque places in the High Tatras. Around 2 hours of free time will allow you to take a leisurely walk along the promenade, enjoy coffee in a charming café, or buy local souvenirs. No matter the season, the sight of mountains reflected in the lake’s surface is breathtaking."
+                    "1": "The Treetop Walk is a unique attraction that lets you admire nature from a completely different perspective. The wooden path leads high above the ground, among the tops of spruces and firs, offering unforgettable views of mountains and valleys. It is an ideal choice for families with children, couples, and everyone who values contact with nature in a peaceful, picturesque setting.",
+                    "2": "The route is accessible all year round and fully adapted for everyone – including people with disabilities and families with small children. You can reach the top by gondola lift, making it easy to get there without effort. Strollers are also available for rent on-site.",
+                    "3": "After visiting Bachledka, we head towards Štrbské Pleso (Lake Štrbské) – one of the most picturesque spots in the High Tatras. The crystal-clear water reflects the peaks, and the promenade around the lake (approx. 2.5 km) offers perfect conditions for a peaceful walk, coffee in a cozy café with a view, or souvenir shopping. In summer and autumn, you have about 2 hours of free time to relax and fully explore the area.",
+                    "4": "In winter, the lake is magical, but due to weather conditions (fog, strong wind, snowfall) and difficult access (icy roads, heavy traffic, limited parking) – free time may be shortened or, in case of very poor conditions, limited to a minimum or skipped. In such cases, we always stop at the best viewpoints in the area for photos and coffee, and spend more time in Bachledka (where it is always comfortable and safe) before returning to Zakopane earlier – for the comfort and safety of the group."
                 },
                 "table": {
                     "header1": "Ticket Type",
@@ -707,18 +709,18 @@
                     "text": "* Price includes: driver assistance during the trip, accident insurance, and transport from Zakopane"
                 },
                 "tripprogram": {
-                    "header": "Trip Program (approx. 8–9h):",
+                    "header": "Tour Program (approx. 8-9h):",
                     "1": "Transfer from Zakopane",
-                    "2": "Gondola lift ride to the top of Spišská Magura",
-                    "3": "Walk along the Treetop Walk",
-                    "4": "Descent by gondola",
-                    "5": "Transfer to Štrbské Pleso (2 hours free time)",
+                    "2": "Gondola lift ride to the top of Magura Spiska",
+                    "3": "Treetop Walk",
+                    "4": "Ride back down by gondola",
+                    "5": "Transfer to Štrbské Pleso (free time approx. 2h – may be shorter in winter*)",
                     "6": "Departure to Zakopane",
-                    "7": "Return trip",
-                    "8": "Planned arrival",
-                    "info": "*In the event of very high tourist attendance, adverse weather conditions, or heavy traffic – the visit to Štrbské Pleso may be shortened or completely omitted (with extended time in Bachledova Valley and an earlier return for the comfort of the group).",
-                    "button": "Terms of Participation",
-                    "text2": "Each participant must have a valid passport or ID card. In case of bad weather or unsuitable trail conditions, we reserve the right to change the trip route or sightseeing order. The trip may be canceled due to insufficient participants, no later than 1 day before departure by 9:00 PM. The trip takes place outside the borders of Poland. All sanitary and epidemiological requirements applicable in the destination country – Slovakia – must be met."
+                    "7": "Return journey",
+                    "8": "Planned return",
+                    "info": "*In case of unfavorable weather, difficult road conditions, or heavy traffic, the visit to Štrbské Pleso may be shortened or skipped (with extended time in Bachledka and an earlier return for the group's comfort)",
+                    "button": "Terms & Conditions",
+                    "text2": "Every participant must have a valid passport or ID card. In case of bad weather or unsuitable trail conditions, we reserve the right to change the route or the order of sightseeing. Cancellation due to insufficient participants may occur no later than 9:00 PM the day before the tour. The trip takes place outside Poland. All sanitary and epidemiological requirements of the destination country (Slovakia) must be met."
                 }
             },
             "jaskinia-bielanska": {
@@ -1368,6 +1370,10 @@
             "3": {
                 "header": "New Year’s Eve Sleigh Ride",
                 "text": "Ring in the New Year in style – a night sleigh ride, bonfire, festive dinner and unforgettable memories!"
+            },
+            "4": {
+                "header": "Valentine's Sleigh Ride",
+                "text": "Spend a magical evening for two – an atmospheric torch-lit sleigh ride, a romantic bonfire with mulled wine, and a highlander band playing for lovers!"
             }
         },
         "whysleighrides": {
@@ -1479,6 +1485,69 @@
                     "12": {
                         "header": "How can I contact TrioTravel if I have more questions?",
                         "text": "For any questions or concerns, please contact us directly: Phone: 881 201 205 | E-mail: biuro@triotravel.eu | In person at our offices: ul. Kościuszki 23a, ul. Zamoyskiego 8 or ul. Piłsudskiego 69a."
+                    }
+                }
+            }
+        },
+        "valentine": {
+            "header": "Romantic Valentine's Sleigh Ride in Koscielisko",
+            "header2": "Unique moments for two",
+            "header3": "During the Valentine's evening program, we offer",
+            "header4": "Prices for a romantic adventure",
+            "list": {
+                "1": "Comfortable pickup from your accommodation in Koscielisko or Zakopane.",
+                "2": "Atmospheric torch-lit sleigh ride under the starry Tatra sky.",
+                "3": "Regional refreshments by the fire: aromatic sausage, highlander tea, or hot mulled wine.",
+                "4": "Highlander feast in a romantic atmosphere with live folk music.",
+                "5": "Unforgettable photo session in the winter scenery of Koscielisko."
+            },
+            "text": "Looking for an unforgettable Valentine's Day idea? <strong>The Highlander Valentine's Sleigh Ride in Koscielisko</strong> is the perfect recipe for a romantic evening. A sleigh ride through snow-covered meadows, lit only by the glow of <strong>torches</strong>, creates an intimate and magical atmosphere. The <strong>approx. 1-hour</strong> trip is time just for you, away from the city bustle, surrounded by the majestic Tatras. After the ride, we invite you to a <strong>highlander feast by the bonfire</strong>, where you can enjoy regional food and warm up with <strong>mulled wine</strong> to the sounds of romantic folk music. It’s more than an attraction – it’s a memory that stays with you for years.",
+            "info": "Available Valentine's slots: 16:00, 17:00, 18:00, 19:00 (Transport provided 40 min before start)",
+            "table": {
+                "header1": "Ticket option",
+                "header2": "Valentine's Pricing 2026",
+                "3": "Regular ticket",
+                "4": "Reduced ticket (for families)",
+                "header3": "*The Valentine's package includes:",
+                "list": {
+                    "1": "Private door-to-door transport from Zakopane and Koscielisko",
+                    "2": "Magical sleigh ride by moonlight and torches",
+                    "3": "Bonfire feast in the heart of the mountains",
+                    "4": "Unlimited menu: sausage, lard, bigos, oscypek cheese, tea, and mulled wine",
+                    "5": "* In case of no snow, the date takes place in stylish horse-drawn carriages"
+                }
+            },
+            "faq": {
+                "header": "Questions about the Valentine's Sleigh Ride (FAQ)",
+                "text": "Planning <strong>Valentine's in the mountains?</strong> Check out the most common questions.",
+                "list": {
+                    "1": {
+                        "header": "How long is the event and is it romantic?",
+                        "text": "The whole experience lasts 2.5 to 3.5 hours. It starts with an atmospheric 1h sleigh ride, followed by an hour of feasting with a band. The torches and nature make it exceptionally romantic."
+                    },
+                    "2": {
+                        "header": "Can we bring children to the Valentine's ride?",
+                        "text": "Of course! Valentine's is a celebration of love in every form. Children are welcome – under 3 ride for free, and those 3-10 use reduced tickets."
+                    },
+                    "3": {
+                        "header": "What food is served during the feast?",
+                        "text": "We have prepared a rich menu: highlander bigos, sausages for roasting, oscypek with cranberries, and bread with lard. Hot tea and unlimited mulled wine are served."
+                    },
+                    "4": {
+                        "header": "Is mulled wine included in the price?",
+                        "text": "Yes, our mulled wine and highlander tea are available without limits during the bonfire feast."
+                    },
+                    "5": {
+                        "header": "How to prepare for a snowy date?",
+                        "text": "We provide warm blankets, but we recommend dressing in layers. Warm boots, hats, and gloves are essential for a perfect evening."
+                    },
+                    "6": {
+                        "header": "Is transport included?",
+                        "text": "Yes, we pick you up and drop you off at your accommodation so you can enjoy the wine and atmosphere freely."
+                    },
+                    "7": {
+                        "header": "How to book for Feb 14th?",
+                        "text": "Spots for Valentine's sell out fast! We recommend booking online or calling +48 881 201 205 a few days in advance."
                     }
                 }
             }
@@ -1781,6 +1850,10 @@
         "koscielisko": {
             "title": "Highland Sleigh Ride Kościelisko - Unforgettable Adventure with Trio Travel",
             "description": "Join us for a picturesque Highland Sleigh Ride in Kościelisko with Trio Travel! Enjoy a one-hour sleigh ride with torches, a bonfire, delicious snacks, and live highland music. Pickup from Zakopane and Kościelisko included. Tickets from 130 PLN. Book online and experience an unforgettable winter adventure in the Tatras!"
+        },
+        "walentynkowy": {
+            "title": "Romantic Valentine's Sleigh Ride in Koscielisko | Date in the Tatras",
+            "description": "Looking for Valentine's Day ideas? Join us for a magical sleigh ride for two in Koscielisko! Includes: starlit ride, bonfire, mulled wine, and live highlander music. Transport from Zakopane included. Book an unforgettable romantic evening!"
         },
         "dolina-chocholowska": {
             "title": "VIP Sleigh Ride Chochołowska Valley - Highland Adventure with Trio Travel",
@@ -2110,11 +2183,11 @@
         }
     },
     "promoModal": {
-        "header": "First Minute for Winter Sleigh Rides!",
-        "text": "Book winter sleigh rides early and travel cheaper!",
-        "text2": "Now the best prices for a winter adventure!",
-        "alt": "Horses with people and sleighs during a sleigh ride in Zakopane in a snowy winter setting",
-        "button": "Check the offer!"
+        "header": "Fall in Love with a Sleigh Ride!",
+        "text": "Looking for a unique Valentine's Day idea? Take your significant other on a magical sleigh ride under the stars.",
+        "text2": "Book a romantic sleigh ride with a bonfire and feel the magic of the Tatra Mountains!",
+        "alt": "A couple in love in a horse-drawn sleigh, surrounded by winter scenery and the glow of torches in Zakopane",
+        "button": "Book now!"
     },
     "blog": {
         "header": "Our Blog",

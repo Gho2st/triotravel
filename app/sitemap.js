@@ -59,6 +59,20 @@ export default function sitemap() {
       },
     },
     {
+      url: `${baseUrl}/kuligi/walentynkowy`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          pl: `${baseUrl}/kuligi/walentynkowy`,
+          en: `${baseUrl}/en/sleigh-rides/valentine`,
+          de: `${baseUrl}/de/schlittenfahrten/valentinstag`,
+          ar: `${baseUrl}/ar/zalajat/valentine`,
+          hu: `${baseUrl}/hu/szankozas/valentin-napi`,
+          es: `${baseUrl}/es/paseos-en-trineo/san-valentin`,
+        },
+      },
+    },
+    {
       url: `${baseUrl}/kuligi/dolina-chocholowska`,
       lastModified: new Date(),
       alternates: {

@@ -165,6 +165,7 @@
         "trips": {
             "header": "Napkirándulások Zakopanéból – Nyár",
             "winterHeader": "TrioTravel téli ajánlat",
+            "winterHeader2": "Téli kirándulások és látnivalók",
             "winterText": "Termálfürdők, Jégtemplom, Kasprowy-csúcs, Lombkorona-sétány és még sok más – csak télen!",
             "polandHeader": "Egynapos lengyel kirándulások Zakopanéból",
             "foreignHeader": "Külföldi kirándulások Zakopanéból",
@@ -699,9 +700,10 @@
                     "4": "Egész éves program: mesés tél, üde zöld nyár, arany ősz"
                 },
                 "list": {
-                    "1": "A napot Zakopanéban kezdjük, ahonnan kényelmes járművel indulunk a Bachledova-völgybe. Itt a kabinos felvonó 7 perc alatt felvisz minket a Szepesi-Magura csúcsára.",
-                    "2": "A Lombkorona-ösvény több mint egy kilométer hosszú fából készült sétány, amely akár 24 méterrel a föld felett vezet, végén egy 32 méteres kilátótoronnyal. Az ösvény egész évben látogatható, és teljesen alkalmas családoknak és mozgáskorlátozottaknak. Útközben kilátóteraszok, oktató táblák a tátrai természetről, valamint egy csőcsúszda várja a nagyobb gyerekeket.",
-                    "3": "A Bachledkai látogatás után a Csorba-tóhoz indulunk – a Magas-Tátra egyik legfestőibb helyére. Kb. 2 óra szabadidő áll rendelkezésre, hogy nyugodtan körbesétáld a sétányt, kávézz egy hangulatos kávézóban, vagy vásárolj helyi szuvenírt. Évszaktól függetlenül a hegyek látványa a tó tükrében lenyűgöző."
+                    "1": "A lombkorona tanösvény egyedülálló látnivaló, amely lehetővé teszi a természet megcsodálását egy teljesen új perspektívából. A fapadló magasan a föld felett, luc- és jegenyefenyők csúcsai között vezet, felejthetetlen kilátást nyújtva a hegyekre és völgyekre. Tökéletes választás családoknak, pároknak és a természet kedvelőinek.",
+                    "2": "Az útvonal egész évben látogatható és akadálymentesített – mozgássérültek és kisgyermekes családok számára is alkalmas. A csúcsra gondolás felvonóval lehet feljutni, így az út megerőltetés nélküli. A helyszínen babakocsi is bérelhető.",
+                    "3": "Bachledka után a Csorba-tóhoz (Štrbské Pleso) indulunk, amely a Magas-Tátra egyik legszebb helye. A kristálytiszta víztükörben visszatükröződnek a csúcsok, a tó körüli sétány (kb. 2,5 km) pedig ideális egy nyugodt sétához, egy kávéhoz vagy szuvenírvásárláshoz. Nyáron és ősszel kb. 2 óra szabadidő áll rendelkezésre.",
+                    "4": "Télen a tó varázslatos, de az időjárási körülmények (köd, erős szél, hóesés) és a nehézkes közlekedés (jeges utak, nagy forgalom) miatt a szabadidő lerövidülhet vagy elmaradhat. Ilyenkor a környék legjobb kilátópontjain állunk meg fotózni, több időt töltünk Bachledkában (ahol mindig kényelmes és biztonságos), és korábban indulunk vissza Zakopanéba a csoport kényelme és biztonsága érdekében."
                 },
                 "table": {
                     "header1": "Jegytípus",
@@ -712,18 +714,18 @@
                     "text": "* Az ár tartalmazza: sofőr kíséretét a kirándulás során, balesetbiztosítást és utazást Zakopanéból"
                 },
                 "tripprogram": {
-                    "header": "Kirándulás programja (kb. 8–9 óra):",
+                    "header": "Kirándulás programja (kb. 8-9 óra):",
                     "1": "Transzfer Zakopanéból",
-                    "2": "Bachledkai kabinos felvonó a Szepesi-Magura csúcsára",
-                    "3": "Séta a Lombkorona-ösvényen",
-                    "4": "Visszaút a felvonóval",
-                    "5": "Utazás a Csorba-tóhoz (2 óra szabadidő)",
-                    "6": "Utazás vissza Zakopanéba",
-                    "7": "Visszaút",
+                    "2": "Utazás a Bachledka gondolás felvonóval a Szepesi-Magura csúcsára",
+                    "3": "Séta a Lombkorona tanösvényen",
+                    "4": "Lereszkedés felvonóval",
+                    "5": "Utazás a Csorba-tóhoz (szabadidő kb. 2 óra – télen rövidebb lehet*)",
+                    "6": "Indulás Zakopanéba",
+                    "7": "Visszautazás",
                     "8": "Tervezett érkezés",
-                    "info": "*Nagyon magas turisztikai látogatottság, kedvezőtlen időjárási körülmények vagy nagy torlódások esetén – a Štrbské Pleso-i látogatás lerövidíthető vagy teljesen kihagyható (a Bachledka területén töltött idő meghosszabbításával és a csoport kényelme érdekében korábbi visszatéréssel).*",
+                    "info": "*Kedvezőtlen időjárás, nehéz útviszonyok vagy nagy forgalom esetén a Csorba-tónál tett látogatás lerövidülhet vagy elmaradhat (Bachledkában töltött hosszabb idővel és korábbi visszatéréssel a csoport kényelme érdekében)",
                     "button": "Részvételi feltételek",
-                    "text2": "Minden résztvevőnek érvényes útlevéllel vagy személyi igazolvánnyal kell rendelkeznie. Rossz időjárás vagy nem megfelelő útviszonyok esetén fenntartjuk a jogot az útvonal vagy a program sorrendjének módosítására. Az utazás a minimális létszám hiánya miatt legkésőbb az indulás előtti napon 21:00-ig törölhető. Az utazás Lengyelország határain kívül történik. A célországban – Szlovákia – érvényes egészségügyi és járványügyi előírásokat be kell tartani."
+                    "text2": "Minden résztvevőnek érvényes útlevéllel vagy személyi igazolvánnyal kell rendelkeznie. Rossz időjárás vagy nem megfelelő útviszonyok esetén fenntartjuk a jogot az útvonal módosítására. A program elmaradásáról létszámhiány miatt legkésőbb az indulás előtti napon 21:00-ig értesítjük. A kirándulás Lengyelországon kívülre irányul. A célország (Szlovákia) aktuális egészségügyi szabályait be kell tartani."
                 }
             },
             "jaskinia-bielanska": {
@@ -1373,6 +1375,10 @@
             "3": {
                 "header": "Szilveszteri Lovasszán Túra",
                 "text": "Ünnepeld az újévet stílusosan – éjszakai szánkózás, tábortűz, ünnepi vacsora és felejthetetlen élmények!"
+            },
+            "4": {
+                "header": "Valentin-napi lovasszánozás",
+                "text": "Töltsenek el egy varázslatos estét kettesben – hangulatos fáklyás lovasszánozás, romantikus tábortűz forralt borral és szerelmeseknek muzsikáló górál zenekar!"
             }
         },
         "whysleighrides": {
@@ -1484,6 +1490,69 @@
                     "12": {
                         "header": "Hogyan lehet elérni a TrioTravelt további kérdésekkel?",
                         "text": "Bármilyen kérdés esetén: Telefon: 881 201 205 | E-mail: biuro@triotravel.eu | Személyesen: ul. Kościuszki 23a, ul. Zamoyskiego 8 vagy ul. Piłsudskiego 69a, Zakopane."
+                    }
+                }
+            }
+        },
+        "valentine": {
+            "header": "Romantikus Valentin-napi Lovasszánozás Kościeliskóban",
+            "header2": "Különleges pillanatok kettesben",
+            "header3": "A Valentin-esti program keretében kínáljuk",
+            "header4": "Árak a romantikus kalandhoz",
+            "list": {
+                "1": "Kényelmes transzfer a szállástól Kościeliskóban vagy Zakopanéban (Nędzy Kubińca utca és környéke).",
+                "2": "Hangulatos fáklyás lovasszánozás a csillagos tátrai égbolt alatt.",
+                "3": "Regionális vendéglátás a közös tűznél: aromás kolbász, górál tea vagy forralt bor.",
+                "4": "Górál mulatság szerelmes hangulatban, élő zenekar kíséretében.",
+                "5": "Felejthetetlen fotózás a téli Kościelisko festői környezetében."
+            },
+            "text": "Felejthetetlen Valentin-napi ötletet keres? A <strong>Górál Valentin-napi Lovasszánozás Kościeliskóban</strong> a tökéletes recept egy romantikus estéhez. A hófödte mezőkön átvezető út, melyet csak a <strong>fáklyák</strong> fénye világít meg, olyan meghitt és varázslatos hangulatot áraszt, amelyet sehol máshol nem talál meg. Az <strong>kb. 1 órás</strong> utazás csak az Önöké, távol a város zajától, a fenséges Tátra ölelésében. A szánozás után <strong>tábortűz melletti górál mulatságra</strong> várjuk Önöket, ahol a zenekar romantikus dallamai mellett regionális ételeket fogyaszthatnak és <strong>forralt borral</strong> melegedhetnek fel. Ez több mint egy program – ez egy emlék, amely évekig Önökkel marad.",
+            "info": "Elérhető Valentin-napi időpontok: 16:00, 17:00, 18:00, 19:00 (A transzfert 40 perccel az indulás előtt biztosítjuk)",
+            "table": {
+                "header1": "Jegy típusa",
+                "header2": "Valentin-napi Árlista 2026",
+                "3": "Normál jegy",
+                "4": "Kedvezményes jegy (családi csoportoknak)",
+                "header3": "*A Valentin-napi csomag tartalma:",
+                "list": {
+                    "1": "Privát transzfer (háztól házig) Zakopane és Kościelisko területén",
+                    "2": "Varázslatos szánozás a holdfényben és fáklyafénynél",
+                    "3": "Tábortűz melletti lakoma a hegyek szívében",
+                    "4": "Korlátlan menü: kolbász, házi zsír, bigos, oscypek sajt, tea és forralt bor",
+                    "5": "* Hóhiány esetén a program stílusos lovaskocsikkal valósul meg"
+                }
+            },
+            "faq": {
+                "header": "Kérdések a Valentin-napi lovasszánozásról (FAQ)",
+                "text": "<strong>Valentin-napot tervez a hegyekben?</strong> Itt megtalálja a választ a leggyakoribb kérdésekre.",
+                "list": {
+                    "1": {
+                        "header": "Mennyi ideig tart az egész esemény és mennyire romantikus?",
+                        "text": "A teljes élmény 2,5–3,5 órát vesz igénybe. Egy hangulatos szánozással kezdünk (1 óra), amit egyórás mulatság követ élő zenével. A fáklyáknak és a természet közelségének köszönhetően a hangulat rendkívül romantikus."
+                    },
+                    "2": {
+                        "header": "Mi van, ha gyerekeket is szeretnénk hozni a Valentin-napi szánozásra?",
+                        "text": "Természetesen! A Valentin-nap a szeretet ünnepe minden formában. A gyerekeket szívesen látjuk: 3 éves korig ingyenes a részvétel, 3 és 10 év közötti gyermekeknek pedig kedvezményes jegy váltható."
+                    },
+                    "3": {
+                        "header": "Mit szolgálnak fel enni a mulatság alatt?",
+                        "text": "Gazdag menüvel készültünk: górál bigos, sütnivaló kolbász, oscypek áfonyával, zsíros kenyér és savanyú uborka. Forró teát és korlátlan forralt bort kínálunk, ami tökéletes a téli estére."
+                    },
+                    "4": {
+                        "header": "A forralt bor benne van az árban?",
+                        "text": "Igen, a forralt bor és a górál tea korlátlanul fogyasztható a tábortűz mellett, hogy teljes mértékben élvezhessék az együtt töltött időt."
+                    },
+                    "5": {
+                        "header": "Hogyan készüljünk a havas Valentin-napi randira?",
+                        "text": "Bár biztosítunk meleg takarókat a szánokban és a tábortűz is melegít, javasoljuk a réteges öltözködést. Meleg cipő, sapka és kesztyű elengedhetetlen, hogy a fagy ne rontsa el a pillanatot."
+                    },
+                    "6": {
+                        "header": "A transzfer benne van az árban?",
+                        "text": "Igen, gondoskodunk a kényelmükről. Felvesszük Önöket a szállásuknál és vissza is visszük a program után, hogy szabadon élvezhessék a forralt bort és a hangulatot."
+                    },
+                    "7": {
+                        "header": "Hogyan foglalhatok időpontot február 14-re?",
+                        "text": "A Valentin-napi helyek nagyon gyorsan betelnek! Javasoljuk az online foglalást vagy a 881 201 205-ös telefonszám hívását legalább néhány nappal korábban."
                     }
                 }
             }
@@ -1786,6 +1855,10 @@
         "koscielisko": {
             "title": "Kościelisko Hegyi Szánkózás - Felejthetetlen Kaland a Trio Travellel",
             "description": "Meghívunk egy festői Kościelisko Hegyi Szánkózásra a Trio Travellel! Élvezd az egyórás fáklyás szánutazást, tábortüzet, finom vendéglátást és élő hegyi zenét. Felvétel Zakopanéból és Kościeliskóból az árban. Jegyek 130 PLN-től. Foglalj online és élj át felejthetetlen téli kalandot a Tátrában!"
+        },
+        "walentynkowy": {
+            "title": "Romantikus Valentin-napi Lovasszánozás Kościeliskóban | Randi a Tátrában",
+            "description": "Valentin-napi programot keres? Várjuk Önöket egy varázslatos lovasszánozásra Koscieliskóban! Fáklyás túra, tábortűz, forralt bor és élő népzene. Transzfer Zakopanéból az árban. Foglaljon le egy felejthetetlen romantikus estét!"
         },
         "dolina-chocholowska": {
             "title": "VIP Szánkózás a Chochołowska-völgyben - Hegyi Kaland a Trio Travellel",
@@ -2115,11 +2188,11 @@
         }
     },
     "promoModal": {
-        "header": "First Minute a Téli Szánkózásra!",
-        "text": "Foglalj téli szánkózást korábban és utazz olcsóbban!",
-        "text2": "Most a legjobb árak egy téli kalandra!",
-        "alt": "Lovak emberekkel és szánokkal egy szánkózás során Zakopanéban, havas téli környezetben",
-        "button": "Nézd meg az ajánlatot!"
+        "header": "Szeressen bele a lovasszánozásba!",
+        "text": "Különleges Valentin-napi ötletet keres? Vigye el párját egy varázslatos lovasszánútra a csillagos ég alatt.",
+        "text2": "Foglaljon romantikus lovasszánozást tábortűzzel, és érezze a Tátra varázsát!",
+        "alt": "Szerelmes pár lovasszánon, téli tájjal és fáklyák fényével körülvéve Zakopanéban",
+        "button": "Foglaljon most!"
     },
     "blog": {
         "header": "Blogunk",

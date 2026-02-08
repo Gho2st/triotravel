@@ -1,0 +1,134 @@
+import Header from "@/app/UI/Header";
+import Table from "@/app/UI/Table";
+import Gallery from "@/app/UI/Slider";
+import LineHeader from "@/app/UI/LineHeader";
+import BackgroundList from "@/app/UI/BackgroundList";
+import { useTranslations } from "next-intl";
+import CheckList from "@/app/UI/CheckList";
+import { getTranslations } from "next-intl/server";
+import { routing } from "@/i18n/routing";
+import CtaLink from "@/app/UI/CtaLink";
+import FAQSection from "@/app/UI/Trips/Faq";
+
+export async function generateMetadata({ params }) {
+  const resolvedParams = await params;
+  const { locale } = resolvedParams;
+  const t = await getTranslations({
+    locale,
+    namespace: "metadata.walentynkowy",
+  });
+
+  const path = routing.pathnames["/kuligi/walentynkowy"][locale]; // Pobieramy ścieżkę dla języka
+  // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
+  const canonicalUrl =
+    locale === "pl"
+      ? `https://triotravel.pl${path}`
+      : `https://triotravel.pl/${locale}${path}`;
+
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: canonicalUrl,
+    },
+  };
+}
+
+export default function Koscielisko() {
+  const t = useTranslations("kuligi.valentine");
+  const a = useTranslations("kuligi.alt");
+  const f = useTranslations("kuligi.valentine.faq");
+
+  const faqData = {
+    header: f("header"),
+    text: f.raw("text"),
+    list: f.raw("list"),
+  };
+
+  const tableHeaders = [t("table.header1"), t("table.header2")];
+
+  const tableRows = [
+    [t("table.3"), "160 PLN*"],
+    [t("table.4"), "140 PLN*"],
+  ];
+
+  const customItems = [
+    t("list.1"),
+    t("list.2"),
+    t("list.3"),
+    t("list.4"),
+    t("list.5"),
+  ];
+
+  const checkItems = [
+    t("table.list.1"),
+    t("table.list.2"),
+    t("table.list.3"),
+    t("table.list.4"),
+    t("table.list.5"),
+  ];
+
+  return (
+    <>
+      <Header text={t("header")} />
+
+      <div className="flex md:w-3/4 mx-auto justify-center md:mt-16">
+        <div className="relative w-full aspect-[16/9]">
+          <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            src="https://www.youtube.com/embed/JyJcfnneIWc?si=R4eeq28-hOZO50aZ"
+            allowFullScreen
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          ></iframe>
+        </div>
+      </div>
+
+      <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
+        <LineHeader text={t("header2")} />
+
+        <p className="mt-10 md:mt-16 text-center md:w-3/4 mx-auto  xl:text-xl">
+          {t.rich("text", {
+            strong: (chunks) => <strong>{chunks}</strong>,
+          })}
+        </p>
+
+        <div className="flex justify-center mt-16">
+          <BackgroundList
+            title={t("header3")}
+            items={customItems}
+            className="shadow-lg"
+          />
+        </div>
+
+        <div className="mt-20 text-center">
+          <h3 className="text-xl xl:text-2xl mb-10 md:w-3/4 mx-auto font-semibold">
+            {t("info")}
+          </h3>
+
+          <h4 className="mb-10 text-lg font-medium">
+            {t("header4")} 2025/2026
+          </h4>
+
+          <Table headers={tableHeaders} rows={tableRows} />
+
+          <CheckList title={t("table.header3")} items={checkItems} />
+          <div className="mt-10">
+            <FAQSection faq={faqData} />
+          </div>
+        </div>
+      </section>
+
+      <Gallery
+        images={[
+          { url: "/kuligi/koscielisko/1.webp", alt: a("1") },
+          { url: "/kuligi/koscielisko/2.webp", alt: a("2") },
+          { url: "/kuligi/koscielisko/3.webp", alt: a("3") },
+          { url: "/kuligi/koscielisko/4.webp", alt: a("4") },
+          { url: "/kuligi/koscielisko/5.webp", alt: a("5") },
+        ]}
+      />
+      <CtaLink />
+    </>
+  );
+}

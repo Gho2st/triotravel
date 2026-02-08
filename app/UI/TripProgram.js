@@ -13,7 +13,7 @@ export default function TripProgram({ items, title, info }) {
             <span>{item}</span>
           </li>
         ))}
-        {info && <li className="text-sm text-gray-500">{info}</li>}
+        {info && <li className="text-sm text-red-700">{info}</li>}
       </ul>
     </div>
   );

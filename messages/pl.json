@@ -165,6 +165,7 @@
         "trips": {
             "header": "Wycieczki jednodniowe z Zakopanego - Lato",
             "winterHeader": "Zimowa oferta TrioTravel",
+            "winterHeader2": "Zimowe wycieczki i atrakcje",
             "winterText": "Termy, Lodowe Świątynia, Kasprowy Wierch, Spacer w Koronach Drzew i więcej – tylko zimą!",
             "polandHeader": "Polskie atrakcje jednodniowe z Zakopanego",
             "foreignHeader": "Wycieczki zagraniczne z Zakopanego",
@@ -699,9 +700,10 @@
                     "4": "Całoroczna atrakcja: bajkowa zima, soczyście zielone lato, złota jesień"
                 },
                 "list": {
-                    "1": "Rozpoczniesz dzień w Zakopanem, skąd komfortowym transportem udajemy się do Bachledovej Doliny. Na miejscu czeka kolejka gondolowa, która w 7 minut wwozi nas na szczyt Magury Spiskiej.",
-                    "2": "Ścieżka w Koronach Drzew to ponad kilometr drewnianej kładki wznoszącej się nawet 24 metry nad ziemią, zakończonej 32-metrową wieżą widokową. Trasa jest dostępna przez cały rok i w pełni przystosowana dla rodzin z dziećmi oraz osób o ograniczonej mobilności. Na spacerze znajdziesz platformy widokowe, tablice edukacyjne o tatrzańskiej przyrodzie oraz rurową zjeżdżalnię dla starszych dzieci.",
-                    "3": "Po wizycie w Bachledce ruszamy w stronę Štrbské Pleso (Szczyrbskiego Jeziora) – jednego z najbardziej malowniczych miejsc w Tatrach Wysokich. Około 2 godziny czasu wolnego pozwoli Ci na spokojny spacer promenadą wokół jeziora, wypicie kawy w klimatycznej kawiarni lub zakup lokalnych pamiątek. Niezależnie od pory roku, widok gór odbijających się w tafli jeziora robi ogromne wrażenie."
+                    "1": "Spacer w koronach drzew to wyjątkowa atrakcja, która pozwala podziwiać przyrodę z zupełnie innej perspektywy. Drewniana ścieżka prowadzi wysoko ponad ziemią, wśród wierzchołków świerków i jodeł, oferując niezapomniane widoki na góry i doliny. To idealna propozycja dla rodzin z dziećni, par i wszystkich, którzy cenią sobie kontakt z naturą w spokojnej, malowniczej scenerii.",
+                    "2": "Trasa jest dostępna przez cały rok i w pełni przystosowana dla każdego - także dla osób z niepełnosprawnościami i rodzin z małymi dziećmi. Na górę można wjechać kolejką gondolową, co ułatwia dotarcie na miejsce bez wysiłku. Na miejscu można też wypożyczyć wózek dziecięcy.",
+                    "3": "Po wizycie w Bachledce ruszamy w stronę Štrbské Pleso (Szczyrbskiego Jeziora) – jednego z najbardziej malowniczych miejsc w Tatrach Wysokich. Krystaliczna tafla odbija szczyty, a promenada wokół jeziora (ok. 2,5 km) daje idealne warunki na spokojny spacer, kawę w klimatycznej kawiarni z widokiem czy zakup pamiątek. Latem i jesienią masz tu około 2 godziny wolnego czasu na relaks i pełne odkrywanie okolicy.",
+                    "4": "Zimą jezioro jest magiczne, ale ze względu na warunki atmosferyczne (mgła, silny wiatr, opady śniegu) oraz utrudniony dojazd (oblodzone drogi, wzmożony ruch, ograniczone miejsca parkingowe) – czas wolny może być skrócony lub - w razie niekorzystnych warunków – ograniczony do minimum / pominięty. W takim przypadku zawsze zatrzymujemy się na najlepszych punktach widokowych w okolicy, żebyście mogli spokojnie podziwiać widoki, zrobić zdjęcia, napić się kawy i  więcej czasu spędzamy w Bachledce (gdzie zawsze jest komfortowo i bezpiecznie) i wracamy wcześniej do Zakopanego – dla wygody i bezpieczeństwa grupy."
                 },
                 "table": {
                     "header1": "Rodzaj biletu",
@@ -717,11 +719,11 @@
                     "2": "Wyjazd kolejką Gondolową Bachledka na szczyt Magury Spiskiej",
                     "3": "Spacer ścieżką po Koronie Drzew",
                     "4": "Zjazd kolejką",
-                    "5": "Przejazd do Szczyrbskiego Plesa (Czas wolny 2 godziny)",
+                    "5": "Przejazd do Szczyrbskiego Jeziora (czas wolny ok. 2 h – zimą może być krótszy lub ograniczony*)",
                     "6": "Wyjazd do Zakopanego",
                     "7": "Wyjazd powrotny",
                     "8": "Planowany powrót",
-                    "info": "*W przypadku bardzo wysokiej frekwencji turystycznej, niekorzystnych warunków pogodowych lub dużych korków – wizyta nad Szczyrbskim Plesem może zostać skrócona lub całkowicie pominięta (z wydłużeniem czasu w Bachledce i wcześniejszym powrotem dla komfortu grupy).",
+                    "info": "*W przypadku niekorzystnych warunków pogodowych, utrudnionego dojazdu, dużych korków – wizyta nad Szczyrbskim Jeziorem może być skrócona lub pominięta (z wydłużeniem czasu w Bachledce i wcześniejszym powrotem dla komfortu grupy)",
                     "button": "Warunki Uczestnictwa",
                     "text2": "Każdy uczestnik musi posiadać ważny paszport lub dowód osobisty. W przypadku złej pogody lub nieodpowiednich warunków na szlaku zastrzegamy sobie prawo do zmiany trasy wycieczki lub kolejności zwiedzania. Odwołanie imprezy z powodu braku odpowiedniej ilości uczestników, może nastąpić najpóźniej na 1 dzień przed rozpoczęciem imprezy do godziny 21.00. Wyjazd realizowany jest poza granicami RP. Należy spełnić wszelkie warunki sanitarno-epidemiologiczne obowiązujące w kraju docelowym - Słowacja."
                 }
@@ -1376,6 +1378,10 @@
             "3": {
                 "header": "Kulig w Wieczór Sylwestrowy",
                 "text": "Powitaj Nowy Rok z przytupem – kulig nocą, ognisko, kolacja sylwestrowa i niezapomniane wspomnienia!"
+            },
+            "4": {
+                "header": "Kulig Walentynkowy",
+                "text": "Spędź magiczny wieczór we dwoje – nastrojowy kulig z pochodniami, romantyczne ognisko z grzańcem i kapela góralska grająca dla zakochanych!"
             }
         },
         "whysleighrides": {
@@ -1487,6 +1493,69 @@
                     "12": {
                         "header": "Jak skontaktować się z TrioTravel w razie dodatkowych pytań?",
                         "text": "Wszelkie pytania lub wątpliwości prosimy kierować bezpośrednio do nas: Telefon: 881 201 205 E-mail: biuro@triotravel.eu Punkty Stacjonarne: ul. Kościuszki 23a, ul. Zamoyskiego 8 lub ul. Piłsudskiego 69a."
+                    }
+                }
+            }
+        },
+        "valentine": {
+            "header": "Romantyczny Kulig Walentynkowy w Kościelisku",
+            "header2": "Wyjątkowe chwile we dwoje",
+            "header3": "W programie walentynkowego wieczoru oferujemy",
+            "header4": "Ceny za romantyczną przygodę",
+            "list": {
+                "1": "Komfortowy odbiór z Waszego miejsca zakwaterowania w Kościelisku lub Zakopanem (ul. Nędzy Kubińca i okolice).",
+                "2": "Nastrojowy kulig z pochodniami pod rozgwieżdżonym niebem Tatr.",
+                "3": "Regionalny poczęstunek przy wspólnym ogniu: aromatyczna kiełbasa, herbata z prądem lub gorące wino.",
+                "4": "Góralska biesiada w miłosnej atmosferze przy dźwiękach kapeli na żywo.",
+                "5": "Niezapomniana sesja zdjęciowa w scenerii zimowego Kościeliska."
+            },
+            "text": "Szukasz pomysłu na niezapomniane Walentynki? <strong>Góralski Kulig Walentynkowy w Kościelisku</strong> to idealny przepis na romantyczny wieczór. Przejażdżka saniami przez zaśnieżone polany, rozświetlona jedynie blaskiem <strong>pochodni</strong>, tworzy intymną i magiczną atmosferę, której nie znajdziecie nigdzie indziej. Trwająca <strong>ok. 1h</strong> wyprawa to czas tylko dla Was, z dala od zgiełku miasta, w otoczeniu majestatycznych Tatr. Po kuligu zapraszamy na <strong>góralską biesiadę przy ognisku</strong>, gdzie przy dźwiękach romantycznych nut kapeli zjecie regionalny posiłek i rozgrzejecie się <strong>grzanym winem</strong>. To więcej niż atrakcja – to wspomnienie, które zostanie z Wami na lata.",
+            "info": "Dostępne terminy walentynkowe: 16.00, 17.00, 18.00, 19.00 (Zapewniamy transport 40 min przed startem)",
+            "table": {
+                "header1": "Opcja biletu",
+                "header2": "Cennik Walentynkowy 2026",
+                "3": "Bilet normalny",
+                "4": "Bilet ulgowy (dla grup rodzinnych)",
+                "header3": "*Pakiet walentynkowy zawiera:",
+                "list": {
+                    "1": "Prywatny transport (door-to-door) z terenu Zakopanego i Kościeliska",
+                    "2": "Magiczną przejażdżkę saniami w blasku księżyca i pochodni",
+                    "3": "Biesiadę przy ognisku w sercu gór",
+                    "4": "Menu bez limitu: kiełbasa, swojski smalec, bigos, oscypki, herbata i wino grzane",
+                    "5": "* Przy braku pokrywy śnieżnej, randka odbywa się w stylowych dorożkach lub wozach góralskich"
+                }
+            },
+            "faq": {
+                "header": "Pytania o kulig walentynkowy (FAQ)",
+                "text": "Planujesz <strong>walentynki w górach?</strong> Sprawdź odpowiedzi na najczęstsze pytania dotyczące naszych kuligów walentynkowych.",
+                "list": {
+                    "1": {
+                        "header": "Ile trwa całe wydarzenie i czy jest romantycznie?",
+                        "text": "Całość trwa od 2,5 do 3,5 godziny. Zaczynamy od klimatycznego przejazdu saniami (1h), po którym następuje godzina biesiady z kapelą. Atmosfera jest wyjątkowo nastrojowa dzięki pochodniom i bliskości natury."
+                    },
+                    "2": {
+                        "header": "Co jeśli chcemy zabrać dzieci na kulig walentynkowy?",
+                        "text": "Oczywiście! Walentynki to święto miłości w każdym wydaniu. Dzieci są mile widziane – te do lat 3 jadą bezpłatnie, a starsze (do 10 lat) korzystają z biletów ulgowych."
+                    },
+                    "3": {
+                        "header": "Co serwujecie do jedzenia podczas biesiady?",
+                        "text": "Przygotowaliśmy bogate menu: bigos góralski, kiełbaski do pieczenia, oscypki z żurawiną, chleb ze smalcem i ogórkiem. Do picia serwujemy gorącą herbatę oraz grzane wino bez limitu, co idealnie pasuje do zimowego wieczoru."
+                    },
+                    "4": {
+                        "header": "Czy wino grzane jest wliczone w cenę?",
+                        "text": "Tak, nasze wino grzane oraz herbata góralska są dostępne bez limitu podczas biesiady przy ognisku, abyście mogli w pełni cieszyć się wspólnym czasem."
+                    },
+                    "5": {
+                        "header": "Jak się przygotować na walentynkową randkę na śniegu?",
+                        "text": "Mimo że zapewniamy ciepłe koce i skóry w saniach, a ognisko mocno grzeje, zalecamy ubiór 'na cebulkę'. Ciepłe buty, czapka i rękawiczki są niezbędne, by mróz nie popsuł romantycznych chwil."
+                    },
+                    "6": {
+                        "header": "Czy transport jest wliczony w cenę?",
+                        "text": "Tak, dbamy o Wasz komfort. Odbierzemy Was spod pensjonatu i odwieziemy po zakończonej zabawie, abyście mogli swobodnie cieszyć się grzanym winem i atmosferą."
+                    },
+                    "7": {
+                        "header": "Jak zarezerwować termin na 14 lutego?",
+                        "text": "Miejsca na Walentynki znikają bardzo szybko! Rekomendujemy rezerwację online lub telefoniczną pod numerem 881 201 205 z przynajmniej kilkudniowym wyprzedzeniem."
                     }
                 }
             }
@@ -1789,6 +1858,10 @@
         "koscielisko": {
             "title": "Góralski Kulig Kościelisko - Niezapomniana Przygoda z Trio Travel",
             "description": "Zapraszamy na malowniczy Góralski Kulig w Kościelisku z Trio Travel! Ciesz się godziną przejażdżki saniami z pochodniami, ogniskiem, pysznym poczęstunkiem i góralską muzyką na żywo. Odbiór z Zakopanego i Kościeliska w cenie. Bilety od 130 PLN. Rezerwuj online i przeżyj niezapomnianą zimową przygodę w Tatrach!"
+        },
+        "walentynkowy": {
+            "title": "Romantyczny Kulig Walentynkowy w Kościelisku | Randka w Tatrach",
+            "description": "Szukasz pomysłu na Walentynki? Zapraszamy na magiczny kulig dla dwojga w Kościelisku! W programie: saniami pod gwiazdami, ognisko z pochodniami, grzane wino i kapela góralska. Transport z Zakopanego w cenie. Spraw ukochanej osobie niezapomniany prezent i zarezerwuj romantyczny wieczór w górach!"
         },
         "dolina-chocholowska": {
             "title": "Kulig VIP Dolina Chochołowska - Góralska Przygoda z Trio Travel",
@@ -2118,11 +2191,11 @@
         }
     },
     "promoModal": {
-        "header": "First Minute na Zimowe Kuligi!",
-        "text": "Rezerwuj kuligi zimowe wcześniej i jedź taniej!",
-        "text2": "Teraz najlepsze ceny na zimowa przygodę!",
-        "alt": "Konie z ludźmi i bryczkami podczas kuligu w Zakopanem przy zimowej aurze pełnej śniegu",
-        "button": "Sprawdź ofertę!"
+        "header": "Zakochaj się w Kuligu!",
+        "text": "Szukasz pomysłu na wyjątkowe Walentynki? Zabierz drugą połówkę na magiczny przejazd saniami pod gwiazdami.",
+        "text2": "Zarezerwuj romantyczny kulig z ogniskiem i poczuj magię Tatr!",
+        "alt": "Zakochana para w saniach ciągniętych przez konie, otoczona zimową scenerią i blaskiem pochodni w Zakopanem",
+        "button": "Zarezerwuj!"
     },
     "blog": {
         "header": "Nasz Blog",

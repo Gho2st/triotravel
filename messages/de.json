@@ -165,6 +165,7 @@
         "trips": {
             "header": "Tagesausflüge ab Zakopane - Sommer",
             "winterHeader": "Winterangebot TrioTravel",
+            "winterHeader2": "Winterausflüge und Attraktionen",
             "winterText": "Thermen, Eistempel, Kasprowy Wierch, Spaziergang in den Baumkronen und mehr – nur im Winter!",
             "polandHeader": "Polnische Tagesattraktionen ab Zakopane",
             "foreignHeader": "Auslandsausflüge ab Zakopane",
@@ -699,9 +700,10 @@
                     "4": "Ganzjährige Attraktion: märchenhafter Winter, saftig grüner Sommer, goldener Herbst"
                 },
                 "list": {
-                    "1": "Sie starten den Tag in Zakopane, von wo aus wir mit komfortablem Transport ins Bachledka-Tal fahren. Vor Ort erwartet Sie eine Gondelbahn, die uns in 7 Minuten auf den Gipfel der Magura Spiska bringt.",
-                    "2": "Der Baumkronenweg ist über einen Kilometer langer Holzsteg, der sich bis zu 24 Meter über dem Boden erhebt und mit einem 32 Meter hohen Aussichtsturm endet. Die Route ist ganzjährig geöffnet und vollständig für Familien mit Kindern und Personen mit eingeschränkter Mobilität geeignet. Beim Spaziergang finden Sie Aussichtsplattformen, Lehrtafeln über die Tatra-Natur und eine Röhrenrutsche für ältere Kinder.",
-                    "3": "Nach dem Besuch in Bachledka fahren wir Richtung Štrbské Pleso (Szczyrbsker See) – einem der malerischsten Orte in der Hohen Tatra. Etwa 2 Stunden Freizeit ermöglichen Ihnen einen ruhigen Spaziergang auf der Promenade um den See, eine Tasse Kaffee in einem gemütlichen Café oder den Kauf lokaler Souvenirs. Unabhängig von der Jahreszeit macht der Blick auf die sich im Seewasser spiegelnden Berge einen enormen Eindruck."
+                    "1": "Der Baumwipfelpfad ist eine einzigartige Attraktion, die es ermöglicht, die Natur aus einer ganz anderen Perspektive zu bewundern. Der Holzsteg führt hoch über dem Boden durch die Spitzen von Fichten und Tannen und bietet unvergessliche Ausblicke auf Berge und Täler. Ein ideales Angebot für Familien mit Kindern, Paare und alle, die den Kontakt zur Natur in einer ruhigen, malerischen Umgebung schätzen.",
+                    "2": "Die Route ist ganzjährig geöffnet und barrierefrei gestaltet – auch für Menschen mit Behinderungen und Familien mit kleinen Kindern geeignet. Die Bergstation ist bequem mit der Gondelbahn erreichbar. Vor Ort können zudem Kinderwagen ausgeliehen werden.",
+                    "3": "Nach dem Besuch in Bachledka fahren wir zum Štrbské Pleso (Tschirmer See) – einem der malerischsten Orte in der Hohen Tatra. Das kristallklare Wasser spiegelt die Gipfel wider, und die Promenade um den See (ca. 2,5 km) lädt zu einem entspannten Spaziergang, einem Kaffee mit Aussicht oder zum Souvenirkauf ein. Im Sommer und Herbst haben Sie ca. 2 Stunden Freizeit zur Erholung.",
+                    "4": "Im Winter ist der See magisch, aber aufgrund der Witterungsbedingungen (Nebel, starker Wind, Schneefall) und der schwierigen Anfahrt (vereiste Straßen, starker Verkehr) kann die Freizeit verkürzt oder im Extremfall gestrichen werden. In diesem Fall halten wir an den besten Aussichtspunkten der Region für Fotos und Kaffee, verbringen mehr Zeit in Bachledka (wo es immer komfortabel und sicher ist) und kehren früher nach Zakopane zurück – zur Sicherheit und zum Komfort der Gruppe."
                 },
                 "table": {
                     "header1": "Ticketart",
@@ -712,18 +714,18 @@
                     "text": "* Der Preis umfasst: Betreuung durch den Fahrer während der Reise, Unfallversicherung (NNW) und Transport ab Zakopane"
                 },
                 "tripprogram": {
-                    "header": "Reiseprogramm (ca. 8-9h):",
+                    "header": "Ausflugsprogramm (ca. 8-9 Std.):",
                     "1": "Transfer ab Zakopane",
-                    "2": "Abfahrt mit der Bachledka-Gondelbahn auf den Gipfel der Magura Spiska",
-                    "3": "Spaziergang auf dem Baumkronenweg",
-                    "4": "Abfahrt mit der Gondel",
-                    "5": "Fahrt zum Szczyrbsker See (Freizeit 2 Stunden)",
+                    "2": "Gondelfahrt zum Gipfel der Magura Spiska",
+                    "3": "Spaziergang auf dem Baumwipfelpfad",
+                    "4": "Talfahrt mit der Gondel",
+                    "5": "Fahrt zum Štrbské Pleso (Freizeit ca. 2 Std. – im Winter ggf. kürzer*)",
                     "6": "Abfahrt nach Zakopane",
                     "7": "Rückfahrt",
                     "8": "Geplante Rückkehr",
-                    "info": "*Bei sehr hohem touristischen Andrang, ungünstigen Wetterbedingungen oder starkem Verkehr – der Besuch am Szczyrbsker See kann gekürzt oder ganz ausgelassen werden (mit Verlängerung der Zeit in Bachledka und früherer Rückkehr für den Komfort der Gruppe).",
+                    "info": "*Bei ungünstigen Wetterbedingungen, schwierigen Straßenverhältnissen oder Staus kann der Besuch am Štrbské Pleso verkürzt werden oder entfallen (mit längerer Aufenthaltsdauer in Bachledka und früherer Rückkehr für den Komfort der Gruppe)",
                     "button": "Teilnahmebedingungen",
-                    "text2": "Jeder Teilnehmer muss einen gültigen Reisepass oder Personalausweis besitzen. Bei schlechtem Wetter oder ungeeigneten Bedingungen auf dem Weg behalten wir uns das Recht vor, die Reiseroute oder die Reihenfolge der Besichtigung zu ändern. Die Absage der Veranstaltung aufgrund unzureichender Teilnehmerzahl kann spätestens 1 Tag vor Beginn der Veranstaltung bis 21:00 Uhr erfolgen. Die Fahrt wird außerhalb der Grenzen Polens durchgeführt. Alle sanitären und epidemiologischen Bedingungen, die im Zielland – Slowakei – gelten, müssen erfüllt werden."
+                    "text2": "Jeder Teilnehmer muss einen gültigen Reisepass oder Personalausweis mitführen. Bei schlechtem Wetter behalten wir uns das Recht vor, die Route oder die Reihenfolge der Besichtigung zu ändern. Eine Absage wegen zu geringer Teilnehmerzahl kann bis spätestens 21:00 Uhr am Vortag erfolgen. Die Reise findet außerhalb Polens statt. Alle sanitären und epidemiologischen Bestimmungen des Ziellandes (Slowakei) müssen erfüllt werden."
                 }
             },
             "jaskinia-bielanska": {
@@ -1376,6 +1378,10 @@
             "3": {
                 "header": "Silvester-Schlittenfahrt",
                 "text": "Begrüßen Sie das neue Jahr mit Schwung – nächtliche Schlittenfahrt, Lagerfeuer, Silvesteressen und unvergessliche Erinnerungen!"
+            },
+            "4": {
+                "header": "Valentinstag-Schlittenfahrt",
+                "text": "Verbringen Sie einen magischen Abend zu zweit – eine stimmungsvolle Fackelschlittenfahrt, ein romantisches Lagerfeuer mit Glühwein und eine Hochlandkapelle, die für Verliebte spielt!"
             }
         },
         "whysleighrides": {
@@ -1487,6 +1493,69 @@
                     "12": {
                         "header": "Wie kann man TrioTravel bei weiteren Fragen kontaktieren?",
                         "text": "Alle Fragen oder Unklarheiten richten Sie bitte direkt an uns: Telefon: 881 201 205 E-Mail: biuro@triotravel.eu Stationäre Punkte: ul. Kościuszki 23a, ul. Zamoyskiego 8 oder ul. Piłsudskiego 69a."
+                    }
+                }
+            }
+        },
+        "valentine": {
+            "header": "Romantische Valentinstag-Schlittenfahrt in Koscielisko",
+            "header2": "Einzigartige Momente zu zweit",
+            "header3": "Im Programm des Valentinsabends bieten wir",
+            "header4": "Preise für ein romantisches Abenteuer",
+            "list": {
+                "1": "Bequeme Abholung von Ihrer Unterkunft in Koscielisko oder Zakopane.",
+                "2": "Stimmungsvolle Fackelschlittenfahrt unter dem Sternenhimmel der Tatra.",
+                "3": "Regionale Verpflegung am gemeinsamen Feuer: aromatische Wurst, Tee oder heißer Glühwein.",
+                "4": "Goralen-Schmaus in liebevoller Atmosphäre mit Live-Musik der Berglandkapelle.",
+                "5": "Unvergessliches Fotoshooting in der Winterkulisse von Koscielisko."
+            },
+            "text": "Suchen Sie eine Idee für einen unvergesslichen Valentinstag? Die <strong>Goralen-Valentinstag-Schlittenfahrt in Koscielisko</strong> ist das perfekte Rezept für einen romantischen Abend. Eine Schlittenfahrt durch verschneite Wiesen, beleuchtet nur vom <strong>Fackelschein</strong>, schafft eine magische Atmosphäre, die Sie nirgendwo anders finden werden. Die <strong>ca. 1-stündige</strong> Fahrt ist Zeit nur für Sie, fernab vom Trubel der Stadt. Danach laden wir Sie zum <strong>Lagerfeuer</strong> ein, wo Sie bei romantischer Musik regional speisen und sich mit <strong>Glühwein</strong> aufwärmen können. Mehr als eine Attraktion – eine Erinnerung für Jahre.",
+            "info": "Verfügbare Termine: 16:00, 17:00, 18:00, 19:00 (Transport 40 Min. vor Start)",
+            "table": {
+                "header1": "Ticket-Option",
+                "header2": "Valentinstag-Preise 2026",
+                "3": "Normales Ticket",
+                "4": "Ermäßigtes Ticket (für Familien)",
+                "header3": "*Das Valentinspaket beinhaltet:",
+                "list": {
+                    "1": "Privater Door-to-Door Transport ab Zakopane und Koscielisko",
+                    "2": "Magische Schlittenfahrt bei Mondschein und Fackeln",
+                    "3": "Schmaus am Lagerfeuer im Herzen der Berge",
+                    "4": "Unbegrenztes Menü: Wurst, Schmalz, Bigos, Oscypek, Tee und Glühwein",
+                    "5": "* Bei Schneemangel findet das Date in stilvollen Kutschen statt"
+                }
+            },
+            "faq": {
+                "header": "Fragen zur Valentinstag-Schlittenfahrt (FAQ)",
+                "text": "Planen Sie <strong>Valentinstag in den Bergen?</strong> Hier finden Sie Antworten auf die häufigsten Fragen.",
+                "list": {
+                    "1": {
+                        "header": "Wie lange dauert es?",
+                        "text": "Insgesamt 2,5 bis 3,5 Stunden. 1 Std. Fahrt, 1 Std. Schmaus mit Musik. Die Atmosphäre ist durch Fackeln sehr romantisch."
+                    },
+                    "2": {
+                        "header": "Was ist mit Kindern?",
+                        "text": "Valentinstag ist ein Fest der Liebe für alle! Kinder unter 3 Jahren fahren kostenlos, Kinder von 3-10 Jahren erhalten Ermäßigung."
+                    },
+                    "3": {
+                        "header": "Was gibt es zu essen?",
+                        "text": "Ein reichhaltiges Menü: Goralen-Bigos, Grillwürste, Oscypek mit Preiselbeeren und Brot mit Schmalz. Tee und Glühwein inklusive."
+                    },
+                    "4": {
+                        "header": "Ist Glühwein inklusive?",
+                        "text": "Ja, Glühwein und Goralen-Tee stehen während des Lagerfeuers unbegrenzt zur Verfügung."
+                    },
+                    "5": {
+                        "header": "Wie soll man sich kleiden?",
+                        "text": "Wir stellen Decken bereit, empfehlen aber warme Kleidung im Zwiebelprinzip, damit der Frost die Romantik nicht stört."
+                    },
+                    "6": {
+                        "header": "Ist der Transport inklusive?",
+                        "text": "Ja, wir holen Sie ab und bringen Sie zurück, damit Sie den Abend entspannt genießen können."
+                    },
+                    "7": {
+                        "header": "Wie reserviert man für den 14. Februar?",
+                        "text": "Die Plätze sind schnell ausgebucht! Wir empfehlen die Online-Buchung oder einen Anruf unter +48 881 201 205."
                     }
                 }
             }
@@ -1789,6 +1858,10 @@
         "koscielisko": {
             "title": "Goralische Schlittenfahrt Kościelisko - Unvergessliches Abenteuer mit Trio Travel",
             "description": "Wir laden Sie zu einer malerischen Goralischen Schlittenfahrt in Kościelisko mit Trio Travel ein! Genießen Sie eine einstündige Schlittenfahrt mit Fackeln, Lagerfeuer, leckeren Verköstigungen und Live-Goralenmusik. Abholung von Zakopane und Kościelisko im Preis. Tickets ab 130 PLN. Buchen Sie online und erleben Sie ein unvergessliches Winterabenteuer in der Tatra!"
+        },
+        "walentynkowy": {
+            "title": "Romantische Valentinstag-Schlittenfahrt in Koscielisko | Date in der Tatra",
+            "description": "Suchen Sie nach einer Idee für den Valentinstag? Genießen Sie eine magische Schlittenfahrt zu zweit! Lagerfeuer mit Fackeln, Glühwein und Live-Bergländermusik inklusive. Transport ab Zakopane im Preis enthalten. Jetzt romantischen Abend buchen!"
         },
         "dolina-chocholowska": {
             "title": "VIP-Schlittenfahrt Dolina Chochołowska - Goralisches Abenteuer mit Trio Travel",
@@ -2118,11 +2191,11 @@
         }
     },
     "promoModal": {
-        "header": "First Minute für Winter-Schlittenfahrten!",
-        "text": "Buchen Sie Winter-Schlittenfahrten früher und fahren Sie günstiger!",
-        "text2": "Jetzt die besten Preise für ein Winterabenteuer!",
-        "alt": "Pferde mit Menschen und Kutschen während einer Schlittenfahrt in Zakopane in winterlicher, schneereicher Atmosphäre",
-        "button": "Angebot ansehen!"
+        "header": "Verlieben Sie sich in eine Schlittenfahrt!",
+        "text": "Suchen Sie nach einer besonderen Idee für den Valentinstag? Nehmen Sie Ihre bessere Hälfte mit auf eine magische Schlittenfahrt unter dem Sternenhimmel.",
+        "text2": "Buchen Sie eine romantische Schlittenfahrt mit Lagerfeuer und spüren Sie die Magie der Tatra!",
+        "alt": "Ein verliebtes Paar in einem Pferdeschlitten, umgeben von einer Winterlandschaft und dem Schein von Fackeln in Zakopane",
+        "button": "Jetzt buchen!"
     },
     "blog": {
         "header": "Unser Blog",

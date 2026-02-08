@@ -98,10 +98,10 @@ export default function Spacer() {
         <div id="szczegoly-wycieczki" className="mt-16">
           <BackgroundList
             title={t("header3")}
-            items={Array.from({ length: 3 }, (_, i) =>
+            items={Array.from({ length: 4 }, (_, i) =>
               t.rich(`list.${i + 1}`, {
                 strong: (chunks) => <strong>{chunks}</strong>,
-              })
+              }),
             )}
           />
           <TripProgram

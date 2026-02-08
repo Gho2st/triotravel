@@ -43,6 +43,14 @@ export const routing = defineRouting({
       hu: "/szánkózás/hegyvidéki-koscielisko",
       es: "/paseos-en-trineo/montanes-koscielisko",
     },
+    "/kuligi/walentynkowy": {
+      pl: "/kuligi/walentynkowy",
+      en: "/sleigh-rides/valentine",
+      de: "/schlittenfahrten/valentinstag",
+      ar: "/zalajat/valentine",
+      hu: "/szankozas/valentin-napi",
+      es: "/paseos-en-trineo/san-valentin",
+    },
     "/kuligi/dolina-chocholowska": {
       pl: "/kuligi/dolina-chocholowska",
       en: "/sleigh-rides/chocholowska-valley",

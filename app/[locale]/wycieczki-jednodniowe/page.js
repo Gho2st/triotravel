@@ -277,7 +277,7 @@ export default function Atrakcje() {
         {/* ZIMA = jedna wielka sekcja bez kategorii */}
         {isWinter ? (
           <div className="mb-24">
-            <LineHeader text="Zimowe wycieczki i atrakcje" />
+            <LineHeader text={t("trips.winterHeader2")} />
             <div className="grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10 2xl:gap-12 mt-10 justify-center">
               {articles.map((article, index) => (
                 <Card
@@ -306,7 +306,7 @@ export default function Atrakcje() {
                 <div className="grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10 2xl:gap-12 mt-10 justify-center">
                   {articles
                     .filter((a) =>
-                      cat.id === "popular" ? a.popular : a.category === cat.id
+                      cat.id === "popular" ? a.popular : a.category === cat.id,
                     )
                     .map((article, index) => (
                       <Card

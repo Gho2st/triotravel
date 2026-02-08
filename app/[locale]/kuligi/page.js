@@ -41,6 +41,12 @@ export default function Kuligi() {
       link: "/kuligi/dolina-chocholowska",
       p: t("cards.2.text"),
     },
+    {
+      title: t("cards.4.header"),
+      image: "/walentynki.svg",
+      link: "/kuligi/walentynkowy",
+      p: t("cards.4.text"),
+    },
     // {
     //   title: t("cards.3.header"),
     //   image: "/kuligi/sylwestrowy.webp",
@@ -52,14 +58,13 @@ export default function Kuligi() {
     <>
       <Header text={t("header")} />
       <section className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
-        {/* NAPIS Z LINIAMI PO BOKU */}
         <LineHeader text={t("header2")} />
         <div className="md:w-3/4 mx-auto text-center mt-16">
           <p className="xl:text-xl">
             <span className="font-bold">TrioTravel</span> {t("text")}
           </p>
         </div>
-        <div className="grid md:grid-cols-2 gap-10 lg:gap-12 mt-20 max-w-7xl mx-auto px-4">
+        <div className="grid md:grid-cols-3 gap-10 lg:gap-12 mt-20  mx-auto px-4">
           {articles.map((article, index) => (
             <Card key={index} article={article} />
           ))}

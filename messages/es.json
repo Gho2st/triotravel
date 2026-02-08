@@ -165,6 +165,7 @@
         "trips": {
             "header": "Excursiones de un día desde Zakopane - Verano",
             "winterHeader": "Oferta Invernal TrioTravel",
+            "winterHeader2": "Excursiones y atracciones de invierno",
             "winterText": "Termas, Templo de Hielo, Kasprowy Wierch, Paseo entre las Copas de los Árboles y más – ¡solo en invierno!",
             "polandHeader": "Atracciones polacas de un día desde Zakopane",
             "foreignHeader": "Excursiones al extranjero desde Zakopane",
@@ -699,9 +700,10 @@
                     "4": "Atracción para todo el año: invierno de cuento, verano verde intenso, otoño dorado"
                 },
                 "list": {
-                    "1": "Comenzarás el día en Zakopane, desde donde en transporte cómodo nos dirigimos al Valle de Bachledova. Allí espera el telecabina, que en 7 minutos nos sube a la cima de Magura Spiska.",
-                    "2": "La Senda entre las Copas de los Árboles son más de un kilómetro de pasarela de madera elevándose hasta 24 metros sobre el suelo, terminada en torre mirador de 32 metros. La ruta es accesible todo el año y completamente adaptada para familias con niños y personas con movilidad reducida. En el paseo encontrarás plataformas mirador, carteles educativos sobre naturaleza de los Tatras y tobogán tubular para niños mayores.",
-                    "3": "Tras la visita a Bachledka nos dirigimos hacia Štrbské Pleso (Lago Štrbské) – uno de los lugares más pintorescos de los Altos Tatras. Aproximadamente 2 horas de tiempo libre te permitirán paseo tranquilo por el paseo alrededor del lago, tomar café en cafetería con ambiente o comprar recuerdos locales. Independientemente de la época del año, la vista de montañas reflejadas en la superficie del lago impresiona enormemente."
+                    "1": "El Sendero entre las Copas de los Árboles es una atracción única que permite admirar la naturaleza desde una perspectiva totalmente diferente. La pasarela de madera se eleva sobre el suelo, entre abetos y pinos, ofreciendo vistas inolvidables de montañas y valles. Es ideal para familias, parejas y amantes de la naturaleza en un entorno tranquilo y pintoresco.",
+                    "2": "La ruta está abierta todo el año y adaptada para todos, incluidas personas con discapacidad y familias con niños pequeños. Se puede subir en teleférico góndola, facilitando el acceso sin esfuerzo. También hay cochecitos de bebé disponibles para alquilar en el lugar.",
+                    "3": "Tras visitar Bachledka, nos dirigimos a Štrbské Pleso (Lago Štrbské), uno de los lugares más bellos de los Altos Tatras. El agua cristalina refleja las cumbres, y el paseo alrededor del lago (aprox. 2,5 km) es perfecto para caminar, tomar un café con vistas o comprar recuerdos. En verano y otoño, dispondrán de unas 2 horas de tiempo libre.",
+                    "4": "En invierno el lago es mágico, pero debido a las condiciones climáticas (niebla, viento fuerte, nieve) y al acceso difícil (hielo, tráfico), el tiempo libre puede reducirse o cancelarse. En ese caso, paramos en los mejores miradores para hacer fotos y tomar café, pasando más tiempo en Bachledka (que siempre es cómodo y seguro) y regresando antes a Zakopane por la comodidad y seguridad del grupo."
                 },
                 "table": {
                     "header1": "Tipo de entrada",
@@ -714,16 +716,16 @@
                 "tripprogram": {
                     "header": "Programa de la Excursión (aprox. 8-9h):",
                     "1": "Traslado desde Zakopane",
-                    "2": "Salida en telecabina Bachledka a la cima de Magura Spiska",
-                    "3": "Paseo por la senda entre las Copas de los Árboles",
-                    "4": "Bajada en telecabina",
-                    "5": "Viaje a Štrbské Pleso (Tiempo libre 2 horas)",
-                    "6": "Salida a Zakopane",
-                    "7": "Salida de regreso",
+                    "2": "Subida en teleférico góndola a la cima de Magura Spiska",
+                    "3": "Caminata por el Sendero entre las Copas de los Árboles",
+                    "4": "Bajada en teleférico",
+                    "5": "Traslado a Štrbské Pleso (tiempo libre aprox. 2h – en invierno puede ser menor*)",
+                    "6": "Salida hacia Zakopane",
+                    "7": "Viaje de regreso",
                     "8": "Regreso previsto",
-                    "info": "*En caso de muy alta afluencia turística, condiciones meteorológicas desfavorables o grandes atascos – la visita a Štrbské Pleso puede acortarse o omitirse completamente (ampliando tiempo en Bachledka y regreso anticipado para comodidad del grupo).",
+                    "info": "*En caso de condiciones climáticas desfavorables, tráfico intenso o dificultades en la carretera, la visita a Štrbské Pleso puede acortarse o cancelarse (ampliando el tiempo en Bachledka y regresando antes por comodidad del grupo)",
                     "button": "Condiciones de Participación",
-                    "text2": "Cada participante debe tener pasaporte válido o documento de identidad. En caso de mal tiempo o condiciones inadecuadas en el sendero nos reservamos el derecho a cambiar la ruta de la excursión o orden de visita. La cancelación del evento por falta de cantidad adecuada de participantes puede ocurrir a más tardar 1 día antes del inicio del evento hasta las 21:00. El viaje se realiza fuera de las fronteras de Polonia. Deben cumplirse todas las condiciones sanitario-epidemiológicas vigentes en el país de destino - Eslovaquia."
+                    "text2": "Cada participante debe tener un pasaporte o DNI válido. En caso de mal tiempo o condiciones inadecuadas, nos reservamos el derecho de cambiar la ruta o el orden de la visita. La cancelación por falta de participantes puede ocurrir hasta las 21:00 del día anterior. La excursión se realiza fuera de Polonia. Deben cumplirse los requisitos sanitarios vigentes en el país de destino (Eslovaquia)."
                 }
             },
             "jaskinia-bielanska": {
@@ -1376,6 +1378,10 @@
             "3": {
                 "header": "Paseo en Trineo en Nochevieja",
                 "text": "¡Recibe el Año Nuevo con brío – paseo en trineo de noche, hoguera, cena de Nochevieja y recuerdos inolvidables!"
+            },
+            "4": {
+                "header": "Paseo en Trineo de San Valentín",
+                "text": "Pasad una velada mágica en pareja: un atmosférico paseo en trineo con antorchas, una hoguera romántica con vino caliente y una banda de música tradicional tocando para los enamorados."
             }
         },
         "whysleighrides": {
@@ -1487,6 +1493,69 @@
                     "12": {
                         "header": "¿Cómo contactar con TrioTravel en caso de preguntas adicionales?",
                         "text": "Cualquier pregunta o duda diríjanla directamente a nosotros: Teléfono: 881 201 205 Email: biuro@triotravel.eu Puntos Presenciales: ul. Kościuszki 23a, ul. Zamoyskiego 8 o ul. Piłsudskiego 69a."
+                    }
+                }
+            }
+        },
+        "valentine": {
+            "header": "Paseo Romántico en Trineo de San Valentín en Kościelisko",
+            "header2": "Momentos excepcionales para dos",
+            "header3": "En el programa de la noche de San Valentín ofrecemos",
+            "header4": "Precios para una aventura romántica",
+            "list": {
+                "1": "Recogida cómoda desde su lugar de alojamiento en Kościelisko o Zakopane (calle Nędzy Kubińca y alrededores).",
+                "2": "Paseo atmosférico en trineo con antorchas bajo el cielo estrellado de los Tatra.",
+                "3": "Aperitivo regional junto al fuego compartido: salchicha aromática, té con alcohol o vino caliente.",
+                "4": "Banquete montañés en un ambiente romántico con los sonidos de una banda en vivo.",
+                "5": "Sesión de fotos inolvidable en el paisaje invernal de Kościelisko."
+            },
+            "text": "¿Buscas una idea para un San Valentín inolvidable? El <strong>Paseo en Trineo de San Valentín en Kościelisko</strong> es la receta perfecta para una noche romántica. Un viaje en trineo por campos nevados, iluminado únicamente por el brillo de las <strong>antorchas</strong>, crea una atmósfera íntima y mágica que no encontrarás en ningún otro lugar. La expedición de <strong>aprox. 1h</strong> es un tiempo solo para vosotros, lejos del bullicio de la ciudad, rodeados por los majestuosos Tatra. Después del paseo, os invitamos a un <strong>banquete montañés junto a la hoguera</strong>, donde al son de notas románticas de la banda disfrutaréis de una comida regional y os calentaréis con <strong>vino caliente</strong>. Es más que una atracción: es un recuerdo que se quedará con vosotros por años.",
+            "info": "Horarios disponibles para San Valentín: 16:00, 17:00, 18:00, 19:00 (Proporcionamos transporte 40 min antes del inicio)",
+            "table": {
+                "header1": "Opción de entrada",
+                "header2": "Lista de precios San Valentín 2026",
+                "3": "Entrada normal",
+                "4": "Entrada reducida (para grupos familiares)",
+                "header3": "*El paquete de San Valentín incluye:",
+                "list": {
+                    "1": "Transporte privado (puerta a puerta) desde Zakopane y Kościelisko",
+                    "2": "Mágico paseo en trineo a la luz de la luna y las antorchas",
+                    "3": "Banquete junto a la hoguera en el corazón de las montañas",
+                    "4": "Menú ilimitado: salchicha, manteca artesanal, bigos, quesos oscypek, té y vino caliente",
+                    "5": "* En caso de falta de nieve, la cita se realiza en elegantes coches de caballos o carruajes"
+                }
+            },
+            "faq": {
+                "header": "Preguntas sobre el paseo de San Valentín (FAQ)",
+                "text": "¿Planeas <strong>San Valentín en las montañas?</strong> Consulta las respuestas a las preguntas más frecuentes sobre nuestros paseos de San Valentín.",
+                "list": {
+                    "1": {
+                        "header": "¿Cuánto dura todo el evento y es romántico?",
+                        "text": "Toda la experiencia dura de 2,5 a 3,5 horas. Comenzamos con un atmosférico paseo en trineo (1h), seguido de una hora de banquete con una banda. El ambiente es excepcionalmente acogedor gracias a las antorchas y la cercanía de la naturaleza."
+                    },
+                    "2": {
+                        "header": "¿Qué pasa si queremos llevar niños al paseo de San Valentín?",
+                        "text": "¡Por supuesto! San Valentín es una fiesta del amor en todas sus formas. Los niños son bienvenidos: los menores de 3 años viajan gratis, y los niños de 3 a 10 años utilizan entradas reducidas."
+                    },
+                    "3": {
+                        "header": "¿Qué sirven de comer durante el banquete?",
+                        "text": "Hemos preparado un menú rico en detalles: bigos montañés, salchichas para asar, oscypek con arándanos, pan con manteca y pepinos en vinagre. Servimos té caliente y vino caliente ilimitado, ideal para una noche de invierno."
+                    },
+                    "4": {
+                        "header": "¿El vino caliente está incluido en el precio?",
+                        "text": "Sí, nuestro vino caliente y el té montañés están disponibles sin límite durante el banquete junto a la hoguera para que podáis disfrutar plenamente de vuestro tiempo juntos."
+                    },
+                    "5": {
+                        "header": "¿Cómo prepararse para una cita de San Valentín en la nieve?",
+                        "text": "Aunque proporcionamos mantas y pieles cálidas en los trineos y la hoguera calienta mucho, recomendamos vestir por capas. Botas calientes, gorro y guantes son esenciales para que el frío no estropee los momentos románticos."
+                    },
+                    "6": {
+                        "header": "¿El transporte está incluido en el precio?",
+                        "text": "Sí, nos cuidamos de vuestra comodidad. Os recogeremos en vuestro alojamiento y os llevaremos de vuelta tras finalizar la diversión para que podáis disfrutar libremente del vino caliente y el ambiente."
+                    },
+                    "7": {
+                        "header": "¿Cómo reservar una fecha para el 14 de febrero?",
+                        "text": "¡Las plazas para San Valentín se agotan muy rápido! Recomendamos reservar online o por teléfono al número 881 201 205 con al menos unos días de antelación."
                     }
                 }
             }
@@ -1789,6 +1858,10 @@
         "koscielisko": {
             "title": "Paseo en Trineo Montañés Kościelisko - Aventura Inolvidable con Trio Travel",
             "description": "¡Invitamos al pintoresco Paseo en Trineo Montañés en Kościelisko con Trio Travel! Disfruta de una hora de paseo en trineos con antorchas, hoguera, deliciosa degustación y música montañesa en vivo. Recogida desde Zakopane y Kościelisko incluida. Entradas desde 130 PLN. ¡Reserva online y vive aventura invernal inolvidable en los Tatras!"
+        },
+        "walentynkowy": {
+            "title": "Paseo Romántico en Trineo San Valentín en Koscielisko | Cita en los Tatra",
+            "description": "¿Buscas ideas para San Valentín? ¡Disfruta de un paseo mágico para dos en Koscielisko! Incluye: trineo bajo las estrellas, hoguera, vino caliente y música en vivo. Transporte desde Zakopane incluido. ¡Reserva una noche inolvidable!"
         },
         "dolina-chocholowska": {
             "title": "Paseo en Trineo VIP Valle de Chochołów - Aventura Montañesa con Trio Travel",
@@ -2118,11 +2191,11 @@
         }
     },
     "promoModal": {
-        "header": "¡First Minute para Paseos en Trineo Invernales!",
-        "text": "¡Reserva paseos en trineo invernales antes y viaja más barato!",
-        "text2": "¡Ahora los mejores precios para aventura invernal!",
-        "alt": "Caballos con personas y carruajes durante paseo en trineo en Zakopane con ambiente invernal lleno de nieve",
-        "button": "¡Revisa la oferta!"
+        "header": "¡Enamórate del paseo en trineo!",
+        "text": "¿Buscas una idea única para San Valentín? Lleva a tu pareja a un mágico paseo en trineo bajo las estrellas.",
+        "text2": "¡Reserva un romántico paseo en trineo con hoguera y siente la magia de los Tatra!",
+        "alt": "Pareja enamorada en un trineo tirado por caballos, rodeada de un paisaje invernal y el brillo de las antorchas en Zakopane",
+        "button": "¡Reserva ahora!"
     },
     "blog": {
         "header": "Nuestro Blog",
