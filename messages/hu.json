@@ -412,20 +412,17 @@
                     "9": "Egy vár egy szigeten helyezkedik el, körülötte víz, fák és tiszta égbolt a háttérben. A táj magában foglal egy víztározót és hegyeket, valamint felhőket a felett. Zöld fű borítja a víztest partját.",
                     "10": "Egy vár egy dombon ül, áttekintve egy víztömeget, körülötte fák és hegyek felhős égbolt alatt. Egy híd ível át a víztározón, egy vonat látható a közelben a tájban."
                 },
-                "header": "Tutajozás a Dunajecen Zakopanéból – Szczawnica 2,5 óra",
-                "header2": "Mit tartalmaz a program?",
-                "header3": "Pieninek – Tutajozás és Niedzica felfedezése",
-                "text": "Egy felejthetetlen napot állítottunk össze, amely különlegessé teszi kirándulását. A <strong>Dunajecen való tutajozás Zakopanéból</strong> az egyik legszebb módja annak, hogy élvezze a természetet, a történelmet és a pihenést Dél-Lengyelországban. A <strong>hagyományos fából készült tutajon</strong> történő utazás során, a festői <strong>Pieninek</strong> között, színes történeteket hallhat a tutajozóktól a folyóról és a régió legendáiról.<br /><br />És ez még nem minden! A program része a <strong>niedzicai vár</strong> megtekintése, a Dunajeci vízerőmű látogatása és a <strong>Podhale, Árva és Szepes makettparkja</strong> is – tökéletes lehetőség a lengyel–szlovák határvidék kultúrájának és történelmének megismerésére.",
+                "header": "Tutajozás a Dunajecen – Lengyel útvonal",
+                "header2": "Mit tartalmaz a kirándulás?",
+                "header3": "Dunajec-áttörés – a hamisítatlan természet",
+                "text": "A dunajeci tutajozás Lengyelország egyik legismertebb és legnépszerűbb turisztikai látványossága. A tutajokat irányító tutajosok (flisákok) már több mint 200 éve szelik át a Dunajec-áttörést, ma pedig – a TrioTravel komplex szervezésének köszönhetően – Ön is átélheti ezt az egyedülálló hagyományt egy kényelmes, Zakopanéból induló egynapos kirándulás keretében. Ez az ajánlat azoknak szól, akik szeretnék látni az érintetlen természetet, érezni a hegyi folyó nyugalmát, megismerni a helyi legendákat, miközben teljes körű szervezést, biztonságot és tapasztalt túraszervezői felügyeletet élveznek. <strong>A lengyel tutajozás útvonala Sromowce Wyżne faluból Szczawnicába vezet, és körülbelül 18 kilométer hosszú.</strong> A Dunajec folyó itt vágja át a Pienineket, látványos áttörést hozva létre a több száz méter magas mészkőfalak között.",
                 "list": {
-                    "1": "<strong>Sétahajózás a Czorsztyni-tavon</strong> – csodálja meg <strong>a niedzicai várat</strong>, <strong>a czorsztyni romokat</strong>, <strong>a vízerőművet</strong> és a hegyi tájat egy pihentető hajóút során.",
-                    "2": "<strong>Niedzicai vár</strong> – egy 14. századi erőd, amely Janosik legendájához kapcsolódik. A történet szerint itt tartották fogva a híres betyárt. Időutazás a történelemben.",
-                    "3": "<strong>Czorsztyni víztározó és gát</strong> – lenyűgöző mérnöki alkotás, <strong>látványos 3D falfestménnyel</strong> díszítve. A kilátás különösen napos időben lenyűgöző.",
-                    "4": "<strong>Podhale, Árva és Szepes makettparkja</strong> – családbarát látványosság, amely a térség építészeti örökségét mutatja be. Mellette <strong>kötélpálya</strong> is található.",
-                    "5": "<strong>UNESCO világörökség: Dębno fatemploma</strong> – visszafelé megállunk a <strong>XV. századi gótikus fatemplomnál</strong>, amelyet egy 20 perces ismertető kísér.",
-                    "6": "<strong>Podhale és Szepes hagyományos konyhája</strong> – kóstolja meg az oscypek sajtot, a kwaśnica levest és más helyi finomságokat górál éttermekben.",
-                    "7": "<strong>Helyi szuvenírek és kézműves termékek</strong> – sajtok, hímzések, fa tárgyak, természetes kozmetikumok várják a kézműves piacokon.",
-                    "8": "<strong>Pieninek Nemzeti Park</strong> – látogassa meg a híres Trzy Korony és Sokolica sziklaképződményeket. Lélegzetelállító természetélmény.",
-                    "9": "<strong>Zakopanei szállodai felvétel + online foglalás</strong> – megszervezzük az utazást: <strong>szállodai pickup</strong> és <strong>gyors tutajozási foglalás</strong>. Kiemelt időszakban garantált hely!"
+                    "1": "A Három Korona-hegység (Trzy Korony) – a Pieninek jelképe, a híres Sokolica-csúcs, a Pieninek Nemzeti Park vadregényes, védett szakaszai, számos folyókanyarulat, sziklaszirtek és természetes képződmények. <strong>Ez a táj minden évszakban lenyűgözi a látogatókat, és hosszú ideig emlékezetes marad</strong> – békés, fenséges és teljesen kiszakít a mindennapi rohanásból.",
+                    "2": "Hagyományos tutajozás tutajosokkal – A kirándulás fa tutajon zajlik, amelyet <strong>engedéllyel rendelkező pienini tutajosok</strong> irányítanak, akik generációk óta örökítik tovább ezt a hagyományt. Minden tutaj maximum 12 személyes, ami biztosítja a kényelmet és a családias hangulatot.",
+                    "3": "<strong>A hajózás során a tutajosok:</strong> mesélnek a tutajozás történetéről, megosztják a helyi legendákat és anekdotákat, valamint érdekességeket mutatnak be a régióról és a természetről.",
+                    "4": "A tutajozás időtartama körülbelül <strong>2,5 óra</strong> nyugodt, pihentető utazás a vízen. Az útvonal biztonságos, szelíd, így kisgyermekes családok, idősek és vízi tapasztalattal nem rendelkezők számára is ideális.",
+                    "5": "<strong>Kényelmes szállítás</strong> Zakopanéból és Kościeliskóból (felvétel a szálláshelyről), szabadidő a Csorsztyni-tónál és a niedzicai gátnál (kb. 2 óra), rövid előadás és látogatás a debrői (Dębno) fatemplomban (UNESCO világörökségi helyszín), lehetőség a Niedzica-vár megtekintésére (külön jegy ellenében), idegenvezetői felügyelet és gördülékeny szervezés egész nap. A teljes program körülbelül 8 órát vesz igénybe, így tökéletes választás egy tartalmas egynapos kiránduláshoz Zakopanéból.",
+                    "6": "<strong>Kinek ajánljuk ezt a kirándulást?</strong> A dunajeci tutajozás lengyel változatát javasoljuk: kisgyermekes családoknak, pároknak és baráti társaságoknak, időseknek, Zakopanéba először látogatóknak, valamint mindenkinek, aki nyugodt, látványos és fizikai erőfeszítést nem igénylő kikapcsolódásra vágyik. Ez azon kevés kirándulások egyike, amely egyesíti a természetet, a hagyományt és a relaxációt, a városi látványosságokra jellemző rohanás és tömeg nélkül."
                 },
                 "info": "A tutajos szezon április 1-től október 31-ig tart – hétköznap, péntek és vasárnap. Tehát minden nap várjuk a kirándulásra!",
                 "table": {
@@ -447,6 +444,72 @@
                     "6": "A templom megtekintése a gondnok vezetésével",
                     "7": "Visszautazás",
                     "8": "Tervezett érkezés Zakopanéba"
+                },
+                "faq": {
+                    "header": "Gyakran Ismételt Kérdések (GYIK)",
+                    "text": "Kérdéseid vannak a <strong>dunajeci tutajozással</strong> kapcsolatban? Itt megtalálod a válaszokat azokra, amelyeket a leggyakrabban kapunk.",
+                    "list": {
+                        "1": {
+                            "header": "Mi különbözteti meg a TrioTravel dunajeci tutajozását?",
+                            "text": "A TrioTravelnél a dunajeci tutajozás nemcsak magát a tutajt jelenti. Ez egy komplex, egész napos kirándulás, ahol minden részletet úgy terveztünk meg, hogy maximális élményt nyújtson teljes kényelem mellett."
+                        },
+                        "2": {
+                            "header": "Milyen hosszú a dunajeci tutajozás?",
+                            "text": "Maga a tutajozás a Sromowce Wyżne – Szczawnica útvonalon körülbelül 2,5 órát vesz igénybe. A TrioTravel által szervezett teljes egynapos kirándulás a szállítással, megállókkal és egyéb látnivalókkal együtt átlagosan körülbelül 8 órás."
+                        },
+                        "3": {
+                            "header": "Biztonságos a dunajeci tutajozás?",
+                            "text": "Igen. A dunajeci tutajozás Lengyelország egyik legbiztonságosabb vízi látványossága. Stabil, hagyományos tutajokon zajlik, amelyeket engedéllyel rendelkező pieniny-i tutajosok irányítanak, akik tökéletesen ismerik a folyót és annak sodrását. Az útvonalon nincsenek nehéz zúgók vagy veszélyes szakaszok."
+                        },
+                        "4": {
+                            "header": "Gyerekek számára is alkalmas a program?",
+                            "text": "Igen, a dunajeci tutajozás családi program. A gyerekek felnőtt felügyelete mellett vehetnek részt rajta. A legkisebbek számára kedvezményes jegyek érhetőek el, a 12 hónaposnál fiatalabb gyermekekre pedig speciális ár vonatkozik. Az útvonal nyugodt és fizikailag nem megterhelő."
+                        },
+                        "5": {
+                            "header": "Idősebbek is részt vehetnek a tutajozáson?",
+                            "text": "Természetesen. A dunajeci tutajozást nagyon gyakran választják idősek is, mivel nem igényel fizikai állóképességet, hosszú gyaloglást vagy megerőltetést. A tutajra való fel- és leszállás nyugodt körülmények között, a tutajosok felügyeletével történik."
+                        },
+                        "6": {
+                            "header": "Mit tartalmaz a kirándulás ára?",
+                            "text": "A TrioTravel kirándulásának ára tartalmazza: szállítást kényelmes busszal vagy kisbusszal Zakopanéból és Kościeliskóból, a dunajeci tutajozást a lengyel útvonalon tutajosokkal, idegenvezetői kíséretet, balesetbiztosítást (NNW), szabadidőt a Csorsztyni-tónál és a nedeci gátnál, valamint egy rövid látogatást és előadást a dębnói fatemplomnál (UNESCO). A Nedec-vár belépőjegyei opcionálisak és külön fizetendők."
+                        },
+                        "7": {
+                            "header": "Honnan indul a kirándulás?",
+                            "text": "A résztvevőket közvetlenül a szálláshelyüktől vesszük fel Zakopane és Kościelisko területén, vagy egy előre megbeszélt találkozási pontról. A pontos felvételi időpontot a kirándulás előtti napon visszaigazoljuk."
+                        },
+                        "8": {
+                            "header": "Mikor érünk vissza Zakopanéba?",
+                            "text": "A visszatérés Zakopanéba általában 16:30 és 17:00 között történik, az útviszonyoktól és a program ütemétől függően."
+                        },
+                        "9": {
+                            "header": "Milyen időjárás esetén marad el a tutajozás?",
+                            "text": "A tutajozás a legtöbb időjárási körülmény között zajlik. Erős esőzés, vihar vagy magas vízállás esetén a tutajozás szervezője ideiglenesen felfüggesztheti az indulásokat – ilyen esetben a TrioTravel felveszi a kapcsolatot az ügyfelekkel, és alternatív megoldást vagy időpontmódosítást javasol."
+                        },
+                        "10": {
+                            "header": "Hogyan öltözzünk fel a tutajozáshoz?",
+                            "text": "Javasoljuk: kényelmes, az időjárásnak megfelelő ruházat, könnyű kabát vagy pulóver (a folyón hűvösebb lehet), kényelmes sportcipő, napsütéses napokon fejfedő. Nincs szükség speciális felszerelésre vagy vízhatlan ruházatra."
+                        },
+                        "11": {
+                            "header": "Lehet-e ételt és italt vinni?",
+                            "text": "Igen, vihetsz magaddal kisebb harapnivalót és italt. Ezenkívül a kirándulás során biztosítunk szabadidőt, amikor igénybe veheted a helyi vendéglátóhelyeket."
+                        },
+                        "12": {
+                            "header": "Van-e mosdó a tutajon?",
+                            "text": "Nem, a tutajokon nincs mosdó. A tutajozás megkezdése előtt a kikötőnél, valamint a szczawnicai pihenő alatt és a nedeci gátnál is rendelkezésre állnak mosdók."
+                        },
+                        "13": {
+                            "header": "Minden nap van tutajozás?",
+                            "text": "A tutajozás szezonális – általában áprilistól októberig tart, az időjárási és vízrajzi körülményektől függően. A pontos időpontok a TrioTravel aktuális menetrendjében érhetőek el."
+                        },
+                        "14": {
+                            "header": "Szükségesek okmányok?",
+                            "text": "A lengyel útvonalon nincs szükség személyazonosító okmányokra. A tutajozás teljes egészében a lengyel oldalon zajlik."
+                        },
+                        "15": {
+                            "header": "Összeköthető-e a tutajozás más kirándulásokkal?",
+                            "text": "Igen. Ügyfeleink gyakran kombinálják a dunajeci tutajozást más látnivalókkal, például termálfürdőkkel, szlovákiai kirándulásokkal vagy a Wieliczkai Sóbányával – szívesen adunk tanácsot a legjobb logisztikai megoldáshoz."
+                        }
+                    }
                 },
                 "funfact": {
                     "header": "Érdekességek a Dunajec tutajozásról",
