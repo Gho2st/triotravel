@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 export default function FAQSection({ faq }) {
   const [openIndex, setOpenIndex] = useState(null);
 
+  // 1. Przygotowanie danych
   const faqs = Object.keys(faq.list)
     .sort((a, b) => Number(a) - Number(b))
     .map((key) => ({
@@ -13,8 +14,28 @@ export default function FAQSection({ faq }) {
       answer: faq.list[key].text,
     }));
 
+  // 2. Generowanie schematu JSON-LD dla Google
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer.replace(/<[^>]*>?/gm, ""), // Usuwamy tagi HTML dla czystości danych
+      },
+    })),
+  };
+
   return (
     <section className="py-20 bg-white border-t border-gray-200">
+      {/* 3. Wstrzyknięcie danych strukturalnych */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       <div className="container mx-auto px-4">
         <h2 className="text-2xl xl:text-3xl 2xl:text-4xl font-extrabold text-center text-gray-900">
           {faq.header}
