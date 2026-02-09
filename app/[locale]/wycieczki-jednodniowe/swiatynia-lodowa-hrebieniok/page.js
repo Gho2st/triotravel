@@ -49,8 +49,8 @@ export default function Spacer() {
 
   const faqData = {
     header: f("header"),
-    text: f.raw("text"), // raw działa też po server-side
-    list: f.raw("list"), // cały obiekt { "1": { header, text }, "2": ... }
+    text: f.raw("text"),
+    list: f.raw("list"),
   };
 
   const tripItems = [

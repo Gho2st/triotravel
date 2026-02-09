@@ -6,6 +6,7 @@ import Table from "@/app/UI/Table";
 import Gallery from "@/app/UI/Slider";
 import TripProgram from "@/app/UI/TripProgram";
 import FunFact from "@/app/UI/FunFact";
+import FAQSection from "@/app/UI/Trips/Faq";
 import { useTranslations } from "next-intl";
 
 import { getTranslations } from "next-intl/server";
@@ -40,6 +41,13 @@ export async function generateMetadata({ params }) {
 
 export default function Splywzakopane() {
   const t = useTranslations("offer.tripslist.splyw-dunajcem-zakopane");
+  const f = useTranslations("offer.tripslist.splyw-dunajcem-zakopane.faq");
+
+  const faqData = {
+    header: f("header"),
+    text: f.raw("text"),
+    list: f.raw("list"),
+  };
 
   const tripItems = [
     "8:00 - " + t("tripprogram.1"),
@@ -82,10 +90,10 @@ export default function Splywzakopane() {
         <div className="flex justify-center mt-16">
           <BackgroundList
             title={t("header3")}
-            items={Array.from({ length: 9 }, (_, i) =>
+            items={Array.from({ length: 6 }, (_, i) =>
               t.rich(`list.${i + 1}`, {
                 strong: (chunks) => <strong>{chunks}</strong>,
-              })
+              }),
             )}
           />
         </div>
@@ -100,6 +108,7 @@ export default function Splywzakopane() {
           />
           <TripProgram title={t("tripprogram.header")} items={tripItems} />
           <TripTime />
+          <FAQSection faq={faqData} />
         </div>
       </section>
       <div className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
