@@ -1,19 +1,22 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 import { routing, usePathname, useRouter } from "@/i18n/routing";
 import { useLocale } from "next-intl";
 
-const ReactCountryFlag = dynamic(() => import("react-country-flag"), {
-  ssr: false,
-});
+const ReactCountryFlag = dynamic(() => import("react-country-flag"));
 
 export default function LocaleSwitcher() {
   const router = useRouter();
   const pathname = usePathname();
   const locale = useLocale();
   const [isOpen, setIsOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   function changeLocale(nextLocale) {
     router.replace(pathname, { locale: nextLocale });
@@ -36,15 +39,19 @@ export default function LocaleSwitcher() {
         aria-label={`Change language. Current language is ${locale.toUpperCase()}`}
         className="flex items-center border border-gray-300 p-1 xl:p-2 rounded-lg bg-white text-black hover:bg-gray-100 transition-colors"
       >
-        <span className="flex items-center">
-          <ReactCountryFlag
-            countryCode={localeFlags[locale]}
-            svg
-            style={{ width: "1.5em", height: "1.5em", marginRight: "0.25em" }}
-            title={locale.toUpperCase()}
-            aria-hidden="true"
-            role="img"
-          />
+        <span className="flex items-center min-w-[3.5rem]">
+          {mounted ? (
+            <ReactCountryFlag
+              countryCode={localeFlags[locale]}
+              svg
+              style={{ width: "1.5em", height: "1.5em", marginRight: "0.25em" }}
+              title={locale.toUpperCase()}
+              aria-hidden="true"
+              role="img"
+            />
+          ) : (
+            <div className="w-[1.5em] h-[1.5em] mr-[0.25em] bg-gray-100 rounded-sm animate-pulse" />
+          )}
           <span className="ml-1">{locale.toUpperCase()}</span>
         </span>
         <svg
@@ -76,16 +83,18 @@ export default function LocaleSwitcher() {
               }`}
             >
               <span className="flex items-center">
-                <ReactCountryFlag
-                  countryCode={localeFlags[cur]}
-                  svg
-                  style={{
-                    width: "1.5em",
-                    height: "1.5em",
-                    marginRight: "0.25em",
-                  }}
-                  title={cur.toUpperCase()}
-                />
+                {mounted && (
+                  <ReactCountryFlag
+                    countryCode={localeFlags[cur]}
+                    svg
+                    style={{
+                      width: "1.5em",
+                      height: "1.5em",
+                      marginRight: "0.25em",
+                    }}
+                    title={cur.toUpperCase()}
+                  />
+                )}
                 <span className="ml-2">{cur.toUpperCase()}</span>
               </span>
             </button>

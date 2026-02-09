@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { Link } from "@/i18n/routing";
@@ -135,8 +135,9 @@ export default function Nav() {
               <Button text={t("button")} link={"/rezerwacje"} />
             </li>
           </ul>
-          <LocaleSwitcher />
-
+          <Suspense fallback={<div className="w-10 h-10" />}>
+            <LocaleSwitcher />
+          </Suspense>
           {/* Hamburger Button (Mobile) */}
           <div
             className={`flex items-center gap-5 xl:hidden ${
