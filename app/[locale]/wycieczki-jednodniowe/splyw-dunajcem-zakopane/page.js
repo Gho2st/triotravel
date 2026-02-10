@@ -8,7 +8,6 @@ import TripProgram from "@/app/UI/TripProgram";
 import FunFact from "@/app/UI/FunFact";
 import FAQSection from "@/app/UI/Trips/Faq";
 import { useTranslations } from "next-intl";
-
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import CtaLink from "@/app/UI/CtaLink";

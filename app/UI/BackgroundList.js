@@ -25,7 +25,7 @@ export default function BackgroundList({
         )}
       </div>
 
-      <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6 max-w-5xl mx-auto">
+      <ul className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-3 md:gap-6 mx-auto">
         {items.map((item, index) => (
           <li
             key={index}

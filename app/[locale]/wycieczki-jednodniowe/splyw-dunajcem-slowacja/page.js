@@ -8,7 +8,7 @@ import TripProgram from "@/app/UI/TripProgram";
 import FunFact from "@/app/UI/FunFact";
 import { useTranslations } from "next-intl";
 import TripTime from "@/app/UI/TripTime";
-
+import FAQSection from "@/app/UI/Trips/Faq";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import CtaLink from "@/app/UI/CtaLink";
@@ -21,8 +21,8 @@ export async function generateMetadata({ params }) {
     namespace: "metadata.splyw-dunajcem-slowacja",
   });
 
-  const path = routing.pathnames["/wycieczki-jednodniowe/splyw-dunajcem-slowacja"][locale]; // Pobieramy ścieżkę dla języka
-  // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
+  const path =
+    routing.pathnames["/wycieczki-jednodniowe/splyw-dunajcem-slowacja"][locale];
   const canonicalUrl =
     locale === "pl"
       ? `https://triotravel.pl${path}`
@@ -39,7 +39,13 @@ export async function generateMetadata({ params }) {
 
 export default function Splywslowacja() {
   const t = useTranslations("offer.tripslist.splyw-dunajcem-slowacja");
+  const f = useTranslations("offer.tripslist.splyw-dunajcem-slowacja.faq");
 
+  const faqData = {
+    header: f("header"),
+    text: f.raw("text"),
+    list: f.raw("list"),
+  };
   const customItems = [
     t("list.1"),
     t("list.2"),
@@ -103,9 +109,8 @@ export default function Splywslowacja() {
             title={<>{t("tripprogram.header")}</>}
             items={tripItems}
           />
-          <TripTime
-            availableDays={["Wt", "Czw", "Sob"]} // Przykład: wybrane dni
-          />
+          <TripTime />
+          <FAQSection faq={faqData} />
         </div>
       </section>
       <div className="px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
