@@ -92,7 +92,7 @@ export default function Wieliczka() {
             items={Array.from({ length: 7 }, (_, i) =>
               t.rich(`list.${i + 1}`, {
                 strong: (chunks) => <strong>{chunks}</strong>,
-              })
+              }),
             )}
           />
           <TripProgram
@@ -123,10 +123,6 @@ export default function Wieliczka() {
             {
               url: "/wycieczki/tajemnice-wieliczki/4.webp",
               alt: t("alt.5"),
-            },
-            {
-              url: "/wycieczki/tajemnice-wieliczki/5.webp",
-              alt: t("alt.6"),
             },
             {
               url: "/wycieczki/tajemnice-wieliczki/6.webp",

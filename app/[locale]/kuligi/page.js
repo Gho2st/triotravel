@@ -41,12 +41,12 @@ export default function Kuligi() {
       link: "/kuligi/dolina-chocholowska",
       p: t("cards.2.text"),
     },
-    {
-      title: t("cards.4.header"),
-      image: "/walentynki.svg",
-      link: "/kuligi/walentynkowy",
-      p: t("cards.4.text"),
-    },
+    // {
+    //   title: t("cards.4.header"),
+    //   image: "/walentynki.svg",
+    //   link: "/kuligi/walentynkowy",
+    //   p: t("cards.4.text"),
+    // },
     // {
     //   title: t("cards.3.header"),
     //   image: "/kuligi/sylwestrowy.webp",
@@ -64,9 +64,9 @@ export default function Kuligi() {
             <span className="font-bold">TrioTravel</span> {t("text")}
           </p>
         </div>
-        <div className="grid md:grid-cols-3 gap-10 lg:gap-12 mt-10 xl:mt-20  mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 mt-10 xl:mt-20 max-w-7xl mx-auto">
           {articles.map((article, index) => (
-            <Card key={index} article={article} />
+            <Card key={index} article={article} className="h-full" />
           ))}
         </div>
       </section>
