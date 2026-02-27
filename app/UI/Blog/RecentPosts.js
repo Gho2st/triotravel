@@ -29,7 +29,7 @@ export default function RecentPosts({ blogPosts, layout = "column", locale }) {
 
   return (
     <div className="py-8 p-4 md:p-8 bg-gradient-to-b from-blue-50 to-blue-100 rounded-xl">
-      <h3 className="text-center text-2xl md:text-3xl font-semibold text-customBlue tracking-wide mb-8">
+      <h3 className="text-center text-2xl 2xl:text-3xl font-semibold text-customBlue tracking-wide mb-8">
         {t("header")}
       </h3>
       <div
@@ -55,7 +55,7 @@ export default function RecentPosts({ blogPosts, layout = "column", locale }) {
                 <span className="text-sm text-gray-500 font-medium block mb-3">
                   {formattedDate}
                 </span>
-                <h4 className="text-xl font-semibold mb-3">
+                <h4 className="2xl:text-xl font-semibold mb-3">
                   {post.title || "No Title"}
                 </h4>
                 <Link

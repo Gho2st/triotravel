@@ -17,20 +17,23 @@ export default function Blog({ locale }) {
   const articlesRef = useRef(null);
 
   // 🔹 Połączenie metadanych (blogPosts) z tłumaczeniami
-  const mergedPosts = blogPosts.map((post) => ({
-    ...post,
-    title: t(`blogPosts.${post.id}.title`),
-    subtitle: t(`blogPosts.${post.id}.subtitle`),
-    subtitle2: t(`blogPosts.${post.id}.subtitle2`),
-    contentPart1: t(`blogPosts.${post.id}.contentPart1`),
-    contentPart2: t(`blogPosts.${post.id}.contentPart2`),
-    cta: {
-      link: t(`blogPosts.${post.id}.cta.link`),
-      button: t(`blogPosts.${post.id}.cta.button`),
-      header: t(`blogPosts.${post.id}.cta.header`),
-      text: t(`blogPosts.${post.id}.cta.text`),
-    },
-  }));
+  const mergedPosts = blogPosts
+    .map((post) => ({
+      ...post,
+      title: t(`blogPosts.${post.id}.title`),
+      subtitle: t(`blogPosts.${post.id}.subtitle`),
+      subtitle2: t(`blogPosts.${post.id}.subtitle2`),
+      contentPart1: t(`blogPosts.${post.id}.contentPart1`),
+      contentPart2: t(`blogPosts.${post.id}.contentPart2`),
+      cta: {
+        link: t(`blogPosts.${post.id}.cta.link`),
+        button: t(`blogPosts.${post.id}.cta.button`),
+        header: t(`blogPosts.${post.id}.cta.header`),
+        text: t(`blogPosts.${post.id}.cta.text`),
+      },
+    }))
+    .slice()
+    .reverse();
 
   // 🔹 Filtrowanie wyszukiwania
   const filteredPosts = mergedPosts.filter(

@@ -42,13 +42,11 @@ export default function Favourite({ blogPosts, locale }) {
               <span className="text-sm text-gray-500 font-medium block mb-3">
                 {formattedDate}
               </span>
-              <h4 className="text-xl font-semibold text-gray-800 mb-3">
+              <h4 className="2xl:text-xl font-semibold text-gray-800 mb-3">
                 {post.title}
               </h4>
               <Link
-                href={
-                  post.slug ? `/blog/${post.slug}` : `/blog`
-                }
+                href={post.slug ? `/blog/${post.slug}` : `/blog`}
                 className="inline-block text-gray-500 hover:text-red-500 transition-colors duration-200"
               >
                 {t("button")}
