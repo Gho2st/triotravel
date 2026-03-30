@@ -15,7 +15,7 @@ export default function Offer() {
   const [isPaused, setIsPaused] = useState(false);
 
   // Czy jesteśmy w sezonie zimowym? Możesz to później zastąpić logiką z datą
-  const isWinter = true;
+  const isWinter = false;
 
   const standardGallery = [
     {
@@ -24,7 +24,7 @@ export default function Offer() {
       link: "/wycieczki-jednodniowe/chocholowskie-termy",
     },
     {
-      url: "/wycieczki/spacer-w-koronach-drzew/korony.webp",
+      url: "/wycieczki/spacer-w-koronach-drzew/lato/korony.webp",
       title: t("trips.3"),
       link: "/wycieczki-jednodniowe/spacer-w-koronach-drzew",
     },
@@ -170,7 +170,7 @@ export default function Offer() {
   const resumeAutoplay = () => setIsPaused(false);
 
   return (
-    <section className="relative bg-neutral-100 px-6 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24 overflow-hidden">
+    <section className="relative bg-neutral-100 px-6 md:px-20 xl:px-32 2xl:px-[16%] py-16 md:py-20 2xl:py-24 overflow-hidden">
       <h2 className="text-center pb-12 font-semibold text-3xl md:text-4xl 2xl:text-5xl">
         {t("header")}
       </h2>

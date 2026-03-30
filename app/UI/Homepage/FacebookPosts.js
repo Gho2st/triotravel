@@ -39,7 +39,7 @@ export default function FacebookPosts() {
   }, []);
 
   return (
-    <section className="px-4 xl:px-20 2xl:px-44 pt-24 pb-16">
+    <section className="px-4 xl:px-20 2xl:px-[16%] pt-24 pb-16">
       <div className="text-center mb-8">
         <h2 className="text-3xl xl:text-4xl 2xl:text-5xl font-semibold mb-4 md:mb-10">
           {t("header")}{" "}

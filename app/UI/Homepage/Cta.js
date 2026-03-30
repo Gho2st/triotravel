@@ -9,7 +9,7 @@ export default function Cta() {
       className="bg-img flex justify-center items-center min-h-screen overflow-x-hidden "
       style={{
         backgroundImage:
-          "linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url(/others/kasprowy.webp)",
+          "linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/wycieczki/kasprowy-wierch/4.webp)",
       }}
     >
       <div className=" z-10 text-white text-center px-4 py-8">

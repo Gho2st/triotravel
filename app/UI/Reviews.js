@@ -43,7 +43,7 @@ export default function Reviews() {
 
   return (
     <section
-      className="py-16 xl:py-32  px-6 xl:px-32 2xl:px-44 overflow-x-hidden"
+      className="py-16 xl:py-32  px-6 xl:px-32 2xl:px-[16%] overflow-x-hidden"
       id="opinie"
     >
       <div className="mx-auto text-center">

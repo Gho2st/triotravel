@@ -15,26 +15,26 @@ export default function Hero() {
   const slides = useMemo(
     () => [
       {
-        background: "/wycieczki/spacer-w-koronach-drzew/zima/korony.webp",
+        background: "/wycieczki/spacer-w-koronach-drzew/lato/korony.webp",
         translationKey: "headers.header7", // "Spacer W Koronach Drzew"
         link: "/wycieczki-jednodniowe/spacer-w-koronach-drzew",
       },
-      {
-        background: "/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.webp",
-        translationKey: "headers.header14", // "Hrebieniok"
-        link: "/wycieczki-jednodniowe/swiatynia-lodowa-hrebieniok",
-      },
       // {
-      //   background: "/wycieczki/splyw-dunajcem-zakopane/4.webp",
-      //   translationKey: "headers.header1", // "Spływ Dunajcem?"
-      //   link: "/wycieczki-jednodniowe/splyw-dunajcem-zakopane",
+      //   background: "/wycieczki/swiatynia-lodowa-hrebieniok/hrebieniok.webp",
+      //   translationKey: "headers.header14", // "Hrebieniok"
+      //   link: "/wycieczki-jednodniowe/swiatynia-lodowa-hrebieniok",
       // },
-
       {
-        background: "/kuligi/sylwestrowy2.webp",
-        translationKey: "headers.header13", // kuligi zimowe
-        link: "/kuligi",
+        background: "/wycieczki/splyw-dunajcem-zakopane/6.webp",
+        translationKey: "headers.header1", // "Spływ Dunajcem?"
+        link: "/wycieczki-jednodniowe/splyw-dunajcem-zakopane",
       },
+
+      // {
+      //   background: "/kuligi/sylwestrowy2.webp",
+      //   translationKey: "headers.header13", // kuligi zimowe
+      //   link: "/kuligi",
+      // },
 
       {
         background: "/baner/baner4.webp",
@@ -47,26 +47,26 @@ export default function Hero() {
         translationKey: "headers.header8", // "wieliczka?"
         link: "/wycieczki-jednodniowe/tajemnice-wieliczki",
       },
-      // {
-      //   background: "/wycieczki/jaskinia-bielanska/jaskinia.webp",
-      //   translationKey: "headers.header9", // "jaskinia bielanska"
-      //   link: "/wycieczki-jednodniowe/jaskinia-bielanska",
-      // },
-      // {
-      //   background: "/wycieczki/slowacki-raj/slowacki-raj.webp",
-      //   translationKey: "headers.header10", // "slowacki raj"
-      //   link: "/wycieczki-jednodniowe/slowacki-raj",
-      // },
-      // {
-      //   background: "/wycieczki/biesiada-goralska/5.webp",
-      //   translationKey: "headers.header5", // "Biesiada Goralska?"
-      //   link: "/wycieczki-jednodniowe/biesiada-goralska",
-      // },
-      // {
-      //   background: "/wycieczki/krajobrazy-slowacji/krajobrazy-slowacji.webp",
-      //   translationKey: "headers.header12", // "Krajobraz slowacji"
-      //   link: "/wycieczki-jednodniowe/krajobrazy-slowacji",
-      // },
+      {
+        background: "/wycieczki/jaskinia-bielanska/jaskinia.webp",
+        translationKey: "headers.header9", // "jaskinia bielanska"
+        link: "/wycieczki-jednodniowe/jaskinia-bielanska",
+      },
+      {
+        background: "/wycieczki/slowacki-raj/slowacki-raj.webp",
+        translationKey: "headers.header10", // "slowacki raj"
+        link: "/wycieczki-jednodniowe/slowacki-raj",
+      },
+      {
+        background: "/wycieczki/biesiada-goralska/5.webp",
+        translationKey: "headers.header5", // "Biesiada Goralska?"
+        link: "/wycieczki-jednodniowe/biesiada-goralska",
+      },
+      {
+        background: "/wycieczki/krajobrazy-slowacji/krajobrazy-slowacji.webp",
+        translationKey: "headers.header12", // "Krajobraz slowacji"
+        link: "/wycieczki-jednodniowe/krajobrazy-slowacji",
+      },
       {
         background: "/baner/baner6.webp",
         translationKey: "headers.header4", // "transport?"
@@ -78,7 +78,7 @@ export default function Hero() {
         link: "/transport-nad-morskie-oko",
       },
     ],
-    []
+    [],
   );
 
   const [currentSlide, setCurrentSlide] = useState(0);

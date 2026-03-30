@@ -38,7 +38,7 @@ export default function Atrakcje() {
     list: f.raw("list"),
   };
 
-  const isWinter = true;
+  const isWinter = false;
 
   // LATO
   const standardArticles = [
@@ -55,7 +55,7 @@ export default function Atrakcje() {
     {
       title: t("trips.3"),
       p: t("trips.3p"),
-      image: "/wycieczki/spacer-w-koronach-drzew/korony.webp",
+      image: "/wycieczki/spacer-w-koronach-drzew/lato/korony.webp",
       link: "/wycieczki-jednodniowe/spacer-w-koronach-drzew",
       category: "foreign",
       popular: true,
