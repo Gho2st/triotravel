@@ -39,7 +39,7 @@ export default async function LocaleLayout({ children, params }) {
         <NextIntlClientProvider messages={messages}>
           <ClientBody fontClassName={font.className}>
             <CookieConsent />
-            <SnowEffect />
+            {/* <SnowEffect /> */}
             {children}
           </ClientBody>
         </NextIntlClientProvider>

@@ -126,7 +126,7 @@ a {
 
 /* snieg */
 
-/* @keyframes snow {
+@keyframes snow {
   0% {
     transform: translateY(-100vh) rotate(0deg);
   }
@@ -140,7 +140,7 @@ a {
   top: -10px;
 
   color: #a5d8ff;
-  opacity: 0.6; 
+  opacity: 0.6;
 
   text-shadow: 0 0 2px rgba(50, 100, 200, 0.15);
 
@@ -160,4 +160,4 @@ a {
 .snowflake:nth-child(7n) {
   font-size: 1.5rem;
   animation-duration: 25s;
-} */
+}

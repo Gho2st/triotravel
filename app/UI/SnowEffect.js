@@ -6,7 +6,7 @@ export default function SnowEffect() {
   useEffect(() => {
     const snowContainer = document.createElement("div");
     snowContainer.className =
-      "fixed inset-0 pointer-events-none z-50 overflow-hidden"; // Dodano overflow-hidden, żeby nie robić scrollbara
+      "fixed inset-0 pointer-events-none z-50 overflow-hidden";
 
     const snowCount = window.innerWidth < 768 ? 40 : 80;
 
@@ -16,9 +16,6 @@ export default function SnowEffect() {
       // Losujemy czas trwania animacji (np. 10s - 20s)
       const duration = Math.random() * 10 + 10;
 
-      // KLUCZOWA ZMIANA:
-      // Ustawiamy delay wyłącznie na ujemny, bazując na długości trwania animacji.
-      // Dzięki temu płatek startuje w losowym punkcie swojej trasy (góra, środek, dół).
       const delay = Math.random() * -duration;
 
       snowflake.className = "snowflake";
