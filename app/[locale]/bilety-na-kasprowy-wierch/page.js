@@ -47,7 +47,7 @@ export default function Kasprowy() {
       <div className="relative h-136 w-full">
         <Image
           className="object-cover"
-          src="/others/kasprowy.webp"
+          src="/wycieczki/kasprowy-wierch/4.webp"
           fill
           alt="kolejka jadąca na Kasprowy Wierch"
         />
