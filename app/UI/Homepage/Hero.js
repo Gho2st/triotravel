@@ -25,7 +25,7 @@ export default function Hero() {
       //   link: "/wycieczki-jednodniowe/swiatynia-lodowa-hrebieniok",
       // },
       {
-        background: "/wycieczki/splyw-dunajcem-zakopane/6.webp",
+        background: "/wycieczki/splyw-dunajcem-zakopane/5.webp",
         translationKey: "headers.header1", // "Spływ Dunajcem?"
         link: "/wycieczki-jednodniowe/splyw-dunajcem-zakopane",
       },

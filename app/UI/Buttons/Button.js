@@ -10,7 +10,7 @@ export default function Button({
 }) {
   const classes = `
   ${textColor} 
-  md:text-lg 
+  2xl:text-lg 
   rounded-2xl 
   font-medium 
   whitespace-nowrap 

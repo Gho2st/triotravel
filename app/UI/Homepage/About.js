@@ -35,7 +35,7 @@ export default function About() {
           className="lg:w-1/2"
         >
           <Image
-            src={"/wycieczki/splyw-dunajcem-zakopane/5.webp"}
+            src={"/wycieczki/splyw-dunajcem-slowacja/5.webp"}
             width={100}
             height={100}
             layout="responsive"
