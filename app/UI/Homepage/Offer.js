@@ -59,6 +59,11 @@ export default function Offer() {
       link: "/transport/nad-morskie-oko",
     },
     {
+      url: "/wycieczki/biesiada-goralska/5.webp",
+      title: t("trips.16"),
+      link: "/wycieczki-jednodniowe/zabawa-goralska",
+    },
+    {
       url: "/wycieczki/splyw-dunajcem-zakopane/splyw.webp",
       title: t("trips.1"),
       link: "/wycieczki-jednodniowe/splyw-dunajcem-zakopane",
