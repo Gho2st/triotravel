@@ -142,12 +142,12 @@ export default function Footer() {
           </span>
         )}
         {/* WhatsApp Icon */}
-        <Link
+        <a
           href="https://wa.me/+48881201205"
           className="fixed bg-[#25D366] shadow-2xl rounded-full p-2 text-3xl xl:text-5xl text-white bottom-6 right-6 xl:bottom-16 xl:right-10 z-10"
         >
           <FaWhatsapp className="cursor-pointer" />
-        </Link>
+        </a>
       </footer>
     </>
   );

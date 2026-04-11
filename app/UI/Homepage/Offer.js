@@ -187,7 +187,7 @@ export default function Offer() {
             slider.current?.prev();
             pauseAutoplay();
           }}
-          className="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 z-10 p-3 rounded-full bg-red-600 hover:bg-red-700 text-white shadow-xl transition-all"
+          className="hidden md:flex cursor-pointer absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 z-10 p-3 rounded-full bg-red-600 hover:bg-red-700 text-white shadow-xl transition-all"
           aria-label="Poprzedni slajd"
         >
           <svg
@@ -252,7 +252,7 @@ export default function Offer() {
             slider.current?.next();
             pauseAutoplay();
           }}
-          className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 z-10 p-3 rounded-full bg-red-600 hover:bg-red-700 text-white shadow-xl transition-all"
+          className="hidden md:flex cursor-pointer absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 z-10 p-3 rounded-full bg-red-600 hover:bg-red-700 text-white shadow-xl transition-all"
           aria-label="Następny slajd"
         >
           <svg

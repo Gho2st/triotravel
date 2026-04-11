@@ -62,43 +62,45 @@ export default async function BlogPostPage({ params }) {
   };
 
   return (
-    <main className="pt-8 px-[9%] 2xl:px-[13%]">
+    <main>
       <Header text={data.title} />
 
-      <section className="py-8 2xl:py-20">
-        <div>
-          <LineHeader text={data.subtitle} layout="left" />
-          <p
-            className="text-lg text-left xl:text-xl leading-relaxed mt-10 xl:my-16"
-            dangerouslySetInnerHTML={{ __html: data.contentPart1 }}
-          />
-        </div>
+      <div className="pt-8 px-[9%] 2xl:px-[13%]">
+        <section className="py-8 2xl:py-20">
+          <div>
+            <LineHeader text={data.subtitle} layout="left" />
+            <p
+              className="text-lg text-left xl:text-xl leading-relaxed mt-10 xl:my-16"
+              dangerouslySetInnerHTML={{ __html: data.contentPart1 }}
+            />
+          </div>
 
-        <div>
-          <LineHeader text={data.subtitle2} layout="right" />
-          <p
-            className="text-lg text-left xl:text-xl leading-relaxed mt-10 xl:my-16"
-            dangerouslySetInnerHTML={{ __html: data.contentPart2 }}
-          />
-        </div>
+          <div>
+            <LineHeader text={data.subtitle2} layout="right" />
+            <p
+              className="text-lg text-left xl:text-xl leading-relaxed mt-10 xl:my-16"
+              dangerouslySetInnerHTML={{ __html: data.contentPart2 }}
+            />
+          </div>
 
-        <CtaLink
-          link="/wycieczki-jednodniowe"
-          button={data.cta.button}
-          header={data.cta.header}
-          text={data.cta.text}
-        />
-
-        <div className="mt-16">
-          <RecentPosts
-            blogPosts={blogPosts.map((p) => ({
-              ...p,
-              title: t(`${p.id}.title`),
-            }))}
-            layout="row"
+          <CtaLink
+            link="/wycieczki-jednodniowe"
+            button={data.cta.button}
+            header={data.cta.header}
+            text={data.cta.text}
           />
-        </div>
-      </section>
+
+          <div className="mt-16">
+            <RecentPosts
+              blogPosts={blogPosts.map((p) => ({
+                ...p,
+                title: t(`${p.id}.title`),
+              }))}
+              layout="row"
+            />
+          </div>
+        </section>
+      </div>
     </main>
   );
 }

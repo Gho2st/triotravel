@@ -13,12 +13,12 @@ export default function Button({
   2xl:text-lg 
   rounded-2xl 
   font-medium 
-  whitespace-nowrap 
-  inline-flex                /* ← KLUCZOWA ZMIANA */
+  // whitespace-nowrap 
+  inline-flex                
   justify-center 
   items-center 
   gap-2 
-  px-6 py-4                   /* lepiej używić px-/py- niż samego p-4 przy inline-flex */
+  px-6 py-2                
   clip-custom 
   hover:clip-reverse 
   ${bgColor} 
@@ -29,7 +29,7 @@ export default function Button({
   hover:shadow-lg
 `;
 
-  // 👉 jeśli jest link, renderujemy Link
+  // jeśli jest link, renderujemy Link
   if (link) {
     return (
       <Link href={link} className={classes}>
@@ -38,7 +38,7 @@ export default function Button({
     );
   }
 
-  // 👉 jeśli nie ma linka, ale jest akcja, renderujemy button
+  //  jeśli nie ma linka, ale jest akcja, renderujemy button
   return (
     <button onClick={onClick} type={type} className={classes}>
       {text}

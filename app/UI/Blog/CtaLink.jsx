@@ -10,8 +10,6 @@ export default function CtaLink({ header, text, button, link }) {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        /* Zmiana: Gradient od granatu logotypu do nieco ciemniejszego odcienia, 
-           aby czerwony przycisk (jeśli taki masz) dobrze kontrastował */
         className="max-w-4xl mx-auto bg-gradient-to-br from-[#005da8] to-[#003d6e] text-white rounded-3xl shadow-2xl p-8 md:p-12 text-center border-b-4 border-[#cc0000]"
       >
         <h2 className="text-2xl md:text-4xl font-bold leading-snug">
@@ -21,7 +19,7 @@ export default function CtaLink({ header, text, button, link }) {
           {text}
         </p>
         <div className="flex justify-center">
-          <Button text={button} link="/wycieczki-jednodniowe" />
+          <Button text={button} bgColor="bg-red-800"  link="/wycieczki-jednodniowe" />
         </div>
       </motion.div>
     </section>
