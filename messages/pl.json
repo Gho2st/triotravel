@@ -430,9 +430,10 @@
                     "header2": "Spływ Dunajcem 2.5h",
                     "1": "Bilet normalny",
                     "2": "Bilet ulgowy (do 10 lat)",
-                    "3": "Bilet ulgowy (do 3 lat)",
-                    "4": "Bilet ulgowy (do 1 roku życia)",
-                    "text": "* Cena obejmuje: opiekę kierowcy podczas wycieczki oraz ubezpieczenie NNW"
+                    "additional":"Dodatkowo płatne",
+                    "3": "poza sezonem",
+                    "4": "sezon wysoki i święta",
+                    "text": "* Cena obejmuje: transport, opiekę kierowcy podczas wycieczki oraz ubezpieczenie NNW"
                 },
                 "tripprogram": {
                     "header": "Program Wycieczki:",
@@ -1123,7 +1124,9 @@
                     "header1": "Rodzaj biletu",
                     "header2": "Cena wycieczki",
                     "1": "Bilet wstępu",
-                    "2": "Bilet na kolejkę Elektryczka",
+                    "2": "Bilet wstępu (ulgowy)",
+                    "3": "Bilet na kolejkę Elektryczka",
+                    "4": "Bilet na kolejkę Elektryczka (ulgowy)",
                     "text": "* Cena obejmuje: Przejazd komfortowym autokarem (Odbiór z przystanków najbliżej miejsca zakwaterowania w Zakopanem), opiekę wykwalifikowanego pilota, ubezpieczenie NNW, KL. **Ceny biletów wstępów mogą ulec zmianie",
                     "additional": "Dodatkowo płatne"
                 },

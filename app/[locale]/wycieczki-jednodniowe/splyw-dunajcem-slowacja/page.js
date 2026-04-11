@@ -67,8 +67,8 @@ export default function Splywslowacja() {
   // Przykładowe dane dla tabeli
   const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
-    [t("table.1"), "150 PLN"],
-    [t("table.2"), "130 PLN"],
+    [t("table.1"), "170 PLN"],
+    [t("table.2"), "150 PLN"],
     [t("table.3"), "70 PLN"],
   ];
   return (

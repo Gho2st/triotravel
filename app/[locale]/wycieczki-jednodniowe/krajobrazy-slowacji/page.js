@@ -59,9 +59,11 @@ export default function KrajobrazySlowacji() {
   // Przykładowe dane dla tabeli
   const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
-    [t("table.1"), "110 PLN"],
+    [t("table.1"), "120 PLN"],
+    [t("table.2"), "100 PLN*"],
     ["", t("table.additional")],
-    [t("table.2"), "10 PLN"],
+    [t("table.3"), "20 PLN"],
+    [t("table.4"), "10 PLN"],
   ];
 
   return (

@@ -58,8 +58,8 @@ export default function Spacer() {
   // Przykładowe dane dla tabeli
   const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
-    [t("table.1"), "80 PLN*"],
-    [t("table.2"), "75 PLN*"],
+    [t("table.1"), "90 PLN*"],
+    [t("table.2"), "80 PLN*"],
     ["", t("table.additional")],
     [t("table.1"), "30€"],
     [t("table.2"), "24€"],
@@ -69,7 +69,7 @@ export default function Spacer() {
       <Header text={t("header")} />
       <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[700px] ">
         <Image
-          src="/wycieczki/spacer-w-koronach-drzew/zima/korony.webp"
+          src="/wycieczki/spacer-w-koronach-drzew/lato/korony.webp"
           width={500}
           height={500}
           layout="responsive"

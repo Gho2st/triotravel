@@ -16,7 +16,7 @@ export default function SzcybrskieJezioroSection({ t }) {
         {/* Zdjęcie */}
         <div className="relative rounded-2xl overflow-hidden shadow-lg">
           <Image
-            src="/wycieczki/spacer-w-koronach-drzew/zima/7.webp"
+            src="/wycieczki/spacer-w-koronach-drzew/lato/8.webp"
             alt={t("alt.10")}
             className="w-full h-full object-cover"
             width={100}

@@ -426,13 +426,14 @@
                 },
                 "info": "The rafting season runs from April 1 to October 31—Thursday, Friday, and Sunday. So, we invite you on the trip every day!",
                 "table": {
-                    "header1": "Ticket Type",
+                    "header1": "Ticket type",
                     "header2": "Dunajec River Rafting 2.5h",
-                    "1": "Adult ticket",
-                    "2": "Reduced ticket (up to 10 years)",
-                    "3": "Reduced ticket (up to 3 years)",
-                    "4": "Reduced ticket (up to 1 year old)",
-                    "text": "* Price includes: driver's assistance during the trip and NNW insurance."
+                    "1": "Standard ticket",
+                    "2": "Reduced ticket (up to 10 years old)",
+                    "additional": "Additional fees",
+                    "3": "off-season",
+                    "4": "high season and holidays",
+                    "text": "* The price includes: transport, driver's assistance during the tour, and personal accident (NNW) insurance."
                 },
                 "tripprogram": {
                     "header": "Trip Program:",
@@ -1115,12 +1116,14 @@
                 "header3": "Discover Slovakia",
                 "text": "This is a unique, peaceful sightseeing tour of northern Slovakia, ideal for everyone—regardless of age or fitness. We travel by comfortable coach and the regional Električka train (Tatranská elektrická železnica), with no hiking. We admire the most beautiful views of the High Tatras with photo and relaxation stops.",
                 "table": {
-                    "header1": "Ticket Type",
-                    "header2": "Price",
-                    "1": "Entrance ticket",
-                    "2": "Električka train ticket",
-                    "text": "* Price includes: comfortable coach transport (pickup from stops near your accommodation in Zakopane), qualified guide, accident and travel insurance. **Entrance ticket prices may change",
-                    "additional": "Additional charges"
+                    "header1": "Ticket type",
+                    "header2": "Tour price",
+                    "1": "Admission ticket",
+                    "2": "Admission ticket (reduced)",
+                    "3": "Elektryczka train ticket",
+                    "4": "Elektryczka train ticket (reduced)",
+                    "text": "* The price includes: Transport by a comfortable coach (Pick-up from stops closest to your accommodation in Zakopane), services of a qualified tour guide, personal accident (NNW) and medical expenses (KL) insurance. ** Admission ticket prices are subject to change",
+                    "additional": "Additional fees"
                 },
                 "list": {
                     "header": "PRACTICAL INFORMATION",

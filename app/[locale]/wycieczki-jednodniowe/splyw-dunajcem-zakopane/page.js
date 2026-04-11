@@ -62,9 +62,11 @@ export default function Splywzakopane() {
   // Przykładowe dane dla tabeli
   const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
-    [t("table.1"), "190 PLN*"],
-    [t("table.2"), "170 PLN*"],
-    [t("table.4"), "70 PLN*"],
+    [t("table.1"), "90 PLN*"],
+    [t("table.2"), "80 PLN*"],
+    ["", t("table.additional")],
+    [t("table.3"), "111 PLN"],
+    [t("table.4"), "117 PLN"],
   ];
   return (
     <>

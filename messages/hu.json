@@ -427,12 +427,13 @@
                 "info": "A tutajos szezon április 1-től október 31-ig tart – hétköznap, péntek és vasárnap. Tehát minden nap várjuk a kirándulásra!",
                 "table": {
                     "header1": "Jegy típusa",
-                    "header2": "Dunajec tutajozás 2,5 óra",
+                    "header2": "Dunajeci tutajozás 2,5 óra",
                     "1": "Normál jegy",
-                    "2": "Kedvezményes jegy (10 évig)",
-                    "3": "Kedvezményes jegy (3 évig)",
-                    "4": "Kedvezményes jegy (1 éves korig)",
-                    "text": "* Az ár tartalmazza: a sofőr felügyeletét a kirándulás során és az NNW biztosítást."
+                    "2": "Kedvezményes jegy (10 éves korig)",
+                    "additional": "Külön fizetendő",
+                    "3": "szezonon kívül",
+                    "4": "főszezon és ünnepek",
+                    "text": "* Az ár tartalmazza: transzfer, sofőr általi felügyelet a túra során, valamint balesetbiztosítás (NNW)."
                 },
                 "tripprogram": {
                     "header": "Kirándulás programja:",
@@ -1120,12 +1121,14 @@
                 "header3": "Ismerd meg Szlovákiát",
                 "text": "Ez egy különleges, nyugodt körutazás Észak‑Szlovákiában, ideális mindenki számára – kortól és állóképességtől függetlenül. Kényelmes buszsal és a regionális Električka vonattal (Tatranská elektrická železnica) utazunk, túrázás nélkül. Gyönyörködünk a Magas‑Tátra legszebb látványaiban fotós és pihenő megállókkal.",
                 "table": {
-                    "header1": "Jegytípus",
-                    "header2": "Ár",
+                    "header1": "Jegy típusa",
+                    "header2": "Túra ára",
                     "1": "Belépőjegy",
-                    "2": "Električka vonatjegy",
-                    "text": "* Az ár tartalmazza: kényelmes buszos utazás (felszállás a szálláshoz közeli megállóknál Zakopanéban), kvalifikált idegenvezető, baleset- és utasbiztosítás. **A belépőjegy árak változhatnak",
-                    "additional": "További költségek"
+                    "2": "Belépőjegy (kedvezményes)",
+                    "3": "Jegy az Elektryczka vonatra",
+                    "4": "Jegy az Elektryczka vonatra (kedvezményes)",
+                    "text": "* Az ár tartalmazza: Utazás kényelmes autóbusszal (felszállás a zakopanei szállásához legközelebbi megállókban), szakképzett idegenvezető kíséretét, baleset- (NNW) és betegségbiztosítást (KL). ** A belépőjegyek árai változhatnak",
+                    "additional": "Külön fizetendő"
                 },
                 "list": {
                     "header": "GYAKORLATI TUDNIVALÓK",

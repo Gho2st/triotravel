@@ -426,13 +426,14 @@
                 },
                 "info": "La temporada de barqueros dura del 1 de abril al 31 de octubre – jueves, viernes y domingos. ¡Así que invitamos a la excursión todos los días!",
                 "table": {
-                    "header1": "Tipo de entrada",
-                    "header2": "Descenso Dunajec 2.5h",
-                    "1": "Entrada normal",
-                    "2": "Entrada reducida (hasta 10 años)",
-                    "3": "Entrada reducida (hasta 3 años)",
-                    "4": "Entrada reducida (hasta 1 año)",
-                    "text": "* El precio incluye: cuidado del conductor durante la excursión y seguro de accidentes"
+                    "header1": "Tipo de billete",
+                    "header2": "Descenso por el río Dunajec 2,5h",
+                    "1": "Billete normal",
+                    "2": "Billete reducido (hasta 10 años)",
+                    "additional": "Costes adicionales",
+                    "3": "temporada baja",
+                    "4": "temporada alta y festivos",
+                    "text": "* El precio incluye: transporte, asistencia del conductor durante la excursión y seguro de accidentes personales (NNW)."
                 },
                 "tripprogram": {
                     "header": "Programa de la Excursión:",
@@ -1120,12 +1121,14 @@
                 "header3": "Conoce Eslovaquia",
                 "text": "¡Excursión panorámica única y tranquila por el norte de Eslovaquia, ideal para todos – independientemente de edad y condición! Viajamos en autobús cómodo y tren regional Električka (Tatranská elektrická železnica), sin caminatas por montañas. Admiramos las vistas más bellas de los Altos Tatras con paradas para fotos y relajación.",
                 "table": {
-                    "header1": "Tipo de entrada",
+                    "header1": "Tipo de billete",
                     "header2": "Precio de la excursión",
                     "1": "Entrada",
-                    "2": "Entrada para tren Električka",
-                    "text": "* El precio incluye: Viaje en autocar cómodo (Recogida desde paradas más cercanas al alojamiento en Zakopane), cuidado de piloto cualificado, seguro de accidentes, asistencia. **Los precios de entrada pueden cambiar",
-                    "additional": "Pago adicional"
+                    "2": "Entrada (reducida)",
+                    "3": "Billete para el tren Elektryczka",
+                    "4": "Billete para el tren Elektryczka (reducido)",
+                    "text": "* El precio incluye: Traslado en un cómodo autobús (recogida en las paradas más cercanas a su alojamiento en Zakopane), asistencia de un guía turístico cualificado, seguro de accidentes personales (NNW) y de gastos médicos (KL). ** Los precios de las entradas están sujetos a cambios",
+                    "additional": "Costes adicionales"
                 },
                 "list": {
                     "header": "INFORMACIÓN PRÁCTICA",

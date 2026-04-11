@@ -427,12 +427,13 @@
                 "info": "Die Flößersaison dauert vom 1. April bis 31. Oktober – Mittwoch, Freitag und Sonntag. Daher laden wir täglich zur Reise ein!",
                 "table": {
                     "header1": "Ticketart",
-                    "header2": "Dunajec-Floßfahrt 2,5h",
-                    "1": "Normalticket",
-                    "2": "Ermäßigt (bis 10 Jahre)",
-                    "3": "Ermäßigt (bis 3 Jahre)",
-                    "4": "Ermäßigt (bis 1 Jahr)",
-                    "text": "* Der Preis umfasst: Betreuung durch den Fahrer während der Reise sowie Unfallversicherung (NNW)"
+                    "header2": "Dunajec-Floßfahrt 2,5 Std.",
+                    "1": "Reguläres Ticket",
+                    "2": "Ermäßigtes Ticket (bis 10 Jahre)",
+                    "additional": "Zusätzlich zu zahlen",
+                    "3": "Nebensaison",
+                    "4": "Hauptsaison und Feiertage",
+                    "text": "* Im Preis inbegriffen: Transport, Betreuung durch den Fahrer während des Ausflugs sowie Unfallversicherung (NNW)."
                 },
                 "tripprogram": {
                     "header": "Reiseprogramm:",
@@ -1121,11 +1122,13 @@
                 "text": "Das ist eine einzigartige, ruhige Rundfahrt durch die nördliche Slowakei, ideal für jeden – unabhängig von Alter und Kondition. Wir reisen mit einem komfortablen Bus und der regionalen Elektrischen Bahn (Tatranská elektrická železnica), ohne Bergwanderungen. Wir bewundern die schönsten Ausblicke auf die Hohe Tatra mit Stopps für Fotos und Entspannung.",
                 "table": {
                     "header1": "Ticketart",
-                    "header2": "Reisepreis",
+                    "header2": "Ausflugspreis",
                     "1": "Eintrittskarte",
-                    "2": "Fahrkarte für die Elektrische Bahn",
-                    "text": "* Der Preis umfasst: Fahrt mit einem komfortablen Reisebus (Abholung von Haltestellen möglichst nah an der Unterkunft in Zakopane), Betreuung durch einen qualifizierten Piloten, Unfall- und Krankenversicherung. **Eintrittspreise können sich ändern",
-                    "additional": "Zusätzlich zahlbar"
+                    "2": "Eintrittskarte (ermäßigt)",
+                    "3": "Ticket für die Elektryczka-Bahn",
+                    "4": "Ticket für die Elektryczka-Bahn (ermäßigt)",
+                    "text": "* Im Preis inbegriffen: Fahrt in einem komfortablen Reisebus (Abholung von den Haltestellen, die Ihrer Unterkunft in Zakopane am nächsten liegen), Betreuung durch einen qualifizierten Reiseleiter, Unfall- (NNW) und Krankenversicherung (KL). ** Die Eintrittspreise können sich ändern.",
+                    "additional": "Zusätzlich zu zahlen"
                 },
                 "list": {
                     "header": "PRAKTISCHE INFORMATIONEN",
