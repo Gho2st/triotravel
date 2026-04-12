@@ -53,6 +53,13 @@ export default function Kuligi() {
     //   link: "/kuligi/wieczor-sylwestrowy",
     //   p: t("cards.3.text"),
     // },
+     // {
+    //   title: t("cards.3.header"),
+    //   image: "/kuligi/sylwestrowy.webp",
+    //   link: "/kuligi/wieczor-sylwestrowy",
+    //   p: t("cards.3.text"),
+    // },
+    
   ];
   return (
     <>
