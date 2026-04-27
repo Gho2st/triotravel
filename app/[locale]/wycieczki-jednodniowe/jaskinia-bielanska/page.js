@@ -55,12 +55,12 @@ export default function Jaskinia() {
   // Przykładowe dane dla tabeli
   const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
-    [t("table.1"), "90 PLN"],
-    [t("table.2"), "80 PLN"],
+    [t("table.1"), "100 PLN"],
+    [t("table.2"), "90 PLN"],
     ["", t("table.additional")],
-    [t("table.3"), "14€"],
-    [t("table.4"), "7€"],
-    [t("table.5"), "13€"],
+    [t("table.3"), "15€"],
+    [t("table.4"), "8€"],
+    [t("table.5"), "14€"],
   ];
   return (
     <>
