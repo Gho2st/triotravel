@@ -7,6 +7,8 @@ import { getMessages } from "next-intl/server";
 import ClientBody from "../UI/ClientBody";
 import CookieConsent from "@/app/UI/CookieConsent";
 import SnowEffect from "../UI/SnowEffect";
+import Script from "next/script";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const font = Poppins({
   subsets: ["latin"],
@@ -35,12 +37,28 @@ export default async function LocaleLayout({ children, params }) {
 
   return (
     <html lang={locale}>
+      <head>
+        <Script id="consent-default" strategy="beforeInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('consent', 'default', {
+              'ad_storage': 'denied',
+              'ad_user_data': 'denied',
+              'ad_personalization': 'denied',
+              'analytics_storage': 'denied',
+              'wait_for_update': 500
+            });
+          `}
+        </Script>
+      </head>
       <body>
         <NextIntlClientProvider messages={messages}>
           <ClientBody fontClassName={font.className}>
-            <CookieConsent />
             {/* <SnowEffect /> */}
             {children}
+            <CookieConsent />
+            <GoogleTagManager gtmId="GTM-M8ZVL5X6" />
           </ClientBody>
         </NextIntlClientProvider>
       </body>

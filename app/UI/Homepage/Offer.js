@@ -237,7 +237,7 @@ export default function Offer() {
 
                 {/* Tytuł */}
                 <div className="flex-1 flex items-center justify-center px-4 py-6">
-                  <h3 className="text-xl md:text-2xl 2xl:text-3xl font-semibold text-center text-gray-800 group-hover:text-customBlue transition-colors duration-300">
+                  <h3 className="text-xl 2xl:text-3xl font-semibold text-center text-gray-800 group-hover:text-customBlue transition-colors duration-300">
                     {item.title}
                   </h3>
                 </div>

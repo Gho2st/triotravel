@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 export default function FAQSection({ faq }) {
   const [openIndex, setOpenIndex] = useState(null);
 
-  // 1. Przygotowanie danych
   const faqs = Object.keys(faq.list)
     .sort((a, b) => Number(a) - Number(b))
     .map((key) => ({
@@ -14,7 +13,6 @@ export default function FAQSection({ faq }) {
       answer: faq.list[key].text,
     }));
 
-  // 2. Generowanie schematu JSON-LD dla Google
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -23,21 +21,26 @@ export default function FAQSection({ faq }) {
       name: item.question,
       acceptedAnswer: {
         "@type": "Answer",
-        text: item.answer.replace(/<[^>]*>?/gm, ""), // Usuwamy tagi HTML dla czystości danych
+        text: item.answer.replace(/<[^>]*>?/gm, ""),
       },
     })),
   };
 
   return (
-    <section className="py-20 bg-white border-t border-gray-200">
-      {/* 3. Wstrzyknięcie danych strukturalnych */}
+    <section
+      aria-labelledby="faq-heading"
+      className="py-20 bg-white border-t border-gray-200"
+    >
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
       <div className="container mx-auto px-4">
-        <h2 className="text-2xl xl:text-3xl 2xl:text-4xl font-extrabold text-center text-gray-900">
+        <h2
+          id="faq-heading"
+          className="text-2xl xl:text-3xl 2xl:text-4xl font-extrabold text-center text-gray-900"
+        >
           {faq.header}
         </h2>
 
@@ -60,9 +63,11 @@ export default function FAQSection({ faq }) {
                   onClick={() => setOpenIndex(isOpen ? null : index)}
                   aria-expanded={isOpen}
                   aria-controls={`faq-answer-${index}`}
-                  className="w-full text-left flex justify-between items-center xl:text-lg font-medium text-gray-800 hover:text-gray-900"
+                  className="w-full text-left flex justify-between items-center hover:text-gray-900"
                 >
-                  <span>{item.question}</span>
+                  <h3 className="xl:text-lg font-medium text-gray-800 m-0">
+                    {item.question}
+                  </h3>
                   <span
                     className="text-3xl ml-4 flex-shrink-0 transition-transform duration-300"
                     style={{

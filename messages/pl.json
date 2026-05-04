@@ -163,7 +163,8 @@
             }
         },
         "trips": {
-            "header": "Wycieczki jednodniowe z Zakopanego - Lato",
+            "header": "Wycieczki jednodniowe z Zakopanego 2026 — Lato",
+            "heroHeader": "Najczęściej wybierane wycieczki",
             "winterHeader": "Zimowa oferta TrioTravel",
             "winterHeader2": "Zimowe wycieczki i atrakcje",
             "winterText": "Termy, Lodowe Świątynia, Kasprowy Wierch, Spacer w Koronach Drzew i więcej – tylko zimą!",
@@ -430,7 +431,7 @@
                     "header2": "Spływ Dunajcem 2.5h",
                     "1": "Bilet normalny",
                     "2": "Bilet ulgowy (do 10 lat)",
-                    "additional":"Dodatkowo płatne",
+                    "additional": "Dodatkowo płatne",
                     "3": "poza sezonem",
                     "4": "sezon wysoki i święta",
                     "text": "* Cena obejmuje: transport, opiekę kierowcy podczas wycieczki oraz ubezpieczenie NNW"

@@ -29,7 +29,7 @@ export default function KasprowyComponent() {
   return (
     <section className="mx-auto px-5 md:px-20 xl:px-32 2xl:px-44 py-16 md:py-20 2xl:py-24">
       <Table headers={tableHeaders} rows={tableRows} text={t("table.text")} />
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 md:gap-16 justify-center mt-16">
+      <div className="grid grid-cols-3 gap-2 md:gap-16 justify-center mt-16">
         <ClickButton
           onClick={() => handleButtonClick("uwagi")}
           text={t("buttons.1")}

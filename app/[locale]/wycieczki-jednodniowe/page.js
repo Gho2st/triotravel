@@ -40,7 +40,7 @@ export default function Atrakcje() {
 
   const isWinter = false;
 
-  // LATO
+  // LATO - wszystkie wycieczki
   const standardArticles = [
     {
       title: t("trips.2"),
@@ -97,7 +97,6 @@ export default function Atrakcje() {
       link: "/wycieczki-jednodniowe/krajobrazy-slowacji",
       category: "foreign",
     },
-
     {
       title: t("trips.18"),
       p: t("trips.18p"),
@@ -211,7 +210,6 @@ export default function Atrakcje() {
       p: t("trips.3p"),
       image: "/wycieczki/spacer-w-koronach-drzew/zima/korony.webp",
       link: "/wycieczki-jednodniowe/spacer-w-koronach-drzew",
-      category: "foreign",
       popular: true,
       popularTitle: t("trips.3h"),
       popularDescription: t("trips.3popular"),
@@ -250,84 +248,107 @@ export default function Atrakcje() {
 
   const articles = isWinter ? winterArticles : standardArticles;
 
+  // 🎯 NOWA LOGIKA - HERO + KATEGORIE BEZ POWTÓRZEŃ
+  // Top 3 polecane do hero
+  const heroArticles = articles.filter((a) => a.popular).slice(0, 3);
+  const heroLinks = new Set(heroArticles.map((a) => a.link));
+
+  // Reszta - bez tych co już są w hero
+  const remainingArticles = articles.filter((a) => !heroLinks.has(a.link));
+
   return (
     <>
-      {isWinter ? (
-        <div className="px-6 bg-gradient-to-r from-blue-900 via-blue-700 to-cyan-600 text-white py-10 xl:py-20 text-center">
-          <h1 className="text-3xl md:text-5xl 2xl:text-6xl font-bold">
-            {t("trips.winterHeader")}
-          </h1>
-          <p className="text-lg md:text-2xl mt-4 opacity-90">
-            {t("trips.winterText")}
-          </p>
-        </div>
-      ) : (
-        <Header text={t("trips.header")} />
-      )}
+      <section>
+        {isWinter ? (
+          <div className="px-6 bg-gradient-to-r from-blue-900 via-blue-700 to-cyan-600 text-white py-10 xl:py-20 text-center">
+            <h1 className="text-3xl md:text-5xl 2xl:text-6xl font-bold">
+              {t("trips.winterHeader")}
+            </h1>
+            <p className="text-lg md:text-2xl mt-4 opacity-90">
+              {t("trips.winterText")}
+            </p>
+          </div>
+        ) : (
+          <Header text={t("trips.header")} />
+        )}
 
-      <section className="px-6 md:px-20 2xl:px-32 py-16 md:py-20 2xl:py-24">
-        <HowItWorks />
-
-        <p className="2xl:my-24 mb-16 text-center xl:text-xl 2xl:max-w-3/4 2xl:mx-auto">
+        {/* seo text */}
+        <p className="my-10 px-6 text-center max-w-4xl mx-auto 2xl:text-xl">
           {t.rich("text2", {
             strong: (chunks) => <strong>{chunks}</strong>,
           })}
         </p>
 
-        {/* ZIMA = jedna wielka sekcja bez kategorii */}
+        <HowItWorks />
+      </section>
+
+      <section className="px-6 md:px-20 2xl:px-32 py-16  2xl:py-24">
         {isWinter ? (
+          /* ZIMA = jedna sekcja */
           <div className="mb-24">
             <LineHeader text={t("trips.winterHeader2")} />
-            <div className="grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10 2xl:gap-12 mt-10 justify-center">
+            <div className="grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10 2xl:gap-12 mt-10">
               {articles.map((article, index) => (
                 <Card
-                  key={index}
-                  article={{
-                    ...article,
-                    title: article.popularTitle || article.title,
-                    p: article.popularDescription || article.p,
-                  }}
+                  key={article.link}
+                  article={article}
+                  isPopular={article.popular}
                   index={index}
                 />
               ))}
             </div>
           </div>
         ) : (
-          /* POZA ZIMĄ = normalny układ z kategoriami */
           <>
+            {/* 🌟 HERO - Top 3 polecane (większe karty) */}
+            {heroArticles.length > 0 && (
+              <div className="mb-24">
+                <LineHeader text={t("trips.heroHeader")} />
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 mt-10">
+                  {heroArticles.map((article, index) => (
+                    <Card
+                      key={article.link}
+                      article={{
+                        ...article,
+                        title: article.popularTitle || article.title,
+                        p: article.popularDescription || article.p,
+                      }}
+                      isPopular={true}
+                      variant="hero"
+                      index={index}
+                    />
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* KATEGORIE - bez tych co są w hero */}
             {[
-              { id: "popular", title: t("trips.popularHeader") },
               { id: "poland", title: t("trips.polandHeader") },
               { id: "foreign", title: t("trips.foreignHeader") },
               { id: "active", title: t("trips.activeHeader") },
-            ].map((cat) => (
-              <div key={cat.id} className="mb-24">
-                <LineHeader text={cat.title} />
-                <div className="grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10 2xl:gap-12 mt-10 justify-center">
-                  {articles
-                    .filter((a) =>
-                      cat.id === "popular" ? a.popular : a.category === cat.id,
-                    )
-                    .map((article, index) => (
+            ].map((cat) => {
+              const catArticles = remainingArticles.filter(
+                (a) => a.category === cat.id,
+              );
+              if (catArticles.length === 0) return null;
+
+              return (
+                <div key={cat.id} className="mb-24">
+                  <LineHeader text={cat.title} />
+                  <div className="grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10 2xl:gap-12 mt-10">
+                    {catArticles.map((article, index) => (
                       <Card
-                        key={index}
-                        article={{
-                          ...article,
-                          title:
-                            cat.id === "popular" && article.popularTitle
-                              ? article.popularTitle
-                              : article.title,
-                          p:
-                            cat.id === "popular" && article.popularDescription
-                              ? article.popularDescription
-                              : article.p,
-                        }}
+                        key={article.link}
+                        article={article}
+                        isPopular={article.popular}
                         index={index}
                       />
                     ))}
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </>
         )}
       </section>
