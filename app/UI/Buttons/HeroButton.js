@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { useRouter } from "next/navigation"; // Import useRouter z next/navigation
+import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
 
 // Animation variants for the button
@@ -37,7 +37,7 @@ export default function HeroButton({ link }) {
 
   // Funkcja obsługująca kliknięcie
   const handleClick = () => {
-    router.push(link); // Przekierowanie do /rezerwacje
+    router.push(link);
   };
 
   return (
@@ -46,7 +46,7 @@ export default function HeroButton({ link }) {
       variants={buttonVariants}
       initial="initial"
       whileHover="hover"
-      onClick={handleClick} // Dodanie obsługi kliknięcia
+      onClick={handleClick}
     >
       <motion.div
         className="absolute flex flex-col justify-center items-center top-[-4rem] left-[-13px] md:left-[-4px] md:top-[-6rem] bg-white w-30 h-30 md:w-40 md:h-40 border-3 rounded-[100%]"
