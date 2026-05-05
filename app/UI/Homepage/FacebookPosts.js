@@ -19,7 +19,7 @@ export default function FacebookPosts() {
 
   useEffect(() => {
     async function fetchPosts() {
-      const timestamp = Date.now(); // prostsze i bardziej czytelne
+      const timestamp = Date.now();
 
       try {
         const res = await fetch(`/api/facebook/${timestamp}`, {
