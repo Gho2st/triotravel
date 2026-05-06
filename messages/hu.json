@@ -131,8 +131,8 @@
                     "text": "Igen! Utazásaink minden korosztály számára alkalmasak, nyugodt útvonalakkal (pl. termálfürdők) és aktív programokkal egyaránt."
                 },
                 "4": {
-                    "header": "Mi szerepel az árban?",
-                    "text": "Mindig tartalmazza: szállítás, belépők, kalauz és balesetbiztosítás."
+                    "header": "Mit tartalmaz a kirándulás ára?",
+                    "text": "A kirándulás ára mindig tartalmazza: a szállítást, a kísérő/idegenvezető felügyeletét és az NNW-biztosítást."
                 },
                 "5": {
                     "header": "Szerveztek nemzetközi kirándulásokat?",
@@ -426,14 +426,14 @@
                 },
                 "info": "A tutajos szezon április 1-től október 31-ig tart – hétköznap, péntek és vasárnap. Tehát minden nap várjuk a kirándulásra!",
                 "table": {
-                    "header1": "Jegy típusa",
-                    "header2": "Dunajeci tutajozás 2,5 óra",
+                    "header1": "Kirándulás ára",
+                    "header2": "Dunajec tutajázás 2,5 óra",
                     "1": "Normál jegy",
                     "2": "Kedvezményes jegy (10 éves korig)",
-                    "additional": "Külön fizetendő",
-                    "3": "szezonon kívül",
-                    "4": "főszezon és ünnepek",
-                    "text": "* Az ár tartalmazza: transzfer, sofőr általi felügyelet a túra során, valamint balesetbiztosítás (NNW)."
+                    "additional": "További fizetendő jegy a tutajra",
+                    "3": "Szezonon kívül",
+                    "4": "Főszezon és ünnepek",
+                    "text": "*Az ár tartalmazza: szállítást, a sofőr felügyeletét a kirándulás során és NNW-biztosítást"
                 },
                 "tripprogram": {
                     "header": "Kirándulás programja:",
@@ -472,7 +472,7 @@
                         },
                         "6": {
                             "header": "Mit tartalmaz a kirándulás ára?",
-                            "text": "A TrioTravel kirándulásának ára tartalmazza: szállítást kényelmes busszal vagy kisbusszal Zakopanéból és Kościeliskóból, a dunajeci tutajozást a lengyel útvonalon tutajosokkal, idegenvezetői kíséretet, balesetbiztosítást (NNW), szabadidőt a Csorsztyni-tónál és a nedeci gátnál, valamint egy rövid látogatást és előadást a dębnói fatemplomnál (UNESCO). A Nedec-vár belépőjegyei opcionálisak és külön fizetendők."
+                            "text": "A TrioTravel kirándulás ára tartalmazza: kényelmes busszal vagy autóbusszal történő szállítást Zakopaneból és Kościeliskóból, a kísérő gondoskodását, NNW-biztosítást, szabadidőt a Czorsztyński-tónál és a niedzicai gátnál, rövid látogatást és előadást a dębnoi UNESCO-templomnál. A niedzicai vár belépőjegyei opcionálisak és fizetősek. A tutajjegyek a fenti árlista szerint külön fizetendők."
                         },
                         "7": {
                             "header": "Honnan indul a kirándulás?",

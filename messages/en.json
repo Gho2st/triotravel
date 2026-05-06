@@ -132,7 +132,7 @@
                 },
                 "4": {
                     "header": "What is included in the tour price?",
-                    "text": "The tour price always includes: transport, entry tickets, tour leader/guide service, and accident insurance."
+                    "text": "The tour price always includes: transportation, guide/pilot care, and NNW insurance."
                 },
                 "5": {
                     "header": "Do you organize foreign tours?",
@@ -426,14 +426,14 @@
                 },
                 "info": "The rafting season runs from April 1 to October 31—Thursday, Friday, and Sunday. So, we invite you on the trip every day!",
                 "table": {
-                    "header1": "Ticket type",
-                    "header2": "Dunajec River Rafting 2.5h",
-                    "1": "Standard ticket",
-                    "2": "Reduced ticket (up to 10 years old)",
-                    "additional": "Additional fees",
-                    "3": "off-season",
-                    "4": "high season and holidays",
-                    "text": "* The price includes: transport, driver's assistance during the tour, and personal accident (NNW) insurance."
+                    "header1": "Tour price",
+                    "header2": "Dunajec Rafting 2.5h",
+                    "1": "Adult ticket",
+                    "2": "Reduced ticket (up to 10 years)",
+                    "additional": "Additional raft ticket",
+                    "3": "Off-season",
+                    "4": "High season and holidays",
+                    "text": "*The price includes: transportation, driver care during the tour and NNW insurance"
                 },
                 "tripprogram": {
                     "header": "Trip Program:",
@@ -472,7 +472,7 @@
                         },
                         "6": {
                             "header": "What is included in the tour price?",
-                            "text": "The TrioTravel tour price includes: transport by comfortable bus or coach from Zakopane and Kościelisko, Dunajec rafting on the Polish route with rafters, tour leader assistance, NNW insurance, free time at Lake Czorsztyn and the Niedzica dam, and a short visit/lecture at the church in Dębno (UNESCO). Entrance tickets to Niedzica Castle are optional and require an additional fee."
+                            "text": "The TrioTravel tour price includes: comfortable bus or coach transportation from Zakopane and Kościelisko, guide supervision, NNW insurance, free time at Lake Czorsztyński and the Niedzica Dam, a short visit and lecture at the church in Dębno (UNESCO). Entrance tickets to Niedzica Castle are optional and paid separately. Raft tickets are additionally payable according to the price list above."
                         },
                         "7": {
                             "header": "Where is the departure point?",

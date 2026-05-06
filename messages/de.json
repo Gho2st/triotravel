@@ -131,8 +131,8 @@
                     "text": "Ja! Unsere Tagesausflüge sind für verschiedene Altersgruppen angepasst. Wir bieten sowohl ruhige Routen (z.B. Thermen, Bootsfahrten, Spaziergänge) als auch aktive Optionen."
                 },
                 "4": {
-                    "header": "Was ist im Reisepreis enthalten?",
-                    "text": "Im Reisepreis sind immer enthalten: Transport, Eintrittskarten, Betreuung durch Piloten/Reiseführer sowie eine Unfallversicherung (NNW)."
+                    "header": "Was ist im Preis der Tour enthalten?",
+                    "text": "Im Preis der Tour sind immer enthalten: Transport, Betreuung durch Reiseleiter/Guide sowie NNW-Versicherung."
                 },
                 "5": {
                     "header": "Organisieren Sie Auslandsreisen?",
@@ -426,14 +426,14 @@
                 },
                 "info": "Die Flößersaison dauert vom 1. April bis 31. Oktober – Mittwoch, Freitag und Sonntag. Daher laden wir täglich zur Reise ein!",
                 "table": {
-                    "header1": "Ticketart",
+                    "header1": "Preis der Tour",
                     "header2": "Dunajec-Floßfahrt 2,5 Std.",
-                    "1": "Reguläres Ticket",
-                    "2": "Ermäßigtes Ticket (bis 10 Jahre)",
-                    "additional": "Zusätzlich zu zahlen",
+                    "1": "Normalticket",
+                    "2": "Ermäßigungsticket (bis 10 Jahre)",
+                    "additional": "Zusätzlich zu zahlendes Floßticket",
                     "3": "Nebensaison",
-                    "4": "Hauptsaison und Feiertage",
-                    "text": "* Im Preis inbegriffen: Transport, Betreuung durch den Fahrer während des Ausflugs sowie Unfallversicherung (NNW)."
+                    "4": "Hochsaison und Feiertage",
+                    "text": "*Im Preis enthalten: Transport, Betreuung durch den Fahrer während der Tour und NNW-Versicherung"
                 },
                 "tripprogram": {
                     "header": "Reiseprogramm:",
@@ -471,8 +471,8 @@
                             "text": "Natürlich. Die Dunajec-Floßfahrt wird sehr oft von Senioren gewählt, da sie keine körperliche Fitness, langes Gehen oder Anstrengung erfordert. Das Ein- und Aussteigen erfolgt ruhig unter der Aufsicht der Flößer."
                         },
                         "6": {
-                            "header": "Was ist im Preis der Reise enthalten?",
-                            "text": "Im Preis der Reise mit TrioTravel sind enthalten: Transport im komfortablen Bus oder Reisebus ab Zakopane und Kościelisko, die Floßfahrt auf dem Dunajec auf der polnischen Strecke mit Flößern, Reiseleiterbetreuung, Unfallversicherung (NNW), Freizeit am Czorsztyn-Stausee und der Staumauer in Niedzica sowie ein kurzer Besuch mit Vortrag bei der Holzkirche in Dębno (UNESCO). Eintrittskarten für die Burg Niedzica sind optional und gegen Aufpreis erhältlich."
+                            "header": "Was ist im Preis der Tour enthalten?",
+                            "text": "Im Preis der TrioTravel-Tour sind enthalten: komfortabler Bus- oder Reisebus-Transport aus Zakopane und Kościelisko, Betreuung durch den Reiseleiter, NNW-Versicherung, Freizeit am Czorsztyński-See und der Talsperre in Niedzica, kurzer Besuch und Vortrag bei der Kirche in Dębno (UNESCO). Eintrittskarten zur Burg Niedzica sind optional und kostenpflichtig. Zusätzlich zu zahlende Floßfahrt-Tickets gemäß der obigen Preisliste."
                         },
                         "7": {
                             "header": "Von wo aus startet die Reise?",

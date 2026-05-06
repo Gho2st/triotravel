@@ -132,7 +132,7 @@
                 },
                 "4": {
                     "header": "Co zawiera cena wycieczki?",
-                    "text": "W cenie wycieczki zawsze zawierają się: transport, bilety wstępu, opieka pilota/przewodnika oraz ubezpieczenie NNW."
+                    "text": "W cenie wycieczki zawsze zawierają się: transport, opieka pilota/przewodnika oraz ubezpieczenie NNW."
                 },
                 "5": {
                     "header": "Czy organizujecie wycieczki zagraniczne?",
@@ -427,14 +427,14 @@
                 },
                 "info": "Sezon flisacki trwa od 1 kwietnia do 31 października - świątek, piątek i niedziele. Zatem na wycieczkę zapraszamy codziennie!",
                 "table": {
-                    "header1": "Rodzaj biletu",
+                    "header1": "Cena wycieczki",
                     "header2": "Spływ Dunajcem 2.5h",
                     "1": "Bilet normalny",
                     "2": "Bilet ulgowy (do 10 lat)",
-                    "additional": "Dodatkowo płatne",
+                    "additional": "Dodatkowo płatny bilet na tratwę",
                     "3": "poza sezonem",
                     "4": "sezon wysoki i święta",
-                    "text": "* Cena obejmuje: transport, opiekę kierowcy podczas wycieczki oraz ubezpieczenie NNW"
+                    "text": "*Cena obejmuje: transport, opiekę kierowcy podczas wycieczki oraz ubezpieczenie NNW"
                 },
                 "tripprogram": {
                     "header": "Program Wycieczki:",
@@ -473,7 +473,7 @@
                         },
                         "6": {
                             "header": "Co jest zawarte w cenie wycieczki?",
-                            "text": "W cenie wycieczki z TrioTravel zawarte są: transport komfortowym busem lub autokarem z Zakopanego i Kościeliska, spływ Dunajcem na trasie polskiej z flisakami, opieka pilota, ubezpieczenie NNW, czas wolny nad Jeziorem Czorsztyńskim i zaporą w Niedzicy, krótka wizyta i prelekcja przy kościele w Dębnie (UNESCO). Bilety wstępu do Zamku w Niedzicy są opcjonalne i dodatkowo płatne."
+                            "text": "W cenie wycieczki z TrioTravel zawarte są: transport komfortowym busem lub autokarem z Zakopanego i Kościeliska, opieka pilota, ubezpieczenie NNW, czas wolny nad Jeziorem Czorsztyńskim i zaporą w Niedzicy, krótka wizyta i prelekcja przy kościele w Dębnie (UNESCO). Bilety wstępu do Zamku w Niedzicy są opcjonalne i  płatne. Dodatkowo płatne bilety na tratwę zgodnie z powyższym cennikiem."
                         },
                         "7": {
                             "header": "Skąd odbywa się wyjazd?",

@@ -132,7 +132,7 @@
                 },
                 "4": {
                     "header": "¿Qué incluye el precio de la excursión?",
-                    "text": "El precio de la excursión siempre incluye: transporte, entradas, cuidado del piloto/guía y seguro de accidentes."
+                    "text": "En el precio de la excursión siempre se incluyen: transporte, acompañamiento del guía y seguro NNW."
                 },
                 "5": {
                     "header": "¿Organizan excursiones al extranjero?",
@@ -426,14 +426,14 @@
                 },
                 "info": "La temporada de barqueros dura del 1 de abril al 31 de octubre – jueves, viernes y domingos. ¡Así que invitamos a la excursión todos los días!",
                 "table": {
-                    "header1": "Tipo de billete",
-                    "header2": "Descenso por el río Dunajec 2,5h",
-                    "1": "Billete normal",
-                    "2": "Billete reducido (hasta 10 años)",
-                    "additional": "Costes adicionales",
-                    "3": "temporada baja",
-                    "4": "temporada alta y festivos",
-                    "text": "* El precio incluye: transporte, asistencia del conductor durante la excursión y seguro de accidentes personales (NNW)."
+                    "header1": "Precio de la excursión",
+                    "header2": "Rafting por el Dunajec 2,5 h",
+                    "1": "Boleto normal",
+                    "2": "Boleto reducido (hasta 10 años)",
+                    "additional": "Boleto adicional para la balsa",
+                    "3": "Fuera de temporada",
+                    "4": "Temporada alta y festivos",
+                    "text": "*El precio incluye: transporte, supervisión del conductor durante la excursión y seguro NNW"
                 },
                 "tripprogram": {
                     "header": "Programa de la Excursión:",
@@ -472,7 +472,7 @@
                         },
                         "6": {
                             "header": "¿Qué incluye el precio de la excursión?",
-                            "text": "El precio de la excursión con TrioTravel incluye: transporte en un cómodo autobús o autocar desde Zakopane y Kościelisko, descenso del Dunajec por la ruta polaca con balseros, asistencia de un guía, seguro de accidentes (NNW), tiempo libre en el lago Czorsztyn y la presa de Niedzica, y una breve visita con charla en la iglesia de Dębno (UNESCO). Las entradas al Castillo de Niedzica son opcionales y tienen un coste adicional."
+                            "text": "El precio de la excursión con TrioTravel incluye: transporte en autobús o autocar cómodo desde Zakopane y Kościelisko, acompañamiento del guía, seguro NNW, tiempo libre junto al Lago Czorsztyński y la presa de Niedzica, una breve visita y charla en la iglesia de Dębno (UNESCO). Las entradas al Castillo de Niedzica son opcionales y de pago. Los billetes para la balsa son de pago adicional según el tarifario anterior."
                         },
                         "7": {
                             "header": "¿Desde dónde sale la excursión?",

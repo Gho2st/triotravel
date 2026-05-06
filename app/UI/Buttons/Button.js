@@ -32,7 +32,7 @@ export default function Button({
   // jeśli jest link, renderujemy Link
   if (link) {
     return (
-      <Link href={link} className={classes}>
+      <Link href={link} onClick={onClick} className={classes}>
         {text}
       </Link>
     );
