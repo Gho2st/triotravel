@@ -2330,14 +2330,25 @@
         "button": "¡Reserva ahora!"
     },
     "blog": {
-        "header": "Nuestro Blog",
-        "description": "Descubre los últimos consejos, artículos e inspiraciones para padres de niños pequeños. Aprende más sobre adaptación, desarrollo del habla, actividades educativas y otros temas relacionados con la guardería.",
+        "header": "Zakopane de primera mano",
+        "header2": "TrioTravel",
         "searchPlaceholder": "Buscar artículos...",
-        "articlesHeader": "Nuestros Artículos",
-        "noArticlesFound": "No se encontraron artículos que coincidan con la búsqueda.",
+        "noArticlesFound": "No se encontraron artículos que coincidan con tu búsqueda.",
         "previousButton": "Anterior",
         "nextButton": "Siguiente",
         "readMoreButton": "Leer más",
+        "noImage": "Sin foto",
+        "header3": "Nuestros Artículos",
+        "text": "¡Bienvenido al blog de Trio Travel, una agencia de viajes local de Zakopane que conoce los Tatras como la palma de su mano! Aquí compartimos todo lo que vale la pena saber antes de tu viaje a la montaña: desde rutas probadas a Kasprowy, Morskie Oko y el Paraíso Eslovaco, hasta consejos de fotografía y lugares románticos para parejas, y consejos prácticos para familias con niños, amantes de la adrenalina y quienes buscan relajación en termas.",
+        "button": "Leer más",
+        "main": "Página Principal",
+        "new": "Últimas entradas",
+        "all": "Ver todas",
+        "back": "Volver al blog",
+        "team": {
+            "1": "Equipo TrioTravel",
+            "2": "Vivimos aquí, conocemos cada rincón"
+        },
         "recentPosts": {
             "header": "Publicaciones Recientes",
             "button": "Leer más...",
@@ -2347,176 +2358,6 @@
             "header": "Destacados",
             "button": "Leer más...",
             "error": "No hay artículos disponibles"
-        },
-        "blogPosts": {
-            "1": {
-                "title": "Ciudad a los pies de los Tatras, que combina aventuras de montaña y locura invernal",
-                "metaTitle": "Ciudad a los pies de los Tatras - Aventuras y Atracciones Invernales | Triotravel",
-                "subtitle": "Descubre la ciudad donde los majestuosos Tatras se encuentran con el clima invernal y numerosas atracciones turísticas durante todo el año.",
-                "subtitle2": "Naturaleza encantadora y senderos inolvidables",
-                "contentPart1": "Zakopane, situada al pie de los majestuosos Tatras, atrae a los turistas con su combinación única de naturaleza montañosa, cultura rica y cálida hospitalidad de los habitantes. En verano, es un lugar perfecto para hacer caminatas por valles pintorescos, como el Valle de Kościeliska con sus cuevas y desfiladeros, el Valle de Chochołowska famoso por sus azafranes en primavera o el Valle de Strążyska con la cascada Siklawica. Los senderos turísticos ofrecen diferentes niveles de dificultad: desde paseos tranquilos y relajantes por caminos suaves, ideales para observar aves y flores alpinas, hasta ambiciosas escaladas a cimas como el Giewont con su cruz característica, el Kasprowy Wierch con vistas panorámicas o el Rysy, el pico más alto de Polonia, desde donde se extiende la vista hacia los Tatras eslovacos. Durante estas expediciones se puede admirar arroyos montañosos de agua cristalina, impresionantes cascadas como los Wodogrzmoty Mickiewicza y la vegetación única de los Tatras, incluyendo especies protegidas como la Edelweiss. Para los amantes de la actividad física hay rutas en bicicleta que atraviesan puertos de montaña, escalada en roca en áreas como Nosal y numerosos miradores, como Antałówka, que ofrecen panoramas impresionantes de todo Zakopane y los picos que lo rodean. Una curiosidad es que los Tatras son las únicas montañas alpinas en Polonia, y su geología esconde fósiles de millones de años, lo que añade magia a cada caminata.",
-                "contentPart2": "En invierno, Zakopane se convierte en la verdadera capital del esquí polaco y los deportes de invierno, atrayendo a entusiastas de la nieve de todo el país. Pistas de esquí populares, como Polana Szymoszkowa con vistas al Giewont, Nosal ideal para familias o Kasprowy Wierch con rutas más difíciles, ofrecen descensos tanto para principiantes como para esquiadores y snowboarders avanzados. El ambiente invernal se enriquece con tabernas tradicionales montañesas, donde se pueden degustar especialidades regionales como kwaśnica, oscypki o placki po zbójnicku, acompañados de música folclórica. Pasear por Krupówki, la avenida principal de la ciudad, permite sentir el vibrante ambiente de Zakopane con sus puestos de madera e iluminaciones, y los paseos en trineo por la noche con antorchas a través de bosques nevados son una experiencia inolvidable. Una curiosidad es que Zakopane fue inspiración para muchos artistas, incluido Stanisław Witkiewicz, creador del estilo de Zakopane, visible en la arquitectura de villas como Atma o Koliba. La agencia de viajes Triotravel.pl de Zakopane ayuda a organizar tales expediciones, garantizando seguridad y conocimiento local sobre los rincones ocultos de los Tatras.",
-                "cta": {
-                    "link": "/wycieczki-jednodniowe",
-                    "button": "Reserva una excursión",
-                    "header": "Los Tatras te esperan",
-                    "text": "Descubre todas las atracciones de la ciudad con Triotravel – viajes integrales adaptados a tus necesidades."
-                }
-            },
-            "2": {
-                "title": "Lugar perfecto para vacaciones familiares con niños en el corazón de las montañas polacas",
-                "metaTitle": "Vacaciones Familiares en los Tatras – Zakopane con Niños | Triotravel",
-                "subtitle": "Región donde las familias pueden pasar tiempo activamente, combinando aventuras al aire libre con atracciones educativas y culturales.",
-                "subtitle2": "Actividades para grandes y pequeños",
-                "contentPart1": "Zakopane y los Tatras son un destino ideal para vacaciones familiares, donde los niños pueden disfrutar de paseos suaves por valles como el Valle de Kościeliska con sus arroyos y cuevas, el Valle de Chochołowska con cabañas de madera o el Valle de Strążyska con caminos fáciles que llevan a la cascada. En verano, las familias pueden alquilar bicicletas y recorrer rutas alrededor de Zakopane, visitar mini zoológicos en la zona o jugar en parques infantiles con vistas a las montañas. Para niños mayores se recomiendan excursiones a pie por senderos menos frecuentados, como el camino a la Polana Rusinowa, donde se pueden encontrar ovejas de pastoreo y conocer la fauna local como marmotas o rebecos. Estas actividades desarrollan la condición física, enseñan orientación en el terreno y permiten admirar la naturaleza única de los Tatras. Una curiosidad es que en los Tatras vive la única población polaca de rebecos de los Tatras, que son símbolo del parque nacional y a menudo se les ve en las rocas.",
-                "contentPart2": "La región de Zakopane está llena de lugares educativos, como el Centro de Educación Ambiental del Parque Nacional de los Tatras con exposiciones interactivas sobre fauna y flora, o el Museo de los Tatras con exposiciones sobre la historia de las montañas y las tradiciones montañesas. Las familias pueden descubrir leyendas sobre bandidos en las tabernas, escuchar música folclórica o ver villas de madera al estilo de Zakopane. En la temporada de verano, valles como Mała Łąka ofrecen pícnic tranquilos, y en invierno los paseos en trineo tirados por caballos son una diversión para los más pequeños. Una curiosidad es que el Morskie Oko, el lago más grande de los Tatras, según la leyenda está conectado por un túnel subterráneo con el Mar Báltico. La agencia de viajes Triotravel.pl de Zakopane adapta los paquetes a las necesidades familiares, asegurando expediciones seguras y atractivas.",
-                "cta": {
-                    "link": "/wycieczki-jednodniowe",
-                    "button": "Reserva las vacaciones",
-                    "header": "Aventura familiar en las montañas",
-                    "text": "Utiliza los paquetes turísticos de Triotravel, que tienen en cuenta las necesidades de toda la familia."
-                }
-            },
-            "3": {
-                "title": "Adrenalina montañera al máximo nivel – escalada, bicicletas, parapentes y retos invernales",
-                "metaTitle": "Adrenalina en los Tatras – Escalada y Deportes Extremos | Triotravel",
-                "subtitle": "Para los buscadores de emociones fuertes, la región ofrece aventuras extremas tanto en verano como en invierno, desde escalada hasta freeride.",
-                "subtitle2": "Tatras para los valientes",
-                "contentPart1": "En los Tatras, los amantes de la adrenalina pueden probar escalada en roca en rutas en áreas como Mnich o Zamarła Turnia, bicicletas de montaña por puertos como Kopa Kondracka o parapente con despegues desde Gubałówka, desde donde se extienden vistas de todo Zakopane. Los caminos para correr en terreno alrededor de Nosal o los parques de cuerdas en el Valle de Kościeliska añaden emociones. Lugares populares como Kasprowy Wierch ofrecen elementos de supervivencia con vistas a los valles. Una curiosidad es que Orla Perć, el sendero más difícil de los Tatras, se llama 'sendero de las águilas' por su exposición y cadenas.",
-                "contentPart2": "En invierno, los Tatras atraen con freeride en las pistas de Kasprowy Wierch, escalada en hielo en cascadas congeladas como Siklawa o paseos en motos de nieve por el Valle de Chochołowska. Lugares como el Valle de los Cinco Lagos ofrecen saltos y descensos en nieve virgen. Una curiosidad es que los Tatras tienen cuevas de hielo únicas que mantienen el hielo durante todo el año. La agencia de viajes Triotravel.pl de Zakopane proporciona apoyo en la organización de tales aventuras con énfasis en la seguridad.",
-                "cta": {
-                    "link": "/wycieczki-jednodniowe",
-                    "button": "Reserva una aventura",
-                    "header": "Adrenalina en los Tatras",
-                    "text": "Descubre la cara extrema de los Tatras con Triotravel – apoyo profesional y seguridad total durante tus aventuras."
-                }
-            },
-            "4": {
-                "title": "Cultura montañesa, arquitectura y festivales – cómo descubrir la tradición de Podhale durante cada visita",
-                "metaTitle": "Cultura Montañesa y Tradiciones de Podhale – Zakopane | Triotravel",
-                "subtitle": "Región donde la música, el arte, los festivales y la arquitectura crean un clima único, ideal para turistas interesados en la cultura y la historia.",
-                "subtitle2": "Patrimonio montañés",
-                "contentPart1": "Zakopane es famoso por la rica cultura de Podhale, que es visible en cada paso, comenzando por el estilo único de Zakopane en la arquitectura. Este estilo, inspirado en las cabañas montañesas tradicionales, se caracteriza por techos empinados, motivos decorativos de talla en madera y el uso de la madera como principal material de construcción. Ejemplos de ello son hermosas villas como Koliba, diseñada por Stanisław Witkiewicz, que es el primer edificio en estilo de Zakopane, o Atma, la casa de Karol Szymanowski, donde actualmente se encuentra un museo dedicado al compositor. La artesanía montañesa es otro pilar de esta cultura – esculturas en madera que representan santos, animales o escenas de la vida cotidiana, realizadas por artistas locales, y trajes tradicionales con característicos bordados llamados parzenice en los pantalones, simbolizando la identidad montañesa. Paseando por las calles de Zakopane, se pueden encontrar numerosas galerías de arte donde se exhiben obras de artistas contemporáneos inspirados en el folclore, así como iglesias de madera, como la Iglesia de la Sagrada Familia en Krupówki o la histórica iglesia en el cementerio de Pęksowy Brzyzek, donde están enterrados artistas y guías de los Tatras destacados para la región. En los pueblos cercanos, como Kościelisko o Chochołów, se organizan espectáculos de danzas montañesas, donde bailarines en trajes folclóricos presentan enérgicos zbójnicki, obertasy y krzesane, acompañados por el sonido de violines, contrabajos y acordeones. Una curiosidad es que el oscypek, queso tradicional de leche de oveja, no solo tiene una forma única de huso, sino que su sabor se debe a un método especial de ahumado sobre fuego de madera de abeto o pino, lo que le da su aroma característico y color dorado; el proceso de producción del oscypek está protegido por la Unión Europea como producto regional, lo que subraya su autenticidad e importancia para la economía de Podhale.",
-                "contentPart2": "Durante todo el año en Zakopane y sus alrededores se celebran numerosos festivales de folclore, que atraen a turistas de todo el mundo, celebrando las tradiciones montañesas en su plenitud. Uno de los más importantes es el Festival Internacional de las Tierras Montañesas, organizado cada año en agosto, donde grupos folclóricos de diferentes países montañosos presentan danzas, música y artesanía, creando un mosaico colorido de culturas. Además, en las tabernas y restaurantes se realizan regularmente conciertos de bandas montañesas, donde se puede escuchar música en vivo, a menudo combinada con espectáculos de danza y narración de leyendas. Las exposiciones de arte popular en museos como el Museo de los Tatras de Tytus Chałubiński exponen colecciones de bordados, encajes e instrumentos musicales, dando una visión de la evolución de la artesanía montañesa. Krupówki, la calle principal de Zakopane, bulle de vida gracias a artistas callejeros, puestos con oscypki y recuerdos, y por las noches resuenan los sonidos de las bandas montañesas, creando una atmósfera inigualable. Una curiosidad es que la leyenda de Janosik, el famoso bandido de los Tatras que robaba a los ricos y ayudaba a los pobres, inspira no solo cuentos y baladas locales, sino también películas, obras de teatro y festivales, simbolizando el espíritu de libertad y justicia en la cultura de Podhale. La agencia de viajes Triotravel.pl se especializa en ayudar a los turistas a descubrir estas tradiciones a través de expediciones temáticas cuidadosamente planificadas, que incluyen visitas a museos, talleres de artesanía, encuentros con artistas montañeses y participación en festivales, proporcionando una experiencia auténtica e inmersiva, adaptada a los intereses de cada viajero, independientemente de la época del año.",
-                "cta": {
-                    "link": "/wycieczki-jednodniowe",
-                    "button": "Reserva una excursión cultural",
-                    "header": "Tradición y cultura de Podhale",
-                    "text": "Descubre la belleza del patrimonio montañés con Triotravel – viajes temáticos para amantes de la cultura."
-                }
-            },
-            "5": {
-                "title": "Relajación, salud y contacto con la naturaleza – termas, valles y lugares tranquilos en el corazón de los Tatras",
-                "metaTitle": "Relajación en los Tatras – Termas y Naturaleza en Zakopane | Triotravel",
-                "subtitle": "Lugar excepcional para la regeneración del cuerpo y el espíritu, ideal para personas que buscan descanso, silencio y contacto con la naturaleza.",
-                "subtitle2": "Termas y renovación biológica",
-                "contentPart1": "Después de intensas caminatas en los Tatras, nada regenera mejor que una visita a las termas locales, que utilizan fuentes geotermales naturales para crear oasis de relajación. Las Termas de Chochołów, el complejo más grande de Polonia, ofrecen piscinas exteriores e interiores con agua de hasta 38°C, hidromasajes, toboganes acuáticos y saunas finlandesas, de infrarrojos y de vapor, todo con vistas panorámicas a las montañas circundantes, lo que permite un descanso profundo y alivio para los músculos cansados. Del mismo modo, las Termas de Bukovina, ubicadas en Bukowina Tatrzańska, combinan comodidades modernas con elementos tradicionales, como piscinas con agua mineral rica en azufre, magnesio y calcio, que ayudan en el tratamiento de enfermedades reumáticas y dermatológicas. Estos centros también ofrecen una amplia gama de masajes – desde relajantes hasta terapéuticos – y tratamientos de spa con el uso de cosméticos naturales a base de hierbas de montaña, todo rodeado de bosques y aire fresco, lo que potencia el efecto de renovación biológica. Una curiosidad es que el agua termal en los Tatras proviene de capas profundas de la tierra, que llegan hasta los 3 km, y está naturalmente enriquecida con minerales como sodio, potasio y hierro, que influyen positivamente en la circulación sanguínea, el sistema inmunológico y el bienestar general, haciendo que estas termas no solo sean un lugar de relajación, sino también una terapia de salud natural reconocida desde hace siglos por la comunidad local.",
-                "contentPart2": "Además de las termas, los Tatras esconden muchos lugares tranquilos, ideales para el contacto con la naturaleza y la regeneración del espíritu, lejos del bullicio del centro turístico. El Valle de Mała Łąka, con sus extensos prados, arroyos murmurantes y caminos rodeados de flores en flor, es un lugar perfecto para meditación, yoga o simplemente pícnic perezosos rodeados de silencio interrumpido solo por el canto de los pájaros y el susurro del viento. Por su parte, el Valle de Strążyska ofrece relajantes paseos a lo largo del arroyo, a través de bosques de haya y abeto, con cascadas y formaciones rocosas, que inspiran a la contemplación y fotografía de la naturaleza. Los bosques de los Tatras, llenos de árboles coníferos aromáticos, permiten respirar profundamente aire fresco rico en fitoncidas, que tienen propiedades antibacterianas y calmantes, ayudando a reducir el estrés y mejorar el estado de ánimo. En estos rincones se pueden encontrar animales salvajes, como corzos o zorros, lo que añade un elemento de contacto auténtico con la naturaleza. Una curiosidad es que en los Tatras crecen alerces europeos, que como únicos árboles coníferos en Polonia pierden sus agujas en invierno, y en otoño cambian de color a dorado y naranja, creando paisajes pintorescos que recuerdan a alfombras doradas, lo que hace que los paseos otoñales sean especialmente mágicos. La agencia de viajes Triotravel.pl organiza estancias relajantes personalizadas en estos encantadores rincones, combinando visitas a las termas con caminatas ligeras, sesiones de mindfulness y alojamiento en pensiones ecológicas, proporcionando un programa integral de renovación para el cuerpo y la mente, adaptado a las necesidades individuales de los turistas.",
-                "cta": {
-                    "link": "/wycieczki-jednodniowe",
-                    "button": "Reserva una estancia relajante",
-                    "header": "Descanso en los Tatras",
-                    "text": "Recupera fuerzas con Triotravel – estancias personalizadas en el corazón de los Tatras para una relajación completa."
-                }
-            },
-            "6": {
-                "title": "Aventuras en los senderos de los Tatras – descubre las mejores rutas desde Zakopane",
-                "metaTitle": "Mejores Senderos de los Tatras – Excursiones desde Zakopane | Triotravel",
-                "subtitle": "Ideal para amantes de las caminatas de montaña, ofreciendo vistas inolvidables y retos para cada nivel de habilidad.",
-                "subtitle2": "Senderos y atracciones populares",
-                "contentPart1": "Los Tatras son un verdadero paraíso para los entusiastas del senderismo, ofreciendo una variedad de senderos que atraen a miles de turistas de todo el mundo cada año, independientemente de la temporada. Rutas populares, como el camino al Giewont – símbolo de los Tatras con su cruz característica en la cima – o el Valle de Kościeliska con sus pintorescos desfiladeros, cuevas y arroyos, no solo ofrecen desafíos físicos, sino también la oportunidad de sumergirse en la historia de la región, donde antiguamente operaban fundiciones y minas. Para principiantes son ideales caminos fáciles, como el sendero a Polana Strążyska, que ofrecen hermosas vistas de Zakopane y los valles circundantes sin esfuerzo excesivo, con bancos para descansar y paneles educativos sobre flora y fauna. Por su parte, los excursionistas avanzados pueden enfrentarse a exigentes ascensiones al Rysy, el pico más alto de Polonia, donde la ruta incluye cadenas, exposición y pendientes pronunciadas, recompensadas con vistas panorámicas a los Tatras polacos y eslovacos. Las excursiones en los Tatras no son solo una prueba de resistencia física, sino también una oportunidad para encontrar vida silvestre – desde rebecos saltando sobre rocas hasta águilas reales volando en círculos sobre las cabezas – y tomar fotos increíbles que inmortalizarán esos momentos para siempre, inspirando a regresar.",
-                "contentPart2": "Las estaciones del año dan a los senderos de los Tatras un carácter único: en primavera y verano los caminos florecen con flores alpinas como edelweiss o azafranes, creando alfombras coloridas, en otoño deleitan con la paleta de rojos, dorados y naranjas de las hojas de haya y alerce, y en invierno se transforman en rutas para esquí de fondo o ski touring, con nieve profunda y formaciones de hielo. La agencia de viajes Zakopane Triotravel.pl se especializa en organizar excursiones guiadas de un día, que aseguran no solo seguridad gracias a guías experimentados de los Tatras, sino también un rico conocimiento sobre la historia de la región, leyendas montañesas y normas de protección de la naturaleza en el Parque Nacional de los Tatras. Nuestros paquetes incluyen transporte desde Zakopane, mapas de senderos, seguro, lo que hace que cada expedición no solo sea una aventura, sino también una experiencia educativa, motivando a explorar la naturaleza de manera sostenible.",
-                "cta": {
-                    "link": "/wycieczki-jednodniowe",
-                    "button": "Reserva una excursión por senderos",
-                    "header": "Aventura en los Tatras",
-                    "text": "Descubre los Tatras con Triotravel – guía profesional y rutas personalizadas para todos."
-                }
-            },
-            "7": {
-                "title": "Las vistas más bellas de los Tatras – miradores y rutas desde Zakopane",
-                "metaTitle": "Miradores de los Tatras – Las Más Bellas Vistas de Zakopane | Triotravel",
-                "subtitle": "Descubre panoramas impresionantes de los Tatras, ideales para amantes de la fotografía y paseos tranquilos.",
-                "subtitle2": "Los mejores miradores",
-                "contentPart1": "Los Tatras ofrecen algunos de los paisajes más bellos y espectaculares de toda Polonia, con vistas que quitan el aliento e inspiran a artistas desde hace siglos. Miradores populares, como Gubałówka, a la que se puede subir en teleférico, proporcionan una amplia panorámica de los Tatras Altos, Zakopane y Podhale, con la posibilidad de observar cambios climáticos y colores en diferentes momentos del día. Nosal, otra cima fácilmente accesible, ofrece vistas al Valle de Bystrej y Kasprowy Wierch, ideales para paseos cortos en familia. Las excursiones a estos puntos son especialmente recomendadas para personas que buscan relajación, inspiración para fotografías o simplemente un momento de contemplación rodeados de montañas majestuosas. Rutas populares, como el sendero a Polana Rusinowa, combinan ascensos fáciles a través de bosques y prados con vistas increíbles a los Tatras Altos, incluidos Gerlach y Lodowy Szczyt en el lado eslovaco, y al fondo Zakopane; este prado también es un lugar donde pastores apacientan ovejas, añadiendo auténtico ambiente montañés.",
-                "contentPart2": "Las excursiones guiadas organizadas por Triotravel.pl permiten descubrir no solo estos lugares conocidos, sino también joyas menos frecuentadas, como Sarnia Skała con vistas al Valle de Białego y Giewont o Kopieniec Wielki, que ofrece una panorámica de 360 grados de los Tatras y Gorce. En nuestros paquetes ofrecemos transporte cómodo desde el centro de Zakopane, mapas detallados de senderos y fascinantes historias sobre la historia de la región, geología de los Tatras y leyendas locales, que enriquecerán tu experiencia y harán que cada vista adquiera un significado más profundo, haciendo de la expedición no solo un festín visual, sino también un viaje cultural.",
-                "cta": {
-                    "link": "/wycieczki-jednodniowe",
-                    "button": "Reserva una excursión panorámica",
-                    "header": "Panoramas de los Tatras",
-                    "text": "Admira la belleza de los Tatras con Triotravel – excursiones a los miradores más bellos."
-                }
-            },
-            "8": {
-                "title": "Fin de semana en Zakopane – cómo planificar la escapada ideal a los Tatras",
-                "metaTitle": "Fin de semana en Zakopane – Plan para una Escapada a los Tatras | Triotravel",
-                "subtitle": "Un viaje corto lleno de experiencias, ideal para personas que quieren aprovechar al máximo el tiempo en las montañas.",
-                "subtitle2": "Plan para el fin de semana",
-                "contentPart1": "Un fin de semana en Zakopane es una manera perfecta de desconectar rápidamente de la rutina diaria y recargar energías rodeado de los majestuosos Tatras. Comienza tu escapada con un relajante paseo por las famosas Krupówki, donde puedes admirar la arquitectura montañesa, echar un vistazo a tiendas de artesanía y recuerdos, probar platos regionales como kwaśnica, moskole u oscypek con arándanos en uno de los numerosos restaurantes. Luego visita unas termas, como las Termas de Podhale, para una sesión de relajación en piscinas cálidas con vistas a las montañas, lo que te preparará idealmente para más aventuras. En el segundo día, dirígete a un sendero, por ejemplo al Valle de los Cinco Lagos Polacos, que cautiva con lagos de agua cristalina, cascadas como Siklawa – la más grande de Polonia – y los picos circundantes, ofreciendo una mezcla de tramos fáciles y de dificultad media. La agencia de viajes Triotravel.pl ofrece planes de fin de semana listos, que incluyen alojamiento cómodo en pensiones u hoteles, transporte desde la estación o aeropuerto y horarios flexibles adaptados al clima y preferencias, asegurando un descanso sin estrés.",
-                "contentPart2": "Las noches en Zakopane vale la pena pasarlas en tabernas tradicionales con música montañesa en vivo, donde la banda toca violines y contrabajos, y el menú está lleno de platos como trucha asada o hałuski, o en un paseo romántico en trineo con antorchas a través de bosques nevados en invierno. Nuestros paquetes de fin de semana Triotravel.pl incluyen entradas a atracciones como el Museo de los Tatras o el teleférico a Gubałówka, horarios flexibles que permiten cambios en caso de mal tiempo, y también opciones adicionales como talleres culinarios o sesiones fotográficas, gracias a lo cual puedes disfrutar de cada momento en los Tatras, maximizando las experiencias en poco tiempo y regresando con nuevas fuerzas a la cotidianidad.",
-                "cta": {
-                    "link": "/wycieczki-jednodniowe",
-                    "button": "Reserva un fin de semana en los Tatras",
-                    "header": "Fin de semana en las montañas",
-                    "text": "Planea el fin de semana ideal con Triotravel – escapadas llenas de experiencias a Zakopane."
-                }
-            },
-            "9": {
-                "title": "Naturaleza de los Tatras – excursiones educativas y observación de animales desde Zakopane",
-                "metaTitle": "Naturaleza de los Tatras – Excursiones Educativas Zakopane | Triotravel",
-                "subtitle": "Conoce la vida silvestre de los Tatras, ideal para amantes de la ecología y familias con niños.",
-                "subtitle2": "Flora y fauna de los Tatras",
-                "contentPart1": "Los Tatras son un ecosistema único, hogar de muchas especies endémicas de animales, que hacen de esta región un verdadero tesoro natural de Europa. Aquí se pueden encontrar rebecos de los Tatras, saltando sobre rocas con una agilidad increíble, marmotas silbando en los prados alpinos, o incluso osos pardos, que vagan por los bosques en busca de alimento; la observación de estos animales requiere paciencia y respeto por sus hábitats. Las excursiones educativas organizadas por Triotravel.pl son guiadas por experimentados naturalistas y guías de los Tatras, que comparten conocimiento sobre el comportamiento de los animales, su papel en el ecosistema y amenazas, como el cambio climático. Senderos como el Valle de Chochołowska en primavera se convierten en alfombras violetas de azafranes, y en verano florecen plantas alpinas raras, como la Edelweiss o la genciana de primavera, que están protegidas y son símbolo de la flora de los Tatras.",
-                "contentPart2": "Las excursiones para niños y familias incluyen elementos interactivos, como talleres sobre ecología, donde los más pequeños aprenden a reconocer huellas de animales, cuestionarios sobre naturaleza con premios o simples experimentos con plantas, lo que hace del aprendizaje un juego y fomenta la protección del medio ambiente. Nuestros paquetes Triotravel.pl aseguran no solo seguridad gracias a grupos pequeños, sino también un profundo conocimiento sobre la protección de la naturaleza de los Tatras, incluyendo las normas del Parque Nacional de los Tatras, lo que hace de cada expedición una aventura educativa para amantes de la naturaleza de todas las edades, promoviendo un turismo consciente.",
-                "cta": {
-                    "link": "/wycieczki-jednodniowe",
-                    "button": "Reserva una excursión de naturaleza",
-                    "header": "Naturaleza de los Tatras",
-                    "text": "Descubre la naturaleza salvaje con Triotravel – excursiones educativas en el corazón de los Tatras."
-                }
-            },
-            "10": {
-                "title": "Adrenalina en los Tatras – escalada, rafting y otros deportes extremos",
-                "metaTitle": "Deportes Extremos en los Tatras – Escalada y Rafting | Triotravel",
-                "subtitle": "Para los buscadores de emociones fuertes, con rutas de escalada y actividades llenas de adrenalina.",
-                "subtitle2": "Deportes extremos en los Tatras",
-                "contentPart1": "Los Tatras son el lugar perfecto para todos los fans de la adrenalina y deportes extremos, ofreciendo diversas actividades que prueban los límites de la resistencia y valentía. Escalada a cimas como Mnich en el Valle del Arroyo del Pez o rocas en los alrededores de Zakopane, como las de Nosal o en el Valle de Białego, atraen tanto a profesionales con vías ferratas y boulder, como a aficionados aprendiendo lo básico bajo la supervisión de instructores. Rafting en el río Dunajec, que fluye a través del Desfiladero de Pieniny, ofrece emociones entre corrientes rápidas, remolinos y rocas, con vistas a las Tres Coronas y colinas eslovacas. Los parques de cuerdas en Zakopane y los tirolinas sobre los valles añaden escalofríos de altura y velocidad. La agencia de viajes Triotravel.pl proporciona equipo de escalada de alta calidad, cascos, arneses y botes, así como instructores certificados, que dirigen entrenamientos y cuidan la seguridad en cada etapa de la actividad.",
-                "contentPart2": "En invierno, los Tatras se transforman en arena para ski touring por pistas vírgenes o snowboard en terreno difícil fuera de pistas, con posibilidad de heliskiing para los más valientes. Nuestras excursiones Triotravel.pl están diseñadas pensando en la seguridad, con evaluación de riesgo y seguro, y guías experimentados adaptan el nivel de dificultad a las habilidades de los participantes – desde principiantes hasta expertos – asegurando que cada uno encuentre el nivel adecuado de desafío y regrese con recuerdos inolvidables llenos de emociones.",
-                "cta": {
-                    "link": "/wycieczki-jednodniowe",
-                    "button": "Reserva una aventura extrema",
-                    "header": "Adrenalina en los Tatras",
-                    "text": "Siente la emoción con Triotravel – aventuras extremas en Zakopane."
-                }
-            },
-            "11": {
-                "title": "Viaje romántico a Zakopane – lugares perfectos para parejas en los Tatras",
-                "metaTitle": "Viaje Romántico a Zakopane – Para Parejas | Triotravel",
-                "subtitle": "Crea momentos inolvidables con tu ser amado entre paisajes montañosos y acogedoras tabernas.",
-                "subtitle2": "Atracciones románticas",
-                "contentPart1": "Zakopane es el lugar perfecto para una escapada romántica para parejas, donde los paisajes montañosos crean un escenario mágico para momentos compartidos. Un paseo por el Valle de Kościeliska al atardecer, con el murmullo del arroyo y vistas a las agujas rocosas, permite conversaciones íntimas y fotos abrazados por la naturaleza. Cena en una taberna tradicional con vistas al Giewont, a la luz de velas y sonidos de música montañesa, con platos como fondue de queso o vino de viñedos locales, añade encanto a las noches. Termas con saunas privadas y masajes para dos, como en las Termas de Chochołów, ofrecen relajación en agua cálida con minerales, con ventanales panorámicos a los Tatras. Zakopane ofrece paquetes especiales para parejas, incluyendo alojamiento en encantadoras pensiones con chimeneas, balcones y jacuzzi, asegurando privacidad y confort al más alto nivel.",
-                "contentPart2": "En invierno, el romanticismo lo añaden paseos en trineo con antorchas a través de bosques nevados, con vino caliente y mantas, y en verano un paseo en bote por el Morskie Oko, rodeado de picos, ideal para propuestas de matrimonio o picnic. Nuestros planes personalizados Triotravel.pl tienen en cuenta preferencias individuales, harán que tu viaje esté lleno de momentos mágicos, fortaleciendo el vínculo y creando recuerdos para toda la vida.",
-                "cta": {
-                    "link": "/wycieczki-jednodniowe",
-                    "button": "Reserva un viaje romántico",
-                    "header": "Romanticismo en los Tatras",
-                    "text": "Vive momentos mágicos con Triotravel – escapadas románticas a Zakopane."
-                }
-            },
-            "12": {
-                "title": "Fotografía en los Tatras – los mejores lugares para fotos desde Zakopane",
-                "metaTitle": "Fotografía en los Tatras – Talleres y Fotos Zakopane | Triotravel",
-                "subtitle": "Para apasionados de la fotografía, ofreciendo consejos y rutas para capturar la belleza de los Tatras.",
-                "subtitle2": "Joyas fotográficas de los Tatras",
-                "contentPart1": "Los Tatras son un verdadero paraíso para los apasionados de la fotografía, con paisajes diversos que ofrecen posibilidades infinitas de composición y experimentación con la luz. Lugares como la Laguna Negra de Gąsienicowa, con su agua cristalina reflejando picos como Kościelec o Kasprowy Wierch, son ideales para fotos de paisaje, especialmente al amanecer, cuando las nieblas se levantan sobre la superficie. Hala Gąsienicowa, con prados alpinos y rebaños de ovejas, proporciona fondos dinámicos para fotografía de naturaleza y retratos.",
-                "contentPart2": "Senderos como el Valle de Mała Łąka con sus arroyos y bosques o Polana Chochołowska, especialmente en primavera con azafranes, son ideales para fotógrafos principiantes buscando tomas fáciles, y avanzados experimentando con macro o panorámicas. Nuestros paquetes Triotravel.pl incluyen transporte cómodo a las ubicaciones y consejos prácticos, lo que hace de cada expedición una aventura creativa.",
-                "cta": {
-                    "link": "/wycieczki-jednodniowe",
-                    "button": "Reserva una excursión de un día",
-                    "header": "Fotografía en los Tatras",
-                    "text": "Captura la belleza de los Tatras con Triotravel"
-                }
-            }
         }
     }
 }

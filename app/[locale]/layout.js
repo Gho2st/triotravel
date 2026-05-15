@@ -9,6 +9,7 @@ import CookieConsent from "@/app/UI/CookieConsent";
 import SnowEffect from "../UI/SnowEffect";
 import Script from "next/script";
 import { GoogleTagManager } from "@next/third-parties/google";
+import { ToastContainer } from "react-toastify";
 
 const font = Poppins({
   subsets: ["latin"],
@@ -55,6 +56,18 @@ export default async function LocaleLayout({ children, params }) {
       <body>
         <NextIntlClientProvider messages={messages}>
           <ClientBody fontClassName={font.className}>
+            <ToastContainer
+              position="top-right"
+              autoClose={4000}
+              hideProgressBar={false}
+              newestOnTop
+              closeOnClick
+              rtl={false}
+              pauseOnFocusLoss
+              draggable
+              pauseOnHover
+              theme="light"
+            />
             {/* <SnowEffect /> */}
             {children}
             <CookieConsent />

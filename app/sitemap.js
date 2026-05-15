@@ -1,5 +1,48 @@
-export default function sitemap() {
-  const baseUrl = "https://triotravel.pl";
+import prisma from "@/lib/prisma";
+
+const baseUrl = "https://triotravel.pl";
+
+const LOCALE_PATHS = {
+  en: "en",
+  de: "de",
+  ar: "ar",
+  hu: "hu",
+  es: "es",
+};
+
+export default async function sitemap() {
+  const posts = await prisma.post.findMany({
+    where: { status: "published" },
+    include: { translations: true },
+    orderBy: { publishedAt: "desc" },
+  });
+
+  const blogPostEntries = posts.flatMap((post) => {
+    // każde tłumaczenie = osobny wpis w sitemapie (bo każde ma swój URL)
+    const plTranslation = post.translations.find((t) => t.locale === "pl");
+    if (!plTranslation) return [];
+
+    const languages = {
+      "x-default": `${baseUrl}/blog/${plTranslation.slug}`,
+      pl: `${baseUrl}/blog/${plTranslation.slug}`,
+    };
+
+    post.translations.forEach((t) => {
+      if (t.locale === "pl") return;
+      if (LOCALE_PATHS[t.locale]) {
+        languages[t.locale] =
+          `${baseUrl}/${LOCALE_PATHS[t.locale]}/blog/${t.slug}`;
+      }
+    });
+
+    return [
+      {
+        url: `${baseUrl}/blog/${plTranslation.slug}`,
+        lastModified: post.updatedAt ?? post.publishedAt ?? new Date(),
+        alternates: { languages },
+      },
+    ];
+  });
 
   return [
     {
@@ -7,6 +50,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}`,
           pl: `${baseUrl}`,
           en: `${baseUrl}/en`,
           de: `${baseUrl}/de`,
@@ -21,6 +65,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/wycieczki-jednodniowe`,
           pl: `${baseUrl}/wycieczki-jednodniowe`,
           en: `${baseUrl}/en/day-trips`,
           de: `${baseUrl}/de/tagesausfluege`,
@@ -35,6 +80,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/kuligi`,
           pl: `${baseUrl}/kuligi`,
           en: `${baseUrl}/en/sleigh-rides`,
           de: `${baseUrl}/de/schlittenfahrten`,
@@ -49,6 +95,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/kuligi/goralski-koscielisko`,
           pl: `${baseUrl}/kuligi/goralski-koscielisko`,
           en: `${baseUrl}/en/sleigh-rides/highlander-koscielisko`,
           de: `${baseUrl}/de/schlittenfahrten/goralen-koscielisko`,
@@ -63,6 +110,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/kuligi/walentynkowy`,
           pl: `${baseUrl}/kuligi/walentynkowy`,
           en: `${baseUrl}/en/sleigh-rides/valentine`,
           de: `${baseUrl}/de/schlittenfahrten/valentinstag`,
@@ -77,6 +125,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/kuligi/dolina-chocholowska`,
           pl: `${baseUrl}/kuligi/dolina-chocholowska`,
           en: `${baseUrl}/en/sleigh-rides/chocholowska-valley`,
           de: `${baseUrl}/de/schlittenfahrten/chocholowska-tal`,
@@ -91,6 +140,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/kuligi/wieczor-sylwestrowy`,
           pl: `${baseUrl}/kuligi/wieczor-sylwestrowy`,
           en: `${baseUrl}/en/sleigh-rides/new-years-eve`,
           de: `${baseUrl}/de/schlittenfahrten/silvesterabend`,
@@ -105,6 +155,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/bilety-na-kasprowy-wierch`,
           pl: `${baseUrl}/bilety-na-kasprowy-wierch`,
           en: `${baseUrl}/en/kasprowy-wierch-tickets`,
           de: `${baseUrl}/de/kasprowy-wierch-tickets`,
@@ -119,6 +170,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/transport`,
           pl: `${baseUrl}/transport`,
           en: `${baseUrl}/en/transport`,
           de: `${baseUrl}/de/transport`,
@@ -133,6 +185,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/transport/mapa-przystankow`,
           pl: `${baseUrl}/transport/mapa-przystankow`,
           en: `${baseUrl}/en/transport/map-of-stops`,
           de: `${baseUrl}/de/transport/haltestellenkarte`,
@@ -147,6 +200,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/partnerzy`,
           pl: `${baseUrl}/partnerzy`,
           en: `${baseUrl}/en/partners`,
           de: `${baseUrl}/de/partner`,
@@ -161,6 +215,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/kontakt`,
           pl: `${baseUrl}/kontakt`,
           en: `${baseUrl}/en/contact`,
           de: `${baseUrl}/de/kontakt`,
@@ -175,6 +230,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/rezerwacje`,
           pl: `${baseUrl}/rezerwacje`,
           en: `${baseUrl}/en/reservations`,
           de: `${baseUrl}/de/reservierungen`,
@@ -189,6 +245,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/wycieczki-jednodniowe/splyw-dunajcem-zakopane`,
           pl: `${baseUrl}/wycieczki-jednodniowe/splyw-dunajcem-zakopane`,
           en: `${baseUrl}/en/day-trips/dunajec-rafting-zakopane`,
           de: `${baseUrl}/de/tagesausfluege/dunajec-flossfahrt-zakopane`,
@@ -203,6 +260,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/wycieczki-jednodniowe/chocholowskie-termy`,
           pl: `${baseUrl}/wycieczki-jednodniowe/chocholowskie-termy`,
           en: `${baseUrl}/en/day-trips/chocholowska-thermal-pools`,
           de: `${baseUrl}/de/tagesausfluege/chocholowska-therme`,
@@ -217,6 +275,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/wycieczki-jednodniowe/spacer-w-koronach-drzew`,
           pl: `${baseUrl}/wycieczki-jednodniowe/spacer-w-koronach-drzew`,
           en: `${baseUrl}/en/day-trips/tree-top-walk-bachledka`,
           de: `${baseUrl}/de/tagesausfluege/bachledka-baumwipfelpfad`,
@@ -231,6 +290,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/wycieczki-jednodniowe/jaskinia-bielanska`,
           pl: `${baseUrl}/wycieczki-jednodniowe/jaskinia-bielanska`,
           en: `${baseUrl}/en/day-trips/belianska-cave-trip`,
           de: `${baseUrl}/de/tagesausfluege/belianska-hoehle`,
@@ -245,6 +305,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/wycieczki-jednodniowe/tajemnice-wieliczki`,
           pl: `${baseUrl}/wycieczki-jednodniowe/tajemnice-wieliczki`,
           en: `${baseUrl}/en/day-trips/wieliczka-salt-mine-tour`,
           de: `${baseUrl}/de/tagesausfluege/salzbergwerk-wieliczka`,
@@ -259,6 +320,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/wycieczki-jednodniowe/zabawa-goralska`,
           pl: `${baseUrl}/wycieczki-jednodniowe/zabawa-goralska`,
           en: `${baseUrl}/en/day-trips/highlander-party`,
           de: `${baseUrl}/de/tagesausfluege/goralen-party`,
@@ -273,6 +335,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/wycieczki-jednodniowe/slowacki-raj`,
           pl: `${baseUrl}/wycieczki-jednodniowe/slowacki-raj`,
           en: `${baseUrl}/en/day-trips/slovak-raj`,
           de: `${baseUrl}/de/tagesausfluege/slowakisches-paradies`,
@@ -287,6 +350,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/wycieczki-jednodniowe/wieden`,
           pl: `${baseUrl}/wycieczki-jednodniowe/wieden`,
           en: `${baseUrl}/en/day-trips/vienna`,
           de: `${baseUrl}/de/tagesausfluege/wien`,
@@ -301,6 +365,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/wycieczki-jednodniowe/budapeszt`,
           pl: `${baseUrl}/wycieczki-jednodniowe/budapeszt`,
           en: `${baseUrl}/en/day-trips/budapest`,
           de: `${baseUrl}/de/tagesausfluege/budapest`,
@@ -315,6 +380,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/wycieczki-jednodniowe/krajobrazy-slowacji`,
           pl: `${baseUrl}/wycieczki-jednodniowe/krajobrazy-slowacji`,
           en: `${baseUrl}/en/day-trips/slovak-landscapes`,
           de: `${baseUrl}/de/tagesausfluege/landschaften-der-slowakei`,
@@ -329,6 +395,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/wycieczki-jednodniowe/dookola-tatr`,
           pl: `${baseUrl}/wycieczki-jednodniowe/dookola-tatr`,
           en: `${baseUrl}/en/day-trips/around-tatras`,
           de: `${baseUrl}/de/tagesausfluege/um-die-tatra`,
@@ -343,6 +410,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/wycieczki-jednodniowe/rafting-po-dunajcu`,
           pl: `${baseUrl}/wycieczki-jednodniowe/rafting-po-dunajcu`,
           en: `${baseUrl}/en/day-trips/dunajec-river-rafting`,
           de: `${baseUrl}/de/tagesausfluege/rafting-auf-dem-dunajec`,
@@ -357,6 +425,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/wycieczki-jednodniowe/swiatynia-lodowa-hrebieniok`,
           pl: `${baseUrl}/wycieczki-jednodniowe/swiatynia-lodowa-hrebieniok`,
           en: `${baseUrl}/en/day-trips/ice-temple-hrebienok`,
           de: `${baseUrl}/de/tagesausfluege/eisdom-hrebienok`,
@@ -371,6 +440,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/wycieczki-jednodniowe/splyw-dunajcem-slowacja`,
           pl: `${baseUrl}/wycieczki-jednodniowe/splyw-dunajcem-slowacja`,
           en: `${baseUrl}/en/day-trips/dunajec-rafting-slovakia`,
           de: `${baseUrl}/de/tagesausfluege/dunajec-flossfahrt-slowakei`,
@@ -385,6 +455,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/wycieczki-jednodniowe/tatry-i-zakopane`,
           pl: `${baseUrl}/wycieczki-jednodniowe/tatry-i-zakopane`,
           en: `${baseUrl}/en/day-trips/tatras-and-zakopane`,
           de: `${baseUrl}/de/tagesausfluege/tatra-und-zakopane`,
@@ -399,6 +470,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/wycieczki-jednodniowe/szlak-papieski`,
           pl: `${baseUrl}/wycieczki-jednodniowe/szlak-papieski`,
           en: `${baseUrl}/en/day-trips/papal-trail`,
           de: `${baseUrl}/de/tagesausfluege/papst-route`,
@@ -413,6 +485,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/wycieczki-jednodniowe/quady`,
           pl: `${baseUrl}/wycieczki-jednodniowe/quady`,
           en: `${baseUrl}/en/day-trips/quad-bike-trips`,
           de: `${baseUrl}/de/tagesausfluege/quads`,
@@ -427,6 +500,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/wycieczki-jednodniowe/rowery-elektryczne`,
           pl: `${baseUrl}/wycieczki-jednodniowe/rowery-elektryczne`,
           en: `${baseUrl}/en/day-trips/electric-bikes`,
           de: `${baseUrl}/de/tagesausfluege/e-bikes`,
@@ -441,6 +515,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/transport/nad-morskie-oko`,
           pl: `${baseUrl}/transport/nad-morskie-oko`,
           en: `${baseUrl}/en/transport/to-morskie-oko`,
           de: `${baseUrl}/de/transport/zum-morskie-oko`,
@@ -455,6 +530,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/ciekawostki-o-splywie-dunajcem`,
           pl: `${baseUrl}/ciekawostki-o-splywie-dunajcem`,
           en: `${baseUrl}/en/fun-facts-about-dunajec-rafting`,
           de: `${baseUrl}/de/wissenswertes-ueber-dunajec-flossfahrt`,
@@ -469,6 +545,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/oferta`,
           pl: `${baseUrl}/oferta`,
           en: `${baseUrl}/en/offer`,
           de: `${baseUrl}/de/angebot`,
@@ -483,6 +560,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/polityka-cookies`,
           pl: `${baseUrl}/polityka-cookies`,
           en: `${baseUrl}/en/cookie-policy`,
           de: `${baseUrl}/de/cookie-richtlinie`,
@@ -497,6 +575,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/atrakcje-zakopane`,
           pl: `${baseUrl}/atrakcje-zakopane`,
           en: `${baseUrl}/en/zakopane-attractions`,
           de: `${baseUrl}/de/attraktionen-zakopane`,
@@ -513,6 +592,7 @@ export default function sitemap() {
       lastModified: new Date(),
       alternates: {
         languages: {
+          "x-default": `${baseUrl}/blog`,
           pl: `${baseUrl}/blog`,
           en: `${baseUrl}/en/blog`,
           de: `${baseUrl}/de/blog`,
@@ -522,173 +602,6 @@ export default function sitemap() {
         },
       },
     },
-    {
-      url: `${baseUrl}/blog/miasto-u-stop-tatr`,
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          pl: `${baseUrl}/blog/miasto-u-stop-tatr`,
-          en: `${baseUrl}/en/blog/mountain-town-adventure`,
-          de: `${baseUrl}/de/blog/stadt-am-fusse-der-tatra`,
-          ar: `${baseUrl}/ar/blog/madinat-tatra`,
-          hu: `${baseUrl}/hu/blog/hegyi-varos-kaland`,
-          es: `${baseUrl}/es/blog/ciudad-montana-aventura`,
-        },
-      },
-    },
-    {
-      url: `${baseUrl}/blog/rodzinne-wakacje-w-gorach`,
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          pl: `${baseUrl}/blog/rodzinne-wakacje-w-gorach`,
-          en: `${baseUrl}/en/blog/family-vacations-mountains`,
-          de: `${baseUrl}/de/blog/familienurlaub-in-den-bergen`,
-          ar: `${baseUrl}/ar/blog/utla-ailiya-jabal`,
-          hu: `${baseUrl}/hu/blog/csaladi-vakaciok-hegyekben`,
-          es: `${baseUrl}/es/blog/vacaciones-familia-montana`,
-        },
-      },
-    },
-    {
-      url: `${baseUrl}/blog/gorska-adrenalina`,
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          pl: `${baseUrl}/blog/gorska-adrenalina`,
-          en: `${baseUrl}/en/blog/mountain-adrenaline`,
-          de: `${baseUrl}/de/blog/berg-adrenalin`,
-          ar: `${baseUrl}/ar/blog/ithara-jabaliya`,
-          hu: `${baseUrl}/hu/blog/hegyi-adrenalin`,
-          es: `${baseUrl}/es/blog/adrenalina-montana`,
-        },
-      },
-    },
-    {
-      url: `${baseUrl}/blog/gorska-kultura`,
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          pl: `${baseUrl}/blog/gorska-kultura`,
-          en: `${baseUrl}/en/blog/highland-culture`,
-          de: `${baseUrl}/de/blog/bergkultur`,
-          ar: `${baseUrl}/ar/blog/thaqafa-jabaliya`,
-          hu: `${baseUrl}/hu/blog/hegyi-kultura`,
-          es: `${baseUrl}/es/blog/cultura-montanesa`,
-        },
-      },
-    },
-    {
-      url: `${baseUrl}/blog/relaks-w-tatrach`,
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          pl: `${baseUrl}/blog/relaks-w-tatrach`,
-          en: `${baseUrl}/en/blog/relaxation-tatras`,
-          de: `${baseUrl}/de/blog/entspannung-in-der-tatra`,
-          ar: `${baseUrl}/ar/blog/istiraha-tatra`,
-          hu: `${baseUrl}/hu/blog/pihenes-tatraban`,
-          es: `${baseUrl}/es/blog/relax-tatras`,
-        },
-      },
-    },
-    {
-      url: `${baseUrl}/blog/najlepsze-trasy-z-zakopanego`,
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          pl: `${baseUrl}/blog/najlepsze-trasy-z-zakopanego`,
-          en: `${baseUrl}/en/blog/best-trails-from-zakopane`,
-          de: `${baseUrl}/de/blog/beste-routen-von-zakopane`,
-          ar: `${baseUrl}/ar/blog/afdal-almasarat-min-zakubani`,
-          hu: `${baseUrl}/hu/blog/legjobb-osvenyek-zakopanebol`,
-          es: `${baseUrl}/es/blog/mejores-rutas-desde-zakopane`,
-        },
-      },
-    },
-    {
-      url: `${baseUrl}/blog/najpiekniejsze-widoki-tatry`,
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          pl: `${baseUrl}/blog/najpiekniejsze-widoki-tatry`,
-          en: `${baseUrl}/en/blog/most-beautiful-tatra-views`,
-          de: `${baseUrl}/de/blog/schoenste-aussichten-tatra`,
-          ar: `${baseUrl}/ar/blog/afdal-almanazir-tatra`,
-          hu: `${baseUrl}/hu/blog/legszerubb-tatra-kilatasok`,
-          es: `${baseUrl}/es/blog/vistas-mas-bellas-tatras`,
-        },
-      },
-    },
-    {
-      url: `${baseUrl}/blog/weekend-w-zakopanem`,
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          pl: `${baseUrl}/blog/weekend-w-zakopanem`,
-          en: `${baseUrl}/en/blog/weekend-in-zakopane`,
-          de: `${baseUrl}/de/blog/wochenende-in-zakopane`,
-          ar: `${baseUrl}/ar/blog/nahiyat-alnihaya-fi-zakubani`,
-          hu: `${baseUrl}/hu/blog/hetvege-zakopaneben`,
-          es: `${baseUrl}/es/blog/fin-de-semana-zakopane`,
-        },
-      },
-    },
-    {
-      url: `${baseUrl}/blog/przyroda-tatr`,
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          pl: `${baseUrl}/blog/przyroda-tatr`,
-          en: `${baseUrl}/en/blog/tatra-nature`,
-          de: `${baseUrl}/de/blog/natur-der-tatra`,
-          ar: `${baseUrl}/ar/blog/tabi3at-tatra`,
-          hu: `${baseUrl}/hu/blog/tatra-termeszet`,
-          es: `${baseUrl}/es/blog/naturaleza-tatras`,
-        },
-      },
-    },
-    {
-      url: `${baseUrl}/blog/adrenalina-tatry`,
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          pl: `${baseUrl}/blog/adrenalina-tatry`,
-          en: `${baseUrl}/en/blog/adrenaline-tatras`,
-          de: `${baseUrl}/de/blog/adrenalin-tatra`,
-          ar: `${baseUrl}/ar/blog/adrenaline-tatra`,
-          hu: `${baseUrl}/hu/blog/adrenalin-tatraban`,
-          es: `${baseUrl}/es/blog/adrenalina-tatras`,
-        },
-      },
-    },
-    {
-      url: `${baseUrl}/blog/romantyczny-zakopane`,
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          pl: `${baseUrl}/blog/romantyczny-zakopane`,
-          en: `${baseUrl}/en/blog/romantic-zakopane`,
-          de: `${baseUrl}/de/blog/romantisches-zakopane`,
-          ar: `${baseUrl}/ar/blog/zakubani-alromansiya`,
-          hu: `${baseUrl}/hu/blog/romantikus-zakopane`,
-          es: `${baseUrl}/es/blog/zakopane-romantico`,
-        },
-      },
-    },
-    {
-      url: `${baseUrl}/blog/fotografia-tatry`,
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          pl: `${baseUrl}/blog/fotografia-tatry`,
-          en: `${baseUrl}/en/blog/photography-tatras`,
-          de: `${baseUrl}/de/blog/fotografie-tatra`,
-          ar: `${baseUrl}/ar/blog/taswir-tatra`,
-          hu: `${baseUrl}/hu/blog/fotografalas-tatraban`,
-          es: `${baseUrl}/es/blog/fotografia-tatras`,
-        },
-      },
-    },
+    ...blogPostEntries,
   ];
 }
