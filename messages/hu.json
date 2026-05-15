@@ -164,6 +164,7 @@
         },
         "trips": {
             "header": "Napkirándulások Zakopanéból – Nyár",
+            "heroHeader": "Leggyakrabban választott kirándulások",
             "winterHeader": "TrioTravel téli ajánlat",
             "winterHeader2": "Téli kirándulások és látnivalók",
             "winterText": "Termálfürdők, Jégtemplom, Kasprowy-csúcs, Lombkorona-sétány és még sok más – csak télen!",
