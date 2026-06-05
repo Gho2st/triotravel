@@ -90,7 +90,7 @@ export default function SlowackiRaj() {
             items={tripItems}
           />
           <TripTime
-            availableDays={["Śr"]} // Przykład: wybrane dni
+            availableDays={["Czw"]} // Przykład: wybrane dni
           />
         </div>
         {/* buttons */}

@@ -109,7 +109,7 @@ export default function Spacer() {
             items={tripItems}
             info={t("tripprogram.info")}
           />
-          <TripTime />
+          <TripTime availableDays={["Wt", "Czw", "Sob"]} />
           <ButtonComponent />
         </div>
       </section>

@@ -51,21 +51,22 @@ const emptyTranslation = {
   ctaPrimaryLabel: "",
   ctaSecondaryLabel: "",
 };
+
+// Puste tłumaczenia budowane z LOCALES — żeby nigdy nie rozjechały się
+// z listą zakładek (każdy język z UI ma swój obiekt w formularzu).
+function buildEmptyTranslations() {
+  return Object.fromEntries(
+    LOCALES.map(({ code }) => [code, { ...emptyTranslation }]),
+  );
+}
+
 const emptyForm = {
   coverImage: "",
   status: "draft",
   publishedAt: "",
-  ctaTitle: "",
-  ctaDescription: "",
-  ctaPrimaryLabel: "",
-  ctaSecondaryLabel: "",
-  translations: {
-    pl: { ...emptyTranslation },
-    en: { ...emptyTranslation },
-    sk: { ...emptyTranslation },
-    ua: { ...emptyTranslation },
-    de: { ...emptyTranslation },
-  },
+  ctaPrimaryUrl: "",
+  ctaSecondaryUrl: "",
+  translations: buildEmptyTranslations(),
 };
 
 // ====================== LISTA ======================
@@ -177,7 +178,7 @@ function BlogList({ onNew, onEdit }) {
                       {post.status === "published" ? "Opublikowany" : "Szkic"}
                     </span>
                     <span className="shrink-0 text-[11px] px-2 py-0.5 rounded-full bg-blue-50 text-blue-700 font-medium">
-                      {translatedCount}/6 języków
+                      {translatedCount}/{LOCALES.length} języków
                     </span>
                   </div>
                   <p className="text-[11px] text-gray-400">
@@ -235,13 +236,10 @@ function BlogForm({ post, onBack }) {
   const [saving, setSaving] = useState(false);
   const [forceTranslate, setForceTranslate] = useState(false);
 
-  const [slugManual, setSlugManual] = useState({
-    pl: isEdit,
-    en: isEdit,
-    sk: isEdit,
-    ua: isEdit,
-    de: isEdit,
-  });
+  // slugManual budowany z LOCALES — przy edycji wszystkie ręczne, przy nowym wpisie auto.
+  const [slugManual, setSlugManual] = useState(() =>
+    Object.fromEntries(LOCALES.map(({ code }) => [code, isEdit])),
+  );
 
   const [form, setForm] = useState(() => {
     if (!isEdit) return emptyForm;

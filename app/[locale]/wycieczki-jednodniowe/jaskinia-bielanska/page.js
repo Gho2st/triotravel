@@ -22,7 +22,8 @@ export async function generateMetadata({ params }) {
     namespace: "metadata.jaskinia-bielanska",
   });
 
-  const path = routing.pathnames["/wycieczki-jednodniowe/jaskinia-bielanska"][locale]; // Pobieramy ścieżkę dla języka
+  const path =
+    routing.pathnames["/wycieczki-jednodniowe/jaskinia-bielanska"][locale]; // Pobieramy ścieżkę dla języka
   // Jeśli locale to 'pl', pomijamy prefix języka, w przeciwnym razie go dodajemy
   const canonicalUrl =
     locale === "pl"
@@ -86,9 +87,8 @@ export default function Jaskinia() {
         </div>
         <div className="mt-16">
           <TripProgram title={t("tripprogram.header")} items={tripItems} />
-          <TripTime
-            availableDays={["Wt", "Śr", "Czw", "Pt", "Sob", "Nd"]} // Przykład: wybrane dni
-          />
+          <TripTime availableDays={["Wt", "Czw", "Sob"]} />
+
           <div className="mt-16">
             <BackgroundList title={t("header3")} items={customItems} />
           </div>

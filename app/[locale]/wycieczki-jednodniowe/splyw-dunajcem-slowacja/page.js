@@ -109,7 +109,8 @@ export default function Splywslowacja() {
             title={<>{t("tripprogram.header")}</>}
             items={tripItems}
           />
-          <TripTime />
+          <TripTime showCallInfo={true} availableDays={["Pon", "Śr", "Pt"]} />
+
           <FAQSection faq={faqData} />
         </div>
       </section>
