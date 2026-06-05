@@ -1,6 +1,6 @@
-import prisma from "@/lib/prisma";
+import { prisma } from "@/lib/prisma";
 
-const baseUrl = "https://triotravel.pl";
+const baseUrl = `https://${process.env.SITE_DOMAIN}`;
 
 const LOCALE_PATHS = {
   en: "en",
@@ -12,7 +12,10 @@ const LOCALE_PATHS = {
 
 export default async function sitemap() {
   const posts = await prisma.post.findMany({
-    where: { status: "published" },
+    where: {
+      status: "published",
+      site: { domain: process.env.SITE_DOMAIN },
+    },
     include: { translations: true },
     orderBy: { publishedAt: "desc" },
   });
