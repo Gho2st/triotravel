@@ -6,7 +6,7 @@ import { unstable_cache } from "next/cache";
 
 const PER_PAGE = 6;
 
-export const revalidate = 3600; // 1h
+export const revalidate = 86400; // 24h
 
 const getPosts = unstable_cache(
   async (locale, page = 1) => {

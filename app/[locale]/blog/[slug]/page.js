@@ -7,7 +7,7 @@ import { cache } from "react";
 
 const DOMAIN = process.env.SITE_DOMAIN;
 
-export const revalidate = 3600; // 1h
+export const revalidate = 86400; // 24h
 
 const getPost = cache(async (slug, locale) => {
   console.log(
