@@ -14,18 +14,15 @@ async function getSiteId(prisma) {
   return site?.id ?? null;
 }
 
-// Natychmiastowa rewalidacja po dodaniu/edycji (żeby użytkownik od razu widział nowy post)
 function revalidatePost(translations = []) {
-  // Najważniejsze - czyszczenie cache
-  revalidatePath("/blog", "page"); // ← dodaj "page"
-  revalidatePath("/[locale]/blog", "page"); // ← dla wszystkich locale
+  revalidatePath("/blog", "page");
+  revalidatePath("/[locale]/blog", "page");
   revalidateTag("blog");
 
-  // Rewalidacja konkretnych postów
   translations.forEach((t) => {
     const prefix = t.locale === "pl" ? "" : `/${t.locale}`;
     revalidatePath(`${prefix}/blog/${t.slug}`, "page");
-    revalidatePath(`/blog/${t.slug}`, "page"); // dodatkowe
+    revalidatePath(`/blog/${t.slug}`, "page");
   });
 }
 
@@ -128,7 +125,7 @@ export async function POST(req) {
         include: { translations: true },
       });
 
-      revalidateNewPost(post.translations); // ← natychmiastowe odświeżenie dla użytkowników
+      revalidatePost(post.translations);
 
       return NextResponse.json(post, { status: 201 });
     } catch (err) {
