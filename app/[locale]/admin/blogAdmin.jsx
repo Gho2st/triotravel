@@ -76,10 +76,18 @@ function BlogList({ onNew, onEdit }) {
 
   const fetchPosts = async () => {
     setLoading(true);
-    const res = await fetch("/api/blog");
-    const data = await res.json();
-    setPosts(Array.isArray(data) ? data : []);
-    setLoading(false);
+    try {
+      const res = await fetch("/api/blog", {
+        cache: "no-store",
+        next: { revalidate: 0 },
+      });
+      const data = await res.json();
+      setPosts(Array.isArray(data) ? data : []);
+    } catch (err) {
+      toast.error("Błąd pobierania listy");
+    } finally {
+      setLoading(false);
+    }
   };
 
   useEffect(() => {

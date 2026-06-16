@@ -1,10 +1,54 @@
 import Link from "next/link";
 import Image from "next/image";
-import { prisma } from "@/lib/prisma";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import { withPrisma } from "@/lib/prisma";
+import { cache } from "react";
 
 const PER_PAGE = 6;
+
+export const revalidate = 3600; // 1h
+
+const getPosts = cache(async (locale, page = 1) => {
+  console.log(
+    `📡 [${new Date().toISOString()}] Pobieram posty z bazy - locale: ${locale}, page: ${page}`,
+  );
+  return withPrisma(async (prisma) => {
+    const skip = (page - 1) * PER_PAGE;
+
+    const where = {
+      locale,
+      post: {
+        status: "published",
+        site: { domain: process.env.SITE_DOMAIN },
+      },
+    };
+
+    const [translations, total] = await Promise.all([
+      prisma.postTranslation.findMany({
+        where,
+        include: { post: true },
+        orderBy: { post: { publishedAt: "desc" } },
+        skip,
+        take: PER_PAGE,
+      }),
+      prisma.postTranslation.count({ where }),
+    ]);
+
+    return {
+      posts: translations.map((t) => ({
+        id: t.post.id,
+        slug: t.slug,
+        title: t.title,
+        excerpt: t.excerpt,
+        coverImage: t.post.coverImage,
+        publishedAt: t.post.publishedAt,
+      })),
+      total,
+      totalPages: Math.ceil(total / PER_PAGE),
+    };
+  });
+});
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
@@ -22,42 +66,6 @@ export async function generateMetadata({ params }) {
   };
 }
 
-async function getPosts(locale, page = 1) {
-  const skip = (page - 1) * PER_PAGE;
-
-  const where = {
-    locale,
-    post: {
-      status: "published",
-      site: { domain: process.env.SITE_DOMAIN },
-    },
-  };
-
-  const [translations, total] = await Promise.all([
-    prisma.postTranslation.findMany({
-      where,
-      include: { post: true },
-      orderBy: { post: { publishedAt: "desc" } },
-      skip,
-      take: PER_PAGE,
-    }),
-    prisma.postTranslation.count({ where }),
-  ]);
-
-  return {
-    posts: translations.map((t) => ({
-      id: t.post.id,
-      slug: t.slug,
-      title: t.title,
-      excerpt: t.excerpt,
-      coverImage: t.post.coverImage,
-      publishedAt: t.post.publishedAt,
-    })),
-    total,
-    totalPages: Math.ceil(total / PER_PAGE),
-  };
-}
-
 export default async function BlogPage({ params, searchParams }) {
   const { locale } = await params;
   const { page: pageParam } = await searchParams;
@@ -66,6 +74,7 @@ export default async function BlogPage({ params, searchParams }) {
 
   const t = await getTranslations({ locale: currentLocale, namespace: "blog" });
   const { posts, totalPages } = await getPosts(currentLocale, currentPage);
+
   const prefix = currentLocale === "pl" ? "" : `/${currentLocale}`;
 
   const prevPage = currentPage > 1 ? currentPage - 1 : null;
@@ -144,21 +153,16 @@ export default async function BlogPage({ params, searchParams }) {
             ))}
           </div>
 
-          {/* Paginacja */}
           {totalPages > 1 && (
             <div className="flex items-center justify-between mt-16 pt-8 border-t border-gray-100">
-              {prevPage ? (
+              {prevPage && (
                 <Link
                   href={pageUrl(prevPage)}
                   className="inline-flex items-center gap-2 text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors"
                 >
-                  <span>←</span>
-                  {t("previousButton")}
+                  ← {t("previousButton")}
                 </Link>
-              ) : (
-                <span />
               )}
-
               <div className="flex items-center gap-1">
                 {Array.from({ length: totalPages }, (_, i) => i + 1).map(
                   (p) => (
@@ -176,17 +180,13 @@ export default async function BlogPage({ params, searchParams }) {
                   ),
                 )}
               </div>
-
-              {nextPage ? (
+              {nextPage && (
                 <Link
                   href={pageUrl(nextPage)}
                   className="inline-flex items-center gap-2 text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors"
                 >
-                  {t("nextButton")}
-                  <span>→</span>
+                  {t("nextButton")} →
                 </Link>
-              ) : (
-                <span />
               )}
             </div>
           )}

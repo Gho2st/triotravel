@@ -1,13 +1,12 @@
 import { NextResponse } from "next/server";
-import { prisma } from "@/lib/prisma";
-import { revalidatePath } from "next/cache";
+import { revalidatePath, revalidateTag } from "next/cache";
+import { withPrisma } from "@/lib/prisma";
 import { requireAdmin } from "@/lib/auth";
 import { hash, hashCta } from "@/lib/contentHash";
 
 const SITE_DOMAIN = process.env.SITE_DOMAIN;
 
-// Zwraca id bieżącego site (z SITE_DOMAIN) albo null, jeśli nie skonfigurowano.
-async function getSiteId() {
+async function getSiteId(prisma) {
   const site = await prisma.site.findUnique({
     where: { domain: SITE_DOMAIN },
     select: { id: true },
@@ -15,115 +14,130 @@ async function getSiteId() {
   return site?.id ?? null;
 }
 
+// Natychmiastowa rewalidacja po dodaniu/edycji (żeby użytkownik od razu widział nowy post)
+function revalidateNewPost(translations) {
+  revalidatePath("/blog");
+  revalidateTag("blog");
+
+  if (translations?.length) {
+    translations.forEach((t) => {
+      const prefix = t.locale === "pl" ? "" : `/${t.locale}`;
+      revalidatePath(`${prefix}/blog/${t.slug}`);
+    });
+  }
+}
+
 export async function GET() {
   if (!(await requireAdmin()))
     return NextResponse.json({ error: "Brak dostępu" }, { status: 401 });
 
-  const posts = await prisma.post.findMany({
-    where: { site: { domain: SITE_DOMAIN } }, // tylko wpisy tego site
-    orderBy: { createdAt: "desc" },
-    include: { translations: true },
-  });
+  return withPrisma(async (prisma) => {
+    const posts = await prisma.post.findMany({
+      where: { site: { domain: SITE_DOMAIN } },
+      orderBy: { createdAt: "desc" },
+      include: { translations: true },
+    });
 
-  return NextResponse.json(posts);
+    return NextResponse.json(posts);
+  });
 }
 
 export async function POST(req) {
   if (!(await requireAdmin()))
     return NextResponse.json({ error: "Brak dostępu" }, { status: 401 });
 
-  const siteId = await getSiteId();
-  if (!siteId)
-    return NextResponse.json(
-      { error: `Brak Site dla domeny "${SITE_DOMAIN}". Sprawdź SITE_DOMAIN.` },
-      { status: 500 },
-    );
-
-  const body = await req.json();
-  const {
-    coverImage,
-    status,
-    publishedAt,
-    translations,
-    ctaPrimaryUrl,
-    ctaSecondaryUrl,
-  } = body;
-
-  if (
-    !translations?.pl?.slug ||
-    !translations?.pl?.title ||
-    !translations?.pl?.content
-  ) {
-    return NextResponse.json(
-      { error: "Tłumaczenie PL (slug, tytuł, treść) jest wymagane" },
-      { status: 400 },
-    );
-  }
-
-  // hashe źródła PL — wspólne dla wszystkich tłumaczeń
-  const pl = translations.pl;
-  const sourceHashes = {
-    sourceHashTitle: hash(pl.title),
-    sourceHashExcerpt: hash(pl.excerpt || ""),
-    sourceHashContent: hash(pl.content),
-    sourceHashCta: hashCta(
-      pl.ctaTitle,
-      pl.ctaDescription,
-      pl.ctaPrimaryLabel,
-      pl.ctaSecondaryLabel,
-    ),
-  };
-
-  try {
-    const post = await prisma.post.create({
-      data: {
-        siteId, // ← FK do Site
-        coverImage: coverImage || null,
-        status: status || "draft",
-        ctaPrimaryUrl: ctaPrimaryUrl || null,
-        ctaSecondaryUrl: ctaSecondaryUrl || null,
-        publishedAt:
-          status === "published"
-            ? publishedAt
-              ? new Date(publishedAt)
-              : new Date()
-            : null,
-        translations: {
-          create: Object.entries(translations)
-            .filter(([, t]) => t.title && t.content && t.slug)
-            .map(([locale, t]) => ({
-              siteId, // ← scalar NOT NULL na PostTranslation
-              locale,
-              slug: t.slug,
-              title: t.title,
-              excerpt: t.excerpt || null,
-              content: t.content,
-              ctaTitle: t.ctaTitle || null,
-              ctaDescription: t.ctaDescription || null,
-              ctaPrimaryLabel: t.ctaPrimaryLabel || null,
-              ctaSecondaryLabel: t.ctaSecondaryLabel || null,
-              ...sourceHashes,
-            })),
-        },
-      },
-      include: { translations: true },
-    });
-
-    revalidatePath("/blog");
-    post.translations.forEach((t) => {
-      const prefix = t.locale === "pl" ? "" : `/${t.locale}`;
-      revalidatePath(`${prefix}/blog/${t.slug}`);
-    });
-
-    return NextResponse.json(post, { status: 201 });
-  } catch (err) {
-    if (err.code === "P2002") {
+  return withPrisma(async (prisma) => {
+    const siteId = await getSiteId(prisma);
+    if (!siteId) {
       return NextResponse.json(
-        { error: "Slug już istnieje w jednym z języków. Wybierz inny." },
-        { status: 409 },
+        {
+          error: `Brak Site dla domeny "${SITE_DOMAIN}". Sprawdź SITE_DOMAIN.`,
+        },
+        { status: 500 },
       );
     }
-    console.error("[POST /api/blog]", err);
-    return NextResponse.json({ error: "Błąd zapisu" }, { status: 500 });
-  }
+
+    const body = await req.json();
+    const {
+      coverImage,
+      status,
+      publishedAt,
+      translations,
+      ctaPrimaryUrl,
+      ctaSecondaryUrl,
+    } = body;
+
+    if (
+      !translations?.pl?.slug ||
+      !translations?.pl?.title ||
+      !translations?.pl?.content
+    ) {
+      return NextResponse.json(
+        { error: "Tłumaczenie PL (slug, tytuł, treść) jest wymagane" },
+        { status: 400 },
+      );
+    }
+
+    const pl = translations.pl;
+    const sourceHashes = {
+      sourceHashTitle: hash(pl.title),
+      sourceHashExcerpt: hash(pl.excerpt || ""),
+      sourceHashContent: hash(pl.content),
+      sourceHashCta: hashCta(
+        pl.ctaTitle,
+        pl.ctaDescription,
+        pl.ctaPrimaryLabel,
+        pl.ctaSecondaryLabel,
+      ),
+    };
+
+    try {
+      const post = await prisma.post.create({
+        data: {
+          siteId,
+          coverImage: coverImage || null,
+          status: status || "draft",
+          ctaPrimaryUrl: ctaPrimaryUrl || null,
+          ctaSecondaryUrl: ctaSecondaryUrl || null,
+          publishedAt:
+            status === "published"
+              ? publishedAt
+                ? new Date(publishedAt)
+                : new Date()
+              : null,
+          translations: {
+            create: Object.entries(translations)
+              .filter(([, t]) => t.title && t.content && t.slug)
+              .map(([locale, t]) => ({
+                siteId,
+                locale,
+                slug: t.slug,
+                title: t.title,
+                excerpt: t.excerpt || null,
+                content: t.content,
+                ctaTitle: t.ctaTitle || null,
+                ctaDescription: t.ctaDescription || null,
+                ctaPrimaryLabel: t.ctaPrimaryLabel || null,
+                ctaSecondaryLabel: t.ctaSecondaryLabel || null,
+                ...sourceHashes,
+              })),
+          },
+        },
+        include: { translations: true },
+      });
+
+      revalidateNewPost(post.translations); // ← natychmiastowe odświeżenie dla użytkowników
+
+      return NextResponse.json(post, { status: 201 });
+    } catch (err) {
+      if (err.code === "P2002") {
+        return NextResponse.json(
+          { error: "Slug już istnieje w jednym z języków. Wybierz inny." },
+          { status: 409 },
+        );
+      }
+      console.error("[POST /api/blog]", err);
+      return NextResponse.json({ error: "Błąd zapisu" }, { status: 500 });
+    }
+  });
 }
