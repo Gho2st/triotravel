@@ -11,18 +11,4 @@ const adapter = new PrismaNeon({
 
 export const prisma = globalForPrisma.prisma ?? new PrismaClient({ adapter });
 
-if (process.env.NODE_ENV !== "production") {
-  globalForPrisma.prisma = prisma;
-}
-
-export async function withPrisma<T>(
-  fn: (prisma: PrismaClient) => Promise<T>,
-): Promise<T> {
-  try {
-    return await fn(prisma);
-  } finally {
-    if (process.env.NODE_ENV === "production") {
-      await prisma.$disconnect();
-    }
-  }
-}
+globalForPrisma.prisma = prisma;

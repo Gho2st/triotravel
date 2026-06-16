@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
-import { withPrisma } from "@/lib/prisma";
+import { prisma } from "@/lib/prisma";
 import { cache } from "react";
 
 const DOMAIN = process.env.SITE_DOMAIN;
@@ -10,77 +10,72 @@ const DOMAIN = process.env.SITE_DOMAIN;
 export const revalidate = 3600; // 1h
 
 const getPost = cache(async (slug, locale) => {
-  return withPrisma(async (prisma) => {
-    const translation = await prisma.postTranslation.findFirst({
-      where: {
-        slug,
-        locale,
-        post: { status: "published", site: { domain: DOMAIN } },
-      },
-      include: { post: true },
-    });
-
-    if (!translation) return null;
-
-    return {
-      id: translation.post.id,
-      slug: translation.slug,
-      title: translation.title,
-      excerpt: translation.excerpt,
-      content: translation.content,
-      coverImage: translation.post.coverImage,
-      publishedAt: translation.post.publishedAt,
-      createdAt: translation.post.createdAt,
-      updatedAt: translation.updatedAt,
-      ctaTitle: translation.ctaTitle,
-      ctaDescription: translation.ctaDescription,
-      ctaPrimaryLabel: translation.ctaPrimaryLabel,
-      ctaSecondaryLabel: translation.ctaSecondaryLabel,
-      ctaPrimaryUrl: translation.post.ctaPrimaryUrl,
-      ctaSecondaryUrl: translation.post.ctaSecondaryUrl,
-    };
+  const translation = await prisma.postTranslation.findFirst({
+    where: {
+      slug,
+      locale,
+      post: { status: "published", site: { domain: DOMAIN } },
+    },
+    include: { post: true },
   });
+
+  if (!translation) return null;
+
+  return {
+    id: translation.post.id,
+    slug: translation.slug,
+    title: translation.title,
+    excerpt: translation.excerpt,
+    content: translation.content,
+    coverImage: translation.post.coverImage,
+    publishedAt: translation.post.publishedAt,
+    createdAt: translation.post.createdAt,
+    updatedAt: translation.updatedAt,
+    ctaTitle: translation.ctaTitle,
+    ctaDescription: translation.ctaDescription,
+    ctaPrimaryLabel: translation.ctaPrimaryLabel,
+    ctaSecondaryLabel: translation.ctaSecondaryLabel,
+    ctaPrimaryUrl: translation.post.ctaPrimaryUrl,
+    ctaSecondaryUrl: translation.post.ctaSecondaryUrl,
+  };
 });
+
 const getAllTranslationsForPost = cache(async (slug, locale) => {
-  return withPrisma(async (prisma) => {
-    const translation = await prisma.postTranslation.findFirst({
-      where: {
-        slug,
-        locale,
-        post: { status: "published", site: { domain: DOMAIN } },
+  const translation = await prisma.postTranslation.findFirst({
+    where: {
+      slug,
+      locale,
+      post: { status: "published", site: { domain: DOMAIN } },
+    },
+    include: {
+      post: {
+        include: { translations: { select: { locale: true, slug: true } } },
       },
-      include: {
-        post: {
-          include: { translations: { select: { locale: true, slug: true } } },
-        },
-      },
-    });
-    return translation?.post.translations ?? [];
+    },
   });
+  return translation?.post.translations ?? [];
 });
 
 const getLatestPosts = cache(async (currentSlug, locale, limit = 3) => {
-  return withPrisma(async (prisma) => {
-    const translations = await prisma.postTranslation.findMany({
-      where: {
-        locale,
-        slug: { not: currentSlug },
-        post: { status: "published", site: { domain: DOMAIN } },
-      },
-      include: { post: true },
-      orderBy: { post: { publishedAt: "desc" } },
-      take: limit,
-    });
-
-    return translations.map((t) => ({
-      id: t.post.id,
-      slug: t.slug,
-      title: t.title,
-      excerpt: t.excerpt,
-      coverImage: t.post.coverImage,
-      publishedAt: t.post.publishedAt,
-    }));
+  const translations = await prisma.postTranslation.findMany({
+    where: {
+      locale,
+      slug: { not: currentSlug },
+      post: { status: "published", site: { domain: DOMAIN } },
+    },
+    include: { post: true },
+    orderBy: { post: { publishedAt: "desc" } },
+    take: limit,
   });
+
+  return translations.map((t) => ({
+    id: t.post.id,
+    slug: t.slug,
+    title: t.title,
+    excerpt: t.excerpt,
+    coverImage: t.post.coverImage,
+    publishedAt: t.post.publishedAt,
+  }));
 });
 
 function calculateReadingTime(html) {

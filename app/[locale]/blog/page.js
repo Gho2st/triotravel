@@ -1,29 +1,20 @@
 import Link from "next/link";
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
-import { routing } from "@/i18n/routing";
-import { withPrisma } from "@/lib/prisma";
-import { cache } from "react";
+import { prisma } from "@/lib/prisma";
+import { unstable_cache } from "next/cache";
 
 const PER_PAGE = 6;
 
 export const revalidate = 3600; // 1h
 
-const getPosts = cache(async (locale, page = 1) => {
-  console.log(
-    `📡 [${new Date().toISOString()}] Pobieram posty z bazy - locale: ${locale}, page: ${page}`,
-  );
-  return withPrisma(async (prisma) => {
+const getPosts = unstable_cache(
+  async (locale, page = 1) => {
     const skip = (page - 1) * PER_PAGE;
-
     const where = {
       locale,
-      post: {
-        status: "published",
-        site: { domain: process.env.SITE_DOMAIN },
-      },
+      post: { status: "published", site: { domain: process.env.SITE_DOMAIN } },
     };
-
     const [translations, total] = await Promise.all([
       prisma.postTranslation.findMany({
         where,
@@ -34,7 +25,6 @@ const getPosts = cache(async (locale, page = 1) => {
       }),
       prisma.postTranslation.count({ where }),
     ]);
-
     return {
       posts: translations.map((t) => ({
         id: t.post.id,
@@ -47,24 +37,10 @@ const getPosts = cache(async (locale, page = 1) => {
       total,
       totalPages: Math.ceil(total / PER_PAGE),
     };
-  });
-});
-
-export async function generateMetadata({ params }) {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "metadata.blog" });
-
-  const path = routing.pathnames["/blog"][locale];
-  const base = `https://${process.env.SITE_DOMAIN}`;
-  const canonicalUrl =
-    locale === "pl" ? `${base}${path}` : `${base}/${locale}${path}`;
-
-  return {
-    title: t("title"),
-    description: t("description"),
-    alternates: { canonical: canonicalUrl },
-  };
-}
+  },
+  ["blog-list"],
+  { tags: ["blog"], revalidate: 3600 },
+);
 
 export default async function BlogPage({ params, searchParams }) {
   const { locale } = await params;
