@@ -10,6 +10,10 @@ export const revalidate = 3600; // 1h
 
 const getPosts = unstable_cache(
   async (locale, page = 1) => {
+    console.log(
+      `📡 [${new Date().toISOString()}] DB HIT lista — ${locale}/${page}`,
+    );
+
     const skip = (page - 1) * PER_PAGE;
     const where = {
       locale,

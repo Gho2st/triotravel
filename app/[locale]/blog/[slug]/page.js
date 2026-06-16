@@ -10,6 +10,10 @@ const DOMAIN = process.env.SITE_DOMAIN;
 export const revalidate = 3600; // 1h
 
 const getPost = cache(async (slug, locale) => {
+  console.log(
+    `📡 [${new Date().toISOString()}] DB HIT wpis — ${locale}/${slug}`,
+  );
+
   const translation = await prisma.postTranslation.findFirst({
     where: {
       slug,
