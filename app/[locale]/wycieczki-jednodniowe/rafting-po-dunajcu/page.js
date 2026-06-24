@@ -58,8 +58,8 @@ export default function Rafting() {
   // Przykładowe dane dla tabeli
   const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
-    [t("table.1"), "180 PLN*"],
-    [t("table.2"), "160 PLN*"],
+    [t("table.1"), "200 PLN*"],
+    [t("table.2"), "180 PLN*"],
     ["", t("table.additional")],
     [t("table.3"), "35PLN/30PLN"],
     [t("table.4"), "35PLN/25PLN"],

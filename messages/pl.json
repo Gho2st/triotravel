@@ -1026,10 +1026,10 @@
                     "6": "Studenci (na podstawie kart: Euro26, ISIC, ITIC) i osoby niepełnosprawne",
                     "7": "Dzieci do 6 lat",
                     "text": "*Cena obejmuje: Opiekę wykwalifikowanego pilota oraz przewodnika, transport komfortowym autokarem, ubezpieczenie KL i NNW, zestaw audio guide",
-                    "a1": "Pałac Schonbrum: 34€, Obiad: ok: 15€",
-                    "a2": "Pałac Schonbrum: 24€, Obiad: ok: 15€",
-                    "a3": "Pałac Schonbrum: 28€, Obiad: ok: 15€",
-                    "a4": "Pałac Schonbrum: BEZPŁATNE, Obiad: ok: 15€",
+                    "a1": "Pałac Schonbrum: 38€, Obiad: ok: 20€",
+                    "a2": "Pałac Schonbrum: 28€, Obiad: ok: 20€",
+                    "a3": "Pałac Schonbrum: 36€, Obiad: ok: 20€",
+                    "a4": "Pałac Schonbrum: BEZPŁATNE, Obiad: ok: 20€",
                     "additional": "Dodatkowo płatne"
                 },
                 "tripprogram": {
@@ -1087,8 +1087,8 @@
                     "6": "Obiad",
                     "7": "Wskazówki podróżnicze",
                     "text": "*Cena obejmuje: Opiekę wykwalifikowanego pilota oraz przewodnika, transport komfortowym autokarem, ubezpieczenie KL i NNW, zestaw audio guide",
-                    "a1": "dorośli 2400 HUF, studenci i emeryci pow. 60 lat - 1800 HUF",
-                    "a2": "ok. 3000 HUF",
+                    "a1": "dorośli 2600 HUF, studenci i emeryci pow. 60 lat - 1800 HUF",
+                    "a2": "ok. 4000 HUF",
                     "a3": "1 000 HUF = ok. 15 zł",
                     "additional": "Dodatkowo płatne"
                 },
@@ -1174,7 +1174,7 @@
                     "7": "* fotogrowanie/kamera",
                     "8": "Wskazówki podróżnicze",
                     "text": "* Cena obejmuje: Przejazd komfortowym autokarem, opiekę wykwalifikowanego pilota, ubezpieczenie NNW, KL. **Ceny biletów wstępów mogą ulec zmianie",
-                    "a1": "dorośli 14€ , studenci/emeryci/renciści 13€ , dzieci w wieku 6-15 lat 7€**, GRATIS - dzieci do lat 6.",
+                    "a1": "dorośli 15€ , studenci/emeryci/renciści 14€ , dzieci w wieku 4-15 lat 8€**, GRATIS - dzieci do lat 4.",
                     "a2": "dorośli 9€, studenci/emeryci/renciści/dzieci 4,5€, dzieci do lat 6 GRATIS**",
                     "a3": "3€ fotografowanie/5€ kamera**",
                     "additional": "Dodatkowo płatne"

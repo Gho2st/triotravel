@@ -58,11 +58,11 @@ export default function Budapeszt() {
   // Przykładowe dane dla tabeli
   const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
-    [t("table.1"), "320 PLN*"],
-    [t("table.2"), "300 PLN*"],
-    [t("table.3"), "280 PLN*"],
+    [t("table.1"), "340 PLN*"],
+    [t("table.2"), "320 PLN*"],
+    [t("table.3"), "300 PLN*"],
     ["", t("table.additional")],
-    [t("table.4"), "12 €"],
+    [t("table.4"), "15 €"],
     [t("table.5"), t("table.a1")],
     [t("table.6"), t("table.a2")],
     [t("table.7"), t("table.a3")],

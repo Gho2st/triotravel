@@ -58,9 +58,9 @@ export default function Wieden() {
   // Przykładowe dane dla tabeli
   const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
-    [t("table.1"), "340 PLN*"],
-    [t("table.2"), "320 PLN*"],
-    [t("table.3"), "300 PLN*"],
+    [t("table.1"), "360 PLN*"],
+    [t("table.2"), "340 PLN*"],
+    [t("table.3"), "320 PLN*"],
     ["", t("table.additional")],
     [t("table.4"), t("table.a1")],
     [t("table.5"), t("table.a2")],

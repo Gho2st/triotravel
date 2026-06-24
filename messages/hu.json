@@ -1026,10 +1026,10 @@
                     "6": "Diákok (Euro26, ISIC, ITIC kártyával) és fogyatékkal élők",
                     "7": "6 év alatti gyermekek",
                     "text": "* Az ár tartalmazza: képzett idegenvezető és kísérő felügyeletét, kényelmes autóbuszos utazást, KL és NNW biztosítást, audio guide készletet",
-                    "a1": "Schönbrunni kastély: 34€, Ebéd: kb. 15€",
-                    "a2": "Schönbrunni kastély: 24€, Ebéd: kb. 15€",
-                    "a3": "Schönbrunni kastély: 28€, Ebéd: kb. 15€",
-                    "a4": "Schönbrunni kastély: INGYENES, Ebéd: kb. 15€",
+                    "a1": "Schönbrunni kastély: 38€, Ebéd: kb. 20€",
+                    "a2": "Schönbrunni kastély: 28€, Ebéd: kb. 20€",
+                    "a3": "Schönbrunni kastély: 36€, Ebéd: kb. 20€",
+                    "a4": "Schönbrunni kastély: INGYENES, Ebéd: kb. 20€",
                     "additional": "Külön fizetendő"
                 },
                 "tripprogram": {
@@ -1087,8 +1087,8 @@
                     "6": "Ebéd",
                     "7": "Utazási tippek",
                     "text": "* Az ár tartalmazza: képzett idegenvezető és kísérő felügyeletét, kényelmes autóbuszos utazást, KL és NNW biztosítást, audio guide készletet",
-                    "a1": "felnőttek 2400 HUF, diákok és 60 év feletti nyugdíjasok - 1800 HUF",
-                    "a2": "kb. 3000 HUF",
+                    "a1": "felnőttek 2600 HUF, diákok és 60 év feletti nyugdíjasok - 1800 HUF",
+                    "a2": "kb. 4000 HUF",
                     "a3": "1000 HUF = kb. 15 zł",
                     "additional": "Külön fizetendő"
                 },
@@ -1171,7 +1171,7 @@
                     "7": "* fényképezés/kamera",
                     "8": "Utazási tippek",
                     "text": "* Az ár tartalmazza: kényelmes autóbuszos utazást, képzett kísérő felügyeletét, NNW és KL biztosítást. **A belépőjegyek árai változhatnak",
-                    "a1": "Felnőttek 14€, diákok/nyugdíjasok 13€, 6–15 éves gyerekek 7€**, INGYENES – 6 év alatti gyerekeknek.",
+                    "a1": "Felnőttek 15€, diákok/nyugdíjasok 14€, 4–15 éves gyerekek 8€**, INGYENES – 4 év alatti gyerekeknek.",
                     "a2": "felnőttek 9€, diákok/nyugdíjasok/rokkantnyugdíjasok/gyermekek 4,5€, 6 év alatti gyermekek INGYENES**",
                     "a3": "3€ fényképezés/5€ kamera**",
                     "additional": "Külön fizetendő"

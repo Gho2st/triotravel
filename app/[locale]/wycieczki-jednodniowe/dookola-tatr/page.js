@@ -53,9 +53,9 @@ export default function Tatry() {
   // Przykładowe dane dla tabeli
   const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
-    [t("table.1"), "130 PLN*"],
-    [t("table.2"), "120 PLN*"],
-    [t("table.3"), "110 PLN*"],
+    [t("table.1"), "140 PLN*"],
+    [t("table.2"), "130 PLN*"],
+    [t("table.3"), "120 PLN*"],
     ["", t("table.additional")],
     [t("table.4"), t("table.a1")],
     [t("table.5"), "10 E**"],
