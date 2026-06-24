@@ -8,7 +8,6 @@
  *
  * 🟢 You can import this file directly.
  */
-export type * from './models/Site.ts'
 export type * from './models/Post.ts'
 export type * from './models/PostTranslation.ts'
 export type * from './commonInputTypes.ts'
