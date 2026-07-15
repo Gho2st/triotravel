@@ -3,7 +3,7 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
 import { notFound } from "next/navigation";
-import { getMessages } from "next-intl/server";
+import { getMessages, setRequestLocale } from "next-intl/server";
 import ClientBody from "../UI/ClientBody";
 import CookieConsent from "@/app/UI/CookieConsent";
 import SnowEffect from "../UI/SnowEffect";
@@ -15,6 +15,10 @@ const font = Poppins({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700"],
 });
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
 
 export const metadata = {
   openGraph: {
@@ -28,16 +32,18 @@ export const metadata = {
 };
 
 export default async function LocaleLayout({ children, params }) {
-  const locale = (await params).locale;
+  const { locale } = await params;
 
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
 
-  const messages = await getMessages();
+  setRequestLocale(locale);
+
+  const messages = await getMessages({ locale });
 
   return (
-    <html lang={locale}>
+    <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
       <head>
         <Script id="consent-default" strategy="beforeInteractive">
           {`
@@ -54,7 +60,7 @@ export default async function LocaleLayout({ children, params }) {
         </Script>
       </head>
       <body>
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <ClientBody fontClassName={font.className}>
             <ToastContainer
               position="top-right"
@@ -62,7 +68,7 @@ export default async function LocaleLayout({ children, params }) {
               hideProgressBar={false}
               newestOnTop
               closeOnClick
-              rtl={false}
+              rtl={locale === "ar"}
               pauseOnFocusLoss
               draggable
               pauseOnHover

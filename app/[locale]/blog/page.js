@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { prisma } from "@/lib/prisma";
 import { unstable_cache } from "next/cache";
 
@@ -50,6 +50,8 @@ export default async function BlogPage({ params, searchParams }) {
   const { locale } = await params;
   const { page: pageParam } = await searchParams;
   const currentLocale = locale || "pl";
+  setRequestLocale(currentLocale);
+
   const currentPage = Math.max(1, parseInt(pageParam || "1"));
 
   const t = await getTranslations({ locale: currentLocale, namespace: "blog" });

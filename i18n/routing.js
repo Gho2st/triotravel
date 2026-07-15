@@ -2,23 +2,12 @@ import { createNavigation } from "next-intl/navigation";
 import { defineRouting } from "next-intl/routing";
 
 export const routing = defineRouting({
-  // Lista wszystkich obsługiwanych języków (dodano 'de')
   locales: ["pl", "en", "de", "ar", "hu", "es"],
-
-  // Domyślny język, gdy żaden nie pasuje
   defaultLocale: "pl",
   localePrefix: "as-needed",
 
-  // Tłumaczenie ścieżek dla każdego języka
   pathnames: {
-    "/": {
-      pl: "/",
-      en: "/",
-      de: "/",
-      ar: "/",
-      hu: "/",
-      es: "/",
-    },
+    "/": { pl: "/", en: "/", de: "/", ar: "/", hu: "/", es: "/" },
     "/wycieczki-jednodniowe": {
       pl: "/wycieczki-jednodniowe",
       en: "/day-trips",
@@ -123,7 +112,6 @@ export const routing = defineRouting({
       hu: "/egynapos-kirandulasok/dunajec-rafting-zakopane",
       es: "/excursiones/descenso-dunajec-zakopane",
     },
-
     "/wycieczki-jednodniowe/chocholowskie-termy": {
       pl: "/wycieczki-jednodniowe/chocholowskie-termy",
       en: "/day-trips/chocholowska-thermal-pools",
@@ -188,7 +176,6 @@ export const routing = defineRouting({
       hu: "/egynapos-kirandulasok/budapest",
       es: "/excursiones/budapest",
     },
-
     "/wycieczki-jednodniowe/krajobrazy-slowacji": {
       pl: "/wycieczki-jednodniowe/krajobrazy-slowacji",
       en: "/day-trips/slovak-landscapes",
@@ -229,7 +216,6 @@ export const routing = defineRouting({
       hu: "/egynapos-kirandulasok/dunajec-rafting-szlovakia",
       es: "/excursiones/descenso-dunajec-eslovaquia",
     },
-
     "/wycieczki-jednodniowe/tatry-i-zakopane": {
       pl: "/wycieczki-jednodniowe/tatry-i-zakopane",
       en: "/day-trips/tatras-and-zakopane",
@@ -254,7 +240,6 @@ export const routing = defineRouting({
       hu: "/egynapos-kirandulasok/quad-turak",
       es: "/excursiones/quads",
     },
-
     "/wycieczki-jednodniowe/rowery-elektryczne": {
       pl: "/wycieczki-jednodniowe/rowery-elektryczne",
       en: "/day-trips/electric-bikes",
@@ -295,7 +280,6 @@ export const routing = defineRouting({
       hu: "/suti-szabalyzat",
       es: "/politica-de-cookies",
     },
-
     "/atrakcje-zakopane": {
       pl: "/atrakcje-zakopane",
       en: "/zakopane-attractions",
@@ -305,7 +289,8 @@ export const routing = defineRouting({
       es: "/atracciones-zakopane",
     },
 
-    // BLOG POSTY
+    // Blog: TYLKO strona główna listy.
+    // Slugi wpisów są w bazie (PostTranslation.slug) — next-intl NIE MOŻE ich mapować.
     "/blog": {
       pl: "/blog",
       en: "/blog",
@@ -313,102 +298,6 @@ export const routing = defineRouting({
       ar: "/blog",
       hu: "/blog",
       es: "/blog",
-    },
-    "/blog/miasto-u-stop-tatr": {
-      pl: "/blog/miasto-u-stop-tatr",
-      en: "/blog/mountain-town-adventure",
-      de: "/blog/stadt-am-fusse-der-tatra",
-      ar: "/blog/madinat-tatra",
-      hu: "/blog/hegyi-varos-kaland",
-      es: "/blog/ciudad-montana-aventura",
-    },
-    "/blog/rodzinne-wakacje-w-gorach": {
-      pl: "/blog/rodzinne-wakacje-w-gorach",
-      en: "/blog/family-vacations-mountains",
-      de: "/blog/familienurlaub-in-den-bergen",
-      ar: "/blog/utla-ailiya-jabal",
-      hu: "/blog/csaladi-vakaciok-hegyekben",
-      es: "/blog/vacaciones-familia-montana",
-    },
-    "/blog/gorska-adrenalina": {
-      pl: "/blog/gorska-adrenalina",
-      en: "/blog/mountain-adrenaline",
-      de: "/blog/berg-adrenalin",
-      ar: "/blog/ithara-jabaliya",
-      hu: "/blog/hegyi-adrenalin",
-      es: "/blog/adrenalina-montana",
-    },
-    "/blog/gorska-kultura": {
-      pl: "/blog/gorska-kultura",
-      en: "/blog/highland-culture",
-      de: "/blog/bergkultur",
-      ar: "/blog/thaqafa-jabaliya",
-      hu: "/blog/hegyi-kultura",
-      es: "/blog/cultura-montanesa",
-    },
-    "/blog/relaks-w-tatrach": {
-      pl: "/blog/relaks-w-tatrach",
-      en: "/blog/relaxation-tatras",
-      de: "/blog/entspannung-in-der-tatra",
-      ar: "/blog/istiraha-tatra",
-      hu: "/blog/pihenes-tatraban",
-      es: "/blog/relax-tatras",
-    },
-    "/blog/najlepsze-trasy-z-zakopanego": {
-      pl: "/blog/najlepsze-trasy-z-zakopanego",
-      en: "/blog/best-trails-from-zakopane",
-      de: "/blog/beste-routen-von-zakopane",
-      ar: "/blog/afdal-almasarat-min-zakubani",
-      hu: "/blog/legjobb-osvenyek-zakopanebol",
-      es: "/blog/mejores-rutas-desde-zakopane",
-    },
-    "/blog/najpiekniejsze-widoki-tatry": {
-      pl: "/blog/najpiekniejsze-widoki-tatry",
-      en: "/blog/most-beautiful-tatra-views",
-      de: "/blog/schoenste-aussichten-tatra",
-      ar: "/blog/afdal-almanazir-tatra",
-      hu: "/blog/legszerubb-tatra-kilatasok",
-      es: "/blog/vistas-mas-bellas-tatras",
-    },
-    "/blog/weekend-w-zakopanem": {
-      pl: "/blog/weekend-w-zakopanem",
-      en: "/blog/weekend-in-zakopane",
-      de: "/blog/wochenende-in-zakopane",
-      ar: "/blog/nahiyat-alnihaya-fi-zakubani",
-      hu: "/blog/hetvege-zakopaneben",
-      es: "/blog/fin-de-semana-zakopane",
-    },
-    "/blog/przyroda-tatr": {
-      pl: "/blog/przyroda-tatr",
-      en: "/blog/tatra-nature",
-      de: "/blog/natur-der-tatra",
-      ar: "/blog/tabi3at-tatra",
-      hu: "/blog/tatra-termeszet",
-      es: "/blog/naturaleza-tatras",
-    },
-    "/blog/adrenalina-tatry": {
-      pl: "/blog/adrenalina-tatry",
-      en: "/blog/adrenaline-tatras",
-      de: "/blog/adrenalin-tatra",
-      ar: "/blog/adrenaline-tatra",
-      hu: "/blog/adrenalin-tatraban",
-      es: "/blog/adrenalina-tatras",
-    },
-    "/blog/romantyczny-zakopane": {
-      pl: "/blog/romantyczny-zakopane",
-      en: "/blog/romantic-zakopane",
-      de: "/blog/romantisches-zakopane",
-      ar: "/blog/zakubani-alromansiya",
-      hu: "/blog/romantikus-zakopane",
-      es: "/blog/zakopane-romantico",
-    },
-    "/blog/fotografia-tatry": {
-      pl: "/blog/fotografia-tatry",
-      en: "/blog/photography-tatras",
-      de: "/blog/fotografie-tatra",
-      ar: "/blog/taswir-tatra",
-      hu: "/blog/fotografalas-tatraban",
-      es: "/blog/fotografia-tatras",
     },
   },
 });
