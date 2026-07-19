@@ -8,6 +8,37 @@ const PER_PAGE = 6;
 
 export const revalidate = 86400; // 24h
 
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
+  const currentLocale = locale || "pl";
+  setRequestLocale(currentLocale);
+
+  const t = await getTranslations({ locale: currentLocale, namespace: "blog" });
+
+  const canonical = currentLocale === "pl" ? "/blog" : `/${currentLocale}/blog`;
+
+  const languages = {
+    "x-default": "/blog",
+    pl: "/blog",
+    en: "/en/blog",
+    de: "/de/blog",
+    ar: "/ar/blog",
+    hu: "/hu/blog",
+    es: "/es/blog",
+  };
+
+  return {
+    title: `${t("header")} | TrioTravel`,
+    description: t("text"),
+    openGraph: {
+      title: `${t("header")} | TrioTravel`,
+      description: t("text"),
+      type: "website",
+    },
+    alternates: { canonical, languages },
+  };
+}
+
 const getPosts = unstable_cache(
   async (locale, page = 1) => {
     console.log(
