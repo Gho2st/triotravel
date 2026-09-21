@@ -979,13 +979,12 @@
                     "text": "* El precio incluye: cuidado del conductor y guía durante la excursión, seguro de accidentes y transporte desde Zakopane"
                 },
                 "tripprogram": {
-                    "header": "Programa de la Excursión:",
-                    "1": "Salida desde Zakopane (recogida desde lugar de alojamiento*)",
+                    "header": "Programa de la excursión:",
+                    "1": "Salida de Zakopane (recogida en el lugar de alojamiento*)",
                     "2": "Caminata a lo largo del arroyo Sucha Bela",
-                    "3": "Tiempo libre en el claro",
-                    "4": "Recorrido por sendero del desfiladero de Hornad o ruta más fácil",
-                    "5": "Tiempo libre",
-                    "6": "Regreso a Zakopane"
+                    "3": "Regreso a Podlesok.",
+                    "4": "Tiempo libre",
+                    "5": "Regreso a Zakopane"
                 },
                 "buttons": {
                     "header": "Condiciones de Participación",

@@ -42,10 +42,9 @@ export default function SlowackiRaj() {
   const tripItems = [
     "7:00 - " + t("tripprogram.1"),
     "9:00 - " + t("tripprogram.2"),
-    "12:00 - " + t("tripprogram.3"),
-    "12:30 - " + t("tripprogram.4"),
-    "15:00 - " + t("tripprogram.5"),
-    "17:00 / 18:00 - " + t("tripprogram.6"),
+    "12:30 - " + t("tripprogram.3"),
+    "14:00 - " + t("tripprogram.4"),
+    "17:00 / 18:00 - " + t("tripprogram.5"),
   ];
 
   // Przykładowe dane dla tabeli

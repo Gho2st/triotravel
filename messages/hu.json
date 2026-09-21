@@ -979,13 +979,12 @@
                     "text": "* Az ár tartalmazza: a sofőr felügyeletét a kirándulás során, NNW biztosítást és transzfert Zakopanéból"
                 },
                 "tripprogram": {
-                    "header": "A kirándulás programja:",
-                    "1": "Indulás Zakopanéból (felszállás a szálláshelyről*)",
+                    "header": "Kirándulás programja:",
+                    "1": "Indulás Zakopanéből (felvétel a szálláshelyről*)",
                     "2": "Túra a Sucha Bela-patak mentén",
-                    "3": "Szabadidő a tisztáson",
-                    "4": "Túra a Hernád-áttörés útvonalán vagy egy könnyebb útvonalon",
-                    "5": "Szabad program",
-                    "6": "Visszatérés Zakopanéba"
+                    "3": "Visszatérés Podlesokra.",
+                    "4": "Szabadidő",
+                    "5": "Visszatérés Zakopanéba"
                 },
                 "buttons": {
                     "header": "Részvételi feltételek",

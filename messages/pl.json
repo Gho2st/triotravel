@@ -982,10 +982,9 @@
                     "header": "Program Wycieczki:",
                     "1": "Wyjazd z Zakopanego (odbiór z miejsca zakwaterowania*)",
                     "2": "Wędrówka wzdłuż potoku Sucha Bela",
-                    "3": "Czas wolny na polanie",
-                    "4": "Przejście szlakiem przełomu hornadu lub łatwiejsza trasa",
-                    "5": "Czas wolny",
-                    "6": "Powrót do zakopanego"
+                    "3": "Powrót do podlesoka.",
+                    "4": "Czas wolny",
+                    "5": "Powrót do zakopanego"
                 },
                 "buttons": {
                     "header": "Warunki Uczestnictwa",

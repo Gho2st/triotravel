@@ -975,12 +975,11 @@
                 },
                 "tripprogram": {
                     "header": "Trip Program:",
-                    "1": "Departure from Zakopane (pickup from accommodation*)",
+                    "1": "Departure from Zakopane (pickup from the place of accommodation*)",
                     "2": "Hike along the Sucha Bela stream",
-                    "3": "Free time at the clearing",
-                    "4": "Walk along the Hornád Gorge trail or take an easier route",
-                    "5": "Free time",
-                    "6": "Return to Zakopane"
+                    "3": "Return to Podlesok.",
+                    "4": "Free time",
+                    "5": "Return to Zakopane"
                 },
                 "buttons": {
                     "header": "Participation Conditions",

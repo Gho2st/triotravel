@@ -980,12 +980,11 @@
                 },
                 "tripprogram": {
                     "header": "Reiseprogramm:",
-                    "1": "Abfahrt ab Zakopane (Abholung von der Unterkunft*)",
+                    "1": "Abfahrt aus Zakopane (Abholung vom Unterkunftsort*)",
                     "2": "Wanderung entlang des Baches Sucha Bela",
-                    "3": "Freizeit auf einer Lichtung",
-                    "4": "Begehung des Hornad-Durchbruchswegs oder einer einfacheren Route",
-                    "5": "Freizeit",
-                    "6": "Rückkehr nach Zakopane"
+                    "3": "Rückkehr nach Podlesok.",
+                    "4": "Freizeit",
+                    "5": "Rückkehr nach Zakopane"
                 },
                 "buttons": {
                     "header": "Teilnahmebedingungen",
