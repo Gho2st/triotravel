@@ -1557,7 +1557,8 @@
                 "header2": "From 01.12.2025 to the end of the winter season",
                 "3": "Adult ticket",
                 "4": "Reduced ticket (up to 10 years)",
-                "header3": "*Price includes:",
+                "header3": "From 26.12.2026 to 06.01.2027",
+                "header4": "*Price includes:",
                 "list": {
                     "1": "round-trip transport (pick-up from accommodation in Zakopane and Kościelisko)",
                     "2": "one-hour sleigh ride in 4, 8, and 10-person sleighs",
@@ -1701,10 +1702,11 @@
             "info": "Sleigh ride starts daily at 5:00 PM, 7:00 PM (Departure from Zakopane about 40 minutes earlier)",
             "table": {
                 "header1": "Ticket Type",
-                "header2": "From 01.12.2025 to the end of the winter season",
-                "header3": "From 26.12.2025 to 06.01.2026",
+                "header2": "From 01.12.2026 to the end of the winter season",
+                "header3": "From 26.12.2026 to 06.01.2027",
                 "3": "Adult ticket",
                 "4": "Reduced ticket (up to 10 years)",
+                "5": "Empty space",
                 "header4": "*Price includes:",
                 "list": {
                     "1": "round-trip transport (pick-up from accommodation in Zakopane and Kościelisko)",

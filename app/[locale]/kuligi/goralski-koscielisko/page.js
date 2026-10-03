@@ -45,11 +45,15 @@ export default function Koscielisko() {
     list: f.raw("list"),
   };
 
-  const tableHeaders = [t("table.header1"), t("table.header2")];
+  const tableHeaders = [
+    t("table.header1"),
+    t("table.header2"),
+    t("table.header3"),
+  ];
 
   const tableRows = [
-    [t("table.3"), "160 PLN*"],
-    [t("table.4"), "140 PLN*"],
+    [t("table.3"), "160 PLN*", "180 PLN*"],
+    [t("table.4"), "140 PLN*", "160 PLN*"],
   ];
 
   const customItems = [
@@ -112,7 +116,7 @@ export default function Koscielisko() {
 
           <Table headers={tableHeaders} rows={tableRows} />
 
-          <CheckList title={t("table.header3")} items={checkItems} />
+          <CheckList title={t("table.header4")} items={checkItems} />
           <div className="mt-10">
             <FAQSection faq={faqData} />
           </div>

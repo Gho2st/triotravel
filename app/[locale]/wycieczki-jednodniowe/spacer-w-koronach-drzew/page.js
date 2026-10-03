@@ -49,7 +49,7 @@ export default function Spacer() {
     "10:00 - " + t("tripprogram.2"),
     "10:30 - " + t("tripprogram.3"),
     "12:30 - " + t("tripprogram.4"),
-    "13:00 - " + t("tripprogram.5"),
+    // "13:00 - " + t("tripprogram.5"),
     "15:30 - " + t("tripprogram.6"),
     "16:00 - " + t("tripprogram.7"),
     "16:30 - " + t("tripprogram.8"),
@@ -58,8 +58,8 @@ export default function Spacer() {
   // Przykładowe dane dla tabeli
   const tableHeaders = [t("table.header1"), t("table.header2")];
   const tableRows = [
-    [t("table.1"), "90 PLN*"],
-    [t("table.2"), "80 PLN*"],
+    [t("table.1"), "100 PLN*"],
+    [t("table.2"), "90 PLN*"],
     ["", t("table.additional")],
     [t("table.1"), "30€"],
     [t("table.2"), "24€"],
@@ -69,7 +69,8 @@ export default function Spacer() {
       <Header text={t("header")} />
       <div className="flex md:w-3/4 mx-auto justify-center md:mt-16 h-[700px] ">
         <Image
-          src="/wycieczki/spacer-w-koronach-drzew/lato/korony.webp"
+          // lato to lato zima to zima
+          src="/wycieczki/spacer-w-koronach-drzew/zima/korony.webp"
           width={500}
           height={500}
           layout="responsive"
@@ -85,7 +86,7 @@ export default function Spacer() {
           })}
         </p>
         <SciezkaWBachledce t={t} />
-        <SzcybrskieJezioroSection t={t} />
+        {/* <SzcybrskieJezioroSection t={t} /> */}
         <Slovakia />
         <WhySpacer t={t} />
         <div className="mt-16">
@@ -98,7 +99,8 @@ export default function Spacer() {
         <div id="szczegoly-wycieczki" className="mt-16">
           <BackgroundList
             title={t("header3")}
-            items={Array.from({ length: 4 }, (_, i) =>
+            // w lecie length 4 bo jezioro
+            items={Array.from({ length: 2 }, (_, i) =>
               t.rich(`list.${i + 1}`, {
                 strong: (chunks) => <strong>{chunks}</strong>,
               }),
@@ -107,7 +109,7 @@ export default function Spacer() {
           <TripProgram
             title={t("tripprogram.header")}
             items={tripItems}
-            info={t("tripprogram.info")}
+            // info={t("tripprogram.info")}
           />
           <TripTime availableDays={["Wt", "Czw", "Sob"]} />
           <ButtonComponent />

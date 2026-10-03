@@ -1565,7 +1565,8 @@
                 "header2": "Desde 01.12.2025 hasta fin de temporada invernal",
                 "3": "Entrada normal",
                 "4": "Entrada reducida (hasta 10 años)",
-                "header3": "*El precio incluye:",
+                "header3": "Desde 26.12.2026 hasta 06.01.2027",
+                "header4": "*El precio incluye:",
                 "list": {
                     "1": "transporte ida y vuelta (recogida desde lugar de alojamiento en territorio de Zakopane y Kościelisko)",
                     "2": "paseo de una hora en trineos de 4, 8 y 10 personas",
@@ -1709,10 +1710,11 @@
             "info": "Inicio de paseo en trineo diariamente a las 17:00, 19:00 (Salida desde Zakopane aproximadamente 40 min antes)",
             "table": {
                 "header1": "Tipo de entrada",
-                "header2": "Desde 01.12.2025 hasta fin de temporada invernal",
-                "header3": "Desde 26.12.2025 hasta 06.01.2026",
+                "header2": "Desde 01.12.2026 hasta fin de temporada invernal",
+                "header3": "Desde 26.12.2026 hasta 06.01.2027",
                 "3": "Entrada normal",
                 "4": "Entrada reducida (hasta 10 años)",
+                "5": "Espacio vacío",
                 "header4": "*El precio incluye:",
                 "list": {
                     "1": "transporte ida y vuelta (recogida desde lugar de alojamiento en territorio de Zakopane y Kościelisko)",

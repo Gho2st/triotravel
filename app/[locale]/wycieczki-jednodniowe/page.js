@@ -38,7 +38,7 @@ export default function Atrakcje() {
     list: f.raw("list"),
   };
 
-  const isWinter = false;
+  const isWinter = true;
 
   // LATO - wszystkie wycieczki
   const standardArticles = [

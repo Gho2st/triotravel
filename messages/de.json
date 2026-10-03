@@ -1563,9 +1563,10 @@
             "table": {
                 "header1": "Ticketart",
                 "header2": "Ab 01.12.2025 bis Ende der Wintersaison",
+                "header3": "Ab 26.12.2026 bis 06.01.2027",
                 "3": "Normalticket",
                 "4": "Ermäßigt (bis 10 Jahre)",
-                "header3": "*Der Preis umfasst:",
+                "header4": "*Der Preis umfasst:",
                 "list": {
                     "1": "Hin- und Rücktransport (Abholung von der Unterkunft im Gebiet von Zakopane und Kościelisko)",
                     "2": "einstündige Fahrt mit 4-, 8- und 10-Personen-Schlitten",
@@ -1709,10 +1710,11 @@
             "info": "Start der Schlittenfahrt täglich um 17:00, 19:00 Uhr (Abfahrt ab Zakopane etwa 40 Minuten früher)",
             "table": {
                 "header1": "Ticketart",
-                "header2": "Ab 01.12.2025 bis Ende der Wintersaison",
-                "header3": "Ab 26.12.2025 bis 06.01.2026",
+                "header2": "Ab 01.12.2026 bis Ende der Wintersaison",
+                "header3": "Ab 26.12.2026 bis 06.01.2027",
                 "3": "Normalticket",
                 "4": "Ermäßigt (bis 10 Jahre)",
+                "5": "Leerer Platz",
                 "header4": "*Der Preis umfasst:",
                 "list": {
                     "1": "Hin- und Rücktransport (Abholung von der Unterkunft im Gebiet von Zakopane und Kościelisko)",

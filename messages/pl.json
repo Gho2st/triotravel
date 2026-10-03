@@ -1563,9 +1563,10 @@
             "table": {
                 "header1": "Rodzaj biletu",
                 "header2": "Od 01.12.2025 do końca sezonu zimowego",
+                "header3": "Od 26.12.2026 do 06.01.2027",
                 "3": "Bilet normalny",
                 "4": "Bilet ulgowy (do 10 lat)",
-                "header3": "*Cena obejmuje:",
+                "header4": "*Cena obejmuje:",
                 "list": {
                     "1": "transport w dwie strony (odbiór z miejsca zakwaterowania na terenie Zakopanego i Kościeliska)",
                     "2": "godzinną przejażdżkę w saniach 4, 8 i 10 osobowych",
@@ -1709,10 +1710,11 @@
             "info": "Start kuligu codziennie o  godz. 17:00, 19:00 (Wyjazd z Zakopanego około 40 min wcześniej)",
             "table": {
                 "header1": "Rodzaj biletu",
-                "header2": "Od 01.12.2025 do końca sezonu zimowego",
-                "header3": "Od 26.12.2025 do 06.01.2026",
+                "header2": "Od 01.12.2026 do końca sezonu zimowego",
+                "header3": "Od 26.12.2026 do 06.01.2027",
                 "3": "Bilet normalny",
                 "4": "Bilet ulgowy (do 10 lat)",
+                "5": "Puste miejsce",
                 "header4": "*Cena obejmuje:",
                 "list": {
                     "1": "transport w dwie strony (odbiór z miejsca zakwaterowania na terenie Zakopanego i Kościeliska)",

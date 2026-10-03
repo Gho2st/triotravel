@@ -1560,9 +1560,10 @@
             "table": {
                 "header1": "Jegy típusa",
                 "header2": "2025.12.01-től a téli szezon végéig",
+                "header3": "2026.12.26-tól 2027.01.06-ig",
                 "3": "Normál jegy",
                 "4": "Kedvezményes jegy (10 év alatti gyermekek)",
-                "header3": "*Az ár tartalmazza:",
+                "header4": "*Az ár tartalmazza:",
                 "list": {
                     "1": "oda-vissza szállítás (felvétel a szálláshelyről Zakopane és Kościelisko területén)",
                     "2": "egyórás szánutazás 4, 8 és 10 személyes szánokon",
@@ -1706,10 +1707,11 @@
             "info": "A szánkózás indulása naponta 17:00 és 19:00 órakor (Indulás Zakopanéból körülbelül 40 perccel korábban)",
             "table": {
                 "header1": "Jegy típusa",
-                "header2": "2025.12.01-től a téli szezon végéig",
-                "header3": "2025.12.26-tól 2026.01.06-ig",
+                "header2": "2026.12.01-től a téli szezon végéig",
+                "header3": "2026.12.26-tól 2027.01.06-ig",
                 "3": "Normál jegy",
                 "4": "Kedvezményes jegy (10 év alatti gyermekek)",
+                "5": "Üres hely",
                 "header4": "*Az ár tartalmazza:",
                 "list": {
                     "1": "oda-vissza szállítás (felvétel a szálláshelyről Zakopane és Kościelisko területén)",
