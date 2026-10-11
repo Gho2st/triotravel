@@ -15,7 +15,12 @@ export default function Hero() {
   const slides = useMemo(
     () => [
       {
-        background: "/wycieczki/spacer-w-koronach-drzew/zima/korony.webp",
+        background: "/kuligi/sylwestrowy2.webp",
+        translationKey: "headers.header13", // kuligi zimowe
+        link: "/kuligi",
+      },
+      {
+        background: "/wycieczki/spacer-w-koronach-drzew/lato/korony.webp",
         translationKey: "headers.header7", // "Spacer W Koronach Drzew"
         link: "/wycieczki-jednodniowe/spacer-w-koronach-drzew",
       },
@@ -28,12 +33,6 @@ export default function Hero() {
         background: "/wycieczki/splyw-dunajcem-zakopane/5.webp",
         translationKey: "headers.header1", // "Spływ Dunajcem?"
         link: "/wycieczki-jednodniowe/splyw-dunajcem-zakopane",
-      },
-
-      {
-        background: "/kuligi/sylwestrowy2.webp",
-        translationKey: "headers.header13", // kuligi zimowe
-        link: "/kuligi",
       },
 
       {
